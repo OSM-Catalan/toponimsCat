@@ -1,0 +1,3 @@
+*.tsv filter=lfs diff=lfs merge=lfs -text
+ppcc/calle-carrer/*/*.csv filter=lfs diff=lfs merge=lfs -text
+exotopònims/*/*.csv filter=lfs diff=lfs merge=lfs -text

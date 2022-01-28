@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""
+"name"	"alt_name"	"translations"	"ca.wikipedia_page"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"	"name:ca"	"alt_name:ca"
+"Calle de Culla"					"way"	"282960939"	""	"{'highway': 'residential', 'name': 'Calle de Culla', 'oneway': 'no'}"	"Carrer de Culla"	
+"Calle de Culla"					"way"	"583489829"	""	"{'highway': 'residential', 'name': 'Calle de Culla', 'oneway': 'no'}"	"Carrer de Culla"	
+"Calle de la Fuente"					"way"	"143749386"	""	"{'highway': 'pedestrian', 'lit': 'yes', 'name': 'Calle de la Fuente', 'surface': 'sett'}"	"Carrer de la Font"	
+"Calle de la Fuente"					"way"	"143749389"	""	"{'highway': 'living_street', 'lit': 'yes', 'name': 'Calle de la Fuente', 'oneway': 'no', 'surface': 'sett'}"	"Carrer de la Font"	
+"Calle de Peñagolosa"					"way"	"203808956"	""	"{'highway': 'residential', 'name': 'Calle de Peñagolosa', 'oneway': 'no'}"	"Carrer de Penyagolosa"	

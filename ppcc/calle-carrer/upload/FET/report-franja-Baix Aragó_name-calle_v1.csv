@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""
+"name"	"alt_name"	"translations"	"ca.wikipedia_page"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"	"name:ca"	"alt_name:ca"
+"Calle Barcelona"					"way"	"324352382"		"{'highway': 'residential', 'name': 'Calle Barcelona'}"	"Carrer Barcelona"	
+"Calle de la Fuente"					"way"	"875257324"		"{'highway': 'residential', 'name': 'Calle de la Fuente', 'tunnel': 'building_passage'}"	"Carrer de la Font"	
+"Calle de la Fuente"					"way"	"238329143"		"{'highway': 'residential', 'name': 'Calle de la Fuente'}"	"Carrer de la Font"	
+"Calle de la Fuente"					"way"	"875257325"		"{'highway': 'residential', 'name': 'Calle de la Fuente'}"	"Carrer de la Font"	
