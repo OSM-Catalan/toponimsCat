@@ -6,14 +6,11 @@
 "relation",2804757,"La Massana","La Massana",FALSE,"andorra",7,NA
 "relation",2804758,"Ordino","Ordino",FALSE,"andorra",7,NA
 "relation",2804759,"Sant Julià de Lòria","Sant Julià de Lòria",FALSE,"andorra",7,NA
-"relation",2766170,"Perpignan","Perpinyà",FALSE,"catNord",7,NA
-"relation",2767883,"Céret","Ceret",FALSE,"catNord",7,NA
-"relation",2767884,"Prades","Prada",FALSE,"catNord",7,NA
-"relation",13433224,"Alta Cerdanya","Alta Cerdanya",FALSE,"catNord",7,NA
-"relation",13433225,"Vallespir","Vallespir",FALSE,"catNord",7,NA
-"relation",13433226,"Conflent","Conflent",FALSE,"catNord",7,NA
-"relation",13433227,"Capcir","Capcir",FALSE,"catNord",7,NA
-"relation",13433228,"Rosselló","Rosselló",FALSE,"catNord",7,NA
+"relation",13433224,"Alta Cerdanya","Alta Cerdanya",FALSE,"catNord",NA,7
+"relation",13433225,"Vallespir","Vallespir",FALSE,"catNord",NA,7
+"relation",13433226,"Conflent","Conflent",FALSE,"catNord",NA,7
+"relation",13433227,"Capcir","Capcir",FALSE,"catNord",NA,7
+"relation",13433228,"Rosselló","Rosselló",FALSE,"catNord",NA,7
 "relation",6630537,"Matarraña / Matarranya","Matarranya",FALSE,"franja",7,NA
 "relation",6488309,"La Ribagorza","Ribagorça",TRUE,"franja",7,NA
 "relation",6488338,"La Litera / La Llitera","La Llitera",TRUE,"franja",7,NA
@@ -91,10 +88,10 @@
 "relation",1692445,"la Marina Baixa","la Marina Baixa",FALSE,"pv",7,NA
 "relation",5813174,"Comarca de València","Comarca de València",FALSE,"pv",7,NA
 "relation",1110951,"els Ports","els Ports",TRUE,"pv",7,NA
-"relation",1691746,"el Camp de Túria","el Camp de Túria",TRUE,"pv",NA,7
-"relation",1691755,"la Ribera Alta","la Ribera Alta",TRUE,"pv",NA,7
-"relation",1692439,"l'Alt Vinalopó / El Alto Vinalopó","l'Alt Vinalopó",TRUE,"pv",NA,7
-"relation",1692446,"el Vinalopó Mitjà / El Vinalopó Medio","el Vinalopó Mitjà",TRUE,"pv",NA,7
-"relation",1692447,"el Baix Segura / La Vega Baja del Segura","el Baix Segura",TRUE,"pv",NA,7
+"relation",1691746,"el Camp de Túria","el Camp de Túria",TRUE,"pv",7,NA
+"relation",1691755,"la Ribera Alta","la Ribera Alta",TRUE,"pv",7,NA
+"relation",1692439,"l'Alt Vinalopó / El Alto Vinalopó","l'Alt Vinalopó",TRUE,"pv",7,NA
+"relation",1692446,"el Vinalopó Mitjà / El Vinalopó Medio","el Vinalopó Mitjà",TRUE,"pv",7,NA
+"relation",1692447,"el Baix Segura / La Vega Baja del Segura","el Baix Segura",TRUE,"pv",7,NA
 "relation",11755232,"El Carche","el Carxe",FALSE,NA,NA,NA
 "relation",40581,"Alghero - L'Alguer","L'Alguer",FALSE,NA,8,NA
