@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""
+"name"	"alt_name"	"translations"	"ca.wikipedia_page"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"	"name:ca"	"alt_name:ca"
+"Calle Cáceres"	""				"way"	" 95294110"	""	"{'highway': 'residential', 'name': 'Calle Cáceres', 'source': 'Yahoo'}"	"Carrer Càceres"	
+"Calle Morera"	""				"way"	" 68323929"	""	"{'highway': 'residential', 'name': 'Calle Morera', 'source': 'Yahoo'}"	"Carrer Morera"	
+"Calle Morera"	""				"way"	"179943165"	""	"{'access': 'yes', 'bicycle': 'yes', 'cycleway': 'no', 'foot': 'yes', 'highway': 'residential', 'lanes': '2', 'maxspeed': '30', 'motor_vehicle': 'yes', 'name': 'Calle Morera', 'oneway': 'no', 'source': 'official local printed map', 'surface': 'asphalt'}"	"Carrer Morera"	
