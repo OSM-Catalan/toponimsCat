@@ -336,7 +336,6 @@
 "way"	"665557092"	"Calle de l'Horta"	""	""	""	""	""	""	""	"{'highway': 'residential', 'lanes': '1', 'name': ""Calle de l'Horta"", 'oneway': 'yes', 'surface': 'asphalt'}"
 "way"	"665557093"	"Calle de la Albufera"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle de la Albufera', 'oneway': 'no', 'surface': 'asphalt'}"
 "way"	"23375947"	"Calle de la Acequia de Favara"	""	""	""	""	""	""	""	"{'cycleway:left': 'no', 'cycleway:right': 'no', 'highway': 'tertiary', 'lane_markings': 'no', 'lit': 'yes', 'name': 'Calle de la Acequia de Favara', 'oneway': 'no', 'sidewalk': 'left', 'sidewalk:left:bicycle': 'yes', 'surface': 'asphalt'}"
-"way"	"42020805"	"Calle del Molino"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle del Molino', 'sidewalk': 'both', 'surface': 'paving_stones'}"
 "way"	"42021458"	"Calle Horta"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle Horta', 'sidewalk': 'both', 'surface': 'asphalt'}"
 "way"	"42021459"	"Calle Maestra Juana Sena"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle Maestra Juana Sena', 'sidewalk': 'both', 'surface': 'asphalt'}"
 "way"	"42021462"	"Calle de Ausias March"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle de Ausias March', 'oneway': 'yes', 'sidewalk': 'both', 'surface': 'asphalt'}"

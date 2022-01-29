@@ -16,8 +16,6 @@
 "way"	"417316265"	"Calle Subida"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle Subida'}"
 "way"	"77445005"	"Calle Museros"	""	""	""	""	""	""	""	"{'highway': 'steps', 'name': 'Calle Museros'}"
 "way"	"112310964"	"Calle Subida a la Ermita"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle Subida a la Ermita', 'oneway': 'no'}"
-"way"	"112310976"	"Calle Nueva"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle Nueva', 'oneway': 'yes'}"
-"way"	"974106192"	"Calle Nueva"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle Nueva', 'oneway': 'yes'}"
 "way"	"311094595"	"Calle de San Luis"	""	""	""	""	""	""	""	"{'access': 'destination', 'highway': 'living_street', 'name': 'Calle de San Luis', 'oneway': 'no'}"
 "way"	"163691332"	"Calle del Puente de Romà"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle del Puente de Romà', 'oneway': 'yes'}"
 "way"	"311094609"	"Calle del Huerto Cerrado"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle del Huerto Cerrado', 'oneway': 'yes'}"

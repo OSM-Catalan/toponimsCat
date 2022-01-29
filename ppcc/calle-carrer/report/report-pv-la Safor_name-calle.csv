@@ -124,7 +124,6 @@
 "way"	"44138060"	"Calle de los Oliveretes"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle de los Oliveretes', 'oneway': 'no', 'source': 'Yahoo'}"
 "way"	"44138084"	"Calle Plaça del Nou d'Octubre"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': ""Calle Plaça del Nou d'Octubre"", 'source': 'Yahoo'}"
 "way"	"437052706"	"Calle de los Oliveretes"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle de los Oliveretes', 'oneway': 'yes', 'source': 'Yahoo'}"
-"way"	"160690802"	"Calle Nueva"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle Nueva', 'source': 'bing'}"
 "way"	"224637474"	"Calle Cristo Rey"	""	""	""	""	""	""	""	"{'highway': 'pedestrian', 'name': 'Calle Cristo Rey'}"
 "way"	"692469590"	"Calle del Frío"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle del Frío', 'oneway': 'yes'}"
 "way"	"692469591"	"Calle del Frío"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle del Frío'}"

@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""
+"name"	"alt_name"	"translations"	"ca.wikipedia_page"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"	"name:ca"	"alt_name:ca"
+"Calle Arrabal"	""				"way"	"401083631"	""	"{'highway': 'residential', 'name': 'Calle Arrabal'}"	"Carrer Arrabal"	""
+"Calle Arrabal"	""				"way"	"821139815"	""	"{'highway': 'residential', 'name': 'Calle Arrabal'}"	"Carrer Arrabal"	""
+"Calle dos de Mayo"	""				"way"	"778485964"	""	"{'highway': 'service', 'name': 'Calle dos de Mayo', 'service': 'alley'}"	"Carrer dos de Maig"	""
+"Calle dos de Mayo"	""				"way"	"778737828"	""	"{'highway': 'service', 'layer': '-1', 'name': 'Calle dos de Mayo', 'service': 'alley', 'tunnel': 'yes'}"	"Carrer dos de Maig"	""
+"Calle dos de Mayo"	""				"way"	"778737827"	""	"{'highway': 'service', 'name': 'Calle dos de Mayo', 'service': 'alley'}"	"Carrer dos de Maig"	""
+"Calle Eras"	""				"way"	"821139820"	""	"{'highway': 'residential', 'name': 'Calle Eras'}"	"Carrer Eras"	""
