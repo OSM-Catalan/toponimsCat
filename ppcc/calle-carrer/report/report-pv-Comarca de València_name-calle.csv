@@ -17,8 +17,6 @@
 "way"	"37032676"	"Calle José Bosch Herrero"	""	""	""	""	""	""	""	"{'highway': 'footway', 'lit': 'no', 'name': 'Calle José Bosch Herrero', 'surface': 'gravel'}"
 "way"	"187060173"	"Calle Carmen Tronchoni"	""	""	""	""	""	""	""	"{'highway': 'footway', 'name': 'Calle Carmen Tronchoni'}"
 "way"	"648541884"	"Calle Guillem de Castro"	""	""	""	""	""	""	""	"{'bicycle': 'no', 'footway': 'sidewalk', 'highway': 'footway', 'horse': 'no', 'lit': 'yes', 'name': 'Calle Guillem de Castro', 'surface': 'paving_stones'}"
-"way"	"648541863"	"Calle Játiva"	""	""	""	""	""	""	""	"{'footway': 'sidewalk', 'highway': 'footway', 'name': 'Calle Játiva', 'surface': 'asphalt'}"
-"way"	"648541864"	"Calle Játiva"	""	""	""	""	""	""	""	"{'crossing': 'marked', 'footway': 'crossing', 'highway': 'footway', 'name': 'Calle Játiva', 'surface': 'asphalt'}"
 "way"	"754404938"	"Calle Guillem de Castro"	""	""	""	""	""	""	""	"{'bicycle': 'no', 'footway': 'sidewalk', 'highway': 'footway', 'horse': 'no', 'lit': 'yes', 'name': 'Calle Guillem de Castro', 'surface': 'paving_stones'}"
 "way"	"13859577"	"Calle de González Martí"	""	""	""	""	""	""	""	"{'highway': 'footway', 'layer': '-1', 'name': 'Calle de González Martí', 'tunnel': 'yes'}"
 "way"	"498942748"	"Calle Pérez Escrich"	""	""	""	""	""	""	"name:es=Calle Pérez Escrich"	"{'highway': 'service', 'name': 'Calle Pérez Escrich', 'name:es': 'Calle Pérez Escrich', 'service': 'driveway'}"
