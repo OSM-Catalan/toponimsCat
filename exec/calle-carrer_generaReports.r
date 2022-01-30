@@ -172,7 +172,12 @@ for (i in seq_along(reports)){
     dFormated<- rbind(c("# EDITED with R", rep("", times=ncol(dTrans) - 1)), names(dTrans))
     dFormated<- rbind(dFormated, as.matrix(dTrans), deparse.level=0)
     write.table(dFormated, paste0(path, fileName), sep="\t", col.names=FALSE, row.names=FALSE, na="")
-    cat('update_osm_objects_from_report --username ', usuari, ' --batch 100 -v --confirmed-edits --confirm-overwrites --input-file "upload/', fileName, '" name:ca\n', sep="")
+    cat('update_osm_objects_from_report --username ', usuari, ' --batch 100 -v --confirmed-edits --confirm-overwrites --input-file "upload/', fileName, '" name:ca', sep="")
+    if (!all(is.na(dTrans$`alt_name:ca`))){
+      cat(" alt_name:ca\n")
+    } else {
+      cat("\n")
+    }
   }
 }
 sink()
