@@ -590,6 +590,7 @@
 "way"	"441934705"	"Calle del Molino"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle del Molino', 'oneway': 'yes'}"
 "way"	"441934706"	"Calle del Molino"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle del Molino', 'oneway': 'no'}"
 "way"	"441934707"	"Calle del Molino"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle del Molino', 'oneway': 'no'}"
+"way"	"146793205"	"Calle del Rosal"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle del Rosal', 'oneway': 'no'}"
 "way"	"28561894"	"Calle Don Herminio Salvador Meliá"	""	""	""	""	""	""	""	"{'highway': 'residential', 'lane_markings': 'no', 'lit': 'yes', 'name': 'Calle Don Herminio Salvador Meliá', 'sidewalk': 'both', 'surface': 'sett'}"
 "way"	"31307338"	"Calle Nuestra Señora del Rosario"	""	""	""	""	""	""	""	"{'highway': 'residential', 'lane_markings': 'no', 'lit': 'yes', 'name': 'Calle Nuestra Señora del Rosario', 'sidewalk': 'both', 'surface': 'sett'}"
 "way"	"146793159"	"Calle Juan José"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle Juan José', 'oneway': 'no'}"

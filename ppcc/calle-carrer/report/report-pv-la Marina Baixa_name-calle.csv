@@ -6,6 +6,7 @@
 "way"	"656709171"	"Calle Murtal"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle Murtal', 'surface': 'asphalt'}"
 "way"	"951417767"	"Calle Murtal"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle Murtal', 'oneway': 'yes', 'surface': 'asphalt'}"
 "way"	"80873943"	"Calle del Gorrión"	""	""	""	""	""	""	""	"{'highway': 'pedestrian', 'name': 'Calle del Gorrión'}"
+"way"	"21233721"	"Calle del Rosal"	""	""	""	""	""	""	""	"{'highway': 'residential', 'lit': 'yes', 'name': 'Calle del Rosal', 'oneway': 'yes', 'surface': 'asphalt'}"
 "way"	"83174481"	"Calle Amanecer"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle Amanecer', 'oneway': 'yes'}"
 "way"	"89767298"	"Calle de las Amapolas"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle de las Amapolas'}"
 "way"	"21233722"	"Calle de los Tulipanes"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle de los Tulipanes', 'oneway': 'yes'}"
