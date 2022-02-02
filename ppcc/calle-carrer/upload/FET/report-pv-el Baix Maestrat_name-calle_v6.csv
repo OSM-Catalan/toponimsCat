@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""
+"name"	"alt_name"	"translations"	"ca.wikipedia_page"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"	"name:ca"	"alt_name:ca"
+"Calle Colón"					"way"	" 60695504"		"{'highway': 'tertiary', 'name': 'Calle Colón', 'oneway': 'no', 'ref': 'CV-1422'}"	"Carrer Colom"	
+"Calle Colón"					"way"	"699578158"		"{'highway': 'residential', 'name': 'Calle Colón', 'oneway': 'no', 'ref': 'CV-1422'}"	"Carrer Colom"	
+"Calle del Horno"					"way"	"205130265"		"{'highway': 'steps', 'name': 'Calle del Horno', 'source': 'PNOA;Catastro'}"	"Carrer del Forn"	
