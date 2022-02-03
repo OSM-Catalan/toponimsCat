@@ -265,7 +265,6 @@
 "way"	"219270817"	"Calle de los Lidoneros"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle de los Lidoneros', 'oneway': 'no'}"
 "way"	"219270818"	"Calle de los Olivos"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle de los Olivos', 'oneway': 'no'}"
 "way"	"219270819"	"Calle de los Pinos"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle de los Pinos', 'oneway': 'no'}"
-"way"	"219270820"	"Calle de los Naranjos"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle de los Naranjos', 'oneway': 'no'}"
 "way"	"303355531"	"Calle Seca"	""	""	""	""	""	""	""	"{'highway': 'living_street', 'name': 'Calle Seca', 'oneway': 'no'}"
 "way"	"303355548"	"Calle de la Acequia"	""	""	""	""	""	""	""	"{'highway': 'living_street', 'name': 'Calle de la Acequia', 'oneway': 'no'}"
 "way"	"303355551"	"Calle de las Cruces"	""	""	""	""	""	""	""	"{'highway': 'pedestrian', 'name': 'Calle de las Cruces'}"

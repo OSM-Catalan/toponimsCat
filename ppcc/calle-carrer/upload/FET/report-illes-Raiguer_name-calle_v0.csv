@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""
+"name"	"alt_name"	"translations"	"ca.wikipedia_page"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"	"name:ca"	"alt_name:ca"
+"Calle de Can Vauma"					"way"	"242251281"		"{'bridge': 'yes', 'highway': 'residential', 'layer': '1', 'name': 'Calle de Can Vauma'}"	"Carrer de Can Vauma"	
+"Calle de la Talonera"					"way"	" 97550863"		"{'highway': 'residential', 'name': 'Calle de la Talonera', 'source': 'ideib WMS'}"	"Carrer de la Talonera"	
+"Calle de Miquel dels Sants Oliver"					"way"	"110861812"		"{'highway': 'residential', 'name': 'Calle de Miquel dels Sants Oliver'}"	"Carrer de Miquel dels Sants Oliver"	
+"Calle de Trévol"					"way"	"145168184"		"{'highway': 'residential', 'name': 'Calle de Trévol', 'source': 'ideib WMS'}"	"Carrer del Trèvol"	
+"Calle Varet"					"way"	" 86257389"		"{'highway': 'residential', 'lit': 'yes', 'name': 'Calle Varet', 'oneway': 'yes', 'source': 'ideandalucia.es 2008', 'surface': 'asphalt'}"	"Carrer Varet"	
