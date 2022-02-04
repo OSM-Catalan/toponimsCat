@@ -2,8 +2,8 @@ comarques<- read.csv("ppcc/comarques.csv", check.names=FALSE)
 
 ## Crea ordres per generar reports ----
 ometComarques0casos<- TRUE
-actualitzaFitxers<- FALSE
-filtre<- "nwr[name~'^Calle'][!'name:ca']"
+actualitzaFitxers<- FALSE # actualitzaFitxers<- TRUE
+filtre<- "nwr[name~'^[Cc]alle'][!'name:ca']"
 outFile<- "ppcc/calle-carrer/commands-report-comarques.txt"
 
 dir.create("ppcc/calle-carrer/OLD/", showWarnings=FALSE)
@@ -120,18 +120,18 @@ reviewsFETS<- lapply(reviewFiles, function(x){
 })
 names(reviewsFETS)<- gsub("ppcc/calle-carrer/review/FET/", "", reviewFiles)
 review.casosFETS<- unique(do.call(rbind, reviewsFETS))
-review.casosCOMPLETATS<- review.casosFETS[!review.casosFETS$`name:ca` %in% c(NA, ""), ]
-review.casosDESCARTATS<- review.casosFETS[review.casosFETS$`name:ca` %in% c(NA, ""), ]
+# review.casosCOMPLETATS<- review.casosFETS[!review.casosFETS$`name:ca` %in% c(NA, ""), ]
+# review.casosDESCARTATS<- review.casosFETS[review.casosFETS$`name:ca` %in% c(NA, ""), ]
 
 path<- "ppcc/calle-carrer/review/"
 for (i in seq_along(reports)){
   fileName<- gsub("^ppcc/calle-carrer/report/report", "review", reports[i])
   d<- read.delim(reports[i], skip=1, check.names=FALSE)
   d<- unique(d[, c("name", "name:ca", "alt_name:ca", "alt_name", "translations", "ca.wikipedia_page", "wikidata_id")])
-  d$`name:ca`<- ifelse(is.na(d$`name:ca`), gsub("[Cc]alle ", "Carrer ", d$name), d$`name:ca`)
-  d$`alt_name:ca`<- ifelse(is.na(d$`alt_name:ca`), gsub("[Cc]alle ", "Carrer ", d$alt_name), d$`alt_name:ca`)
+  d$`name:ca`<- ifelse(is.na(d$`name:ca`), gsub("([Cc])alle ", "\\1arrer ", d$name), d$`name:ca`)
+  d$`alt_name:ca`<- ifelse(is.na(d$`alt_name:ca`), gsub("[Cc]alle ", "\\1arrer ", d$alt_name), d$`alt_name:ca`)
 
-  d<- d[!grepl("Maestro|Médico|Profesor|Padre|Virgen|Señora|San ", d$`name:ca`), ] # descarta carrers amb nom en castellà
+  # d<- d[!grepl("Maestro|Médico|Profesor|Padre|Virgen|Señora|San ", d$`name:ca`), ] # descarta carrers amb nom en castellà
   ### TODO: reutilitza els reviews fets ----
   # Descarta casos ja revisats sense name:ca
   # setdiff(d[, c("name", "alt_name", "wikidata_id")], review.casosDESCARTATS)
@@ -150,6 +150,7 @@ for (i in seq_along(reports)){
 ## Fusiona reviews fets amb tots els reports que contenen objectes amb etiquetes iguals ----
 usuari<- "jmaspons" # Modifiqueu-ho amb el vostre nom d'usuari a OSM
 path<- "ppcc/calle-carrer/upload/"
+reports<- dir("ppcc/calle-carrer/report", "\\.csv$", full.names=TRUE, include.dirs=FALSE)
 reviewFiles<- dir("ppcc/calle-carrer/review/FET", "_name-calle\\.csv$", full.names=TRUE, include.dirs=FALSE)
 # reviewFiles<- reviewFiles[1] # SELECCIONA COMARCA (pendent de processar)
 
@@ -159,8 +160,27 @@ reviewsFETS<- lapply(reviewFiles, function(x){
   read.delim(x, sep="\t", check.names=FALSE)
 })
 names(reviewsFETS)<- gsub("ppcc/calle-carrer/review/FET/", "", reviewFiles)
-review.casosFETS<- unique(do.call(rbind, reviewsFETS))
+review.casosFETS<- do.call(rbind, reviewsFETS)
 review.casosFETS<- review.casosFETS[!review.casosFETS$`name:ca` %in% c(NA, ""), ]
+row.names(review.casosFETS)<- NULL
+
+## Agafa tots els casos revisats i genera versions amb "Carrer" i "carrer"
+review.casosFETS_min<- apply(review.casosFETS[, c("name", "name:ca", "alt_name", "alt_name:ca")], 1, function(x){
+  x<- gsub("^C", "c", x)
+})
+review.casosFETS[, c("name", "name:ca", "alt_name", "alt_name:ca")]<- as.data.frame(t(review.casosFETS_min))
+review.casosFETS_min<- review.casosFETS<- unique(review.casosFETS)
+
+review.casosFETS_maj<- apply(review.casosFETS[, c("name", "name:ca", "alt_name", "alt_name:ca")], 1, function(x){
+  x<- gsub("^c", "C", x)
+})
+review.casosFETS[, c("name", "name:ca", "alt_name", "alt_name:ca")]<- as.data.frame(t(review.casosFETS_maj))
+review.casosFETS_maj<- review.casosFETS
+review.casosFETS<- rbind(review.casosFETS_min, review.casosFETS_maj)
+
+
+if (any(duplicated(review.casosFETS[, c("name", "alt_name", "translations", "ca.wikipedia_page", "wikidata_id")])))
+  stop("Hi ha discrepàncies entre reviews")
 
 sink(file="ppcc/calle-carrer/commands-upload.txt")
 for (i in seq_along(reports)){
@@ -201,3 +221,6 @@ while (any(file.exists(arxivats))){
   i<- i + 1
 }
 file.rename(fets, arxivats)
+
+# Reports pendents de revisar que estàn desactualitzats:
+gsub("ppcc/calle-carrer/upload/report-|_name-calle.csv", "", fets)[!fets %in% gsub("review/FET/review-", "upload/report-", dir("ppcc/calle-carrer/review/FET", full.names=TRUE))]
