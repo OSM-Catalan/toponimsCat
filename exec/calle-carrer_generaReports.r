@@ -130,7 +130,7 @@ for (i in seq_along(reports)){
   d<- read.delim(reports[i], skip=1, check.names=FALSE)
   d<- unique(d[, c("name", "name:ca", "alt_name:ca", "alt_name", "translations", "ca.wikipedia_page", "wikidata_id")])
   d$`name:ca`<- ifelse(is.na(d$`name:ca`), gsub("([Cc])alle ", "\\1arrer ", d$name), d$`name:ca`)
-  d$`alt_name:ca`<- ifelse(is.na(d$`alt_name:ca`), gsub("[Cc]alle ", "\\1arrer ", d$alt_name), d$`alt_name:ca`)
+  d$`alt_name:ca`<- ifelse(is.na(d$`alt_name:ca`), gsub("([Cc])alle ", "\\1arrer ", d$alt_name), d$`alt_name:ca`)
 
   # d<- d[!grepl("Maestro|Médico|Profesor|Padre|Virgen|Señora|San ", d$`name:ca`), ] # descarta carrers amb nom en castellà
   ### TODO: reutilitza els reviews fets ----
