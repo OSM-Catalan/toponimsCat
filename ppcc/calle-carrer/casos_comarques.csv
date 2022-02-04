@@ -14,15 +14,15 @@
 "relation",6630537,"Matarraña / Matarranya","Matarranya",FALSE,"franja",7,NA,87,63,TRUE
 "relation",6488309,"La Ribagorza","Ribagorça",TRUE,"franja",7,NA,45,30,TRUE
 "relation",6488338,"La Litera / La Llitera","La Llitera",TRUE,"franja",7,NA,42,31,TRUE
-"relation",6488361,"Bajo Cinca / Baix Cinca","Baix Cinca",TRUE,"franja",7,NA,93,54,TRUE
+"relation",6488361,"Bajo Cinca / Baix Cinca","Baix Cinca",TRUE,"franja",7,NA,94,55,TRUE
 "relation",6630546,"Bajo Aragón","Baix Aragó",TRUE,"franja",7,NA,57,38,TRUE
 "relation",10601144,"Bajo Aragón-Caspe / Baix Aragó-Casp","Baix Aragó-Casp",TRUE,"franja",7,NA,36,28,TRUE
 "relation",2174950,"Migjorn","Migjorn",FALSE,"illes",7,NA,0,0,TRUE
 "relation",2174951,"Palma","Palma",FALSE,"illes",7,NA,0,0,TRUE
 "relation",2175689,"Raiguer","Raiguer",FALSE,"illes",7,NA,0,0,TRUE
-"relation",2175756,"Serra de Tramuntana","Serra de Tramuntana",FALSE,"illes",7,NA,4,3,TRUE
+"relation",2175756,"Serra de Tramuntana","Serra de Tramuntana",FALSE,"illes",7,NA,10,9,TRUE
 "relation",2175937,"Pla de Mallorca","Pla de Mallorca",FALSE,"illes",7,NA,0,0,TRUE
-"relation",2176079,"Llevant","Llevant",FALSE,"illes",7,NA,0,0,TRUE
+"relation",2176079,"Llevant","Llevant",FALSE,"illes",7,NA,1,1,TRUE
 "relation",2181664,"Eivissa","Eivissa",FALSE,"illes",7,NA,6,6,TRUE
 "relation",2182003,"Menorca","Menorca",FALSE,"illes",7,NA,0,0,TRUE
 "relation",6914328,"Formentera","Formentera",FALSE,"illes",7,NA,0,0,FALSE
@@ -67,31 +67,31 @@
 "relation",2829952,"Ribera d'Ebre","Ribera d'Ebre",FALSE,"principat",7,NA,0,0,FALSE
 "relation",2829953,"Terra Alta","Terra Alta",FALSE,"principat",7,NA,0,0,FALSE
 "relation",4791885,"Moianès","Moianès",FALSE,"principat",7,NA,0,0,FALSE
-"relation",1111146,"l'Alcalatén","l'Alcalatén",FALSE,"pv",7,NA,134,59,TRUE
+"relation",1111146,"l'Alcalatén","l'Alcalatén",FALSE,"pv",7,NA,125,56,TRUE
 "relation",1690971,"l'Alt Maestrat","l'Alt Maestrat",FALSE,"pv",7,NA,37,22,TRUE
 "relation",1690974,"el Baix Maestrat","el Baix Maestrat",FALSE,"pv",7,NA,44,36,TRUE
-"relation",1690975,"la Plana Alta","la Plana Alta",FALSE,"pv",7,NA,713,358,TRUE
-"relation",1690976,"la Plana Baixa","la Plana Baixa",FALSE,"pv",7,NA,524,329,TRUE
-"relation",1691745,"el Camp de Morvedre","el Camp de Morvedre",FALSE,"pv",7,NA,43,31,TRUE
-"relation",1691749,"l'Horta Nord","l'Horta Nord",FALSE,"pv",7,NA,320,182,FALSE
-"relation",1691750,"l'Horta Oest","l'Horta Oest",FALSE,"pv",7,NA,978,598,FALSE
+"relation",1690975,"la Plana Alta","la Plana Alta",FALSE,"pv",7,NA,715,360,TRUE
+"relation",1690976,"la Plana Baixa","la Plana Baixa",FALSE,"pv",7,NA,526,330,TRUE
+"relation",1691745,"el Camp de Morvedre","el Camp de Morvedre",FALSE,"pv",7,NA,45,32,TRUE
+"relation",1691749,"l'Horta Nord","l'Horta Nord",FALSE,"pv",7,NA,319,181,FALSE
+"relation",1691750,"l'Horta Oest","l'Horta Oest",FALSE,"pv",7,NA,979,599,FALSE
 "relation",1691751,"l'Horta Sud","l'Horta Sud",FALSE,"pv",7,NA,536,326,FALSE
 "relation",1691752,"la Costera","la Costera",FALSE,"pv",7,NA,24,15,TRUE
 "relation",1691756,"la Ribera Baixa","la Ribera Baixa",FALSE,"pv",7,NA,8,5,TRUE
 "relation",1691758,"la Safor","la Safor",FALSE,"pv",7,NA,55,40,TRUE
 "relation",1691760,"la Vall d'Albaida","la Vall d'Albaida",FALSE,"pv",7,NA,114,65,FALSE
-"relation",1692438,"l'Alacantí","l'Alacantí",FALSE,"pv",7,NA,186,116,TRUE
-"relation",1692440,"el Baix Vinalopó","el Baix Vinalopó",FALSE,"pv",7,NA,563,344,FALSE
-"relation",1692441,"el Comtat","el Comtat",FALSE,"pv",7,NA,31,25,TRUE
-"relation",1692442,"l'Alcoià","l'Alcoià",FALSE,"pv",7,NA,104,78,TRUE
-"relation",1692443,"la Marina Alta","la Marina Alta",FALSE,"pv",7,NA,1030,780,FALSE
-"relation",1692445,"la Marina Baixa","la Marina Baixa",FALSE,"pv",7,NA,52,40,TRUE
+"relation",1692438,"l'Alacantí","l'Alacantí",FALSE,"pv",7,NA,2724,1621,TRUE
+"relation",1692440,"el Baix Vinalopó","el Baix Vinalopó",FALSE,"pv",7,NA,762,472,FALSE
+"relation",1692441,"el Comtat","el Comtat",FALSE,"pv",7,NA,25,21,TRUE
+"relation",1692442,"l'Alcoià","l'Alcoià",FALSE,"pv",7,NA,113,85,TRUE
+"relation",1692443,"la Marina Alta","la Marina Alta",FALSE,"pv",7,NA,1050,791,FALSE
+"relation",1692445,"la Marina Baixa","la Marina Baixa",FALSE,"pv",7,NA,75,61,TRUE
 "relation",5813174,"Comarca de València","Comarca de València",FALSE,"pv",7,NA,55,33,FALSE
 "relation",1110951,"els Ports","els Ports",TRUE,"pv",7,NA,14,12,TRUE
-"relation",1691746,"el Camp de Túria","el Camp de Túria",TRUE,"pv",7,NA,643,472,FALSE
+"relation",1691746,"el Camp de Túria","el Camp de Túria",TRUE,"pv",7,NA,651,479,FALSE
 "relation",1691755,"la Ribera Alta","la Ribera Alta",TRUE,"pv",7,NA,577,423,FALSE
 "relation",1692439,"l'Alt Vinalopó / El Alto Vinalopó","l'Alt Vinalopó",TRUE,"pv",7,NA,53,40,FALSE
-"relation",1692446,"el Vinalopó Mitjà / El Vinalopó Medio","el Vinalopó Mitjà",TRUE,"pv",7,NA,316,236,FALSE
+"relation",1692446,"el Vinalopó Mitjà / El Vinalopó Medio","el Vinalopó Mitjà",TRUE,"pv",7,NA,504,390,FALSE
 "relation",1692447,"el Baix Segura / La Vega Baja del Segura","el Baix Segura",TRUE,"pv",7,NA,0,0,TRUE
 "relation",11755232,"El Carche","el Carxe",FALSE,NA,NA,NA,4,4,TRUE
 "relation",40581,"Alghero - L'Alguer","L'Alguer",FALSE,NA,8,NA,0,0,FALSE
