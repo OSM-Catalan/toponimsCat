@@ -107,7 +107,7 @@ comarques<- read.csv(file="ppcc/calle-carrer/casos_comarques.csv", check.names=F
 comarques<- comarques[!comarques$nObjects %in% c(NA, 0), ] # Selecciona comarques amb casos pendents
 comarques[order(comarques$nCasos, decreasing=TRUE), ]
 
-## selecciona fitxers de les comarques seleccionades
+## selecciona fitxers de les comarques
 reports<- dir("ppcc/calle-carrer/report", "\\.csv$", full.names=TRUE, include.dirs=FALSE)
 selReports<- grep(paste(comarques$`name:ca`, collapse="|"), gsub("\\", "", reports, fixed=TRUE))
 reports<- reports[selReports]
@@ -124,6 +124,7 @@ review.casosFETS<- unique(do.call(rbind, reviewsFETS))
 # review.casosDESCARTATS<- review.casosFETS[review.casosFETS$`name:ca` %in% c(NA, ""), ]
 
 path<- "ppcc/calle-carrer/review/"
+dL<- list()
 for (i in seq_along(reports)){
   fileName<- gsub("^ppcc/calle-carrer/report/report", "review", reports[i])
   d<- read.delim(reports[i], skip=1, check.names=FALSE)
@@ -138,9 +139,12 @@ for (i in seq_along(reports)){
   # Casos completats, ja pujats a OSM
   if (nrow(d) > 0){
     write.table(d, paste0(path, fileName), sep="\t", col.names=TRUE, row.names=FALSE, na="")
+    dL[[gsub("review-|_name-calle.csv", "", fileName)]]<- d
   }
 }
 
+review.TOTS<- unique(do.call(rbind, dL))
+write.table(review.TOTS, paste0(path, "review-0-ppcc_UNIFICAT_name-calle.csv"), sep="\t", col.names=TRUE, row.names=FALSE, na="")
 
 # GOTO: reviseu i modifiqueu el review de la comarca que vulgueu de ppcc/calle-carrer/review/
 # Els casos de name:ca incorrectes cal esborrar-los i deixar-los en blanc
