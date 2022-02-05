@@ -9,7 +9,6 @@
 "way"	"449696058"	"Calle San Ramón"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle San Ramón', 'surface': 'asphalt'}"
 "way"	"449696062"	"Calle San Blas"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle San Blas'}"
 "way"	"235207073"	"Calle San Roque"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle San Roque'}"
-"way"	"256698616"	"Calle La Fuente"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle La Fuente'}"
 "way"	"235205243"	"Calle Garrodilla"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle Garrodilla'}"
 "way"	"235205244"	"Calle La Pilas"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle La Pilas'}"
 "way"	"235207083"	"Calle Obago"	""	""	""	""	""	""	""	"{'highway': 'living_street', 'name': 'Calle Obago'}"
@@ -41,4 +40,3 @@
 "way"	"256698609"	"Calle Abajo"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle Abajo'}"
 "way"	"308693345"	"Calle Abajo"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle Abajo'}"
 "way"	"216215781"	"Calle La Balsa"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle La Balsa'}"
-"way"	"216215782"	"Calle La Fuente"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle La Fuente'}"
