@@ -1,0 +1,15 @@
+Type: Package
+Package: toponimsCat
+Title: Eines per ajudar a afegir l'etiqueta "name:ca" a OpenStreetMap
+Version: 0.1
+Authors@R: 
+    person("Joan", "Maspons", role=c("aut", "cre"), email="joanmaspons@gmail.com")
+Maintainer: Joan Maspons <joanmaspons@gmail.com>
+Description: Genera ordres per crear informes d'objectes d'OpenStreetMap
+    amb LangToolsOSM a partir de filtres i àrees determinades, crea fitxers
+    per revisar les modificacions i pujar els canvis.
+License: ODbl GPL?
+Imports: 
+    data.table
+Encoding: UTF-8
+RoxygenNote: 7.1.2
