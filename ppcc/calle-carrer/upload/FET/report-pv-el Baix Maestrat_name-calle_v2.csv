@@ -1,7 +1,0 @@
-"# EDITED with R"	""	""	""	""	""	""	""	""	""	""
-"name"	"alt_name"	"translations"	"ca.wikipedia_page"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"	"name:ca"	"alt_name:ca"
-"Calle Barcelona"					"way"	"360954791"	""	"{'highway': 'living_street', 'name': 'Calle Barcelona'}"	"Carrer Barcelona"	
-"Calle Barcelona"					"way"	"360954796"	""	"{'highway': 'living_street', 'name': 'Calle Barcelona'}"	"Carrer Barcelona"	
-"Calle Cristóbal Colón"					"way"	"205678075"	""	"{'highway': 'residential', 'name': 'Calle Cristóbal Colón', 'source': 'BING;Catastro'}"	"Carrer Cristòfor Colom"	
-"Calle de la Fuente"					"way"	"201673580"	""	"{'highway': 'residential', 'name': 'Calle de la Fuente', 'source': 'PNOA;Catastro'}"	"Carrer de la Font"	
-"Calle Madrid"					"way"	"360954363"	"name:etymology:wikidata=Q2807"	"{'highway': 'living_street', 'name': 'Calle Madrid', 'name:etymology:wikidata': 'Q2807'}"	"Carrer Madrid"	

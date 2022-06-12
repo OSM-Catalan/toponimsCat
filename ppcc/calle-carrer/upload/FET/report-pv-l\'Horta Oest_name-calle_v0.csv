@@ -1,7 +1,0 @@
-"# EDITED with R"	""	""	""	""	""	""	""	""	""	""
-"name"	"alt_name"	"translations"	"ca.wikipedia_page"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"	"name:ca"	"alt_name:ca"
-"Calle de Jorge Juan"	""				"way"	" 40549804"	""	"{'highway': 'residential', 'name': 'Calle de Jorge Juan'}"	"Carrer de Jorge Juan"	""
-"Calle de Santa Ana"	""				"way"	"147257220"	""	"{'highway': 'residential', 'name': 'Calle de Santa Ana', 'oneway': 'yes'}"	"Carrer de Santa Anna"	""
-"Calle del Carmen"	""				"way"	" 44674656"	""	"{'highway': 'residential', 'name': 'Calle del Carmen', 'oneway': 'yes'}"	"Carrer del Carme"	""
-"Calle del Jardín"	""				"way"	" 44674660"	""	"{'highway': 'residential', 'name': 'Calle del Jardín', 'oneway': 'yes'}"	"Carrer del Jardí"	""
-"Calle Jorge Juan"	""				"way"	"366858318"	""	"{'highway': 'unclassified', 'name': 'Calle Jorge Juan'}"	"Carrer Jorge Juan"	""

@@ -1,8 +1,0 @@
-"# EDITED with R"	""	""	""	""	""	""	""	""	""	""
-"name"	"alt_name"	"translations"	"ca.wikipedia_page"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"	"name:ca"	"alt_name:ca"
-"calle de la Huerta"					"way"	" 45817447"		"{'highway': 'residential', 'name': 'calle de la Huerta'}"	"carrer de l’Horta"	
-"Calle Paz"					"way"	"171983416"		"{'highway': 'residential', 'name': 'Calle Paz', 'oneway': 'yes'}"	"Carrer de la Pau"	
-"Calle Paz"					"way"	"525151639"		"{'highway': 'living_street', 'name': 'Calle Paz', 'oneway': 'yes'}"	"Carrer de la Pau"	
-"Calle San Ramón"					"way"	"171983479"		"{'highway': 'residential', 'name': 'Calle San Ramón'}"	"Carrer Sant Ramon"	
-"Calle San Vicente"					"way"	"171983491"		"{'highway': 'residential', 'name': 'Calle San Vicente'}"	"Carrer Sant Vicent"	
-"Calle Santiago"					"way"	"171983506"		"{'highway': 'residential', 'name': 'Calle Santiago'}"	"Carrer Santiago"	
