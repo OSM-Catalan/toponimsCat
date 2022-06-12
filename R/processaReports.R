@@ -1,5 +1,3 @@
-## Crea ordres per generar informes amb LangToolsOSM ----
-# regions<- read.csv(="ppcc/comarques.csv", check.names=FALSE)
 
 #' Genera informe
 #'
@@ -67,7 +65,6 @@ generaInforme<- function(arrelProjecte, fitxerInforme, filtreArea, filtreObjecte
 }
 
 
-
 #' Recompte de casos dels informes
 #'
 #' @param arrelProjecte camí a l'arrel del projecte. Es llegiran tots els fitxers *.tsv de la subcarpeta \code{informes} si no s'especifiquen altres paràmetres.
@@ -124,8 +121,6 @@ recompteCasosInformes<- function(arrelProjecte, informes, dades){
 
   return(dades)
 }
-# write.csv(regions, file=paste0(arrelProjecte, "casos_comarques.csv"), row.names=FALSE, na="")
-
 
 
 # informes<- dir(paste0(arrelProjecte, "informe"), "\\.tsv$", full.names=TRUE, include.dirs=FALSE)
@@ -260,11 +255,6 @@ generaRevisions_regexTranslations<- function(informes, arrelProjecte="exotopòni
 }
 
 
-## TODO: Fusiona revisions fetes amb els informes i genera ordres per carregar-los a OSM ----
-usuari<- "jmaspons" # Modifiqueu-ho amb el vostre nom d'usuari a OSM
-arrelProjecte<- "ppcc/calle-carrer/"
-
-# fitxersRevisions<- fitxersRevisions[1] # SELECCIONA COMARCA (pendent de processar)
 #' Genera fitxers amb edicions combinant els informes i revisions
 #'
 #' Reaprofita les revisions per casos que només es diferencien per si els noms comencen amb majúscules o minúscules, mantenint el format original.
@@ -343,9 +333,6 @@ preparaEdicions<- function(arrelProjecte, usuari){
 
   return(cmd)
 }
-
-# GOTO: situeu-vos a la carpeta *cd ppcc/calle-carrer/* i executeu les ordres
-# de "ppcc/calle-carrer/commands-carrega.txt" a un terminal amb LangToolsOSM instal·lat
 
 
 #' Actualitza els informes de les edicions carregades
