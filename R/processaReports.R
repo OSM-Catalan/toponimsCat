@@ -141,11 +141,21 @@ recompteCasosInformes<- function(arrelProjecte, informes, dades){
 #' @return Retorna els camíns dels fitxers de revisió generats.
 #' @seealso \link{gsub}
 #' @name generaRevisions
-#
-# @examples
+#'
+#' @examples
+#' generaRevisions_regexName(informes=dir("ppcc/calle-carrer/informes", "\\.tsv$", full.names=TRUE),
+#'                           arrelProjecte="ppcc/calle-carrer",
+#'                           cerca="([Cc])alle ",
+#'                           substitueix="\\1arrer ", revisioUnificada=FALSE)
+#'
+#' generaRevisions_regexTranslations(informes=dir("exotopònims/Grècia/informes", "\\.tsv$", full.names=TRUE),
+#'                                   arrelProjecte="exotopònims/Grècia",
+#'                                   cerca=" \\(.+\\)",
+#'                                   substitueix="", revisioUnificada=FALSE)
+
 NULL
 
-generaRevisions<- function(informes, arrelProjecte="ppcc/calle-carrer/"){
+generaRevisions<- function(informes, arrelProjecte){
   ### TODO: reutilitza les revisions fetes ----
   # Descarta casos ja revisats sense name:ca
   # setdiff(d[, c("name", "alt_name", "wikidata_id")], revisio.casosDESCARTATS)
@@ -179,7 +189,7 @@ generaRevisions<- function(informes, arrelProjecte="ppcc/calle-carrer/"){
 
 #' @rdname generaRevisions
 #' @export
-generaRevisions_regexName<- function(informes, arrelProjecte="ppcc/calle-carrer/", cerca="([Cc])alle ", substitueix="\\1arrer ", revisioUnificada=FALSE){
+generaRevisions_regexName<- function(informes, arrelProjecte, cerca, substitueix, revisioUnificada=FALSE){
   dL<- generaRevisions(informes=informes, arrelProjecte=arrelProjecte)
   for (i in seq_along(dL)){
     nomFitxer<- names(dL)[i]
@@ -218,7 +228,7 @@ generaRevisions_regexName<- function(informes, arrelProjecte="ppcc/calle-carrer/
 
 #' @rdname generaRevisions
 #' @export
-generaRevisions_regexTranslations<- function(informes, arrelProjecte="exotopònims/Grècia/", cerca=" \\(.+\\)", substitueix="", revisioUnificada=FALSE){
+generaRevisions_regexTranslations<- function(informes, arrelProjecte, cerca=" \\(.+\\)", substitueix="", revisioUnificada=FALSE){
   dL<- generaRevisions(informes=informes, arrelProjecte=arrelProjecte)
   for (i in seq_along(dL)){
     nomFitxer<- names(dL)[i]
@@ -349,7 +359,7 @@ preparaEdicions<- function(arrelProjecte, usuari){
 #' @export
 #
 # @examples
-actualitzaInformesCarregats<- function(arrelProjecte="ppcc/calle-carrer/", esborraInformesDesactualitzats=FALSE){
+actualitzaInformesCarregats<- function(arrelProjecte, esborraInformesDesactualitzats=FALSE){
   fitxersFets<- dir(file.path(arrelProjecte, "edicions"), pattern="\\.tsv$", full.names=TRUE, include.dirs=FALSE)
   fitxersInformesOri<- gsub("/edicions/", "/informes/", fitxersFets)
 
