@@ -1,5 +1,7 @@
+## Nota: arrelProjecte acabada en «/» pel projecte Rússia i sense per ppcc per comparar el comportament
+
 test_that("generaInformes funciona", {
-  ordre0<- generaInforme(arrelProjecte="exotopònims/Rússia",
+  ordre0<- generaInforme(arrelProjecte="exotopònims/Rússia/",
                          fitxerInforme="informe-Sibèria.tsv",
                          filtreArea="['name:ca'='Districte Federal de Sibèria'][admin_level=3]",
                          filtreObjectes="nwr[wikidata][name][!'name:ca']")
@@ -16,7 +18,7 @@ test_that("generaInformes funciona", {
     system(ordre1)
   expect_true(file.exists("ppcc/calle-carrer/informes/informe-Calle_carrer-l'Alacantí.tsv"))
 
-  ordre0<- generaInforme(arrelProjecte="exotopònims/Rússia",
+  ordre0<- generaInforme(arrelProjecte="exotopònims/Rússia/",
                          fitxerInforme="informe-Sibèria.tsv",
                          filtreArea="['name:ca'='Districte Federal de Sibèria'][admin_level=3]",
                          filtreObjectes="nwr[wikidata][!'name:ca']",
@@ -44,7 +46,7 @@ test_that("recompteCasosInformes funciona", {
   expect_equal(names(res[[1]]), c("informe", "nObjects", "nCasos", "revisat"))
 
   res<- list()
-  res$arrel<- recompteCasosInformes(arrelProjecte="exotopònims/Rússia")
+  res$arrel<- recompteCasosInformes(arrelProjecte="exotopònims/Rússia/")
   res$fitxers<- recompteCasosInformes(informes=dir("exotopònims/Rússia/informes", pattern="\\.tsv$", full.names=TRUE))
   res$df<- recompteCasosInformes(dades=data.frame(informe=dir("exotopònims/Rússia/informes", pattern="\\.tsv$", full.names=TRUE)))
 
@@ -64,7 +66,7 @@ test_that("generaRevisions funciona", {
   expect_true(file.exists("ppcc/calle-carrer/revisions/revisio-Calle_carrer-l'Alacantí.tsv"))
 
   res<- generaRevisions_regexTranslations(informes=dir("exotopònims/Rússia/informes", pattern="\\.tsv$", full.names=TRUE),
-                                  arrelProjecte="exotopònims/Rússia", cerca=" \\(.+\\)", substitueix="")
+                                  arrelProjecte="exotopònims/Rússia/", cerca=" \\(.+\\)", substitueix="")
   expect_type(res, "character")
   expect_true(file.exists("exotopònims/Rússia/revisions/revisio-Sibèria.tsv"))
 })
@@ -77,15 +79,15 @@ test_that("preparaEdicions funciona", {
   expect_true(file.exists("ppcc/calle-carrer/edicions/informe-Calle_carrer-l'Alacantí.tsv"))
 
   file.rename("exotopònims/Rússia/revisions/revisio-Sibèria.tsv", "exotopònims/Rússia/revisions/FET/revisio-Sibèria.tsv")
-  res<- preparaEdicions(arrelProjecte="exotopònims/Rússia", usuari="usuari")
+  res<- preparaEdicions(arrelProjecte="exotopònims/Rússia/", usuari="usuari")
   expect_type(res, "character")
   expect_true(file.exists("exotopònims/Rússia/edicions/informe-Sibèria.tsv"))
 })
 
 
 test_that("actualitzaInformesCarregats funciona", {
-  file.copy("ppcc/calle-carrer/informes/informe-Calle_carrer-l'Alacantí.tsv", "ppcc/calle-carrer/informes/informe-Calle_carrer-l'Alacantí.tsv_ORI")
-  file.copy("exotopònims/Rússia/informes/informe-Sibèria.tsv", "exotopònims/Rússia/informes/informe-Sibèria.tsv_ORI")
+  # file.copy("ppcc/calle-carrer/informes/informe-Calle_carrer-l'Alacantí.tsv", "ppcc/calle-carrer/informes/informe-Calle_carrer-l'Alacantí.tsv_ORI")
+  # file.copy("exotopònims/Rússia/informes/informe-Sibèria.tsv", "exotopònims/Rússia/informes/informe-Sibèria.tsv_ORI")
 
   res<- suppressWarnings(actualitzaInformesCarregats(arrelProjecte="ppcc/calle-carrer", esborraInformesDesactualitzats=FALSE))
   expect_type(res, "character")
@@ -93,7 +95,7 @@ test_that("actualitzaInformesCarregats funciona", {
   expect_true(file.exists("ppcc/calle-carrer/edicions/FET/informe-Calle_carrer-l'Alacantí_v0.tsv"))
   expect_false(file.exists("ppcc/calle-carrer/edicions/informe-Calle_carrer-l'Alacantí.tsv"))
 
-  res<- actualitzaInformesCarregats(arrelProjecte="exotopònims/Rússia", esborraInformesDesactualitzats=FALSE)
+  res<- actualitzaInformesCarregats(arrelProjecte="exotopònims/Rússia/", esborraInformesDesactualitzats=FALSE)
   expect_type(res, "character")
   expect_true(file.exists(res))
   expect_true(file.exists("exotopònims/Rússia/edicions/FET/informe-Sibèria_v0.tsv"))

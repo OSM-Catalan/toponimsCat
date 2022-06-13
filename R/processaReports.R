@@ -99,6 +99,8 @@ recompteCasosInformes<- function(arrelProjecte, informes, dades){
     return(data.frame())
   }
 
+  dades$informe<- gsub("//", "/", dades$informe)  # Normalitza camins
+
   dades$nObjects<- NA_integer_
   dades$nCasos<- NA_integer_
   dades$revisat<- FALSE
@@ -156,17 +158,21 @@ recompteCasosInformes<- function(arrelProjecte, informes, dades){
 NULL
 
 generaRevisions<- function(informes, arrelProjecte){
+  ## Normalitza camins per evitar problemes en modificar-los
+  arrelProjecte<- gsub("/$", "", arrelProjecte)
+  informes<- gsub("//", "/", informes)
+
   ### TODO: reutilitza les revisions fetes ----
   # Descarta casos ja revisats sense name:ca
   # setdiff(d[, c("name", "alt_name", "wikidata_id")], revisio.casosDESCARTATS)
   # Casos completats, ja pujats a OSM
   # Revisions fetes (name:ca = '' per traduccions descartades)
-  dir.create(file.path(arrelProjecte, "revisions/FET/"), showWarnings=FALSE, recursive=TRUE)
-  fitxersRevisio<- dir(file.path(arrelProjecte, "revisions/FET"), "\\.tsv$", full.names=TRUE, include.dirs=FALSE)
+  dir.create(file.path(arrelProjecte, "revisions", "FET"), showWarnings=FALSE, recursive=TRUE)
+  fitxersRevisio<- dir(file.path(arrelProjecte, "revisions", "FET"), "\\.tsv$", full.names=TRUE, include.dirs=FALSE)
   revisionsFETES<- lapply(fitxersRevisio, function(x){
     utils::read.delim(x, sep="\t", check.names=FALSE)
   })
-  names(revisionsFETES)<- gsub(file.path(arrelProjecte, "revisions/FET/"), "", fitxersRevisio)
+  names(revisionsFETES)<- gsub(file.path(arrelProjecte, "revisions", "FET/"), "", fitxersRevisio)
   revisio.casosFETS<- unique(do.call(rbind, revisionsFETES))
   # revisio.casosCOMPLETATS<- revisio.casosFETS[!revisio.casosFETS$`name:ca` %in% c(NA, ""), ]
   # revisio.casosDESCARTATS<- revisio.casosFETS[revisio.casosFETS$`name:ca` %in% c(NA, ""), ]
@@ -276,6 +282,8 @@ generaRevisions_regexTranslations<- function(informes, arrelProjecte, cerca=" \\
 #
 # @examples
 preparaEdicions<- function(arrelProjecte, usuari){
+  arrelProjecte<- gsub("/$", "", arrelProjecte)  # Normalitza camins per evitar problemes en modificar-los
+
   # Fusiona revisions fetes amb tots els informes que contenen objectes amb etiquetes iguals
   fitxersRevisions<- dir(file.path(arrelProjecte, "revisions","FET"), "\\.tsv$", full.names=TRUE, include.dirs=FALSE)
 
@@ -287,7 +295,7 @@ preparaEdicions<- function(arrelProjecte, usuari){
   revisionsFETES<- lapply(fitxersRevisions, function(x){
     utils::read.table(x, header=TRUE, sep="\t", check.names=FALSE)
   })
-  names(revisionsFETES)<- gsub(paste0(file.path(arrelProjecte, "revisions","FET"), "/+"), "", fitxersRevisions)
+  names(revisionsFETES)<- gsub(paste0(file.path(arrelProjecte, "revisions", "FET"), "/+"), "", fitxersRevisions)
   revisio.casosFETS<- do.call(rbind, revisionsFETES)
   revisio.casosFETS<- revisio.casosFETS[!revisio.casosFETS$`name:ca` %in% c(NA, "") | !revisio.casosFETS$`alt_name:ca` %in% c(NA, ""), ]
   row.names(revisio.casosFETS)<- NULL
@@ -389,7 +397,7 @@ actualitzaInformesCarregats<- function(arrelProjecte, esborraInformesDesactualit
   # dir.create(paste0(arrelProjecte, "ANTIC/"), showWarnings=FALSE, recursive=TRUE)
   # file.rename(fitxersInformesOri, gsub("/informe/", "/ANTIC/", fitxersInformesOri))
 
-  arxivats<- gsub("edicions/", "edicions/FET/", fitxersFets)
+  arxivats<- gsub("/edicions/", "/edicions/FET/", fitxersFets)
   arxivats<- gsub("\\.tsv$", "_v0.tsv", arxivats)
   i<- 1
   while (any(file.exists(arxivats))){
