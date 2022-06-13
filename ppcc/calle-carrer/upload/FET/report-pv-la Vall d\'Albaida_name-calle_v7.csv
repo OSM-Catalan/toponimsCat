@@ -1,7 +1,0 @@
-"# EDITED with R"	""	""	""	""	""	""	""	""	""	""
-"name"	"alt_name"	"translations"	"ca.wikipedia_page"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"	"name:ca"	"alt_name:ca"
-"Calle de San Juan"					"way"	"413176208"		"{'highway': 'pedestrian', 'name': 'Calle de San Juan'}"	"Carrer de Sant Joan"	
-"Calle de San Juan"					"way"	"413176210"		"{'highway': 'steps', 'name': 'Calle de San Juan'}"	"Carrer de Sant Joan"	
-"Calle del Dos de Mayo"					"way"	" 38210300"		"{'highway': 'residential', 'lit': 'yes', 'name': 'Calle del Dos de Mayo', 'oneway': 'yes', 'sidewalk': 'both', 'surface': 'asphalt'}"	"Carrer del Dos de Maig"	
-"Calle San Fernando"					"way"	"380061887"		"{'highway': 'residential', 'name': 'Calle San Fernando'}"	"Carrer Sant Ferran"	
-"Calle San Fernando"					"way"	"380061885"		"{'highway': 'residential', 'name': 'Calle San Fernando'}"	"Carrer Sant Ferran"	

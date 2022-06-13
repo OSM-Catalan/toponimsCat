@@ -1,6 +1,0 @@
-"# EDITED with R"	""	""	""	""	""	""	""	""	""	""
-"name"	"alt_name"	"translations"	"ca.wikipedia_page"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"	"name:ca"	"alt_name:ca"
-"Calle Rafalafena"	""				"way"	"1021589664"	""	"{'cycleway': 'shared_lane', 'highway': 'residential', 'lanes': '2', 'name': 'Calle Rafalafena', 'oneway': 'no', 'oneway:bicycle': 'no', 'sidewalk': 'both'}"	"Carrer Rafalafena"	""
-"Calle Rafalafena"	""				"way"	"1021589662"	""	"{'cycleway': 'shared_lane', 'highway': 'residential', 'lanes': '2', 'name': 'Calle Rafalafena', 'oneway': 'no', 'oneway:bicycle': 'no', 'sidewalk': 'both'}"	"Carrer Rafalafena"	""
-"Calle Rafalafena"	""				"way"	"1021589663"	""	"{'cycleway': 'shared_lane', 'highway': 'residential', 'lanes': '2', 'name': 'Calle Rafalafena', 'oneway': 'no', 'oneway:bicycle': 'no', 'sidewalk': 'both'}"	"Carrer Rafalafena"	""
-"Calle Río Sella"	""				"way"	"1021589661"	""	"{'highway': 'residential', 'lanes': '2', 'name': 'Calle Río Sella', 'oneway': 'yes', 'sidewalk': 'right', 'turn:lanes': 'through|through;right'}"	"Carrer Riu Sella"	""
