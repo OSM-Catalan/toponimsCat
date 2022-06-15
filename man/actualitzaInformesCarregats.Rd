@@ -5,7 +5,7 @@
 \title{Actualitza els informes de les edicions carregades}
 \usage{
 actualitzaInformesCarregats(
-  arrelProjecte = "ppcc/calle-carrer/",
+  arrelProjecte,
   esborraInformesDesactualitzats = FALSE
 )
 }

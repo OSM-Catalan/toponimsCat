@@ -100,7 +100,7 @@ test_that("actualitzaInformesCarregats funciona", {
   expect_true(file.exists(res))
   expect_true(file.exists("exotopònims/Rússia/edicions/FET/informe-Sibèria_v0.tsv"))
   expect_false(file.exists("exotopònims/Rússia/edicions/informe-Sibèria.tsv"))
+
   # file.copy("ppcc/calle-carrer/informes/informe-Calle_carrer-l'Alacantí.tsv_ORI", "exotopònims/Rússia/informes/informe-Calle_carrer-l'Alacantí.tsv")
   # file.copy("exotopònims/Rússia/informes/informe-Sibèria.tsv_ORI", "exotopònims/Rússia/informes/informe-Sibèria.tsv")
-
 })

@@ -1,3 +1,4 @@
+# TODO: mirar ?shQuote ?Quotes i r"(text amb " i ' a l'hora)" per generar ordres correctes independentment de si contenen «"'`»
 
 #' Genera informe
 #'
@@ -110,11 +111,10 @@ recompteCasosInformes<- function(arrelProjecte, informes, dades){
       casosRevisar<- unique(objectesOSM[, c("name", "name:ca", "alt_name:ca", "alt_name", "translations", "ca.wikipedia_page", "wikidata_id")])
       dades$nObjects[i]<- nrow(objectesOSM)
       dades$nCasos[i]<- nrow(casosRevisar)
-      ## TODO: versiona revisions FETES
-      fitxerRevisio<- gsub("/+informes/+", "/revisio/FET/", dades$informe[i])
-      if (file.exists(fitxerRevisio)){
-        dades$revisat[i]<- TRUE
-      }
+
+      fitxerRevisio<- gsub("^informe-", "revisio-", basename(gsub("(_v[0-9]+)*\\.tsv$", "", dades$informe[i])))
+      camiRevisions<- gsub("informes", "revisions/FET", dirname(dades$informe[i]), "FET")
+      dades$revisat[i]<- any(grepl(fitxerRevisio, dir(camiRevisions)))
     } else{
       message("Error a l'informe", i, ":", informes[i], "\n")
       print(objectesOSM)
@@ -293,7 +293,7 @@ preparaEdicions<- function(arrelProjecte, usuari){
   }
 
   revisionsFETES<- lapply(fitxersRevisions, function(x){
-    utils::read.table(x, header=TRUE, sep="\t", check.names=FALSE)
+    utils::read.table(x, header=TRUE, sep="\t", quote="", check.names=FALSE)  ## TODO:  quote="", ?
   })
   names(revisionsFETES)<- gsub(paste0(file.path(arrelProjecte, "revisions", "FET"), "/+"), "", fitxersRevisions)
   revisio.casosFETS<- do.call(rbind, revisionsFETES)
@@ -321,9 +321,13 @@ preparaEdicions<- function(arrelProjecte, usuari){
 
 
   if (any(dup<- duplicated(revisio.casosFETS[, c("name", "alt_name", "translations", "ca.wikipedia_page", "wikidata_id")]))){
-    print(revisio.casosFETS[dup, ])
-    stop("Hi ha discrepàncies entre revisions.")
-    # TODO: millora ----
+    print(revisio.casosFETS[dup, c("name", "alt_name", "translations", "ca.wikipedia_page", "wikidata_id")])
+    warning("Hi ha discrepàncies entre fitxers de revisions. Es descartaran les entrades amb valors duplicats de
+            «name», «alt_name», «translations», «ca.wikipedia_page» i «wikidata_id».")
+    dup<- duplicated(pk<- do.call(paste, revisio.casosFETS[, c("name", "alt_name", "translations", "ca.wikipedia_page", "wikidata_id")]))
+    dupPKstr<- pk[dup]
+    revisio.casosFETS<- revisio.casosFETS[!pk %in% dupPKstr, ]
+    # TODO: millora indicant els fitxers amb duplicats
   }
 
   dir.create(file.path(arrelProjecte, "edicions"), showWarnings=FALSE, recursive=TRUE)
@@ -338,6 +342,7 @@ preparaEdicions<- function(arrelProjecte, usuari){
       dFormated<- rbind(c("# EDITED with R", rep("", times=ncol(edicions) - 1)), names(edicions))
       dFormated<- rbind(dFormated, as.matrix(edicions), deparse.level=0)
       utils::write.table(dFormated, file.path(arrelProjecte, "edicions", nomFitxer), sep="\t", col.names=FALSE, row.names=FALSE, na="")
+
       cmd[i]<- paste0('update_osm_objects_from_report --username ', usuari, ' --batch 100 -v --confirmed-edits --confirm-overwrites --input-file "', file.path(arrelProjecte, "edicions", nomFitxer), '" name:ca')
       if (!all(is.na(edicions$`alt_name:ca`))){
         cmd[i]<- paste0(cmd[i], " alt_name:ca")
@@ -376,7 +381,6 @@ actualitzaInformesCarregats<- function(arrelProjecte, esborraInformesDesactualit
       file.remove(fitxersInformesOri)
       next
     }
-
 
     informeOri<- data.table::fread(fitxersInformesOri[i], skip=1)  # , quote="")
     carregat<- data.table::fread(fitxersFets[i], skip=1)  # , quote="")

@@ -8,15 +8,15 @@
 \usage{
 generaRevisions_regexName(
   informes,
-  arrelProjecte = "ppcc/calle-carrer/",
-  cerca = "([Cc])alle ",
-  substitueix = "\\\\1arrer ",
+  arrelProjecte,
+  cerca,
+  substitueix,
   revisioUnificada = FALSE
 )
 
 generaRevisions_regexTranslations(
   informes,
-  arrelProjecte = "exotopònims/Grècia/",
+  arrelProjecte,
   cerca = " \\\\(.+\\\\)",
   substitueix = "",
   revisioUnificada = FALSE
@@ -42,6 +42,17 @@ Els fitxers de revisió d'informes contenen els casos a revisar amb combinacions
  \code{«translations»}, \code{«ca.wikipedia_page»} i \code{«wikidata_id»}.
  Cal corregir els casos de \code{«name:ca»} i \code{«alt_name:ca»} incorrectes i esborrar-los o deixar-los en blanc si no és clar. Un cop revisat,
  moveu els fitxers de revisions a «arrelProjecte/revisio/FET/» i prepareu les edicions a OSM amb la funció \code{\link{preparaEdicions}}.
+}
+\examples{
+generaRevisions_regexName(informes=dir("ppcc/calle-carrer/informes", "\\\\.tsv$", full.names=TRUE),
+                          arrelProjecte="ppcc/calle-carrer",
+                          cerca="([Cc])alle ",
+                          substitueix="\\\\1arrer ", revisioUnificada=FALSE)
+
+generaRevisions_regexTranslations(informes=dir("exotopònims/Grècia/informes", "\\\\.tsv$", full.names=TRUE),
+                                  arrelProjecte="exotopònims/Grècia",
+                                  cerca=" \\\\(.+\\\\)",
+                                  substitueix="", revisioUnificada=FALSE)
 }
 \seealso{
 \link{gsub}
