@@ -7,7 +7,7 @@
 #' @param filtreArea filtre d'àrea per la consulta d'Overpass.
 #' @param filtreObjectes filtre d'etiquetes d'objectes d'OSM per la consulta d'Overpass.
 #' @param consulta consulta completa d'Overpass. Si existeix el paràmetre, ignora \code{filtreArea} i \code{filtreObjectes}.
-#' @param actualitzaFitxer si és \code{TRUE} i ja existeix el fitxer d'informe, el mou a la carpeta «ANTIC»
+#' @param actualitzaFitxer si és \code{TRUE} i ja existeix el fitxer d'informe, el mou a la carpeta «ANTIC».
 #'
 #' @return Ordre per generar l'informe amb \code{write_osm_objects_report} de \href{https://github.com/OSM-Catalan/LangToolsOSM}{LangToolsOSM}.
 #' @export
@@ -150,7 +150,8 @@ recompteCasosInformes<- function(arrelProjecte, informes, dades){
 #'                           cerca="([Cc])alle ",
 #'                           substitueix="\\1arrer ", revisioUnificada=FALSE)
 #'
-#' generaRevisions_regexTranslations(informes=dir("exotopònims/Grècia/informes", "\\.tsv$", full.names=TRUE),
+#' generaRevisions_regexTranslations(informes=dir("exotopònims/Grècia/informes", "\\.tsv$",
+#'                                                full.names=TRUE),
 #'                                   arrelProjecte="exotopònims/Grècia",
 #'                                   cerca=" \\(.+\\)",
 #'                                   substitueix="", revisioUnificada=FALSE)
@@ -276,6 +277,7 @@ generaRevisions_regexTranslations<- function(informes, arrelProjecte, cerca=" \\
 #' Reaprofita les revisions per casos que només es diferencien per si els noms comencen amb majúscules o minúscules, mantenint el format original.
 #'
 #' @param arrelProjecte camí a l'arrel del projecte. La carpeta de destinació serà la subcarpeta \code{edicions} i buscarà els informes i revisions a partir d'aquest camí.
+#' @param usuari nom de l'usuari a OpenStreetMap per pujar les edicions.
 #'
 #' @return Vector d'ordres per carregar els fitxers generats amb LangToolsOSM.
 #' @export
