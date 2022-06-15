@@ -295,7 +295,7 @@ preparaEdicions<- function(arrelProjecte, usuari){
   }
 
   revisionsFETES<- lapply(fitxersRevisions, function(x){
-    utils::read.table(x, header=TRUE, sep="\t", quote="", check.names=FALSE)  ## TODO:  quote="", ?
+    utils::read.table(x, header=TRUE, sep="\t", check.names=FALSE)  ## TODO:  quote="", ?
   })
   names(revisionsFETES)<- gsub(paste0(file.path(arrelProjecte, "revisions", "FET"), "/+"), "", fitxersRevisions)
   revisio.casosFETS<- do.call(rbind, revisionsFETES)
