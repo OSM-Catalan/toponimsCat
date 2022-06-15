@@ -2,7 +2,7 @@
 % Please edit documentation in R/informesPPCC.R
 \name{generaInformesPPCC}
 \alias{generaInformesPPCC}
-\title{Generar informes per les zones catalanoparlants de les comarques dels PPCC}
+\title{Generar informes per les zones catalanoparlants de les comarques dels PPCC.}
 \usage{
 generaInformesPPCC(
   arrelProjecte,
@@ -28,7 +28,7 @@ Retorna la taula de les comarques amb els nous camps \code{cmd}, que conté l'or
 i el camp \code{informe}, que conté el camí del fitxer de l'informe que es crearà.
 }
 \description{
-Generar informes per les zones catalanoparlants de les comarques dels PPCC
+Generar informes per les zones catalanoparlants de les comarques dels PPCC.
 }
 \examples{
 ordres<- generaInformesPPCC(arrelProjecte="ppcc/calle-carrer",
