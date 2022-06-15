@@ -1,4 +1,4 @@
-#' Generar informes per les zones catalanoparlants de les comarques dels PPCC
+#' Generar informes per les zones catalanoparlants de les comarques dels PPCC.
 #'
 #'
 #' @param arrelProjecte camí a l'arrel del projecte. La carpeta de destinació dels informes serà la subcarpeta \code{informes}.

@@ -5,7 +5,7 @@
 \description{
 Dades de les Comarques dels Països Catalans.
 }
-\usage{data("comarques")}
+\usage{comarques}
 \format{
   Un \code{data.frame} amb dades de les 96 comarques  per les següents 8 variables.
   \describe{
