@@ -2,6 +2,7 @@
 
 export(actualitzaInformesCarregats)
 export(generaInforme)
+export(generaInformesPPCC)
 export(generaRevisions_regexName)
 export(generaRevisions_regexTranslations)
 export(preparaEdicions)
