@@ -7,6 +7,7 @@
 "way"	"180081113"	"Calle Virgen Carmen"	""	""	""	""	""	""	""	"{'highway': 'service', 'name': 'Calle Virgen Carmen', 'service': 'alley'}"
 "way"	"791203999"	"Calle San Blass"	""	""	""	""	""	""	""	"{'highway': 'service', 'name': 'Calle San Blass', 'service': 'alley'}"
 "way"	"332909748"	"Calle San Francisco"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle San Francisco'}"
+"way"	"1054608993"	"Calle Dr. Sanchis Peira"	""	""	""	""	""	""	""	"{'highway': 'service', 'name': 'Calle Dr. Sanchis Peira'}"
 "way"	"168252962"	"Calle Venta del Conde"	""	""	""	""	""	""	""	"{'foot': 'yes', 'highway': 'residential', 'name': 'Calle Venta del Conde', 'oneway': 'no'}"
 "way"	"168252963"	"Calle Venta del Conde"	""	""	""	""	""	""	""	"{'foot': 'yes', 'highway': 'residential', 'name': 'Calle Venta del Conde', 'oneway': 'no', 'sidewalk': 'both'}"
 "way"	"168252964"	"Calle Venta del Conde"	""	""	""	""	""	""	""	"{'foot': 'yes', 'highway': 'residential', 'name': 'Calle Venta del Conde', 'oneway': 'no'}"

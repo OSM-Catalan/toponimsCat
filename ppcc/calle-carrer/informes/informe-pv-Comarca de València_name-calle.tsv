@@ -14,6 +14,7 @@
 "way"	"187060173"	"Calle Carmen Tronchoni"	""	""	""	""	""	""	""	"{'highway': 'footway', 'name': 'Calle Carmen Tronchoni'}"
 "way"	"13859577"	"Calle de González Martí"	""	""	""	""	""	""	""	"{'highway': 'footway', 'layer': '-1', 'name': 'Calle de González Martí', 'tunnel': 'yes'}"
 "way"	"498942748"	"Calle Pérez Escrich"	""	""	""	""	""	""	"name:es=Calle Pérez Escrich"	"{'highway': 'service', 'name': 'Calle Pérez Escrich', 'name:es': 'Calle Pérez Escrich', 'service': 'driveway'}"
+"way"	"1036437334"	"Calle de González Martí"	""	""	""	""	""	""	""	"{'highway': 'footway', 'layer': '-1', 'name': 'Calle de González Martí', 'tunnel': 'yes'}"
 "way"	"4704754"	"Calle Horno del Hospital"	""	""	""	""	""	""	""	"{'highway': 'footway', 'name': 'Calle Horno del Hospital', 'oneway': 'no'}"
 "way"	"46945432"	"Calle de Guillem de Castro"	""	""	""	""	""	""	""	"{'crossing': 'traffic_signals', 'footway': 'crossing', 'highway': 'footway', 'name': 'Calle de Guillem de Castro'}"
 "way"	"46945433"	"Calle de Guillem de Castro"	""	""	""	""	""	""	""	"{'highway': 'footway', 'name': 'Calle de Guillem de Castro'}"
