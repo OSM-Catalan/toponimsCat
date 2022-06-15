@@ -1,46 +1,15 @@
 library(toponimsCat)
 
-comarques<- read.csv("ppcc/comarques.csv", check.names=FALSE)
 
 arrelProjecte<- "ppcc/calle-carrer"
-actualitzaFitxer<- FALSE # actualitzaFitxer<- TRUE
+actualitzaInformes<- FALSE # actualitzaInformes<- TRUE
 filtre<- "nwr[name~'^[Cc]alle'][!'name:ca']"
+sufixFitxers<- "_name-calle"
 
 
 ## Generar informes per comarques dels PPCC amb LangToolsOSM ----
-for (i in 1:nrow(comarques)){
-  if (!is.na(comarques$`historic:admin_level`[i])){
-    tipus<- "['historic:admin_level']"
-  } else if (!is.na(comarques$admin_level[i])){
-    tipus<- paste0("[admin_level=", comarques$admin_level[i], "]")
-  }else{
-    tipus<- ""
-  }
-  areaRegio<- paste0("['name:ca'='", gsub("\\'", "\\\\'", comarques$`name:ca`[i]) ,"']", tipus)
-  fitxerInforme<- paste0("informe-", comarques$regio[i], "-", comarques$`name:ca`[i], "_name-calle.tsv")
-  comarques$informe[i]<- file.path(arrelProjecte, "informes", fitxerInforme)
-
-  if (!comarques$parcial[i]){
-    cmd<- generaInforme(arrelProjecte=arrelProjecte, fitxerInforme=fitxerInforme,
-                        filtreArea=areaRegio, filtreObjectes=filtre,
-                        actualitzaFitxer=actualitzaFitxer)
-  } else {
-    consulta<- paste0("\"[out:json][timeout:1000]; ",
-                      "area", areaRegio, "->.regio; ",
-                      "area[name='Països Catalans']->.llengua; ",
-                      "( ", filtre, "(area.regio)(area.llengua); ); ",
-                      "out tags qt;\"")
-    cmd<- generaInforme(arrelProjecte=arrelProjecte, fitxerInforme=fitxerInforme,
-                        consulta=consulta, actualitzaFitxer=actualitzaFitxer)
-  }
-
-  if (length(cmd) == 0){
-    cmd<- ""
-  }
-
-  comarques$cmd[i]<- cmd
-}
-
+comarques<- generaInformesPPCC(arrelProjecte=arrelProjecte, filtre=filtre,
+                               actualitzaInformes=actualitzaInformes, sufixFitxers=sufixFitxers)
 
 ## Executa les ordres
 sel<- which(comarques$cmd != "")
@@ -52,7 +21,7 @@ for (i in 1:length(sel)){
 }
 
 ## Si hi ha errors (eg. overpass va massa enfeinat i no respon), torneu a correr la secció amb
-actualitzaFitxer<- FALSE
+actualitzaInformes<- FALSE
 
 
 ## Avalua el nombre de casos a cada informe generat ----
