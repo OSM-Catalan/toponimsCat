@@ -1,7 +1,7 @@
 Type: Package
 Package: toponimsCat
 Title: Eines per ajudar a afegir l'etiqueta "name:ca" a OpenStreetMap
-Version: 0.1
+Version: 0.2
 Authors@R: 
     person("Joan", "Maspons", email="joanmaspons@gmail.com", role=c("aut", "cre"))
 Maintainer: Joan Maspons <joanmaspons@gmail.com>
@@ -9,6 +9,8 @@ Description: Genera ordres per crear informes d'objectes d'OpenStreetMap
     amb LangToolsOSM a partir de filtres i àrees determinades, crea
     fitxers per revisar les modificacions i pujar els canvis.
 License: GPL-3
+URL: https://github.com/OSM-Catalan/toponimsCat
+BugReports: https://github.com/OSM-Catalan/toponimsCat/issues
 Depends:
     R (>= 3.5)
 Imports: 
@@ -19,3 +21,4 @@ Config/testthat/edition: 3
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.2
+SystemRequirements: LangToolsOSM
