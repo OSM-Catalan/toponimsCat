@@ -106,6 +106,39 @@ generaInforme<- function(arrelProjecte, fitxerInforme, filtreArea, filtreObjecte
 }
 
 
+#' Descarta objectes sense traduccions dels informes
+#'
+#' Sobreescriu els informes descarant-ne els objectes (files) sense traduccions de wikidata.
+#'
+#' @param fitxersInformes camins dels informes.
+#'
+#' @return Retorna invisiblement els camins dels informes modificats.
+#' @export
+#
+# @examples
+descartaObjectesSenseTraduccions<- function(fitxersInformes){
+  res<- character()
+  for (i in seq_along(fitxersInformes)){
+    informe<- try(utils::read.table(fitxersInformes[i], header=TRUE, sep="\t", skip=1, check.names=FALSE))
+    if (!inherits(informe, "data.frame")){
+      warning("Error de lectura per ", fitxersInformes[i])
+      next
+    }
+    nObjectes<- nrow(informe)
+    informe<- informe[!informe$translations %in% c(NA, ""), ]
+    if (nObjectes == nrow(informe)){ # Si no hi ha canvis al fitxer, no reescriguis
+      next
+    }
+    comentari<- readLines(fitxersInformes[i], n=1)
+    cat(comentari, "\n", file=fitxersInformes[i], sep="")
+    utils::write.table(informe, file=fitxersInformes[i], append=TRUE, quote=TRUE, na="", sep="\t", row.names=FALSE, qmethod="double")
+    res<- c(res, fitxersInformes[i])
+  }
+
+  invisible(res)
+}
+
+
 #' Recompte de casos dels informes
 #'
 #' @param arrelProjecte camí a l'arrel del projecte. Es llegiran tots els fitxers *.tsv de la subcarpeta \code{informes} si no s'especifiquen altres paràmetres.
