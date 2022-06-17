@@ -18,7 +18,7 @@ subdivisionsConsultaOverpass(
 
 \item{etiquetes}{etiquetes a afegir com a columnes a la sortida d'Overpass en el format \code{csv}.}
 
-\item{format}{si és \cocd{csv}, la consulta retorna dades en aquest format. Si és \code{json}, mostra les divisions al mapa.}
+\item{format}{si és \code{csv}, la consulta retorna dades en aquest format. Si és \code{json}, mostra les divisions al mapa.}
 }
 \value{
 Consulta per executar a \href{https://overpass-turbo.eu}{Overpass}.
@@ -28,10 +28,12 @@ Genera consultes per preparar taules amb les subdivisions d'àrees per \href{htt
 Utilitzat per dividir països en àrees més manejables i per evitar conjunts de canvis massa grans a l'hora d'afegir exotopònims.
 }
 \examples{
-consulta<- subdivisionsConsultaOverpass(area="['name:ca'='Rússia'][admin_level=2]", filtreSubdivisions="[admin_level=4]",
-                                        etiquetes=c("name", "'name:ca'", "'wikidata'", "admin_level"))
+consulta<- subdivisionsConsultaOverpass(area="['name:ca'='Rússia'][admin_level=2]",
+   filtreSubdivisions="[admin_level=4]",
+   etiquetes=c("name", "'name:ca'", "'wikidata'", "admin_level"))
 cat(consulta)
-consulta<- subdivisionsConsultaOverpass(area="['name:ca'='Rússia'][admin_level=2]", filtreSubdivisions="[admin_level=4]",
-                                        format="json")
+consulta<- subdivisionsConsultaOverpass(area="['name:ca'='Rússia'][admin_level=2]",
+   filtreSubdivisions="[admin_level=4]",
+   format="json")
 cat(consulta)
 }
