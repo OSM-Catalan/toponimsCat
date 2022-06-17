@@ -196,7 +196,7 @@ recompteCasosInformes<- function(arrelProjecte, informes, dades){
       camiRevisions<- gsub("informes", "revisions/FET", dirname(dades$informe[i]), "FET")
       dades$revisat[i]<- any(grepl(fitxerRevisio, dir(camiRevisions)))
     } else{
-      message("Error a l'informe", i, ":", informes[i], "\n")
+      warning("Error a l'informe", i, ":", informes[i], "\n")
       print(objectesOSM)
     }
   }
@@ -466,9 +466,11 @@ actualitzaInformesCarregats<- function(arrelProjecte, esborraInformesDesactualit
   fitxersFets<- dir(file.path(arrelProjecte, "edicions"), pattern="\\.tsv$", full.names=TRUE, include.dirs=FALSE)
   fitxersInformesOri<- gsub("/edicions/", "/informes/", fitxersFets)
 
+  ret<- character()
   for (i in seq_along(fitxersFets)){
     if (esborraInformesDesactualitzats){
-      file.remove(fitxersInformesOri)
+      file.remove(fitxersInformesOri[i])
+      ret<- c(ret, fitxersInformesOri[i])
       next
     }
 
@@ -482,9 +484,12 @@ actualitzaInformesCarregats<- function(arrelProjecte, esborraInformesDesactualit
 
     informeNou<- data.table::fsetdiff(informeOri, carregat)
 
-    comentari<- readLines(fitxersInformesOri[i], n=1)
-    cat(comentari, "\n", file=fitxersInformesOri[i], sep="")
-    suppressWarnings(utils::write.table(informeNou, file=fitxersInformesOri[i], append=TRUE, quote=TRUE, na="", sep="\t", row.names=FALSE, qmethod="double"))
+    if (!data.table::fsetequal(informeNou, informeOri)){
+      comentari<- readLines(fitxersInformesOri[i], n=1)
+      cat(comentari, "\n", file=fitxersInformesOri[i], sep="")
+      suppressWarnings(utils::write.table(informeNou, file=fitxersInformesOri[i], append=TRUE, quote=TRUE, na="", sep="\t", row.names=FALSE, qmethod="double"))
+      ret<- c(ret, fitxersInformesOri[i])
+    }
   }
 
   ## Mou informes desactualitzats a ANTIC/
@@ -502,5 +507,5 @@ actualitzaInformesCarregats<- function(arrelProjecte, esborraInformesDesactualit
   dir.create(file.path(arrelProjecte, "edicions", "FET"), showWarnings=FALSE, recursive=TRUE)
   file.rename(fitxersFets, arxivats)
 
-  return(fitxersInformesOri)
+  return(ret)
 }
