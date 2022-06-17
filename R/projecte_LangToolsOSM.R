@@ -290,7 +290,7 @@ generaRevisions_regexName<- function(informes, arrelProjecte, cerca, substitueix
     if (nrow(d) > 0){
       dL[[nomFitxer]]<- d
       if (!revisioUnificada){
-        utils::write.table(d, file.path(arrelProjecte, "revisions", nomFitxer), sep="\t", col.names=TRUE, row.names=FALSE, na="")
+        utils::write.table(d, file.path(arrelProjecte, "revisions", nomFitxer), sep="\t", quote=FALSE, col.names=TRUE, row.names=FALSE, na="")
       }
     } else {
       suppressWarnings(file.remove(file.path(arrelProjecte, "revisions", nomFitxer)))
@@ -299,7 +299,7 @@ generaRevisions_regexName<- function(informes, arrelProjecte, cerca, substitueix
 
   if (revisioUnificada){
     revisio.TOTS<- unique(do.call(rbind, dL))
-    utils::write.table(revisio.TOTS, file.path(arrelProjecte, "revisions", "revisio-UNIFICADA.tsv"), sep="\t", col.names=TRUE, row.names=FALSE, na="")
+    utils::write.table(revisio.TOTS, file.path(arrelProjecte, "revisions", "revisio-UNIFICADA.tsv"), sep="\t", quote=FALSE, col.names=TRUE, row.names=FALSE, na="")
     ret<- file.path(arrelProjecte, "revisions", "revisio-UNIFICADA.tsv")
   } else {
     ret<- file.path(arrelProjecte, "revisions", names(dL))
@@ -336,7 +336,7 @@ generaRevisions_regexTranslations<- function(informes, arrelProjecte, cerca=" \\
     if (nrow(d) > 0){
       dL[[nomFitxer]]<- d
       if (!revisioUnificada){
-        utils::write.table(d, file.path(arrelProjecte, "revisions", nomFitxer), sep="\t", col.names=TRUE, row.names=FALSE, na="")
+        utils::write.table(d, file.path(arrelProjecte, "revisions", nomFitxer), sep="\t", quote=FALSE, col.names=TRUE, row.names=FALSE, na="")
       }
     } else {
       suppressWarnings(file.remove(file.path(arrelProjecte, "revisions", nomFitxer)))
@@ -345,7 +345,7 @@ generaRevisions_regexTranslations<- function(informes, arrelProjecte, cerca=" \\
 
   if (revisioUnificada){
     revisio.TOTS<- unique(do.call(rbind, dL))
-    utils::write.table(revisio.TOTS, file.path(arrelProjecte, "revisions", "revisio-UNIFICADA.tsv"), sep="\t", col.names=TRUE, row.names=FALSE, na="")
+    utils::write.table(revisio.TOTS, file.path(arrelProjecte, "revisions", "revisio-UNIFICADA.tsv"), sep="\t", quote=FALSE, col.names=TRUE, row.names=FALSE, na="")
     ret<- file.path(arrelProjecte, "revisions", "revisio-UNIFICADA.tsv")
   } else {
     ret<- file.path(arrelProjecte, "revisions", names(dL))
