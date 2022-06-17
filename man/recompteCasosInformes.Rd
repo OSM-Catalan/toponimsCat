@@ -19,6 +19,8 @@ Una taula amb files per cada informe i amb les columnes següents:
     \item{nObjectes}{nombre d'objectes d'OSM.}
     \item{nCasos}{nombre de casos únics de les etiquetes \code{«name»}, \code{«name:ca»}, \code{«alt_name:ca»},
  \code{«alt_name»}, \code{«translations»}, \code{«ca.wikipedia_page»} i \code{«wikidata_id»}.}
+    \item{nObjectesNomWikidata}{nombre d'objectes d'OSM amb nom en català a wikidata (columna translations dels informes).}
+    \item{nCasosNomWikidata}{nombre de casos únics amb nom en català a wikidata (columna translations dels fitxers de revisions).}
     \item{revisat}{si existeix o no un fitxer de revisió a la subcarpeta del projecte \code{revisions/FET}).}
  }
 }

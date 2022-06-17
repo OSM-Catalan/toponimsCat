@@ -115,6 +115,8 @@ generaInforme<- function(arrelProjecte, fitxerInforme, filtreArea, filtreObjecte
 #'     \item{nObjectes}{nombre d'objectes d'OSM.}
 #'     \item{nCasos}{nombre de casos únics de les etiquetes \code{«name»}, \code{«name:ca»}, \code{«alt_name:ca»},
 #'  \code{«alt_name»}, \code{«translations»}, \code{«ca.wikipedia_page»} i \code{«wikidata_id»}.}
+#'     \item{nObjectesNomWikidata}{nombre d'objectes d'OSM amb nom en català a wikidata (columna translations dels informes).}
+#'     \item{nCasosNomWikidata}{nombre de casos únics amb nom en català a wikidata (columna translations dels fitxers de revisions).}
 #'     \item{revisat}{si existeix o no un fitxer de revisió a la subcarpeta del projecte \code{revisions/FET}).}
 #'  }
 #' @export
@@ -143,15 +145,17 @@ recompteCasosInformes<- function(arrelProjecte, informes, dades){
 
   dades$informe<- gsub("//", "/", dades$informe)  # Normalitza camins
 
-  dades$nObjects<- NA_integer_
-  dades$nCasos<- NA_integer_
-  dades$revisat<- FALSE
   for (i in 1:nrow(dades)){
     objectesOSM<- try(utils::read.table(dades$informe[i], header=TRUE, sep="\t", skip=1, check.names=FALSE))
     if (inherits(objectesOSM, "data.frame")){
       casosRevisar<- unique(objectesOSM[, c("name", "name:ca", "alt_name:ca", "alt_name", "translations", "ca.wikipedia_page", "wikidata_id")])
       dades$nObjects[i]<- nrow(objectesOSM)
       dades$nCasos[i]<- nrow(casosRevisar)
+
+      if ("translations" %in% names(objectesOSM)){
+        dades$nObjectesNomWikidata[i]<- sum(!objectesOSM$translations %in% c(NA, ""))
+        dades$nCasosNomWikidata[i]<- sum(!casosRevisar$translations %in% c(NA, ""))
+      }
 
       fitxerRevisio<- gsub("^informe-", "revisio-", basename(gsub("(_v[0-9]+)*\\.tsv$", "", dades$informe[i])))
       camiRevisions<- gsub("informes", "revisions/FET", dirname(dades$informe[i]), "FET")
