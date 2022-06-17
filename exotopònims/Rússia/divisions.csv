@@ -1,0 +1,88 @@
+@type;@id;name;name:ca;wikidata;admin_level
+relation;51490;Московская область;Província de Moscou;Q1697;4
+relation;71950;Рязанская область;Província de Riazan;Q2753;4
+relation;72169;Липецкая область;Província de Lípetsk;Q3510;4
+relation;72180;Тамбовская область;Província de Tambov;Q3550;4
+relation;72181;Воронежская область;Província de Vorónej;Q3447;4
+relation;72182;Пензенская область;Província de Penza;Q5545;4
+relation;72192;Ульяновская область;Província d'Uliànovsk;Q5634;4
+relation;72193;Саратовская область;Província de Saràtov;Q5334;4
+relation;72194;Самарская область;Província de Samara;Q1727;4
+relation;72195;Нижегородская область;Província de Nijni Nóvgorod;Q2246;4
+relation;72196;Мордовия;Mordòvia;Q5340;4
+relation;72197;Владимирская область;Província de Vladímir;Q2702;4
+relation;72223;Курская область;Província de Kursk;Q3178;4
+relation;72224;Орловская область;Província d'Oriol;Q3129;4
+relation;72639;Автономна Республіка Крим;República Autònoma de Crimea;Q756294;4
+relation;77665;Волгоградская область;Província de Volgograd;Q3819;4
+relation;77669;Оренбургская область;Província d'Orenburg;Q5338;4
+relation;77677;Башкортостан;Baixkíria;Q5710;4
+relation;77687;Челябинская область;Província de Txeliàbinsk;Q5714;4
+relation;79374;Татарстан;Tatarstan;Q5481;4
+relation;79379;Свердловская область;Província de Sverdlovsk;Q5462;4
+relation;80513;Чувашия;Txuvàixia;Q5466;4
+relation;81993;Тульская область;Província de Tula;Q2792;4
+relation;81994;Ярославская область;Província de Iaroslavl;Q2448;4
+relation;81995;Калужская область;Província de Kaluga;Q2842;4
+relation;81996;Смоленская область;Província de Smolensk;Q2347;4
+relation;81997;Брянская область;Província de Briansk;Q2810;4
+relation;83184;Белгородская область;Província de Bélgorod;Q3329;4
+relation;85606;Ростовская область;Província de Rostov;Q3573;4
+relation;85617;Ивановская область;Província d'Ivànovo;Q2654;4
+relation;85963;Костромская область;Província de Kostromà;Q2596;4
+relation;89331;Новгородская область;Província de Nóvgorod;Q2240;4
+relation;102269;Москва;Moscou;Q649;4
+relation;103906;Калининградская область;Província de Kaliningrad;Q1749;4
+relation;108081;Ставропольский край;Territori de Stàvropol;Q5207;4
+relation;108082;Краснодарский край;Territori de Krasnodar;Q3680;4
+relation;108083;Калмыкия;Calmúquia;Q3953;4
+relation;109876;Дагестан;Daguestan;Q5118;4
+relation;109877;Чечня;Txetxènia;Q5187;4
+relation;109878;Карачаево-Черкесия;Karatxai-Txerkèssia;Q5328;4
+relation;109879;Кабардино-Балкария;Kabardino-Balkària;Q5267;4
+relation;110032;Северная Осетия — Алания;Ossètia del Nord - Alània;Q5237;4
+relation;112819;Астраханская область;Província d'Àstrakhan;Q3941;4
+relation;115100;Кировская область;Província de Kírov;Q5387;4
+relation;115106;Вологодская область;Província de Vólogda;Q2015;4
+relation;115114;Марий Эл;Marí El;Q5446;4
+relation;115134;Удмуртия;Udmúrtia;Q5422;4
+relation;115135;Пермский край;Territori de Perm;Q5400;4
+relation;115136;Республика Коми;República de Komi;Q2073;4
+relation;140290;Курганская область;Província de Kurgan;Q5741;4
+relation;140291;Тюменская область;Província de Tiumén;Q5824;4
+relation;140292;Омская область;Província d'Omsk;Q5835;4
+relation;140294;Новосибирская область;Província de Novosibirsk;Q5851;4
+relation;140295;Томская область;Província de Tomsk;Q5884;4
+relation;140296;Ханты-Мансийский автономный округ — Югра;Districte Autònom Khanti-Mansi — Iugrà;Q6320;4
+relation;140337;Архангельская область;Província d'Arkhànguelsk;Q1875;4
+relation;144763;Кемеровская область;Província de Kémerovo;Q6076;4
+relation;144764;Алтайский край;Territori de l'Altai;Q5942;4
+relation;145194;Республика Алтай;República de l'Altai;Q5971;4
+relation;145195;Республика Тыва;Tuvà;Q960;4
+relation;145454;Иркутская область;Província d'Irkutsk;Q6585;4
+relation;145729;Бурятия;Buriàtia;Q6809;4
+relation;145730;Забайкальский край;Territori de Zabaikal;Q6838;4
+relation;147166;Амурская область;Província de l'Amur;Q6886;4
+relation;147167;Еврейская автономная область;Província Autònoma dels Hebreus;Q7730;4
+relation;151223;Хабаровский край;Territori de Khabàrovsk;Q7788;4
+relation;151225;Приморский край;Territori de Primórie;Q4341;4
+relation;151228;Магаданская область;Província de Magadan;Q7971;4
+relation;151231;Чукотский автономный округ;Txukotka;Q7984;4
+relation;151233;Камчатский край;Territori de Kamtxatka;Q7948;4
+relation;151234;Республика Саха (Якутия);Sakhà;Q6605;4
+relation;155262;Псковская область;Província de Pskov;Q2218;4
+relation;176095;Ленинградская область;Província de Leningrad;Q2191;4
+relation;190090;Красноярский край;Territori de Krasnoiarsk;Q6563;4
+relation;190911;Республика Хакасия;Khakàssia;Q6543;4
+relation;191706;Ямало-Ненецкий автономный округ;Iamàlia;Q6407;4
+relation;253252;Ингушетия;Ingúixia;Q5219;4
+relation;253256;Адыгея;Adiguèsia;Q3734;4
+relation;274048;Ненецкий автономный округ;Nenètsia;Q2164;4
+relation;337422;Санкт-Петербург;Sant Petersburg;Q656;4
+relation;393980;Республика Карелия;República de Carèlia;Q1914;4
+relation;394235;Сахалинская область;Província de Sakhalín;Q7797;4
+relation;1574364;Севастополь;Sebastòpol;Q2659239;4
+relation;2095259;Тверская область;Província de Tver;Q2292;4
+relation;2099216;Мурманская область;Província de Múrmansk;Q1759;4
+relation;3788485;Севастополь;Sebastòpol;Q17436425;4
+relation;3795586;Республика Крым;República de Crimea;Q15966495;4
