@@ -8,17 +8,19 @@
 #' @param area filtre de l'àrea per la que es vol generar les subdivisions.
 #' @param filtreSubdivisions filtre per identificar les relacions que defineixen les subdivisions.
 #' @param etiquetes etiquetes a afegir com a columnes a la sortida d'Overpass en el format \code{csv}.
-#' @param format si és \cocd{csv}, la consulta retorna dades en aquest format. Si és \code{json}, mostra les divisions al mapa.
+#' @param format si és \code{csv}, la consulta retorna dades en aquest format. Si és \code{json}, mostra les divisions al mapa.
 #'
 #' @return Consulta per executar a \href{https://overpass-turbo.eu}{Overpass}.
 #' @export
 #'
 #' @examples
-#' consulta<- subdivisionsConsultaOverpass(area="['name:ca'='Rússia'][admin_level=2]", filtreSubdivisions="[admin_level=4]",
-#'                                         etiquetes=c("name", "'name:ca'", "'wikidata'", "admin_level"))
+#' consulta<- subdivisionsConsultaOverpass(area="['name:ca'='Rússia'][admin_level=2]",
+#'    filtreSubdivisions="[admin_level=4]",
+#'    etiquetes=c("name", "'name:ca'", "'wikidata'", "admin_level"))
 #' cat(consulta)
-#' consulta<- subdivisionsConsultaOverpass(area="['name:ca'='Rússia'][admin_level=2]", filtreSubdivisions="[admin_level=4]",
-#'                                         format="json")
+#' consulta<- subdivisionsConsultaOverpass(area="['name:ca'='Rússia'][admin_level=2]",
+#'    filtreSubdivisions="[admin_level=4]",
+#'    format="json")
 #' cat(consulta)
 subdivisionsConsultaOverpass<- function(area, filtreSubdivisions, etiquetes=c("name", "'name:ca'", "wikidata"), format=c("csv", "json")){
   format<- match.arg(format)
