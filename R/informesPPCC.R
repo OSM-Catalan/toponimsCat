@@ -1,4 +1,4 @@
-#' Generar informes per les zones catalanoparlants de les comarques dels PPCC.
+#' Generar informes per comarques dels PPCC amb tots els objectes d'OSM segons els filtres especificats. Només inclou les zones catalanoparlants de les comarques bilingües.
 #'
 #'
 #' @param arrelProjecte camí a l'arrel del projecte. La carpeta de destinació dels informes serà la subcarpeta \code{informes}.
@@ -7,8 +7,9 @@
 #' @param sufixFitxers text afegir com a sufix al nom dels fitxers dels informes («arrelProjecte/informe-Regio-comarca$sufixFitxer$.tsv»)
 #' @param comarques \code{data.frame} amb informació de les comarques. Per defecte, \code{\link{comarques}}
 #'
-#' @return Retorna la taula de les comarques amb els nous camps \code{cmd}, que conté l'ordre per generar els informes amb LangTools,
-#' i el camp \code{informe}, que conté el camí del fitxer de l'informe que es crearà.
+#' @return Retorna la taula de les comarques amb els nous camps \code{cmd}, que conté l'ordre per generar els informes amb
+#'  \code{write_osm_objects_report} de \href{https://github.com/OSM-Catalan/LangToolsOSM}{LangToolsOSM},
+#'  i el camp \code{informe}, que conté el camí del fitxer de l'informe que es crearà.
 #' @export
 #'
 #' @examples

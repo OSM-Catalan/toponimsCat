@@ -38,6 +38,8 @@ subdivisionsConsultaOverpass<- function(area, filtreSubdivisions, etiquetes=c("n
 
 #' Genera informe
 #'
+#' Genera un informe amb tots els objectes d'OSM segons l'àrea i els filtres especificats.
+#'
 #' @param arrelProjecte camí a l'arrel del projecte. La carpeta de destinació serà la subcarpeta \code{informes}.
 #' @param fitxerInforme vector amb els camins de fitxers d'informe.
 #' @param filtreArea filtre d'àrea per la consulta d'Overpass.
@@ -56,7 +58,7 @@ subdivisionsConsultaOverpass<- function(area, filtreSubdivisions, etiquetes=c("n
 #' ordre1<- generaInforme(arrelProjecte="ppcc/calle-carrer/",
 #'                        fitxerInforme="informe-Calle_carrer-Alacant.tsv",
 #'                        filtreArea="['name:ca'='Alacant'][admin_level=7]",
-#'                        filtreObjectes="nwr[name~'^[Cc]alle'][!'name:ca']")
+#'                        filtreObjectes="nwr[name~'^[Cc]alle '][!'name:ca']")
 #' \dontrun{
 #' # Crida les ordres de LantToolsOSM (cal que estigui instal·lat a l'entorn Python configurat a R)
 #'   system(ordre0)
@@ -108,10 +110,13 @@ generaInforme<- function(arrelProjecte, fitxerInforme, filtreArea, filtreObjecte
 #' @param informes vector de caràcters amb els camins a fitxers d'informes.
 #' @param dades un \code{data.frame} amb una columna anomenada \code{informe} amb els camins a fitxers d'informes. Si s'especifica, s'ignoren la resta de paràmetres.
 #'
-#' @return Una taula amb files per cada informe i amb les columnes \code{nObjectes} (nombre d'objectes d'OSM),
-#'  \code{nCasos} (nombre de casos únics de les etiquetes \code{«name»}, \code{«name:ca»}, \code{«alt_name:ca»},
-#'  \code{«alt_name»}, \code{«translations»}, \code{«ca.wikipedia_page»} i \code{«wikidata_id»}),
-#'  i \code{revisat} (si existeix o no un fitxer de revisió).
+#' @return Una taula amb files per cada informe i amb les columnes següents:
+#'   \describe{
+#'     \item{nObjectes}{nombre d'objectes d'OSM.}
+#'     \item{nCasos}{nombre de casos únics de les etiquetes \code{«name»}, \code{«name:ca»}, \code{«alt_name:ca»},
+#'  \code{«alt_name»}, \code{«translations»}, \code{«ca.wikipedia_page»} i \code{«wikidata_id»}.}
+#'     \item{revisat}{si existeix o no un fitxer de revisió a la subcarpeta del projecte \code{revisions/FET}).}
+#'  }
 #' @export
 #
 # @examples
@@ -174,9 +179,10 @@ recompteCasosInformes<- function(arrelProjecte, informes, dades){
 #' @param arrelProjecte camí a l'arrel del projecte. La carpeta de destinació serà la subcarpeta \code{revisions}.
 #' @param cerca expressió regular del patró de cerca (\link{regex}).
 #' @param substitueix text a substituir.
+#' @param ometSenseTraduccions si és \code{TRUE}, descarta els objectes sense nom en català a wikidata.
 #' @param revisioUnificada si és \code{TRUE}, genera un unic fitxer de revisió. Sinó, genera un fixer de revisió per cada informe.
 #'
-#' @return Retorna els camíns dels fitxers de revisió generats.
+#' @return Retorna els camins dels fitxers de revisió generats.
 #' @seealso \link{gsub}
 #' @name generaRevisions
 #'
@@ -315,7 +321,7 @@ generaRevisions_regexTranslations<- function(informes, arrelProjecte, cerca=" \\
 #' @param arrelProjecte camí a l'arrel del projecte. La carpeta de destinació serà la subcarpeta \code{edicions} i buscarà els informes i revisions a partir d'aquest camí.
 #' @param usuari nom de l'usuari a OpenStreetMap per pujar les edicions.
 #'
-#' @return Vector d'ordres per carregar els fitxers generats amb LangToolsOSM.
+#' @return Vector d'ordres per carregar els fitxers generats amb \code{update_osm_objects_from_report} de \href{https://github.com/OSM-Catalan/LangToolsOSM}{LangToolsOSM}.
 #' @export
 #
 # @examples
@@ -400,7 +406,7 @@ preparaEdicions<- function(arrelProjecte, usuari){
 #'
 #' Useu la funció després de carregar a OSM els fitxers d'edicions. Arxiva els fitxers d'edicions a «$arrelProjecte/edicions/FET» i
 #'  actualitza els informes eliminant els casos ja editats o eliminant els fitxers desactualitzats.
-#' Mou els informes actualitzats a edicions/FET i arxiva els informes originals a ANTIC/
+#' Mou els informes actualitzats a edicions/FET i arxiva els informes originals a ANTIC/.
 #'
 #' @param arrelProjecte  camí a l'arrel del projecte. La carpeta de destinació serà la subcarpeta \code{edicions} i buscarà els informes i revisions a partir d'aquest camí.
 #' @param esborraInformesDesactualitzats si és \code{TRUE}, elimina els informes desactualitzats per tornar-los a generar de nou.

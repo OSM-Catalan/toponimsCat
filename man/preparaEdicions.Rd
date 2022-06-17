@@ -12,7 +12,7 @@ preparaEdicions(arrelProjecte, usuari)
 \item{usuari}{nom de l'usuari a OpenStreetMap per pujar les edicions.}
 }
 \value{
-Vector d'ordres per carregar els fitxers generats amb LangToolsOSM.
+Vector d'ordres per carregar els fitxers generats amb \code{update_osm_objects_from_report} de \href{https://github.com/OSM-Catalan/LangToolsOSM}{LangToolsOSM}.
 }
 \description{
 Reaprofita les revisions per casos que només es diferencien per si els noms comencen amb majúscules o minúscules, mantenint el format original.
