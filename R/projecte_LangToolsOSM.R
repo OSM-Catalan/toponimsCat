@@ -1,5 +1,41 @@
 # TODO: mirar ?shQuote ?Quotes i r"(text amb " i ' a l'hora)" per generar ordres correctes independentment de si contenen «"'`»
 
+#' Subdivisions d'àrees amb Overpass
+#'
+#' Genera consultes per preparar taules amb les subdivisions d'àrees per \href{https://overpass-turbo.eu}{Overpass}.
+#' Utilitzat per dividir països en àrees més manejables i per evitar conjunts de canvis massa grans a l'hora d'afegir exotopònims.
+#'
+#' @param area filtre de l'àrea per la que es vol generar les subdivisions.
+#' @param filtreSubdivisions filtre per identificar les relacions que defineixen les subdivisions.
+#' @param etiquetes etiquetes a afegir com a columnes a la sortida d'Overpass en el format \code{csv}.
+#' @param format si és \cocd{csv}, la consulta retorna dades en aquest format. Si és \code{json}, mostra les divisions al mapa.
+#'
+#' @return Consulta per executar a \href{https://overpass-turbo.eu}{Overpass}.
+#' @export
+#'
+#' @examples
+#' consulta<- subdivisionsConsultaOverpass(area="['name:ca'='Rússia'][admin_level=2]", filtreSubdivisions="[admin_level=4]",
+#'                                         etiquetes=c("name", "'name:ca'", "'wikidata'", "admin_level"))
+#' cat(consulta)
+#' consulta<- subdivisionsConsultaOverpass(area="['name:ca'='Rússia'][admin_level=2]", filtreSubdivisions="[admin_level=4]",
+#'                                         format="json")
+#' cat(consulta)
+subdivisionsConsultaOverpass<- function(area, filtreSubdivisions, etiquetes=c("name", "'name:ca'", "wikidata"), format=c("csv", "json")){
+  format<- match.arg(format)
+  filtres<- paste0("area", area, "; relation(area)", filtreSubdivisions)
+  if (format == "csv"){
+    # https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#CSV_output_mode
+    q<- paste0("[out:csv(::type, ::id, ", paste(etiquetes, collapse=", "), "; true; ';')]; ",
+               filtres, "; out;")
+  } else if (format == "json"){
+    q<- paste0("[out:json][timeout=100]; ",
+               filtres, "; out body; out skel qt;")
+  }
+
+  return(q)
+}
+
+
 #' Genera informe
 #'
 #' @param arrelProjecte camí a l'arrel del projecte. La carpeta de destinació serà la subcarpeta \code{informes}.
