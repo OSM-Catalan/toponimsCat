@@ -19,11 +19,11 @@ Aquest paquet facilita la tasca d'afegir etiquetes «name:ca» i «alt_name:ca»
   \subsection{Flux de treball}{
 
     \enumerate{
-      \item{\code{\link{generaInforme}} / \code{\link{generaInformesPPCC}}: retorna ordres per generar informes.}
-      \item{\code{\link{recompteCasosInformes}}: Recompta (optatiu).}
-      \item{\code{\link{generaRevisions_regexName}} / \code{\link{generaRevisions_regexTranslations}}: combinacions i expressions regulars.}
-      \item{\code{\link{preparaEdicions}}: combina informes i revisions.}
-      \item{\code{\link{actualitzaInformesCarregats}}: arxiva edicions carregades i actualitza o elimina els informes desactualitzats.}
+      \item{\code{\link{generaInforme}} / \code{\link{generaInformesPPCC}}: retorna ordres per generar informes que es desaran a la carpeta \code{informes}.}
+      \item{\code{\link{recompteCasosInformes}}: Recompta el nombre de casos i traduccions dels informes. És optatiu, ja que no modifica res.}
+      \item{\code{\link{generaRevisions_regexName}} / \code{\link{generaRevisions_regexTranslations}}: desa els fitxers de revisions a la carpeta \code{revisions} i omple els camps \code{«name:ca»} i \code{«alt_name:ca»} segons regles i expressions regulars.}
+      \item{\code{\link{preparaEdicions}}: combina informes i revisions per generar els fitxers amb les edidions a la carpeta \code{edicions} a punt per carregar a OSM.}
+      \item{\code{\link{actualitzaInformesCarregats}}: arxiva les edicions carregades i actualitza o elimina els informes desactualitzats.}
     }
 
   }
