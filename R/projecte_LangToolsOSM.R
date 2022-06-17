@@ -292,9 +292,11 @@ generaRevisions_regexTranslations<- function(informes, arrelProjecte, cerca=" \\
       # message("Descartant ", sum(senseTraduccio), " objectes sense traducció a wikidata.")
     }
 
-    traduccions<- strsplit(d$translations, ";")
-    d$`name:ca`<- ifelse(is.na(d$`name:ca`), gsub(cerca, substitueix, sapply(traduccions, function(x) x[1])), d$`name:ca`)
-    d$`alt_name:ca`<- ifelse(is.na(d$`alt_name:ca`) & sapply(traduccions, length) > 1, paste(gsub(cerca, substitueix, sapply(traduccions, function(x) x[-1])), collapse=";"), d$`alt_name:ca`)
+    traduccions<- strsplit(d$translations, ", ")
+    d$`name:ca`<- ifelse(d$`name:ca` %in% c("", NA), gsub(cerca, substitueix, sapply(traduccions, function(x) x[1])), d$`name:ca`)
+    d$`alt_name:ca`<- ifelse(d$`alt_name:ca` %in% c("", NA) & sapply(traduccions, length) > 1,
+                             gsub(cerca, substitueix, sapply(traduccions, function(x) paste(x[-1], collapse=";"))),
+                             d$`alt_name:ca`)
 
     if (nrow(d) > 0){
       dL[[nomFitxer]]<- d
