@@ -14,10 +14,13 @@ recompteCasosInformes(arrelProjecte, informes, dades)
 \item{dades}{un \code{data.frame} amb una columna anomenada \code{informe} amb els camins a fitxers d'informes. Si s'especifica, s'ignoren la resta de paràmetres.}
 }
 \value{
-Una taula amb files per cada informe i amb les columnes \code{nObjectes} (nombre d'objectes d'OSM),
- \code{nCasos} (nombre de casos únics de les etiquetes \code{«name»}, \code{«name:ca»}, \code{«alt_name:ca»},
- \code{«alt_name»}, \code{«translations»}, \code{«ca.wikipedia_page»} i \code{«wikidata_id»}),
- i \code{revisat} (si existeix o no un fitxer de revisió).
+Una taula amb files per cada informe i amb les columnes següents:
+  \describe{
+    \item{nObjectes}{nombre d'objectes d'OSM.}
+    \item{nCasos}{nombre de casos únics de les etiquetes \code{«name»}, \code{«name:ca»}, \code{«alt_name:ca»},
+ \code{«alt_name»}, \code{«translations»}, \code{«ca.wikipedia_page»} i \code{«wikidata_id»}.}
+    \item{revisat}{si existeix o no un fitxer de revisió a la subcarpeta del projecte \code{revisions/FET}).}
+ }
 }
 \description{
 Recompte de casos dels informes

@@ -30,7 +30,7 @@ generaInforme(
 Ordre per generar l'informe amb \code{write_osm_objects_report} de \href{https://github.com/OSM-Catalan/LangToolsOSM}{LangToolsOSM}.
 }
 \description{
-Genera informe
+Genera un informe amb tots els objectes d'OSM segons l'àrea i els filtres especificats.
 }
 \examples{
 ordre0<- generaInforme(arrelProjecte="exotopònims/Rússia/",
@@ -40,7 +40,7 @@ ordre0<- generaInforme(arrelProjecte="exotopònims/Rússia/",
 ordre1<- generaInforme(arrelProjecte="ppcc/calle-carrer/",
                        fitxerInforme="informe-Calle_carrer-Alacant.tsv",
                        filtreArea="['name:ca'='Alacant'][admin_level=7]",
-                       filtreObjectes="nwr[name~'^[Cc]alle'][!'name:ca']")
+                       filtreObjectes="nwr[name~'^[Cc]alle '][!'name:ca']")
 \dontrun{
 # Crida les ordres de LantToolsOSM (cal que estigui instal·lat a l'entorn Python configurat a R)
   system(ordre0)

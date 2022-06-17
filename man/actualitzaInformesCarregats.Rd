@@ -21,5 +21,5 @@ Camins dels informes actualitzats.
 \description{
 Useu la funció després de carregar a OSM els fitxers d'edicions. Arxiva els fitxers d'edicions a «$arrelProjecte/edicions/FET» i
  actualitza els informes eliminant els casos ja editats o eliminant els fitxers desactualitzats.
-Mou els informes actualitzats a edicions/FET i arxiva els informes originals a ANTIC/
+Mou els informes actualitzats a edicions/FET i arxiva els informes originals a ANTIC/.
 }

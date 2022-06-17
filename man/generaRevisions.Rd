@@ -19,6 +19,7 @@ generaRevisions_regexTranslations(
   arrelProjecte,
   cerca = " \\\\(.+\\\\)",
   substitueix = "",
+  ometSenseTraduccions = TRUE,
   revisioUnificada = FALSE
 )
 }
@@ -32,9 +33,11 @@ generaRevisions_regexTranslations(
 \item{substitueix}{text a substituir.}
 
 \item{revisioUnificada}{si és \code{TRUE}, genera un unic fitxer de revisió. Sinó, genera un fixer de revisió per cada informe.}
+
+\item{ometSenseTraduccions}{si és \code{TRUE}, descarta els objectes sense nom en català a wikidata.}
 }
 \value{
-Retorna els camíns dels fitxers de revisió generats.
+Retorna els camins dels fitxers de revisió generats.
 }
 \description{
 Els fitxers de revisió d'informes contenen els casos a revisar amb combinacions úniques de
