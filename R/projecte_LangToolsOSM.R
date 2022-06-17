@@ -281,11 +281,16 @@ generaRevisions_regexName<- function(informes, arrelProjecte, cerca, substitueix
 
 #' @rdname generaRevisions
 #' @export
-generaRevisions_regexTranslations<- function(informes, arrelProjecte, cerca=" \\(.+\\)", substitueix="", revisioUnificada=FALSE){
+generaRevisions_regexTranslations<- function(informes, arrelProjecte, cerca=" \\(.+\\)", substitueix="", ometSenseTraduccions=TRUE, revisioUnificada=FALSE){
   dL<- generaRevisions(informes=informes, arrelProjecte=arrelProjecte)
   for (i in seq_along(dL)){
     nomFitxer<- names(dL)[i]
     d<- dL[[i]]
+    if (ometSenseTraduccions){
+      senseTraduccio<- d$translations  %in% c("", NA)
+      d<- d[!senseTraduccio, ]
+      # message("Descartant ", sum(senseTraduccio), " objectes sense traducció a wikidata.")
+    }
 
     traduccions<- strsplit(d$translations, ";")
     d$`name:ca`<- ifelse(is.na(d$`name:ca`), gsub(cerca, substitueix, sapply(traduccions, function(x) x[1])), d$`name:ca`)
