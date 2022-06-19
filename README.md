@@ -5,14 +5,14 @@ Eines per ajudar a afegir l'etiqueta ```name:ca```. Podeu descarregar el paquet 
 
 ## Estructura de fitxers d’un projecte
 
-```informes``` Conté fitxers d’informes amb tots els objectes d’OSM segons el filtre i àrea del projecte.
-```revisions``` Conté fitxers de revisions amb combinacions úniques de les etiquetes «name», «name:ca»,
+* ```informes``` Conté fitxers d’informes amb tots els objectes d’OSM segons el filtre i àrea del projecte.
+* ```revisions``` Conté fitxers de revisions amb combinacions úniques de les etiquetes «name», «name:ca»,
 «alt_name:ca», «alt_name», «translations», «ca.wikipedia_page» i «wikidata_id».
 Aquests fitxers són els que cal revisar abans de preparar les edicions que es carregaran a
 OSM. Els fitxers revisats s’han de moure a revisions/FET i són els més valuoso, ja que
 inclouen la feina humana de revisar tots els casos, i per això té sentit afegir-los al repositori
 git.
-```edicions``` Conté fitxers d’informes amb els valors nous dels camps «name:ca» i «alt_name:ca» a
+* ```edicions``` Conté fitxers d’informes amb els valors nous dels camps «name:ca» i «alt_name:ca» a
 punt per carregar a OSM, generats a partir dels informes i revisions fetes (revisions/FET).
 
 
@@ -45,4 +45,3 @@ Parlem-ne a als espais de la [comunitat OpenStreetMap en Català](https://wiki.o
 
 * [LangToolsOSM](https://github.com/OSM-Catalan/LangToolsOSM)
 * Espai de coordinació per la [toponímia i exotopònims](https://wiki.openstreetmap.org/wiki/WikiProject_Catalan/Topon%C3%ADmia_i_exotop%C3%B2nims) de la comunitat d’OpenStreetMap Països Catalans.
-
