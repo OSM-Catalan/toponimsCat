@@ -38,7 +38,9 @@ el projecte.
 
 ## Com col·laborar?
 
-Parlem-ne a als espais de la [comunitat OpenStreetMap en Català](https://wiki.openstreetmap.org/wiki/WikiProject_Catalan#Canals_de_comunicaci%C3%B3_i_mitjans_de_difusi%C3%B3) o en aquest mateix espai de github.
+La part que requereix més feina és la revisió de les etiquetes ```name:ca``` i ```alt_name:ca``` proposades (fitxers de les carpetes ```revisions``` dels diferents projectes). Si voleu encarregar-vos d'algun país en concret o algun tipus d'objecte als PPCC i no us en sortiu en generar els fitxers, obriu un [tiquet](https://github.com/OSM-Catalan/toponimsCat/issues) i miraré de generar-los.
+
+També en podem parlar a als espais de la [comunitat OpenStreetMap en Català](https://wiki.openstreetmap.org/wiki/WikiProject_Catalan#Canals_de_comunicaci%C3%B3_i_mitjans_de_difusi%C3%B3).
 
 
 ## Enllaços d’interès
