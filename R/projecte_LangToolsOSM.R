@@ -131,7 +131,7 @@ descartaObjectesSenseTraduccions<- function(fitxersInformes){
     }
     comentari<- readLines(fitxersInformes[i], n=1)
     cat(comentari, "\n", file=fitxersInformes[i], sep="")
-    utils::write.table(informe, file=fitxersInformes[i], append=TRUE, quote=TRUE, na="", sep="\t", row.names=FALSE, qmethod="double")
+    suppressWarnings(utils::write.table(informe, file=fitxersInformes[i], append=TRUE, sep="\t", na="", row.names=FALSE))
     res<- c(res, fitxersInformes[i])
   }
 
@@ -252,7 +252,7 @@ generaRevisions<- function(informes, arrelProjecte){
   dir.create(file.path(arrelProjecte, "revisions", "FET"), showWarnings=FALSE, recursive=TRUE)
   fitxersRevisio<- dir(file.path(arrelProjecte, "revisions", "FET"), "\\.tsv$", full.names=TRUE, include.dirs=FALSE)
   revisionsFETES<- lapply(fitxersRevisio, function(x){
-    utils::read.delim(x, sep="\t", check.names=FALSE)
+    utils::read.table(x, header=TRUE, sep="\t", check.names=FALSE)
   })
   names(revisionsFETES)<- gsub(file.path(arrelProjecte, "revisions", "FET/"), "", fitxersRevisio)
   revisio.casosFETS<- unique(do.call(rbind, revisionsFETES))
@@ -290,7 +290,7 @@ generaRevisions_regexName<- function(informes, arrelProjecte, cerca, substitueix
     if (nrow(d) > 0){
       dL[[nomFitxer]]<- d
       if (!revisioUnificada){
-        utils::write.table(d, file.path(arrelProjecte, "revisions", nomFitxer), sep="\t", col.names=TRUE, row.names=FALSE, na="")
+        utils::write.table(d, file.path(arrelProjecte, "revisions", nomFitxer), sep="\t", na="", col.names=TRUE, row.names=FALSE)
       }
     } else {
       suppressWarnings(file.remove(file.path(arrelProjecte, "revisions", nomFitxer)))
@@ -299,7 +299,7 @@ generaRevisions_regexName<- function(informes, arrelProjecte, cerca, substitueix
 
   if (revisioUnificada){
     revisio.TOTS<- unique(do.call(rbind, dL))
-    utils::write.table(revisio.TOTS, file.path(arrelProjecte, "revisions", "revisio-UNIFICADA.tsv"), sep="\t", col.names=TRUE, row.names=FALSE, na="")
+    utils::write.table(revisio.TOTS, file.path(arrelProjecte, "revisions", "revisio-UNIFICADA.tsv"), sep="\t", na="", col.names=TRUE, row.names=FALSE)
     ret<- file.path(arrelProjecte, "revisions", "revisio-UNIFICADA.tsv")
   } else {
     ret<- file.path(arrelProjecte, "revisions", names(dL))
@@ -337,7 +337,7 @@ generaRevisions_regexTranslations<- function(informes, arrelProjecte, cerca=" \\
     if (nrow(d) > 0){
       dL[[nomFitxer]]<- d
       if (!revisioUnificada){
-        utils::write.table(d, file.path(arrelProjecte, "revisions", nomFitxer), sep="\t", col.names=TRUE, row.names=FALSE, na="")
+        utils::write.table(d, file.path(arrelProjecte, "revisions", nomFitxer), sep="\t", na="", col.names=TRUE, row.names=FALSE)
       }
     } else {
       suppressWarnings(file.remove(file.path(arrelProjecte, "revisions", nomFitxer)))
@@ -346,7 +346,7 @@ generaRevisions_regexTranslations<- function(informes, arrelProjecte, cerca=" \\
 
   if (revisioUnificada){
     revisio.TOTS<- unique(do.call(rbind, dL))
-    utils::write.table(revisio.TOTS, file.path(arrelProjecte, "revisions", "revisio-UNIFICADA.tsv"), sep="\t", col.names=TRUE, row.names=FALSE, na="")
+    utils::write.table(revisio.TOTS, file.path(arrelProjecte, "revisions", "revisio-UNIFICADA.tsv"), sep="\t", na="", col.names=TRUE, row.names=FALSE)
     ret<- file.path(arrelProjecte, "revisions", "revisio-UNIFICADA.tsv")
   } else {
     ret<- file.path(arrelProjecte, "revisions", names(dL))
@@ -384,7 +384,7 @@ preparaEdicions<- function(arrelProjecte, usuari){
   }
 
   revisionsFETES<- lapply(fitxersRevisions, function(x){
-    utils::read.table(x, header=TRUE, sep="\t", check.names=FALSE)  ## TODO:  quote="", ?
+    utils::read.table(x, header=TRUE, sep="\t", check.names=FALSE)
   })
   names(revisionsFETES)<- gsub(paste0(file.path(arrelProjecte, "revisions", "FET"), "/+"), "", fitxersRevisions)
   revisio.casosFETS<- do.call(rbind, revisionsFETES)
@@ -432,7 +432,7 @@ preparaEdicions<- function(arrelProjecte, usuari){
     if (nrow(edicions) > 0){
       dFormated<- rbind(c("# EDITED with R", rep("", times=ncol(edicions) - 1)), names(edicions))
       dFormated<- rbind(dFormated, as.matrix(edicions), deparse.level=0)
-      utils::write.table(dFormated, file.path(arrelProjecte, "edicions", nomFitxer), sep="\t", col.names=FALSE, row.names=FALSE, na="")
+      suppressWarnings(utils::write.table(dFormated, file.path(arrelProjecte, "edicions", nomFitxer), sep="\t", na="", col.names=FALSE, row.names=FALSE))
 
       cmd[i]<- paste0('update_osm_objects_from_report --username ', usuari, ' --batch 100 -v --confirmed-edits --confirm-overwrites --input-file "', file.path(arrelProjecte, "edicions", nomFitxer), '" name:ca')
       if (!all(is.na(edicions$`alt_name:ca`))){
@@ -475,9 +475,11 @@ actualitzaInformesCarregats<- function(arrelProjecte, esborraInformesDesactualit
       next
     }
 
-    informeOri<- data.table::fread(fitxersInformesOri[i], skip=1)  # , quote="")
-    carregat<- data.table::fread(fitxersFets[i], skip=1)  # , quote="")
+    informeOri<- utils::read.table(fitxersInformesOri[i], header=TRUE, sep="\t", skip=1, check.names=FALSE)
+    carregat<- utils::read.table(fitxersFets[i], header=TRUE, sep="\t", skip=1, check.names=FALSE)
 
+    informeOri<- data.table::as.data.table(informeOri)
+    carregat<- data.table::as.data.table(carregat)
     data.table::set(informeOri, j=names(informeOri), value=lapply(informeOri, function(x){ x[is.na(x)]<- ""; as.character(x) }))
     data.table::set(carregat, j=names(carregat), value=lapply(carregat, function(x){ x[is.na(x)]<- ""; as.character(x) }))
     data.table::set(carregat, j=c("name:ca", "alt_name:ca"), value=list(NA_character_, NA_character_))
@@ -488,7 +490,7 @@ actualitzaInformesCarregats<- function(arrelProjecte, esborraInformesDesactualit
     if (!data.table::fsetequal(informeNou, informeOri)){
       comentari<- readLines(fitxersInformesOri[i], n=1)
       cat(comentari, "\n", file=fitxersInformesOri[i], sep="")
-      suppressWarnings(utils::write.table(informeNou, file=fitxersInformesOri[i], append=TRUE, quote=TRUE, na="", sep="\t", row.names=FALSE, qmethod="double"))
+      suppressWarnings(utils::write.table(informeNou, file=fitxersInformesOri[i], append=TRUE, sep="\t", na="", row.names=FALSE))
       ret<- c(ret, fitxersInformesOri[i])
     }
   }
