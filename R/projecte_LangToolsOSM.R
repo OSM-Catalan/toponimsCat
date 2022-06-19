@@ -328,9 +328,10 @@ generaRevisions_regexTranslations<- function(informes, arrelProjecte, cerca=" \\
     }
 
     traduccions<- strsplit(d$translations, ", ")
-    d$`name:ca`<- ifelse(d$`name:ca` %in% c("", NA), gsub(cerca, substitueix, sapply(traduccions, function(x) x[1])), d$`name:ca`)
+    traduccions<- lapply(traduccions, function(x) unique(gsub(cerca, substitueix, x)))
+    d$`name:ca`<- ifelse(d$`name:ca` %in% c("", NA), sapply(traduccions, function(x) x[1]), d$`name:ca`)
     d$`alt_name:ca`<- ifelse(d$`alt_name:ca` %in% c("", NA) & sapply(traduccions, length) > 1,
-                             gsub(cerca, substitueix, sapply(traduccions, function(x) paste(x[-1], collapse=";"))),
+                             sapply(traduccions, function(x) paste(x[-1], collapse=";")),
                              d$`alt_name:ca`)
 
     if (nrow(d) > 0){
