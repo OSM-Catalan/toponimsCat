@@ -1,7 +1,7 @@
 Type: Package
 Package: toponimsCat
 Title: Eines per ajudar a afegir l'etiqueta "name:ca" a OpenStreetMap
-Version: 0.3
+Version: 0.4
 Authors@R: 
     person("Joan", "Maspons", email="joanmaspons@gmail.com", role=c("aut", "cre"))
 Maintainer: Joan Maspons <joanmaspons@gmail.com>
