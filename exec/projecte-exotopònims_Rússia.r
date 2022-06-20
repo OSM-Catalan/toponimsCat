@@ -25,7 +25,7 @@ divisions<- read.csv2(file.path(arrelProjecte, "divisions.csv"), check.names=FAL
 for (i in 1:nrow(divisions)){
   areaDivisio<- paste0("['name:ca'='", gsub("\\'", "\\\\'", divisions$`name:ca`[i]) ,"']",
                        "[admin_level=", divisions$admin_level[i], "]")
-  fitxerInforme<- paste0("informe-Rússia-", divisions$`name:ca`[i], "_wikidata.tsv")
+  fitxerInforme<- paste0("informe-Rússia-", divisions$`name:ca`[i], "_", nomTipusObjectes, ".tsv")
   divisions$informe[i]<- file.path(arrelProjecte, "informes", fitxerInforme)
 
   if (FALSE){
@@ -39,15 +39,15 @@ for (i in 1:nrow(divisions)){
                       "rel(", divisions$`@id`[i], ");map_to_area->.divisio; ",
                       tipusObjecte, "(area.divisio)", gsub(paste0("^", tipusObjecte), "", filtreObjectes), "; ",
                       "out tags qt;\"")
-      cmd<- generaInforme(arrelProjecte=arrelProjecte, fitxerInforme=fitxerInforme,
+    cmd<- generaInforme(arrelProjecte=arrelProjecte, fitxerInforme=fitxerInforme,
                           consulta=consulta, actualitzaFitxer=actualitzaFitxer)
-    }
+  }
 
-    if (length(cmd) == 0){
-      cmd<- ""
-    }
+  if (length(cmd) == 0){
+    cmd<- ""
+  }
 
-    divisions$cmd[i]<- cmd
+  divisions$cmd[i]<- cmd
 }
 
 
@@ -69,21 +69,23 @@ actualitzaInformes<- FALSE
 estat<- recompteCasosInformes(dades=divisions)
 estat<- estat[order(estat$nCasosNomWikidata, decreasing=TRUE), ]
 
-write.csv(estat, file=file.path(arrelProjecte, "estat.csv"), row.names=FALSE)
+write.csv(estat, file=file.path(arrelProjecte, paste0("estat_", nomTipusObjectes, ".csv")), row.names=FALSE)
 
 
 ## Descarta els objectes d'OSM sense traducció de wikidata ----
+estat<- read.csv(file.path(arrelProjecte, paste0("estat_", nomTipusObjectes, ".csv")))
 descartaObjectesSenseTraduccions(fitxersInformes=estat$informe)
 
 
 ## Edita les revisions ----
 # les revisions són els casos únics a revisar de "name", "name:ca", "alt_name:ca", "alt_name", "translations", "ca.wikipedia_page", "wikidata_id"
-estat<- read.csv(file=file.path(arrelProjecte, "estat.csv"), check.names=FALSE)
+estat<- read.csv(file=file.path(arrelProjecte, paste0("estat_", nomTipusObjectes, ".csv")), check.names=FALSE)
 estatPendents<- estat[!estat$nObjects %in% c(NA, 0), ] # Selecciona informes amb casos pendents
 estatPendents[order(estatPendents$nCasos, decreasing=TRUE), ]
 
 estatPendents$revisio<- generaRevisions_regexTranslations(informes=estatPendents$informe, arrelProjecte=arrelProjecte,
-                                                          cerca=cerca, substitueix=substitueix, revisioUnificada=TRUE)
+                                                          cerca=cerca, substitueix=substitueix, revisioUnificada=TRUE,
+                                                          nomFitxerUnificat=paste0("revisio-UNIFICADA_", nomTipusObjectes, ".tsv"))
 
 revisio<- lapply(estatPendents$revisio, function(x) read.table(x, header=TRUE, sep="\t", check.names=FALSE))
 
@@ -116,7 +118,7 @@ cmd<- preparaEdicions(arrelProjecte=arrelProjecte, usuari=usuari)
 cmd<- na.omit(cmd)
 
 ## Afegeix paràmetres a les ordres. Veure «update_osm_objects_from_report --help» per les opcions de LangToolsOSM
-regio<- gsub(paste0(".+--input-file \\\"", arrelProjecte, "/edicions/informe-|_name-calle.tsv\\\".+"), "", cmd)
+regio<- gsub(paste0(".+--input-file \\\"", arrelProjecte, "/edicions/informe-|_", nomTipusObjectes, ".tsv\\\".+"), "", cmd)
 cmd<- paste0(cmd, " --changeset-hashtags \"#toponimsCat;#exotopònims\" ",
              " --changeset-comment \"Add «name:ca» in ", regio, "\"")
 cat(cmd)
