@@ -372,12 +372,13 @@ generaRevisions_regexTranslations<- function(informes, arrelProjecte, cerca=" \\
 #'
 #' @param arrelProjecte camí a l'arrel del projecte. La carpeta de destinació serà la subcarpeta \code{edicions} i buscarà els informes i revisions a partir d'aquest camí.
 #' @param usuari nom de l'usuari a OpenStreetMap per pujar les edicions.
+#' @param fitxerContrasenya camí a un fitxer amb la contrasenya de l'usuari per evitar que LangToolsOSM la demani. El fitxer conté una sola línia amb el nom d'usuari i la contrasenya separades per un punt i coma (;) i el llegirà \href{https://osmapi.metaodi.ch/osmapi/OsmApi.html#OsmApi}{Osmapi}.
 #'
 #' @return Vector d'ordres per carregar els fitxers generats amb \code{update_osm_objects_from_report} de \href{https://github.com/OSM-Catalan/LangToolsOSM}{LangToolsOSM}.
 #' @export
 #
 # @examples
-preparaEdicions<- function(arrelProjecte, usuari){
+preparaEdicions<- function(arrelProjecte, usuari, fitxerContrasenya){
   arrelProjecte<- gsub("/$", "", arrelProjecte)  # Normalitza camins per evitar problemes en modificar-los
 
   # Fusiona revisions fetes amb tots els informes que contenen objectes amb etiquetes iguals
@@ -439,7 +440,11 @@ preparaEdicions<- function(arrelProjecte, usuari){
       dFormated<- rbind(dFormated, as.matrix(edicions), deparse.level=0)
       suppressWarnings(utils::write.table(dFormated, file.path(arrelProjecte, "edicions", nomFitxer), sep="\t", na="", col.names=FALSE, row.names=FALSE))
 
-      cmd[i]<- paste0('update_osm_objects_from_report --username ', usuari, ' --batch 100 -v --confirmed-edits --confirm-overwrites --input-file "', file.path(arrelProjecte, "edicions", nomFitxer), '" name:ca')
+      cmd[i]<- paste0('update_osm_objects_from_report --username ', usuari)
+      if (!missing(fitxerContrasenya)){
+        cmd[i]<- paste0(cmd[i], ' --passwordFile "', fitxerContrasenya, '"')
+      }
+      cmd[i]<- paste0(cmd[i], ' -v --confirmed-edits --confirm-overwrites --input-file "', file.path(arrelProjecte, "edicions", nomFitxer), '" name:ca')
       if (!all(is.na(edicions$`alt_name:ca`))){
         cmd[i]<- paste0(cmd[i], " alt_name:ca")
       }
