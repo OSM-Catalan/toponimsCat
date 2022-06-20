@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"alt_name"	"translations"	"ca.wikipedia_page"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"	"name:ca"	"alt_name:ca"	"Var.12"
+"Быстрая Сосна"	"Сосна"	"Sosnà, Riu Sosnà"	"Sosnà"	"Q12562791"	"relation"	"12274891"	""	"{'alt_name': 'Сосна', 'destination': 'Дон', 'name': 'Быстрая Сосна', 'type': 'waterway', 'waterway': 'river', 'wikidata': 'Q12562791', 'wikipedia': 'ru:Быстрая Сосна'}"	"Riu Sosnà"	"Sosnà"	""
+"городское поселение Болхов"	""	"Bólkhov"	"Bólkhov"	"Q105323"	"relation"	" 1825933"	""	"{'addr:country': 'RU', 'addr:district': 'Болховский район', 'addr:region': 'Орловская область', 'admin_level': '8', 'boundary': 'administrative', 'name': 'городское поселение Болхов', 'official_status': 'ru:городское поселение', 'source': 'cadastre', 'source:url': 'http://maps.rosreestr.ru', 'type': 'boundary', 'wikidata': 'Q105323', 'wikipedia': 'ru:Болхов'}"	"bólkhov"	""	""

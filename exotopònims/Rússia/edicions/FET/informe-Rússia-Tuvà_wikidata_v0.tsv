@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"alt_name"	"translations"	"ca.wikipedia_page"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"	"name:ca"	"alt_name:ca"	"Var.12"
+"Ак-Довурак"	""	"Ak-Dovurak"	"Ak-Dovurak"	"Q103115"	"way"	"1068104353"	""	"{'name': 'Ак-Довурак', 'place': 'town', 'population': '13800', 'website': 'https://akdovurak.rtyva.ru/', 'wikidata': 'Q103115', 'wikipedia': 'ru:Ак-Довурак'}"	"Ak-Dovurak"	""	""
+"Туран"	""	"Turan (ciutat de Tuva), Turan"	"Turan (ciutat de Tuva)"	"Q196710"	"relation"	"  13470609"	"name:ru=Туран"	"{'addr:country': 'RU', 'addr:region': 'Респ Тыва', 'name': 'Туран', 'name:ru': 'Туран', 'place': 'town', 'population': '4988', 'type': 'multipolygon', 'wikidata': 'Q196710', 'wikipedia': 'ru:Туран (город)'}"	"Turan"	""	""
