@@ -327,6 +327,11 @@ generaRevisions_regexTranslations<- function(informes, arrelProjecte, cerca=" \\
       # message("Descartant ", sum(senseTraduccio), " objectes sense traducció a wikidata.")
     }
 
+    if (nrow(d) == 0){
+      suppressWarnings(file.remove(file.path(arrelProjecte, "revisions", nomFitxer)))
+      next
+    }
+
     traduccions<- strsplit(d$translations, ", ")
     traduccions<- lapply(traduccions, function(x) unique(gsub(cerca, substitueix, x)))
     d$`name:ca`<- ifelse(d$`name:ca` %in% c("", NA), sapply(traduccions, function(x) x[1]), d$`name:ca`)
