@@ -27,11 +27,10 @@ subdivisionsConsultaOverpass<- function(area, filtreSubdivisions, etiquetes=c("n
   filtres<- paste0("area", area, "; relation(area)", filtreSubdivisions)
   if (format == "csv"){
     # https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#CSV_output_mode
-    q<- paste0("[out:csv(::type, ::id, ", paste(etiquetes, collapse=", "), "; true; ';')]; ",
+    q<- paste0("[out:csv(::type, ::id, ", paste(etiquetes, collapse=", "), "; true; ';')][timeout:1000]; ",
                filtres, "; out;")
   } else if (format == "json"){
-    q<- paste0("[out:json][timeout=100]; ",
-               filtres, "; out body; out skel qt;")
+    q<- paste0("[out:json][timeout:1000]; ", filtres, "; out body; >; out skel qt;")
   }
 
   return(q)
