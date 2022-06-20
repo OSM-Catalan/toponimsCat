@@ -11,7 +11,8 @@ generaRevisions_regexName(
   arrelProjecte,
   cerca,
   substitueix,
-  revisioUnificada = FALSE
+  revisioUnificada = FALSE,
+  nomFitxerUnificat = "revisio-UNIFICADA.tsv"
 )
 
 generaRevisions_regexTranslations(
@@ -20,7 +21,8 @@ generaRevisions_regexTranslations(
   cerca = " \\\\(.+\\\\)",
   substitueix = "",
   ometSenseTraduccions = TRUE,
-  revisioUnificada = FALSE
+  revisioUnificada = FALSE,
+  nomFitxerUnificat = "revisio-UNIFICADA.tsv"
 )
 }
 \arguments{
@@ -33,6 +35,8 @@ generaRevisions_regexTranslations(
 \item{substitueix}{text a substituir.}
 
 \item{revisioUnificada}{si és \code{TRUE}, genera un unic fitxer de revisió. Sinó, genera un fixer de revisió per cada informe.}
+
+\item{nomFitxerUnificat}{nom del fitxer de revisió unificat quan \code{revisioUnificada=TRUE}. Si \code{revisioUnificada=FALSE}, els fitxers de revisió seran \code{gsub("^informe", "revisio", informes)}.}
 
 \item{ometSenseTraduccions}{si és \code{TRUE}, descarta els objectes sense nom en català a wikidata.}
 }

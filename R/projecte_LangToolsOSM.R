@@ -219,6 +219,7 @@ recompteCasosInformes<- function(arrelProjecte, informes, dades){
 #' @param substitueix text a substituir.
 #' @param ometSenseTraduccions si és \code{TRUE}, descarta els objectes sense nom en català a wikidata.
 #' @param revisioUnificada si és \code{TRUE}, genera un unic fitxer de revisió. Sinó, genera un fixer de revisió per cada informe.
+#' @param nomFitxerUnificat nom del fitxer de revisió unificat quan \code{revisioUnificada=TRUE}. Si \code{revisioUnificada=FALSE}, els fitxers de revisió seran \code{gsub("^informe", "revisio", informes)}.
 #'
 #' @return Retorna els camins dels fitxers de revisió generats.
 #' @seealso \link{gsub}
@@ -276,7 +277,7 @@ generaRevisions<- function(informes, arrelProjecte){
 
 #' @rdname generaRevisions
 #' @export
-generaRevisions_regexName<- function(informes, arrelProjecte, cerca, substitueix, revisioUnificada=FALSE){
+generaRevisions_regexName<- function(informes, arrelProjecte, cerca, substitueix, revisioUnificada=FALSE, nomFitxerUnificat="revisio-UNIFICADA.tsv"){
   dL<- generaRevisions(informes=informes, arrelProjecte=arrelProjecte)
   for (i in seq_along(dL)){
     nomFitxer<- names(dL)[i]
@@ -298,8 +299,8 @@ generaRevisions_regexName<- function(informes, arrelProjecte, cerca, substitueix
 
   if (revisioUnificada){
     revisio.TOTS<- unique(do.call(rbind, dL))
-    utils::write.table(revisio.TOTS, file.path(arrelProjecte, "revisions", "revisio-UNIFICADA.tsv"), sep="\t", na="", col.names=TRUE, row.names=FALSE)
-    ret<- file.path(arrelProjecte, "revisions", "revisio-UNIFICADA.tsv")
+    utils::write.table(revisio.TOTS, file.path(arrelProjecte, "revisions", nomFitxerUnificat), sep="\t", na="", col.names=TRUE, row.names=FALSE)
+    ret<- file.path(arrelProjecte, "revisions", nomFitxerUnificat)
   } else {
     ret<- file.path(arrelProjecte, "revisions", names(dL))
   }
@@ -315,7 +316,7 @@ generaRevisions_regexName<- function(informes, arrelProjecte, cerca, substitueix
 
 #' @rdname generaRevisions
 #' @export
-generaRevisions_regexTranslations<- function(informes, arrelProjecte, cerca=" \\(.+\\)", substitueix="", ometSenseTraduccions=TRUE, revisioUnificada=FALSE){
+generaRevisions_regexTranslations<- function(informes, arrelProjecte, cerca=" \\(.+\\)", substitueix="", ometSenseTraduccions=TRUE, revisioUnificada=FALSE, nomFitxerUnificat="revisio-UNIFICADA.tsv"){
   dL<- generaRevisions(informes=informes, arrelProjecte=arrelProjecte)
   for (i in seq_along(dL)){
     nomFitxer<- names(dL)[i]
@@ -345,8 +346,8 @@ generaRevisions_regexTranslations<- function(informes, arrelProjecte, cerca=" \\
 
   if (revisioUnificada){
     revisio.TOTS<- unique(do.call(rbind, dL))
-    utils::write.table(revisio.TOTS, file.path(arrelProjecte, "revisions", "revisio-UNIFICADA.tsv"), sep="\t", na="", col.names=TRUE, row.names=FALSE)
-    ret<- file.path(arrelProjecte, "revisions", "revisio-UNIFICADA.tsv")
+    utils::write.table(revisio.TOTS, file.path(arrelProjecte, "revisions", nomFitxerUnificat), sep="\t", na="", col.names=TRUE, row.names=FALSE)
+    ret<- file.path(arrelProjecte, "revisions", nomFitxerUnificat)
   } else {
     ret<- file.path(arrelProjecte, "revisions", names(dL))
   }
