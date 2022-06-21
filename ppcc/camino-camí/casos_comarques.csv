@@ -1,0 +1,97 @@
+"type","id","name","name:ca","parcial","regio","admin_level","historic:admin_level","informe","cmd","nObjects","nCasos","nObjectesNomWikidata","nCasosNomWikidata","revisat"
+"relation",2804753,"Andorra la Vella","Andorra la Vella",FALSE,"Andorra",7,NA,"ppcc/camino-camí/informes/informe-Andorra-Andorra la Vella_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2804754,"Canillo","Canillo",FALSE,"Andorra",7,NA,"ppcc/camino-camí/informes/informe-Andorra-Canillo_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2804755,"Encamp","Encamp",FALSE,"Andorra",7,NA,"ppcc/camino-camí/informes/informe-Andorra-Encamp_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2804756,"Escaldes-Engordany","Escaldes-Engordany",FALSE,"Andorra",7,NA,"ppcc/camino-camí/informes/informe-Andorra-Escaldes-Engordany_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2804757,"La Massana","La Massana",FALSE,"Andorra",7,NA,"ppcc/camino-camí/informes/informe-Andorra-La Massana_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2804758,"Ordino","Ordino",FALSE,"Andorra",7,NA,"ppcc/camino-camí/informes/informe-Andorra-Ordino_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2804759,"Sant Julià de Lòria","Sant Julià de Lòria",FALSE,"Andorra",7,NA,"ppcc/camino-camí/informes/informe-Andorra-Sant Julià de Lòria_name-camino.tsv","",0,0,0,0,FALSE
+"relation",13433224,"Alta Cerdanya","Alta Cerdanya",FALSE,"CatNord",NA,7,"ppcc/camino-camí/informes/informe-CatNord-Alta Cerdanya_name-camino.tsv","",0,0,0,0,FALSE
+"relation",13433225,"Vallespir","Vallespir",FALSE,"CatNord",NA,7,"ppcc/camino-camí/informes/informe-CatNord-Vallespir_name-camino.tsv","",0,0,0,0,FALSE
+"relation",13433226,"Conflent","Conflent",FALSE,"CatNord",NA,7,"ppcc/camino-camí/informes/informe-CatNord-Conflent_name-camino.tsv","",0,0,0,0,FALSE
+"relation",13433227,"Capcir","Capcir",FALSE,"CatNord",NA,7,"ppcc/camino-camí/informes/informe-CatNord-Capcir_name-camino.tsv","",0,0,0,0,FALSE
+"relation",13433228,"Rosselló","Rosselló",FALSE,"CatNord",NA,7,"ppcc/camino-camí/informes/informe-CatNord-Rosselló_name-camino.tsv","",0,0,0,0,FALSE
+"relation",6630537,"Matarraña / Matarranya","Matarranya",FALSE,"Franja",7,NA,"ppcc/camino-camí/informes/informe-Franja-Matarranya_name-camino.tsv","",18,12,0,0,FALSE
+"relation",6488309,"La Ribagorza","Ribagorça",TRUE,"Franja",7,NA,"ppcc/camino-camí/informes/informe-Franja-Ribagorça_name-camino.tsv","",32,20,0,0,FALSE
+"relation",6488338,"La Litera / La Llitera","La Llitera",TRUE,"Franja",7,NA,"ppcc/camino-camí/informes/informe-Franja-La Llitera_name-camino.tsv","",56,33,0,0,FALSE
+"relation",6488361,"Bajo Cinca / Baix Cinca","Baix Cinca",TRUE,"Franja",7,NA,"ppcc/camino-camí/informes/informe-Franja-Baix Cinca_name-camino.tsv","",24,17,0,0,FALSE
+"relation",6630546,"Bajo Aragón","Baix Aragó",TRUE,"Franja",7,NA,"ppcc/camino-camí/informes/informe-Franja-Baix Aragó_name-camino.tsv","",11,9,0,0,FALSE
+"relation",10601144,"Bajo Aragón-Caspe / Baix Aragó-Casp","Baix Aragó-Casp",TRUE,"Franja",7,NA,"ppcc/camino-camí/informes/informe-Franja-Baix Aragó-Casp_name-camino.tsv","",23,11,0,0,FALSE
+"relation",2174950,"Migjorn","Migjorn",FALSE,"Illes",7,NA,"ppcc/camino-camí/informes/informe-Illes-Migjorn_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2174951,"Palma","Palma",FALSE,"Illes",7,NA,"ppcc/camino-camí/informes/informe-Illes-Palma_name-camino.tsv","",2,2,0,0,FALSE
+"relation",2175689,"Raiguer","Raiguer",FALSE,"Illes",7,NA,"ppcc/camino-camí/informes/informe-Illes-Raiguer_name-camino.tsv","",5,2,0,0,FALSE
+"relation",2175756,"Serra de Tramuntana","Serra de Tramuntana",FALSE,"Illes",7,NA,"ppcc/camino-camí/informes/informe-Illes-Serra de Tramuntana_name-camino.tsv","",4,3,0,0,FALSE
+"relation",2175937,"Pla de Mallorca","Pla de Mallorca",FALSE,"Illes",7,NA,"ppcc/camino-camí/informes/informe-Illes-Pla de Mallorca_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2176079,"Llevant","Llevant",FALSE,"Illes",7,NA,"ppcc/camino-camí/informes/informe-Illes-Llevant_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2181664,"Eivissa","Eivissa",FALSE,"Illes",7,NA,"ppcc/camino-camí/informes/informe-Illes-Eivissa_name-camino.tsv","",3,3,0,0,FALSE
+"relation",2182003,"Menorca","Menorca",FALSE,"Illes",7,NA,"ppcc/camino-camí/informes/informe-Illes-Menorca_name-camino.tsv","",21,10,0,0,FALSE
+"relation",6914328,"Formentera","Formentera",FALSE,"Illes",7,NA,"ppcc/camino-camí/informes/informe-Illes-Formentera_name-camino.tsv","",2,2,0,0,FALSE
+"relation",358838,"Berguedà","Berguedà",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Berguedà_name-camino.tsv","",0,0,0,0,FALSE
+"relation",368462,"Selva","Selva",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Selva_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2140187,"Maresme","Maresme",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Maresme_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2177382,"Alt Empordà","Alt Empordà",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Alt Empordà_name-camino.tsv","",1,1,0,0,FALSE
+"relation",2350067,"Vallès Occidental","Vallès Occidental",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Vallès Occidental_name-camino.tsv","",7,6,0,0,FALSE
+"relation",2350331,"Bages","Bages",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Bages_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2417889,"Barcelonès","Barcelonès",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Barcelonès_name-camino.tsv","",1,1,0,0,FALSE
+"relation",2417929,"Vallès Oriental","Vallès Oriental",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Vallès Oriental_name-camino.tsv","",5,4,0,0,FALSE
+"relation",2422857,"Osona","Osona",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Osona_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2805694,"Baix Empordà","Baix Empordà",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Baix Empordà_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2805972,"Cerdanya","Cerdanya",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Cerdanya_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2806754,"Ripollès","Ripollès",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Ripollès_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2806999,"Garrotxa","Garrotxa",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Garrotxa_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2807130,"Gironès","Gironès",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Gironès_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2807146,"Pla de l'Estany","Pla de l'Estany",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Pla de l'Estany_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2808804,"Anoia","Anoia",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Anoia_name-camino.tsv","",1,1,0,0,FALSE
+"relation",2809162,"Solsonès","Solsonès",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Solsonès_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2809457,"Baix Llobregat","Baix Llobregat",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Baix Llobregat_name-camino.tsv","",15,3,0,0,FALSE
+"relation",2809538,"Garraf","Garraf",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Garraf_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2809672,"Alt Penedès","Alt Penedès",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Alt Penedès_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2810001,"Alt Urgell","Alt Urgell",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Alt Urgell_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2810705,"Pallars Sobirà","Pallars Sobirà",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Pallars Sobirà_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2810808,"Alta Ribagorça","Alta Ribagorça",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Alta Ribagorça_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2810954,"Pallars Jussà","Pallars Jussà",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Pallars Jussà_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2815579,"Segarra","Segarra",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Segarra_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2816276,"Noguera","Noguera",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Noguera_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2818895,"Urgell","Urgell",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Urgell_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2819346,"Pla d'Urgell","Pla d'Urgell",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Pla d'Urgell_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2819857,"Segrià","Segrià",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Segrià_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2819870,"Garrigues","Garrigues",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Garrigues_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2822039,"Conca de Barberà","Conca de Barberà",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Conca de Barberà_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2822130,"Alt Camp","Alt Camp",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Alt Camp_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2822410,"Baix Penedès","Baix Penedès",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Baix Penedès_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2822691,"Tarragonès","Tarragonès",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Tarragonès_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2824935,"Baix Camp","Baix Camp",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Baix Camp_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2826145,"Priorat","Priorat",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Priorat_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2826423,"Baix Ebre","Baix Ebre",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Baix Ebre_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2827413,"Montsià","Montsià",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Montsià_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2829952,"Ribera d'Ebre","Ribera d'Ebre",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Ribera d'Ebre_name-camino.tsv","",0,0,0,0,FALSE
+"relation",2829953,"Terra Alta","Terra Alta",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Terra Alta_name-camino.tsv","",4,3,0,0,FALSE
+"relation",4791885,"Moianès","Moianès",FALSE,"Principat",7,NA,"ppcc/camino-camí/informes/informe-Principat-Moianès_name-camino.tsv","",0,0,0,0,FALSE
+"relation",1111146,"l'Alcalatén","l'Alcalatén",FALSE,"PV",7,NA,"ppcc/camino-camí/informes/informe-PV-l'Alcalatén_name-camino.tsv","",25,13,0,0,FALSE
+"relation",1690971,"l'Alt Maestrat","l'Alt Maestrat",FALSE,"PV",7,NA,"ppcc/camino-camí/informes/informe-PV-l'Alt Maestrat_name-camino.tsv","",16,7,0,0,FALSE
+"relation",1690974,"el Baix Maestrat","el Baix Maestrat",FALSE,"PV",7,NA,"ppcc/camino-camí/informes/informe-PV-el Baix Maestrat_name-camino.tsv","",56,22,0,0,FALSE
+"relation",1690975,"la Plana Alta","la Plana Alta",FALSE,"PV",7,NA,"ppcc/camino-camí/informes/informe-PV-la Plana Alta_name-camino.tsv","",538,149,0,0,FALSE
+"relation",1690976,"la Plana Baixa","la Plana Baixa",FALSE,"PV",7,NA,"ppcc/camino-camí/informes/informe-PV-la Plana Baixa_name-camino.tsv","",186,69,0,0,FALSE
+"relation",1691745,"el Camp de Morvedre","el Camp de Morvedre",FALSE,"PV",7,NA,"ppcc/camino-camí/informes/informe-PV-el Camp de Morvedre_name-camino.tsv","",32,11,0,0,FALSE
+"relation",1691749,"l'Horta Nord","l'Horta Nord",FALSE,"PV",7,NA,"ppcc/camino-camí/informes/informe-PV-l'Horta Nord_name-camino.tsv","",25,10,0,0,FALSE
+"relation",1691750,"l'Horta Oest","l'Horta Oest",FALSE,"PV",7,NA,"ppcc/camino-camí/informes/informe-PV-l'Horta Oest_name-camino.tsv","",47,21,0,0,FALSE
+"relation",1691751,"l'Horta Sud","l'Horta Sud",FALSE,"PV",7,NA,"ppcc/camino-camí/informes/informe-PV-l'Horta Sud_name-camino.tsv","",63,23,0,0,FALSE
+"relation",1691752,"la Costera","la Costera",FALSE,"PV",7,NA,"ppcc/camino-camí/informes/informe-PV-la Costera_name-camino.tsv","",44,20,0,0,FALSE
+"relation",1691756,"la Ribera Baixa","la Ribera Baixa",FALSE,"PV",7,NA,"ppcc/camino-camí/informes/informe-PV-la Ribera Baixa_name-camino.tsv","",16,8,0,0,FALSE
+"relation",1691758,"la Safor","la Safor",FALSE,"PV",7,NA,"ppcc/camino-camí/informes/informe-PV-la Safor_name-camino.tsv","",27,13,0,0,FALSE
+"relation",1691760,"la Vall d'Albaida","la Vall d'Albaida",FALSE,"PV",7,NA,"ppcc/camino-camí/informes/informe-PV-la Vall d'Albaida_name-camino.tsv","",29,22,0,0,FALSE
+"relation",1692438,"l'Alacantí","l'Alacantí",FALSE,"PV",7,NA,"ppcc/camino-camí/informes/informe-PV-l'Alacantí_name-camino.tsv","",252,141,0,0,FALSE
+"relation",1692440,"el Baix Vinalopó","el Baix Vinalopó",FALSE,"PV",7,NA,"ppcc/camino-camí/informes/informe-PV-el Baix Vinalopó_name-camino.tsv","",97,43,0,0,FALSE
+"relation",1692441,"el Comtat","el Comtat",FALSE,"PV",7,NA,"ppcc/camino-camí/informes/informe-PV-el Comtat_name-camino.tsv","",6,6,0,0,FALSE
+"relation",1692442,"l'Alcoià","l'Alcoià",FALSE,"PV",7,NA,"ppcc/camino-camí/informes/informe-PV-l'Alcoià_name-camino.tsv","",28,19,0,0,FALSE
+"relation",1692443,"la Marina Alta","la Marina Alta",FALSE,"PV",7,NA,"ppcc/camino-camí/informes/informe-PV-la Marina Alta_name-camino.tsv","",43,26,0,0,FALSE
+"relation",1692445,"la Marina Baixa","la Marina Baixa",FALSE,"PV",7,NA,"ppcc/camino-camí/informes/informe-PV-la Marina Baixa_name-camino.tsv","",20,12,0,0,FALSE
+"relation",5813174,"Comarca de València","Comarca de València",FALSE,"PV",7,NA,"ppcc/camino-camí/informes/informe-PV-Comarca de València_name-camino.tsv","",16,14,0,0,FALSE
+"relation",1110951,"els Ports","els Ports",TRUE,"PV",7,NA,"ppcc/camino-camí/informes/informe-PV-els Ports_name-camino.tsv","",20,2,0,0,FALSE
+"relation",1691746,"el Camp de Túria","el Camp de Túria",TRUE,"PV",7,NA,"ppcc/camino-camí/informes/informe-PV-el Camp de Túria_name-camino.tsv","",67,34,0,0,FALSE
+"relation",1691755,"la Ribera Alta","la Ribera Alta",TRUE,"PV",7,NA,"ppcc/camino-camí/informes/informe-PV-la Ribera Alta_name-camino.tsv","",51,20,0,0,FALSE
+"relation",1692439,"l'Alt Vinalopó / El Alto Vinalopó","l'Alt Vinalopó",TRUE,"PV",7,NA,"ppcc/camino-camí/informes/informe-PV-l'Alt Vinalopó_name-camino.tsv","",12,7,0,0,FALSE
+"relation",1692446,"el Vinalopó Mitjà / El Vinalopó Medio","el Vinalopó Mitjà",TRUE,"PV",7,NA,"ppcc/camino-camí/informes/informe-PV-el Vinalopó Mitjà_name-camino.tsv","",75,64,0,0,FALSE
+"relation",1692447,"el Baix Segura / La Vega Baja del Segura","el Baix Segura",TRUE,"PV",7,NA,"ppcc/camino-camí/informes/informe-PV-el Baix Segura_name-camino.tsv","",35,24,0,0,FALSE
+"relation",11755232,"El Carche","el Carxe",FALSE,"Múrcia",NA,NA,"ppcc/camino-camí/informes/informe-Múrcia-el Carxe_name-camino.tsv","",0,0,0,0,FALSE
+"relation",40581,"Alghero - L'Alguer","L'Alguer",FALSE,"Sardenya",8,NA,"ppcc/camino-camí/informes/informe-Sardenya-L'Alguer_name-camino.tsv","",0,0,0,0,FALSE
