@@ -442,7 +442,7 @@ preparaEdicions<- function(arrelProjecte, usuari, fitxerContrasenya){
 
       cmd[i]<- paste0('update_osm_objects_from_report --username ', usuari)
       if (!missing(fitxerContrasenya)){
-        cmd[i]<- paste0(cmd[i], ' --passwordFile "', fitxerContrasenya, '"')
+        cmd[i]<- paste0(cmd[i], ' --passwordfile "', fitxerContrasenya, '"')
       }
       cmd[i]<- paste0(cmd[i], ' -v --confirmed-edits --confirm-overwrites --input-file "', file.path(arrelProjecte, "edicions", nomFitxer), '" name:ca')
       if (!all(is.na(edicions$`alt_name:ca`))){
@@ -480,8 +480,12 @@ actualitzaInformesCarregats<- function(arrelProjecte, esborraInformesDesactualit
   ret<- character()
   for (i in seq_along(fitxersFets)){
     if (esborraInformesDesactualitzats){
-      file.remove(fitxersInformesOri[i])
+      suppressWarnings(file.remove(fitxersInformesOri[i]))
       ret<- c(ret, fitxersInformesOri[i])
+      next
+    }
+
+    if (!file.exists(fitxersInformesOri[i])){
       next
     }
 
