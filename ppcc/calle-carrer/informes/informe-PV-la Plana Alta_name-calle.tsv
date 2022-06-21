@@ -273,7 +273,6 @@
 "way"	"429916028"	"Calle del agua"	""	""	""	""	""	""	""	"{'highway': 'pedestrian', 'name': 'Calle del agua'}"
 "way"	"429916029"	"Calle del agua"	""	""	""	""	""	""	""	"{'highway': 'pedestrian', 'name': 'Calle del agua', 'oneway': 'yes'}"
 "way"	"643824939"	"Calle Botánico Cabanilles"	""	""	""	""	""	""	""	"{'highway': 'residential', 'lanes': '2', 'name': 'Calle Botánico Cabanilles', 'oneway': 'yes'}"
-"way"	"41688236"	"Calle de la Vall d'Umbrí"	""	""	""	""	""	""	""	"{'highway': 'unclassified', 'name': """"Calle de la Vall d'Umbrí"""", 'oneway': 'no', 'surface': 'dirt', 'width': '3'}"
 "way"	"24152299"	"Calle Botánico Cabanilles"	""	""	""	""	""	""	""	"{'highway': 'residential', 'lanes': '2', 'name': 'Calle Botánico Cabanilles', 'oneway': 'yes'}"
 "way"	"24152300"	"Calle Botánico Cabanilles"	""	""	""	""	""	""	""	"{'highway': 'residential', 'lanes': '2', 'name': 'Calle Botánico Cabanilles', 'oneway': 'yes'}"
 "way"	"24152539"	"Calle Leopoldo Querol Rosso"	""	""	""	""	""	""	""	"{'highway': 'residential', 'lanes': '2', 'name': 'Calle Leopoldo Querol Rosso', 'oneway': 'no'}"
