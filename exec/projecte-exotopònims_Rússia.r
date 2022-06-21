@@ -4,6 +4,7 @@ arrelProjecte<- "exotopònims/Rússia"
 fitxerInforme<- "informe-Rússia_wikidata.tsv"
 filtreArea<- "['name:ca'='Rússia'][admin_level=2]"
 filtreObjectes<- "nwr[wikidata][name][!'name:ca']"
+revisioUnificada<- TRUE
 
 # Expressions regulars sobre noms en català trets de wikidata
 cerca<- " \\(.+\\)"  # Elimina aclaració entre parentesis habitual en alguns títols de la viquipèdia
@@ -84,7 +85,7 @@ estatPendents<- estat[!estat$nObjects %in% c(NA, 0), ] # Selecciona informes amb
 estatPendents[order(estatPendents$nCasos, decreasing=TRUE), ]
 
 estatPendents$revisio<- generaRevisions_regexTranslations(informes=estatPendents$informe, arrelProjecte=arrelProjecte,
-                                                          cerca=cerca, substitueix=substitueix, revisioUnificada=TRUE,
+                                                          cerca=cerca, substitueix=substitueix, revisioUnificada=revisioUnificada,
                                                           nomFitxerUnificat=paste0("revisio-UNIFICADA_", nomTipusObjectes, ".tsv"))
 
 revisio<- lapply(estatPendents$revisio, function(x) read.table(x, header=TRUE, sep="\t", check.names=FALSE))
@@ -102,10 +103,10 @@ mapply(function(revi, nomFitxer){
     return(fitxer)
   }, revi=revisio, nomFitxer=estatPendents$revisio)
 
-# Reviseu i modifiqueu la revisió de l'informe que vulgueu de ppcc/calle-carrer/revisions/.
+# Reviseu i modifiqueu la revisió de l'informe que vulgueu de revisions/.
 # Cal corregir els casos de name:ca i alt_name:ca incorrectes, esborrar-los o deixar-los en blanc si no és clar.
 # És recomanable usar LibreOffice per evitar problemes de codificació i formats dels fitxers (https://www.softcatala.org/programes/libreoffice/)
-# Moveu les revisions acabades a ppcc/calle-carrer/revisions/FET/.
+# Moveu les revisions acabades a revisions/FET/.
 # Si carregueu les edicions a OSM i actualitzeu els informes i revisions després d'acabar cada fitxer de revisió,
 # és possible que es reutilitzin alguns casos a altres informes. Podeu seguir l'script fins al final i tornar a
 # començar per actualitzar els fitxers de revisions
@@ -114,14 +115,14 @@ mapply(function(revi, nomFitxer){
 ## Fusiona les revisions fetes amb els informes i genera ordres per carregar-los a OSM ----
 usuari<- "$NomUsuari" # Modifiqueu-ho amb el vostre nom d'usuari a OSM
 
-cmd<- preparaEdicions(arrelProjecte=arrelProjecte, usuari=usuari)
+cmd<- preparaEdicions(arrelProjecte=arrelProjecte, usuari=usuari, fitxerContrasenya=fitxerpas)
 cmd<- na.omit(cmd)
 
 ## Afegeix paràmetres a les ordres. Veure «update_osm_objects_from_report --help» per les opcions de LangToolsOSM
 regio<- gsub(paste0(".+--input-file \\\"", arrelProjecte, "/edicions/informe-|_", nomTipusObjectes, ".tsv\\\".+"), "", cmd)
 cmd<- paste0(cmd, " --changeset-hashtags \"#toponimsCat;#exotopònims\" ",
              " --changeset-comment \"Add «name:ca» in ", regio, "\"")
-cat(cmd)
+cat(cmd, sep="\n")
 
 ## Executa les ordres
 for (i in 1:length(cmd)){

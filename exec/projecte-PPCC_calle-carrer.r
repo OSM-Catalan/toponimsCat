@@ -5,7 +5,9 @@ arrelProjecte<- "ppcc/calle-carrer"
 actualitzaInformes<- FALSE # actualitzaInformes<- TRUE
 filtre<- "nwr[name~'^[Cc]alle'][!'name:ca']"
 sufixFitxers<- "_name-calle"
-
+cerca<- "([Cc])alle "
+substitueix<- "\\1arrer "
+revisioUnificada<- FALSE
 
 ## Generar informes per comarques dels PPCC amb LangToolsOSM ----
 comarques<- generaInformesPPCC(arrelProjecte=arrelProjecte, filtre=filtre,
@@ -26,24 +28,24 @@ actualitzaInformes<- FALSE
 
 ## Avalua el nombre de casos a cada informe generat ----
 comarques<- recompteCasosInformes(dades=comarques)
-comarques<- comarques[order(comarques$nCasos, decreasing=TRUE), ]
+comarques[intersect(order(comarques$nCasos, decreasing=TRUE), which(!comarques$revisat & comarques$nObjects > 0)), ]
 
-write.csv(comarques, file="ppcc/calle-carrer/casos_comarques.csv", row.names=FALSE)
+write.csv(comarques, file=file.path(arrelProjecte, "casos_comarques.csv"), row.names=FALSE)
 
 
 ## Edita les revisions ----
 # les revisions són els casos únics a revisar de "name", "name:ca", "alt_name:ca", "alt_name", "translations", "ca.wikipedia_page", "wikidata_id"
-comarques<- read.csv(file="ppcc/calle-carrer/casos_comarques.csv", check.names=FALSE)
+comarques<- read.csv(file=file.path(arrelProjecte, "casos_comarques.csv"), check.names=FALSE)
 comarques<- comarques[!comarques$nObjects %in% c(NA, 0), ] # Selecciona comarques amb casos pendents
 comarques[order(comarques$nCasos, decreasing=TRUE), ]
 
 comarques$revisio<- generaRevisions_regexName(informes=comarques$informe, arrelProjecte=arrelProjecte,
-                          cerca="([Cc])alle ", substitueix="\\1arrer ", revisioUnificada=FALSE)
+                                              cerca=cerca, substitueix=substitueix, revisioUnificada=revisioUnificada)
 
-# Reviseu i modifiqueu la revisió de l'informe que vulgueu de ppcc/calle-carrer/revisions/.
+# Reviseu i modifiqueu la revisió de l'informe que vulgueu de revisions/.
 # Cal corregir els casos de name:ca i alt_name:ca incorrectes, esborrar-los o deixar-los en blanc si no és clar.
 # És recomanable usar LibreOffice per evitar problemes de codificació i formats dels fitxers (https://www.softcatala.org/programes/libreoffice/)
-# Moveu les revisions acabades a ppcc/calle-carrer/revisions/FET/.
+# Moveu les revisions acabades a revisions/FET/.
 # Si carregueu les edicions a OSM i actualitzeu els informes i revisions després d'acabar cada fitxer de revisió,
 # és possible que es reutilitzin alguns casos a altres comarques. Podeu seguir l'script fins al final i tornar a
 # començar per actualitzar els fitxers de revisions
