@@ -306,7 +306,7 @@ generaRevisions_regexName<- function(informes, arrelProjecte, cerca, substitueix
   }
   message("FET! Reviseu i modifiqueu la revisió de l'informe que vulgueu de ",
           file.path(arrelProjecte, "revisions"), "/.\n",
-          "Cal corregir els casos de name:ca i alt_name:ca incorrectes i esborrar-los i deixar-los en blanc si no és clar.\n",
+          "Cal corregir els casos de name:ca i alt_name:ca incorrectes i esborrar-los o deixar-los en blanc si no és clar.\n",
           "Moveu les revisions acabades a ", file.path(arrelProjecte, "revisions", "FET"), "/."
   )
 
@@ -358,7 +358,7 @@ generaRevisions_regexTranslations<- function(informes, arrelProjecte, cerca=" \\
   }
   message("FET! Reviseu i modifiqueu la revisió de l'informe que vulgueu de ",
           file.path(arrelProjecte, "revisions"), "/.\n",
-          "Cal corregir els casos de name:ca i alt_name:ca incorrectes i esborrar-los i deixar-los en blanc si no és clar.\n",
+          "Cal corregir els casos de name:ca i alt_name:ca incorrectes i esborrar-los o deixar-los en blanc si no és clar.\n",
           "Moveu les revisions acabades a ", file.path(arrelProjecte, "revisions", "FET"), "/."
   )
 
@@ -402,15 +402,19 @@ preparaEdicions<- function(arrelProjecte, usuari, fitxerContrasenya){
     return(character())
   }
 
-  ## Genera versions començant per majúscula I per minúscula (útil reutilitzar revisions p.ex. de «carrer/Carrer»)
+  ## Genera versions començant per majúscula i per minúscula (útil per reutilitzar revisions p.ex. de «carrer/Carrer»)
   revisio.casosFETS_min<- apply(revisio.casosFETS[, c("name", "name:ca", "alt_name", "alt_name:ca")], 1, function(x){
-    paste0(tolower(substr(x, 1, 1)), substr(x, 2, nchar(x)))
+    out<- paste0(tolower(substr(x, 1, 1)), substr(x, 2, nchar(x)))
+    out[is.na(x)]<- NA
+    return(out)
   })
   revisio.casosFETS[, c("name", "name:ca", "alt_name", "alt_name:ca")]<- as.data.frame(t(revisio.casosFETS_min))
   revisio.casosFETS_min<- revisio.casosFETS<- unique(revisio.casosFETS)
 
   revisio.casosFETS_maj<- apply(revisio.casosFETS[, c("name", "name:ca", "alt_name", "alt_name:ca")], 1, function(x){
-    paste0(toupper(substr(x, 1, 1)), substr(x, 2, nchar(x)))
+    out<- paste0(toupper(substr(x, 1, 1)), substr(x, 2, nchar(x)))
+    out[is.na(x)]<- NA
+    return(out)
   })
   revisio.casosFETS[, c("name", "name:ca", "alt_name", "alt_name:ca")]<- as.data.frame(t(revisio.casosFETS_maj))
   revisio.casosFETS_maj<- revisio.casosFETS
@@ -442,7 +446,7 @@ preparaEdicions<- function(arrelProjecte, usuari, fitxerContrasenya){
 
       cmd[i]<- paste0('update_osm_objects_from_report --username ', usuari)
       if (!missing(fitxerContrasenya)){
-        cmd[i]<- paste0(cmd[i], ' --passwordfile "', fitxerContrasenya, '"')
+        cmd[i]<- paste0(cmd[i], ' --passwordfile ', fitxerContrasenya)
       }
       cmd[i]<- paste0(cmd[i], ' -v --confirmed-edits --confirm-overwrites --input-file "', file.path(arrelProjecte, "edicions", nomFitxer), '" name:ca')
       if (!all(is.na(edicions$`alt_name:ca`))){
