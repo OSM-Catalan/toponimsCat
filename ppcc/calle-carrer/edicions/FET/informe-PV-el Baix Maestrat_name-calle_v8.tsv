@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""
+"name"	"alt_name"	"translations"	"ca.wikipedia_page"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"	"name:ca"	"alt_name:ca"
+"Calle Esperanza"					"way"	"1052252186"		"{'highway': 'pedestrian', 'name': 'Calle Esperanza'}"	"Carrer Esperança"	
+"Calle San Juan"					"way"	" 205130250"		"{'highway': 'living_street', 'name': 'Calle San Juan', 'source': 'PNOA;Catastro'}"	"Carrer Sant Joan"	
+"Calle San Juan"					"way"	" 202202967"		"{'highway': 'pedestrian', 'name': 'Calle San Juan', 'source': 'PNOA;Catastro'}"	"Carrer Sant Joan"	
+"Calle San Pedro"					"way"	" 201673552"		"{'highway': 'residential', 'name': 'Calle San Pedro', 'source': 'PNOA;Catastro'}"	"Carrer Sant Pere"	

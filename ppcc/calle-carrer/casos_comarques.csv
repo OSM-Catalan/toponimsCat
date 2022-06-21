@@ -3,29 +3,29 @@
 "relation",1692443,"la Marina Alta","la Marina Alta",FALSE,"PV",7,NA,"ppcc/calle-carrer/informes/informe-PV-la Marina Alta_name-calle.tsv","",1029,772,0,0,FALSE
 "relation",1691750,"l'Horta Oest","l'Horta Oest",FALSE,"PV",7,NA,"ppcc/calle-carrer/informes/informe-PV-l'Horta Oest_name-calle.tsv","",872,536,0,0,TRUE
 "relation",1692440,"el Baix Vinalopó","el Baix Vinalopó",FALSE,"PV",7,NA,"ppcc/calle-carrer/informes/informe-PV-el Baix Vinalopó_name-calle.tsv","",717,455,0,0,FALSE
-"relation",1691746,"el Camp de Túria","el Camp de Túria",TRUE,"PV",7,NA,"ppcc/calle-carrer/informes/informe-PV-el Camp de Túria_name-calle.tsv","",525,394,0,0,FALSE
+"relation",1691746,"el Camp de Túria","el Camp de Túria",TRUE,"PV",7,NA,"ppcc/calle-carrer/informes/informe-PV-el Camp de Túria_name-calle.tsv","",523,392,0,0,FALSE
 "relation",1692446,"el Vinalopó Mitjà / El Vinalopó Medio","el Vinalopó Mitjà",TRUE,"PV",7,NA,"ppcc/calle-carrer/informes/informe-PV-el Vinalopó Mitjà_name-calle.tsv","",501,387,0,0,FALSE
 "relation",1690975,"la Plana Alta","la Plana Alta",FALSE,"PV",7,NA,"ppcc/calle-carrer/informes/informe-PV-la Plana Alta_name-calle.tsv","",682,346,0,0,TRUE
-"relation",1691755,"la Ribera Alta","la Ribera Alta",TRUE,"PV",7,NA,"ppcc/calle-carrer/informes/informe-PV-la Ribera Alta_name-calle.tsv","",459,341,0,0,FALSE
-"relation",1690976,"la Plana Baixa","la Plana Baixa",FALSE,"PV",7,NA,"ppcc/calle-carrer/informes/informe-PV-la Plana Baixa_name-calle.tsv","",461,288,0,0,TRUE
+"relation",1691755,"la Ribera Alta","la Ribera Alta",TRUE,"PV",7,NA,"ppcc/calle-carrer/informes/informe-PV-la Ribera Alta_name-calle.tsv","",451,337,0,0,FALSE
+"relation",1690976,"la Plana Baixa","la Plana Baixa",FALSE,"PV",7,NA,"ppcc/calle-carrer/informes/informe-PV-la Plana Baixa_name-calle.tsv","",448,285,0,0,TRUE
 "relation",1692442,"l'Alcoià","l'Alcoià",FALSE,"PV",7,NA,"ppcc/calle-carrer/informes/informe-PV-l'Alcoià_name-calle.tsv","",101,77,0,0,TRUE
-"relation",6630537,"Matarraña / Matarranya","Matarranya",FALSE,"Franja",7,NA,"ppcc/calle-carrer/informes/informe-Franja-Matarranya_name-calle.tsv","",78,56,0,0,TRUE
-"relation",1691760,"la Vall d'Albaida","la Vall d'Albaida",FALSE,"PV",7,NA,"ppcc/calle-carrer/informes/informe-PV-la Vall d'Albaida_name-calle.tsv","",95,54,0,0,TRUE
+"relation",6630537,"Matarraña / Matarranya","Matarranya",FALSE,"Franja",7,NA,"ppcc/calle-carrer/informes/informe-Franja-Matarranya_name-calle.tsv","",74,53,0,0,TRUE
 "relation",1692445,"la Marina Baixa","la Marina Baixa",FALSE,"PV",7,NA,"ppcc/calle-carrer/informes/informe-PV-la Marina Baixa_name-calle.tsv","",61,51,0,0,TRUE
-"relation",6488361,"Bajo Cinca / Baix Cinca","Baix Cinca",TRUE,"Franja",7,NA,"ppcc/calle-carrer/informes/informe-Franja-Baix Cinca_name-calle.tsv","",86,48,0,0,TRUE
-"relation",1111146,"l'Alcalatén","l'Alcalatén",FALSE,"PV",7,NA,"ppcc/calle-carrer/informes/informe-PV-l'Alcalatén_name-calle.tsv","write_osm_objects_report --lang ca -v --output ""ppcc/calle-carrer/informes/informe-PV-l'Alcalatén_name-calle.tsv"" name:ca alt_name:ca alt_name --filters ""nwr[name~'^[Cc]alle'][!'name:ca']"" --area ""['name:ca'='l\'Alcalatén'][admin_level=7]""",98,48,0,0,TRUE
-"relation",6630546,"Bajo Aragón","Baix Aragó",TRUE,"Franja",7,NA,"ppcc/calle-carrer/informes/informe-Franja-Baix Aragó_name-calle.tsv","",61,39,0,0,TRUE
-"relation",1691758,"la Safor","la Safor",FALSE,"PV",7,NA,"ppcc/calle-carrer/informes/informe-PV-la Safor_name-calle.tsv","",47,36,0,0,TRUE
-"relation",1690974,"el Baix Maestrat","el Baix Maestrat",FALSE,"PV",7,NA,"ppcc/calle-carrer/informes/informe-PV-el Baix Maestrat_name-calle.tsv","",43,35,0,0,TRUE
-"relation",6488309,"La Ribagorza","Ribagorça",TRUE,"Franja",7,NA,"ppcc/calle-carrer/informes/informe-Franja-Ribagorça_name-calle.tsv","",50,31,0,0,TRUE
-"relation",1691745,"el Camp de Morvedre","el Camp de Morvedre",FALSE,"PV",7,NA,"ppcc/calle-carrer/informes/informe-PV-el Camp de Morvedre_name-calle.tsv","",43,31,0,0,TRUE
-"relation",6488338,"La Litera / La Llitera","La Llitera",TRUE,"Franja",7,NA,"ppcc/calle-carrer/informes/informe-Franja-La Llitera_name-calle.tsv","",39,29,0,0,TRUE
-"relation",10601144,"Bajo Aragón-Caspe / Baix Aragó-Casp","Baix Aragó-Casp",TRUE,"Franja",7,NA,"ppcc/calle-carrer/informes/informe-Franja-Baix Aragó-Casp_name-calle.tsv","",35,27,0,0,TRUE
-"relation",5813174,"Comarca de València","Comarca de València",FALSE,"PV",7,NA,"ppcc/calle-carrer/informes/informe-PV-Comarca de València_name-calle.tsv","",46,26,0,0,FALSE
-"relation",1692441,"el Comtat","el Comtat",FALSE,"PV",7,NA,"ppcc/calle-carrer/informes/informe-PV-el Comtat_name-calle.tsv","",21,18,0,0,TRUE
+"relation",1111146,"l'Alcalatén","l'Alcalatén",FALSE,"PV",7,NA,"ppcc/calle-carrer/informes/informe-PV-l'Alcalatén_name-calle.tsv","",98,48,0,0,TRUE
+"relation",6488361,"Bajo Cinca / Baix Cinca","Baix Cinca",TRUE,"Franja",7,NA,"ppcc/calle-carrer/informes/informe-Franja-Baix Cinca_name-calle.tsv","",85,47,0,0,TRUE
+"relation",6630546,"Bajo Aragón","Baix Aragó",TRUE,"Franja",7,NA,"ppcc/calle-carrer/informes/informe-Franja-Baix Aragó_name-calle.tsv","",59,38,0,0,TRUE
+"relation",1691758,"la Safor","la Safor",FALSE,"PV",7,NA,"ppcc/calle-carrer/informes/informe-PV-la Safor_name-calle.tsv","",44,33,0,0,TRUE
+"relation",1690974,"el Baix Maestrat","el Baix Maestrat",FALSE,"PV",7,NA,"ppcc/calle-carrer/informes/informe-PV-el Baix Maestrat_name-calle.tsv","",39,32,0,0,TRUE
+"relation",1691745,"el Camp de Morvedre","el Camp de Morvedre",FALSE,"PV",7,NA,"ppcc/calle-carrer/informes/informe-PV-el Camp de Morvedre_name-calle.tsv","",42,30,0,0,TRUE
+"relation",6488309,"La Ribagorza","Ribagorça",TRUE,"Franja",7,NA,"ppcc/calle-carrer/informes/informe-Franja-Ribagorça_name-calle.tsv","",47,29,0,0,TRUE
+"relation",6488338,"La Litera / La Llitera","La Llitera",TRUE,"Franja",7,NA,"ppcc/calle-carrer/informes/informe-Franja-La Llitera_name-calle.tsv","",36,26,0,0,TRUE
+"relation",10601144,"Bajo Aragón-Caspe / Baix Aragó-Casp","Baix Aragó-Casp",TRUE,"Franja",7,NA,"ppcc/calle-carrer/informes/informe-Franja-Baix Aragó-Casp_name-calle.tsv","",34,26,0,0,TRUE
+"relation",5813174,"Comarca de València","Comarca de València",FALSE,"PV",7,NA,"ppcc/calle-carrer/informes/informe-PV-Comarca de València_name-calle.tsv","",45,25,0,0,FALSE
 "relation",1690971,"l'Alt Maestrat","l'Alt Maestrat",FALSE,"PV",7,NA,"ppcc/calle-carrer/informes/informe-PV-l'Alt Maestrat_name-calle.tsv","",26,17,0,0,TRUE
+"relation",1692441,"el Comtat","el Comtat",FALSE,"PV",7,NA,"ppcc/calle-carrer/informes/informe-PV-el Comtat_name-calle.tsv","",19,17,0,0,TRUE
 "relation",1691752,"la Costera","la Costera",FALSE,"PV",7,NA,"ppcc/calle-carrer/informes/informe-PV-la Costera_name-calle.tsv","",20,13,0,0,TRUE
 "relation",1110951,"els Ports","els Ports",TRUE,"PV",7,NA,"ppcc/calle-carrer/informes/informe-PV-els Ports_name-calle.tsv","",14,12,0,0,TRUE
+"relation",1691760,"la Vall d'Albaida","la Vall d'Albaida",FALSE,"PV",7,NA,"ppcc/calle-carrer/informes/informe-PV-la Vall d'Albaida_name-calle.tsv","",11,10,0,0,TRUE
 "relation",1691751,"l'Horta Sud","l'Horta Sud",FALSE,"PV",7,NA,"ppcc/calle-carrer/informes/informe-PV-l'Horta Sud_name-calle.tsv","",11,9,0,0,TRUE
 "relation",2175756,"Serra de Tramuntana","Serra de Tramuntana",FALSE,"Illes",7,NA,"ppcc/calle-carrer/informes/informe-Illes-Serra de Tramuntana_name-calle.tsv","",9,8,0,0,TRUE
 "relation",2181664,"Eivissa","Eivissa",FALSE,"Illes",7,NA,"ppcc/calle-carrer/informes/informe-Illes-Eivissa_name-calle.tsv","",6,6,0,0,TRUE

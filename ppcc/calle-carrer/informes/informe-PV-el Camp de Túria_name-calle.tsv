@@ -422,8 +422,6 @@
 "way"	"473559606"	"Calle dos Castillas"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle dos Castillas'}"
 "way"	"473559607"	"Calle Vascongadas"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle Vascongadas'}"
 "way"	"150352679"	"Calle de les Garroferes"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle de les Garroferes'}"
-"way"	"807789189"	"Calle San Pedro"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle San Pedro'}"
-"way"	"807789204"	"Calle San Juan"	""	""	""	""	""	""	""	"{'highway': 'service', 'name': 'Calle San Juan', 'service': 'alley'}"
 "way"	"150261345"	"Calle Salvador Maties"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle Salvador Maties'}"
 "way"	"150387404"	"Calle Mestre Salvador Giner"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle Mestre Salvador Giner'}"
 "way"	"807789186"	"Calle San Joaquin"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Calle San Joaquin'}"
