@@ -52,13 +52,14 @@ comarques$revisio<- generaRevisions_regexName(informes=comarques$informe, arrelP
 ## Fusiona les revisions fetes amb els informes i genera ordres per carregar-los a OSM ----
 usuari<- "$NomUsuari" # Modifiqueu-ho amb el vostre nom d'usuari a OSM
 
-cmd<- preparaEdicions(arrelProjecte=arrelProjecte, usuari=usuari)
+cmd<- preparaEdicions(arrelProjecte=arrelProjecte, usuari=usuari, fitxerContrasenya=fitxerpas)
 cmd<- na.omit(cmd)
 
 ## Afegeix paràmetres a les ordres. Veure «update_osm_objects_from_report --help» per les opcions de LangToolsOSM
 nomComarca<- gsub(paste0(".+--input-file \\\"", arrelProjecte, "/edicions/informe-|_name-calle.tsv\\\".+"), "", cmd)
-cmd<- paste0(cmd, " --changeset-hashtags \"#toponimsCat;#calle_carrer\" ",
-            " --changeset-comment \"Afegeix name:ca a carrers de ", nomComarca, "\"")
+cmd<- paste0(cmd, " --changeset-hashtags \"#toponimsCat;#calle_carrer\"",
+            " --batch 100 --changeset-comment \"Afegeix name:ca a carrers de ", nomComarca, "\"")
+cat(cmd, sep="\n")
 
 ## Executa les ordres
 for (i in 1:length(cmd)){
