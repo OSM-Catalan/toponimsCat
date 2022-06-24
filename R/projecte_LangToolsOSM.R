@@ -76,7 +76,7 @@ generaInforme<- function(arrelProjecte, fitxerInforme, filtreArea, filtreObjecte
   if (file.exists(fitxerInforme)){
     message("El fitxer «", fitxerInforme, "» ja existeix. ", appendLF=FALSE)
     if (actualitzaFitxer){
-      informe<- utils::read.table(fitxerInforme, header=TRUE, sep="\t", skip=1, check.names=FALSE)
+      informe<- utils::read.table(fitxerInforme, header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE)
       cat("\tn casos:", nrow(informe))
       if (nrow(informe) > 0){
         message("Movent a ", gsub("/+informes/+", "/ANTIC/", fitxerInforme))
@@ -118,7 +118,7 @@ generaInforme<- function(arrelProjecte, fitxerInforme, filtreArea, filtreObjecte
 descartaObjectesSenseTraduccions<- function(fitxersInformes){
   res<- character()
   for (i in seq_along(fitxersInformes)){
-    informe<- try(utils::read.table(fitxersInformes[i], header=TRUE, sep="\t", skip=1, check.names=FALSE))
+    informe<- try(utils::read.table(fitxersInformes[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE))
     if (!inherits(informe, "data.frame")){
       warning("Error de lectura per ", fitxersInformes[i])
       next
@@ -180,7 +180,7 @@ recompteCasosInformes<- function(arrelProjecte, informes, dades){
   dades$informe<- gsub("//", "/", dades$informe)  # Normalitza camins
 
   for (i in 1:nrow(dades)){
-    objectesOSM<- try(utils::read.table(dades$informe[i], header=TRUE, sep="\t", skip=1, check.names=FALSE))
+    objectesOSM<- try(utils::read.table(dades$informe[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE))
     if (inherits(objectesOSM, "data.frame")){
       casosRevisar<- unique(objectesOSM[, c("name", "name:ca", "alt_name:ca", "alt_name", "translations", "ca.wikipedia_page", "wikidata_id")])
       dades$nObjects[i]<- nrow(objectesOSM)
@@ -252,7 +252,7 @@ generaRevisions<- function(informes, arrelProjecte){
   dir.create(file.path(arrelProjecte, "revisions", "FET"), showWarnings=FALSE, recursive=TRUE)
   fitxersRevisio<- dir(file.path(arrelProjecte, "revisions", "FET"), "\\.tsv$", full.names=TRUE, include.dirs=FALSE)
   revisionsFETES<- lapply(fitxersRevisio, function(x){
-    utils::read.table(x, header=TRUE, sep="\t", check.names=FALSE)
+    utils::read.table(x, header=TRUE, sep="\t", quote="\"", check.names=FALSE)
   })
   names(revisionsFETES)<- gsub(file.path(arrelProjecte, "revisions", "FET/"), "", fitxersRevisio)
   revisio.casosFETS<- unique(do.call(rbind, revisionsFETES))
@@ -263,7 +263,7 @@ generaRevisions<- function(informes, arrelProjecte){
   for (i in seq_along(informes)){
     nomFitxer<- gsub(paste0("^", file.path(arrelProjecte, "informes/")), "", informes[i])
     nomFitxer<- gsub("^informe", "revisio", nomFitxer)
-    d<- try(utils::read.table(informes[i], header=TRUE, sep="\t", skip=1, check.names=FALSE))
+    d<- try(utils::read.table(informes[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE))
 
     if (!inherits(d, "data.frame")) next
 
@@ -390,7 +390,7 @@ preparaEdicions<- function(arrelProjecte, usuari, fitxerContrasenya){
   }
 
   revisionsFETES<- lapply(fitxersRevisions, function(x){
-    utils::read.table(x, header=TRUE, sep="\t", check.names=FALSE)
+    utils::read.table(x, header=TRUE, sep="\t", quote="\"", check.names=FALSE)
   })
   names(revisionsFETES)<- gsub(paste0(file.path(arrelProjecte, "revisions", "FET"), "/+"), "", fitxersRevisions)
   revisio.casosFETS<- do.call(rbind, revisionsFETES)
@@ -436,7 +436,7 @@ preparaEdicions<- function(arrelProjecte, usuari, fitxerContrasenya){
   cmd<- character()
   for (i in seq_along(fitxersInformes)){
     nomFitxer<- gsub(file.path(arrelProjecte, "informes/*"), "", fitxersInformes[i])
-    informe<- try(utils::read.table(fitxersInformes[i], header=TRUE, sep="\t", skip=1, check.names=FALSE))
+    informe<- try(utils::read.table(fitxersInformes[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE))
 
     edicions<- merge(informe[, setdiff(names(informe), c("name:ca", "alt_name:ca"))], revisio.casosFETS)
     if (nrow(edicions) > 0){
@@ -493,9 +493,8 @@ actualitzaInformesCarregats<- function(arrelProjecte, esborraInformesDesactualit
       next
     }
 
-    informeOri<- utils::read.table(fitxersInformesOri[i], header=TRUE, sep="\t", skip=1, check.names=FALSE)
-    carregat<- utils::read.table(fitxersFets[i], header=TRUE, sep="\t", skip=1, check.names=FALSE)
-
+    informeOri<- utils::read.table(fitxersInformesOri[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE)
+    carregat<- utils::read.table(fitxersFets[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE)
     informeOri<- data.table::as.data.table(informeOri)
     carregat<- data.table::as.data.table(carregat)
     data.table::set(informeOri, j=names(informeOri), value=lapply(informeOri, function(x){ x[is.na(x)]<- ""; as.character(x) }))

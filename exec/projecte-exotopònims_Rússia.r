@@ -88,7 +88,7 @@ estatPendents$revisio<- generaRevisions_regexTranslations(informes=estatPendents
                                                           cerca=cerca, substitueix=substitueix, revisioUnificada=revisioUnificada,
                                                           nomFitxerUnificat=paste0("revisio-UNIFICADA_", nomTipusObjectes, ".tsv"))
 
-revisio<- lapply(estatPendents$revisio, function(x) read.table(x, header=TRUE, sep="\t", check.names=FALSE))
+revisio<- lapply(estatPendents$revisio, function(x) read.table(x, header=TRUE, sep="\t", quote="\"", check.names=FALSE))
 
 ## Revisa i modifica les taules de revisió
 lapply(revisio, function(x){
