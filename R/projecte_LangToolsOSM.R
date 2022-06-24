@@ -497,9 +497,9 @@ actualitzaInformesCarregats<- function(arrelProjecte, esborraInformesDesactualit
     carregat<- utils::read.table(fitxersFets[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE)
     informeOri<- data.table::as.data.table(informeOri)
     carregat<- data.table::as.data.table(carregat)
-    data.table::set(informeOri, j=names(informeOri), value=lapply(informeOri, function(x){ x[is.na(x)]<- ""; as.character(x) }))
-    data.table::set(carregat, j=names(carregat), value=lapply(carregat, function(x){ x[is.na(x)]<- ""; as.character(x) }))
     data.table::set(carregat, j=c("name:ca", "alt_name:ca"), value=list(NA_character_, NA_character_))
+    data.table::set(carregat, j=names(carregat), value=lapply(carregat, function(x){ x[is.na(x)]<- ""; as.character(x) }))
+    data.table::set(informeOri, j=names(informeOri), value=lapply(informeOri, function(x){ x[is.na(x)]<- ""; as.character(x) }))
     data.table::setcolorder(carregat, neworder=names(informeOri))
 
     informeNou<- data.table::fsetdiff(informeOri, carregat)
@@ -511,10 +511,6 @@ actualitzaInformesCarregats<- function(arrelProjecte, esborraInformesDesactualit
       ret<- c(ret, fitxersInformesOri[i])
     }
   }
-
-  ## Mou informes desactualitzats a ANTIC/
-  # dir.create(paste0(arrelProjecte, "ANTIC/"), showWarnings=FALSE, recursive=TRUE)
-  # file.rename(fitxersInformesOri, gsub("/informe/", "/ANTIC/", fitxersInformesOri))
 
   arxivats<- gsub("/edicions/", "/edicions/FET/", fitxersFets)
   arxivats<- gsub("\\.tsv$", "_v0.tsv", arxivats)
