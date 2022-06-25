@@ -52,6 +52,9 @@ comarques$revisio<- generaRevisions_regexName(informes=comarques$informe, arrelP
 
 
 ## Fusiona les revisions fetes amb els informes i genera ordres per carregar-los a OSM ----
+usuari<- "jmaspons" # Modifiqueu-ho amb el vostre nom d'usuari a OSM
+fitxerContrasenya<- "~/.osm/motdepas.txt"
+
 usuari<- "$NomUsuari" # Modifiqueu-ho amb el vostre nom d'usuari a OSM
 fitxerContrasenya<- "" # camí a un fitxer amb una sola línia amb el nom d'usuari i la contrasenya separades per un punt i coma (;)
 
