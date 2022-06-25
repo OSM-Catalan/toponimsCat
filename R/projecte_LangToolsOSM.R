@@ -92,7 +92,7 @@ generaInforme<- function(arrelProjecte, fitxerInforme, filtreArea, filtreObjecte
 
   cmd<- character()
   if (actualitza){
-    cmd<- paste0("write_osm_objects_report --lang ca -v",
+    cmd<- paste0("write_osm_objects_report --lang ca -v --wikidata-type",
                   " --output \"", fitxerInforme, "\" name:ca alt_name:ca alt_name")
     if (missing(consulta)){
       cmd<- paste0(cmd, " --filters \"", filtreObjectes, "\" --area \"", filtreArea, "\"")
@@ -220,6 +220,7 @@ recompteCasosInformes<- function(arrelProjecte, informes, dades){
 #' @param ometSenseTraduccions si és \code{TRUE}, descarta els objectes sense nom en català a wikidata.
 #' @param revisioUnificada si és \code{TRUE}, genera un unic fitxer de revisió. Sinó, genera un fixer de revisió per cada informe.
 #' @param nomFitxerUnificat nom del fitxer de revisió unificat quan \code{revisioUnificada=TRUE}. Si \code{revisioUnificada=FALSE}, els fitxers de revisió seran \code{gsub("^informe", "revisio", informes)}.
+#' @param campsUnics camps que defineixen combinacions úniques dels informes que formaran els fitxers de revisió. Per defecte \code{name}, \code{name:ca}, \code{alt_name:ca}, \code{alt_name}, \code{translations}, \code{ca.wikipedia_page}, \code{wikidata_type}, \code{wikidata_id} si existeixen.
 #'
 #' @return Retorna els camins dels fitxers de revisió generats.
 #' @seealso \link{gsub}
@@ -239,7 +240,8 @@ recompteCasosInformes<- function(arrelProjecte, informes, dades){
 
 NULL
 
-generaRevisions<- function(informes, arrelProjecte){
+generaRevisions<- function(informes, arrelProjecte,
+                           campsUnics=c("name", "name:ca", "alt_name:ca", "alt_name", "translations", "ca.wikipedia_page", "wikidata_type", "wikidata_id")){
   ## Normalitza camins per evitar problemes en modificar-los
   arrelProjecte<- gsub("/$", "", arrelProjecte)
   informes<- gsub("//", "/", informes)
@@ -267,7 +269,7 @@ generaRevisions<- function(informes, arrelProjecte){
 
     if (!inherits(d, "data.frame")) next
 
-    d<- unique(d[, c("name", "name:ca", "alt_name:ca", "alt_name", "translations", "ca.wikipedia_page", "wikidata_id")])
+    d<- unique(d[, intersect(names(d), campsUnics)])
     dL[[nomFitxer]]<- d
   }
 
@@ -277,8 +279,9 @@ generaRevisions<- function(informes, arrelProjecte){
 
 #' @rdname generaRevisions
 #' @export
-generaRevisions_regexName<- function(informes, arrelProjecte, cerca, substitueix, revisioUnificada=FALSE, nomFitxerUnificat="revisio-UNIFICADA.tsv"){
-  dL<- generaRevisions(informes=informes, arrelProjecte=arrelProjecte)
+generaRevisions_regexName<- function(informes, arrelProjecte, cerca, substitueix, revisioUnificada=FALSE, nomFitxerUnificat="revisio-UNIFICADA.tsv",
+                                     campsUnics=c("name", "name:ca", "alt_name:ca", "alt_name", "translations", "ca.wikipedia_page", "wikidata_type", "wikidata_id")){
+  dL<- generaRevisions(informes=informes, arrelProjecte=arrelProjecte, campsUnics=campsUnics)
   for (i in seq_along(dL)){
     nomFitxer<- names(dL)[i]
     d<- dL[[i]]
@@ -316,8 +319,9 @@ generaRevisions_regexName<- function(informes, arrelProjecte, cerca, substitueix
 
 #' @rdname generaRevisions
 #' @export
-generaRevisions_regexTranslations<- function(informes, arrelProjecte, cerca=" \\(.+\\)", substitueix="", ometSenseTraduccions=TRUE, revisioUnificada=FALSE, nomFitxerUnificat="revisio-UNIFICADA.tsv"){
-  dL<- generaRevisions(informes=informes, arrelProjecte=arrelProjecte)
+generaRevisions_regexTranslations<- function(informes, arrelProjecte, cerca=" \\(.+\\)", substitueix="", ometSenseTraduccions=TRUE, revisioUnificada=FALSE, nomFitxerUnificat="revisio-UNIFICADA.tsv",
+                                             campsUnics=c("name", "name:ca", "alt_name:ca", "alt_name", "translations", "ca.wikipedia_page", "wikidata_type", "wikidata_id")){
+  dL<- generaRevisions(informes=informes, arrelProjecte=arrelProjecte, campsUnics=campsUnics)
   for (i in seq_along(dL)){
     nomFitxer<- names(dL)[i]
     d<- dL[[i]]

@@ -12,7 +12,9 @@ generaRevisions_regexName(
   cerca,
   substitueix,
   revisioUnificada = FALSE,
-  nomFitxerUnificat = "revisio-UNIFICADA.tsv"
+  nomFitxerUnificat = "revisio-UNIFICADA.tsv",
+  campsUnics = c("name", "name:ca", "alt_name:ca", "alt_name", "translations",
+    "ca.wikipedia_page", "wikidata_type", "wikidata_id")
 )
 
 generaRevisions_regexTranslations(
@@ -22,7 +24,9 @@ generaRevisions_regexTranslations(
   substitueix = "",
   ometSenseTraduccions = TRUE,
   revisioUnificada = FALSE,
-  nomFitxerUnificat = "revisio-UNIFICADA.tsv"
+  nomFitxerUnificat = "revisio-UNIFICADA.tsv",
+  campsUnics = c("name", "name:ca", "alt_name:ca", "alt_name", "translations",
+    "ca.wikipedia_page", "wikidata_type", "wikidata_id")
 )
 }
 \arguments{
@@ -37,6 +41,8 @@ generaRevisions_regexTranslations(
 \item{revisioUnificada}{si és \code{TRUE}, genera un unic fitxer de revisió. Sinó, genera un fixer de revisió per cada informe.}
 
 \item{nomFitxerUnificat}{nom del fitxer de revisió unificat quan \code{revisioUnificada=TRUE}. Si \code{revisioUnificada=FALSE}, els fitxers de revisió seran \code{gsub("^informe", "revisio", informes)}.}
+
+\item{campsUnics}{camps que defineixen combinacions úniques dels informes que formaran els fitxers de revisió. Per defecte \code{name}, \code{name:ca}, \code{alt_name:ca}, \code{alt_name}, \code{translations}, \code{ca.wikipedia_page}, \code{wikidata_type}, \code{wikidata_id} si existeixen.}
 
 \item{ometSenseTraduccions}{si és \code{TRUE}, descarta els objectes sense nom en català a wikidata.}
 }
