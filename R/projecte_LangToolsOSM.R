@@ -77,7 +77,7 @@ generaInforme<- function(arrelProjecte, fitxerInforme, filtreArea, filtreObjecte
     message("El fitxer «", fitxerInforme, "» ja existeix. ", appendLF=FALSE)
     if (actualitzaFitxer){
       informe<- utils::read.table(fitxerInforme, header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE)
-      cat("\tn casos:", nrow(informe))
+      message("\tn casos:", nrow(informe))
       if (nrow(informe) > 0){
         message("Movent a ", gsub("/+informes/+", "/ANTIC/", fitxerInforme))
         file.rename(fitxerInforme, gsub("/+informes/+", "/ANTIC/", fitxerInforme))
@@ -118,11 +118,16 @@ generaInforme<- function(arrelProjecte, fitxerInforme, filtreArea, filtreObjecte
 descartaObjectesSenseTraduccions<- function(fitxersInformes){
   res<- character()
   for (i in seq_along(fitxersInformes)){
-    informe<- try(utils::read.table(fitxersInformes[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE))
+    # Intercepta «Warning: EOF within quoted string», que descarta files i retorna el fitxer problemàtic
+    informe<- tryCatch(utils::read.table(fitxersInformes[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE),
+                 warning=function(w) list(warning=w, fitxer=fitxersInformes[i], i=i))
     if (!inherits(informe, "data.frame")){
-      warning("Error de lectura per ", fitxersInformes[i])
-      next
+      # Llença l'alerta però llegeix el què es pugui i segueix.
+      warning(informe$warning, " in ", informe$fitxer, " (i=", i, ")\n Obrint el document amb LibreOffice Calc i desant-lo editant la configuració del filtre a Delimitador de camps={Tabulació}, Delimitador de cadenes de caràcter=\", i activant Posa les cadenes de text entre cometes.")
+      informe<- suppressWarnings(utils::read.table(fitxersInformes[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE))
+      if (!inherits(informe, "data.frame")) next
     }
+
     nObjectes<- nrow(informe)
     informe<- informe[!informe$translations %in% c(NA, ""), ]
     if (nObjectes == nrow(informe)){ # Si no hi ha canvis al fitxer, no reescriguis
@@ -265,9 +270,15 @@ generaRevisions<- function(informes, arrelProjecte,
   for (i in seq_along(informes)){
     nomFitxer<- gsub(paste0("^", file.path(arrelProjecte, "informes/")), "", informes[i])
     nomFitxer<- gsub("^informe", "revisio", nomFitxer)
-    d<- try(utils::read.table(informes[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE))
-
-    if (!inherits(d, "data.frame")) next
+    # Intercepta «Warning: EOF within quoted string», que descarta files i retorna el fitxer problemàtic
+    d<- tryCatch(utils::read.table(informes[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE),
+                 warning=function(w) list(warning=w, fitxer=informes[i], i=i))
+    if (!inherits(d, "data.frame")){
+      # Llença l'alerta però llegeix el què es pugui i segueix.
+      warning(d$warning, " in ", d$fitxer, " (i=", i, ")\n Obrint el document amb LibreOffice Calc i desant-lo editant la configuració del filtre a Delimitador de camps={Tabulació}, Delimitador de cadenes de caràcter=\", i activant Posa les cadenes de text entre cometes.")
+      d<- suppressWarnings(utils::read.table(informes[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE))
+      if (!inherits(d, "data.frame")) next
+    }
 
     d<- unique(d[, intersect(names(d), campsUnics)])
     dL[[nomFitxer]]<- d
