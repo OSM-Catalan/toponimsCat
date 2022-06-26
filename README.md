@@ -19,8 +19,7 @@ pujar les dades a OpenstreetMap, cal instal·lar
 
 |                                           | Objects | Revisions | Objectes amb nom de wikidata | Revisions amb nom de wikidata |
 |:------------------------------------------|--------:|----------:|-----------------------------:|------------------------------:|
-| exotopònims/Rússia/estat_water.csv        |     850 |       735 |                            6 |                             6 |
-| exotopònims/Rússia/estat.csv              |    3274 |      3008 |                         1727 |                          1484 |
+| exotopònims/Rússia/estat_wikidata.csv     |    1846 |      1582 |                         1846 |                          1582 |
 | ppcc/avenida-avinguda/casos_comarques.csv |    3453 |       934 |                            2 |                             2 |
 | ppcc/calle-carrer/casos_comarques.csv     |    8369 |      5415 |                            0 |                             0 |
 | ppcc/camino-camí/casos_comarques.csv      |    2061 |       943 |                            0 |                             0 |
