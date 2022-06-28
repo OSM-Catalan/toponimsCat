@@ -56,7 +56,7 @@ subdivisionsConsultaOverpass<- function(area, filtreSubdivisions, etiquetes=c("n
 #'                        fitxerInforme="informe-Rússia.tsv",
 #'                        filtreArea="['name:ca'='Rússia'][admin_level=3]",
 #'                        filtreObjectes="nwr[wikidata][!'name:ca']")
-#' ordre1<- generaInforme(arrelProjecte="ppcc/calle-carrer/",
+#' ordre1<- generaInforme(arrelProjecte="PPCC/calle-carrer/",
 #'                        fitxerInforme="informe-Calle_carrer-Alacant.tsv",
 #'                        filtreArea="['name:ca'='Alacant'][admin_level=7]",
 #'                        filtreObjectes="nwr[name~'^[Cc]alle '][!'name:ca']")
@@ -232,8 +232,8 @@ recompteCasosInformes<- function(arrelProjecte, informes, dades){
 #' @name generaRevisions
 #'
 #' @examples
-#' generaRevisions_regexName(informes=dir("ppcc/calle-carrer/informes", "\\.tsv$", full.names=TRUE),
-#'                           arrelProjecte="ppcc/calle-carrer",
+#' generaRevisions_regexName(informes=dir("PPCC/calle-carrer/informes", "\\.tsv$", full.names=TRUE),
+#'                           arrelProjecte="PPCC/calle-carrer",
 #'                           cerca="([Cc])alle ",
 #'                           substitueix="\\1arrer ", revisioUnificada=FALSE)
 #'

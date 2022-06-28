@@ -10,7 +10,7 @@ Eines per ajudar a afegir l’etiqueta `name:ca`. Podeu descarregar el
 paquet d’R
 [toponimsCat](https://github.com/OSM-Catalan/toponimsCat/releases). A la
 carpeta `exec/` hi ha scripts d’R per generar i actualitzar els fitxers
-de diferents projectes. A la carpeta `ppcc/` i `exotopònims/` hi ha les
+de diferents projectes. A la carpeta `PPCC/` i `exotopònims/` hi ha les
 dades dels diferents projectes de localització. Per les descarregar i
 pujar les dades a OpenstreetMap, cal instal·lar
 [LangToolsOSM](https://github.com/OSM-Catalan/LangToolsOSM).
@@ -20,11 +20,11 @@ pujar les dades a OpenstreetMap, cal instal·lar
 |                                           | Objects | Revisions | Objectes amb nom de wikidata | Revisions amb nom de wikidata |
 |:------------------------------------------|--------:|----------:|-----------------------------:|------------------------------:|
 | exotopònims/Rússia/estat_wikidata.csv     |    1846 |      1582 |                         1846 |                          1582 |
-| ppcc/avenida-avinguda/casos_comarques.csv |    3453 |       934 |                            2 |                             2 |
-| ppcc/calle-carrer/casos_comarques.csv     |    8369 |      5415 |                            0 |                             0 |
-| ppcc/camino-camí/casos_comarques.csv      |    2061 |       943 |                            0 |                             0 |
-| ppcc/parque-parc/casos_comarques.csv      |     769 |       657 |                            1 |                             1 |
-| ppcc/plaza-plaça/casos_comarques.csv      |    1690 |       989 |                            3 |                             3 |
+| PPCC/avenida-avinguda/casos_comarques.csv |    3453 |       934 |                            2 |                             2 |
+| PPCC/calle-carrer/casos_comarques.csv     |    8369 |      5415 |                            0 |                             0 |
+| PPCC/camino-camí/casos_comarques.csv      |    2061 |       943 |                            0 |                             0 |
+| PPCC/parque-parc/casos_comarques.csv      |     769 |       657 |                            1 |                             1 |
+| PPCC/plaza-plaça/casos_comarques.csv      |    1690 |       989 |                            3 |                             3 |
 
 Numero de casos pendents per projecte.
 
@@ -64,7 +64,7 @@ Numero de casos pendents per projecte.
 
 Podeu veure un exemple de projecte per afegir l’etiqueta name:ca a
 carrers dels PPCC que tenen l’etiqueta name començada amb «\[Cc\]alle»
-[ppcc/calle-carrer](https://github.com/OSM-Catalan/toponimsCat/tree/main/ppcc/calle-carrer).
+[PPCC/calle-carrer](https://github.com/OSM-Catalan/toponimsCat/tree/main/PPCC/calle-carrer).
 No és necessari desar tots els fitxers a git, però aquest projecte els
 inclou a tall d’exemple. També podeu consultar el
 [codi](https://github.com/OSM-Catalan/toponimsCat/blob/main/exec/projecte-PPCC_calle-carrer.r)

@@ -1,7 +1,7 @@
 library(toponimsCat)
 
 
-arrelProjecte<- "ppcc/calle-carrer"
+arrelProjecte<- "PPCC/calle-carrer"
 actualitzaInformes<- FALSE # actualitzaInformes<- TRUE
 filtre<- "nwr[name~'^[Cc]alle'][!'name:ca']"
 sufixFitxers<- "_name-calle"

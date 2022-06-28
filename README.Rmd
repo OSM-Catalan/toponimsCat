@@ -20,7 +20,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-Eines per ajudar a afegir l'etiqueta ```name:ca```. Podeu descarregar el paquet d'R [toponimsCat](https://github.com/OSM-Catalan/toponimsCat/releases). A la carpeta ```exec/``` hi ha scripts d'R per generar i actualitzar els fitxers de diferents projectes. A la carpeta ```ppcc/``` i ```exotopònims/``` hi ha les dades dels diferents projectes de localització. Per les descarregar i pujar les dades a OpenstreetMap, cal instal·lar [LangToolsOSM](https://github.com/OSM-Catalan/LangToolsOSM).
+Eines per ajudar a afegir l'etiqueta ```name:ca```. Podeu descarregar el paquet d'R [toponimsCat](https://github.com/OSM-Catalan/toponimsCat/releases). A la carpeta ```exec/``` hi ha scripts d'R per generar i actualitzar els fitxers de diferents projectes. A la carpeta ```PPCC/``` i ```exotopònims/``` hi ha les dades dels diferents projectes de localització. Per les descarregar i pujar les dades a OpenstreetMap, cal instal·lar [LangToolsOSM](https://github.com/OSM-Catalan/LangToolsOSM).
 
 ## Resum de l'estat dels projectes
 
@@ -69,7 +69,7 @@ informes desactualitzats.
 ## Exemples
 
 Podeu veure un exemple de projecte per afegir l’etiqueta name:ca a carrers dels PPCC que tenen
-l’etiqueta name començada amb «[Cc]alle» [ppcc/calle-carrer](https://github.com/OSM-Catalan/toponimsCat/tree/main/ppcc/calle-carrer). No és necessari desar tots els fitxers a git, però aquest projecte els inclou a tall d’exemple. També podeu consultar el [codi](https://github.com/OSM-Catalan/toponimsCat/blob/main/exec/projecte-PPCC_calle-carrer.r) per generar i actualitzar
+l’etiqueta name començada amb «[Cc]alle» [PPCC/calle-carrer](https://github.com/OSM-Catalan/toponimsCat/tree/main/PPCC/calle-carrer). No és necessari desar tots els fitxers a git, però aquest projecte els inclou a tall d’exemple. També podeu consultar el [codi](https://github.com/OSM-Catalan/toponimsCat/blob/main/exec/projecte-PPCC_calle-carrer.r) per generar i actualitzar
 el projecte.
 
 

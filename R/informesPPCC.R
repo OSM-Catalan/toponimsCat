@@ -13,7 +13,7 @@
 #' @export
 #'
 #' @examples
-#' ordres<- generaInformesPPCC(arrelProjecte="ppcc/calle-carrer",
+#' ordres<- generaInformesPPCC(arrelProjecte="PPCC/calle-carrer",
 #'                             filtre="nwr[name~'^[Cc]alle'][!'name:ca']",
 #'                             sufixFitxers="_name-calle")
 #' \dontrun{
