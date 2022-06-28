@@ -1,7 +1,7 @@
 library(toponimsCat)
 
 
-arrelProjecte<- "ppcc/plaza-plaça"
+arrelProjecte<- "PPCC/plaza-plaça"
 actualitzaInformes<- FALSE # actualitzaInformes<- TRUE
 filtre<- "nwr[name~'^[Pp]laza'][!'name:ca']"
 sufixFitxers<- "_name-plaza"
