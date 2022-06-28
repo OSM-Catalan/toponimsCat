@@ -198,7 +198,7 @@ recompteCasosInformes<- function(arrelProjecte, informes, dades){
 
       fitxerRevisio<- gsub("^informe-", "revisio-", basename(gsub("(_v[0-9]+)*\\.tsv$", "", dades$informe[i])))
       camiRevisions<- gsub("informes", "revisions/FET", dirname(dades$informe[i]), "FET")
-      dades$revisat[i]<- any(grepl(fitxerRevisio, dir(camiRevisions)))
+      dades$revisat[i]<- any(grepl(fitxerRevisio, dir(camiRevisions)) | nrow(objectesOSM) == 0)
     } else{
       warning("Error a l'informe", i, ":", informes[i], "\n")
       print(objectesOSM)
