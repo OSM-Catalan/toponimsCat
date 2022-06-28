@@ -34,9 +34,8 @@ resumL<- lapply(fitxersEstat, function(x){
 })
 names(resumL)<- gsub("./", "", fitxersEstat, fixed=TRUE)
 resum<- do.call(rbind, resumL)
-colnames(resum)<- c("Objects", "Revisions", "Objectes amb nom \\n de wikidata", "Revisions amb nom \\n de wikidata")
-knitr::kable(resum, caption="Numero de casos pendents per projecte.")#, booktabs=F, escape=F)#,
-             # col.names=kableExtra::linebreak(c("Objects", "Revisions", "Objectes amb nom\nde wikidata", "Revisions amb nom\nde wikidata")))
+colnames(resum)<- c("Objectes", "Revisions", "Objectes amb nom \\n de wikidata", "Revisions amb nom \\n de wikidata")
+knitr::kable(resum, caption="Numero de casos pendents per projecte.")
 ```
 
 
