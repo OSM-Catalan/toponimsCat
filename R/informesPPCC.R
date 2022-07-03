@@ -30,7 +30,7 @@ generaInformesPPCC<- function(arrelProjecte, filtre, actualitzaInformes=FALSE,
       tipus<- "['historic:admin_level']"
     } else if (!is.na(comarques$admin_level[i])){
       tipus<- paste0("[admin_level=", comarques$admin_level[i], "]")
-    }else{
+    } else {
       tipus<- ""
     }
     areaRegio<- paste0("['name:ca'='", gsub("\\'", "\\\\'", comarques$`name:ca`[i]) ,"']", tipus)
