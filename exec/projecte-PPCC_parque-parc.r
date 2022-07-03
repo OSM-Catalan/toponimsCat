@@ -28,7 +28,12 @@ actualitzaInformes<- FALSE
 
 ## Avalua el nombre de casos a cada informe generat ----
 comarques<- recompteCasosInformes(dades=comarques)
-comarques[intersect(order(comarques$nCasos, decreasing=TRUE), which(!comarques$revisat & comarques$nObjects > 0)), ]
+ordCasos<- order(comarques$revisat, comarques$nCasos, comarques$regio, comarques$`name:ca`,
+                 decreasing=c(FALSE, TRUE, FALSE, FALSE), method="radix")
+ordCol<- c("regio", "name:ca", "nObjectes", "nCasos", "nObjectesNomWikidata", "nCasosNomWikidata", "revisat")
+ordCol<- c(ordCol, setdiff(names(comarques), c(ordCol, "cmd")))
+comarques<- comarques[ordCasos, ordCol]
+comarques[intersect(order(comarques$nCasos, decreasing=TRUE), which(!comarques$revisat & comarques$nObjectes > 0)), ]
 
 write.csv(comarques, file=file.path(arrelProjecte, "casos_comarques.csv"), row.names=FALSE)
 
@@ -36,7 +41,7 @@ write.csv(comarques, file=file.path(arrelProjecte, "casos_comarques.csv"), row.n
 ## Edita les revisions ----
 # les revisions són els casos únics a revisar de "name", "name:ca", "alt_name:ca", "alt_name", "translations", "ca.wikipedia_page", "wikidata_id"
 comarques<- read.csv(file=file.path(arrelProjecte, "casos_comarques.csv"), check.names=FALSE)
-comarques<- comarques[!comarques$nObjects %in% c(NA, 0), ] # Selecciona comarques amb casos pendents
+comarques<- comarques[!comarques$nObjectes %in% c(NA, 0), ] # Selecciona comarques amb casos pendents
 comarques[order(comarques$nCasos, decreasing=TRUE), ]
 
 comarques$revisio<- generaRevisions_regexName(informes=comarques$informe, arrelProjecte=arrelProjecte,
