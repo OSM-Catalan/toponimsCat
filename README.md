@@ -17,16 +17,17 @@ pujar les dades a OpenstreetMap, cal instal·lar
 
 ## Resum de l’estat dels projectes
 
-|                                           | Objects | Revisions | Objectes amb nom de wikidata | Revisions amb nom de wikidata |
-|:------------------------------------------|--------:|----------:|-----------------------------:|------------------------------:|
-| exotopònims/Rússia/estat_wikidata.csv     |    1846 |      1582 |                         1846 |                          1582 |
-| PPCC/avenida-avinguda/casos_comarques.csv |    3453 |       934 |                            2 |                             2 |
-| PPCC/calle-carrer/casos_comarques.csv     |    8369 |      5415 |                            0 |                             0 |
-| PPCC/camino-camí/casos_comarques.csv      |    2061 |       943 |                            0 |                             0 |
-| PPCC/parque-parc/casos_comarques.csv      |     769 |       657 |                            1 |                             1 |
-| PPCC/plaza-plaça/casos_comarques.csv      |    1690 |       989 |                            3 |                             3 |
+|                                                                                                                                             | Objectes | Revisions | Objectes amb nom de wikidata | Revisions amb nom de wikidata |
+|:--------------------------------------------------------------------------------------------------------------------------------------------|---------:|----------:|-----------------------------:|------------------------------:|
+| [exotopònims/Rússia/estat_wikidata.csv](https://github.com/OSM-Catalan/toponimsCat/blob/main/exotopònims/Rússia/estat_wikidata.csv)         |     1846 |      1582 |                         1846 |                          1582 |
+| [PPCC/avenida-avinguda/casos_comarques.csv](https://github.com/OSM-Catalan/toponimsCat/blob/main/PPCC/avenida-avinguda/casos_comarques.csv) |     3453 |       934 |                            2 |                             2 |
+| [PPCC/calle-carrer/casos_comarques.csv](https://github.com/OSM-Catalan/toponimsCat/blob/main/PPCC/calle-carrer/casos_comarques.csv)         |     8369 |      5415 |                            0 |                             0 |
+| [PPCC/camino-camí/casos_comarques.csv](https://github.com/OSM-Catalan/toponimsCat/blob/main/PPCC/camino-camí/casos_comarques.csv)           |     2061 |       943 |                            0 |                             0 |
+| [PPCC/parque-parc/casos_comarques.csv](https://github.com/OSM-Catalan/toponimsCat/blob/main/PPCC/parque-parc/casos_comarques.csv)           |      769 |       657 |                            1 |                             1 |
+| [PPCC/plaza-plaça/casos_comarques.csv](https://github.com/OSM-Catalan/toponimsCat/blob/main/PPCC/plaza-plaça/casos_comarques.csv)           |     1690 |       989 |                            3 |                             3 |
 
-Numero de casos pendents per projecte.
+Numero de casos pendents d’afegir l’etiqueta `name:ca` per cada
+projecte.
 
 ## Estructura de fitxers d’un projecte
 

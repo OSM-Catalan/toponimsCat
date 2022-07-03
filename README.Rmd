@@ -35,7 +35,8 @@ resumL<- lapply(fitxersEstat, function(x){
 names(resumL)<- gsub("./", "", fitxersEstat, fixed=TRUE)
 resum<- do.call(rbind, resumL)
 colnames(resum)<- c("Objectes", "Revisions", "Objectes amb nom \\n de wikidata", "Revisions amb nom \\n de wikidata")
-knitr::kable(resum, caption="Numero de casos pendents per projecte.")
+rownames(resum)<- paste0("[", rownames(resum), "](https://github.com/OSM-Catalan/toponimsCat/blob/main/", rownames(resum), ")")
+knitr::kable(resum, caption="Numero de casos pendents d'afegir l'etiqueta ```name:ca``` per cada projecte. Per projectes sense revisió unificada, pot haver-hi casos duplicats en fitxers diferents.")
 ```
 
 
