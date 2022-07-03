@@ -1,4 +1,4 @@
-"@type","@id","name","name:ca","wikidata","admin_level","informe","cmd","nObjects","nCasos","nObjectesNomWikidata","nCasosNomWikidata","revisat"
+"@type","@id","name","name:ca","wikidata","admin_level","informe","cmd","nObjectes","nCasos","nObjectesNomWikidata","nCasosNomWikidata","revisat"
 "relation",51490,"Московская область","Província de Moscou","Q1697",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Moscou_wikidata.tsv","",50,45,50,45,FALSE
 "relation",71950,"Рязанская область","Província de Riazan","Q2753",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Riazan_wikidata.tsv","",12,11,12,11,FALSE
 "relation",72169,"Липецкая область","Província de Lípetsk","Q3510",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Lípetsk_wikidata.tsv","",9,9,9,9,FALSE
@@ -60,9 +60,9 @@
 "relation",145195,"Республика Тыва","Tuvà","Q960",4,"exotopònims/Rússia/informes/informe-Rússia-Tuvà_wikidata.tsv","",4,4,4,4,FALSE
 "relation",145454,"Иркутская область","Província d'Irkutsk","Q6585",4,"exotopònims/Rússia/informes/informe-Rússia-Província d'Irkutsk_wikidata.tsv","",15,5,15,5,FALSE
 "relation",145729,"Бурятия","Buriàtia","Q6809",4,"exotopònims/Rússia/informes/informe-Rússia-Buriàtia_wikidata.tsv","",6,6,6,6,FALSE
-"relation",145730,"Забайкальский край","Territori de Zabaikal","Q6838",4,"exotopònims/Rússia/informes/informe-Rússia-Territori de Zabaikal_wikidata.tsv","",0,0,0,0,FALSE
+"relation",145730,"Забайкальский край","Territori de Zabaikal","Q6838",4,"exotopònims/Rússia/informes/informe-Rússia-Territori de Zabaikal_wikidata.tsv","",0,0,0,0,TRUE
 "relation",147166,"Амурская область","Província de l'Amur","Q6886",4,"exotopònims/Rússia/informes/informe-Rússia-Província de l'Amur_wikidata.tsv","",10,10,10,10,FALSE
-"relation",147167,"Еврейская автономная область","Província Autònoma dels Hebreus","Q7730",4,"exotopònims/Rússia/informes/informe-Rússia-Província Autònoma dels Hebreus_wikidata.tsv","",0,0,0,0,FALSE
+"relation",147167,"Еврейская автономная область","Província Autònoma dels Hebreus","Q7730",4,"exotopònims/Rússia/informes/informe-Rússia-Província Autònoma dels Hebreus_wikidata.tsv","",0,0,0,0,TRUE
 "relation",151223,"Хабаровский край","Territori de Khabàrovsk","Q7788",4,"exotopònims/Rússia/informes/informe-Rússia-Territori de Khabàrovsk_wikidata.tsv","",15,15,15,15,FALSE
 "relation",151225,"Приморский край","Territori de Primórie","Q4341",4,"exotopònims/Rússia/informes/informe-Rússia-Territori de Primórie_wikidata.tsv","",18,17,18,17,FALSE
 "relation",151228,"Магаданская область","Província de Magadan","Q7971",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Magadan_wikidata.tsv","",27,26,27,26,FALSE
@@ -74,7 +74,7 @@
 "relation",190090,"Красноярский край","Territori de Krasnoiarsk","Q6563",4,"exotopònims/Rússia/informes/informe-Rússia-Territori de Krasnoiarsk_wikidata.tsv","",19,17,19,17,FALSE
 "relation",190911,"Республика Хакасия","Khakàssia","Q6543",4,"exotopònims/Rússia/informes/informe-Rússia-Khakàssia_wikidata.tsv","",3,3,3,3,FALSE
 "relation",191706,"Ямало-Ненецкий автономный округ","Iamàlia","Q6407",4,"exotopònims/Rússia/informes/informe-Rússia-Iamàlia_wikidata.tsv","",7,6,7,6,FALSE
-"relation",253252,"Ингушетия","Ingúixia","Q5219",4,"exotopònims/Rússia/informes/informe-Rússia-Ingúixia_wikidata.tsv","",0,0,0,0,FALSE
+"relation",253252,"Ингушетия","Ingúixia","Q5219",4,"exotopònims/Rússia/informes/informe-Rússia-Ingúixia_wikidata.tsv","",0,0,0,0,TRUE
 "relation",253256,"Адыгея","Adiguèsia","Q3734",4,"exotopònims/Rússia/informes/informe-Rússia-Adiguèsia_wikidata.tsv","",10,10,10,10,FALSE
 "relation",274048,"Ненецкий автономный округ","Nenètsia","Q2164",4,"exotopònims/Rússia/informes/informe-Rússia-Nenètsia_wikidata.tsv","",3,3,3,3,FALSE
 "relation",337422,"Санкт-Петербург","Sant Petersburg","Q656",4,"exotopònims/Rússia/informes/informe-Rússia-Sant Petersburg_wikidata.tsv","",79,77,79,77,FALSE

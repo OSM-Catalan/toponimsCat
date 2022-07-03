@@ -1,97 +1,97 @@
-"type","id","name","name:ca","parcial","regio","admin_level","historic:admin_level","informe","cmd","nObjects","nCasos","nObjectesNomWikidata","nCasosNomWikidata","revisat"
-"relation",2804753,"Andorra la Vella","Andorra la Vella",FALSE,"Andorra",7,NA,"ppcc/parque-parc/informes/informe-Andorra-Andorra la Vella_name-parque.tsv","",0,0,0,0,FALSE
-"relation",2804754,"Canillo","Canillo",FALSE,"Andorra",7,NA,"ppcc/parque-parc/informes/informe-Andorra-Canillo_name-parque.tsv","",0,0,0,0,FALSE
-"relation",2804755,"Encamp","Encamp",FALSE,"Andorra",7,NA,"ppcc/parque-parc/informes/informe-Andorra-Encamp_name-parque.tsv","",0,0,0,0,FALSE
-"relation",2804756,"Escaldes-Engordany","Escaldes-Engordany",FALSE,"Andorra",7,NA,"ppcc/parque-parc/informes/informe-Andorra-Escaldes-Engordany_name-parque.tsv","",0,0,0,0,FALSE
-"relation",2804757,"La Massana","La Massana",FALSE,"Andorra",7,NA,"ppcc/parque-parc/informes/informe-Andorra-La Massana_name-parque.tsv","",0,0,0,0,FALSE
-"relation",2804758,"Ordino","Ordino",FALSE,"Andorra",7,NA,"ppcc/parque-parc/informes/informe-Andorra-Ordino_name-parque.tsv","",0,0,0,0,FALSE
-"relation",2804759,"Sant Julià de Lòria","Sant Julià de Lòria",FALSE,"Andorra",7,NA,"ppcc/parque-parc/informes/informe-Andorra-Sant Julià de Lòria_name-parque.tsv","",0,0,0,0,FALSE
-"relation",13433224,"Alta Cerdanya","Alta Cerdanya",FALSE,"CatNord",NA,7,"ppcc/parque-parc/informes/informe-CatNord-Alta Cerdanya_name-parque.tsv","",0,0,0,0,FALSE
-"relation",13433225,"Vallespir","Vallespir",FALSE,"CatNord",NA,7,"ppcc/parque-parc/informes/informe-CatNord-Vallespir_name-parque.tsv","",0,0,0,0,FALSE
-"relation",13433226,"Conflent","Conflent",FALSE,"CatNord",NA,7,"ppcc/parque-parc/informes/informe-CatNord-Conflent_name-parque.tsv","",0,0,0,0,FALSE
-"relation",13433227,"Capcir","Capcir",FALSE,"CatNord",NA,7,"ppcc/parque-parc/informes/informe-CatNord-Capcir_name-parque.tsv","",0,0,0,0,FALSE
-"relation",13433228,"Rosselló","Rosselló",FALSE,"CatNord",NA,7,"ppcc/parque-parc/informes/informe-CatNord-Rosselló_name-parque.tsv","",0,0,0,0,FALSE
-"relation",6630537,"Matarraña / Matarranya","Matarranya",FALSE,"Franja",7,NA,"ppcc/parque-parc/informes/informe-Franja-Matarranya_name-parque.tsv","",4,4,0,0,FALSE
-"relation",6488309,"La Ribagorza","Ribagorça",TRUE,"Franja",7,NA,"ppcc/parque-parc/informes/informe-Franja-Ribagorça_name-parque.tsv","",1,1,0,0,FALSE
-"relation",6488338,"La Litera / La Llitera","La Llitera",TRUE,"Franja",7,NA,"ppcc/parque-parc/informes/informe-Franja-La Llitera_name-parque.tsv","",11,10,0,0,FALSE
-"relation",6488361,"Bajo Cinca / Baix Cinca","Baix Cinca",TRUE,"Franja",7,NA,"ppcc/parque-parc/informes/informe-Franja-Baix Cinca_name-parque.tsv","",7,7,0,0,FALSE
-"relation",6630546,"Bajo Aragón","Baix Aragó",TRUE,"Franja",7,NA,"ppcc/parque-parc/informes/informe-Franja-Baix Aragó_name-parque.tsv","",0,0,0,0,FALSE
-"relation",10601144,"Bajo Aragón-Caspe / Baix Aragó-Casp","Baix Aragó-Casp",TRUE,"Franja",7,NA,"ppcc/parque-parc/informes/informe-Franja-Baix Aragó-Casp_name-parque.tsv","",0,0,0,0,FALSE
-"relation",2174950,"Migjorn","Migjorn",FALSE,"Illes",7,NA,"ppcc/parque-parc/informes/informe-Illes-Migjorn_name-parque.tsv","",2,2,0,0,FALSE
-"relation",2174951,"Palma","Palma",FALSE,"Illes",7,NA,"ppcc/parque-parc/informes/informe-Illes-Palma_name-parque.tsv","",13,13,0,0,FALSE
-"relation",2175689,"Raiguer","Raiguer",FALSE,"Illes",7,NA,"ppcc/parque-parc/informes/informe-Illes-Raiguer_name-parque.tsv","",1,1,0,0,FALSE
-"relation",2175756,"Serra de Tramuntana","Serra de Tramuntana",FALSE,"Illes",7,NA,"ppcc/parque-parc/informes/informe-Illes-Serra de Tramuntana_name-parque.tsv","",8,8,0,0,FALSE
-"relation",2175937,"Pla de Mallorca","Pla de Mallorca",FALSE,"Illes",7,NA,"ppcc/parque-parc/informes/informe-Illes-Pla de Mallorca_name-parque.tsv","",1,1,0,0,FALSE
-"relation",2176079,"Llevant","Llevant",FALSE,"Illes",7,NA,"ppcc/parque-parc/informes/informe-Illes-Llevant_name-parque.tsv","",2,2,0,0,FALSE
-"relation",2181664,"Eivissa","Eivissa",FALSE,"Illes",7,NA,"ppcc/parque-parc/informes/informe-Illes-Eivissa_name-parque.tsv","",13,12,0,0,FALSE
-"relation",2182003,"Menorca","Menorca",FALSE,"Illes",7,NA,"ppcc/parque-parc/informes/informe-Illes-Menorca_name-parque.tsv","",23,17,0,0,FALSE
-"relation",6914328,"Formentera","Formentera",FALSE,"Illes",7,NA,"ppcc/parque-parc/informes/informe-Illes-Formentera_name-parque.tsv","",0,0,0,0,FALSE
-"relation",358838,"Berguedà","Berguedà",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Berguedà_name-parque.tsv","",0,0,0,0,FALSE
-"relation",368462,"Selva","Selva",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Selva_name-parque.tsv","",0,0,0,0,FALSE
-"relation",2140187,"Maresme","Maresme",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Maresme_name-parque.tsv","",6,6,0,0,FALSE
-"relation",2177382,"Alt Empordà","Alt Empordà",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Alt Empordà_name-parque.tsv","",0,0,0,0,FALSE
-"relation",2350067,"Vallès Occidental","Vallès Occidental",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Vallès Occidental_name-parque.tsv","",12,11,0,0,FALSE
-"relation",2350331,"Bages","Bages",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Bages_name-parque.tsv","",0,0,0,0,FALSE
-"relation",2417889,"Barcelonès","Barcelonès",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Barcelonès_name-parque.tsv","",4,4,0,0,FALSE
-"relation",2417929,"Vallès Oriental","Vallès Oriental",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Vallès Oriental_name-parque.tsv","",6,6,0,0,FALSE
-"relation",2422857,"Osona","Osona",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Osona_name-parque.tsv","",0,0,0,0,FALSE
-"relation",2805694,"Baix Empordà","Baix Empordà",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Baix Empordà_name-parque.tsv","",3,1,0,0,FALSE
-"relation",2805972,"Cerdanya","Cerdanya",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Cerdanya_name-parque.tsv","",0,0,0,0,FALSE
-"relation",2806754,"Ripollès","Ripollès",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Ripollès_name-parque.tsv","",0,0,0,0,FALSE
-"relation",2806999,"Garrotxa","Garrotxa",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Garrotxa_name-parque.tsv","",0,0,0,0,FALSE
-"relation",2807130,"Gironès","Gironès",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Gironès_name-parque.tsv","",0,0,0,0,FALSE
-"relation",2807146,"Pla de l'Estany","Pla de l'Estany",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Pla de l'Estany_name-parque.tsv","",0,0,0,0,FALSE
-"relation",2808804,"Anoia","Anoia",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Anoia_name-parque.tsv","",3,3,0,0,FALSE
-"relation",2809162,"Solsonès","Solsonès",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Solsonès_name-parque.tsv","",0,0,0,0,FALSE
-"relation",2809457,"Baix Llobregat","Baix Llobregat",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Baix Llobregat_name-parque.tsv","",20,16,0,0,FALSE
-"relation",2809538,"Garraf","Garraf",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Garraf_name-parque.tsv","",0,0,0,0,FALSE
-"relation",2809672,"Alt Penedès","Alt Penedès",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Alt Penedès_name-parque.tsv","",0,0,0,0,FALSE
-"relation",2810001,"Alt Urgell","Alt Urgell",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Alt Urgell_name-parque.tsv","",0,0,0,0,FALSE
-"relation",2810705,"Pallars Sobirà","Pallars Sobirà",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Pallars Sobirà_name-parque.tsv","",0,0,0,0,FALSE
-"relation",2810808,"Alta Ribagorça","Alta Ribagorça",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Alta Ribagorça_name-parque.tsv","",1,1,0,0,FALSE
-"relation",2810954,"Pallars Jussà","Pallars Jussà",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Pallars Jussà_name-parque.tsv","",0,0,0,0,FALSE
-"relation",2815579,"Segarra","Segarra",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Segarra_name-parque.tsv","",0,0,0,0,FALSE
-"relation",2816276,"Noguera","Noguera",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Noguera_name-parque.tsv","",0,0,0,0,FALSE
-"relation",2818895,"Urgell","Urgell",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Urgell_name-parque.tsv","",0,0,0,0,FALSE
-"relation",2819346,"Pla d'Urgell","Pla d'Urgell",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Pla d'Urgell_name-parque.tsv","",0,0,0,0,FALSE
-"relation",2819857,"Segrià","Segrià",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Segrià_name-parque.tsv","",0,0,0,0,FALSE
-"relation",2819870,"Garrigues","Garrigues",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Garrigues_name-parque.tsv","",4,4,0,0,FALSE
-"relation",2822039,"Conca de Barberà","Conca de Barberà",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Conca de Barberà_name-parque.tsv","",0,0,0,0,FALSE
-"relation",2822130,"Alt Camp","Alt Camp",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Alt Camp_name-parque.tsv","",0,0,0,0,FALSE
-"relation",2822410,"Baix Penedès","Baix Penedès",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Baix Penedès_name-parque.tsv","",7,7,0,0,FALSE
-"relation",2822691,"Tarragonès","Tarragonès",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Tarragonès_name-parque.tsv","",7,7,0,0,FALSE
-"relation",2824935,"Baix Camp","Baix Camp",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Baix Camp_name-parque.tsv","",1,1,0,0,FALSE
-"relation",2826145,"Priorat","Priorat",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Priorat_name-parque.tsv","",0,0,0,0,FALSE
-"relation",2826423,"Baix Ebre","Baix Ebre",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Baix Ebre_name-parque.tsv","",0,0,0,0,FALSE
-"relation",2827413,"Montsià","Montsià",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Montsià_name-parque.tsv","",0,0,0,0,FALSE
-"relation",2829952,"Ribera d'Ebre","Ribera d'Ebre",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Ribera d'Ebre_name-parque.tsv","",2,2,0,0,FALSE
-"relation",2829953,"Terra Alta","Terra Alta",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Terra Alta_name-parque.tsv","",7,7,0,0,FALSE
-"relation",4791885,"Moianès","Moianès",FALSE,"Principat",7,NA,"ppcc/parque-parc/informes/informe-Principat-Moianès_name-parque.tsv","",0,0,0,0,FALSE
-"relation",1111146,"l'Alcalatén","l'Alcalatén",FALSE,"PV",7,NA,"ppcc/parque-parc/informes/informe-PV-l'Alcalatén_name-parque.tsv","",1,1,0,0,FALSE
-"relation",1690971,"l'Alt Maestrat","l'Alt Maestrat",FALSE,"PV",7,NA,"ppcc/parque-parc/informes/informe-PV-l'Alt Maestrat_name-parque.tsv","",4,2,0,0,FALSE
-"relation",1690974,"el Baix Maestrat","el Baix Maestrat",FALSE,"PV",7,NA,"ppcc/parque-parc/informes/informe-PV-el Baix Maestrat_name-parque.tsv","",3,3,0,0,FALSE
-"relation",1690975,"la Plana Alta","la Plana Alta",FALSE,"PV",7,NA,"ppcc/parque-parc/informes/informe-PV-la Plana Alta_name-parque.tsv","",31,28,0,0,FALSE
-"relation",1690976,"la Plana Baixa","la Plana Baixa",FALSE,"PV",7,NA,"ppcc/parque-parc/informes/informe-PV-la Plana Baixa_name-parque.tsv","",26,24,0,0,FALSE
-"relation",1691745,"el Camp de Morvedre","el Camp de Morvedre",FALSE,"PV",7,NA,"ppcc/parque-parc/informes/informe-PV-el Camp de Morvedre_name-parque.tsv","",7,7,0,0,FALSE
-"relation",1691749,"l'Horta Nord","l'Horta Nord",FALSE,"PV",7,NA,"ppcc/parque-parc/informes/informe-PV-l'Horta Nord_name-parque.tsv","",25,20,0,0,FALSE
-"relation",1691750,"l'Horta Oest","l'Horta Oest",FALSE,"PV",7,NA,"ppcc/parque-parc/informes/informe-PV-l'Horta Oest_name-parque.tsv","",45,33,0,0,FALSE
-"relation",1691751,"l'Horta Sud","l'Horta Sud",FALSE,"PV",7,NA,"ppcc/parque-parc/informes/informe-PV-l'Horta Sud_name-parque.tsv","",18,18,0,0,FALSE
-"relation",1691752,"la Costera","la Costera",FALSE,"PV",7,NA,"ppcc/parque-parc/informes/informe-PV-la Costera_name-parque.tsv","",2,2,0,0,FALSE
-"relation",1691756,"la Ribera Baixa","la Ribera Baixa",FALSE,"PV",7,NA,"ppcc/parque-parc/informes/informe-PV-la Ribera Baixa_name-parque.tsv","",3,3,0,0,FALSE
-"relation",1691758,"la Safor","la Safor",FALSE,"PV",7,NA,"ppcc/parque-parc/informes/informe-PV-la Safor_name-parque.tsv","",35,32,0,0,FALSE
-"relation",1691760,"la Vall d'Albaida","la Vall d'Albaida",FALSE,"PV",7,NA,"ppcc/parque-parc/informes/informe-PV-la Vall d'Albaida_name-parque.tsv","",13,12,0,0,FALSE
-"relation",1692438,"l'Alacantí","l'Alacantí",FALSE,"PV",7,NA,"ppcc/parque-parc/informes/informe-PV-l'Alacantí_name-parque.tsv","",61,58,1,1,FALSE
-"relation",1692440,"el Baix Vinalopó","el Baix Vinalopó",FALSE,"PV",7,NA,"ppcc/parque-parc/informes/informe-PV-el Baix Vinalopó_name-parque.tsv","",23,22,0,0,FALSE
-"relation",1692441,"el Comtat","el Comtat",FALSE,"PV",7,NA,"ppcc/parque-parc/informes/informe-PV-el Comtat_name-parque.tsv","",1,1,0,0,FALSE
-"relation",1692442,"l'Alcoià","l'Alcoià",FALSE,"PV",7,NA,"ppcc/parque-parc/informes/informe-PV-l'Alcoià_name-parque.tsv","",16,15,0,0,FALSE
-"relation",1692443,"la Marina Alta","la Marina Alta",FALSE,"PV",7,NA,"ppcc/parque-parc/informes/informe-PV-la Marina Alta_name-parque.tsv","",18,16,0,0,FALSE
-"relation",1692445,"la Marina Baixa","la Marina Baixa",FALSE,"PV",7,NA,"ppcc/parque-parc/informes/informe-PV-la Marina Baixa_name-parque.tsv","",44,43,0,0,FALSE
-"relation",5813174,"Comarca de València","Comarca de València",FALSE,"PV",7,NA,"ppcc/parque-parc/informes/informe-PV-Comarca de València_name-parque.tsv","",27,23,0,0,FALSE
-"relation",1110951,"els Ports","els Ports",TRUE,"PV",7,NA,"ppcc/parque-parc/informes/informe-PV-els Ports_name-parque.tsv","",18,9,0,0,FALSE
-"relation",1691746,"el Camp de Túria","el Camp de Túria",TRUE,"PV",7,NA,"ppcc/parque-parc/informes/informe-PV-el Camp de Túria_name-parque.tsv","",77,55,0,0,FALSE
-"relation",1691755,"la Ribera Alta","la Ribera Alta",TRUE,"PV",7,NA,"ppcc/parque-parc/informes/informe-PV-la Ribera Alta_name-parque.tsv","",52,27,0,0,FALSE
-"relation",1692439,"l'Alt Vinalopó / El Alto Vinalopó","l'Alt Vinalopó",TRUE,"PV",7,NA,"ppcc/parque-parc/informes/informe-PV-l'Alt Vinalopó_name-parque.tsv","",0,0,0,0,FALSE
-"relation",1692446,"el Vinalopó Mitjà / El Vinalopó Medio","el Vinalopó Mitjà",TRUE,"PV",7,NA,"ppcc/parque-parc/informes/informe-PV-el Vinalopó Mitjà_name-parque.tsv","",49,48,0,0,FALSE
-"relation",1692447,"el Baix Segura / La Vega Baja del Segura","el Baix Segura",TRUE,"PV",7,NA,"ppcc/parque-parc/informes/informe-PV-el Baix Segura_name-parque.tsv","",1,1,0,0,FALSE
-"relation",11755232,"El Carche","el Carxe",FALSE,"Múrcia",NA,NA,"ppcc/parque-parc/informes/informe-Múrcia-el Carxe_name-parque.tsv","",0,0,0,0,FALSE
-"relation",40581,"Alghero - L'Alguer","L'Alguer",FALSE,"Sardenya",8,NA,"ppcc/parque-parc/informes/informe-Sardenya-L'Alguer_name-parque.tsv","",0,0,0,0,FALSE
+"regio","name:ca","nObjectes","nCasos","nObjectesNomWikidata","nCasosNomWikidata","revisat","type","id","name","parcial","admin_level","historic:admin_level","informe"
+"PV","l'Alacantí",61,58,1,1,FALSE,"relation",1692438,"l'Alacantí",FALSE,7,NA,"PPCC/parque-parc/informes/informe-PV-l'Alacantí_name-parque.tsv"
+"PV","el Camp de Túria",77,55,0,0,FALSE,"relation",1691746,"el Camp de Túria",TRUE,7,NA,"PPCC/parque-parc/informes/informe-PV-el Camp de Túria_name-parque.tsv"
+"PV","el Vinalopó Mitjà",49,48,0,0,FALSE,"relation",1692446,"el Vinalopó Mitjà / El Vinalopó Medio",TRUE,7,NA,"PPCC/parque-parc/informes/informe-PV-el Vinalopó Mitjà_name-parque.tsv"
+"PV","la Marina Baixa",44,43,0,0,FALSE,"relation",1692445,"la Marina Baixa",FALSE,7,NA,"PPCC/parque-parc/informes/informe-PV-la Marina Baixa_name-parque.tsv"
+"PV","l'Horta Oest",45,33,0,0,FALSE,"relation",1691750,"l'Horta Oest",FALSE,7,NA,"PPCC/parque-parc/informes/informe-PV-l'Horta Oest_name-parque.tsv"
+"PV","la Safor",35,32,0,0,FALSE,"relation",1691758,"la Safor",FALSE,7,NA,"PPCC/parque-parc/informes/informe-PV-la Safor_name-parque.tsv"
+"PV","la Plana Alta",31,28,0,0,FALSE,"relation",1690975,"la Plana Alta",FALSE,7,NA,"PPCC/parque-parc/informes/informe-PV-la Plana Alta_name-parque.tsv"
+"PV","la Ribera Alta",52,27,0,0,FALSE,"relation",1691755,"la Ribera Alta",TRUE,7,NA,"PPCC/parque-parc/informes/informe-PV-la Ribera Alta_name-parque.tsv"
+"PV","la Plana Baixa",26,24,0,0,FALSE,"relation",1690976,"la Plana Baixa",FALSE,7,NA,"PPCC/parque-parc/informes/informe-PV-la Plana Baixa_name-parque.tsv"
+"PV","Comarca de València",27,23,0,0,FALSE,"relation",5813174,"Comarca de València",FALSE,7,NA,"PPCC/parque-parc/informes/informe-PV-Comarca de València_name-parque.tsv"
+"PV","el Baix Vinalopó",23,22,0,0,FALSE,"relation",1692440,"el Baix Vinalopó",FALSE,7,NA,"PPCC/parque-parc/informes/informe-PV-el Baix Vinalopó_name-parque.tsv"
+"PV","l'Horta Nord",25,20,0,0,FALSE,"relation",1691749,"l'Horta Nord",FALSE,7,NA,"PPCC/parque-parc/informes/informe-PV-l'Horta Nord_name-parque.tsv"
+"PV","l'Horta Sud",18,18,0,0,FALSE,"relation",1691751,"l'Horta Sud",FALSE,7,NA,"PPCC/parque-parc/informes/informe-PV-l'Horta Sud_name-parque.tsv"
+"Illes","Menorca",23,17,0,0,FALSE,"relation",2182003,"Menorca",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Illes-Menorca_name-parque.tsv"
+"PV","la Marina Alta",18,16,0,0,FALSE,"relation",1692443,"la Marina Alta",FALSE,7,NA,"PPCC/parque-parc/informes/informe-PV-la Marina Alta_name-parque.tsv"
+"Principat","Baix Llobregat",20,16,0,0,FALSE,"relation",2809457,"Baix Llobregat",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Baix Llobregat_name-parque.tsv"
+"PV","l'Alcoià",16,15,0,0,FALSE,"relation",1692442,"l'Alcoià",FALSE,7,NA,"PPCC/parque-parc/informes/informe-PV-l'Alcoià_name-parque.tsv"
+"Illes","Palma",13,13,0,0,FALSE,"relation",2174951,"Palma",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Illes-Palma_name-parque.tsv"
+"Illes","Eivissa",13,12,0,0,FALSE,"relation",2181664,"Eivissa",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Illes-Eivissa_name-parque.tsv"
+"PV","la Vall d'Albaida",13,12,0,0,FALSE,"relation",1691760,"la Vall d'Albaida",FALSE,7,NA,"PPCC/parque-parc/informes/informe-PV-la Vall d'Albaida_name-parque.tsv"
+"Principat","Vallès Occidental",12,11,0,0,FALSE,"relation",2350067,"Vallès Occidental",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Vallès Occidental_name-parque.tsv"
+"Franja","La Llitera",11,10,0,0,FALSE,"relation",6488338,"La Litera / La Llitera",TRUE,7,NA,"PPCC/parque-parc/informes/informe-Franja-La Llitera_name-parque.tsv"
+"PV","els Ports",18,9,0,0,FALSE,"relation",1110951,"els Ports",TRUE,7,NA,"PPCC/parque-parc/informes/informe-PV-els Ports_name-parque.tsv"
+"Illes","Serra de Tramuntana",8,8,0,0,FALSE,"relation",2175756,"Serra de Tramuntana",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Illes-Serra de Tramuntana_name-parque.tsv"
+"Franja","Baix Cinca",7,7,0,0,FALSE,"relation",6488361,"Bajo Cinca / Baix Cinca",TRUE,7,NA,"PPCC/parque-parc/informes/informe-Franja-Baix Cinca_name-parque.tsv"
+"PV","el Camp de Morvedre",7,7,0,0,FALSE,"relation",1691745,"el Camp de Morvedre",FALSE,7,NA,"PPCC/parque-parc/informes/informe-PV-el Camp de Morvedre_name-parque.tsv"
+"Principat","Baix Penedès",7,7,0,0,FALSE,"relation",2822410,"Baix Penedès",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Baix Penedès_name-parque.tsv"
+"Principat","Tarragonès",7,7,0,0,FALSE,"relation",2822691,"Tarragonès",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Tarragonès_name-parque.tsv"
+"Principat","Terra Alta",7,7,0,0,FALSE,"relation",2829953,"Terra Alta",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Terra Alta_name-parque.tsv"
+"Principat","Maresme",6,6,0,0,FALSE,"relation",2140187,"Maresme",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Maresme_name-parque.tsv"
+"Principat","Vallès Oriental",6,6,0,0,FALSE,"relation",2417929,"Vallès Oriental",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Vallès Oriental_name-parque.tsv"
+"Franja","Matarranya",4,4,0,0,FALSE,"relation",6630537,"Matarraña / Matarranya",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Franja-Matarranya_name-parque.tsv"
+"Principat","Barcelonès",4,4,0,0,FALSE,"relation",2417889,"Barcelonès",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Barcelonès_name-parque.tsv"
+"Principat","Garrigues",4,4,0,0,FALSE,"relation",2819870,"Garrigues",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Garrigues_name-parque.tsv"
+"PV","el Baix Maestrat",3,3,0,0,FALSE,"relation",1690974,"el Baix Maestrat",FALSE,7,NA,"PPCC/parque-parc/informes/informe-PV-el Baix Maestrat_name-parque.tsv"
+"PV","la Ribera Baixa",3,3,0,0,FALSE,"relation",1691756,"la Ribera Baixa",FALSE,7,NA,"PPCC/parque-parc/informes/informe-PV-la Ribera Baixa_name-parque.tsv"
+"Principat","Anoia",3,3,0,0,FALSE,"relation",2808804,"Anoia",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Anoia_name-parque.tsv"
+"Illes","Llevant",2,2,0,0,FALSE,"relation",2176079,"Llevant",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Illes-Llevant_name-parque.tsv"
+"Illes","Migjorn",2,2,0,0,FALSE,"relation",2174950,"Migjorn",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Illes-Migjorn_name-parque.tsv"
+"PV","l'Alt Maestrat",4,2,0,0,FALSE,"relation",1690971,"l'Alt Maestrat",FALSE,7,NA,"PPCC/parque-parc/informes/informe-PV-l'Alt Maestrat_name-parque.tsv"
+"PV","la Costera",2,2,0,0,FALSE,"relation",1691752,"la Costera",FALSE,7,NA,"PPCC/parque-parc/informes/informe-PV-la Costera_name-parque.tsv"
+"Principat","Ribera d'Ebre",2,2,0,0,FALSE,"relation",2829952,"Ribera d'Ebre",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Ribera d'Ebre_name-parque.tsv"
+"Franja","Ribagorça",1,1,0,0,FALSE,"relation",6488309,"La Ribagorza",TRUE,7,NA,"PPCC/parque-parc/informes/informe-Franja-Ribagorça_name-parque.tsv"
+"Illes","Pla de Mallorca",1,1,0,0,FALSE,"relation",2175937,"Pla de Mallorca",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Illes-Pla de Mallorca_name-parque.tsv"
+"Illes","Raiguer",1,1,0,0,FALSE,"relation",2175689,"Raiguer",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Illes-Raiguer_name-parque.tsv"
+"PV","el Baix Segura",1,1,0,0,FALSE,"relation",1692447,"el Baix Segura / La Vega Baja del Segura",TRUE,7,NA,"PPCC/parque-parc/informes/informe-PV-el Baix Segura_name-parque.tsv"
+"PV","el Comtat",1,1,0,0,FALSE,"relation",1692441,"el Comtat",FALSE,7,NA,"PPCC/parque-parc/informes/informe-PV-el Comtat_name-parque.tsv"
+"PV","l'Alcalatén",1,1,0,0,FALSE,"relation",1111146,"l'Alcalatén",FALSE,7,NA,"PPCC/parque-parc/informes/informe-PV-l'Alcalatén_name-parque.tsv"
+"Principat","Alta Ribagorça",1,1,0,0,FALSE,"relation",2810808,"Alta Ribagorça",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Alta Ribagorça_name-parque.tsv"
+"Principat","Baix Camp",1,1,0,0,FALSE,"relation",2824935,"Baix Camp",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Baix Camp_name-parque.tsv"
+"Principat","Baix Empordà",3,1,0,0,FALSE,"relation",2805694,"Baix Empordà",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Baix Empordà_name-parque.tsv"
+"Andorra","Andorra la Vella",0,0,0,0,FALSE,"relation",2804753,"Andorra la Vella",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Andorra-Andorra la Vella_name-parque.tsv"
+"Andorra","Canillo",0,0,0,0,FALSE,"relation",2804754,"Canillo",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Andorra-Canillo_name-parque.tsv"
+"Andorra","Encamp",0,0,0,0,FALSE,"relation",2804755,"Encamp",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Andorra-Encamp_name-parque.tsv"
+"Andorra","Escaldes-Engordany",0,0,0,0,FALSE,"relation",2804756,"Escaldes-Engordany",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Andorra-Escaldes-Engordany_name-parque.tsv"
+"Andorra","La Massana",0,0,0,0,FALSE,"relation",2804757,"La Massana",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Andorra-La Massana_name-parque.tsv"
+"Andorra","Ordino",0,0,0,0,FALSE,"relation",2804758,"Ordino",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Andorra-Ordino_name-parque.tsv"
+"Andorra","Sant Julià de Lòria",0,0,0,0,FALSE,"relation",2804759,"Sant Julià de Lòria",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Andorra-Sant Julià de Lòria_name-parque.tsv"
+"CatNord","Alta Cerdanya",0,0,0,0,FALSE,"relation",13433224,"Alta Cerdanya",FALSE,NA,7,"PPCC/parque-parc/informes/informe-CatNord-Alta Cerdanya_name-parque.tsv"
+"CatNord","Capcir",0,0,0,0,FALSE,"relation",13433227,"Capcir",FALSE,NA,7,"PPCC/parque-parc/informes/informe-CatNord-Capcir_name-parque.tsv"
+"CatNord","Conflent",0,0,0,0,FALSE,"relation",13433226,"Conflent",FALSE,NA,7,"PPCC/parque-parc/informes/informe-CatNord-Conflent_name-parque.tsv"
+"CatNord","Rosselló",0,0,0,0,FALSE,"relation",13433228,"Rosselló",FALSE,NA,7,"PPCC/parque-parc/informes/informe-CatNord-Rosselló_name-parque.tsv"
+"CatNord","Vallespir",0,0,0,0,FALSE,"relation",13433225,"Vallespir",FALSE,NA,7,"PPCC/parque-parc/informes/informe-CatNord-Vallespir_name-parque.tsv"
+"Franja","Baix Aragó",0,0,0,0,FALSE,"relation",6630546,"Bajo Aragón",TRUE,7,NA,"PPCC/parque-parc/informes/informe-Franja-Baix Aragó_name-parque.tsv"
+"Franja","Baix Aragó-Casp",0,0,0,0,FALSE,"relation",10601144,"Bajo Aragón-Caspe / Baix Aragó-Casp",TRUE,7,NA,"PPCC/parque-parc/informes/informe-Franja-Baix Aragó-Casp_name-parque.tsv"
+"Illes","Formentera",0,0,0,0,FALSE,"relation",6914328,"Formentera",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Illes-Formentera_name-parque.tsv"
+"Múrcia","el Carxe",0,0,0,0,FALSE,"relation",11755232,"El Carche",FALSE,NA,NA,"PPCC/parque-parc/informes/informe-Múrcia-el Carxe_name-parque.tsv"
+"PV","l'Alt Vinalopó",0,0,0,0,FALSE,"relation",1692439,"l'Alt Vinalopó / El Alto Vinalopó",TRUE,7,NA,"PPCC/parque-parc/informes/informe-PV-l'Alt Vinalopó_name-parque.tsv"
+"Principat","Alt Camp",0,0,0,0,FALSE,"relation",2822130,"Alt Camp",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Alt Camp_name-parque.tsv"
+"Principat","Alt Empordà",0,0,0,0,FALSE,"relation",2177382,"Alt Empordà",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Alt Empordà_name-parque.tsv"
+"Principat","Alt Penedès",0,0,0,0,FALSE,"relation",2809672,"Alt Penedès",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Alt Penedès_name-parque.tsv"
+"Principat","Alt Urgell",0,0,0,0,FALSE,"relation",2810001,"Alt Urgell",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Alt Urgell_name-parque.tsv"
+"Principat","Bages",0,0,0,0,FALSE,"relation",2350331,"Bages",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Bages_name-parque.tsv"
+"Principat","Baix Ebre",0,0,0,0,FALSE,"relation",2826423,"Baix Ebre",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Baix Ebre_name-parque.tsv"
+"Principat","Berguedà",0,0,0,0,FALSE,"relation",358838,"Berguedà",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Berguedà_name-parque.tsv"
+"Principat","Cerdanya",0,0,0,0,FALSE,"relation",2805972,"Cerdanya",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Cerdanya_name-parque.tsv"
+"Principat","Conca de Barberà",0,0,0,0,FALSE,"relation",2822039,"Conca de Barberà",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Conca de Barberà_name-parque.tsv"
+"Principat","Garraf",0,0,0,0,FALSE,"relation",2809538,"Garraf",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Garraf_name-parque.tsv"
+"Principat","Garrotxa",0,0,0,0,FALSE,"relation",2806999,"Garrotxa",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Garrotxa_name-parque.tsv"
+"Principat","Gironès",0,0,0,0,FALSE,"relation",2807130,"Gironès",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Gironès_name-parque.tsv"
+"Principat","Moianès",0,0,0,0,FALSE,"relation",4791885,"Moianès",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Moianès_name-parque.tsv"
+"Principat","Montsià",0,0,0,0,FALSE,"relation",2827413,"Montsià",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Montsià_name-parque.tsv"
+"Principat","Noguera",0,0,0,0,FALSE,"relation",2816276,"Noguera",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Noguera_name-parque.tsv"
+"Principat","Osona",0,0,0,0,FALSE,"relation",2422857,"Osona",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Osona_name-parque.tsv"
+"Principat","Pallars Jussà",0,0,0,0,FALSE,"relation",2810954,"Pallars Jussà",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Pallars Jussà_name-parque.tsv"
+"Principat","Pallars Sobirà",0,0,0,0,FALSE,"relation",2810705,"Pallars Sobirà",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Pallars Sobirà_name-parque.tsv"
+"Principat","Pla d'Urgell",0,0,0,0,FALSE,"relation",2819346,"Pla d'Urgell",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Pla d'Urgell_name-parque.tsv"
+"Principat","Pla de l'Estany",0,0,0,0,FALSE,"relation",2807146,"Pla de l'Estany",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Pla de l'Estany_name-parque.tsv"
+"Principat","Priorat",0,0,0,0,FALSE,"relation",2826145,"Priorat",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Priorat_name-parque.tsv"
+"Principat","Ripollès",0,0,0,0,FALSE,"relation",2806754,"Ripollès",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Ripollès_name-parque.tsv"
+"Principat","Segarra",0,0,0,0,FALSE,"relation",2815579,"Segarra",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Segarra_name-parque.tsv"
+"Principat","Segrià",0,0,0,0,FALSE,"relation",2819857,"Segrià",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Segrià_name-parque.tsv"
+"Principat","Selva",0,0,0,0,FALSE,"relation",368462,"Selva",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Selva_name-parque.tsv"
+"Principat","Solsonès",0,0,0,0,FALSE,"relation",2809162,"Solsonès",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Solsonès_name-parque.tsv"
+"Principat","Urgell",0,0,0,0,FALSE,"relation",2818895,"Urgell",FALSE,7,NA,"PPCC/parque-parc/informes/informe-Principat-Urgell_name-parque.tsv"
+"Sardenya","L'Alguer",0,0,0,0,FALSE,"relation",40581,"Alghero - L'Alguer",FALSE,8,NA,"PPCC/parque-parc/informes/informe-Sardenya-L'Alguer_name-parque.tsv"
