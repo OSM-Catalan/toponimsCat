@@ -188,7 +188,7 @@ recompteCasosInformes<- function(arrelProjecte, informes, dades){
     objectesOSM<- try(utils::read.table(dades$informe[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE))
     if (inherits(objectesOSM, "data.frame")){
       casosRevisar<- unique(objectesOSM[, c("name", "name:ca", "alt_name:ca", "alt_name", "translations", "ca.wikipedia_page", "wikidata_id")])
-      dades$nObjects[i]<- nrow(objectesOSM)
+      dades$nObjectes[i]<- nrow(objectesOSM)
       dades$nCasos[i]<- nrow(casosRevisar)
 
       if ("translations" %in% names(objectesOSM)){

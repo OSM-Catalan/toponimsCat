@@ -69,7 +69,11 @@ actualitzaInformes<- FALSE
 
 ## Avalua el nombre de casos a cada informe generat ----
 estat<- recompteCasosInformes(dades=divisions)
-estat[intersect(order(estat$nCasos, decreasing=TRUE), which(!estat$revisat & estat$nObjects > 0)), ]
+ordCasos<- order(estat$revisat, estat$nCasos, estat$regio, estat$`name:ca`,
+                 decreasing=c(FALSE, TRUE, FALSE, FALSE), method="radix")
+ordCol<- c("regio", "name:ca", "nObjectes", "nCasos", "nObjectesNomWikidata", "nCasosNomWikidata", "revisat")
+ordCol<- c(ordCol, setdiff(names(estat), c(ordCol, "cmd")))
+estat[intersect(order(estat$nCasos, decreasing=TRUE), which(!estat$revisat & estat$nObjectes > 0)), ]
 
 write.csv(estat, file=file.path(arrelProjecte, paste0("estat", sufixFitxers, ".csv")), row.names=FALSE)
 
@@ -82,7 +86,7 @@ descartaObjectesSenseTraduccions(fitxersInformes=estat$informe)
 ## Edita les revisions ----
 # les revisions són els casos únics a revisar de "name", "name:ca", "alt_name:ca", "alt_name", "translations", "ca.wikipedia_page", "wikidata_id"
 estat<- read.csv(file=file.path(arrelProjecte, paste0("estat", sufixFitxers, ".csv")), check.names=FALSE)
-estatPendents<- estat[!estat$nObjects %in% c(NA, 0), ] # Selecciona informes amb casos pendents
+estatPendents<- estat[!estat$nObjectes %in% c(NA, 0), ] # Selecciona informes amb casos pendents
 estatPendents[order(estatPendents$nCasos, decreasing=TRUE), ]
 
 estatPendents$revisio<- generaRevisions_regexTranslations(informes=estatPendents$informe, arrelProjecte=arrelProjecte,

@@ -30,7 +30,7 @@ Eines per ajudar a afegir l'etiqueta ```name:ca```. Podeu descarregar el paquet 
 fitxersEstat<- dir(".", pattern="(casos|estat).*\\.csv$", recursive=TRUE, full.names=TRUE)
 resumL<- lapply(fitxersEstat, function(x){
   estat<- read.csv(x)
-  resum<- colSums(estat[, c("nObjects", "nCasos", "nObjectesNomWikidata", "nCasosNomWikidata")])
+  resum<- colSums(estat[, c("nObjectes", "nCasos", "nObjectesNomWikidata", "nCasosNomWikidata")])
 })
 names(resumL)<- gsub("./", "", fitxersEstat, fixed=TRUE)
 resum<- do.call(rbind, resumL)
