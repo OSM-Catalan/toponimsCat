@@ -435,6 +435,10 @@ preparaEdicions<- function(arrelProjecte, usuari, fitxerContrasenya){
   revisio.casosFETS_maj<- revisio.casosFETS
   revisio.casosFETS<- rbind(revisio.casosFETS_min, revisio.casosFETS_maj)
 
+  revisio.casosFETS[, c("name", "name:ca", "alt_name", "alt_name:ca")]<- lapply(revisio.casosFETS[, c("name", "name:ca", "alt_name", "alt_name:ca")], function(x){
+    x[x %in% ""]<- NA
+  })
+  revisio.casosFETS<- unique(revisio.casosFETS)
 
   if (any(dup<- duplicated(revisio.casosFETS[, c("name", "alt_name", "translations", "ca.wikipedia_page", "wikidata_id")]))){
     print(revisio.casosFETS[dup, c("name", "alt_name", "translations", "ca.wikipedia_page", "wikidata_id")])
