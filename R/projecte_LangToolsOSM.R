@@ -407,7 +407,7 @@ generaRevisions_regexTranslations<- function(informes, arrelProjecte, cerca=" \\
 #'
 #' bdRevs<- unique(bdRevs)
 #' \dontrun{
-#'   write.table(bdRevs, "PPCC/plaza-plaça/revisions/FET/revisio-PPCC_reutilitzat_name-plaza.tsv", sep="\t", na="", col.names=TRUE, row.names=FALSE)
+#'   write.table(bdRevs, "PPCC/plaza-plaça/revisions/revisio-PPCC_reutilitzat_name-plaza.tsv", sep="\t", na="", col.names=TRUE, row.names=FALSE)
 #' }
 bdRevisions<- function(arrelProjectes){
   arrelProjectes<- gsub("/$", "", arrelProjectes)  # Normalitza camins per evitar problemes en modificar-los
