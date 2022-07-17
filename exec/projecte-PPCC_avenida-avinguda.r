@@ -62,13 +62,13 @@ bdRevs<- bdRevisions(arrelProjectes="PPCC")
 attributes(bdRevs)$duplicats
 
 bdRevs[, c("name", "alt_name")]<- lapply(bdRevs[, c("name", "alt_name")], function(x){
-  x<- gsub("^(avenida|calle|camino|parque|plaza) ", "plaza ", x)
-  x<- gsub("^(Avenida|Calle|Camino|Parque|Plaza) ", "Plaza ", x)
+  x<- gsub("^(avenida|calle|camino|parque|plaza) ", "avenida ", x)
+  x<- gsub("^(Avenida|Calle|Camino|Parque|Plaza) ", "Avenida ", x)
   x
 })
 bdRevs[, c("name:ca", "alt_name:ca")]<- lapply(bdRevs[, c("name:ca", "alt_name:ca")], function(x){
-  x<- gsub("^(avinguda|carrer|camí|parc|plaça) ", "plaça ", x)
-  x<- gsub("^(Avinguda|Carrer|Camí|Parc|Plaça) ", "Plaça ", x)
+  x<- gsub("^(avinguda|carrer|camí|parc|plaça) ", "avinguda ", x)
+  x<- gsub("^(Avinguda|Carrer|Camí|Parc|Plaça) ", "Avinguda ", x)
   x
 })
 bdRevs<- unique(bdRevs)
@@ -89,7 +89,7 @@ cmd<- preparaEdicions(arrelProjecte=arrelProjecte, usuari=usuari, fitxerContrase
 cmd<- na.omit(cmd)
 
 ## Afegeix paràmetres a les ordres. Veure «update_osm_objects_from_report --help» per les opcions de LangToolsOSM
-nomComarca<- gsub(paste0(".+--input-file \\\"", arrelProjecte, "/edicions/informe-|_name-calle.tsv\\\".+"), "", cmd)
+nomComarca<- gsub(paste0(".+--input-file \\\"", arrelProjecte, "/edicions/informe-|", sufixFitxers, ".tsv\\\".+"), "", cmd)
 cmd<- paste0(cmd, " --changeset-hashtags \"#toponimsCat;#avenida_avinguda\"",
             " --batch 100 --changeset-comment \"Afegeix name:ca a avingudes de ", nomComarca, "\"")
 cat(cmd, sep="\n")
