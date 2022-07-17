@@ -32,7 +32,7 @@ Retorna la taula de les comarques amb els nous camps \code{cmd}, que conté l'or
 Generar informes per comarques dels PPCC amb tots els objectes d'OSM segons els filtres especificats. Només inclou les zones catalanoparlants de les comarques bilingües.
 }
 \examples{
-ordres<- generaInformesPPCC(arrelProjecte="ppcc/calle-carrer",
+ordres<- generaInformesPPCC(arrelProjecte="PPCC/calle-carrer",
                             filtre="nwr[name~'^[Cc]alle'][!'name:ca']",
                             sufixFitxers="_name-calle")
 \dontrun{
