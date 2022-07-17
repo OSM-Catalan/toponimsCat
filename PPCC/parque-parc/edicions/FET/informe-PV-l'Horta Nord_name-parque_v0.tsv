@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Parque Ausiàs March"	"Parc Ausiàs March"						"way"	"  23526289"		"{'leisure': 'park', 'name': 'Parque Ausiàs March'}"
+"Parque Escalante"	"Parc Escalante"						"way"	" 554854575"		"{'description': 'Parque Municipal inaugurado el 21 de Abril del 2007', 'leisure': 'park', 'name': 'Parque Escalante'}"
+"Parque Jaime I"	"Parc Jaume I"						"node"	"2959498333"		"{'amenity': 'drinking_water', 'description': 'One fountain in a park. ', 'name': 'Parque Jaime I', 'source': 'Drinking Water Fountain', 'stateofrepair': 'ok'}"
