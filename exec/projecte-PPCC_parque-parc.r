@@ -45,8 +45,8 @@ comarques<- comarques[!comarques$nObjectes %in% c(NA, 0), ] # Selecciona comarqu
 comarques[order(comarques$nCasos, decreasing=TRUE), ]
 
 comarques$revisio<- generaRevisions_regexName(informes=comarques$informe, arrelProjecte=arrelProjecte,
-                          cerca=cerca, substitueix=substitueix, revisioUnificada=revisioUnificada,
-                          nomFitxerUnificat=paste0("revisio-PPCC", sufixFitxers, ".tsv"))
+                                              cerca=cerca, substitueix=substitueix, revisioUnificada=revisioUnificada,
+                                              nomFitxerUnificat=paste0("revisio-PPCC", sufixFitxers, ".tsv"))
 
 # Reviseu i modifiqueu la revisió de l'informe que vulgueu de revisions/.
 # Cal corregir els casos de name:ca i alt_name:ca incorrectes, esborrar-los o deixar-los en blanc si no és clar.
@@ -55,6 +55,30 @@ comarques$revisio<- generaRevisions_regexName(informes=comarques$informe, arrelP
 # Si carregueu les edicions a OSM i actualitzeu els informes i revisions després d'acabar cada fitxer de revisió,
 # és possible que es reutilitzin alguns casos a altres comarques. Podeu seguir l'script fins al final i tornar a
 # començar per actualitzar els fitxers de revisions
+
+
+## Reutilitza les revisions d'altres projectes ----
+bdRevs<- bdRevisions(arrelProjectes="PPCC")
+attributes(bdRevs)$duplicats
+
+bdRevs[, c("name", "alt_name")]<- lapply(bdRevs[, c("name", "alt_name")], function(x){
+  x<- gsub("^(avenida|calle|camino|parque|plaza) ", "parque ", x)
+  x<- gsub("^(Avenida|Calle|Camino|Parque|Plaza) ", "Parque ", x)
+  x
+})
+bdRevs[, c("name:ca", "alt_name:ca")]<- lapply(bdRevs[, c("name:ca", "alt_name:ca")], function(x){
+  x<- gsub("^(avinguda|carrer|camí|parc|plaça) ", "parc ", x)
+  x<- gsub("^(Avinguda|Carrer|Camí|Parc|Plaça) ", "Parc ", x)
+  x
+})
+bdRevs<- unique(bdRevs)
+
+revisio<- read.table(file.path(arrelProjecte, "revisions", paste0("revisio-PPCC", sufixFitxers, ".tsv")), header=TRUE, sep="\t", quote="\"", check.names=FALSE, na.strings="")
+
+revisioR<- merge(bdRevs, revisio[, setdiff(names(revisio), c("name:ca", "alt_name:ca"))])[, names(bdRevs)]
+revisioR<- unique(revisioR)
+
+write.table(revisioR, file.path(arrelProjecte, "revisions", paste0("revisio-PPCC_reutilitzat", sufixFitxers, ".tsv")), sep="\t", na="", col.names=TRUE, row.names=FALSE)
 
 
 ## Fusiona les revisions fetes amb els informes i genera ordres per carregar-los a OSM ----
@@ -66,8 +90,8 @@ cmd<- na.omit(cmd)
 
 ## Afegeix paràmetres a les ordres. Veure «update_osm_objects_from_report --help» per les opcions de LangToolsOSM
 nomComarca<- gsub(paste0(".+--input-file \\\"", arrelProjecte, "/edicions/informe-|_name-calle.tsv\\\".+"), "", cmd)
-cmd<- paste0(cmd, " --changeset-hashtags \"#toponimsCat;#calle_carrer\"",
-            " --batch 100 --changeset-comment \"Afegeix name:ca a carrers de ", nomComarca, "\"")
+cmd<- paste0(cmd, " --changeset-hashtags \"#toponimsCat;#parque_parc\"",
+            " --batch 100 --changeset-comment \"Afegeix name:ca a parcs de ", nomComarca, "\"")
 cat(cmd, sep="\n")
 
 ## Executa les ordres

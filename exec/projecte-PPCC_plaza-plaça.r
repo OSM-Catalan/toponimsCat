@@ -38,6 +38,25 @@ comarques[intersect(order(comarques$nCasos, decreasing=TRUE), which(!comarques$r
 write.csv(comarques, file=file.path(arrelProjecte, "casos_comarques.csv"), row.names=FALSE)
 
 
+## Edita les revisions ----
+# les revisions són els casos únics a revisar de "name", "name:ca", "alt_name:ca", "alt_name", "translations", "ca.wikipedia_page", "wikidata_id"
+comarques<- read.csv(file=file.path(arrelProjecte, "casos_comarques.csv"), check.names=FALSE)
+comarques<- comarques[!comarques$nObjectes %in% c(NA, 0), ] # Selecciona comarques amb casos pendents
+comarques[order(comarques$nCasos, decreasing=TRUE), ]
+
+comarques$revisio<- generaRevisions_regexName(informes=comarques$informe, arrelProjecte=arrelProjecte,
+                                              cerca=cerca, substitueix=substitueix, revisioUnificada=revisioUnificada,
+                                              nomFitxerUnificat=paste0("revisio-PPCC", sufixFitxers, ".tsv"))
+
+# Reviseu i modifiqueu la revisió de l'informe que vulgueu de revisions/.
+# Cal corregir els casos de name:ca i alt_name:ca incorrectes, esborrar-los o deixar-los en blanc si no és clar.
+# És recomanable usar LibreOffice per evitar problemes de codificació i formats dels fitxers (https://www.softcatala.org/programes/libreoffice/)
+# Moveu les revisions acabades a revisions/FET/.
+# Si carregueu les edicions a OSM i actualitzeu els informes i revisions després d'acabar cada fitxer de revisió,
+# és possible que es reutilitzin alguns casos a altres comarques. Podeu seguir l'script fins al final i tornar a
+# començar per actualitzar els fitxers de revisions
+
+
 ## Reutilitza les revisions d'altres projectes ----
 bdRevs<- bdRevisions(arrelProjectes="PPCC")
 attributes(bdRevs)$duplicats
@@ -60,22 +79,6 @@ revisioR<- merge(bdRevs, revisio[, setdiff(names(revisio), c("name:ca", "alt_nam
 revisioR<- unique(revisioR)
 
 write.table(revisioR, file.path(arrelProjecte, "revisions", paste0("revisio-PPCC_reutilitzat", sufixFitxers, ".tsv")), sep="\t", na="", col.names=TRUE, row.names=FALSE)
-
-
-## Edita les revisions ----
-# les revisions són els casos únics a revisar de "name", "name:ca", "alt_name:ca", "alt_name", "translations", "ca.wikipedia_page", "wikidata_id"
-comarques<- read.csv(file=file.path(arrelProjecte, "casos_comarques.csv"), check.names=FALSE)
-comarques<- comarques[!comarques$nObjectes %in% c(NA, 0), ] # Selecciona comarques amb casos pendents
-comarques[order(comarques$nCasos, decreasing=TRUE), ]
-
-comarques$revisio<- generaRevisions_regexName(informes=comarques$informe, arrelProjecte=arrelProjecte,
-                                              cerca=cerca, substitueix=substitueix, revisioUnificada=revisioUnificada,
-                                              nomFitxerUnificat=paste0("revisio-PPCC", sufixFitxers, ".tsv"))
-
-# Reviseu i modifiqueu la revisió de l'informe que vulgueu de revisions/.
-# Cal corregir els casos de name:ca i alt_name:ca incorrectes, esborrar-los o deixar-los en blanc si no és clar.
-# És recomanable usar LibreOffice per evitar problemes de codificació i formats dels fitxers (https://www.softcatala.org/programes/libreoffice/)
-# Moveu les revisions acabades a revisions/FET/.
 
 
 ## Fusiona les revisions fetes amb els informes i genera ordres per carregar-los a OSM ----

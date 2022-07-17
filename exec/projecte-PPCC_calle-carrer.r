@@ -56,6 +56,30 @@ comarques$revisio<- generaRevisions_regexName(informes=comarques$informe, arrelP
 # començar per actualitzar els fitxers de revisions
 
 
+## Reutilitza les revisions d'altres projectes ----
+bdRevs<- bdRevisions(arrelProjectes="PPCC")
+attributes(bdRevs)$duplicats
+
+bdRevs[, c("name", "alt_name")]<- lapply(bdRevs[, c("name", "alt_name")], function(x){
+  x<- gsub("^(avenida|calle|camino|parque|plaza) ", "calle ", x)
+  x<- gsub("^(Avenida|Calle|Camino|Parque|Plaza) ", "Calle ", x)
+  x
+})
+bdRevs[, c("name:ca", "alt_name:ca")]<- lapply(bdRevs[, c("name:ca", "alt_name:ca")], function(x){
+  x<- gsub("^(avinguda|carrer|camí|parc|plaça) ", "carrer ", x)
+  x<- gsub("^(Avinguda|Carrer|Camí|Parc|Plaça) ", "Carrer ", x)
+  x
+})
+bdRevs<- unique(bdRevs)
+
+revisio<- read.table(file.path(arrelProjecte, "revisions", paste0("revisio-PPCC", sufixFitxers, ".tsv")), header=TRUE, sep="\t", quote="\"", check.names=FALSE, na.strings="")
+
+revisioR<- merge(bdRevs, revisio[, setdiff(names(revisio), c("name:ca", "alt_name:ca"))])[, names(bdRevs)]
+revisioR<- unique(revisioR)
+
+write.table(revisioR, file.path(arrelProjecte, "revisions", paste0("revisio-PPCC_reutilitzat", sufixFitxers, ".tsv")), sep="\t", na="", col.names=TRUE, row.names=FALSE)
+
+
 ## Fusiona les revisions fetes amb els informes i genera ordres per carregar-los a OSM ----
 usuari<- "jmaspons" # Modifiqueu-ho amb el vostre nom d'usuari a OSM
 fitxerContrasenya<- "~/.osm/motdepas.txt"
