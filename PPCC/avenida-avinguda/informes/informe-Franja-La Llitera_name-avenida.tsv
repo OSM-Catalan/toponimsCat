@@ -5,6 +5,3 @@
 "way"	"32209643"	"Avenida de Florences Gil"	""	""	""	""	""	""	""	"{'highway': 'primary', 'name': 'Avenida de Florences Gil', 'ref': 'A-140'}"
 "way"	"449996480"	"Avenida San Vicente Paul"	""	""	""	""	""	""	""	"{'highway': 'secondary', 'name': 'Avenida San Vicente Paul', 'ref': 'A-1240', 'surface': 'asphalt'}"
 "way"	"449996476"	"Avenida San Vicente Paul"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Avenida San Vicente Paul'}"
-"way"	"487395019"	"Avenida de la Paz"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Avenida de la Paz'}"
-"way"	"472839170"	"Avenida Tamarite"	""	""	""	""	""	""	""	"{'highway': 'unclassified', 'name': 'Avenida Tamarite'}"
-"way"	"256698608"	"Avenida Joaquin Costa"	""	""	""	""	""	""	""	"{'highway': 'secondary', 'name': 'Avenida Joaquin Costa', 'ref': 'A-1240', 'surface': 'asphalt'}"

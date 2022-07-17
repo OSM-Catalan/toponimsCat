@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Avenida Nou d'Octubre"	"Avinguda Nou d'Octubre"						"way"	"222806879"		"{'highway': 'residential', 'name': \"Avenida Nou d'Octubre\"}"
+"Avenida Nou d'Octubre"	"Avinguda Nou d'Octubre"						"way"	"222806897"		"{'highway': 'residential', 'name': \"Avenida Nou d'Octubre\"}"
+"Avenida Nou d'Octubre"	"Avinguda Nou d'Octubre"						"way"	"222806909"		"{'highway': 'residential', 'name': \"Avenida Nou d'Octubre\", 'oneway': 'yes'}"
+"Avenida República Argentina"	"Avinguda República Argentina"						"way"	" 81339502"		"{'cycleway:right': 'no', 'highway': 'secondary', 'name': 'Avenida República Argentina', 'oneway': 'yes', 'surface': 'asphalt'}"
+"Avenida Rey Don Jaime"	"Avinguda del Rei en Jaume"						"way"	"243572231"		"{'highway': 'residential', 'name': 'Avenida Rey Don Jaime'}"
