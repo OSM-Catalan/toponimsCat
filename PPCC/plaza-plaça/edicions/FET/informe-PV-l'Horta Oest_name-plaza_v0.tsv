@@ -1,6 +1,6 @@
 "# EDITED with R"	""	""	""	""	""	""	""	""	""	""
 "name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
-"Plaza de Elche"	"Plaça dElx"						"way"	"142927319"		"{'highway': 'residential', 'lanes': '1', 'name': 'Plaza de Elche', 'oneway': 'yes', 'sidewalk': 'both'}"
+"Plaza de Elche"	"Plaça d’Elx"						"way"	"142927319"		"{'highway': 'residential', 'lanes': '1', 'name': 'Plaza de Elche', 'oneway': 'yes', 'sidewalk': 'both'}"
 "Plaza de la Iglesia"	"Plaça de l’Església"						"way"	"366894762"		"{'highway': 'residential', 'historic': 'yes', 'lit': 'yes', 'maxspeed': '20', 'maxspeed:type': 'ES:zone20', 'name': 'Plaza de la Iglesia', 'sidewalk': 'both', 'surface': 'paving_stones'}"
 "Plaza de la Iglesia"	"Plaça de l’Església"						"way"	"366894733"		"{'highway': 'residential', 'historic': 'yes', 'lit': 'yes', 'maxspeed': '20', 'maxspeed:type': 'ES:zone20', 'name': 'Plaza de la Iglesia', 'surface': 'paving_stones'}"
 "Plaza de la Iglesia"	"Plaça de l’Església"						"way"	"714887661"		"{'area': 'yes', 'highway': 'pedestrian', 'name': 'Plaza de la Iglesia'}"

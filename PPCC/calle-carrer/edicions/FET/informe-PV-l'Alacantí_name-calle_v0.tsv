@@ -128,7 +128,7 @@
 "Calle de Britania"	""				"way"	"  19563276"	""	"{'highway': 'residential', 'lit': 'yes', 'name': 'Calle de Britania', 'oneway': 'yes', 'source': 'field_work', 'surface': 'asphalt'}"	"Carrer de Britània"	""
 "Calle de Britania"	""				"way"	"  19787672"	""	"{'highway': 'residential', 'name': 'Calle de Britania', 'source': 'field_work'}"	"Carrer de Britània"	""
 "Calle de Britania"	""				"way"	" 992806666"	""	"{'highway': 'residential', 'name': 'Calle de Britania', 'oneway': 'yes', 'source': 'field_work'}"	"Carrer de Britània"	""
-"Calle de Elche"	""				"way"	"  27131523"	""	"{'created_by': 'Potlatch 0.10b', 'highway': 'residential', 'name': 'Calle de Elche', 'oneway': 'yes'}"	"Carrer dElx"	""
+"Calle de Elche"	""				"way"	"  27131523"	""	"{'created_by': 'Potlatch 0.10b', 'highway': 'residential', 'name': 'Calle de Elche', 'oneway': 'yes'}"	"Carrer d’Elx"	""
 "Calle de Elda"	""				"way"	" 694157207"	""	"{'highway': 'tertiary', 'junction': 'roundabout', 'name': 'Calle de Elda', 'ref': 'CV-772'}"	"Carrer d’Elda"	""
 "Calle de Elda"	""				"way"	" 443449212"	""	"{'highway': 'tertiary', 'name': 'Calle de Elda', 'oneway': 'yes', 'ref': 'CV-772'}"	"Carrer d’Elda"	""
 "Calle de Elda"	""				"way"	" 443449214"	""	"{'highway': 'tertiary', 'name': 'Calle de Elda', 'oneway': 'yes', 'ref': 'CV-772'}"	"Carrer d’Elda"	""

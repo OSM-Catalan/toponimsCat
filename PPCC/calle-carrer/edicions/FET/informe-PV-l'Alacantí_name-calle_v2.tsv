@@ -90,7 +90,7 @@
 "calle de Bélgica"	""				"way"	"  95794256"	""	"{'highway': 'residential', 'name': 'calle de Bélgica'}"	"carrer de Bèlgica"	""
 "calle de Benidorm"	""				"way"	"  31738490"	""	"{'highway': 'residential', 'name': 'calle de Benidorm'}"	"carrer de Benidorm"	""
 "calle de Benidorm"	""				"way"	"  31738489"	""	"{'highway': 'residential', 'name': 'calle de Benidorm'}"	"carrer de Benidorm"	""
-"calle de Elche"	""				"way"	"  25892269"	""	"{'created_by': 'Potlatch 0.10a', 'highway': 'residential', 'name': 'calle de Elche'}"	"carrer dElx"	""
+"calle de Elche"	""				"way"	"  25892269"	""	"{'created_by': 'Potlatch 0.10a', 'highway': 'residential', 'name': 'calle de Elche'}"	"carrer d’Elx"	""
 "calle de Elda"	""				"way"	"  24261291"	""	"{'highway': 'residential', 'name': 'calle de Elda'}"	"carrer d’Elda"	""
 "calle de Escocia"	""				"way"	"  28743717"	""	"{'created_by': 'Potlatch 0.10f', 'highway': 'residential', 'name': 'calle de Escocia'}"	"carrer de Escòcia"	""
 "calle de Juan XXIII"	""				"way"	"  25760539"	""	"{'created_by': 'Potlatch 0.10', 'highway': 'residential', 'name': 'calle de Juan XXIII', 'oneway': 'yes'}"	"carrer de Joan XXIII"	""
