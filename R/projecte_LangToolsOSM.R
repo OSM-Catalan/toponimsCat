@@ -381,24 +381,23 @@ generaRevisions_regexTranslations<- function(informes, arrelProjecte, cerca=" \\
 }
 
 
-#' Genera fitxers amb edicions combinant els informes i revisions
+#' Base de dades de revisions
 #'
-#' Reaprofita les revisions per casos que només es diferencien per si els noms comencen amb majúscules o minúscules, mantenint el format original.
+#' Genera revisions per casos que només es diferencien per si els noms comencen amb majúscules o minúscules, mantenint el format original.
 #'
-#' @param arrelProjecte camí a l'arrel del projecte. La carpeta de destinació serà la subcarpeta \code{edicions} i buscarà els informes i revisions a partir d'aquest camí.
-#' @param usuari nom de l'usuari a OpenStreetMap per pujar les edicions.
-#' @param fitxerContrasenya camí a un fitxer amb la contrasenya de l'usuari per evitar que LangToolsOSM la demani. El fitxer conté una sola línia amb el nom d'usuari i la contrasenya separades per un punt i coma (;) i el llegirà \href{https://osmapi.metaodi.ch/osmapi/OsmApi.html#OsmApi}{Osmapi}.
+#' @param arrelProjectes camí a partir del qual es cercaran recursivament les revisions fetes.
 #'
-#' @return Vector d'ordres per carregar els fitxers generats amb \code{update_osm_objects_from_report} de \href{https://github.com/OSM-Catalan/LangToolsOSM}{LangToolsOSM}.
+#' @return Retorna un \code{data.frame} amb totes les revisions fetes que contenen valors per \code{name:ca} o \code{alt_name:ca}.
 #' @export
 #
 # @examples
-preparaEdicions<- function(arrelProjecte, usuari, fitxerContrasenya){
-  arrelProjecte<- gsub("/$", "", arrelProjecte)  # Normalitza camins per evitar problemes en modificar-los
+bdRevisions<- function(arrelProjectes){
+  arrelProjectes<- gsub("/$", "", arrelProjectes)  # Normalitza camins per evitar problemes en modificar-los
 
   # Fusiona revisions fetes amb tots els informes que contenen objectes amb etiquetes iguals
-  fitxersRevisions<- dir(file.path(arrelProjecte, "revisions","FET"), "\\.tsv$", full.names=TRUE, include.dirs=FALSE)
-
+  # fitxersRevisions<- dir(arrelProjectes, pattern=".+/revisions/FET/.+\\.tsv$", recursive=TRUE, full.names=TRUE, include.dirs=FALSE)
+  fitxersRevisions<- dir(arrelProjectes, recursive=TRUE, full.names=TRUE, include.dirs=FALSE)  # Falla amb pattern="/edicions/FET/.+\\.tsv$",
+  fitxersRevisions<- grep("/revisions/FET/.+\\.tsv$", fitxersRevisions, value=TRUE)
   if (length(fitxersRevisions) == 0){
     message("No hi ha cap fitxer de revisions a ", file.path(arrelProjecte, "revisions","FET"), "/.")
     return(character())
@@ -407,7 +406,7 @@ preparaEdicions<- function(arrelProjecte, usuari, fitxerContrasenya){
   revisionsFETES<- lapply(fitxersRevisions, function(x){
     utils::read.table(x, header=TRUE, sep="\t", quote="\"", check.names=FALSE)
   })
-  names(revisionsFETES)<- gsub(paste0(file.path(arrelProjecte, "revisions", "FET"), "/+"), "", fitxersRevisions)
+  names(revisionsFETES)<- fitxersRevisions
   revisio.casosFETS<- do.call(rbind, revisionsFETES)
   revisio.casosFETS<- revisio.casosFETS[!revisio.casosFETS$`name:ca` %in% c(NA, "") | !revisio.casosFETS$`alt_name:ca` %in% c(NA, ""), ]
   row.names(revisio.casosFETS)<- NULL
@@ -437,6 +436,7 @@ preparaEdicions<- function(arrelProjecte, usuari, fitxerContrasenya){
 
   revisio.casosFETS[, c("name", "name:ca", "alt_name", "alt_name:ca")]<- lapply(revisio.casosFETS[, c("name", "name:ca", "alt_name", "alt_name:ca")], function(x){
     x[x %in% ""]<- NA
+    x
   })
   revisio.casosFETS<- unique(revisio.casosFETS)
 
@@ -450,6 +450,31 @@ preparaEdicions<- function(arrelProjecte, usuari, fitxerContrasenya){
     # TODO: millora indicant els fitxers amb duplicats
   }
 
+  return(revisio.casosFETS)
+}
+
+
+#' Genera fitxers amb edicions combinant els informes i revisions
+#'
+#' Fusiona les revisions fetes amb tots els informes que contenen objectes amb etiquetes iguals.
+#' Reaprofita les revisions per casos que només es diferencien per si els noms comencen amb majúscules o minúscules, mantenint el format original.
+#'
+#' @param arrelProjecte camí a l'arrel del projecte. La carpeta de destinació serà la subcarpeta \code{edicions} i buscarà els informes i revisions a partir d'aquest camí.
+#' @param usuari nom de l'usuari a OpenStreetMap per pujar les edicions.
+#' @param fitxerContrasenya camí a un fitxer amb la contrasenya de l'usuari per evitar que LangToolsOSM la demani. El fitxer conté una sola línia amb el nom d'usuari i la contrasenya separades per un punt i coma (;) i el llegirà \href{https://osmapi.metaodi.ch/osmapi/OsmApi.html#OsmApi}{Osmapi}.
+#'
+#' @return Vector d'ordres per carregar els fitxers generats amb \code{update_osm_objects_from_report} de \href{https://github.com/OSM-Catalan/LangToolsOSM}{LangToolsOSM}.
+#' @export
+#
+# @examples
+preparaEdicions<- function(arrelProjecte, usuari, fitxerContrasenya){
+  arrelProjecte<- gsub("/$", "", arrelProjecte)  # Normalitza camins per evitar problemes en modificar-los
+
+  revisio.casosFETS<- bdRevisions(arrelProjectes=arrelProjecte)
+  if (length(revisio.casosFETS) == 0){
+    return(character())
+  }
+
   dir.create(file.path(arrelProjecte, "edicions"), showWarnings=FALSE, recursive=TRUE)
   fitxersInformes<- dir(file.path(arrelProjecte, "informes"), "\\.tsv$", full.names=TRUE, include.dirs=FALSE)
   cmd<- character()
@@ -458,6 +483,9 @@ preparaEdicions<- function(arrelProjecte, usuari, fitxerContrasenya){
     informe<- try(utils::read.table(fitxersInformes[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE))
 
     edicions<- merge(informe[, setdiff(names(informe), c("name:ca", "alt_name:ca"))], revisio.casosFETS)
+    ordCols<- c("name", "name:ca", "alt_name", "alt_name:ca")
+    ordCols<- c(ordCols, setdiff(names(edicions), ordCols))
+    edicions<- edicions[, ordCols]
     if (nrow(edicions) > 0){
       dFormated<- rbind(c("# EDITED with R", rep("", times=ncol(edicions) - 1)), names(edicions))
       dFormated<- rbind(dFormated, as.matrix(edicions), deparse.level=0)
