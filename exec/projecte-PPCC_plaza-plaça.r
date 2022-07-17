@@ -89,7 +89,7 @@ cmd<- preparaEdicions(arrelProjecte=arrelProjecte, usuari=usuari, fitxerContrase
 cmd<- na.omit(cmd)
 
 ## Afegeix paràmetres a les ordres. Veure «update_osm_objects_from_report --help» per les opcions de LangToolsOSM
-nomComarca<- gsub(paste0(".+--input-file \\\"", arrelProjecte, "/edicions/informe-|_name-calle.tsv\\\".+"), "", cmd)
+nomComarca<- gsub(paste0(".+--input-file \\\"", arrelProjecte, "/edicions/informe-|", sufixFitxers, ".tsv\\\".+"), "", cmd)
 cmd<- paste0(cmd, " --changeset-hashtags \"#toponimsCat;#plaza_plaça\"",
             " --batch 100 --changeset-comment \"Afegeix name:ca a places de ", nomComarca, "\"")
 cat(cmd, sep="\n")
