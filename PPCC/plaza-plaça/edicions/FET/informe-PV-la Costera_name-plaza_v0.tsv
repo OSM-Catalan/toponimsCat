@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Plaza de la Morera"	"Plaça de la Morera"						"way"	"781779253"		"{'area': 'yes', 'highway': 'residential', 'name': 'Plaza de la Morera'}"
+"Plaza Poeta Miguel Hernández"	"Plaça Poeta Miguel Hernández"						"way"	"369593073"		"{'area': 'yes', 'highway': 'pedestrian', 'lit': 'yes', 'name': 'Plaza Poeta Miguel Hernández', 'surface': 'compacted'}"
+"Plaza Sant Jaume"	"Plaça Sant Jaume"						"way"	"784790734"		"{'area': 'yes', 'highway': 'pedestrian', 'name': 'Plaza Sant Jaume'}"
+"Plaza Santa Barbara"	"Plaça Santa Bàrbara"						"way"	"791204004"		"{'area': 'yes', 'highway': 'pedestrian', 'name': 'Plaza Santa Barbara'}"
+"Plaza Trinquet"	"Plaça Trinquet"						"way"	"783836725"		"{'area': 'yes', 'highway': 'pedestrian', 'name': 'Plaza Trinquet'}"
