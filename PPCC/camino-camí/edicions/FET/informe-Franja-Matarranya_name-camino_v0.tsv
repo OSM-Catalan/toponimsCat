@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camino de la Fuente"	"Camí de la Font"						"way"	"297100919"	""	"{'highway': 'residential', 'name': 'Camino de la Fuente'}"
+"Camino del Barranco"	"Camí del Barranc"						"way"	"239221906"	""	"{'highway': 'residential', 'name': 'Camino del Barranco'}"
+"Camino del Calvario"	"Camí del Calvari"						"way"	"176307397"	""	"{'access': 'permissive', 'highway': 'footway', 'lit': 'no', 'motor_vehicle': 'no', 'name': 'Camino del Calvario', 'surface': 'ground'}"
+"Camino del Pozo"	"Camí del Pou"						"way"	"163686898"	""	"{'highway': 'residential', 'name': 'Camino del Pozo'}"

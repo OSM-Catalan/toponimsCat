@@ -11,7 +11,6 @@
 "way"	"172909346"	"Camino Puma"	""	""	""	""	""	""	""	"{'highway': 'track', 'mtb:scale': '0', 'name': 'Camino Puma'}"
 "way"	"69103474"	"Camino del Sarando"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Camino del Sarando'}"
 "way"	"170245566"	"Camino de Rotes"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Camino de Rotes'}"
-"way"	"220484524"	"Camino de la Solana"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Camino de la Solana'}"
 "way"	"446246401"	"Camino de Rotes"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Camino de Rotes'}"
 "way"	"648577256"	"Camino Runar"	""	""	""	""	""	""	""	"{'highway': 'residential', 'name': 'Camino Runar'}"
 "way"	"22276963"	"camino del Algar"	""	""	""	""	""	""	""	"{'highway': 'tertiary', 'junction': 'roundabout', 'name': 'camino del Algar'}"

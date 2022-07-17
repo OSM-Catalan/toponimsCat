@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camino del Molino"	"Camí del Molí"						"node"	"1241965241"		"{'name': 'Camino del Molino', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Camino Extramuros"	"Camí Extramurs"						"way"	" 256698625"		"{'highway': 'residential', 'name': 'Camino Extramuros', 'surface': 'asphalt'}"
+"Camino San Jaime"	"Camí Sant Jaume"						"way"	" 106624042"		"{'highway': 'track', 'name': 'Camino San Jaime', 'surface': 'earth'}"
+"Camino Santa Margarita"	"Camí Santa Margarida"						"way"	" 449762154"		"{'highway': 'residential', 'name': 'Camino Santa Margarita'}"

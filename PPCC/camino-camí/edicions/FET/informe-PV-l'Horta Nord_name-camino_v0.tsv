@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camino de Godella"	"Camí de Godella"						"way"	" 935734384"		"{'bicycle': 'yes', 'foot': 'yes', 'highway': 'track', 'horse': 'yes', 'motor_vehicle': 'yes', 'mtb:scale': '0', 'mtb:scale:imba': '0', 'mtb:scale:uphill': '0', 'name': 'Camino de Godella', 'surface': 'asphalt', 'tracktype': 'grade1'}"
+"Camino de Godella"	"Camí de Godella"						"way"	" 352857529"		"{'bicycle': 'yes', 'foot': 'yes', 'highway': 'track', 'horse': 'yes', 'motor_vehicle': 'yes', 'mtb:scale': '0', 'mtb:scale:imba': '0', 'mtb:scale:uphill': '0', 'name': 'Camino de Godella', 'surface': 'ground', 'tracktype': 'grade3', 'width': '2'}"
+"Camino del Pozo"	"Camí del Pou"						"way"	"  30034069"		"{'highway': 'track', 'name': 'Camino del Pozo', 'tracktype': 'grade1'}"
+"Camino del Puig"	"Camí del Puig"						"node"	"1243399818"		"{'name': 'Camino del Puig', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

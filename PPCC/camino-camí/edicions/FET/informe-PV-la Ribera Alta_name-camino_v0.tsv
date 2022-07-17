@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camino de la Fuente"	"Camí de la Font"						"node"	"1243384838"		"{'name': 'Camino de la Fuente', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Camino de los Molinos"	"Camí dels Molins"						"way"	"  83607074"		"{'highway': 'residential', 'name': 'Camino de los Molinos'}"
+"Camino de San Bernardo"	"Camí de Sant Bernat"						"way"	"  83404405"		"{'highway': 'unclassified', 'name': 'Camino de San Bernardo'}"

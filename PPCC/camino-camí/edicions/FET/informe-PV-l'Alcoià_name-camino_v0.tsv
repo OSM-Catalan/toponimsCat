@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camino Cementerio"	"Camí Cementeri"						"way"	"169856242"		"{'highway': 'tertiary', 'name': 'Camino Cementerio', 'ref': 'CV-8160', 'source': 'PNOA;datos oficiales'}"
+"Camino Cementerio"	"Camí Cementeri"						"way"	"207563823"		"{'highway': 'tertiary', 'name': 'Camino Cementerio', 'ref': 'CV-8160', 'source': 'PNOA;datos oficiales'}"
+"Camino de Ibi"	"Camí d’Ibi"						"way"	"168429981"		"{'highway': 'residential', 'name': 'Camino de Ibi'}"
+"Camino de San Miguel"	"Camí de Sant Miquel"						"way"	"556461073"		"{'highway': 'track', 'name': 'Camino de San Miguel', 'tracktype': 'grade2'}"

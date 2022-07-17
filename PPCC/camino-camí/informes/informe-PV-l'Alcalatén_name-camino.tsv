@@ -21,7 +21,5 @@
 "way"	"1016679605"	"Camino a Chodos"	""	""	""	""	""	""	""	"{'highway': 'unclassified', 'name': 'Camino a Chodos', 'oneway': 'no'}"
 "way"	"1016679606"	"Camino a Chodos"	""	""	""	""	""	""	""	"{'highway': 'unclassified', 'name': 'Camino a Chodos', 'oneway': 'no'}"
 "way"	"334176918"	"Camino de San Juan de Peñagolosa"	""	""	""	""	""	""	""	"{'highway': 'tertiary', 'name': 'Camino de San Juan de Peñagolosa', 'oneway': 'no', 'ref': 'CV-1720'}"
-"way"	"27489867"	"Camino del Castillo"	""	""	""	""	""	""	""	"{'highway': 'unclassified', 'name': 'Camino del Castillo', 'oneway': 'no', 'surface': 'asphalt'}"
-"way"	"534893891"	"Camino del Castillo"	""	""	""	""	""	""	""	"{'bridge': 'yes', 'highway': 'unclassified', 'name': 'Camino del Castillo', 'oneway': 'no'}"
 "way"	"43106518"	"Camino Carmen"	""	""	""	""	""	""	""	"{'highway': 'track', 'name': 'Camino Carmen', 'tracktype': 'grade1'}"
 "way"	"335900577"	"Camino del Mas de Boiro"	""	""	""	""	""	""	""	"{'highway': 'track', 'name': 'Camino del Mas de Boiro', 'tracktype': 'grade3'}"

@@ -13,7 +13,6 @@
 "way"	"35331991"	"Camino Crevillente a la Cuesta de Boix"	""	""	""	""	""	""	""	"{'highway': 'unclassified', 'name': 'Camino Crevillente a la Cuesta de Boix', 'source': 'PNOA', 'source:date': '2007', 'tracktype': 'grade2'}"
 "way"	"240881211"	"Camino Casa Candela a Boix"	""	""	""	""	""	""	""	"{'highway': 'unclassified', 'name': 'Camino Casa Candela a Boix'}"
 "way"	"240881210"	"Camino de los Cipreses"	""	""	""	""	""	""	""	"{'highway': 'unclassified', 'name': 'Camino de los Cipreses'}"
-"way"	"263625662"	"Camino de San Cayetano"	""	""	""	""	""	""	""	"{'highway': 'unclassified', 'name': 'Camino de San Cayetano', 'surface': 'ground'}"
 "way"	"28388481"	"camino del barranco de Catral"	""	""	""	""	""	""	""	"{'highway': 'secondary', 'name': 'camino del barranco de Catral', 'oneway': 'no', 'ref': 'CV-857', 'source': 'PNOA;datos oficiales'}"
 "way"	"383621247"	"camino del barranco de Catral"	""	""	""	""	""	""	""	"{'highway': 'secondary', 'name': 'camino del barranco de Catral', 'oneway': 'yes'}"
 "way"	"226960772"	"Camino de las Fincas"	""	""	""	""	""	""	""	"{'highway': 'unclassified', 'name': 'Camino de las Fincas'}"
