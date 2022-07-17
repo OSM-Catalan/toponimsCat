@@ -17,5 +17,6 @@ preparaEdicions(arrelProjecte, usuari, fitxerContrasenya)
 Vector d'ordres per carregar els fitxers generats amb \code{update_osm_objects_from_report} de \href{https://github.com/OSM-Catalan/LangToolsOSM}{LangToolsOSM}.
 }
 \description{
+Fusiona les revisions fetes amb tots els informes que contenen objectes amb etiquetes iguals.
 Reaprofita les revisions per casos que només es diferencien per si els noms comencen amb majúscules o minúscules, mantenint el format original.
 }

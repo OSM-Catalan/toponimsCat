@@ -57,8 +57,8 @@ Els fitxers de revisió d'informes contenen els casos a revisar amb combinacions
  moveu els fitxers de revisions a «arrelProjecte/revisio/FET/» i prepareu les edicions a OSM amb la funció \code{\link{preparaEdicions}}.
 }
 \examples{
-generaRevisions_regexName(informes=dir("ppcc/calle-carrer/informes", "\\\\.tsv$", full.names=TRUE),
-                          arrelProjecte="ppcc/calle-carrer",
+generaRevisions_regexName(informes=dir("PPCC/calle-carrer/informes", "\\\\.tsv$", full.names=TRUE),
+                          arrelProjecte="PPCC/calle-carrer",
                           cerca="([Cc])alle ",
                           substitueix="\\\\1arrer ", revisioUnificada=FALSE)
 

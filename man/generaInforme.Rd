@@ -37,7 +37,7 @@ ordre0<- generaInforme(arrelProjecte="exotopònims/Rússia/",
                        fitxerInforme="informe-Rússia.tsv",
                        filtreArea="['name:ca'='Rússia'][admin_level=3]",
                        filtreObjectes="nwr[wikidata][!'name:ca']")
-ordre1<- generaInforme(arrelProjecte="ppcc/calle-carrer/",
+ordre1<- generaInforme(arrelProjecte="PPCC/calle-carrer/",
                        fitxerInforme="informe-Calle_carrer-Alacant.tsv",
                        filtreArea="['name:ca'='Alacant'][admin_level=7]",
                        filtreObjectes="nwr[name~'^[Cc]alle '][!'name:ca']")

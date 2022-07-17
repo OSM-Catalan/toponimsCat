@@ -384,13 +384,31 @@ generaRevisions_regexTranslations<- function(informes, arrelProjecte, cerca=" \\
 #' Base de dades de revisions
 #'
 #' Genera revisions per casos que només es diferencien per si els noms comencen amb majúscules o minúscules, mantenint el format original.
+#' Alerta amb les reutilitzacions entre projectes, a vegades la concordànça del gènere es perd i cal revisar les edicions (p. ex. calle-carrer VS plaza-plaça)
 #'
 #' @param arrelProjectes camí a partir del qual es cercaran recursivament les revisions fetes.
 #'
 #' @return Retorna un \code{data.frame} amb totes les revisions fetes que contenen valors per \code{name:ca} o \code{alt_name:ca}.
 #' @export
-#
-# @examples
+#'
+#' @examples
+#' # Reutilitza les revisions pel projecte plaza-plaça
+#' bdRevs<- bdRevisions(arrelProjectes="PPCC")
+#' bdRevs[, c("name", "alt_name")]<- lapply(bdRevs[, c("name", "alt_name")], function(x){
+#'   x<- gsub("^(avenida|calle|camino|parque|plaza) ", "plaza ", x)
+#'   x<- gsub("^(Avenida|Calle|Camino|Parque|Plaza) ", "Plaza ", x)
+#'   x
+#' })
+#' bdRevs[, c("name:ca", "alt_name:ca")]<- lapply(bdRevs[, c("name:ca", "alt_name:ca")], function(x){
+#'   x<- gsub("^(avinguda|carrer|camí|parc|plaça) ", "plaça ", x)
+#'   x<- gsub("^(Avinguda|Carrer|Camí|Parc|Plaça) ", "Plaça ", x)
+#'   x
+#' })
+#'
+#' bdRevs<- unique(bdRevs)
+#' \dontrun{
+#'   write.table(bdRevs, "PPCC/plaza-plaça/revisions/FET/revisio-PPCC_reutilitzat_name-plaza.tsv", sep="\t", na="", col.names=TRUE, row.names=FALSE)
+#' }
 bdRevisions<- function(arrelProjectes){
   arrelProjectes<- gsub("/$", "", arrelProjectes)  # Normalitza camins per evitar problemes en modificar-los
 
