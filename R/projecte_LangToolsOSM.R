@@ -504,7 +504,8 @@ generaRevisions_regexTranslations<- function(informes, arrelProjecte, cerca=" \\
 #'
 #' bdRevs<- unique(bdRevs)
 #' \dontrun{
-#'   write.table(bdRevs, "PPCC/plaza-plaça/revisions/revisio-PPCC_reutilitzat_name-plaza.tsv", sep="\t", na="", col.names=TRUE, row.names=FALSE)
+#'   write.table(bdRevs, "PPCC/plaza-plaça/revisions/revisio-PPCC_reutilitzat_name-plaza.tsv",
+#'               sep="\t", na="", col.names=TRUE, row.names=FALSE)
 #' }
 bdRevisions<- function(arrelProjectes){
   arrelProjectes<- gsub("/$", "", arrelProjectes)  # Normalitza camins per evitar problemes en modificar-los
@@ -514,7 +515,7 @@ bdRevisions<- function(arrelProjectes){
   fitxersRevisions<- dir(arrelProjectes, recursive=TRUE, full.names=TRUE, include.dirs=FALSE)  # Falla amb pattern="/edicions/FET/.+\\.tsv$",
   fitxersRevisions<- grep("/revisions/FET/.+\\.tsv$", fitxersRevisions, value=TRUE)
   if (length(fitxersRevisions) == 0){
-    message("No hi ha cap fitxer de revisions a ", file.path(arrelProjecte, "revisions","FET"), "/.")
+    message("No s'ha trobat cap fitxer de revisions a ", arrelProjectes, " (cerca recursiva de fitxers «.tsv» en carpetes «.+/revisions/FET/»).")
     return(character())
   }
 
@@ -596,6 +597,10 @@ preparaEdicions<- function(arrelProjecte, usuari, fitxerContrasenya){
   for (i in seq_along(fitxersInformes)){
     nomFitxer<- gsub(file.path(arrelProjecte, "informes/*"), "", fitxersInformes[i])
     informe<- try(utils::read.table(fitxersInformes[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE))
+    informe[, c("name", "alt_name")]<- lapply(informe[, c("name", "alt_name")], function(x){
+      x[x %in%  ""]<- NA
+      x
+    })
 
     edicions<- merge(informe[, setdiff(names(informe), c("name:ca", "alt_name:ca"))], revisio.casosFETS)
     ordCols<- c("name", "name:ca", "alt_name", "alt_name:ca")
