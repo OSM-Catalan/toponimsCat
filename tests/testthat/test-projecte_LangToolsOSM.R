@@ -59,6 +59,54 @@ test_that("recompteCasosInformes funciona", {
 })
 
 
+test_that("recompteCasosEdicions funciona", {
+  res<- list()
+  res$arrel<- recompteCasosEdicions(arrelProjecte="PPCC/calle-carrer")
+  res$fitxers<- recompteCasosEdicions(informes=dir("PPCC/calle-carrer/informes", pattern="\\.tsv$", full.names=TRUE))
+  res$df<- recompteCasosEdicions(dades=data.frame(informe=dir("PPCC/calle-carrer/informes", pattern="\\.tsv$", full.names=TRUE)))
+
+  expect_length(unique(res), 1)
+  expect_s3_class(res[[1]], "data.frame")
+  expect_equal(names(res[[1]]), c("informe", "nObjectes", "nCasos", "nObjectesNomWikidata", "nCasosNomWikidata", "revisat"))
+
+  res<- list()
+  res$arrel<- recompteCasosEdicions(arrelProjecte="exotopònims/Rússia/")
+  res$fitxers<- recompteCasosEdicions(informes=dir("exotopònims/Rússia/informes", pattern="\\.tsv$", full.names=TRUE))
+  res$df<- recompteCasosEdicions(dades=data.frame(informe=dir("exotopònims/Rússia/informes", pattern="\\.tsv$", full.names=TRUE)))
+
+  expect_length(unique(res), 1)
+  expect_s3_class(res[[1]], "data.frame")
+  expect_equal(names(res[[1]]), c("informe", "nObjectes", "nCasos", "nObjectesNomWikidata", "nCasosNomWikidata", "revisat"))
+
+  res<- recompteCasosEdicions(arrelProjecte="")
+  expect_equal(res, data.frame())
+})
+
+
+test_that("recompteCasos funciona", {
+  res<- list()
+  res$arrel<- recompteCasos(arrelProjecte="PPCC/calle-carrer")
+  res$fitxers<- recompteCasos(informes=dir("PPCC/calle-carrer/informes", pattern="\\.tsv$", full.names=TRUE))
+  res$df<- recompteCasos(dades=data.frame(informe=dir("PPCC/calle-carrer/informes", pattern="\\.tsv$", full.names=TRUE)))
+
+  expect_length(unique(res), 1)
+  expect_s3_class(res[[1]], "data.frame")
+  expect_equal(names(res[[1]]), c("informe", "nObjectes", "nCasos", "nObjectesNomWikidata", "nCasosNomWikidata", "revisat"))
+
+  res<- list()
+  res$arrel<- recompteCasos(arrelProjecte="exotopònims/Rússia/")
+  res$fitxers<- recompteCasos(informes=dir("exotopònims/Rússia/informes", pattern="\\.tsv$", full.names=TRUE))
+  res$df<- recompteCasos(dades=data.frame(informe=dir("exotopònims/Rússia/informes", pattern="\\.tsv$", full.names=TRUE)))
+
+  expect_length(unique(res), 1)
+  expect_s3_class(res[[1]], "data.frame")
+  expect_equal(names(res[[1]]), c("informe", "nObjectes", "nCasos", "nObjectesNomWikidata", "nCasosNomWikidata", "revisat"))
+
+  res<- recompteCasos(arrelProjecte="")
+  expect_equal(res, data.frame())
+})
+
+
 test_that("generaRevisions funciona", {
   res<- generaRevisions_regexName(informes=dir("PPCC/calle-carrer/informes", pattern="\\.tsv$", full.names=TRUE),
                                   arrelProjecte="PPCC/calle-carrer", cerca="([Cc])alle ", substitueix="\\1arrer ")
