@@ -27,7 +27,7 @@ actualitzaInformes<- FALSE
 
 
 ## Avalua el nombre de casos a cada informe generat ----
-comarques<- recompteCasosInformes(dades=comarques)
+comarques<- recompteCasos(dades=comarques)
 ordCasos<- order(comarques$revisat, comarques$nCasos, comarques$regio, comarques$`name:ca`,
                  decreasing=c(FALSE, TRUE, FALSE, FALSE), method="radix")
 ordCol<- c("regio", "name:ca", "nObjectes", "nCasos", "nObjectesNomWikidata", "nCasosNomWikidata", "revisat")
