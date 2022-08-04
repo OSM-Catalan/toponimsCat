@@ -143,24 +143,43 @@ descartaObjectesSenseTraduccions<- function(fitxersInformes){
 }
 
 
-#' Recompte de casos dels informes
+#' Recompte de casos dels informes, edicions o ambdós
 #'
-#' @param arrelProjecte camí a l'arrel del projecte. Es llegiran tots els fitxers *.tsv de la subcarpeta \code{informes} si no s'especifiquen altres paràmetres.
+#' Compte el nombre de casos i casos únics, si tenen informació de wikidata o no
+#' i altres detalls. Per les edicions, la informació s'agrega a nivell d'informe,
+#' és a dir, si hi ha diversos fitxers d'edicions per un mateix informe, els suma.
+#'
+#' @param arrelProjecte camí a l'arrel del projecte. Es llegiran tots els fitxers *.tsv de la subcarpeta \code{informes} i/o \code{edicions/FET} si no s'especifiquen altres paràmetres.
 #' @param informes vector de caràcters amb els camins a fitxers d'informes.
-#' @param dades un \code{data.frame} amb una columna anomenada \code{informe} amb els camins a fitxers d'informes. Si s'especifica, s'ignoren la resta de paràmetres.
+#' @param edicions vector de caràcters amb els camins a fitxers d'edicions.
+#' @param dades un \code{data.frame} amb una columna anomenada \code{informe} (o \code{edicio} per la funció \code{recompteCasosEdicions}) amb els camins als fitxers «.tsv». Si s'especifica, s'ignoren la resta de paràmetres.
 #'
 #' @return Una taula amb files per cada informe i amb les columnes següents:
 #'   \describe{
+#'     \item{informe}{camí del fitxer d'informe.}
 #'     \item{nObjectes}{nombre d'objectes d'OSM.}
 #'     \item{nCasos}{nombre de casos únics de les etiquetes \code{«name»}, \code{«name:ca»}, \code{«alt_name:ca»},
 #'  \code{«alt_name»}, \code{«translations»}, \code{«ca.wikipedia_page»} i \code{«wikidata_id»}.}
 #'     \item{nObjectesNomWikidata}{nombre d'objectes d'OSM amb nom en català a wikidata (columna translations dels informes).}
 #'     \item{nCasosNomWikidata}{nombre de casos únics amb nom en català a wikidata (columna translations dels fitxers de revisions).}
-#'     \item{revisat}{si existeix o no un fitxer de revisió a la subcarpeta del projecte \code{revisions/FET}).}
-#'  }
-#' @export
+#'     \item{revisat}{si existeix o no unfitxer de revisió a la subcarpeta del projecte \code{revisions/FET}).}
+#'
+#'   \strong{Només per la funció \code{recompteCasos}:}
+#'     \item{nObjectesEditat}{nombre d'objectes editats d'OSM.}
+#'     \item{nCasosEditat}{nombre de casos únics editats de les etiquetes \code{«name»}, \code{«name:ca»}, \code{«alt_name:ca»},
+#'  \code{«alt_name»}, \code{«translations»}, \code{«ca.wikipedia_page»} i \code{«wikidata_id»}.}
+#'     \item{nObjectesNomWikidataEditat}{nombre d'objectes editats d'OSM amb nom en català a wikidata (columna translations dels informes).}
+#'     \item{nCasosNomWikidataEditat}{nombre de casos únics editats amb nom en català a wikidata (columna translations dels fitxers de revisions).}
+#' }
+#' @name recompteCasos
 #
 # @examples
+
+NULL
+
+
+#' @rdname recompteCasos
+#' @export
 recompteCasosInformes<- function(arrelProjecte, informes, dades){
   if (!missing(dades)){
     if ("informe" %in% names(dades)){
@@ -200,12 +219,90 @@ recompteCasosInformes<- function(arrelProjecte, informes, dades){
       camiRevisions<- gsub("informes", "revisions/FET", dirname(dades$informe[i]), "FET")
       dades$revisat[i]<- any(grepl(fitxerRevisio, dir(camiRevisions)) | nrow(objectesOSM) == 0)
     } else{
-      warning("Error a l'informe", i, ":", informes[i], "\n")
+      warning("Error a l'informe", i, ":", dades$informe[i], "\n")
       print(objectesOSM)
     }
   }
 
   return(dades)
+}
+
+
+#' @rdname recompteCasos
+#' @export
+recompteCasosEdicions<- function(arrelProjecte, edicions, dades){
+  if (!missing(dades)){
+    if ("edicio" %in% names(dades)){
+      edicions<- dades$edicio
+    } else {
+      stop("«dades» ha de contenir una columna anomenada «edicio» amb els camins als fitxers.")
+    }
+  } else {
+    if (missing(edicions) & !missing(arrelProjecte)){
+      edicions<- dir(file.path(arrelProjecte, "edicions", "FET"), pattern="\\.tsv$", full.names=TRUE)
+    } else if (missing(edicions) & missing(arrelProjecte)){
+      stop("Cal especificar algun paràmetre (dades, edicions o arrelProjecte)")
+    }
+    dades<- data.frame(edicio=edicions)
+  }
+
+  if (nrow(dades) == 0){
+    message("No hi ha cap edicio.")
+    return(data.frame())
+  }
+
+  dades$edicio<- gsub("//", "/", dades$edicio)  # Normalitza camins
+
+  for (i in 1:nrow(dades)){
+    objectesOSM<- try(utils::read.table(dades$edicio[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE))
+    if (inherits(objectesOSM, "data.frame")){
+      casosEditats<- unique(objectesOSM[, c("name", "name:ca", "alt_name:ca", "alt_name", "translations", "ca.wikipedia_page", "wikidata_id")])
+      dades$nObjectes[i]<- nrow(objectesOSM)
+      dades$nCasos[i]<- nrow(casosEditats)
+
+      if ("translations" %in% names(objectesOSM)){
+        dades$nObjectesNomWikidata[i]<- sum(!objectesOSM$translations %in% c(NA, ""))
+        dades$nCasosNomWikidata[i]<- sum(!casosEditats$translations %in% c(NA, ""))
+      }
+
+      fitxerInforme<- paste0(basename(gsub("(_v[0-9]+)*\\.tsv$", "", dades$edicio[i])), ".tsv")
+      camiInformes<- gsub("edicions/FET", "informes", dirname(dades$edicio[i]), "FET")
+      dades$informe[i]<- file.path(camiInformes, fitxerInforme)
+    } else{
+      warning("Error a l'edicio", i, ":", dades$edicio[i], "\n")
+      print(objectesOSM)
+    }
+  }
+
+  dadesResum<- by(dades, dades$informe, function(x){
+    out<- unique(x[, "informe", drop=FALSE])
+    out<- cbind(out, t(colSums(x[, sapply(x, is.numeric)])))
+  })
+  dadesResum<- do.call(rbind, dadesResum)
+
+  return(dadesResum)
+}
+
+
+#' @rdname recompteCasos
+#' @export
+recompteCasos<- function(arrelProjecte, informes, dades){
+  casosInformes<- recompteCasosInformes(arrelProjecte=arrelProjecte, informes=informes, dades=dades)
+
+  if (missing(arrelProjecte)){
+    arrelProjecte<- gsub("/informes", "", unique(dirname(casosInformes$informe)))
+  }
+  casosEdicions<- recompteCasosEdicions(arrelProjecte=arrelProjecte)
+  names(casosEdicions)[-which(names(casosEdicions) == "informe")]<- paste0(setdiff(names(casosEdicions), "informe"), "Editat")
+
+  casos<- merge(casosInformes, casosEdicions, all=TRUE)
+  casos[]<- lapply(casos, function(x){
+    if (is.numeric(x)){
+      x[is.na(x)]<- 0
+    }
+    x
+  })
+  return(casos)
 }
 
 
