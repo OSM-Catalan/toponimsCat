@@ -32,6 +32,7 @@ bdRevs[, c("name:ca", "alt_name:ca")]<- lapply(bdRevs[, c("name:ca", "alt_name:c
 
 bdRevs<- unique(bdRevs)
 \dontrun{
-  write.table(bdRevs, "PPCC/plaza-plaça/revisions/revisio-PPCC_reutilitzat_name-plaza.tsv", sep="\t", na="", col.names=TRUE, row.names=FALSE)
+  write.table(bdRevs, "PPCC/plaza-plaça/revisions/revisio-PPCC_reutilitzat_name-plaza.tsv",
+              sep="\t", na="", col.names=TRUE, row.names=FALSE)
 }
 }
