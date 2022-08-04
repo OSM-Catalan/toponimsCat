@@ -34,16 +34,17 @@ Per descarregar i pujar les dades a OpenstreetMap, cal instal·lar
 fitxersEstat<- dir(".", pattern="(casos|estat).*\\.csv$", recursive=TRUE, full.names=TRUE)
 resumL<- lapply(fitxersEstat, function(x){
   estat<- read.csv(x)
-  resum<- colSums(estat[, c("nObjectes", "nCasos", "nObjectesNomWikidata", "nCasosNomWikidata")])
+  resum<- colSums(estat[, c("nObjectes", "nCasos", "nObjectesNomWikidata", "nCasosNomWikidata", "nObjectesEditat", "nCasosEditat", "nObjectesNomWikidataEditat", "nCasosNomWikidataEditat")])
   # fitxersPendents<- sum(!estat$revisat)
   # resum<- c(resum, fitxersPendents=fitxersPendents) ## TODO: fitxers unificats
   resum
 })
 names(resumL)<- gsub("./", "", fitxersEstat, fixed=TRUE)
 resum<- do.call(rbind, resumL)
-colnames(resum)<- c("Objectes", "Revisions", "Objectes amb nom \\n de wikidata", "Revisions amb nom \\n de wikidata")
+colnames(resum)<- c("Objectes", "Revisions", "Objectes amb nom \\n de wikidata", "Revisions amb nom \\n de wikidata",
+                    "Objectes \\n editats", "Revisions \\n editades", "Objectes amb nom \\n de wikidata editats", "Revisions amb nom \\n de wikidata editades")
 rownames(resum)<- paste0("[", rownames(resum), "](https://github.com/OSM-Catalan/toponimsCat/blob/main/", rownames(resum), ")")
-knitr::kable(resum, caption="Numero de casos pendents d'afegir l'etiqueta «name:ca» per cada projecte. Per projectes sense revisió unificada, pot haver-hi casos duplicats en fitxers diferents.")
+knitr::kable(resum, caption="Número de casos pendents d'afegir l'etiqueta «name:ca» i número de casos editats per cada projecte. Per projectes sense revisió unificada, pot haver-hi casos duplicats en fitxers diferents.")
 ```
 
 

@@ -1,87 +1,88 @@
-"@type","@id","name","name:ca","wikidata","admin_level","informe","cmd","nObjectes","nCasos","nObjectesNomWikidata","nCasosNomWikidata","revisat"
-"relation",51490,"Московская область","Província de Moscou","Q1697",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Moscou_wikidata.tsv","",50,45,50,45,FALSE
-"relation",71950,"Рязанская область","Província de Riazan","Q2753",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Riazan_wikidata.tsv","",12,11,12,11,FALSE
-"relation",72169,"Липецкая область","Província de Lípetsk","Q3510",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Lípetsk_wikidata.tsv","",9,9,9,9,FALSE
-"relation",72180,"Тамбовская область","Província de Tambov","Q3550",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Tambov_wikidata.tsv","",6,6,6,6,FALSE
-"relation",72181,"Воронежская область","Província de Vorónej","Q3447",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Vorónej_wikidata.tsv","",12,11,12,11,FALSE
-"relation",72182,"Пензенская область","Província de Penza","Q5545",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Penza_wikidata.tsv","",7,7,7,7,FALSE
-"relation",72192,"Ульяновская область","Província d'Uliànovsk","Q5634",4,"exotopònims/Rússia/informes/informe-Rússia-Província d'Uliànovsk_wikidata.tsv","",26,10,26,10,FALSE
-"relation",72193,"Саратовская область","Província de Saràtov","Q5334",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Saràtov_wikidata.tsv","",13,9,13,9,FALSE
-"relation",72194,"Самарская область","Província de Samara","Q1727",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Samara_wikidata.tsv","",6,6,6,6,FALSE
-"relation",72195,"Нижегородская область","Província de Nijni Nóvgorod","Q2246",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Nijni Nóvgorod_wikidata.tsv","",23,23,23,23,FALSE
-"relation",72196,"Мордовия","Mordòvia","Q5340",4,"exotopònims/Rússia/informes/informe-Rússia-Mordòvia_wikidata.tsv","",5,4,5,4,FALSE
-"relation",72197,"Владимирская область","Província de Vladímir","Q2702",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Vladímir_wikidata.tsv","",31,30,31,30,FALSE
-"relation",72223,"Курская область","Província de Kursk","Q3178",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Kursk_wikidata.tsv","",97,97,97,97,FALSE
-"relation",72224,"Орловская область","Província d'Oriol","Q3129",4,"exotopònims/Rússia/informes/informe-Rússia-Província d'Oriol_wikidata.tsv","",3,3,3,3,FALSE
-"relation",77665,"Волгоградская область","Província de Volgograd","Q3819",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Volgograd_wikidata.tsv","",11,10,11,10,FALSE
-"relation",77669,"Оренбургская область","Província d'Orenburg","Q5338",4,"exotopònims/Rússia/informes/informe-Rússia-Província d'Orenburg_wikidata.tsv","",5,5,5,5,FALSE
-"relation",77677,"Башкортостан","Baixkíria","Q5710",4,"exotopònims/Rússia/informes/informe-Rússia-Baixkíria_wikidata.tsv","",82,81,82,81,FALSE
-"relation",77687,"Челябинская область","Província de Txeliàbinsk","Q5714",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Txeliàbinsk_wikidata.tsv","",26,24,26,24,FALSE
-"relation",79374,"Татарстан","Tatarstan","Q5481",4,"exotopònims/Rússia/informes/informe-Rússia-Tatarstan_wikidata.tsv","",41,31,41,31,FALSE
-"relation",79379,"Свердловская область","Província de Sverdlovsk","Q5462",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Sverdlovsk_wikidata.tsv","",20,20,20,20,FALSE
-"relation",80513,"Чувашия","Txuvàixia","Q5466",4,"exotopònims/Rússia/informes/informe-Rússia-Txuvàixia_wikidata.tsv","",5,5,5,5,FALSE
-"relation",81993,"Тульская область","Província de Tula","Q2792",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Tula_wikidata.tsv","",10,10,10,10,FALSE
-"relation",81994,"Ярославская область","Província de Iaroslavl","Q2448",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Iaroslavl_wikidata.tsv","",14,13,14,13,FALSE
-"relation",81995,"Калужская область","Província de Kaluga","Q2842",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Kaluga_wikidata.tsv","",86,67,86,67,FALSE
-"relation",81996,"Смоленская область","Província de Smolensk","Q2347",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Smolensk_wikidata.tsv","",110,61,110,61,FALSE
-"relation",81997,"Брянская область","Província de Briansk","Q2810",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Briansk_wikidata.tsv","",37,6,37,6,FALSE
-"relation",83184,"Белгородская область","Província de Bélgorod","Q3329",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Bélgorod_wikidata.tsv","",13,13,13,13,FALSE
-"relation",85606,"Ростовская область","Província de Rostov","Q3573",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Rostov_wikidata.tsv","",14,13,14,13,FALSE
-"relation",85617,"Ивановская область","Província d'Ivànovo","Q2654",4,"exotopònims/Rússia/informes/informe-Rússia-Província d'Ivànovo_wikidata.tsv","",34,30,34,30,FALSE
-"relation",85963,"Костромская область","Província de Kostromà","Q2596",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Kostromà_wikidata.tsv","",5,5,5,5,FALSE
-"relation",89331,"Новгородская область","Província de Nóvgorod","Q2240",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Nóvgorod_wikidata.tsv","",8,6,8,6,FALSE
-"relation",102269,"Москва","Moscou","Q649",4,"exotopònims/Rússia/informes/informe-Rússia-Moscou_wikidata.tsv","",97,90,97,90,FALSE
-"relation",103906,"Калининградская область","Província de Kaliningrad","Q1749",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Kaliningrad_wikidata.tsv","",6,6,6,6,FALSE
-"relation",108081,"Ставропольский край","Territori de Stàvropol","Q5207",4,"exotopònims/Rússia/informes/informe-Rússia-Territori de Stàvropol_wikidata.tsv","",9,8,9,8,FALSE
-"relation",108082,"Краснодарский край","Territori de Krasnodar","Q3680",4,"exotopònims/Rússia/informes/informe-Rússia-Territori de Krasnodar_wikidata.tsv","",93,85,93,85,FALSE
-"relation",108083,"Калмыкия","Calmúquia","Q3953",4,"exotopònims/Rússia/informes/informe-Rússia-Calmúquia_wikidata.tsv","",7,6,7,6,FALSE
-"relation",109876,"Дагестан","Daguestan","Q5118",4,"exotopònims/Rússia/informes/informe-Rússia-Daguestan_wikidata.tsv","",10,9,10,9,FALSE
-"relation",109877,"Чечня","Txetxènia","Q5187",4,"exotopònims/Rússia/informes/informe-Rússia-Txetxènia_wikidata.tsv","",4,4,4,4,FALSE
-"relation",109878,"Карачаево-Черкесия","Karatxai-Txerkèssia","Q5328",4,"exotopònims/Rússia/informes/informe-Rússia-Karatxai-Txerkèssia_wikidata.tsv","",14,13,14,13,FALSE
-"relation",109879,"Кабардино-Балкария","Kabardino-Balkària","Q5267",4,"exotopònims/Rússia/informes/informe-Rússia-Kabardino-Balkària_wikidata.tsv","",7,6,7,6,FALSE
-"relation",110032,"Северная Осетия — Алания","Ossètia del Nord - Alània","Q5237",4,"exotopònims/Rússia/informes/informe-Rússia-Ossètia del Nord - Alània_wikidata.tsv","",5,4,5,4,FALSE
-"relation",112819,"Астраханская область","Província d'Àstrakhan","Q3941",4,"exotopònims/Rússia/informes/informe-Rússia-Província d'Àstrakhan_wikidata.tsv","",8,8,8,8,FALSE
-"relation",115100,"Кировская область","Província de Kírov","Q5387",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Kírov_wikidata.tsv","",7,6,7,6,FALSE
-"relation",115106,"Вологодская область","Província de Vólogda","Q2015",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Vólogda_wikidata.tsv","",55,43,55,43,FALSE
-"relation",115114,"Марий Эл","Marí El","Q5446",4,"exotopònims/Rússia/informes/informe-Rússia-Marí El_wikidata.tsv","",31,27,31,27,FALSE
-"relation",115134,"Удмуртия","Udmúrtia","Q5422",4,"exotopònims/Rússia/informes/informe-Rússia-Udmúrtia_wikidata.tsv","",6,6,6,6,FALSE
-"relation",115135,"Пермский край","Territori de Perm","Q5400",4,"exotopònims/Rússia/informes/informe-Rússia-Territori de Perm_wikidata.tsv","",15,13,15,13,FALSE
-"relation",115136,"Республика Коми","República de Komi","Q2073",4,"exotopònims/Rússia/informes/informe-Rússia-República de Komi_wikidata.tsv","",10,7,10,7,FALSE
-"relation",140290,"Курганская область","Província de Kurgan","Q5741",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Kurgan_wikidata.tsv","",5,4,5,4,FALSE
-"relation",140291,"Тюменская область","Província de Tiumén","Q5824",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Tiumén_wikidata.tsv","",14,14,14,14,FALSE
-"relation",140292,"Омская область","Província d'Omsk","Q5835",4,"exotopònims/Rússia/informes/informe-Rússia-Província d'Omsk_wikidata.tsv","",8,7,8,7,FALSE
-"relation",140294,"Новосибирская область","Província de Novosibirsk","Q5851",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Novosibirsk_wikidata.tsv","",27,18,27,18,FALSE
-"relation",140295,"Томская область","Província de Tomsk","Q5884",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Tomsk_wikidata.tsv","",15,12,15,12,FALSE
-"relation",140296,"Ханты-Мансийский автономный округ — Югра","Districte Autònom Khanti-Mansi — Iugrà","Q6320",4,"exotopònims/Rússia/informes/informe-Rússia-Districte Autònom Khanti-Mansi — Iugrà_wikidata.tsv","",3,2,3,2,FALSE
-"relation",140337,"Архангельская область","Província d'Arkhànguelsk","Q1875",4,"exotopònims/Rússia/informes/informe-Rússia-Província d'Arkhànguelsk_wikidata.tsv","",9,9,9,9,FALSE
-"relation",144763,"Кемеровская область","Província de Kémerovo","Q6076",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Kémerovo_wikidata.tsv","",55,55,55,55,FALSE
-"relation",144764,"Алтайский край","Territori de l'Altai","Q5942",4,"exotopònims/Rússia/informes/informe-Rússia-Territori de l'Altai_wikidata.tsv","",6,6,6,6,FALSE
-"relation",145194,"Республика Алтай","República de l'Altai","Q5971",4,"exotopònims/Rússia/informes/informe-Rússia-República de l'Altai_wikidata.tsv","",2,2,2,2,FALSE
-"relation",145195,"Республика Тыва","Tuvà","Q960",4,"exotopònims/Rússia/informes/informe-Rússia-Tuvà_wikidata.tsv","",4,4,4,4,FALSE
-"relation",145454,"Иркутская область","Província d'Irkutsk","Q6585",4,"exotopònims/Rússia/informes/informe-Rússia-Província d'Irkutsk_wikidata.tsv","",15,5,15,5,FALSE
-"relation",145729,"Бурятия","Buriàtia","Q6809",4,"exotopònims/Rússia/informes/informe-Rússia-Buriàtia_wikidata.tsv","",6,6,6,6,FALSE
-"relation",145730,"Забайкальский край","Territori de Zabaikal","Q6838",4,"exotopònims/Rússia/informes/informe-Rússia-Territori de Zabaikal_wikidata.tsv","",0,0,0,0,TRUE
-"relation",147166,"Амурская область","Província de l'Amur","Q6886",4,"exotopònims/Rússia/informes/informe-Rússia-Província de l'Amur_wikidata.tsv","",10,10,10,10,FALSE
-"relation",147167,"Еврейская автономная область","Província Autònoma dels Hebreus","Q7730",4,"exotopònims/Rússia/informes/informe-Rússia-Província Autònoma dels Hebreus_wikidata.tsv","",0,0,0,0,TRUE
-"relation",151223,"Хабаровский край","Territori de Khabàrovsk","Q7788",4,"exotopònims/Rússia/informes/informe-Rússia-Territori de Khabàrovsk_wikidata.tsv","",15,15,15,15,FALSE
-"relation",151225,"Приморский край","Territori de Primórie","Q4341",4,"exotopònims/Rússia/informes/informe-Rússia-Territori de Primórie_wikidata.tsv","",18,17,18,17,FALSE
-"relation",151228,"Магаданская область","Província de Magadan","Q7971",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Magadan_wikidata.tsv","",27,26,27,26,FALSE
-"relation",151231,"Чукотский автономный округ","Txukotka","Q7984",4,"exotopònims/Rússia/informes/informe-Rússia-Txukotka_wikidata.tsv","",2,2,2,2,FALSE
-"relation",151233,"Камчатский край","Territori de Kamtxatka","Q7948",4,"exotopònims/Rússia/informes/informe-Rússia-Territori de Kamtxatka_wikidata.tsv","",2,2,2,2,FALSE
-"relation",151234,"Республика Саха (Якутия)","Sakhà","Q6605",4,"exotopònims/Rússia/informes/informe-Rússia-Sakhà_wikidata.tsv","",17,15,17,15,FALSE
-"relation",155262,"Псковская область","Província de Pskov","Q2218",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Pskov_wikidata.tsv","",11,11,11,11,FALSE
-"relation",176095,"Ленинградская область","Província de Leningrad","Q2191",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Leningrad_wikidata.tsv","",170,144,170,144,FALSE
-"relation",190090,"Красноярский край","Territori de Krasnoiarsk","Q6563",4,"exotopònims/Rússia/informes/informe-Rússia-Territori de Krasnoiarsk_wikidata.tsv","",19,17,19,17,FALSE
-"relation",190911,"Республика Хакасия","Khakàssia","Q6543",4,"exotopònims/Rússia/informes/informe-Rússia-Khakàssia_wikidata.tsv","",3,3,3,3,FALSE
-"relation",191706,"Ямало-Ненецкий автономный округ","Iamàlia","Q6407",4,"exotopònims/Rússia/informes/informe-Rússia-Iamàlia_wikidata.tsv","",7,6,7,6,FALSE
-"relation",253252,"Ингушетия","Ingúixia","Q5219",4,"exotopònims/Rússia/informes/informe-Rússia-Ingúixia_wikidata.tsv","",0,0,0,0,TRUE
-"relation",253256,"Адыгея","Adiguèsia","Q3734",4,"exotopònims/Rússia/informes/informe-Rússia-Adiguèsia_wikidata.tsv","",10,10,10,10,FALSE
-"relation",274048,"Ненецкий автономный округ","Nenètsia","Q2164",4,"exotopònims/Rússia/informes/informe-Rússia-Nenètsia_wikidata.tsv","",3,3,3,3,FALSE
-"relation",337422,"Санкт-Петербург","Sant Petersburg","Q656",4,"exotopònims/Rússia/informes/informe-Rússia-Sant Petersburg_wikidata.tsv","",79,77,79,77,FALSE
-"relation",393980,"Республика Карелия","República de Carèlia","Q1914",4,"exotopònims/Rússia/informes/informe-Rússia-República de Carèlia_wikidata.tsv","",3,3,3,3,FALSE
-"relation",394235,"Сахалинская область","Província de Sakhalín","Q7797",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Sakhalín_wikidata.tsv","",4,4,4,4,FALSE
-"relation",1574364,"Севастополь","Sebastòpol","Q2659239",4,"exotopònims/Rússia/informes/informe-Rússia-Sebastòpol_wikidata.tsv","",8,8,8,8,FALSE
-"relation",2095259,"Тверская область","Província de Tver","Q2292",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Tver_wikidata.tsv","",12,9,12,9,FALSE
-"relation",2099216,"Мурманская область","Província de Múrmansk","Q1759",4,"exotopònims/Rússia/informes/informe-Rússia-Província de Múrmansk_wikidata.tsv","",7,7,7,7,FALSE
-"relation",3788485,"Севастополь","Sebastòpol","Q17436425",4,"exotopònims/Rússia/informes/informe-Rússia-Sebastòpol_wikidata.tsv","",8,8,8,8,FALSE
-"relation",3795586,"Республика Крым","República de Crimea","Q15966495",4,"exotopònims/Rússia/informes/informe-Rússia-República de Crimea_wikidata.tsv","",37,29,37,29,FALSE
+"informe","@type","@id","name","name:ca","wikidata","admin_level","cmd","nObjectes","nCasos","nObjectesNomWikidata","nCasosNomWikidata","revisat","nObjectesEditat","nCasosEditat","nObjectesNomWikidataEditat","nCasosNomWikidataEditat"
+"exotopònims/Rússia/informes/informe-Rússia-Adiguèsia_wikidata.tsv","relation",253256,"Адыгея","Adiguèsia","Q3734",4,"",10,10,10,10,FALSE,7,5,7,5
+"exotopònims/Rússia/informes/informe-Rússia-Baixkíria_wikidata.tsv","relation",77677,"Башкортостан","Baixkíria","Q5710",4,"",82,81,82,81,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Buriàtia_wikidata.tsv","relation",145729,"Бурятия","Buriàtia","Q6809",4,"",6,6,6,6,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Calmúquia_wikidata.tsv","relation",108083,"Калмыкия","Calmúquia","Q3953",4,"",7,6,7,6,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Daguestan_wikidata.tsv","relation",109876,"Дагестан","Daguestan","Q5118",4,"",10,9,10,9,FALSE,100,84,100,84
+"exotopònims/Rússia/informes/informe-Rússia-Districte Autònom Khanti-Mansi — Iugrà_wikidata.tsv","relation",140296,"Ханты-Мансийский автономный округ — Югра","Districte Autònom Khanti-Mansi — Iugrà","Q6320",4,"",3,2,3,2,FALSE,22,4,22,4
+"exotopònims/Rússia/informes/informe-Rússia-Iamàlia_wikidata.tsv","relation",191706,"Ямало-Ненецкий автономный округ","Iamàlia","Q6407",4,"",7,6,7,6,FALSE,12,10,12,10
+"exotopònims/Rússia/informes/informe-Rússia-Ingúixia_wikidata.tsv","relation",253252,"Ингушетия","Ingúixia","Q5219",4,"",0,0,0,0,TRUE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Kabardino-Balkària_wikidata.tsv","relation",109879,"Кабардино-Балкария","Kabardino-Balkària","Q5267",4,"",7,6,7,6,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Karatxai-Txerkèssia_wikidata.tsv","relation",109878,"Карачаево-Черкесия","Karatxai-Txerkèssia","Q5328",4,"",14,13,14,13,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Khakàssia_wikidata.tsv","relation",190911,"Республика Хакасия","Khakàssia","Q6543",4,"",3,3,3,3,FALSE,16,14,16,14
+"exotopònims/Rússia/informes/informe-Rússia-Marí El_wikidata.tsv","relation",115114,"Марий Эл","Marí El","Q5446",4,"",31,27,31,27,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Mordòvia_wikidata.tsv","relation",72196,"Мордовия","Mordòvia","Q5340",4,"",5,4,5,4,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Moscou_wikidata.tsv","relation",102269,"Москва","Moscou","Q649",4,"",97,90,97,90,FALSE,28,19,28,19
+"exotopònims/Rússia/informes/informe-Rússia-Nenètsia_wikidata.tsv","relation",274048,"Ненецкий автономный округ","Nenètsia","Q2164",4,"",3,3,3,3,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Ossètia del Nord - Alània_wikidata.tsv","relation",110032,"Северная Осетия — Алания","Ossètia del Nord - Alània","Q5237",4,"",5,4,5,4,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Província Autònoma dels Hebreus_wikidata.tsv","relation",147167,"Еврейская автономная область","Província Autònoma dels Hebreus","Q7730",4,"",0,0,0,0,TRUE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Província d'Arkhànguelsk_wikidata.tsv","relation",140337,"Архангельская область","Província d'Arkhànguelsk","Q1875",4,"",9,9,9,9,FALSE,8,8,8,8
+"exotopònims/Rússia/informes/informe-Rússia-Província d'Àstrakhan_wikidata.tsv","relation",112819,"Астраханская область","Província d'Àstrakhan","Q3941",4,"",8,8,8,8,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Província d'Irkutsk_wikidata.tsv","relation",145454,"Иркутская область","Província d'Irkutsk","Q6585",4,"",15,5,15,5,FALSE,61,36,61,36
+"exotopònims/Rússia/informes/informe-Rússia-Província d'Ivànovo_wikidata.tsv","relation",85617,"Ивановская область","Província d'Ivànovo","Q2654",4,"",34,30,34,30,FALSE,29,29,29,29
+"exotopònims/Rússia/informes/informe-Rússia-Província d'Omsk_wikidata.tsv","relation",140292,"Омская область","Província d'Omsk","Q5835",4,"",8,7,8,7,FALSE,22,22,22,22
+"exotopònims/Rússia/informes/informe-Rússia-Província d'Orenburg_wikidata.tsv","relation",77669,"Оренбургская область","Província d'Orenburg","Q5338",4,"",5,5,5,5,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Província d'Oriol_wikidata.tsv","relation",72224,"Орловская область","Província d'Oriol","Q3129",4,"",3,3,3,3,FALSE,2,2,2,2
+"exotopònims/Rússia/informes/informe-Rússia-Província d'Uliànovsk_wikidata.tsv","relation",72192,"Ульяновская область","Província d'Uliànovsk","Q5634",4,"",26,10,26,10,FALSE,18,18,18,18
+"exotopònims/Rússia/informes/informe-Rússia-Província de Bélgorod_wikidata.tsv","relation",83184,"Белгородская область","Província de Bélgorod","Q3329",4,"",13,13,13,13,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Província de Briansk_wikidata.tsv","relation",81997,"Брянская область","Província de Briansk","Q2810",4,"",37,6,37,6,FALSE,15,15,15,15
+"exotopònims/Rússia/informes/informe-Rússia-Província de Iaroslavl_wikidata.tsv","relation",81994,"Ярославская область","Província de Iaroslavl","Q2448",4,"",14,13,14,13,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Província de Kaliningrad_wikidata.tsv","relation",103906,"Калининградская область","Província de Kaliningrad","Q1749",4,"",6,6,6,6,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Província de Kaluga_wikidata.tsv","relation",81995,"Калужская область","Província de Kaluga","Q2842",4,"",86,67,86,67,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Província de Kémerovo_wikidata.tsv","relation",144763,"Кемеровская область","Província de Kémerovo","Q6076",4,"",55,55,55,55,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Província de Kírov_wikidata.tsv","relation",115100,"Кировская область","Província de Kírov","Q5387",4,"",7,6,7,6,FALSE,6,6,6,6
+"exotopònims/Rússia/informes/informe-Rússia-Província de Kostromà_wikidata.tsv","relation",85963,"Костромская область","Província de Kostromà","Q2596",4,"",5,5,5,5,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Província de Kurgan_wikidata.tsv","relation",140290,"Курганская область","Província de Kurgan","Q5741",4,"",5,4,5,4,FALSE,38,37,38,37
+"exotopònims/Rússia/informes/informe-Rússia-Província de Kursk_wikidata.tsv","relation",72223,"Курская область","Província de Kursk","Q3178",4,"",97,97,97,97,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Província de l'Amur_wikidata.tsv","relation",147166,"Амурская область","Província de l'Amur","Q6886",4,"",10,10,10,10,FALSE,26,26,26,26
+"exotopònims/Rússia/informes/informe-Rússia-Província de Leningrad_wikidata.tsv","relation",176095,"Ленинградская область","Província de Leningrad","Q2191",4,"",170,144,170,144,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Província de Lípetsk_wikidata.tsv","relation",72169,"Липецкая область","Província de Lípetsk","Q3510",4,"",9,9,9,9,FALSE,67,62,67,62
+"exotopònims/Rússia/informes/informe-Rússia-Província de Magadan_wikidata.tsv","relation",151228,"Магаданская область","Província de Magadan","Q7971",4,"",27,26,27,26,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Província de Moscou_wikidata.tsv","relation",51490,"Московская область","Província de Moscou","Q1697",4,"",50,45,50,45,FALSE,106,26,106,26
+"exotopònims/Rússia/informes/informe-Rússia-Província de Múrmansk_wikidata.tsv","relation",2099216,"Мурманская область","Província de Múrmansk","Q1759",4,"",7,7,7,7,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Província de Nijni Nóvgorod_wikidata.tsv","relation",72195,"Нижегородская область","Província de Nijni Nóvgorod","Q2246",4,"",23,23,23,23,FALSE,12,7,12,7
+"exotopònims/Rússia/informes/informe-Rússia-Província de Nóvgorod_wikidata.tsv","relation",89331,"Новгородская область","Província de Nóvgorod","Q2240",4,"",8,6,8,6,FALSE,1,1,1,1
+"exotopònims/Rússia/informes/informe-Rússia-Província de Novosibirsk_wikidata.tsv","relation",140294,"Новосибирская область","Província de Novosibirsk","Q5851",4,"",27,18,27,18,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Província de Penza_wikidata.tsv","relation",72182,"Пензенская область","Província de Penza","Q5545",4,"",7,7,7,7,FALSE,64,61,64,61
+"exotopònims/Rússia/informes/informe-Rússia-Província de Pskov_wikidata.tsv","relation",155262,"Псковская область","Província de Pskov","Q2218",4,"",11,11,11,11,FALSE,1,1,1,1
+"exotopònims/Rússia/informes/informe-Rússia-Província de Riazan_wikidata.tsv","relation",71950,"Рязанская область","Província de Riazan","Q2753",4,"",12,11,12,11,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Província de Rostov_wikidata.tsv","relation",85606,"Ростовская область","Província de Rostov","Q3573",4,"",14,13,14,13,FALSE,31,20,31,20
+"exotopònims/Rússia/informes/informe-Rússia-Província de Sakhalín_wikidata.tsv","relation",394235,"Сахалинская область","Província de Sakhalín","Q7797",4,"",4,4,4,4,FALSE,11,11,11,11
+"exotopònims/Rússia/informes/informe-Rússia-Província de Samara_wikidata.tsv","relation",72194,"Самарская область","Província de Samara","Q1727",4,"",6,6,6,6,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Província de Saràtov_wikidata.tsv","relation",72193,"Саратовская область","Província de Saràtov","Q5334",4,"",13,9,13,9,FALSE,19,3,19,3
+"exotopònims/Rússia/informes/informe-Rússia-Província de Smolensk_wikidata.tsv","relation",81996,"Смоленская область","Província de Smolensk","Q2347",4,"",110,61,110,61,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Província de Sverdlovsk_wikidata.tsv","relation",79379,"Свердловская область","Província de Sverdlovsk","Q5462",4,"",20,20,20,20,FALSE,9,8,9,8
+"exotopònims/Rússia/informes/informe-Rússia-Província de Tambov_wikidata.tsv","relation",72180,"Тамбовская область","Província de Tambov","Q3550",4,"",6,6,6,6,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Província de Tiumén_wikidata.tsv","relation",140291,"Тюменская область","Província de Tiumén","Q5824",4,"",14,14,14,14,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Província de Tomsk_wikidata.tsv","relation",140295,"Томская область","Província de Tomsk","Q5884",4,"",15,12,15,12,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Província de Tula_wikidata.tsv","relation",81993,"Тульская область","Província de Tula","Q2792",4,"",10,10,10,10,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Província de Tver_wikidata.tsv","relation",2095259,"Тверская область","Província de Tver","Q2292",4,"",12,9,12,9,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Província de Txeliàbinsk_wikidata.tsv","relation",77687,"Челябинская область","Província de Txeliàbinsk","Q5714",4,"",26,24,26,24,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Província de Vladímir_wikidata.tsv","relation",72197,"Владимирская область","Província de Vladímir","Q2702",4,"",31,30,31,30,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Província de Volgograd_wikidata.tsv","relation",77665,"Волгоградская область","Província de Volgograd","Q3819",4,"",11,10,11,10,FALSE,19,8,19,8
+"exotopònims/Rússia/informes/informe-Rússia-Província de Vólogda_wikidata.tsv","relation",115106,"Вологодская область","Província de Vólogda","Q2015",4,"",55,43,55,43,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Província de Vorónej_wikidata.tsv","relation",72181,"Воронежская область","Província de Vorónej","Q3447",4,"",12,11,12,11,FALSE,1,1,1,1
+"exotopònims/Rússia/informes/informe-Rússia-República Autònoma de Crimea_wikidata.tsv",NA,0,NA,NA,NA,0,NA,0,0,0,0,NA,11,9,11,9
+"exotopònims/Rússia/informes/informe-Rússia-República de Carèlia_wikidata.tsv","relation",393980,"Республика Карелия","República de Carèlia","Q1914",4,"",3,3,3,3,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-República de Crimea_wikidata.tsv","relation",3795586,"Республика Крым","República de Crimea","Q15966495",4,"",37,29,37,29,FALSE,11,9,11,9
+"exotopònims/Rússia/informes/informe-Rússia-República de Komi_wikidata.tsv","relation",115136,"Республика Коми","República de Komi","Q2073",4,"",10,7,10,7,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-República de l'Altai_wikidata.tsv","relation",145194,"Республика Алтай","República de l'Altai","Q5971",4,"",2,2,2,2,FALSE,56,6,56,6
+"exotopònims/Rússia/informes/informe-Rússia-Sakhà_wikidata.tsv","relation",151234,"Республика Саха (Якутия)","Sakhà","Q6605",4,"",17,15,17,15,FALSE,48,41,48,41
+"exotopònims/Rússia/informes/informe-Rússia-Sant Petersburg_wikidata.tsv","relation",337422,"Санкт-Петербург","Sant Petersburg","Q656",4,"",79,77,79,77,FALSE,12,11,12,11
+"exotopònims/Rússia/informes/informe-Rússia-Sebastòpol_wikidata.tsv","relation",3788485,"Севастополь","Sebastòpol","Q17436425",4,"",8,8,8,8,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Sebastòpol_wikidata.tsv","relation",1574364,"Севастополь","Sebastòpol","Q2659239",4,"",8,8,8,8,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Tatarstan_wikidata.tsv","relation",79374,"Татарстан","Tatarstan","Q5481",4,"",41,31,41,31,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Territori de Kamtxatka_wikidata.tsv","relation",151233,"Камчатский край","Territori de Kamtxatka","Q7948",4,"",2,2,2,2,FALSE,4,4,4,4
+"exotopònims/Rússia/informes/informe-Rússia-Territori de Khabàrovsk_wikidata.tsv","relation",151223,"Хабаровский край","Territori de Khabàrovsk","Q7788",4,"",15,15,15,15,FALSE,111,109,111,109
+"exotopònims/Rússia/informes/informe-Rússia-Territori de Krasnodar_wikidata.tsv","relation",108082,"Краснодарский край","Territori de Krasnodar","Q3680",4,"",93,85,93,85,FALSE,40,27,40,27
+"exotopònims/Rússia/informes/informe-Rússia-Territori de Krasnoiarsk_wikidata.tsv","relation",190090,"Красноярский край","Territori de Krasnoiarsk","Q6563",4,"",19,17,19,17,FALSE,118,109,118,109
+"exotopònims/Rússia/informes/informe-Rússia-Territori de l'Altai_wikidata.tsv","relation",144764,"Алтайский край","Territori de l'Altai","Q5942",4,"",6,6,6,6,FALSE,128,31,128,31
+"exotopònims/Rússia/informes/informe-Rússia-Territori de Perm_wikidata.tsv","relation",115135,"Пермский край","Territori de Perm","Q5400",4,"",15,13,15,13,FALSE,308,164,308,164
+"exotopònims/Rússia/informes/informe-Rússia-Territori de Primórie_wikidata.tsv","relation",151225,"Приморский край","Territori de Primórie","Q4341",4,"",18,17,18,17,FALSE,17,16,17,16
+"exotopònims/Rússia/informes/informe-Rússia-Territori de Stàvropol_wikidata.tsv","relation",108081,"Ставропольский край","Territori de Stàvropol","Q5207",4,"",9,8,9,8,FALSE,85,83,85,83
+"exotopònims/Rússia/informes/informe-Rússia-Territori de Zabaikal_wikidata.tsv","relation",145730,"Забайкальский край","Territori de Zabaikal","Q6838",4,"",0,0,0,0,TRUE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Tuvà_wikidata.tsv","relation",145195,"Республика Тыва","Tuvà","Q960",4,"",4,4,4,4,FALSE,2,2,2,2
+"exotopònims/Rússia/informes/informe-Rússia-Txetxènia_wikidata.tsv","relation",109877,"Чечня","Txetxènia","Q5187",4,"",4,4,4,4,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Txukotka_wikidata.tsv","relation",151231,"Чукотский автономный округ","Txukotka","Q7984",4,"",2,2,2,2,FALSE,6,5,6,5
+"exotopònims/Rússia/informes/informe-Rússia-Txuvàixia_wikidata.tsv","relation",80513,"Чувашия","Txuvàixia","Q5466",4,"",5,5,5,5,FALSE,0,0,0,0
+"exotopònims/Rússia/informes/informe-Rússia-Udmúrtia_wikidata.tsv","relation",115134,"Удмуртия","Udmúrtia","Q5422",4,"",6,6,6,6,FALSE,27,26,27,26

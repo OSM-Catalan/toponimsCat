@@ -68,10 +68,10 @@ actualitzaInformes<- FALSE
 
 
 ## Avalua el nombre de casos a cada informe generat ----
-estat<- recompteCasosInformes(dades=divisions)
-ordCasos<- order(estat$revisat, estat$nCasos, estat$regio, estat$`name:ca`,
+estat<- recompteCasos(dades=divisions)
+ordCasos<- order(estat$revisat, estat$nCasos, estat$`name:ca`,
                  decreasing=c(FALSE, TRUE, FALSE, FALSE), method="radix")
-ordCol<- c("regio", "name:ca", "nObjectes", "nCasos", "nObjectesNomWikidata", "nCasosNomWikidata", "revisat")
+ordCol<- c("name:ca", "nObjectes", "nCasos", "nObjectesNomWikidata", "nCasosNomWikidata", "revisat")
 ordCol<- c(ordCol, setdiff(names(estat), c(ordCol, "cmd")))
 estat[intersect(order(estat$nCasos, decreasing=TRUE), which(!estat$revisat & estat$nObjectes > 0)), ]
 
