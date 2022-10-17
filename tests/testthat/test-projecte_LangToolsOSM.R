@@ -55,7 +55,8 @@ test_that("recompteCasosInformes funciona", {
   expect_equal(names(res[[1]]), c("informe", "nObjectes", "nCasos", "nObjectesNomWikidata", "nCasosNomWikidata", "revisat"))
 
   res<- recompteCasosInformes(arrelProjecte="")
-  expect_equal(res, data.frame())
+  expect_equal(res, data.frame(informe=character(), nObjectes=numeric(), nCasos=numeric(),
+                               nObjectesNomWikidata=numeric(), nCasosNomWikidata=numeric(), revisat=logical()))
 })
 
 
@@ -67,7 +68,7 @@ test_that("recompteCasosEdicions funciona", {
 
   expect_length(unique(res), 1)
   expect_s3_class(res[[1]], "data.frame")
-  expect_equal(names(res[[1]]), c("informe", "nObjectes", "nCasos", "nObjectesNomWikidata", "nCasosNomWikidata", "revisat"))
+  expect_equal(names(res[[1]]), c("informe", "nObjectes", "nCasos", "nObjectesNomWikidata", "nCasosNomWikidata"))
 
   res<- list()
   res$arrel<- recompteCasosEdicions(arrelProjecte="exotopònims/Rússia/")
@@ -76,10 +77,10 @@ test_that("recompteCasosEdicions funciona", {
 
   expect_length(unique(res), 1)
   expect_s3_class(res[[1]], "data.frame")
-  expect_equal(names(res[[1]]), c("informe", "nObjectes", "nCasos", "nObjectesNomWikidata", "nCasosNomWikidata", "revisat"))
+  expect_equal(names(res[[1]]), c("informe", "nObjectes", "nCasos", "nObjectesNomWikidata", "nCasosNomWikidata"))
 
   res<- recompteCasosEdicions(arrelProjecte="")
-  expect_equal(res, data.frame())
+  expect_equal(res, data.frame(informe=character(), nObjectes=numeric(), nCasos=numeric(), nObjectesNomWikidata=numeric(), nCasosNomWikidata=numeric()))
 })
 
 
@@ -91,7 +92,8 @@ test_that("recompteCasos funciona", {
 
   expect_length(unique(res), 1)
   expect_s3_class(res[[1]], "data.frame")
-  expect_equal(names(res[[1]]), c("informe", "nObjectes", "nCasos", "nObjectesNomWikidata", "nCasosNomWikidata", "revisat"))
+  expect_equal(names(res[[1]]), c("informe", "nObjectes", "nCasos", "nObjectesNomWikidata", "nCasosNomWikidata", "revisat",
+                                  "nObjectesEditat", "nCasosEditat", "nObjectesNomWikidataEditat", "nCasosNomWikidataEditat"))
 
   res<- list()
   res$arrel<- recompteCasos(arrelProjecte="exotopònims/Rússia/")
@@ -100,10 +102,12 @@ test_that("recompteCasos funciona", {
 
   expect_length(unique(res), 1)
   expect_s3_class(res[[1]], "data.frame")
-  expect_equal(names(res[[1]]), c("informe", "nObjectes", "nCasos", "nObjectesNomWikidata", "nCasosNomWikidata", "revisat"))
+  expect_equal(names(res[[1]]), c("informe", "nObjectes", "nCasos", "nObjectesNomWikidata", "nCasosNomWikidata", "revisat",
+                                  "nObjectesEditat", "nCasosEditat", "nObjectesNomWikidataEditat", "nCasosNomWikidataEditat"))
 
   res<- recompteCasos(arrelProjecte="")
-  expect_equal(res, data.frame())
+  expect_equal(res, data.frame(informe=character(), nObjectes=numeric(), nCasos=numeric(), nObjectesNomWikidata=numeric(), nCasosNomWikidata=numeric(), revisat=logical(),
+                               nObjectesEditat=numeric(), nCasosEditat=numeric(), nObjectesNomWikidataEditat=numeric(), nCasosNomWikidataEditat=numeric()))
 })
 
 
