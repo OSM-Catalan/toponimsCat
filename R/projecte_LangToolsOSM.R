@@ -198,7 +198,7 @@ recompteCasosInformes<- function(arrelProjecte, informes, dades){
 
   if (nrow(dades) == 0){
     message("No hi ha cap informe.")
-    return(data.frame())
+    return(data.frame(informe=character(), nObjectes=numeric(), nCasos=numeric(), nObjectesNomWikidata=numeric(), nCasosNomWikidata=numeric(), revisat=logical()))
   }
 
   dades$informe<- gsub("//", "/", dades$informe)  # Normalitza camins
@@ -248,7 +248,10 @@ recompteCasosEdicions<- function(arrelProjecte, edicions, dades){
 
   if (nrow(dades) == 0){
     message("No hi ha cap edicio.")
-    return(data.frame())
+    dades<- data.frame(informe=character(), nObjectes=numeric(), nCasos=numeric(),
+                       nObjectesNomWikidata=numeric(), nCasosNomWikidata=numeric())
+
+    return(dades)
   }
 
   dades$edicio<- gsub("//", "/", dades$edicio)  # Normalitza camins
@@ -263,6 +266,9 @@ recompteCasosEdicions<- function(arrelProjecte, edicions, dades){
       if ("translations" %in% names(objectesOSM)){
         dades$nObjectesNomWikidata[i]<- sum(!objectesOSM$translations %in% c(NA, ""))
         dades$nCasosNomWikidata[i]<- sum(!casosEditats$translations %in% c(NA, ""))
+      } else {
+        # dades$nObjectesNomWikidata[i]<- 0
+        # dades$nCasosNomWikidata[i]<- 0
       }
 
       fitxerInforme<- paste0(basename(gsub("(_v[0-9]+)*\\.tsv$", "", dades$edicio[i])), ".tsv")
@@ -444,7 +450,7 @@ generaRevisions_regexTranslations<- function(informes, arrelProjecte, cerca=" \\
       next
     }
 
-    traduccions<- strsplit(d$translations, ", ")
+    traduccions<- strsplit(as.character(d$translations), ", ")
     traduccions<- lapply(traduccions, function(x) unique(gsub(cerca, substitueix, x)))
     d$`name:ca`<- ifelse(d$`name:ca` %in% c("", NA), sapply(traduccions, function(x) x[1]), d$`name:ca`)
     d$`alt_name:ca`<- ifelse(d$`alt_name:ca` %in% c("", NA) & sapply(traduccions, length) > 1,
