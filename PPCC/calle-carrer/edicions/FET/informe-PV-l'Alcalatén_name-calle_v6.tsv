@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Calle San Francisco"	"Carrer Sant Francesc"						"way"	"46150061"		"{'highway': 'living_street', 'name': 'Calle San Francisco', 'oneway': 'no'}"
+"Calle San Francisco"	"Carrer Sant Francesc"						"way"	"46150072"		"{'highway': 'living_street', 'name': 'Calle San Francisco', 'oneway': 'no'}"
+"Calle San Francisco"	"Carrer Sant Francesc"						"way"	"22770413"		"{'highway': 'residential', 'name': 'Calle San Francisco', 'oneway': 'yes'}"
+"Calle San Francisco"	"Carrer Sant Francesc"						"way"	"46150051"		"{'highway': 'residential', 'name': 'Calle San Francisco', 'oneway': 'yes'}"
+"Calle San José"	"Carrer Sant Josep"						"way"	"46195238"		"{'highway': 'living_street', 'name': 'Calle San José', 'oneway': 'yes'}"

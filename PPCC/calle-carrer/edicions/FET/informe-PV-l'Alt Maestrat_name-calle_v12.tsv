@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Calle Fuente"	"Carrer Font"						"way"	"876624602"		"{'highway': 'primary', 'lanes': '2', 'name': 'Calle Fuente', 'oneway': 'no', 'ref': 'A-227'}"
+"Calle San Roque"	"Carrer Sant Roc"						"way"	"207110131"		"{'highway': 'residential', 'name': 'Calle San Roque', 'source': 'Bing;Catastro'}"

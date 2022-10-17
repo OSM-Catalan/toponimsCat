@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_id"	"typeOSM"	"idOSM"	"wikidata_type"	"multilang_names"	"all_tags"
+"Calle Balls del Birrey"		"Camino P3"	"Camí P3"				"way"	" 167631493"		""	"{'alt_name': 'Camino P3', 'alt_name:ca': 'Camí P3', 'highway': 'residential', 'name': 'Calle Balls del Birrey', 'oneway': 'yes'}"
+"Calle Zaragoza"	"Carrer Saragossa"						"way"	"1083837582"		"name:es=Carrer Saragossa"	"{'highway': 'residential', 'name': 'Calle Zaragoza', 'name:es': 'Carrer Saragossa', 'oneway': 'no'}"

@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_id"	"typeOSM"	"idOSM"	"wikidata_type"	"multilang_names"	"all_tags"
+"Calle de la Rosa"	"Carrer de la Rosa"						"way"	" 33654531"		""	"{'highway': 'residential', 'name': 'Calle de la Rosa', 'oneway': 'yes'}"
+"Calle San Francisco"	"Carrer Sant Francesc"						"way"	"807830883"		""	"{'highway': 'residential', 'name': 'Calle San Francisco'}"
+"Calle San Roque"	"Carrer Sant Roc"						"way"	"872309213"		""	"{'highway': 'residential', 'name': 'Calle San Roque'}"
