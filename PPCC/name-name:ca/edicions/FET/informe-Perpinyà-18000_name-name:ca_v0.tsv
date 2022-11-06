@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camí del Crest"	"Camí del Crest"							"way"	" 531205242"		"{'highway': 'unclassified', 'name': 'Camí del Crest', 'source': 'cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 23-06-2008'}"
+"Camí del Crest"	"Camí del Crest"							"way"	"  27077760"		"{'highway': 'unclassified', 'name': 'Camí del Crest'}"
+"Camí del Crest"	"Camí del Crest"							"way"	" 531205241"		"{'highway': 'unclassified', 'lanes': '1', 'maxheight': 'default', 'name': 'Camí del Crest', 'source': 'cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 23-06-2008', 'surface': 'asphalt'}"
+"Camí del Jac"	"Camí del Jac"							"way"	"  25972453"		"{'highway': 'unclassified', 'name': 'Camí del Jac', 'ref:FR:FANTOIR': '661360221J'}"
+"Camí Fondo"	"Camí Fondo"							"way"	" 239288371"		"{'highway': 'service', 'name': 'Camí Fondo', 'source': 'cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013'}"

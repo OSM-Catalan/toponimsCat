@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Parc Aventure du Soler"	"Parc Aventure du Soler"							"node"	"8928407153"		"{'amenity': 'bicycle_rental', 'name': 'Parc Aventure du Soler'}"
+"Parc Aventure du Soler"	"Parc Aventure du Soler"							"way"	" 965153982"		"{'landuse': 'recreation_ground', 'name': 'Parc Aventure du Soler', 'sport': 'climbing_adventure'}"
+"Parc du Moulin"	"Parc du Moulin"							"way"	" 328222052"		"{'leisure': 'park', 'name': 'Parc du Moulin'}"

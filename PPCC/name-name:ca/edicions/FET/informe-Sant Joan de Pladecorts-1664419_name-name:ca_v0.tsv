@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camí de Cotlliure"	"Camí de Cotlliure"							"way"	"284430772"		"{'highway': 'unclassified', 'name': 'Camí de Cotlliure', 'ref': 'C 2', 'source': 'cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2014'}"
+"Carrer dels Hospitals"	"Carrer dels Hospitals"							"way"	"330228370"		"{'highway': 'residential', 'name': 'Carrer dels Hospitals', 'ref:FR:FANTOIR': '661780213T', 'source': 'cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2015'}"
+"Parc Aventura"	"Parc Aventura"							"way"	"215075122"		"{'building': 'yes', 'name': 'Parc Aventura', 'source': 'Bing'}"

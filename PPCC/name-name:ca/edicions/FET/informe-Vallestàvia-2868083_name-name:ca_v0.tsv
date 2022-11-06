@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Carrer d'en Jau"	"Carrer d'en Jau"							"way"	"844843891"		"{'highway': 'path', 'name': \"Carrer d'en Jau\"}"
+"Carrer d'en Jau-Jau"	"Carrer d'en Jau-Jau"							"way"	"691063635"		"{'highway': 'steps', 'lit': 'yes', 'name': \"Carrer d'en Jau-Jau\", 'surface': 'concrete'}"
+"Carrer de l'Esglesia"	"Carrer de l'Esglesia"							"way"	"690969963"		"{'highway': 'residential', 'lanes': '1', 'lit': 'yes', 'name': \"Carrer de l'Esglesia\", 'surface': 'asphalt'}"
+"Carrer de la Farga"	"Carrer de la Farga"							"way"	"652390858"		"{'highway': 'track', 'name': 'Carrer de la Farga'}"

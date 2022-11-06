@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camí de la Creu"	"Camí de la Creu"							"way"	" 31970932"		"{'highway': 'pedestrian', 'name': 'Camí de la Creu'}"
+"Carrer del Capcir"	"Carrer del Capcir"							"way"	" 31970934"		"{'highway': 'pedestrian', 'name': 'Carrer del Capcir'}"
+"Carrer del Capcir"	"Carrer del Capcir"							"way"	" 31970939"		"{'highway': 'tertiary', 'name': 'Carrer del Capcir', 'ref': 'D 4b'}"
+"Carrer del Gabriel"	"Carrer del Gabriel"							"way"	" 31970925"		"{'highway': 'steps', 'name': 'Carrer del Gabriel'}"
+"Carrer del Soulé"	"Carrer del Soulé"							"way"	"402194472"		"{'highway': 'tertiary', 'name': 'Carrer del Soulé', 'ref': 'D 4b'}"
+"Carrer del Vidal"	"Carrer del Vidal"							"way"	" 31970924"		"{'highway': 'steps', 'name': 'Carrer del Vidal'}"

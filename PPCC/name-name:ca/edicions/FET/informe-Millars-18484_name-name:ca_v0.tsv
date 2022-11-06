@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camí del Rec de Cornella"	"Camí del Rec de Cornella"							"way"	"120515550"		"{'highway': 'residential', 'name': 'Camí del Rec de Cornella', 'ref:FR:FANTOIR': '661080512X'}"
+"Carrer del Rec"	"Carrer del Rec"							"way"	" 25509646"		"{'highway': 'residential', 'name': 'Carrer del Rec', 'ref:FR:FANTOIR': '661080149C', 'source': 'cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 12-06-2008'}"
+"Carrer Joan Amade"	"Carrer Joan Amade"							"way"	" 25509531"		"{'highway': 'residential', 'lit': 'yes', 'name': 'Carrer Joan Amade', 'ref:FR:FANTOIR': '661080080C', 'source': 'cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 12-06-2008', 'surface': 'asphalt'}"

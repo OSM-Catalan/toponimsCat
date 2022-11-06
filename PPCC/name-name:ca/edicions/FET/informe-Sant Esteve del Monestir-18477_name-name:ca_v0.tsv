@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camí d'als Horts"	"Camí d'als Horts"							"way"	"749664579"		"{'highway': 'unclassified', 'name': \"Camí d'als Horts\"}"
+"Camí d'als Horts"	"Camí d'als Horts"							"relation"	" 13825616"		"{'name': \"Camí d'als Horts\", 'ref:FR:FANTOIR': '661720315E', 'type': 'associatedStreet'}"
+"Camí d'Als Horts"	"Camí d'Als Horts"							"way"	"448451040"		"{'highway': 'track', 'motor_vehicle': 'yes', 'name': \"Camí d'Als Horts\"}"
+"Camí d'Als Horts"	"Camí d'Als Horts"							"way"	"932100725"		"{'highway': 'track', 'motor_vehicle': 'yes', 'name': \"Camí d'Als Horts\"}"
+"Camí d'Als Horts"	"Camí d'Als Horts"							"way"	"932100726"		"{'bridge': 'yes', 'highway': 'track', 'layer': '1', 'motor_vehicle': 'yes', 'name': \"Camí d'Als Horts\"}"

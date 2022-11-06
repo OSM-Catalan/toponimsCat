@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Carrer d'en Jaume"	"Carrer d'en Jaume"							"way"	" 88872700"		"{'highway': 'residential', 'name': \"Carrer d'en Jaume\", 'source': 'cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010'}"
+"Carrer de l'Églesia"	"Carrer de l'Églesia"							"way"	" 88872734"		"{'highway': 'residential', 'name': \"Carrer de l'Églesia\", 'source': 'cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010'}"
+"Plaça Sant Sadurni"	"Plaça Sant Sadurni"							"way"	"161510780"		"{'area': 'yes', 'highway': 'residential', 'name': 'Plaça Sant Sadurni'}"

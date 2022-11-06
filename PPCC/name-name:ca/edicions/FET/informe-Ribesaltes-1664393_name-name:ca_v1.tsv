@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Parc de la Guinguette"	"Parc de la Guinguette"							"way"	"616396302"		"{'leisure': 'park', 'name': 'Parc de la Guinguette'}"
+"parc du pont Jacquet"	"parc du pont Jacquet"							"way"	"737579098"		"{'leisure': 'park', 'name': 'parc du pont Jacquet'}"
+"Parc éolien de Rivesaltes"	"Parc éolien de Rivesaltes"							"relation"	"  4037976"		"{'name': 'Parc éolien de Rivesaltes', 'operator': 'GEG Ener', 'plant:method': 'wind_turbine', 'plant:output:electricity': '8 MW', 'plant:source': 'wind', 'power': 'plant', 'ref:EU:ENTSOE_EIC': '17W000000164117D', 'site': 'wind_farm', 'source': \"Registre national des installations de production d'électricité et de stockage 2018\", 'start_date': '2003-03', 'type': 'site'}"

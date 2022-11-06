@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camí de las Rocas"	"Camí de las Rocas"	"Chemin de la Roque"						"way"	"31277009"		"{'alt_name': 'Chemin de la Roque', 'highway': 'footway', 'name': 'Camí de las Rocas'}"
+"Carrer de la Madabaix"	"Carrer de la Madabaix"							"way"	"31276751"		"{'highway': 'residential', 'name': 'Carrer de la Madabaix', 'ref:FR:FANTOIR': '661030060C'}"
+"Carrer del Pallaret"	"Carrer del Pallaret"							"way"	"31276409"		"{'highway': 'residential', 'name': 'Carrer del Pallaret'}"
+"Carrer del Savi"	"Carrer del Savi"	"Carrer del Saby"						"way"	"31276740"		"{'alt_name': 'Carrer del Saby', 'highway': 'residential', 'name': 'Carrer del Savi', 'ref:FR:FANTOIR': '661030020J'}"
+"Carrer del Savi"	"Carrer del Savi"							"way"	"89659066"		"{'highway': 'residential', 'name': 'Carrer del Savi'}"

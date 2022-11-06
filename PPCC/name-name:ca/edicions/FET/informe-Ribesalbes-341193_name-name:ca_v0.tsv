@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"camí  de la Serra"	"camí  de la Serra"							"way"	"794911510"		"{'highway': 'track', 'name': 'camí  de la Serra', 'source': 'Bing;Catastro', 'surface': 'ground', 'tracktype': 'grade2'}"
+"camí de la Quinaleta"	"camí de la Quinaleta"							"way"	"598705344"		"{'highway': 'track', 'name': 'camí de la Quinaleta', 'surface': 'ground', 'tracktype': 'grade2'}"
+"camí de la Serra"	"camí de la Serra"							"way"	"794911516"		"{'highway': 'track', 'name': 'camí de la Serra', 'tracktype': 'grade2'}"
+"camí del barranc de Baita"	"camí del barranc de Baita"							"way"	"598705341"		"{'highway': 'path', 'name': 'camí del barranc de Baita'}"
+"camí dels Contaors"	"camí dels Contaors"							"way"	"794911513"		"{'highway': 'path', 'name': 'camí dels Contaors'}"
+"camí dels Contaors"	"camí dels Contaors"							"way"	"794911515"		"{'highway': 'track', 'name': 'camí dels Contaors', 'tracktype': 'grade4', 'width': '4'}"

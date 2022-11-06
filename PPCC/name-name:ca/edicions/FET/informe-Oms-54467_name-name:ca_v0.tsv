@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camí de la Font d'Avall"	"Camí de la Font d'Avall"							"way"	"790312423"		"{'highway': 'service', 'name': \"Camí de la Font d'Avall\", 'smoothness': 'intermediate', 'surface': 'paving_stones'}"
+"Camí del Pou de la Neu"	"Camí del Pou de la Neu"							"way"	"790312426"		"{'highway': 'unclassified', 'name': 'Camí del Pou de la Neu', 'source': 'cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2009', 'surface': 'gravel'}"
+"Carrer d'Amunt"	"Carrer d'Amunt"							"way"	"124826852"		"{'highway': 'pedestrian', 'name': \"Carrer d'Amunt\", 'source': 'cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2009'}"
+"Carrer d'Avall"	"Carrer d'Avall"							"way"	"124826853"		"{'highway': 'unclassified', 'name': \"Carrer d'Avall\", 'source': 'cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2009'}"
+"Carrer de la Calcine"	"Carrer de la Calcine"							"way"	"124826854"		"{'highway': 'unclassified', 'name': 'Carrer de la Calcine', 'source': 'cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2009'}"
+"Carrer del Roc del Ram"	"Carrer del Roc del Ram"							"way"	" 81042873"		"{'highway': 'service', 'name': 'Carrer del Roc del Ram', 'service': 'alley'}"

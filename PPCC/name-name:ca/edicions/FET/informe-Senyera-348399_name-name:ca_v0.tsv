@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camí de Sant Joanet a Senyera"	"Camí de Sant Joanet a Senyera"							"way"	"482569197"		"{'highway': 'unclassified', 'name': 'Camí de Sant Joanet a Senyera'}"
+"Camí de Sant Joanet a Senyera"	"Camí de Sant Joanet a Senyera"							"way"	"482569202"		"{'highway': 'unclassified', 'name': 'Camí de Sant Joanet a Senyera', 'surface': 'asphalt'}"
+"Camí Molí de les Penyetes"	"Camí Molí de les Penyetes"							"way"	"259982022"		"{'highway': 'unclassified', 'name': 'Camí Molí de les Penyetes', 'surface': 'asphalt'}"
+"Camí Vell de Senyera"	"Camí Vell de Senyera"							"way"	"447879795"		"{'access': 'permissive', 'bicycle': 'yes', 'foot': 'yes', 'highway': 'service', 'horse': 'yes', 'incline': '0%', 'motor_vehicle': 'yes', 'mtb:scale': '1', 'name': 'Camí Vell de Senyera', 'smoothness': 'bad', 'surface': 'ground', 'tracktype': 'grade2', 'width': '3'}"
+"Camí Vell de Senyera"	"Camí Vell de Senyera"							"way"	"259982018"		"{'access': 'permissive', 'bicycle': 'yes', 'foot': 'yes', 'highway': 'service', 'horse': 'yes', 'incline': '0%', 'motor_vehicle': 'yes', 'mtb:scale': '0', 'name': 'Camí Vell de Senyera', 'smoothness': 'intermediate', 'surface': 'paved', 'tracktype': 'grade1', 'width': '4'}"
+"Plaça de l'Ajuntament"	"Plaça de l'Ajuntament"							"way"	"221412779"		"{'highway': 'residential', 'name': \"Plaça de l'Ajuntament\"}"

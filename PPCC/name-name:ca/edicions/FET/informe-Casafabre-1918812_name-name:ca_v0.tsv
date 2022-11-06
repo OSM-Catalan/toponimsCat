@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Carrer d'Amont"	"Carrer d'Amont"							"way"	" 748647149"		"{'highway': 'service', 'name': \"Carrer d'Amont\"}"
+"Carrer de la Matte"	"Carrer de la Matte"							"way"	" 532494956"		"{'highway': 'residential', 'lanes': '1', 'name': 'Carrer de la Matte', 'surface': 'asphalt'}"
+"Carrer Major"	"Carrer Major"							"way"	" 748647148"		"{'highway': 'unclassified', 'lanes': '1', 'name': 'Carrer Major', 'surface': 'asphalt'}"
+"Carrer Major"	"Carrer Major"							"way"	"1001440227"		"{'highway': 'tertiary', 'lanes': '1', 'maxweight': '10', 'name': 'Carrer Major', 'ref': 'D 72', 'surface': 'asphalt'}"

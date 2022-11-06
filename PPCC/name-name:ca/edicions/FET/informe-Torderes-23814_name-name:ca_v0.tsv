@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Carrer de Sant-Nazari"	"Carrer de Sant-Nazari"							"way"	" 124978128"		"{'highway': 'residential', 'name': 'Carrer de Sant-Nazari'}"
+"Plaça Major"	"Plaça Major"							"node"	"9997989054"		"{'name': 'Plaça Major', 'place': 'square'}"
+"Plaça Major"	"Plaça Major"							"way"	" 368264624"		"{'access': 'destination', 'highway': 'service', 'name': 'Plaça Major'}"

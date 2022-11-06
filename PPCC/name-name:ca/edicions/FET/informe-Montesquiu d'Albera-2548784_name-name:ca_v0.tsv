@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camí de les Tompetes"	"Camí de les Tompetes"							"way"	" 172486672"		"{'highway': 'unclassified', 'lanes': '1', 'maxheight': 'default', 'name': 'Camí de les Tompetes', 'surface': 'asphalt'}"
+"Camí de les Tompetes"	"Camí de les Tompetes"							"way"	" 619180129"		"{'highway': 'unclassified', 'lanes': '1', 'maxheight': 'default', 'name': 'Camí de les Tompetes', 'surface': 'asphalt'}"
+"Camí de les Tompetes"	"Camí de les Tompetes"							"way"	" 619180130"		"{'highway': 'unclassified', 'lanes': '1', 'layer': '-1', 'maxheight': 'default', 'name': 'Camí de les Tompetes', 'surface': 'asphalt', 'tunnel': 'yes'}"
+"Camí de les Tompetes"	"Camí de les Tompetes"							"way"	" 580397595"		"{'highway': 'unclassified', 'lanes': '1', 'maxheight': 'default', 'name': 'Camí de les Tompetes', 'surface': 'asphalt'}"
+"Parc des Anglades"	"Parc de les Anglades"							"node"	"9948067442"		"{'leisure': 'sports_centre', 'name': 'Parc des Anglades', 'operator': 'Commune de Montesquieu-des-Albères', 'operator:type': 'public', 'operator:wikidata': 'Q8997', 'website': 'https://www.montesquieu-des-alberes.fr/decouvrir-montesquieu/patrimoine/le-parc-des-anglades/'}"

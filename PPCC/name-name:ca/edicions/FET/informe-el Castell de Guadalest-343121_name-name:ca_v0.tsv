@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"carrer Alchova"	"carrer Alchova"							"way"	"176154833"	"name:ru=Ачова улица"	"{'highway': 'residential', 'name': 'carrer Alchova', 'name:ru': 'Ачова улица'}"
+"carrer d’Aitana"	"carrer d’Aitana"							"way"	"495268027"	"name:es=Calle Aitana, name:ru=Айтана улица"	"{'highway': 'secondary', 'name': 'carrer d’Aitana', 'name:es': 'Calle Aitana', 'name:ru': 'Айтана улица', 'ref': 'CV-755', 'source': 'PNOA;datos oficiales'}"
+"carrer d’Aixorta"	"carrer d’Aixorta"							"way"	"197981754"	"name:es=Calle Aixorta"	"{'highway': 'residential', 'name': 'carrer d’Aixorta', 'name:es': 'Calle Aixorta'}"
+"carrer de l’Esglèsia"	"carrer de l’Esglèsia"							"way"	"456239192"		"{'highway': 'footway', 'name': 'carrer de l’Esglèsia', 'surface': 'paved'}"
+"carrer de la Virgen"	"carrer de la Virgen"							"way"	" 43028177"	"name:es=Calle La Virgen"	"{'highway': 'residential', 'name': 'carrer de la Virgen', 'name:es': 'Calle La Virgen', 'source': 'GPS'}"

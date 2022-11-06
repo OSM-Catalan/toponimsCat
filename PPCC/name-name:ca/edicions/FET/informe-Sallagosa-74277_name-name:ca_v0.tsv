@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camí de la Ribereta"	"Camí de la Ribereta"							"way"	" 30814201"		"{'highway': 'secondary', 'name': 'Camí de la Ribereta', 'ref': 'D 33B', 'source': 'cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2009'}"
+"Camí de Vedrinyans"	"Camí de Vedrinyans"							"way"	"114451383"		"{'highway': 'track', 'name': 'Camí de Vedrinyans', 'ref': 'GR 36 / GRP Tour de Cerdagne', 'surface': 'unpaved'}"
+"Carrer del Mig"	"Carrer del Mig"							"way"	" 30815007"		"{'highway': 'residential', 'name': 'Carrer del Mig', 'source': 'cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2009'}"

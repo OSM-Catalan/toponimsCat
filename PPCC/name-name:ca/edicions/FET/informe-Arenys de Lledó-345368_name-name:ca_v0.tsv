@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camí d'Horta de Sant Joan"	"Camí d'Horta de Sant Joan"							"way"	"822967492"		"{'highway': 'track', 'name': \"Camí d'Horta de Sant Joan\", 'surface': 'gravel', 'tracktype': 'grade1'}"
+"Carrer de la Coopertiva"	"Carrer de la Coopertiva"							"way"	"529079425"	"name:es=Calle de la Cooperativa"	"{'highway': 'residential', 'name': 'Carrer de la Coopertiva', 'name:es': 'Calle de la Cooperativa'}"
+"Carrer de les Roques"	"Carrer de les Roques"							"way"	"607800101"		"{'highway': 'residential', 'name': 'Carrer de les Roques'}"
+"Carrer de Nardia"	"Carrer de Nardia"							"way"	"529079434"		"{'highway': 'residential', 'name': 'Carrer de Nardia'}"
+"Carrer de Sarragosa"	"Carrer de Sarragosa"							"way"	"529079431"	"name:es=Calle de Zaragoza"	"{'highway': 'residential', 'name': 'Carrer de Sarragosa', 'name:es': 'Calle de Zaragoza'}"

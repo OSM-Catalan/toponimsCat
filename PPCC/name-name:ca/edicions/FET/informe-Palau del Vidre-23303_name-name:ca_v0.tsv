@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camí de Batipalmes"	"Camí de Batipalmes"	"Chemin des Batipalmes"						"way"	"765073552"		"{'alt_name': 'Chemin des Batipalmes', 'highway': 'unclassified', 'name': 'Camí de Batipalmes', 'ref:FR:FANTOIR': '661330009S', 'source': 'cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2009'}"
+"Carrer de la Marinade"	"Carrer de la Marinade"							"way"	" 55091001"		"{'highway': 'residential', 'lit': 'yes', 'name': 'Carrer de la Marinade', 'ref:FR:FANTOIR': '661330012V', 'sidewalk': 'both', 'source': 'cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010', 'surface': 'asphalt'}"
+"Carrer del Canyer"	"Carrer del Canyer"							"way"	" 55173723"		"{'highway': 'service', 'name': 'Carrer del Canyer', 'source': 'cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010'}"

@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camí de l'Om"	"Camí de l'Om"			""	""	""	""	"way"	" 32548676"		"{'highway': 'unclassified', 'name': \"Camí de l'Om\", 'tracktype': 'grade1'}"
+"Camí de la Bruguera"	"Camí de la Bruguera"			""	""	""	""	"way"	"855414699"		"{'highway': 'unclassified', 'name': 'Camí de la Bruguera', 'tracktype': 'grade3'}"
+"Camí de la Bruguera"	"Camí de la Bruguera"			""	""	""	""	"way"	"128443337"		"{'highway': 'unclassified', 'name': 'Camí de la Bruguera', 'tracktype': 'grade3'}"
+"camí de la Muntada"	"camí de la Muntada"			""	""	""	""	"way"	"620919751"		"{'highway': 'track', 'name': 'camí de la Muntada'}"
+"Camí de Sant Jaume (Sant Pere de Rodes - Montserrat)"	"Camí de Sant Jaume (Sant Pere de Rodes - Montserrat)"			"Camí català de Sant Jaume, Camí catalá de Sant Jaume"	"Camí català de Sant Jaume"	"pilgrims' way"	"Q5742366"	"relation"	"  2164053"		"{'denomination': 'catholic', 'description': 'Sant Pere de Rodes - Montserrat', 'name': 'Camí de Sant Jaume (Sant Pere de Rodes - Montserrat)', 'network': 'nwn', 'osmc:symbol': 'blue:blue:shell_modern', 'pilgrimage': 'Camino de Santiago', 'religion': 'christian', 'route': 'hiking', 'type': 'route', 'website': 'http://www.camidesantjaume.cat', 'wiki:symbol': 'Symbol_Jakobsweg.png', 'wikidata': 'Q5742366', 'wikipedia': 'ca:Camí català de Sant Jaume'}"
+"Camí ramader del Coller de l'Arç al Coll de Condreu"	"Camí ramader del Coller de l'Arç al Coll de Condreu"			""	""	""	""	"way"	"343991612"		"{'highway': 'track', 'name': \"Camí ramader del Coller de l'Arç al Coll de Condreu\", 'tracktype': 'grade1'}"

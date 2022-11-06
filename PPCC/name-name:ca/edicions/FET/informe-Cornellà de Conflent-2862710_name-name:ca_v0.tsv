@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camí de les Forrolles"	"Camí de les Forrolles"							"way"	" 51160305"		"{'highway': 'unclassified', 'maxweight': '3.5', 'name': 'Camí de les Forrolles'}"
+"Camí de Sant Climent"	"Camí de Sant Climent"							"way"	" 51160261"		"{'bridge': 'yes', 'highway': 'unclassified', 'layer': '1', 'name': 'Camí de Sant Climent'}"
+"Camí de Sant Climent"	"Camí de Sant Climent"							"way"	"958430452"		"{'highway': 'unclassified', 'name': 'Camí de Sant Climent', 'surface': 'unpaved'}"
+"Camí de Sant Climent"	"Camí de Sant Climent"							"way"	" 51160262"		"{'highway': 'service', 'name': 'Camí de Sant Climent', 'service': 'driveway', 'surface': 'unpaved'}"
+"Carrer d'Avall"	"Carrer d'Avall"							"way"	" 51160270"		"{'highway': 'residential', 'name': \"Carrer d'Avall\", 'oneway': 'yes'}"
+"Carrer d'Avall"	"Carrer d'Avall"							"way"	" 51160306"		"{'highway': 'residential', 'name': \"Carrer d'Avall\", 'oneway': 'yes'}"

@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Avinguda de la Paloma"	"Avinguda de la Paloma"							"way"	" 37872098"		"{'highway': 'residential', 'name': 'Avinguda de la Paloma'}"
+"Camí de la Taronja"	"Camí de la Taronja"							"relation"	" 14362342"		"{'name': 'Camí de la Taronja', 'network': 'rcn', 'operator': 'Ribera de Xúquer', 'ref': 'R10', 'roundtrip': 'no', 'route': 'bicycle', 'type': 'route', 'website': 'https://riberaturisme.es/turismo-activo/cicloturismo/'}"
+"Carrer Bonaire"	"Carrer Bonaire"							"way"	"220964999"		"{'highway': 'residential', 'name': 'Carrer Bonaire'}"
+"Carrer Massís del Caroig"	"Carrer Massís del Caroig"							"way"	"220964972"		"{'highway': 'residential', 'name': 'Carrer Massís del Caroig'}"

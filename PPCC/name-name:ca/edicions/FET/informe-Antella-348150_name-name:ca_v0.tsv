@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camí de la Taronja"	"Camí de la Taronja"							"relation"	"  14362342"		"{'name': 'Camí de la Taronja', 'network': 'rcn', 'operator': 'Ribera de Xúquer', 'ref': 'R10', 'roundtrip': 'no', 'route': 'bicycle', 'type': 'route', 'website': 'https://riberaturisme.es/turismo-activo/cicloturismo/'}"
+"Camí Tous -Sumacarcer o Gavarda"	"Camí Tous -Sumacarcer o Gavarda"							"way"	" 447871677"		"{'access': 'permissive', 'bicycle': 'yes', 'cutting': 'yes', 'foot': 'yes', 'highway': 'service', 'horse': 'yes', 'motor_vehicle': 'yes', 'mtb:scale': '0', 'mtb:scale:uphill': '0', 'name': 'Camí Tous -Sumacarcer o Gavarda', 'width': '3'}"
+"Camí Tous -Sumacarcer o Gavarda"	"Camí Tous -Sumacarcer o Gavarda"							"way"	"1079273875"		"{'access': 'permissive', 'bicycle': 'yes', 'cutting': 'yes', 'foot': 'yes', 'highway': 'service', 'horse': 'yes', 'motor_vehicle': 'yes', 'mtb:scale': '0', 'mtb:scale:uphill': '0', 'name': 'Camí Tous -Sumacarcer o Gavarda', 'width': '3'}"
+"Plaça Major"	"Plaça Major"							"way"	" 219798976"		"{'highway': 'residential', 'name': 'Plaça Major'}"
+"Plaça Major"	"Plaça Major"							"way"	" 219798987"		"{'highway': 'residential', 'name': 'Plaça Major'}"
