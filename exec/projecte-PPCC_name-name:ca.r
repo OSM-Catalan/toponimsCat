@@ -3,10 +3,10 @@ library(toponimsCat)
 ## Copia name -> name:ca per valors inequivocament catalans
 
 arrelProjecte<- "PPCC/name-name:ca"
-actualitzaFitxer<- FALSE # actualitzaInformes<- TRUE ## TODO: unificar parametre a generaInforme i generaInformesPPCC
+actualitzaInformes<- FALSE # actualitzaInformes<- TRUE ## TODO: unificar parametre a generaInforme i generaInformesPPCC
 # TODO: Atzucac Avinguda Camí Caminal Carrer Carreró Carretera Clos Giratori Jardí Passatge Passeig Plaça Rambla Ronda Ruta Rotonda Urbanització Via Voral
 ## ULL VIU!: clos i parc col·lisionen amb el francés. carretera col·lisiona amb el castellà.
-filtreObjectes<- "nwr[name~'^([Aa]vinguda|[Cc]arrer|[Cc]amí|[Pp]arc|[Pp]laça) '][!'name:ca']"
+filtre<- "nwr[name~'^([Aa]vinguda|[Cc]arrer|[Cc]amí|[Pp]arc|[Pp]laça) '][!'name:ca']"
 sufixFitxers<- "_name-name:ca"
 cerca<- ""
 substitueix<- ""
@@ -14,37 +14,9 @@ revisioUnificada<- TRUE
 
 
 ## Generar informes pels municipis dels PPCC amb LangToolsOSM ----
-actualitzaFitxer<- FALSE # actualitzaFitxer<- TRUE
+actualitzaInformes<- FALSE # actualitzaInformes<- TRUE
 
-municipis<- toponimsCat::municipis
-for (i in 1:nrow(municipis)){
-  areaMunicipi<- paste0("['name:ca'='", gsub("\\'", "\\\\'", municipis$`name:ca`[i]) ,"']",
-                       "[admin_level=", municipis$admin_level[i], "]")
-  fitxerInforme<- paste0("informe-", municipis$`name:ca`[i], "-", municipis$id[i], sufixFitxers, ".tsv")
-  municipis$informe[i]<- file.path(arrelProjecte, "informes", fitxerInforme)
-
-  if (FALSE){
-    cmd<- generaInforme(arrelProjecte=arrelProjecte, fitxerInforme=fitxerInforme,
-                        filtreArea=areaMunicipi, filtreObjectes=filtreObjectes,
-                        actualitzaFitxer=actualitzaFitxer)
-  } else {
-    # defineix area segons id de la divisió
-    tipusObjecte<- gsub("\\[.+\\]", "", filtreObjectes)
-    consulta<- paste0("\"[out:json][timeout:1000]; ",
-                      "rel(", municipis$id[i], ");map_to_area->.municipi; ",
-                      tipusObjecte, "(area.municipi)", gsub(paste0("^", tipusObjecte), "", filtreObjectes), "; ",
-                      "out tags qt;\"")
-    cmd<- generaInforme(arrelProjecte=arrelProjecte, fitxerInforme=fitxerInforme,
-                        consulta=consulta, actualitzaFitxer=actualitzaFitxer)
-  }
-
-  if (length(cmd) == 0){
-    cmd<- ""
-  }
-
-  municipis$cmd[i]<- cmd
-}
-
+municipis<- generaInformesPPCC(arrelProjecte=arrelProjecte, filtre=filtre, actualitzaInformes=actualitzaInformes, sufixFitxers=sufixFitxers, divisions=toponimsCat::municipis)
 
 ## Executa les ordres
 sel<- which(municipis$cmd != "")
@@ -55,9 +27,8 @@ for (i in 1:length(sel)){
   system(municipis$cmd[sel[i]])
 }
 
-
 ## Si hi ha errors (eg. overpass va massa enfeinat i no respon), torneu a correr la secció amb
-actualitzaFitxer<- FALSE
+actualitzaInformes<- FALSE
 
 
 ## Avalua el nombre de casos a cada informe generat ----
