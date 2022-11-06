@@ -3,14 +3,14 @@
 \docType{data}
 \title{Municipis dels Països Catalans}
 \description{
-Dades de les Municipis dels Països Catalans.
+Dades dels municipis dels Països Catalans.
 }
 \details{
 Alguns noms de municipis tenen duplicats. Per construir noms únics (p. ex. per generar noms de fitxers), podeu usar \code{paste0(municipis$regio, "-", municipis$name).}
 }
 \usage{municipis}
 \format{
-  Un \code{data.frame} amb dades dels 1672 municipis  per les següents 8 variables.
+  Un \code{data.frame} amb dades dels 1672 municipis per les següents 8 variables.
   \describe{
     \item{type}{Tipus d'objecte d'OSM.}
     \item{id}{Número identificador a OSM.}
