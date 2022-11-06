@@ -556,11 +556,11 @@ bdRevisions<- function(arrelProjectes){
   revisio.casosFETS_maj<- revisio.casosFETS
   revisio.casosFETS<- rbind(revisio.casosFETS_min, revisio.casosFETS_maj)
 
-  revisio.casosFETS[, c("name", "name:ca", "alt_name", "alt_name:ca")]<- lapply(revisio.casosFETS[, c("name", "name:ca", "alt_name", "alt_name:ca")], function(x){
+  revisio.casosFETS<- lapply(revisio.casosFETS, function(x){
     x[x %in% ""]<- NA
     x
   })
-  revisio.casosFETS<- unique(revisio.casosFETS)
+  revisio.casosFETS<- unique(data.frame(revisio.casosFETS, check.names=FALSE))
 
   if (any(dup<- duplicated(revisio.casosFETS[, c("name", "alt_name", "translations", "ca.wikipedia_page", "wikidata_id")]))){
     print(revisio.casosFETS[dup, c("name", "alt_name", "translations", "ca.wikipedia_page", "wikidata_id")])
@@ -603,10 +603,11 @@ preparaEdicions<- function(arrelProjecte, usuari, fitxerContrasenya){
   for (i in seq_along(fitxersInformes)){
     nomFitxer<- gsub(file.path(arrelProjecte, "informes/*"), "", fitxersInformes[i])
     informe<- try(utils::read.table(fitxersInformes[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE))
-    informe[, c("name", "alt_name")]<- lapply(informe[, c("name", "alt_name")], function(x){
+    informe<- lapply(informe, function(x){
       x[x %in%  ""]<- NA
       x
     })
+    informe<- data.frame(informe, check.names=FALSE)
 
     edicions<- merge(informe[, setdiff(names(informe), c("name:ca", "alt_name:ca"))], revisio.casosFETS)
     ordCols<- c("name", "name:ca", "alt_name", "alt_name:ca")
