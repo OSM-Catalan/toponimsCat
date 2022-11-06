@@ -29,7 +29,7 @@ generaInformesPPCC<- function(arrelProjecte, filtre, actualitzaInformes=FALSE,
     fitxerInforme<- paste0("informe-", divisions$regio[i], "-", divisions$`name:ca`[i], sufixFitxers, ".tsv")
     divisions$informe[i]<- file.path(arrelProjecte, "informes", fitxerInforme)
 
-    areaDivisio<- paste0("rel(", divisions$id[i], ");map_to_area->.divisió; ")
+    areaDivisio<- paste0("rel(", divisions$id[i], ");map_to_area->.divisio; ")
     if ("parcial" %in% names(divisions) && divisions$parcial[i]){  # comarques parcials
       consulta<- paste0("\"[out:json][timeout:1000]; ",
                         areaDivisio,
