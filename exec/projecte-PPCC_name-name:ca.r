@@ -6,7 +6,7 @@ arrelProjecte<- "PPCC/name-name:ca"
 actualitzaInformes<- FALSE # actualitzaInformes<- TRUE ## TODO: unificar parametre a generaInforme i generaInformesPPCC
 # TODO: Atzucac Avinguda Camí Caminal Carrer Carreró Carretera Clos Giratori Jardí Passatge Passeig Plaça Rambla Ronda Ruta Rotonda Urbanització Via Voral
 ## ULL VIU!: clos i parc col·lisionen amb el francés. carretera col·lisiona amb el castellà.
-filtre<- "nwr[name~'^([Aa]vinguda|[Cc]arrer|[Cc]amí|[Pp]arc|[Pp]laça) '][!'name:ca']"
+filtre<- "nwr[name~'^([Aa]vinguda|[Cc]arrer|[Cc]amí|[Pp]laça) '][!'name:ca']"
 sufixFitxers<- "_name-name:ca"
 cerca<- ""
 substitueix<- ""
@@ -81,5 +81,21 @@ for (i in 1:length(cmd)){
 }
 
 
-## Arxiva els informes de les municipis actualitzades a edicions/FET i actualitza o elimina els informes originals desactualitzats ----
+## Arxiva els informes dels municipis actualitzades a edicions/FET i actualitza o elimina els informes originals desactualitzats ----
 informesActualitzats<- actualitzaInformesCarregats(arrelProjecte=arrelProjecte, esborraInformesDesactualitzats=TRUE)
+
+
+## Repassa Parcs a la Catalunya Nord ----
+arrelProjecte<- "PPCC/name-name:ca"
+actualitzaFitxer<- FALSE
+## ULL VIU!: Parc col·lisionen amb el francés
+filtre<- "nwr['name:ca'~'^[Pp]arc ']"
+sufixFitxers<- "_name-name:ca_parcs-CatNord"
+cerca<- ""
+substitueix<- ""
+revisioUnificada<- TRUE
+
+cmd<- generaInforme(arrelProjecte=arrelProjecte, actualitzaFitxer=actualitzaFitxer,
+                    fitxerInforme="informe-CatNord_name-name:ca_parcs.tsv", filtreArea="Catalunya del Nord", filtreObjectes=filtre)
+system(cmd)
+## CORREGIT!
