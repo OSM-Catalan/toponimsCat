@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Carrer Veneçuela"	"Carrer Veneçuela"							"way"	"162080347"	"name:ca=Calle Venezuela, name:es=Calle Venezuela"	"{'highway': 'residential', 'name': 'Carrer Veneçuela', 'name:ca': 'Calle Venezuela', 'name:es': 'Calle Venezuela', 'oneway': 'yes', 'surface': 'asphalt'}"
+"Plaza de la Concordia"	"Plaça de la Concòrdia"							"way"	"411701085"	"name:ca=Plaza de la Concordia"	"{'highway': 'residential', 'name': 'Plaza de la Concordia', 'name:ca': 'Plaza de la Concordia'}"

@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Avinguda de Catalunya"	"Avinguda de Catalunya"							"way"	"191617369"	"name:ca=Avenida de Cataluña, name:es=Avenida de Cataluña"	"{'cycleway:right': 'no', 'highway': 'primary', 'junction': 'roundabout', 'lanes': '5', 'name': 'Avinguda de Catalunya', 'name:ca': 'Avenida de Cataluña', 'name:es': 'Avenida de Cataluña', 'surface': 'asphalt'}"
+"Avinguda de Catalunya"	"Avinguda de Catalunya"							"way"	"463422054"	"name:ca=Avenida de Cataluña, name:es=Avenida de Cataluña"	"{'cycleway:right': 'no', 'highway': 'primary', 'junction': 'roundabout', 'lanes': '5', 'name': 'Avinguda de Catalunya', 'name:ca': 'Avenida de Cataluña', 'name:es': 'Avenida de Cataluña', 'surface': 'asphalt'}"
+"Carrer de la Llanterna"	"Carrer de la Llanterna"							"way"	"119439982"	"name:ca=Calle de la Linterna, name:es=Calle de la Linterna"	"{'highway': 'footway', 'name': 'Carrer de la Llanterna', 'name:ca': 'Calle de la Linterna', 'name:es': 'Calle de la Linterna'}"
