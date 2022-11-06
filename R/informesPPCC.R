@@ -1,11 +1,11 @@
-#' Generar informes per comarques o municipis dels PPCC amb tots els objectes d'OSM segons els filtres especificats. Només inclou els municipis i zones catalanoparlants de les comarques bilingües.
+#' Generar informes per territoris, comarques o municipis dels PPCC amb tots els objectes d'OSM segons els filtres especificats. Només inclou els municipis i zones catalanoparlants de les comarques bilingües.
 #'
 #'
 #' @param arrelProjecte camí a l'arrel del projecte. La carpeta de destinació dels informes serà la subcarpeta \code{informes}.
 #' @param filtre filtre d'etiquetes d'objectes d'OSM per la consulta d'Overpass.
 #' @param actualitzaInformes si és \code{TRUE} i ja existeix el fitxer d'informe, el mou a la carpeta «ANTIC».
 #' @param sufixFitxers text afegir com a sufix al nom dels fitxers dels informes («arrelProjecte/informe-Regio-comarca$sufixFitxer$.tsv»).
-#' @param divisions \code{data.frame} amb informació de les \code{\link{comarques}} o \code{\link{municipis}}. Per defecte, comarques.
+#' @param divisions \code{data.frame} amb informació de les \code{\link{territoris}}, \code{\link{comarques}} o \code{\link{municipis}}. Per defecte, comarques.
 #'
 #' @return Retorna la taula de les divisions amb els nous camps \code{cmd}, que conté l'ordre per generar els informes amb
 #'  \code{write_osm_objects_report} de \href{https://github.com/OSM-Catalan/LangToolsOSM}{LangToolsOSM},
@@ -26,7 +26,11 @@
 generaInformesPPCC<- function(arrelProjecte, filtre, actualitzaInformes=FALSE,
                             sufixFitxers="", divisions=toponimsCat::comarques){
   for (i in 1:nrow(divisions)){
-    fitxerInforme<- paste0("informe-", divisions$regio[i], "-", divisions$`name:ca`[i], sufixFitxers, ".tsv")
+    if ("admin_level" %in% names(divisions)){
+      fitxerInforme<- paste0("informe-", divisions$regio[i], "-", divisions$`name:ca`[i], sufixFitxers, ".tsv")
+    } else {  ## territoris dels Països Catalans
+      fitxerInforme<- paste0("informe-", divisions$regio[i], sufixFitxers, ".tsv")
+    }
     divisions$informe[i]<- file.path(arrelProjecte, "informes", fitxerInforme)
 
     areaDivisio<- paste0("rel(", divisions$id[i], ");map_to_area->.divisio; ")
