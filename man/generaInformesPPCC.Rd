@@ -2,7 +2,7 @@
 % Please edit documentation in R/informesPPCC.R
 \name{generaInformesPPCC}
 \alias{generaInformesPPCC}
-\title{Generar informes per comarques o municipis dels PPCC amb tots els objectes d'OSM segons els filtres especificats. Només inclou els municipis i zones catalanoparlants de les comarques bilingües.}
+\title{Generar informes per territoris, comarques o municipis dels PPCC amb tots els objectes d'OSM segons els filtres especificats. Només inclou els municipis i zones catalanoparlants de les comarques bilingües.}
 \usage{
 generaInformesPPCC(
   arrelProjecte,
@@ -21,7 +21,7 @@ generaInformesPPCC(
 
 \item{sufixFitxers}{text afegir com a sufix al nom dels fitxers dels informes («arrelProjecte/informe-Regio-comarca$sufixFitxer$.tsv»).}
 
-\item{divisions}{\code{data.frame} amb informació de les \code{\link{comarques}} o \code{\link{municipis}}. Per defecte, comarques.}
+\item{divisions}{\code{data.frame} amb informació de les \code{\link{territoris}}, \code{\link{comarques}} o \code{\link{municipis}}. Per defecte, comarques.}
 }
 \value{
 Retorna la taula de les divisions amb els nous camps \code{cmd}, que conté l'ordre per generar els informes amb
@@ -29,7 +29,7 @@ Retorna la taula de les divisions amb els nous camps \code{cmd}, que conté l'or
  i el camp \code{informe}, que conté el camí del fitxer de l'informe que es crearà.
 }
 \description{
-Generar informes per comarques o municipis dels PPCC amb tots els objectes d'OSM segons els filtres especificats. Només inclou els municipis i zones catalanoparlants de les comarques bilingües.
+Generar informes per territoris, comarques o municipis dels PPCC amb tots els objectes d'OSM segons els filtres especificats. Només inclou els municipis i zones catalanoparlants de les comarques bilingües.
 }
 \examples{
 ordres<- generaInformesPPCC(arrelProjecte="PPCC/calle-carrer",
