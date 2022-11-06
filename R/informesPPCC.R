@@ -1,13 +1,13 @@
-#' Generar informes per comarques dels PPCC amb tots els objectes d'OSM segons els filtres especificats. Només inclou les zones catalanoparlants de les comarques bilingües.
+#' Generar informes per comarques o municipis dels PPCC amb tots els objectes d'OSM segons els filtres especificats. Només inclou els municipis i zones catalanoparlants de les comarques bilingües.
 #'
 #'
 #' @param arrelProjecte camí a l'arrel del projecte. La carpeta de destinació dels informes serà la subcarpeta \code{informes}.
 #' @param filtre filtre d'etiquetes d'objectes d'OSM per la consulta d'Overpass.
 #' @param actualitzaInformes si és \code{TRUE} i ja existeix el fitxer d'informe, el mou a la carpeta «ANTIC».
-#' @param sufixFitxers text afegir com a sufix al nom dels fitxers dels informes («arrelProjecte/informe-Regio-comarca$sufixFitxer$.tsv»)
-#' @param comarques \code{data.frame} amb informació de les comarques. Per defecte, \code{\link{comarques}}
+#' @param sufixFitxers text afegir com a sufix al nom dels fitxers dels informes («arrelProjecte/informe-Regio-comarca$sufixFitxer$.tsv»).
+#' @param divisions \code{data.frame} amb informació de les \code{\link{comarques}} o \code{\link{municipis}}. Per defecte, comarques.
 #'
-#' @return Retorna la taula de les comarques amb els nous camps \code{cmd}, que conté l'ordre per generar els informes amb
+#' @return Retorna la taula de les divisions amb els nous camps \code{cmd}, que conté l'ordre per generar els informes amb
 #'  \code{write_osm_objects_report} de \href{https://github.com/OSM-Catalan/LangToolsOSM}{LangToolsOSM},
 #'  i el camp \code{informe}, que conté el camí del fitxer de l'informe que es crearà.
 #' @export
@@ -24,39 +24,33 @@
 #'   }
 #' }
 generaInformesPPCC<- function(arrelProjecte, filtre, actualitzaInformes=FALSE,
-                            sufixFitxers="", comarques=toponimsCat::comarques){
-  for (i in 1:nrow(comarques)){
-    if (!is.na(comarques$`historic:admin_level`[i])){
-      tipus<- "['historic:admin_level']"
-    } else if (!is.na(comarques$admin_level[i])){
-      tipus<- paste0("[admin_level=", comarques$admin_level[i], "]")
-    } else {
-      tipus<- ""
-    }
-    areaRegio<- paste0("['name:ca'='", gsub("\\'", "\\\\'", comarques$`name:ca`[i]) ,"']", tipus)
-    fitxerInforme<- paste0("informe-", comarques$regio[i], "-", comarques$`name:ca`[i], sufixFitxers, ".tsv")
-    comarques$informe[i]<- file.path(arrelProjecte, "informes", fitxerInforme)
+                            sufixFitxers="", divisions=toponimsCat::comarques){
+  for (i in 1:nrow(divisions)){
+    fitxerInforme<- paste0("informe-", divisions$regio[i], "-", divisions$`name:ca`[i], sufixFitxers, ".tsv")
+    divisions$informe[i]<- file.path(arrelProjecte, "informes", fitxerInforme)
 
-    if (!comarques$parcial[i]){
-      cmd<- generaInforme(arrelProjecte=arrelProjecte, fitxerInforme=fitxerInforme,
-                          filtreArea=areaRegio, filtreObjectes=filtre,
-                          actualitzaFitxer=actualitzaInformes)
+    areaDivisio<- paste0("rel(", divisions$id[i], ");map_to_area->.divisió; ")
+    if ("parcial" %in% names(divisions) && divisions$parcial[i]){  # comarques parcials
+      consulta<- paste0("\"[out:json][timeout:1000]; ",
+                        areaDivisio,
+                        "area[name='Països Catalans']->.llengua; ",
+                        filtre, "(area.divisio)(area.llengua); ",
+                        "out tags qt;\"")
     } else {
       consulta<- paste0("\"[out:json][timeout:1000]; ",
-                        "area", areaRegio, "->.regio; ",
-                        "area[name='Països Catalans']->.llengua; ",
-                        "( ", filtre, "(area.regio)(area.llengua); ); ",
+                        areaDivisio,
+                        filtre, "(area.divisio);",
                         "out tags qt;\"")
-      cmd<- generaInforme(arrelProjecte=arrelProjecte, fitxerInforme=fitxerInforme,
-                          consulta=consulta, actualitzaFitxer=actualitzaInformes)
     }
+    cmd<- generaInforme(arrelProjecte=arrelProjecte, fitxerInforme=fitxerInforme,
+                        consulta=consulta, actualitzaFitxer=actualitzaInformes)
 
     if (length(cmd) == 0){
       cmd<- ""
     }
 
-    comarques$cmd[i]<- cmd
+    divisions$cmd[i]<- cmd
   }
 
-  return(comarques)
+  return(divisions)
 }
