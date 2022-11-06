@@ -41,7 +41,7 @@ Una taula amb files per cada informe i amb les columnes següents:
 }
 }
 \description{
-Compte el nombre de casos i casos únics, si tenen informació de wikidata o no
+Compta el nombre de casos i casos únics, si tenen informació de wikidata o no
 i altres detalls. Per les edicions, la informació s'agrega a nivell d'informe,
 és a dir, si hi ha diversos fitxers d'edicions per un mateix informe, els suma.
 }
