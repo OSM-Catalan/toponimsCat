@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Calle Camino de Godella"	"Carrer Camí de Godella"							"way"	" 29249321"	"name:ca=Carrer Camino de Godella"	"{'highway': 'residential', 'name': 'Calle Camino de Godella', 'name:ca': 'Carrer Camino de Godella', 'oneway': 'yes'}"
+"Calle Camino de Godella"	"Carrer Camí de Godella"							"way"	"466093946"	"name:ca=Carrer Camino de Godella"	"{'cycleway:left': 'lane', 'highway': 'residential', 'name': 'Calle Camino de Godella', 'name:ca': 'Carrer Camino de Godella', 'oneway': 'yes', 'oneway:bicycle': 'no'}"

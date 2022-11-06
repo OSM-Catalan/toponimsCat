@@ -6,7 +6,7 @@ arrelProjecte<- "PPCC/correccions-name:ca"
 actualitzaInformes<- FALSE # actualitzaInformes<- TRUE ## TODO: unificar parametre a generaInforme i generaInformesPPCC
 # TODO: Atzucac Avinguda Camí Caminal Carrer Carreró Carretera Clos Giratori Jardí Passatge Passeig Plaça Rambla Ronda Ruta Rotonda Urbanització Via Voral
 ## ULL VIU!: clos i parc col·lisionen amb el francés. carretera col·lisiona amb el castellà.
-filtre<- "nwr['name:ca'~'^([Aa]venida|[Cc]alle|[Cc]amino|[Pp]arque|[Pp]laza) ']"
+filtre<- "nwr['name:ca'~'([Aa]venida|[Cc]alle|[Cc]amino|[Pp]arque|[Pp]laza) ']"
 sufixFitxers<- "_correccions-name:ca"
 cerca<- ""
 substitueix<- ""
@@ -74,11 +74,12 @@ cmd<- paste0(cmd, " --changeset-hashtags \"#toponimsCat;#correccions_name:ca\"",
              " --batch 100 --changeset-comment \"Afegeix name:ca a partir de name per carrers, places, parcs, avingudes i camins a ", nomComarca, "\"")
 cat(cmd, sep="\n")
 
-## Executa les ordres
-for (i in 1:length(cmd)){
-  message(i, " / ", length(cmd), "\t", cmd[i])
-  system(cmd[i])
-}
+## Executa les ordres: millor en una terminal per processos interactius
+
+# for (i in 1:length(cmd)){
+#   message(i, " / ", length(cmd), "\t", cmd[i])
+#   system(cmd[i])
+# }
 
 
 ## Arxiva els informes de les comarques actualitzades a edicions/FET i actualitza o elimina els informes originals desactualitzats ----

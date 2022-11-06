@@ -1,4 +1,10 @@
 "name:ca","nObjectes","nCasos","nObjectesNomWikidata","nCasosNomWikidata","revisat","informe","type","id","name","parcial","regio","admin_level","historic:admin_level","nObjectesEditat","nCasosEditat","nObjectesNomWikidataEditat","nCasosNomWikidataEditat"
+"Barcelonès",5,2,0,0,FALSE,"PPCC/correccions-name:ca/informes/informe-Principat-Barcelonès_correccions-name:ca.tsv","relation",2417889,"Barcelonès",FALSE,"Principat",7,0,1,1,0,0
+"Vallès Occidental",2,1,0,0,FALSE,"PPCC/correccions-name:ca/informes/informe-Principat-Vallès Occidental_correccions-name:ca.tsv","relation",2350067,"Vallès Occidental",FALSE,"Principat",7,0,0,0,0,0
+"el Camp de Túria",1,1,0,0,FALSE,"PPCC/correccions-name:ca/informes/informe-PV-el Camp de Túria_correccions-name:ca.tsv","relation",1691746,"el Camp de Túria",TRUE,"PV",7,0,0,0,0,0
+"l'Alt Vinalopó",1,1,0,0,FALSE,"PPCC/correccions-name:ca/informes/informe-PV-l'Alt Vinalopó_correccions-name:ca.tsv","relation",1692439,"l'Alt Vinalopó / El Alto Vinalopó",TRUE,"PV",7,0,0,0,0,0
+"la Plana Alta",1,1,0,0,FALSE,"PPCC/correccions-name:ca/informes/informe-PV-la Plana Alta_correccions-name:ca.tsv","relation",1690975,"la Plana Alta",FALSE,"PV",7,0,4,3,0,0
+"la Safor",1,1,0,0,FALSE,"PPCC/correccions-name:ca/informes/informe-PV-la Safor_correccions-name:ca.tsv","relation",1691758,"la Safor",FALSE,"PV",7,0,4,4,0,0
 "Alt Camp",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-Principat-Alt Camp_correccions-name:ca.tsv","relation",2822130,"Alt Camp",FALSE,"Principat",7,0,0,0,0,0
 "Alt Empordà",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-Principat-Alt Empordà_correccions-name:ca.tsv","relation",2177382,"Alt Empordà",FALSE,"Principat",7,0,0,0,0,0
 "Alt Penedès",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-Principat-Alt Penedès_correccions-name:ca.tsv","relation",2809672,"Alt Penedès",FALSE,"Principat",7,0,0,0,0,0
@@ -16,12 +22,11 @@
 "Baix Empordà",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-Principat-Baix Empordà_correccions-name:ca.tsv","relation",2805694,"Baix Empordà",FALSE,"Principat",7,0,0,0,0,0
 "Baix Llobregat",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-Principat-Baix Llobregat_correccions-name:ca.tsv","relation",2809457,"Baix Llobregat",FALSE,"Principat",7,0,2,1,0,0
 "Baix Penedès",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-Principat-Baix Penedès_correccions-name:ca.tsv","relation",2822410,"Baix Penedès",FALSE,"Principat",7,0,0,0,0,0
-"Barcelonès",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-Principat-Barcelonès_correccions-name:ca.tsv","relation",2417889,"Barcelonès",FALSE,"Principat",7,0,1,1,0,0
 "Berguedà",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-Principat-Berguedà_correccions-name:ca.tsv","relation",358838,"Berguedà",FALSE,"Principat",7,0,0,0,0,0
 "Canillo",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-Andorra-Canillo_correccions-name:ca.tsv","relation",2804754,"Canillo",FALSE,"Andorra",7,0,0,0,0,0
 "Capcir",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-CatNord-Capcir_correccions-name:ca.tsv","relation",13433227,"Capcir",FALSE,"CatNord",0,7,0,0,0,0
 "Cerdanya",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-Principat-Cerdanya_correccions-name:ca.tsv","relation",2805972,"Cerdanya",FALSE,"Principat",7,0,0,0,0,0
-"Comarca de València",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-PV-Comarca de València_correccions-name:ca.tsv","relation",5813174,"Comarca de València",FALSE,"PV",7,0,3,2,0,0
+"Comarca de València",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-PV-Comarca de València_correccions-name:ca.tsv","relation",5813174,"Comarca de València",FALSE,"PV",7,0,4,3,0,0
 "Conca de Barberà",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-Principat-Conca de Barberà_correccions-name:ca.tsv","relation",2822039,"Conca de Barberà",FALSE,"Principat",7,0,0,0,0,0
 "Conflent",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-CatNord-Conflent_correccions-name:ca.tsv","relation",13433226,"Conflent",FALSE,"CatNord",0,7,0,0,0,0
 "Eivissa",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-Illes-Eivissa_correccions-name:ca.tsv","relation",2181664,"Eivissa",FALSE,"Illes",7,0,0,0,0,0
@@ -67,31 +72,26 @@
 "Terra Alta",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-Principat-Terra Alta_correccions-name:ca.tsv","relation",2829953,"Terra Alta",FALSE,"Principat",7,0,0,0,0,0
 "Urgell",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-Principat-Urgell_correccions-name:ca.tsv","relation",2818895,"Urgell",FALSE,"Principat",7,0,0,0,0,0
 "Vallespir",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-CatNord-Vallespir_correccions-name:ca.tsv","relation",13433225,"Vallespir",FALSE,"CatNord",0,7,0,0,0,0
-"Vallès Occidental",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-Principat-Vallès Occidental_correccions-name:ca.tsv","relation",2350067,"Vallès Occidental",FALSE,"Principat",7,0,0,0,0,0
 "Vallès Oriental",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-Principat-Vallès Oriental_correccions-name:ca.tsv","relation",2417929,"Vallès Oriental",FALSE,"Principat",7,0,0,0,0,0
 "el Baix Maestrat",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-PV-el Baix Maestrat_correccions-name:ca.tsv","relation",1690974,"el Baix Maestrat",FALSE,"PV",7,0,0,0,0,0
 "el Baix Segura",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-PV-el Baix Segura_correccions-name:ca.tsv","relation",1692447,"el Baix Segura / La Vega Baja del Segura",TRUE,"PV",7,0,0,0,0,0
-"el Baix Vinalopó",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-PV-el Baix Vinalopó_correccions-name:ca.tsv","relation",1692440,"el Baix Vinalopó",FALSE,"PV",7,0,0,0,0,0
+"el Baix Vinalopó",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-PV-el Baix Vinalopó_correccions-name:ca.tsv","relation",1692440,"el Baix Vinalopó",FALSE,"PV",7,0,1,1,0,0
 "el Camp de Morvedre",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-PV-el Camp de Morvedre_correccions-name:ca.tsv","relation",1691745,"el Camp de Morvedre",FALSE,"PV",7,0,0,0,0,0
-"el Camp de Túria",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-PV-el Camp de Túria_correccions-name:ca.tsv","relation",1691746,"el Camp de Túria",TRUE,"PV",7,0,0,0,0,0
 "el Carxe",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-Múrcia-el Carxe_correccions-name:ca.tsv","relation",11755232,"El Carche",FALSE,"Múrcia",0,0,0,0,0,0
 "el Comtat",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-PV-el Comtat_correccions-name:ca.tsv","relation",1692441,"el Comtat",FALSE,"PV",7,0,1,1,0,0
 "el Vinalopó Mitjà",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-PV-el Vinalopó Mitjà_correccions-name:ca.tsv","relation",1692446,"el Vinalopó Mitjà / El Vinalopó Medio",TRUE,"PV",7,0,2,2,0,0
 "els Ports",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-PV-els Ports_correccions-name:ca.tsv","relation",1110951,"els Ports",TRUE,"PV",7,0,0,0,0,0
 "l'Alacantí",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-PV-l'Alacantí_correccions-name:ca.tsv","relation",1692438,"l'Alacantí",FALSE,"PV",7,0,1,1,0,0
-"l'Alcalatén",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-PV-l'Alcalatén_correccions-name:ca.tsv","relation",1111146,"l'Alcalatén",FALSE,"PV",7,0,0,0,0,0
+"l'Alcalatén",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-PV-l'Alcalatén_correccions-name:ca.tsv","relation",1111146,"l'Alcalatén",FALSE,"PV",7,0,2,2,0,0
 "l'Alcoià",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-PV-l'Alcoià_correccions-name:ca.tsv","relation",1692442,"l'Alcoià",FALSE,"PV",7,0,0,0,0,0
 "l'Alt Maestrat",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-PV-l'Alt Maestrat_correccions-name:ca.tsv","relation",1690971,"l'Alt Maestrat",FALSE,"PV",7,0,0,0,0,0
-"l'Alt Vinalopó",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-PV-l'Alt Vinalopó_correccions-name:ca.tsv","relation",1692439,"l'Alt Vinalopó / El Alto Vinalopó",TRUE,"PV",7,0,0,0,0,0
-"l'Horta Nord",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-PV-l'Horta Nord_correccions-name:ca.tsv","relation",1691749,"l'Horta Nord",FALSE,"PV",7,0,0,0,0,0
+"l'Horta Nord",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-PV-l'Horta Nord_correccions-name:ca.tsv","relation",1691749,"l'Horta Nord",FALSE,"PV",7,0,2,1,0,0
 "l'Horta Oest",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-PV-l'Horta Oest_correccions-name:ca.tsv","relation",1691750,"l'Horta Oest",FALSE,"PV",7,0,0,0,0,0
 "l'Horta Sud",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-PV-l'Horta Sud_correccions-name:ca.tsv","relation",1691751,"l'Horta Sud",FALSE,"PV",7,0,1,1,0,0
 "la Costera",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-PV-la Costera_correccions-name:ca.tsv","relation",1691752,"la Costera",FALSE,"PV",7,0,0,0,0,0
 "la Marina Alta",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-PV-la Marina Alta_correccions-name:ca.tsv","relation",1692443,"la Marina Alta",FALSE,"PV",7,0,1,1,0,0
-"la Marina Baixa",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-PV-la Marina Baixa_correccions-name:ca.tsv","relation",1692445,"la Marina Baixa",FALSE,"PV",7,0,1,1,0,0
-"la Plana Alta",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-PV-la Plana Alta_correccions-name:ca.tsv","relation",1690975,"la Plana Alta",FALSE,"PV",7,0,3,2,0,0
+"la Marina Baixa",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-PV-la Marina Baixa_correccions-name:ca.tsv","relation",1692445,"la Marina Baixa",FALSE,"PV",7,0,27,18,0,0
 "la Plana Baixa",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-PV-la Plana Baixa_correccions-name:ca.tsv","relation",1690976,"la Plana Baixa",FALSE,"PV",7,0,0,0,0,0
 "la Ribera Alta",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-PV-la Ribera Alta_correccions-name:ca.tsv","relation",1691755,"la Ribera Alta",TRUE,"PV",7,0,0,0,0,0
 "la Ribera Baixa",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-PV-la Ribera Baixa_correccions-name:ca.tsv","relation",1691756,"la Ribera Baixa",FALSE,"PV",7,0,0,0,0,0
-"la Safor",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-PV-la Safor_correccions-name:ca.tsv","relation",1691758,"la Safor",FALSE,"PV",7,0,4,4,0,0
 "la Vall d'Albaida",0,0,0,0,TRUE,"PPCC/correccions-name:ca/informes/informe-PV-la Vall d'Albaida_correccions-name:ca.tsv","relation",1691760,"la Vall d'Albaida",FALSE,"PV",7,0,0,0,0,0
