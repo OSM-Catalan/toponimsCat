@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Jardí de Can Tondo"	"Jardí de Can Tondo"							"way"	"1110918401"		"{'highway': 'cycleway', 'lanes': '1', 'layer': '1', 'name': 'Jardí de Can Tondo', 'oneway': 'no', 'surface': 'paving_stones'}"
+"Jardí de Can Tondo"	"Jardí de Can Tondo"							"way"	"1110918402"		"{'cycle_network': 'ES:BCN', 'highway': 'cycleway', 'lanes': '1', 'layer': '1', 'name': 'Jardí de Can Tondo', 'oneway': 'no', 'surface': 'paving_stones'}"
+"Jardí de Can Tondo"	"Jardí de Can Tondo"							"way"	"1110918403"		"{'cycle_network': 'ES:BCN', 'highway': 'cycleway', 'layer': '1', 'name': 'Jardí de Can Tondo', 'oneway': 'no', 'segregated': 'no', 'surface': 'paving_stones'}"
+"Jardí de les Dones de Negre"	"Jardí de les Dones de Negre"							"way"	" 440797923"		"{'leisure': 'park', 'name': 'Jardí de les Dones de Negre', 'source': 'Ajuntament Sant Adrià'}"
+"Passatge de Josep Carner"	"Passatge de Josep Carner"							"way"	" 800323167"		"{'footway': 'sidewalk', 'highway': 'footway', 'name': 'Passatge de Josep Carner'}"
+"Passatge de Josep Carner"	"Passatge de Josep Carner"							"way"	" 809474902"		"{'highway': 'footway', 'name': 'Passatge de Josep Carner'}"

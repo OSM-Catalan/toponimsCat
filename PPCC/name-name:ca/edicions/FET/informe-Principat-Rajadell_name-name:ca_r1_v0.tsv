@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Passatge Montserrat"	"Passatge Montserrat"							"way"	" 290773631"		"{'highway': 'track', 'name': 'Passatge Montserrat', 'tracktype': 'grade2'}"
+"Rotonda de Les Casetes"	"Rotonda de Les Casetes"							"node"	"2248226311"		"{'bus': 'yes', 'highway': 'bus_stop', 'name': 'Rotonda de Les Casetes', 'public_transport': 'platform'}"

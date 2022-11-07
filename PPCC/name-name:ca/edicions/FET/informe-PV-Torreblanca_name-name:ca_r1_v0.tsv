@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Carreró de l'Escorxador"	"Carreró de l'Escorxador"							"way"	"434899395"		"{'highway': 'living_street', 'name': \"Carreró de l'Escorxador\", 'oneway': 'no'}"
+"Carreró de l'Hort"	"Carreró de l'Hort"							"way"	"209683119"		"{'highway': 'living_street', 'name': \"Carreró de l'Hort\", 'oneway': 'no', 'surface': 'asphalt'}"
+"Carreró de Loreto"	"Carreró de Loreto"							"way"	"434899392"		"{'highway': 'service', 'name': 'Carreró de Loreto', 'oneway': 'no', 'service': 'alley', 'surface': 'asphalt'}"
+"Carreró de Loreto"	"Carreró de Loreto"							"way"	"434899393"		"{'highway': 'residential', 'name': 'Carreró de Loreto', 'oneway': 'yes'}"
+"Carreró de Loreto"	"Carreró de Loreto"							"way"	"209683120"	"name:es=Callejón de Loreto"	"{'highway': 'residential', 'name': 'Carreró de Loreto', 'name:es': 'Callejón de Loreto', 'oneway': 'no'}"

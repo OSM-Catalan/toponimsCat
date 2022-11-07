@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"carreró de Can Teuler"	"carreró de Can Teuler"							"way"	"481362398"		"{'highway': 'service', 'name': 'carreró de Can Teuler', 'service': 'alley'}"
+"carreró de sa Lluna"	"carreró de sa Lluna"							"way"	" 60770992"		"{'highway': 'residential', 'name': 'carreró de sa Lluna', 'oneway': 'yes', 'source': 'survey;cadastre'}"
+"Carreró Gran"	"Carreró Gran"							"way"	" 60770975"		"{'access': 'yes', 'bicycle': 'yes', 'cycleway': 'no', 'foot': 'yes', 'highway': 'residential', 'name': 'Carreró Gran', 'oneway': 'no', 'source': 'ideib'}"

@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"rotonda avenida de Salamanca"	"rotonda avinguda de Salamanca"							"way"	"  33180107"		"{'highway': 'primary', 'name': 'rotonda avenida de Salamanca', 'oneway': 'yes', 'surface': 'asphalt'}"
+"Rotonda Gran Vía"	"Rotonda Gran Via"							"way"	"  52124668"		"{'building': 'yes', 'building:levels': '10', 'name': 'Rotonda Gran Vía'}"
+"Rotonda Universidad"	"Rotonda Universitat"							"way"	"1079134585"		"{'area': 'yes', 'junction': 'roundabout', 'name': 'Rotonda Universidad'}"

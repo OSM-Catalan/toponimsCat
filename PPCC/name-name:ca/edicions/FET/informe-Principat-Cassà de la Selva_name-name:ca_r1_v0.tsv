@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Passatge de la Via"	"Passatge de la Via"							"way"	"76967486"		"{'highway': 'residential', 'name': 'Passatge de la Via', 'surface': 'asphalt'}"
+"Passeig Vilaret"	"Passeig Vilaret"							"way"	"77011621"		"{'highway': 'residential', 'name': 'Passeig Vilaret', 'surface': 'asphalt'}"
+"Passeig Vilaret"	"Passeig Vilaret"							"way"	"77011624"		"{'highway': 'residential', 'name': 'Passeig Vilaret', 'surface': 'asphalt'}"
+"Passeig Vilaret"	"Passeig Vilaret"							"way"	"77011631"		"{'highway': 'pedestrian', 'leisure': 'park', 'name': 'Passeig Vilaret'}"

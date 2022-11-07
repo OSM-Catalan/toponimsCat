@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Passeig del Mar"	"Passeig del Mar"							"way"	"1085075475"		"{'highway': 'residential', 'name': 'Passeig del Mar', 'oneway': 'yes'}"
+"Passeig del Mar"	"Passeig del Mar"							"way"	" 115079139"		"{'highway': 'residential', 'name': 'Passeig del Mar', 'oneway': 'yes'}"
+"Rotonda del ancla"	"Rotonda de l’àncora"							"way"	" 560305442"		"{'leisure': 'park', 'name': 'Rotonda del ancla'}"
+"Rotonda del Fuego"	"Rotonda del Foc"							"way"	" 377946923"		"{'artwork_type': 'sculpture', 'name': 'Rotonda del Fuego', 'tourism': 'artwork'}"
+"Urbanització Ramal de l'Oix"	"Urbanització Ramal de l'Oix"							"way"	" 832036874"		"{'landuse': 'residential', 'name': \"Urbanització Ramal de l'Oix\"}"

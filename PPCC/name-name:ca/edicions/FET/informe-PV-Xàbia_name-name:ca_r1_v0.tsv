@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Passeig de L'Escala Empuries"	"Passeig de L'Escala Empúries"							"way"	"430182813"		"{'access': 'destination', 'bicycle': 'yes', 'foot': 'yes', 'highway': 'residential', 'lit': 'yes', 'maxspeed:type': 'ES:urban', 'name': \"Passeig de L'Escala Empuries\", 'sidewalk': 'both', 'sidewalk:both:surface': 'paving_stones', 'smoothness': 'excellent', 'surface': 'asphalt'}"
+"Passeig del Pintor Joaquín Sorolla"	"Passeig del Pintor Joaquín Sorolla"							"way"	"429463967"		"{'highway': 'pedestrian', 'name': 'Passeig del Pintor Joaquín Sorolla'}"
+"Passeig Tenista David Ferrer"	"Passeig Tenista David Ferrer"							"way"	" 43032550"		"{'highway': 'pedestrian', 'name': 'Passeig Tenista David Ferrer', 'surface': 'paved'}"

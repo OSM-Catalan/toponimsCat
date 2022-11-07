@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Passeig Vicent Berenguer"	"Passeig Vicent Berenguer"							"way"	"722736143"		"{'area': 'yes', 'highway': 'footway', 'name': 'Passeig Vicent Berenguer'}"
+"Passeig Vicent Berenguer Llopis"	"Passeig Vicent Berenguer Llopis"							"way"	"654706166"	"name:es=Paseo Vicent Berenguer Llopis"	"{'footway': 'sidewalk', 'highway': 'footway', 'kerb': 'raised', 'name': 'Passeig Vicent Berenguer Llopis', 'name:es': 'Paseo Vicent Berenguer Llopis', 'sidewalk:both': 'yes', 'sidewalk:both:est_width': '1.2m~1.5m'}"

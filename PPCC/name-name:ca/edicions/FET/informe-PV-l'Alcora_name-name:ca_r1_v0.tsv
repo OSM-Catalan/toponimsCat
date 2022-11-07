@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Rotonda Báscula"	"Rotonda Bàscula"							"way"	"  46150015"		"{'highway': 'residential', 'name': 'Rotonda Báscula', 'oneway': 'yes', 'ref': 'CV-1902'}"
+"Rotonda Cervera"	"Rotonda Cervera"							"way"	"  25432208"		"{'highway': 'tertiary', 'junction': 'roundabout', 'lanes': '2', 'name': 'Rotonda Cervera', 'ref': 'CV-1904'}"
+"Rotonda del cementerio"	"Rotonda del cementeri"							"way"	"  25370624"		"{'highway': 'secondary', 'junction': 'roundabout', 'lanes': '2', 'name': 'Rotonda del cementerio'}"
+"Rotonda del cementerio"	"Rotonda del cementeri"							"way"	"1016725055"		"{'highway': 'secondary', 'junction': 'roundabout', 'lanes': '2', 'name': 'Rotonda del cementerio'}"
+"Rotonda Gaya"	"Rotonda Gaia"							"way"	" 259261547"		"{'highway': 'tertiary', 'junction': 'roundabout', 'name': 'Rotonda Gaya'}"
+"Rotonda Polideportivo"	"Rotonda Poliesportiu"							"way"	"  28127033"		"{'highway': 'secondary', 'junction': 'roundabout', 'lanes': '2', 'name': 'Rotonda Polideportivo'}"

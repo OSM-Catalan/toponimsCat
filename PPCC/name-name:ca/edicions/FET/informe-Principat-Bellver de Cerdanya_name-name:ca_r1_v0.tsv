@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Passatge de la Tossa"	"Passatge de la Tossa"							"way"	"163932603"		"{'highway': 'living_street', 'name': 'Passatge de la Tossa', 'oneway': 'no'}"
+"Passatge del Carlit"	"Passatge del Carlit"							"way"	"163932601"		"{'highway': 'living_street', 'lit': 'yes', 'name': 'Passatge del Carlit', 'surface': 'asphalt'}"
+"Passeig del Pescador"	"Passeig del Pescador"							"way"	"945821312"		"{'highway': 'footway', 'name': 'Passeig del Pescador'}"
+"Passeig del Pescador"	"Passeig del Pescador"							"way"	"945821309"		"{'highway': 'steps', 'name': 'Passeig del Pescador', 'tunnel': 'building_passage'}"
+"Passeig del Pescador"	"Passeig del Pescador"							"way"	"945821310"		"{'highway': 'footway', 'name': 'Passeig del Pescador'}"

@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Passatge Borrassà"	"Passatge Borrassà"							"way"	"406229724"		"{'highway': 'living_street', 'name': 'Passatge Borrassà', 'surface': 'paved'}"
+"Passatge de Sant Gil"	"Passatge de Sant Gil"							"way"	"547107828"		"{'bicycle': 'yes', 'foot': 'yes', 'highway': 'tertiary', 'horse': 'yes', 'maxspeed': '20', 'name': 'Passatge de Sant Gil', 'oneway': 'yes', 'surface': 'paved'}"
+"Passatge del Molí"	"Passatge del Molí"							"way"	"406229726"		"{'highway': 'living_street', 'name': 'Passatge del Molí', 'surface': 'paved'}"
+"Passatge dels Horts"	"Passatge dels Horts"							"way"	"406229720"		"{'highway': 'residential', 'name': 'Passatge dels Horts', 'surface': 'paved'}"
+"Passatge Major"	"Passatge Major"							"way"	"406229722"		"{'highway': 'residential', 'name': 'Passatge Major', 'surface': 'paved'}"

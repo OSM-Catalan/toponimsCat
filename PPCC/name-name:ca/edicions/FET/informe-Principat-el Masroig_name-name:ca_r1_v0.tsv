@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Passeig de l'Arbre"	"Passeig de l'Arbre"							"way"	" 32571230"		"{'highway': 'unclassified', 'name': \"Passeig de l'Arbre\"}"
+"Passeig Progrés"	"Passeig Progrés"							"way"	"227131921"		"{'highway': 'residential', 'lit': 'yes', 'name': 'Passeig Progrés', 'sidewalk': 'both', 'surface': 'concrete'}"

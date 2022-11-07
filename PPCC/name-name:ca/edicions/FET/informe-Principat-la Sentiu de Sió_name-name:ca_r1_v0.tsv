@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Passeig de les Acàcies"	"Passeig de les Acàcies"							"way"	" 194945725"		"{'highway': 'residential', 'name': 'Passeig de les Acàcies', 'surface': 'asphalt'}"
+"Passeig de les Moreres"	"Passeig de les Moreres"							"way"	" 194945726"		"{'highway': 'residential', 'name': 'Passeig de les Moreres', 'surface': 'asphalt'}"
+"Passeig dels Eucaliptus"	"Passeig dels Eucaliptus"							"way"	" 194945727"		"{'highway': 'residential', 'name': 'Passeig dels Eucaliptus', 'surface': 'asphalt'}"
+"Passeig dels Oms"	"Passeig dels Oms"							"way"	" 194945728"		"{'highway': 'residential', 'name': 'Passeig dels Oms'}"
+"Passeig dels Teixos"	"Passeig dels Teixos"							"way"	" 194945729"		"{'highway': 'residential', 'name': 'Passeig dels Teixos', 'surface': 'asphalt'}"
+"Urbanització de Sant Miquel"	"Urbanització de Sant Miquel"							"node"	"2054568947"		"{'name': 'Urbanització de Sant Miquel', 'place': 'village', 'population': '28', 'source': 'Institut Cartogràfic de Catalunya'}"

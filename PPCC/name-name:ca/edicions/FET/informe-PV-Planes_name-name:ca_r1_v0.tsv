@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Passeig d'Alfaqui"	"Passeig d'Alfaqui"							"way"	"704266019"		"{'highway': 'secondary', 'name': \"Passeig d'Alfaqui\", 'ref': 'CV-708'}"
+"Passeig Font dr la Vila"	"Passeig Font dr la Vila"							"way"	"172122264"		"{'highway': 'residential', 'name': 'Passeig Font dr la Vila'}"
+"Passeig Font dr la Vila"	"Passeig Font dr la Vila"							"way"	"588244349"		"{'highway': 'steps', 'name': 'Passeig Font dr la Vila'}"

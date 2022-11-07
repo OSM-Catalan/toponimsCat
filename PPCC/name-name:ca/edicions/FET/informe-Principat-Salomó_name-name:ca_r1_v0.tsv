@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Passatge del 10 d'Octubre"	"Passatge del 10 d'Octubre"							"way"	"221854480"		"{'highway': 'living_street', 'name': \"Passatge del 10 d'Octubre\", 'oneway': 'no'}"
+"Passeig de Joan Creus"	"Passeig de Joan Creus"							"way"	" 64191324"		"{'highway': 'tertiary', 'lanes': '2', 'maxspeed': '50', 'name': 'Passeig de Joan Creus', 'oneway': 'no', 'ref': 'T-204'}"
+"Passeig de l'Estació"	"Passeig de l'Estació"							"way"	"617128556"		"{'highway': 'tertiary', 'lanes': '2', 'name': \"Passeig de l'Estació\", 'oneway': 'no', 'ref': 'T-202'}"

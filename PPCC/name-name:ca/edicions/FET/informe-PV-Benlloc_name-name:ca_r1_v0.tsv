@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Carreró del Pas"	"Carreró del Pas"							"way"	"43134939"		"{'highway': 'footway', 'name': 'Carreró del Pas', 'old_name': 'Calle del Paso'}"
+"Passatge del barranc de la Font"	"Passatge del barranc de la Font"							"way"	"43134915"		"{'highway': 'track', 'name': 'Passatge del barranc de la Font', 'old_name': 'Carrer de la Font dels Tres Canons', 'tracktype': 'grade3'}"
+"Passatge del barranc de la Font"	"Passatge del barranc de la Font"							"way"	"47443279"		"{'highway': 'track', 'name': 'Passatge del barranc de la Font', 'old_name': 'Carrer de la Font dels Tres Canons', 'tracktype': 'grade4'}"

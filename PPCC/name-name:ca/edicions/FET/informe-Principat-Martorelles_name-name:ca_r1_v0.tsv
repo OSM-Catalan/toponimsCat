@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Passatge Vinyals"	"Passatge Vinyals"							"way"	"214807060"		"{'highway': 'residential', 'name': 'Passatge Vinyals', 'oneway': 'no'}"
+"Passeig Fluvial Riu Besòs"	"Passeig Fluvial Riu Besòs"							"way"	" 34307361"		"{'access': 'yes', 'bicycle': 'yes', 'foot': 'yes', 'highway': 'path', 'horse': 'yes', 'motor_vehicle': 'permissive', 'name': 'Passeig Fluvial Riu Besòs', 'oneway': 'no', 'source': 'bing', 'surface': 'gravel', 'tracktype': 'grade2'}"
+"Passeig Fluvial Riu Besòs"	"Passeig Fluvial Riu Besòs"							"way"	"153615180"		"{'bicycle': 'yes', 'highway': 'track', 'name': 'Passeig Fluvial Riu Besòs', 'oneway': 'no'}"
+"Passeig Fluvial Riu Besòs"	"Passeig Fluvial Riu Besòs"							"way"	"295009025"		"{'bicycle': 'yes', 'highway': 'track', 'name': 'Passeig Fluvial Riu Besòs', 'oneway': 'no'}"
+"Passeig Fluvial Riu Besòs"	"Passeig Fluvial Riu Besòs"							"way"	"295009038"		"{'bicycle': 'yes', 'bridge': 'yes', 'highway': 'track', 'layer': '1', 'name': 'Passeig Fluvial Riu Besòs', 'oneway': 'no'}"

@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"passeig de Cristòfol Colom"	"passeig de Cristòfol Colom"							"way"	" 187382068"		"{'highway': 'pedestrian', 'lit': 'yes', 'name': 'passeig de Cristòfol Colom', 'surface': 'paving_stones'}"
+"Passeig de sa platja de sa Coma"	"Passeig de sa platja de sa Coma"							"way"	"  35967464"		"{'highway': 'pedestrian', 'name': 'Passeig de sa platja de sa Coma'}"
+"Rotonda Atzeroles"	"Rotonda Atzeroles"							"node"	"5381605813"		"{'bench': 'no', 'bus': 'yes', 'highway': 'bus_stop', 'name': 'Rotonda Atzeroles', 'network': 'Safari Zoo', 'operator': 'Safari Zoo', 'passenger_information_display': 'no', 'public_transport': 'platform', 'ref': '10', 'route_ref': 'Safari Zoo', 'shelter': 'no'}"
+"rotonda de Cala Nau"	"rotonda de Cala Nau"							"way"	"   4351251"		"{'highway': 'residential', 'junction': 'roundabout', 'name': 'rotonda de Cala Nau', 'surface': 'asphalt'}"
+"rotonda de Cala Nau"	"rotonda de Cala Nau"							"way"	" 519104982"		"{'highway': 'residential', 'junction': 'roundabout', 'name': 'rotonda de Cala Nau', 'surface': 'asphalt'}"
+"rotonda de Cala Nau"	"rotonda de Cala Nau"							"way"	" 519518326"		"{'highway': 'residential', 'junction': 'roundabout', 'name': 'rotonda de Cala Nau', 'surface': 'asphalt'}"

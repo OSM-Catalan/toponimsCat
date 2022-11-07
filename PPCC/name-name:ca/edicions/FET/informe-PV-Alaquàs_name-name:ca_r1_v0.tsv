@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Passatge 25 d'Abril"	"Passatge 25 d'Abril"							"way"	"264262909"	"name:es=Pasaje 25 de Abril"	"{'highway': 'pedestrian', 'name': \"Passatge 25 d'Abril\", 'name:es': 'Pasaje 25 de Abril'}"
+"Passatge 25 d'Abril"	"Passatge 25 d'Abril"							"way"	"264262910"	"name:es=Pasaje 25 de Abril"	"{'highway': 'pedestrian', 'name': \"Passatge 25 d'Abril\", 'name:es': 'Pasaje 25 de Abril'}"
+"Passatge Amadeo Aguilar Laborda"	"Passatge Amadeo Aguilar Laborda"							"way"	"373514594"	"name:es=Pasaje de Amadeo Aguilar Laborda"	"{'bicycle': 'no', 'foot': 'yes', 'highway': 'pedestrian', 'horse': 'no', 'motor_vehicle': 'no', 'name': 'Passatge Amadeo Aguilar Laborda', 'name:es': 'Pasaje de Amadeo Aguilar Laborda'}"
+"Passatge Germans Forment Pascual"	"Passatge Germans Forment Pascual"							"way"	"213430011"		"{'bicycle': 'no', 'foot': 'yes', 'highway': 'pedestrian', 'name': 'Passatge Germans Forment Pascual', 'surface': 'paved', 'tunnel': 'building_passage', 'width': '4'}"

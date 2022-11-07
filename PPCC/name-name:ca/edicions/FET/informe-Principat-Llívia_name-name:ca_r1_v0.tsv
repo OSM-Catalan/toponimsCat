@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Jardí de la Plaça"	"Jardí de la Plaça"							"node"	"5717345324"		"{'amenity': 'bar', 'name': 'Jardí de la Plaça', 'opening_hours': 'Sep-Jun Fr,Sa 12:00-00:30; Aug PH,Mo-Su 11:30-00:30'}"
+"Passatge de Ca l'Apotecari"	"Passatge de Ca l'Apotecari"							"way"	" 708594870"		"{'highway': 'pedestrian', 'name': \"Passatge de Ca l'Apotecari\"}"
+"Passatge Esglesia"	"Passatge Església"							"way"	" 139554055"		"{'highway': 'residential', 'name': 'Passatge Esglesia', 'oneway': 'yes'}"
+"Passeig de Sant Guillem"	"Passeig de Sant Guillem"							"way"	"  32974259"		"{'cycleway:both': 'no', 'highway': 'unclassified', 'lane_markings': 'no', 'name': 'Passeig de Sant Guillem', 'surface': 'asphalt'}"
+"Passeig de Sant Guillem"	"Passeig de Sant Guillem"							"way"	" 139554065"		"{'highway': 'residential', 'name': 'Passeig de Sant Guillem'}"
+"Passeig de Sant Guillem"	"Passeig de Sant Guillem"							"way"	"1075778007"		"{'cycleway:both': 'no', 'highway': 'unclassified', 'lane_markings': 'no', 'name': 'Passeig de Sant Guillem', 'surface': 'asphalt'}"

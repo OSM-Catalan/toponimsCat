@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Parc Aventura"	"Parc Aventura"							"way"	" 215075122"	"name:ca=Parc Aventura"	"{'building': 'yes', 'name': 'Parc Aventura', 'name:ca': 'Parc Aventura', 'source': 'Bing'}"
+"Parc Communal"	"Parc Comunal"							"way"	" 716601362"	"name:ca=Parc Comunal"	"{'leisure': 'park', 'name': 'Parc Communal', 'name:ca': 'Parc Comunal'}"
+"Parc du Casino"	"Parc del Casino"							"way"	"  81290171"	"name:ca=Parc del Casino"	"{'leisure': 'park', 'name': 'Parc du Casino', 'name:ca': 'Parc del Casino', 'source': 'cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010'}"
+"Parc Durand"	"Parc Durand"							"way"	"1021764823"	"name:ca=Parc Durand"	"{'leisure': 'park', 'name': 'Parc Durand', 'name:ca': 'Parc Durand', 'operator': 'Mairie de Saint-Nazaire', 'operator:type': 'public'}"
+"Parc Palauda"	"Parc Palauda"							"way"	" 151256957"	"name:ca=Parc Palauda"	"{'access': 'private', 'leisure': 'park', 'name': 'Parc Palauda', 'name:ca': 'Parc Palauda'}"

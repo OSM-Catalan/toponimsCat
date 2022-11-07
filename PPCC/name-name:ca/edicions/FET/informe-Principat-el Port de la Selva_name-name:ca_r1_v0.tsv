@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Carreró de l'Església"	"Carreró de l'Església"							"way"	"111810070"		"{'highway': 'footway', 'incline': 'up', 'name': \"Carreró de l'Església\"}"
+"Passatge Almeda"	"Passatge Almeda"							"way"	"111808941"		"{'highway': 'residential', 'name': 'Passatge Almeda', 'noexit': 'yes', 'surface': 'asphalt', 'width': '3'}"
+"Passeig del Mar"	"Passeig del Mar"							"way"	"793295304"		"{'area': 'yes', 'highway': 'pedestrian', 'name': 'Passeig del Mar'}"
+"Urbanització S'Arenella"	"Urbanització S'Arenella"							"way"	"169912502"		"{'highway': 'residential', 'name': \"Urbanització S'Arenella\", 'source:name': 'Dirección General del Catastro'}"
+"Urbanització S'Arenella"	"Urbanització S'Arenella"							"way"	"169912581"		"{'highway': 'residential', 'name': \"Urbanització S'Arenella\", 'source:name': 'Dirección General del Catastro'}"
+"Urbanització S'Arenella"	"Urbanització S'Arenella"							"way"	"169912540"		"{'highway': 'residential', 'name': \"Urbanització S'Arenella\", 'source:name': 'Dirección General del Catastro'}"

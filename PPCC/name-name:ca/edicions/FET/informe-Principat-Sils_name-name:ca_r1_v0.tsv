@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Passatge de l'Àlber"	"Passatge de l'Àlber"							"way"	"182536318"		"{'highway': 'residential', 'lit': 'yes', 'name': \"Passatge de l'Àlber\", 'surface': 'asphalt'}"
+"Passatge del Canigó"	"Passatge del Canigó"							"way"	"186805831"		"{'highway': 'pedestrian', 'name': 'Passatge del Canigó'}"
+"Passatge del Roure"	"Passatge del Roure"							"way"	"182536319"		"{'highway': 'residential', 'name': 'Passatge del Roure', 'surface': 'unpaved'}"
+"Passatge dels Estanys"	"Passatge dels Estanys"							"way"	"186805832"		"{'highway': 'residential', 'name': 'Passatge dels Estanys'}"
+"Passeig del Comerç"	"Passeig del Comerç"							"way"	"182536323"		"{'highway': 'residential', 'lit': 'yes', 'name': 'Passeig del Comerç', 'surface': 'asphalt'}"
+"Passeig Sants Cosme i Damià"	"Passeig Sants Cosme i Damià"							"way"	"449249052"		"{'highway': 'residential', 'name': 'Passeig Sants Cosme i Damià', 'oneway': 'yes'}"

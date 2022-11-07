@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Passatge de Cardona"	"Passatge de Cardona"							"way"	"120075667"		"{'highway': 'living_street', 'name': 'Passatge de Cardona'}"
+"passatge de les Escodines"	"passatge de les Escodines"							"way"	"241763344"		"{'highway': 'living_street', 'name': 'passatge de les Escodines', 'service': 'alley'}"
+"Passatge de Merola"	"Passatge de Merola"							"way"	" 47355080"		"{'highway': 'residential', 'name': 'Passatge de Merola'}"
+"Passatge del Roser"	"Passatge del Roser"							"way"	"378119770"		"{'highway': 'service', 'name': 'Passatge del Roser'}"
+"passatge Sant Jordi"	"passatge Sant Jordi"							"way"	"241763343"		"{'highway': 'service', 'name': 'passatge Sant Jordi', 'service': 'alley'}"

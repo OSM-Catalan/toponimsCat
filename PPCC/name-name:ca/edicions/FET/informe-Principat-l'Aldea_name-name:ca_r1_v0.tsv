@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Passatge 1"	"Passatge 1"							"way"	"381822586"		"{'highway': 'track', 'name': 'Passatge 1', 'tracktype': 'grade2'}"
+"Passeig de l'Ebre"	"Passeig de l'Ebre"							"way"	"195172781"		"{'highway': 'residential', 'name': \"Passeig de l'Ebre\"}"
+"Passeig del Delta"	"Passeig del Delta"							"way"	"195172753"		"{'highway': 'residential', 'name': 'Passeig del Delta'}"

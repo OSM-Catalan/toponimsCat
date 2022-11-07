@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"passatge del Professor Gimeno"	"passatge del Professor Gimeno"							"way"	" 84542749"		"{'highway': 'residential', 'name': 'passatge del Professor Gimeno', 'source': 'PNOA', 'source:date': '2008'}"
+"passatge Vicent"	"passatge Vicent"							"way"	"685269283"		"{'highway': 'pedestrian', 'incline': 'up', 'name': 'passatge Vicent', 'source': 'PNOA', 'source:date': '2008'}"
+"passatge Vicent"	"passatge Vicent"							"way"	"685269284"		"{'highway': 'steps', 'incline': 'up', 'name': 'passatge Vicent', 'source': 'PNOA', 'source:date': '2008'}"

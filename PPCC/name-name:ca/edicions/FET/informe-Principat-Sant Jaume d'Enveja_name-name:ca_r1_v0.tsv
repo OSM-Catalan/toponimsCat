@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Passatge de Barcelona"	"Passatge de Barcelona"							"way"	"685139566"		"{'highway': 'pedestrian', 'name': 'Passatge de Barcelona'}"
+"Passatge de l'Arròs"	"Passatge de l'Arròs"							"way"	"436752449"		"{'highway': 'living_street', 'name': \"Passatge de l'Arròs\", 'oneway': 'no'}"
+"Passeig de la Segregació"	"Passeig de la Segregació"							"way"	" 98125354"		"{'highway': 'secondary', 'name': 'Passeig de la Segregació', 'ref': 'TV-3403'}"
+"Passeig del Riet"	"Passeig del Riet"							"way"	"194769249"		"{'highway': 'residential', 'name': 'Passeig del Riet', 'surface': 'asphalt'}"

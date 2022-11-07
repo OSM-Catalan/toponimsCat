@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Passeig Nou"	"Passeig Nou"							"way"	"238389569"		"{'highway': 'pedestrian', 'lit': 'yes', 'name': 'Passeig Nou', 'surface': 'sett'}"
+"Passeig Nou"	"Passeig Nou"							"way"	"238389570"		"{'highway': 'pedestrian', 'name': 'Passeig Nou'}"
+"Passeig Nou"	"Passeig Nou"							"way"	"238389571"		"{'highway': 'living_street', 'maxspeed': '20', 'name': 'Passeig Nou', 'surface': 'asphalt'}"
+"Passeig Nou"	"Passeig Nou"							"way"	"931063447"		"{'highway': 'residential', 'maxspeed': '30', 'name': 'Passeig Nou'}"

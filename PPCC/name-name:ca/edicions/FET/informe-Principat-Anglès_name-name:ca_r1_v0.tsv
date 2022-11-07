@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Passatge Primer"	"Passatge Primer"							"way"	"698699215"		"{'highway': 'service', 'name': 'Passatge Primer', 'service': 'driveway'}"
+"Passatge Primer"	"Passatge Primer"							"way"	"698259677"		"{'highway': 'service', 'name': 'Passatge Primer', 'service': 'driveway'}"
+"Passatge Primer"	"Passatge Primer"							"way"	"698259676"		"{'highway': 'service', 'name': 'Passatge Primer', 'service': 'driveway'}"
+"Passatge Segon"	"Passatge Segon"							"way"	"698259675"		"{'highway': 'service', 'name': 'Passatge Segon', 'service': 'driveway'}"
+"Passeig de l'Estació"	"Passeig de l'Estació"							"way"	"166564782"	"name:1895-11-13-1969-07-15=Carrilet Olot - Girona"	"{'abandoned:railway': 'narrow_gauge', 'alt_name:1895-11-13-1969-07-15': \"Tren d'Olot\", 'bicycle': 'yes', 'cycleway': 'share', 'foot': 'yes', 'highway': 'footway', 'historic:electrified': 'no', 'historic:end_date': '1969-07-15', 'historic:gauge': '1000', 'historic:railway': 'narrow_gauge', 'historic:start_date': '1895-11-13', 'horse': 'yes', 'lit': 'yes', 'motorcar': 'no', 'name': \"Passeig de l'Estació\", 'name:1895-11-13-1969-07-15': 'Carrilet Olot - Girona', 'railway': 'abandoned', 'ski': 'no', 'snowmobile': 'no', 'surface': 'compacted'}"
+"Passeig del Canyo"	"Passeig del Canó"							"way"	" 39323502"		"{'highway': 'footway', 'lit': 'yes', 'name': 'Passeig del Canyo', 'surface': 'unpaved'}"

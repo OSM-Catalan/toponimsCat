@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Passeig dels Agermanaments"	"Passeig dels Agermanaments"							"way"	" 111394018"		"{'highway': 'footway', 'name': 'Passeig dels Agermanaments', 'surface': 'paving_stones'}"
+"Urbanització la Solana"	"Urbanització la Solana"							"way"	" 391860115"		"{'landuse': 'residential', 'name': 'Urbanització la Solana'}"
+"Urbanització Solana de l’Almassera"	"Urbanització Solana de l'Almàssera"							"node"	"9348907833"		"{'name': 'Urbanització Solana de l’Almassera', 'place': 'neighbourhood'}"
+"Urbanització Solana de l’Almassera"	"Urbanització Solana de l'Almàssera"							"relation"	"  13565117"		"{'boundary': 'place', 'name': 'Urbanització Solana de l’Almassera', 'place': 'neighbourhood', 'type': 'boundary'}"

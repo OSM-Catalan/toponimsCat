@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Passeig de Sant Agustí"	"Passeig de Sant Agustí"							"way"	"350214859"		"{'bicycle': 'yes', 'foot': 'yes', 'highway': 'tertiary', 'lanes': '1', 'name': 'Passeig de Sant Agustí', 'oneway': 'no', 'ref': 'BP-4653', 'surface': 'asphalt', 'width': '5'}"
+"Passeig de Sant Agustí"	"Passeig de Sant Agustí"							"way"	"263224224"		"{'bicycle': 'yes', 'foot': 'yes', 'highway': 'tertiary', 'lanes': '1', 'name': 'Passeig de Sant Agustí', 'oneway': 'no', 'ref': 'BP-4653', 'surface': 'asphalt', 'width': '5'}"
+"Passeig del Lluçanès"	"Passeig del Lluçanès"							"way"	"191623382"		"{'highway': 'residential', 'name': 'Passeig del Lluçanès'}"
+"Passeig del Pirineu"	"Passeig del Pirineu"							"way"	"350214860"		"{'highway': 'residential', 'name': 'Passeig del Pirineu', 'surface': 'asphalt', 'tracktype': 'grade2'}"
+"Passeig del Pirineu"	"Passeig del Pirineu"							"way"	"128217416"		"{'highway': 'residential', 'name': 'Passeig del Pirineu', 'surface': 'asphalt'}"
+"Passeig del Remei"	"Passeig del Remei"							"way"	"128106466"		"{'highway': 'residential', 'name': 'Passeig del Remei', 'surface': 'asphalt'}"

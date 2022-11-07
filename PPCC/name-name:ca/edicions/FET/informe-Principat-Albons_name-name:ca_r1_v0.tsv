@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Passatge Els Angels"	"Passatge Els Àngels"							"way"	" 99616388"		"{'highway': 'footway', 'name': 'Passatge Els Angels', 'source': 'PNOA', 'source:date': '2008', 'surface': 'paved'}"
+"Passatge les Dunes"	"Passatge les Dunes"							"way"	" 99616439"		"{'highway': 'footway', 'name': 'Passatge les Dunes', 'source': 'PNOA', 'source:date': '2008', 'surface': 'paved'}"
+"Passeig de la Riera"	"Passeig de la Riera"							"way"	"221349158"		"{'highway': 'residential', 'name': 'Passeig de la Riera', 'source': 'PNOA', 'source:date': '2008', 'surface': 'asphalt'}"
+"Passeig de la Tramuntana"	"Passeig de la Tramuntana"							"way"	" 99616409"		"{'highway': 'residential', 'name': 'Passeig de la Tramuntana', 'source': 'PNOA', 'source:date': '2008', 'surface': 'asphalt'}"

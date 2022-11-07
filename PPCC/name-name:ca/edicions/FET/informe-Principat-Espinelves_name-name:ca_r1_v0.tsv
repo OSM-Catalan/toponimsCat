@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Passeig de l'Avellaneda"	"Passeig de l'Avellaneda"							"way"	"312376871"		"{'highway': 'residential', 'name': \"Passeig de l'Avellaneda\"}"
+"Passeig de les Guilleries"	"Passeig de les Guilleries"							"way"	" 55823178"		"{'highway': 'residential', 'name': 'Passeig de les Guilleries'}"
+"Passeig del Montseny"	"Passeig del Montseny"							"way"	"312376872"		"{'highway': 'track', 'name': 'Passeig del Montseny', 'surface': 'concrete', 'tracktype': 'grade1'}"

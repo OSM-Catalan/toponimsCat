@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Carreró de l'Aula"	"Carreró de l'Aula"							"way"	"136211006"		"{'highway': 'residential', 'name': \"Carreró de l'Aula\"}"
+"Carreró de l'Ereta"	"Carreró de l'Ereta"	"Travessia Carreró de l'Ereta"	"Travessia Carreró de l'Ereta"					"way"	"475721962"		"{'alt_name': \"Travessia Carreró de l'Ereta\", 'highway': 'residential', 'name': \"Carreró de l'Ereta\", 'oneway': 'yes'}"
+"Rotonda Víctimes del Terrorisme"	"Rotonda Víctimes del Terrorisme"							"way"	"186639199"		"{'highway': 'residential', 'junction': 'roundabout', 'name': 'Rotonda Víctimes del Terrorisme'}"
+"Urbanització Vistabella"	"Urbanització Vistabella"							"way"	"475721984"		"{'highway': 'residential', 'name': 'Urbanització Vistabella'}"

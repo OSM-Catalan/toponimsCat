@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Carreró del Pal"	"Carreró del Pal"							"way"	"550920748"		"{'highway': 'pedestrian', 'lit': 'yes', 'name': 'Carreró del Pal', 'smoothness': 'excellent', 'surface': 'paving_stones'}"
+"Passeig de l'Emperador Nerón"	"Passeig de l'Emperador Neró"							"way"	"167254228"		"{'highway': 'pedestrian', 'mtb:scale': '0', 'name': \"Passeig de l'Emperador Nerón\", 'smoothness': 'intermediate', 'surface': 'cobblestone'}"
+"Urbanització Xarco"	"Urbanització Xarco"							"way"	"700401600"		"{'name': 'Urbanització Xarco', 'place': 'suburb'}"

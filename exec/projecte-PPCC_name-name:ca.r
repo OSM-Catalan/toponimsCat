@@ -4,10 +4,13 @@ library(toponimsCat)
 
 arrelProjecte<- "PPCC/name-name:ca"
 actualitzaInformes<- FALSE # actualitzaInformes<- TRUE ## TODO: unificar parametre a generaInforme i generaInformesPPCC
-# TODO: Atzucac Avinguda Camí Caminal Carrer Carreró Carretera Clos Giratori Jardí Passatge Passeig Plaça Rambla Ronda Ruta Rotonda Urbanització Via Voral
-## ULL VIU!: clos i parc col·lisionen amb el francés. carretera col·lisiona amb el castellà.
-filtre<- "nwr[name~'^([Aa]vinguda|[Cc]arrer|[Cc]amí|[Pp]laça) '][!'name:ca']"
-sufixFitxers<- "_name-name:ca"
+# TODO: Ajuntament Autovia Bosc Carretera Castell Clos Giratori Hort Jardí mas Palau Passeig Rambla Riu Ronda Ruta Rotonda Platja Polígon
+## ULL VIU!: clos i parc col·lisionen amb el francés. carretera Rambla Ronda Ruta Via rotonda col·lisionen amb el castellà.
+# FET
+# filtre<- "nwr[name~'^([Aa]vinguda|[Cc]arrer|[Cc]amí|[Pp]laça|[Pp]arc) '][!'name:ca']"; sufixFitxers<- "_name-name:ca"
+# PENDENT;
+filtre<- "nwr[name~'^([Aa]tzucac|[Aa]vinguda|[Cc]amí|[Cc]aminal|[Cc]arreró|[Gg]iratori|[Jj]ardí|[Pp]assatge|[Pp]asseig|[Rr]otonda|[Uu]rbanització|[Vv]oral) '][!'name:ca']"
+sufixFitxers<- "_name-name:ca_r1"
 cerca<- ""
 substitueix<- ""
 revisioUnificada<- TRUE
@@ -69,9 +72,9 @@ cmd<- preparaEdicions(arrelProjecte=arrelProjecte, usuari=usuari, fitxerContrase
 cmd<- na.omit(cmd)
 
 ## Afegeix paràmetres a les ordres. Veure «update_osm_objects_from_report --help» per les opcions de LangToolsOSM
-nomMunicipi<- gsub(paste0(".+--input-file \\\"", arrelProjecte, "/edicions/informe-|-[0-9]+", sufixFitxers, ".tsv\\\".+"), "", cmd)
+nomMunicipi<- gsub(paste0(".+--input-file \\\"", arrelProjecte, "/edicions/informe-[A-z]+-|", sufixFitxers, ".tsv\\\".+"), "", cmd)
 cmd<- paste0(cmd, " --no-interaction --changeset-hashtags \"#toponimsCat;#name_name:ca\"",
-             " --batch 100 --changeset-comment \"Afegeix name:ca a partir de name per carrers, places, parcs, avingudes i camins a ", nomMunicipi, "\"")
+             " --batch 100 --changeset-comment \"Afegeix name:ca a partir de name per carrers, places, avingudes, camins, jardins,  passatges,  passeigs, rotondes, urbanitzacions a ", nomMunicipi, "\"")
 cat(cmd, sep="\n")
 
 ## Executa les ordres

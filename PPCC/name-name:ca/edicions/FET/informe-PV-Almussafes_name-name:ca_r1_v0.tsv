@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Passeig del Parc"	"Passeig del Parc"							"way"	"151387222"		"{'highway': 'residential', 'lit': 'yes', 'name': 'Passeig del Parc', 'oneway': 'yes', 'surface': 'asphalt'}"
+"Passeig del Parc"	"Passeig del Parc"	"Paseo del Parque"						"way"	"151387232"		"{'alt_name': 'Paseo del Parque', 'highway': 'residential', 'name': 'Passeig del Parc', 'surface': 'asphalt'}"
+"Passeig del Parc"	"Passeig del Parc"	"Paseo del Parque"						"way"	"755480238"		"{'alt_name': 'Paseo del Parque', 'highway': 'residential', 'name': 'Passeig del Parc', 'surface': 'asphalt'}"
+"Passeig del Parc"	"Passeig del Parc"	"Paseo del Parque"						"way"	"755480239"		"{'alt_name': 'Paseo del Parque', 'highway': 'pedestrian', 'lit': 'yes', 'name': 'Passeig del Parc'}"
+"Passeig dels Tarongers"	"Passeig dels Tarongers"	"Paseo de los Naranjos"						"way"	"151387223"		"{'alt_name': 'Paseo de los Naranjos', 'highway': 'residential', 'name': 'Passeig dels Tarongers', 'oneway': 'yes'}"

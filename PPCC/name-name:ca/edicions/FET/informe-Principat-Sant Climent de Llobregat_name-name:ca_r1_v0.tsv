@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Passatge del Migjorn"	"Passatge del Migjorn"							"way"	"1102129838"		"{'highway': 'residential', 'name': 'Passatge del Migjorn'}"
+"Passeig de les Oliveres"	"Passeig de les Oliveres"							"way"	" 108435225"		"{'highway': 'pedestrian', 'maxspeed': '20', 'name': 'Passeig de les Oliveres', 'noexit': 'yes'}"

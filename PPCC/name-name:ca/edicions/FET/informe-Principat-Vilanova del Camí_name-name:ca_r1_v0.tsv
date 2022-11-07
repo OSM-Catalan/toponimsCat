@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Passatge Sant Isidre"	"Passatge Sant Isidre"							"way"	" 31257467"		"{'highway': 'footway', 'name': 'Passatge Sant Isidre', 'surface': 'paved'}"
+"Passatge Sant Isidre"	"Passatge Sant Isidre"							"way"	"526394692"		"{'highway': 'residential', 'name': 'Passatge Sant Isidre', 'oneway': 'yes', 'surface': 'paved'}"
+"Passeig de la Indústria"	"Passeig de la Indústria"							"way"	" 31977972"		"{'landuse': 'village_green', 'name': 'Passeig de la Indústria'}"
+"Passeig EcoVilanova"	"Passeig EcoVilanova"							"way"	" 32666867"		"{'bicycle': 'yes', 'foot': 'yes', 'highway': 'track', 'horse': 'yes', 'motorcar': 'no', 'mtb:scale': '1', 'name': 'Passeig EcoVilanova', 'ski': 'no', 'snowmobile': 'no', 'surface': 'unpaved', 'tracktype': 'grade3'}"
+"Passeig EcoVilanova"	"Passeig EcoVilanova"							"way"	" 33139323"		"{'bicycle': 'yes', 'foot': 'yes', 'highway': 'track', 'horse': 'yes', 'motorcar': 'no', 'name': 'Passeig EcoVilanova', 'ski': 'no', 'snowmobile': 'no', 'surface': 'unpaved'}"
+"Passeig EcoVilanova"	"Passeig EcoVilanova"							"way"	"411127173"		"{'bicycle': 'yes', 'foot': 'yes', 'highway': 'track', 'horse': 'yes', 'motorcar': 'no', 'mtb:scale': '1', 'name': 'Passeig EcoVilanova', 'ski': 'no', 'snowmobile': 'no', 'surface': 'unpaved', 'tracktype': 'grade3'}"

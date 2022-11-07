@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Passeig de Montserrat"	"Passeig de Montserrat"							"way"	"140310454"		"{'highway': 'residential', 'name': 'Passeig de Montserrat'}"
+"Passeig del Doctor Lleopard"	"Passeig del Doctor Lleopard"							"way"	"353721632"		"{'highway': 'residential', 'lanes': '1', 'maxspeed': '30', 'name': 'Passeig del Doctor Lleopard', 'oneway': 'yes', 'surface': 'asphalt'}"

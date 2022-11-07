@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Passatge de Cal Meri"	"Passatge de Cal Meri"							"way"	"516423760"		"{'highway': 'service', 'name': 'Passatge de Cal Meri', 'service': 'alley', 'surface': 'gravel'}"
+"Passatge de Sant Domènec"	"Passatge de Sant Domènec"							"way"	"431545376"		"{'highway': 'residential', 'name': 'Passatge de Sant Domènec'}"
+"Passatge de Vacarisses"	"Passatge de Vacarisses"							"way"	"723538175"		"{'highway': 'residential', 'name': 'Passatge de Vacarisses'}"
+"Passatge del Roser"	"Passatge del Roser"							"way"	"516423770"		"{'highway': 'residential', 'name': 'Passatge del Roser'}"
+"Passatge del Xiprer"	"Passatge del Xiprer"							"way"	" 61300640"		"{'highway': 'residential', 'name': 'Passatge del Xiprer'}"
+"Passeig d'en Capablanca"	"Passeig d'en Capablanca"							"way"	"362786528"		"{'bicycle': 'yes', 'foot': 'yes', 'highway': 'tertiary', 'maxspeed': '50', 'motor_vehicle': 'yes', 'name': \"Passeig d'en Capablanca\", 'ref': 'B-122'}"

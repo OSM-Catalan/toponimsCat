@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Passatge del Raval"	"Passatge del Raval"							"way"	" 273804498"		"{'highway': 'track', 'name': 'Passatge del Raval'}"
+"Rotonda Eix Transversal"	"Rotonda Eix Transversal"							"node"	"2248087758"		"{'bus': 'yes', 'highway': 'bus_stop', 'name': 'Rotonda Eix Transversal', 'public_transport': 'platform'}"
+"Rotonda Eix Transversal"	"Rotonda Eix Transversal"							"node"	"2248087759"		"{'bus': 'yes', 'highway': 'bus_stop', 'name': 'Rotonda Eix Transversal', 'public_transport': 'platform'}"

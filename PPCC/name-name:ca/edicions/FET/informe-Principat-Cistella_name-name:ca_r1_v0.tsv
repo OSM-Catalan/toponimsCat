@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Passatge de Lladó"	"Passatge de Lladó"							"way"	"360974829"		"{'highway': 'pedestrian', 'name': 'Passatge de Lladó'}"
+"Passeig de l'Església"	"Passeig de l'Església"							"way"	"229499845"		"{'highway': 'living_street', 'maxspeed': '20', 'name': \"Passeig de l'Església\"}"
+"Passeig Església"	"Passeig Església"							"way"	"433335908"		"{'leisure': 'park', 'name': 'Passeig Església'}"

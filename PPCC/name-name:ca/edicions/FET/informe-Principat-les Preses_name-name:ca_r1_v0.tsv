@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Jardí botànic de plantes medicinals"	"Jardí botànic de plantes medicinals"							"way"	"994061613"		"{'leisure': 'garden', 'name': 'Jardí botànic de plantes medicinals'}"
+"Passatge de Barcelona"	"Passatge de Barcelona"							"way"	"199233556"		"{'highway': 'residential', 'name': 'Passatge de Barcelona'}"
+"Passatge de la Garrotxa"	"Passatge de la Garrotxa"							"way"	"199233548"		"{'highway': 'residential', 'name': 'Passatge de la Garrotxa', 'surface': 'asphalt'}"
+"Passeig de Girona"	"Passeig de Girona"							"way"	"199233536"		"{'highway': 'residential', 'lit': 'yes', 'name': 'Passeig de Girona', 'sidewalk': 'both', 'surface': 'asphalt'}"

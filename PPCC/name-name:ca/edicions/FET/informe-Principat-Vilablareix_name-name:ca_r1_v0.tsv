@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Passeig de Catalunya"	"Passeig de Catalunya"							"way"	"130522410"		"{'highway': 'residential', 'name': 'Passeig de Catalunya', 'surface': 'asphalt'}"
+"Passeig de Catalunya"	"Passeig de Catalunya"							"way"	"170714485"		"{'highway': 'residential', 'name': 'Passeig de Catalunya'}"
+"Rotonda del Camí dels Carlins"	"Rotonda del Camí dels Carlins"							"way"	" 31776730"		"{'cycleway:right': 'no', 'highway': 'tertiary', 'junction': 'roundabout', 'lanes': '2', 'lit': 'yes', 'maxspeed': '40', 'maxspeed:type': 'sign', 'maxweight': '3.5', 'name': 'Rotonda del Camí dels Carlins', 'sidewalk': 'right', 'surface': 'asphalt'}"

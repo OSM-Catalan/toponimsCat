@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Carreró de sa Comuna"	"Carreró de sa Comuna"							"way"	"  96078089"		"{'highway': 'steps', 'incline': 'up', 'name': 'Carreró de sa Comuna', 'ramp': 'no'}"
+"Carreró de sa Comuna"	"Carreró de sa Comuna"							"way"	" 863239238"		"{'highway': 'living_street', 'incline': 'up', 'name': 'Carreró de sa Comuna', 'ramp': 'no'}"
+"Passeig Antoni Estarelles, 51 (Bunyola)"	"Passeig Antoni Estarelles, 51 (Bunyola)"							"node"	"3686505301"		"{'bench': 'yes', 'bus': 'yes', 'highway': 'bus_stop', 'name': 'Passeig Antoni Estarelles, 51 (Bunyola)', 'network': 'Transports públics de Mallorca', 'operator': 'Consorci de Transports de Mallorca', 'passenger_information_display': 'no', 'public_transport': 'platform', 'ref': '10045', 'route_ref': '205', 'shelter': 'yes'}"
+"passeig d'Antoni Estarellas"	"passeig d'Antoni Estarellas"							"way"	" 364614017"		"{'highway': 'tertiary', 'name': \"passeig d'Antoni Estarellas\", 'ref': 'Ma-2020', 'surface': 'asphalt'}"
+"passeig d'Antoni Estarellas"	"passeig d'Antoni Estarellas"							"way"	"  23910154"		"{'highway': 'tertiary', 'name': \"passeig d'Antoni Estarellas\", 'ref': 'Ma-2020'}"
+"urbanització de Can Far"	"urbanització de Can Far"							"way"	" 148564184"		"{'highway': 'service', 'name': 'urbanització de Can Far'}"

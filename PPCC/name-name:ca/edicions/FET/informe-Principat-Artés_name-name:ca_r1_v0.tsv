@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Passatge del Carme"	"Passatge del Carme"							"way"	"191056145"		"{'access': 'private', 'highway': 'service', 'lanes': '1', 'name': 'Passatge del Carme', 'surface': 'paved'}"
+"Passeig Diagonal"	"Passeig Diagonal"							"way"	" 34931554"		"{'highway': 'residential', 'lanes': '2', 'maxspeed': '50', 'name': 'Passeig Diagonal', 'surface': 'asphalt'}"
+"Passeig Diagonal"	"Passeig Diagonal"							"way"	"383025643"		"{'highway': 'residential', 'name': 'Passeig Diagonal', 'oneway': 'yes', 'surface': 'paved'}"
+"Passeig Diagonal"	"Passeig Diagonal"							"way"	"383025654"		"{'highway': 'residential', 'name': 'Passeig Diagonal', 'oneway': 'yes', 'surface': 'paved'}"
+"Passeig Diagonal"	"Passeig Diagonal"							"way"	"749630971"		"{'highway': 'residential', 'name': 'Passeig Diagonal', 'oneway': 'yes'}"
+"Passeig Diagonal"	"Passeig Diagonal"							"way"	"749630972"		"{'highway': 'residential', 'name': 'Passeig Diagonal', 'oneway': 'yes'}"

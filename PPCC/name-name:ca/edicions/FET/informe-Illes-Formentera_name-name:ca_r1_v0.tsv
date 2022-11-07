@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Passatge de Ponent"	"Passatge de Ponent"							"way"	"215226904"		"{'highway': 'residential', 'name': 'Passatge de Ponent'}"
+"Passatge La Balandra Cala Salín"	"Passatge La Balandra Cala Salín"							"way"	"269634518"		"{'highway': 'residential', 'name': 'Passatge La Balandra Cala Salín'}"
+"Passeig de la Marina"	"Passeig de la Marina"							"way"	" 74760909"		"{'highway': 'residential', 'name': 'Passeig de la Marina', 'surface': 'paved', 'width': '5'}"
+"Passeig de la Marina"	"Passeig de la Marina"							"way"	" 74760901"		"{'highway': 'residential', 'name': 'Passeig de la Marina', 'oneway': 'yes'}"
