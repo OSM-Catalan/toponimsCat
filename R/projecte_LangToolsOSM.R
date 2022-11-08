@@ -47,6 +47,7 @@ subdivisionsConsultaOverpass<- function(area, filtreSubdivisions, etiquetes=c("n
 #' @param filtreObjectes filtre d'etiquetes d'objectes d'OSM per la consulta d'Overpass.
 #' @param consulta consulta completa d'Overpass. Si existeix el paràmetre, ignora \code{filtreArea} i \code{filtreObjectes}.
 #' @param actualitzaFitxer si és \code{TRUE} i ja existeix el fitxer d'informe, el mou a la carpeta «ANTIC».
+#' @param coordenades si és \code{TRUE}, els informes inclouen les columnes \code{latitude} i \code{longitude}. Per defecte, \code{FALSE}. Si passeu el paràmetre \code{consulta}, cal que sigui en mode \code{out center}.
 #'
 #' @return Ordre per generar l'informe amb \code{write_osm_objects_report} de \href{https://github.com/OSM-Catalan/LangToolsOSM}{LangToolsOSM}.
 #' @export
@@ -66,7 +67,7 @@ subdivisionsConsultaOverpass<- function(area, filtreSubdivisions, etiquetes=c("n
 #'   system(ordre1)
 #' }
 generaInforme<- function(arrelProjecte, fitxerInforme, filtreArea, filtreObjectes,
-                         consulta, actualitzaFitxer=FALSE){
+                         consulta, actualitzaFitxer=FALSE, coordenades=FALSE){
   dir.create(file.path(arrelProjecte, "ANTIC/"), showWarnings=FALSE, recursive=TRUE)
   dir.create(file.path(arrelProjecte, "informes/"), showWarnings=FALSE, recursive=TRUE)
 
@@ -98,6 +99,9 @@ generaInforme<- function(arrelProjecte, fitxerInforme, filtreArea, filtreObjecte
       cmd<- paste0(cmd, " --filters \"", filtreObjectes, "\" --area \"", filtreArea, "\"")
     } else {
       cmd<- paste0(cmd, " --query ", consulta)
+    }
+    if (coordenades){
+      cmd<- paste0(cmd, " --coords")
     }
   }
 
