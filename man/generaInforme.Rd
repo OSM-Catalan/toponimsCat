@@ -10,7 +10,8 @@ generaInforme(
   filtreArea,
   filtreObjectes,
   consulta,
-  actualitzaFitxer = FALSE
+  actualitzaFitxer = FALSE,
+  coordenades = FALSE
 )
 }
 \arguments{
@@ -25,6 +26,8 @@ generaInforme(
 \item{consulta}{consulta completa d'Overpass. Si existeix el paràmetre, ignora \code{filtreArea} i \code{filtreObjectes}.}
 
 \item{actualitzaFitxer}{si és \code{TRUE} i ja existeix el fitxer d'informe, el mou a la carpeta «ANTIC».}
+
+\item{coordenades}{si és \code{TRUE}, els informes inclouen les columnes \code{latitude} i \code{longitude}. Per defecte, \code{FALSE}. Si passeu el paràmetre \code{consulta}, cal que sigui en mode \code{out center}.}
 }
 \value{
 Ordre per generar l'informe amb \code{write_osm_objects_report} de \href{https://github.com/OSM-Catalan/LangToolsOSM}{LangToolsOSM}.

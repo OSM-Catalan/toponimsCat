@@ -1,11 +1,13 @@
-#' Generar informes per territoris, comarques o municipis dels PPCC amb tots els objectes d'OSM segons els filtres especificats. Només inclou els municipis i zones catalanoparlants de les comarques bilingües.
+#' Genera informes pels  PPCC
 #'
+#' Generar informes per territoris, comarques o municipis dels Països Catalans amb tots els objectes d'OSM segons els filtres especificats. Només inclou els municipis i zones catalanoparlants de les comarques bilingües.
 #'
 #' @param arrelProjecte camí a l'arrel del projecte. La carpeta de destinació dels informes serà la subcarpeta \code{informes}.
 #' @param filtre filtre d'etiquetes d'objectes d'OSM per la consulta d'Overpass.
 #' @param actualitzaInformes si és \code{TRUE} i ja existeix el fitxer d'informe, el mou a la carpeta «ANTIC».
 #' @param sufixFitxers text afegir com a sufix al nom dels fitxers dels informes («arrelProjecte/informe-Regio-comarca$sufixFitxer$.tsv»).
 #' @param divisions \code{data.frame} amb informació de les \code{\link{territoris}}, \code{\link{comarques}} o \code{\link{municipis}}. Per defecte, comarques.
+#' @param coordenades si és \code{TRUE}, els informes inclouen les columnes \code{latitude} i \code{longitude}. Per defecte, \code{FALSE}.
 #'
 #' @return Retorna la taula de les divisions amb els nous camps \code{cmd}, que conté l'ordre per generar els informes amb
 #'  \code{write_osm_objects_report} de \href{https://github.com/OSM-Catalan/LangToolsOSM}{LangToolsOSM},
@@ -24,7 +26,8 @@
 #'   }
 #' }
 generaInformesPPCC<- function(arrelProjecte, filtre, actualitzaInformes=FALSE,
-                            sufixFitxers="", divisions=toponimsCat::comarques){
+                              sufixFitxers="", divisions=toponimsCat::comarques,
+                              coordenades=FALSE){
   for (i in 1:nrow(divisions)){
     if ("admin_level" %in% names(divisions)){
       fitxerInforme<- paste0("informe-", divisions$regio[i], "-", divisions$`name:ca`[i], sufixFitxers, ".tsv")
@@ -38,16 +41,19 @@ generaInformesPPCC<- function(arrelProjecte, filtre, actualitzaInformes=FALSE,
       consulta<- paste0("\"[out:json][timeout:1000]; ",
                         areaDivisio,
                         "area[name='Països Catalans']->.llengua; ",
-                        filtre, "(area.divisio)(area.llengua); ",
-                        "out tags qt;\"")
+                        filtre, "(area.divisio)(area.llengua); ")
     } else {
       consulta<- paste0("\"[out:json][timeout:1000]; ",
                         areaDivisio,
-                        filtre, "(area.divisio);",
-                        "out tags qt;\"")
+                        filtre, "(area.divisio);")
+    }
+    if (coordenades){
+      consulta<- paste(consulta, "out center tags qt;\"")
+    } else {
+      consulta<- paste(consulta, "out tags qt;\"")
     }
     cmd<- generaInforme(arrelProjecte=arrelProjecte, fitxerInforme=fitxerInforme,
-                        consulta=consulta, actualitzaFitxer=actualitzaInformes)
+                        consulta=consulta, actualitzaFitxer=actualitzaInformes, coordenades=coordenades)
 
     if (length(cmd) == 0){
       cmd<- ""
