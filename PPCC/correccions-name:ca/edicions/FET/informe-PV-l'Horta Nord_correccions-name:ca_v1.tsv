@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Avenida del Molino de Viento"	"Avinguda Molí de Vent"							"way"	"77459674"	"name:ca=Avinguda Moli de Vent, name:es=Avenida del Molino de Viento"	"{'highway': 'tertiary', 'lanes': '3', 'lanes:backward': '1', 'lanes:forward': '2', 'name': 'Avenida del Molino de Viento', 'name:ca': 'Avinguda Moli de Vent', 'name:es': 'Avenida del Molino de Viento', 'turn:lanes:backward': 'through;right', 'turn:lanes:forward': 'left|right'}"
+"Avinguda Moli de Vent"	"Avinguda Molí de Vent"							"way"	"77459672"	"name:ca=Avinguda Moli de Vent"	"{'highway': 'tertiary', 'name': 'Avinguda Moli de Vent', 'name:ca': 'Avinguda Moli de Vent', 'oneway': 'yes'}"
+"Avinguda Moli de Vent"	"Avinguda Molí de Vent"							"way"	"77459673"	"name:ca=Avinguda Moli de Vent"	"{'highway': 'tertiary', 'name': 'Avinguda Moli de Vent', 'name:ca': 'Avinguda Moli de Vent', 'oneway': 'yes'}"
+"Cami de Lliria"	"Camí de Llíria"							"way"	"77539828"	"name:ca=Cami de Lliria, name:es=Camino de Liria"	"{'highway': 'unclassified', 'name': 'Cami de Lliria', 'name:ca': 'Cami de Lliria', 'name:es': 'Camino de Liria'}"

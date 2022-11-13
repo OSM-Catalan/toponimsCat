@@ -1,13 +1,16 @@
 library(toponimsCat)
 
-## Copia name -> name:ca per valors inequivocament catalans
+## Cerca i corregeix errors a name:ca i alt_name:ca
 
 arrelProjecte<- "PPCC/correccions-name:ca"
 actualitzaInformes<- FALSE # actualitzaInformes<- TRUE ## TODO: unificar parametre a generaInforme i generaInformesPPCC
-# TODO: Atzucac Avinguda Camí Caminal Carrer Carreró Carretera Clos Giratori Jardí Passatge Passeig Plaça Rambla Ronda Ruta Rotonda Urbanització Via Voral
-## ULL VIU!: clos i parc col·lisionen amb el francés. carretera col·lisiona amb el castellà.
-filtre<- "nwr['name:ca'~'([Aa]venida|[Cc]alle|[Cc]amino|[Pp]arque|[Pp]laza) ']"
-sufixFitxers<- "_correccions-name:ca"
+# TODO: diferències entre name i name:ca per name amb patró català
+## FET:
+# filtre<- "nwr['name:ca'~'([Aa]venida|[Cc]alle|[Cc]amino|[Pp]arque|[Pp]laza) ']"
+# filtre<- "nwr['alt_name:ca'~'([Aa]venida|[Cc]alle|[Cc]amino|[Pp]arque|[Pp]laza) ']"
+# Moli-> Molí i cami -> camí
+filtre<- "nwr['name:ca'~'( |^)([Cc]ami|[Mm]oli)( |$)']";     sufixFitxers<- "_correccions-name:ca"
+filtre<- "nwr['alt_name:ca'~'( |^)([Cc]ami|[Mm]oli)( |$)']"; sufixFitxers<- "_correccions-alt_name:ca"
 cerca<- ""
 substitueix<- ""
 revisioUnificada<- TRUE
@@ -50,7 +53,8 @@ comarques<- comarques[!comarques$nObjectes %in% c(NA, 0), ] # Selecciona comarqu
 comarques[order(comarques$nCasos, decreasing=TRUE), ]
 
 comarques$revisio<- generaRevisions_regexName(informes=comarques$informe, arrelProjecte=arrelProjecte,
-                                              cerca=cerca, substitueix=substitueix, revisioUnificada=revisioUnificada)
+                                              cerca=cerca, substitueix=substitueix, revisioUnificada=revisioUnificada,
+                                              nomFitxerUnificat=paste0("revisio-UNIFICADA", sufixFitxers, ".tsv"))
 
 # Reviseu i modifiqueu la revisió de l'informe que vulgueu de revisions/.
 # Cal corregir els casos de name:ca i alt_name:ca incorrectes, esborrar-los o deixar-los en blanc si no és clar.
@@ -71,7 +75,7 @@ cmd<- na.omit(cmd)
 ## Afegeix paràmetres a les ordres. Veure «update_osm_objects_from_report --help» per les opcions de LangToolsOSM
 nomComarca<- gsub(paste0(".+--input-file \\\"", arrelProjecte, "/edicions/informe-[A-z]+-|", sufixFitxers, ".tsv\\\".+"), "", cmd)
 cmd<- paste0(cmd, " --changeset-hashtags \"#toponimsCat;#correccions_name:ca\"",
-             " --batch 100 --changeset-comment \"Afegeix name:ca a partir de name per carrers, places, parcs, avingudes i camins a ", nomComarca, "\"")
+             " --batch 100 --changeset-comment \"Corregeix errors ortogràfics de name:ca a ", nomComarca, "\"")
 cat(cmd, sep="\n")
 
 ## Executa les ordres: millor en una terminal per processos interactius

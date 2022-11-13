@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Chemin d'Estavar"	"Camí d'Estavar"							"way"	" 541533232"	"name:ca=Cami d'Estavar"	"{'highway': 'residential', 'lanes': '2', 'maxweight': '10', 'name': \"Chemin d'Estavar\", 'name:ca': \"Cami d'Estavar\", 'ref:FR:FANTOIR': '661670018D', 'surface': 'asphalt'}"
+"Cista del Moli"	"Cista del Molí"			"Cista megalítica del Molí"	"Cista megalítica del Molí"	"cist"	"Q62081840"	"node"	"6791512158"	"name:ca=Cista del Moli"	"{'historic': 'archaeological_site', 'name': 'Cista del Moli', 'name:ca': 'Cista del Moli', 'site_type': 'megalith', 'wikidata': 'Q62081840', 'wikipedia': 'ca:Cista megalítica del Molí'}"
