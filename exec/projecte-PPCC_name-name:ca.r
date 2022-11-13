@@ -4,13 +4,16 @@ library(toponimsCat)
 
 arrelProjecte<- "PPCC/name-name:ca"
 actualitzaInformes<- FALSE # actualitzaInformes<- TRUE ## TODO: unificar parametre a generaInforme i generaInformesPPCC
-# TODO: Ajuntament Autovia Bosc Carretera Castell Clos Giratori Hort Jardí mas Palau Passeig Rambla Riu Ronda Ruta Rotonda Platja Polígon
+# TODO: Agulla "El Carrerou", "Le Carrerou, "La Carrerade", "La Carrerada" Clos Escala Estany Pas Port Rambla Ronda Ruta + plurals
+# Veure https://github.com/osm-bzh/osmbr-mapstyle/blob/master/osm_ca.yml per objectes prioritaris a traduïr
 ## ULL VIU!: clos i parc col·lisionen amb el francés. carretera Rambla Ronda Ruta Via rotonda col·lisionen amb el castellà.
 # FET
 # filtre<- "nwr[name~'^([Aa]vinguda|[Cc]arrer|[Cc]amí|[Pp]laça|[Pp]arc) '][!'name:ca']"; sufixFitxers<- "_name-name:ca"
+# filtre<- "nwr[name~'^([Aa]tzucac|[Aa]vinguda|[Cc]amí|[Cc]aminal|[Cc]arreró|[Gg]iratori|[Jj]ardí|[Pp]assatge|[Pp]asseig|[Rr]otonda|[Uu]rbanització|[Vv]oral) '][!'name:ca']"; sufixFitxers<- "_name-name:ca_r1"
+
 # PENDENT;
-filtre<- "nwr[name~'^([Aa]tzucac|[Aa]vinguda|[Cc]amí|[Cc]aminal|[Cc]arreró|[Gg]iratori|[Jj]ardí|[Pp]assatge|[Pp]asseig|[Rr]otonda|[Uu]rbanització|[Vv]oral) '][!'name:ca']"
-sufixFitxers<- "_name-name:ca_r1"
+filtre<- "nwr[name~'^([Aa]juntament|[Aa]tzucac|[Aa]vinguda|[Bb]osc|[Cc]amí|[Cc]aminal|[Cc]arrer|[Cc]arreró|[Cc]astell|[Gg]iratori|[Hh]ort[s]*|[Jj]ardí|[Mm]as|[Pp]alau|[Pp]assatge|[Pp]asseig|[Pp]laça|[Pp]latja|[Pp]olígon]|[Rr]iu|[Uu]rbanització|[Vv]oral) '][!'name:ca']"
+sufixFitxers<- "_name-name:ca_r2"
 cerca<- ""
 substitueix<- ""
 revisioUnificada<- TRUE
@@ -41,6 +44,7 @@ ordCasos<- order(municipis$revisat, municipis$nCasos, municipis$`name:ca`,
 ordCol<- c("name:ca", "nObjectes", "nCasos", "nObjectesNomWikidata", "nCasosNomWikidata", "revisat")
 ordCol<- c(ordCol, setdiff(names(municipis), c(ordCol, "cmd")))
 municipis<- municipis[ordCasos, ordCol]
+municipis<- municipis[!is.na(municipis$`name:ca`), ]
 municipis[intersect(order(municipis$nCasos, decreasing=TRUE), which(!municipis$revisat & municipis$nObjectes > 0)), ]
 
 write.csv(municipis, file=file.path(arrelProjecte, "casos_municipis.csv"), row.names=FALSE)
@@ -52,9 +56,22 @@ municipis<- read.csv(file=file.path(arrelProjecte, "casos_municipis.csv"), check
 municipis<- municipis[!municipis$nObjectes %in% c(NA, 0), ] # Selecciona municipis amb casos pendents
 municipis[order(municipis$nCasos, decreasing=TRUE), ]
 
-municipis$revisio<- generaRevisions_regexName(informes=municipis$informe, arrelProjecte=arrelProjecte,
-                                              cerca=cerca, substitueix=substitueix, revisioUnificada=revisioUnificada)
+## Crea fitxers de revisió per zones amb idiomes diferents
+municipis$revisio[municipis$regio == "CatNord"]<- generaRevisions_regexName(informes=municipis$informe[municipis$regio == "CatNord"],
+                                                                            arrelProjecte=arrelProjecte, cerca=cerca, substitueix=substitueix, revisioUnificada=revisioUnificada,
+                                                                            nomFitxerUnificat=paste0("revisio-UNIFICADA-CatNord", sufixFitxers, ".tsv"))
+municipis$revisio[municipis$regio == "Franja"]<- generaRevisions_regexName(informes=municipis$informe[municipis$regio == "Franja"],
+                                                                            arrelProjecte=arrelProjecte, cerca=cerca, substitueix=substitueix, revisioUnificada=revisioUnificada,
+                                                                            nomFitxerUnificat=paste0("revisio-UNIFICADA-CatNord", sufixFitxers, ".tsv"))
+municipis$revisio[municipis$regio == "Sardenya"]<- generaRevisions_regexName(informes=municipis$informe[municipis$regio == "Sardenya"],
+                                                                            arrelProjecte=arrelProjecte, cerca=cerca, substitueix=substitueix, revisioUnificada=revisioUnificada,
+                                                                            nomFitxerUnificat=paste0("revisio-UNIFICADA-Sardenya", sufixFitxers, ".tsv"))
+municipis$revisio[!municipis$regio %in% c("CatNord", "Franja", "Sardenya")]<- generaRevisions_regexName(informes=municipis$informe[!municipis$regio %in% c("CatNord", "Franja", "Sardenya")],
+                                                                            arrelProjecte=arrelProjecte, cerca=cerca, substitueix=substitueix, revisioUnificada=revisioUnificada,
+                                                                            nomFitxerUnificat=paste0("revisio-UNIFICADA-CatSud", sufixFitxers, ".tsv"))
 
+duplicats<- attributes(bdRevisions(arrelProjectes=arrelProjecte))$duplicats
+duplicats[, grep("name", names(duplicats))] ## arregla
 # Reviseu i modifiqueu la revisió de l'informe que vulgueu de revisions/.
 # Cal corregir els casos de name:ca i alt_name:ca incorrectes, esborrar-los o deixar-los en blanc si no és clar.
 # És recomanable usar LibreOffice per evitar problemes de codificació i formats dels fitxers (https://www.softcatala.org/programes/libreoffice/)
@@ -73,8 +90,8 @@ cmd<- na.omit(cmd)
 
 ## Afegeix paràmetres a les ordres. Veure «update_osm_objects_from_report --help» per les opcions de LangToolsOSM
 nomMunicipi<- gsub(paste0(".+--input-file \\\"", arrelProjecte, "/edicions/informe-[A-z]+-|", sufixFitxers, ".tsv\\\".+"), "", cmd)
-cmd<- paste0(cmd, " --no-interaction --changeset-hashtags \"#toponimsCat;#name_name:ca\"",
-             " --batch 100 --changeset-comment \"Afegeix name:ca a partir de name per carrers, places, avingudes, camins, jardins,  passatges,  passeigs, rotondes, urbanitzacions a ", nomMunicipi, "\"")
+cmd<- paste0(cmd, " --no-interaction --changeset-hashtags \"#toponimsCat;#name_name:ca\" --changeset-source \"name tag\"",
+             " --batch 100 --changeset-comment \"Segona ronda d'afegir name:ca a partir de name per carrers, places, avingudes, camins, jardins,  passatges,  passeigs, rotondes, urbanitzacions a ", nomMunicipi, "\"")
 cat(cmd, sep="\n")
 
 ## Executa les ordres
