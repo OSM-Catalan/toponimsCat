@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament d'Os de Balaguer"	"Ajuntament d'Os de Balaguer"							"node"	"1993340589"		"{'amenity': 'townhall', 'name': \"Ajuntament d'Os de Balaguer\"}"
+"Mas de Casset"	"Mas de Casset"							"node"	"1241693768"		"{'name': 'Mas de Casset', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Mas de Gorreta"	"Mas de Gorreta"							"way"	" 827844149"		"{'building': 'yes', 'name': 'Mas de Gorreta'}"
+"Mas de la Matella"	"Mas de la Matella"							"node"	"1241676388"		"{'name': 'Mas de la Matella', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Mas del Sebastià"	"Mas del Sebastià"							"way"	" 839063931"		"{'historic': 'ruins', 'name': 'Mas del Sebastià'}"

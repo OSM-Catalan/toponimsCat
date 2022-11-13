@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Bosc de Sant Tomàs"	"Bosc de Sant Tomàs"							"node"	"1241596337"		"{'name': 'Bosc de Sant Tomàs', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Mas Ministral"	"Mas Ministral"							"node"	"3743075342"		"{'name': 'Mas Ministral', 'place': 'isolated_dwelling'}"
+"Riu Fluvià"	"Riu Fluvià"			"Fluvià"	"Fluvià"	"river"	"Q31551"	"way"	" 370599798"		"{'boat': 'no', 'name': 'Riu Fluvià', 'waterway': 'river', 'wikidata': 'Q31551', 'wikipedia': 'ca:Fluvià'}"
+"Riu Fluvià"	"Riu Fluvià"			"Fluvià"	"Fluvià"	"river"	"Q31551"	"way"	" 107539931"		"{'boat': 'no', 'name': 'Riu Fluvià', 'waterway': 'river', 'wikidata': 'Q31551', 'wikipedia': 'ca:Fluvià'}"

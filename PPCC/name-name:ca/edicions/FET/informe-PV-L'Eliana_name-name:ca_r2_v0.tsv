@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de l'Eliana"	"Ajuntament de l'Eliana"							"way"	"544399401"		"{'addr:city': \"l'Eliana\", 'addr:housenumber': '12', 'addr:postcode': '46183', 'addr:street': 'Carrer de la Puríssima', 'amenity': 'townhall', 'building': 'yes', 'name': \"Ajuntament de l'Eliana\"}"
+"Ajuntament de l'Eliana"	"Ajuntament de l'Eliana"							"way"	"544399450"	"name:es=Ayuntamiento de La Eliana"	"{'addr:city': \"l'Eliana\", 'addr:housenumber': '1', 'addr:postcode': '46183', 'addr:street': 'Plaza País Valencià', 'amenity': 'townhall', 'building': 'yes', 'name': \"Ajuntament de l'Eliana\", 'name:es': 'Ayuntamiento de La Eliana', 'operator': \"Ajuntament de l'Eliana\"}"
+"Hort de l'Escorial"	"Hort de l'Escorial"							"way"	" 35598214"	"name:es=Huerto de El Escorial"	"{'access': 'private', 'highway': 'service', 'name': \"Hort de l'Escorial\", 'name:es': 'Huerto de El Escorial'}"

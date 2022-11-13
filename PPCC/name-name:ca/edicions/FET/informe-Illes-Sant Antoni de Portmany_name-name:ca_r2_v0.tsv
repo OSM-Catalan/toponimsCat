@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Bosc d'en Rafel"	"Bosc d'en Rafel"							"node"	"1242614283"		"{'name': \"Bosc d'en Rafel\", 'place': 'locality'}"
+"Bosc d'en Tonió"	"Bosc d'en Tonió"							"node"	"1242638433"		"{'name': \"Bosc d'en Tonió\", 'place': 'locality'}"
+"Carrer del Pintor Narcís Puguet"	"Carrer del Pintor Narcís Puguet"							"way"	"  47171875"		"{'highway': 'primary', 'lanes': '2', 'name': 'Carrer del Pintor Narcís Puguet', 'ref': 'EI-631', 'surface': 'asphalt'}"
+"Carrer del Pintor Narcís Puguet"	"Carrer del Pintor Narcís Puguet"							"way"	"  59604923"		"{'highway': 'residential', 'name': 'Carrer del Pintor Narcís Puguet', 'surface': 'asphalt'}"
+"Platja des Pouet"	"Platja des Pouet"							"relation"	"  14223064"		"{'name': 'Platja des Pouet', 'natural': 'beach', 'type': 'multipolygon'}"
+"Riu de Santa Eulària"	"Riu de Santa Eulària"							"way"	"1065071568"		"{'name': 'Riu de Santa Eulària', 'waterway': 'stream'}"

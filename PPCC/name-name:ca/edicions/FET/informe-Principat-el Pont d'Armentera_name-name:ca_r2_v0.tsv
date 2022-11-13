@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament del Pont d'Armentera"	"Ajuntament del Pont d'Armentera"							"node"	"6030563340"		"{'amenity': 'townhall', 'name': \"Ajuntament del Pont d'Armentera\"}"
+"Castell de Selmella"	"Castell de Selmella"							"node"	"3817493338"		"{'historic': 'castle', 'name': 'Castell de Selmella'}"
+"Mas del Plata"	"Mas del Plata"							"way"	" 405899024"		"{'landuse': 'residential', 'name': 'Mas del Plata'}"
+"Mas Rupit"	"Mas Rupit"							"way"	" 741024326"		"{'historic': 'ruins', 'name': 'Mas Rupit'}"

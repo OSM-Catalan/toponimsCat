@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament d'Alpicat"	"Ajuntament d'Alpicat"							"node"	"3379927451"		"{'addr:city': 'Alpicat', 'addr:housenumber': '42', 'addr:postcode': '25110', 'addr:street': 'Carrer de Lleida', 'amenity': 'townhall', 'email': 'ajuntament@alpicat.cat', 'fax': '+34 973 736 049', 'name': \"Ajuntament d'Alpicat\", 'phone': '+34 973 736 006', 'website': 'http://www.alpicat.cat'}"
+"Palau Cerámica de Alpicat SA"	"Palau Ceràmica de Alpicat SA"							"way"	" 360080727"		"{'building': 'yes', 'man_made': 'works', 'name': 'Palau Cerámica de Alpicat SA'}"

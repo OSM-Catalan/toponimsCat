@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Montclar"	"Ajuntament de Montclar"							"way"	" 262920129"		"{'addr:city': \"Montclar d'Urgell\", 'addr:housenumber': '1', 'addr:postcode': '25317', 'addr:street': \"Plaça de l'Església\", 'amenity': 'townhall', 'building': 'yes', 'name': 'Ajuntament de Montclar'}"
+"Mas Cavallers"	"Mas Cavallers"							"node"	"1241673040"		"{'name': 'Mas Cavallers', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Mas d'en Palau"	"Mas d'en Palau"							"node"	"2054362806"		"{'name': \"Mas d'en Palau\", 'place': 'isolated_dwelling'}"
+"Mas de Muntada"	"Mas de Muntada"							"node"	"2301125896"		"{'name': 'Mas de Muntada', 'place': 'isolated_dwelling'}"
+"Mas del Borres"	"Mas del Borres"							"node"	"2300742534"		"{'name': 'Mas del Borres', 'place': 'isolated_dwelling'}"
+"Mas del Clot de Bandera"	"Mas del Clot de Bandera"							"node"	"2084239998"		"{'name': 'Mas del Clot de Bandera', 'place': 'isolated_dwelling'}"

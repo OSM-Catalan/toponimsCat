@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Palau de Santa Eulàlia"	"Ajuntament de Palau de Santa Eulàlia"							"way"	"571126685"		"{'addr:city': 'Palau de Santa Eulàlia', 'addr:country': 'ES', 'addr:housenumber': '4', 'addr:place': 'Santa Eulàlia', 'addr:postcode': '17476', 'addr:street': 'Carrer de Garrigàs', 'amenity': 'townhall', 'building': 'public', 'building:levels': '2', 'contact:phone': '+34 972 568 078', 'name': 'Ajuntament de Palau de Santa Eulàlia', 'opening_hours': 'We 10:00-13:00; Th 18:00-20:00', 'website': 'http://www.palaudesantaeulalia.cat/'}"
+"Mas Farigola"	"Mas Farigola"							"way"	"674223269"		"{'building': 'house', 'building:levels': '2', 'name': 'Mas Farigola', 'source:name': 'Institut Cartogràfic i Geològic de Catalunya'}"
+"Mas Llorenç"	"Mas Llorenç"							"way"	"674273057"		"{'name': 'Mas Llorenç', 'tourism': 'chalet'}"
+"Mas Vicenç"	"Mas Vicenç"							"way"	"674223262"		"{'building': 'house', 'building:levels': '3', 'name': 'Mas Vicenç', 'source:name': 'Institut Cartogràfic i Geològic de Catalunya'}"
+"Palau de Santa Eulàlia"	"Palau de Santa Eulàlia"							"way"	"571345896"		"{'landuse': 'residential', 'name': 'Palau de Santa Eulàlia'}"
+"Riu Fluvià"	"Riu Fluvià"			"Fluvià"	"Fluvià"	"river"	"Q31551"	"way"	"370599798"		"{'boat': 'no', 'name': 'Riu Fluvià', 'waterway': 'river', 'wikidata': 'Q31551', 'wikipedia': 'ca:Fluvià'}"

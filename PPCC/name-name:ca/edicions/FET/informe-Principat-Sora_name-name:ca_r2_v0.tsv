@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Bosc de Terradelles"	"Bosc de Terradelles"							"node"	"9570195490"		"{'name': 'Bosc de Terradelles', 'place': 'locality'}"
+"Castell de Duocastella"	"Castell de Duocastella"			"Castell de Duocastella, Castell de Rocafiguera"	"Castell de Duocastella"	"castle"	"Q43122057"	"node"	"5605259190"		"{'historic': 'castle', 'name': 'Castell de Duocastella', 'ruins': 'yes', 'source': 'Q43122057', 'wikidata': 'Q43122057', 'wikipedia': 'ca:Castell de Duocastella'}"
+"Mas Rovira"	"Mas Rovira"							"way"	" 205123343"		"{'building': 'house', 'name': 'Mas Rovira'}"
+"Mas Sant Joan"	"Mas Sant Joan"							"way"	" 586702153"		"{'building': 'house', 'name': 'Mas Sant Joan'}"

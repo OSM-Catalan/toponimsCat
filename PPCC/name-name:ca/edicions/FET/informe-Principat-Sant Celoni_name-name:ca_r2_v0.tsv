@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Sant Celoni"	"Ajuntament de Sant Celoni"							"way"	" 352525619"	"name:es=Ayuntamiento de Sant Celoni"	"{'amenity': 'townhall', 'building': 'yes', 'name': 'Ajuntament de Sant Celoni', 'name:es': 'Ayuntamiento de Sant Celoni', 'townhall:type': 'town'}"
+"Bosc de Can Xic"	"Bosc de Can Xic"							"node"	"1241558377"		"{'name': 'Bosc de Can Xic', 'place': 'locality'}"
+"Bosc de la Creu"	"Bosc de la Creu"							"node"	"1241571522"		"{'name': 'Bosc de la Creu', 'place': 'locality'}"
+"Bosc dels Castanyers"	"Bosc dels Castanyers"							"node"	"1241569316"		"{'name': 'Bosc dels Castanyers', 'place': 'locality'}"
+"Bosc Gran"	"Bosc Gran"							"node"	"1241555656"		"{'name': 'Bosc Gran', 'place': 'locality'}"
+"Riu Sec"	"Riu Sec"							"way"	" 647834935"		"{'intermittent': 'yes', 'name': 'Riu Sec', 'waterway': 'stream'}"

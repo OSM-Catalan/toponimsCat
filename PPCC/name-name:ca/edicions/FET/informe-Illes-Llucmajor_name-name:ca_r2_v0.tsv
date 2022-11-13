@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"hort de Llucmajor"	"hort de Llucmajor"							"node"	"3773761963"		"{'name': 'hort de Llucmajor', 'shop': 'fruits'}"
+"Hort de Son Fideu"	"Hort de Son Fideu"							"node"	"5928302027"		"{'name': 'Hort de Son Fideu', 'place': 'locality'}"
+"Platja de Cala Blava"	"Platja de Cala Blava"							"node"	"4676398095"		"{'bench': 'no', 'bus': 'yes', 'highway': 'bus_stop', 'name': 'Platja de Cala Blava', 'network': 'Bus de Palma', 'operator': 'Empresa Municipal de Transports de Palma', 'passenger_information_display': 'no', 'public_transport': 'platform', 'ref': '627', 'route_ref': '23', 'shelter': 'no'}"
+"Platja de Cala Pi"	"Platja de Cala Pi"							"way"	" 244510396"		"{'name': 'Platja de Cala Pi', 'natural': 'beach', 'surface': 'sand'}"

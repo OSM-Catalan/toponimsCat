@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Castell dels Torelló"	"Castell dels Torelló"							"node"	"1896643291"		"{'historic': 'castle', 'name': 'Castell dels Torelló', 'ruins': 'yes', 'tourism': 'attraction'}"
+"Castell dels Torelló"	"Castell dels Torelló"							"way"	" 179321080"		"{'building': 'yes', 'historic': 'castle', 'name': 'Castell dels Torelló'}"
+"Mas Colomer"	"Mas Colomer"							"way"	"1036792921"		"{'building': 'house', 'name': 'Mas Colomer'}"
+"Mas el Sot Gran"	"Mas el Sot Gran"							"way"	" 598050329"		"{'leisure': 'garden', 'name': 'Mas el Sot Gran'}"
+"Mas Verdeguer"	"Mas Verdeguer"							"node"	"3559508503"		"{'name': 'Mas Verdeguer', 'place': 'isolated_dwelling'}"
+"Riu Ter"	"Riu Ter"			"Ter"	"Ter"	"watercourse"	"Q31482"	"way"	"  24208982"		"{'name': 'Riu Ter', 'waterway': 'river', 'wikidata': 'Q31482', 'wikipedia': 'ca:Ter'}"

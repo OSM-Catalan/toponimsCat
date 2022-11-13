@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Taradell"	"Ajuntament de Taradell"							"node"	"6436650948"		"{'addr:city': 'Taradell', 'addr:housenumber': '45', 'addr:postcode': '08552', 'addr:street': 'Carrer de la Vila', 'amenity': 'townhall', 'email': 'taradell@taradell.cat', 'name': 'Ajuntament de Taradell', 'operator': 'Ajuntament de Taradell', 'phone': '+34 938 126 100', 'townhall:type': 'village', 'website': 'https://www.taradell.cat'}"
+"Mas Can Pic (Les Ànfores)"	"Mas Can Pic (Les Ànfores)"							"node"	" 706331621"		"{'name': 'Mas Can Pic (Les Ànfores)'}"
+"Mas Grau"	"Mas Grau"							"way"	" 232020904"		"{'building': 'yes', 'name': 'Mas Grau'}"
+"Mas Pratsevall"	"Mas Pratsevall"							"node"	"7100260326"		"{'name': 'Mas Pratsevall', 'tourism': 'hotel'}"

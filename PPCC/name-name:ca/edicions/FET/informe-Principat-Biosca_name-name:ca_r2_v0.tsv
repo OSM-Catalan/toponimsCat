@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Mas Camats"	"Mas Camats"							"node"	"2054009892"		"{'name': 'Mas Camats', 'place': 'isolated_dwelling'}"
+"Mas d'en Forn"	"Mas d'en Forn"			"Sant Miquel del Mas d'en Forn"	"Sant Miquel del Mas d'en Forn"	"masia"	"Q11947280"	"way"	" 566373745"		"{'building': 'yes', 'name': \"Mas d'en Forn\", 'place': 'isolated_dwelling', 'wikidata': 'Q11947280', 'wikipedia': \"ca:Sant Miquel del Mas d'en Forn\"}"
+"Mas d'Huguets"	"Mas d'Huguets"							"way"	"1073481310"		"{'building': 'yes', 'name': \"Mas d'Huguets\", 'place': 'isolated_dwelling'}"
+"Mas de Sant Pere"	"Mas de Sant Pere"							"node"	"2617639308"		"{'name': 'Mas de Sant Pere', 'place': 'isolated_dwelling', 'ref': 'http://cultura.gencat.cat/invarquit/fitxa.asp?NRegistre=&idregistre=34649', 'source': 'Generalitat de Catalunya'}"
+"Mas del Sot"	"Mas del Sot"							"node"	"2383453683"		"{'name': 'Mas del Sot', 'place': 'isolated_dwelling'}"

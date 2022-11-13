@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Pira"	"Ajuntament de Pira"							"way"	"870500452"		"{'amenity': 'townhall', 'building': 'public', 'name': 'Ajuntament de Pira'}"
+"Mas Boter"	"Mas Boter"							"way"	"517856089"		"{'building': 'yes', 'name': 'Mas Boter', 'place': 'isolated_dwelling'}"
+"Mas de Dolors Orpinell"	"Mas de Dolors Orpinell"							"way"	"741275249"		"{'name': 'Mas de Dolors Orpinell', 'place': 'isolated_dwelling'}"
+"Mas de Josep Amenós"	"Mas de Josep Amenós"							"way"	"529885205"		"{'building': 'yes', 'name': 'Mas de Josep Amenós'}"
+"Riu d'Anguera"	"Riu d'Anguera"							"way"	"673130797"		"{'name': \"Riu d'Anguera\", 'seasonal': 'yes', 'waterway': 'stream'}"

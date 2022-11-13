@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Balaguer"	"Ajuntament de Balaguer"							"node"	"6845662730"		"{'addr:city': 'Balaguer', 'addr:housenumber': '1', 'addr:postcode': '25600', 'addr:street': 'Plaça Mercadal', 'amenity': 'townhall', 'name': 'Ajuntament de Balaguer', 'website': 'http://www.balaguer.cat'}"
+"Riu de Farfanya"	"Riu de Farfanya"							"way"	" 340819590"		"{'name': 'Riu de Farfanya', 'waterway': 'stream'}"
+"Riu de Farfanya"	"Riu de Farfanya"							"way"	" 501436848"		"{'name': 'Riu de Farfanya', 'waterway': 'stream'}"
+"Riu de Farfanya"	"Riu de Farfanya"							"way"	" 501436849"		"{'layer': '-1', 'name': 'Riu de Farfanya', 'tunnel': 'yes', 'waterway': 'stream'}"

@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Castell de Vallfogona"	"Castell de Vallfogona"							"way"	" 234045222"		"{'building': 'yes', 'historic': 'yes', 'name': 'Castell de Vallfogona', 'ref:bic': 'RI-51-0006769', 'source': 'http://ca.wikipedia.org/wiki/Llista_de_monuments_de_la_Conca_de_Barberà'}"
+"Mas de la Cadena"	"Mas de la Cadena"							"node"	" 378733324"		"{'name': 'Mas de la Cadena', 'place': 'hamlet'}"
+"Mas de la Cadena"	"Mas de la Cadena"							"node"	"1123499647"		"{'bus': 'yes', 'highway': 'bus_stop', 'name': 'Mas de la Cadena', 'public_transport': 'platform'}"
+"Riu Seniol"	"Riu Seniol"							"way"	"  96396168"		"{'name': 'Riu Seniol', 'source': 'SRTM contours', 'waterway': 'stream'}"

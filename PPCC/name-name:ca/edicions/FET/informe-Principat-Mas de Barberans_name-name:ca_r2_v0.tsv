@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Castell de l'Airosa"	"Castell de l'Airosa"							"node"	"5991373123"		"{'name': \"Castell de l'Airosa\", 'natural': 'yes'}"
+"Mas de Barberans"	"Mas de Barberans"							"node"	"8358637102"		"{'ele': '240', 'man_made': 'monitoring_station', 'monitoring:weather': 'yes', 'name': 'Mas de Barberans', 'operator': 'Servei Meteorològic de Catalunya', 'operator:wikidata': 'Q11949463', 'operator:wikipedia': 'ca:Servei Meteorològic de Catalunya', 'recording:automated': 'yes', 'start_date': '1997-04-11', 'website': 'https://www.meteo.cat/observacions/xema/dades?codi=C9'}"

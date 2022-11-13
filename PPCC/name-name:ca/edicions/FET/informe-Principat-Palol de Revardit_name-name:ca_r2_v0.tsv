@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Palol de Revardit"	"Ajuntament de Palol de Revardit"							"way"	" 683732275"	"short_name=Ajuntament de Palol"	"{'amenity': 'townhall', 'building': 'yes', 'contact:phone': '+34 972 59 44 48', 'contact:website': 'http://www.palol.cat/', 'name': 'Ajuntament de Palol de Revardit', 'short_name': 'Ajuntament de Palol'}"
+"Bosc de Can Batlle"	"Bosc de Can Batlle"							"node"	"1241590193"		"{'name': 'Bosc de Can Batlle', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Bosc de les Sales"	"Bosc de les Sales"							"node"	"1241601376"		"{'name': 'Bosc de les Sales', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Bosc Gran"	"Bosc Gran"							"node"	"1241591511"		"{'name': 'Bosc Gran', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Castell de Palol de Revardit"	"Castell de Palol de Revardit"							"relation"	"   5988661"		"{'building': 'yes', 'historic': 'castle', 'name': 'Castell de Palol de Revardit', 'type': 'multipolygon'}"
+"Mas Clarà"	"Mas Clarà"							"way"	" 365523288"		"{'building': 'yes', 'name': 'Mas Clarà'}"

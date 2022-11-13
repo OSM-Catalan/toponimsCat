@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Vilamarxant"	"Ajuntament de Vilamarxant"							"node"	"3016861931"		"{'amenity': 'townhall', 'name': 'Ajuntament de Vilamarxant'}"
+"Mas de la Teulada"	"Mas de la Teulada"							"node"	"2619502474"		"{'name': 'Mas de la Teulada'}"
+"Mas del Moro"	"Mas del Moro"							"node"	" 569974451"		"{'name': 'Mas del Moro', 'place': 'hamlet'}"
+"Mas dels Frares"	"Mas dels Frares"							"way"	" 812976157"		"{'building': 'farm', 'name': 'Mas dels Frares'}"

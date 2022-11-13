@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Mas Bellsolà"	"Mas Bellsolà"							"node"	"6815947231"		"{'name': 'Mas Bellsolà', 'place': 'hamlet'}"
+"Mas Bellsolà"	"Mas Bellsolà"							"way"	" 727303581"		"{'landuse': 'farmyard', 'name': 'Mas Bellsolà'}"
+"Riu Fluvià"	"Riu Fluvià"			"Fluvià"	"Fluvià"	"river"	"Q31551"	"way"	"  75538802"		"{'boat': 'no', 'name': 'Riu Fluvià', 'waterway': 'river', 'wikidata': 'Q31551', 'wikipedia': 'ca:Fluvià'}"

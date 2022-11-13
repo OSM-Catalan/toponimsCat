@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament Alcalà de Xivert"	"Ajuntament Alcalà de Xivert"							"node"	"2314915108"		"{'amenity': 'townhall', 'name': 'Ajuntament Alcalà de Xivert'}"
+"Castell Xivert"	"Castell Xivert"							"way"	" 661218470"		"{'addr:street': 'CARRETERA ALCOCEBRE km 1.5', 'amenity': 'fuel', 'building': 'yes', 'fuel:diesel': 'yes', 'fuel:octane_95': 'yes', 'name': 'Castell Xivert', 'opening_hours': 'Mo-Su 07:00-23:00', 'source': 'Ministerio de Industria, Turismo y Comercio', 'source:date': '2010-07-29'}"
+"Mas de Pinyó"	"Mas de Pinyó"							"way"	"1100952391"		"{'building': 'detached', 'name': 'Mas de Pinyó'}"
+"Mas Nou"	"Mas Nou"							"way"	"1053910888"		"{'building': 'detached', 'name': 'Mas Nou'}"
+"Palau Olivo"	"Palau Olivo"							"node"	"1243271990"		"{'name': 'Palau Olivo', 'place': 'locality'}"
+"Riu de les Coves"	"Riu de les Coves"	"Riu de Sant Miquel"	"Riu de Sant Miquel"					"way"	" 392099330"		"{'alt_name': 'Riu de Sant Miquel', 'intermittent': 'yes', 'layer': '-2', 'name': 'Riu de les Coves', 'waterway': 'river'}"

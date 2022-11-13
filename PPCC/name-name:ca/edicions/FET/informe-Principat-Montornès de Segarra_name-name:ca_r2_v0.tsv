@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Montornes de Segarra"	"Ajuntament de Montornès de Segarra"							"way"	" 591234409"		"{'building': 'house', 'building:levels': '3', 'name': 'Ajuntament de Montornes de Segarra'}"
+"Mas de Bondia"	"Mas de Bondia"							"node"	"9812802504"		"{'bench': 'yes', 'bus': 'yes', 'departures_board': 'timetable', 'highway': 'bus_stop', 'name': 'Mas de Bondia', 'public_transport': 'platform', 'ref': 'ML 0147', 'shelter': 'yes'}"

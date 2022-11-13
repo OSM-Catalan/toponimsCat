@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Súria"	"Ajuntament de Súria"							"node"	"1965594204"		"{'amenity': 'townhall', 'name': 'Ajuntament de Súria'}"
+"Bosc de Can Torres"	"Bosc de Can Torres"							"node"	"1241550723"		"{'name': 'Bosc de Can Torres', 'place': 'locality'}"
+"Bosc de Lledó"	"Bosc de Lledó"							"node"	"1241548854"		"{'name': 'Bosc de Lledó', 'place': 'locality'}"
+"Bosc de Molar"	"Bosc de Molar"							"node"	"1241563059"		"{'name': 'Bosc de Molar', 'place': 'locality'}"
+"Bosc del Quer"	"Bosc del Quer"							"node"	"1241555324"		"{'name': 'Bosc del Quer', 'place': 'locality'}"
+"Mas Vilella"	"Mas Vilella"							"node"	"4208574594"		"{'name': 'Mas Vilella', 'place': 'isolated_dwelling'}"

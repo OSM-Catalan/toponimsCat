@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Sant Martí de Tous"	"Ajuntament de Sant Martí de Tous"							"way"	" 838346779"		"{'amenity': 'townhall', 'building': 'yes', 'name': 'Ajuntament de Sant Martí de Tous'}"
+"Bosc de Can Menjapans"	"Bosc de Can Menjapans"							"node"	"8610382422"		"{'name': 'Bosc de Can Menjapans', 'natural': 'wood'}"
+"Bosc de Gramenet"	"Bosc de Gramenet"							"node"	"7877964798"		"{'name': 'Bosc de Gramenet', 'natural': 'wood'}"
+"Bosc Fosc"	"Bosc Fosc"							"node"	"1241569138"		"{'name': 'Bosc Fosc', 'place': 'locality'}"
+"Castell de la Roqueta"	"Castell de la Roqueta"							"node"	"4844004974"		"{'historic': 'castle', 'name': 'Castell de la Roqueta', 'ruins': 'yes'}"
+"Mas Montserrat"	"Mas Montserrat"							"node"	"3916842447"		"{'name': 'Mas Montserrat', 'place': 'isolated_dwelling'}"

@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Bellreguard"	"Ajuntament de Bellreguard"							"way"	" 527341362"		"{'amenity': 'townhall', 'building': 'yes', 'name': 'Ajuntament de Bellreguard'}"
+"Plaça del Metge Abili Orts"	"Plaça del Metge Abili Orts"							"way"	"1058183794"		"{'highway': 'residential', 'name': 'Plaça del Metge Abili Orts'}"
+"Plaça del Metge Abili Orts"	"Plaça del Metge Abili Orts"							"way"	"1058183795"		"{'leisure': 'park', 'name': 'Plaça del Metge Abili Orts'}"
+"Platja de Bellreguard"	"Platja de Bellreguard"							"node"	"2063695270"	"name:es=Playa de Bellreguart"	"{'ele': '2', 'name': 'Platja de Bellreguard', 'name:es': 'Playa de Bellreguart', 'place': 'suburb', 'population': '371', 'population:date': '2009', 'ref:ine': '46048000200', 'source': 'Instituto Geográfico Nacional', 'source:date': '2011-06', 'source:ele': 'MDT5', 'source:name': 'Nomenclátor Geográfico de Municipios y Entidades de Población'}"

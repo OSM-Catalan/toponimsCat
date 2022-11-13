@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Santa Llogaia d'Àlguema"	"Ajuntament de Santa Llogaia d'Àlguema"							"way"	"407207786"		"{'addr:city': \"Santa Llogaia d'Àlguema\", 'addr:housenumber': '7', 'addr:postcode': '17771', 'addr:street': 'Carrer Escoles', 'amenity': 'townhall', 'building': 'yes', 'name': \"Ajuntament de Santa Llogaia d'Àlguema\", 'opening_hours': 'Tu 17:00-20:00; We 10:00-13:30; Th 10:00-13:30', 'phone': '+34 972672931'}"
+"Riu Manol"	"Riu Manol"			"Manol, Riu Manol, el Manol"	"Manol"	"watercourse"	"Q11696494"	"way"	"105225614"		"{'name': 'Riu Manol', 'source': 'PNOA', 'waterway': 'river', 'wikidata': 'Q11696494', 'wikipedia': 'ca:Manol'}"

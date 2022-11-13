@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Mas Burjacs"	"Mas Burjacs"			"Mas Burjacs"		"masia"	"Q107182660"	"way"	"232886097"		"{'building': 'yes', 'name': 'Mas Burjacs', 'place': 'isolated_dwelling', 'wikidata': 'Q107182660'}"
+"Mas d'en Jonama"	"Mas d'en Jonama"							"way"	"675300900"		"{'building': 'yes', 'name': \"Mas d'en Jonama\"}"
+"Mas de'n Jonama"	"Mas d'en Jonama"							"way"	"162543439"		"{'building': 'yes', 'name': \"Mas de'n Jonama\", 'place': 'locality', 'source': 'PNOA'}"
+"Platja del Vedell"	"Platja del Vedell"							"relation"	" 11230709"		"{'name': 'Platja del Vedell', 'natural': 'bare_rock', 'type': 'multipolygon'}"

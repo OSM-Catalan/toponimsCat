@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Castellgalí"	"Ajuntament de Castellgalí"							"node"	"5407709200"		"{'bus': 'yes', 'highway': 'bus_stop', 'name': 'Ajuntament de Castellgalí', 'operator': 'Sagalés/Transbages', 'public_transport': 'platform'}"
+"Bosc de Vilomara"	"Bosc de Vilomara"							"node"	"1241549521"		"{'name': 'Bosc de Vilomara', 'place': 'locality'}"
+"Mas Enric"	"Mas Enric"							"node"	"7457014190"		"{'name': 'Mas Enric', 'place': 'isolated_dwelling'}"
+"Mas Planoi"	"Mas Planoi"							"node"	"5585367252"		"{'board_type': 'map', 'information': 'board', 'name': 'Mas Planoi', 'tourism': 'information'}"

@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Platja de Baix a Mar"	"Platja de Baix a Mar"							"relation"	" 12040184"		"{'name': 'Platja de Baix a Mar', 'natural': 'beach', 'type': 'multipolygon'}"
+"Platja de la Paella"	"Platja de la Paella"							"relation"	"  2174431"		"{'name': 'Platja de la Paella', 'natural': 'beach', 'source': 'Bing aerial imagery', 'type': 'multipolygon'}"
+"Platja dels Capellans i Canyadell"	"Platja dels Capellans i Canyadell"							"relation"	"  2174050"		"{'name': 'Platja dels Capellans i Canyadell', 'natural': 'beach', 'type': 'multipolygon'}"
+"Platja dels Muntanyans"	"Platja dels Muntanyans"							"relation"	" 12040395"		"{'name': 'Platja dels Muntanyans', 'natural': 'beach', 'nudism': 'yes', 'type': 'multipolygon'}"
+"Platja nudista"	"Platja nudista"							"way"	"389414348"		"{'name': 'Platja nudista', 'natural': 'beach', 'nudism': 'yes'}"

@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de l'Ametlla del Vallès"	"Ajuntament de l'Ametlla del Vallès"							"node"	"1218641976"		"{'amenity': 'townhall', 'name': \"Ajuntament de l'Ametlla del Vallès\"}"
+"Bosc de Ca n'Enrani"	"Bosc de Ca n'Enrani"							"relation"	"   9765323"		"{'landuse': 'forest', 'name': \"Bosc de Ca n'Enrani\", 'type': 'multipolygon'}"
+"Bosc de Can Draper"	"Bosc de Can Draper"							"node"	"5592433292"		"{'name': 'Bosc de Can Draper', 'natural': 'wood'}"
+"Bosc de Can Pagès Nou"	"Bosc de Can Pagès Nou"							"way"	" 443690371"		"{'landuse': 'forest', 'name': 'Bosc de Can Pagès Nou'}"
+"Bosc de Can Plandolit"	"Bosc de Can Plandolit"							"way"	" 443691059"		"{'landuse': 'forest', 'name': 'Bosc de Can Plandolit'}"
+"Mas Dorca"	"Mas Dorca"							"node"	"5592448319"		"{'name': 'Mas Dorca', 'place': 'isolated_dwelling'}"

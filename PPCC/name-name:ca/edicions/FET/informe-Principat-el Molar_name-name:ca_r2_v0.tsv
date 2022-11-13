@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Mas de les Puces"	"Mas de les Puces"							"way"	" 853360178"		"{'building': 'yes', 'name': 'Mas de les Puces', 'tourism': 'wine_cellar'}"
+"Mas de Miquelet"	"Mas de Miquelet"							"node"	"5448623215"		"{'historic': 'ruins', 'name': 'Mas de Miquelet'}"
+"Mas del Petit del Quico"	"Mas del Petit del Quico"							"node"	"5448623214"		"{'historic': 'ruins', 'name': 'Mas del Petit del Quico'}"
+"Mas dels Flares"	"Mas dels Flares"							"way"	" 853341247"		"{'building': 'yes', 'name': 'Mas dels Flares'}"
+"Riu de Montsant"	"Riu de Montsant"			"Riu de Montsant, riu de Montsant, Riu Montsant"	"Riu de Montsant"	"watercourse"	"Q9071953"	"way"	" 182922853"		"{'name': 'Riu de Montsant', 'waterway': 'river', 'wikidata': 'Q9071953', 'wikipedia': 'ca:Riu de Montsant'}"
+"Riu de Siurana"	"Riu de Siurana"			"Siurana (riu), riu de Siurana, Riu Siurana, Riu de Siurana"	"Siurana (riu)"	"river"	"Q9072124"	"way"	" 375122429"		"{'name': 'Riu de Siurana', 'waterway': 'river', 'wikidata': 'Q9072124', 'wikipedia': 'ca:Riu de Siurana'}"

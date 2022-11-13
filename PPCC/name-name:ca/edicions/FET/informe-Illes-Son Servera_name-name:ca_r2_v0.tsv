@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Son Servera"	"Ajuntament de Son Servera"			"ajuntament de Son Cervera, ajuntament de Son Servera"		"rathaus"	"Q111906778"	"way"	" 775192819"		"{'amenity': 'townhall', 'building': 'yes', 'name': 'Ajuntament de Son Servera', 'wikidata': 'Q111906778'}"
+"Platja Cala Millor"	"Platja Cala Millor"							"way"	" 288633898"		"{'addr:city': 'Cala Millor', 'leisure': 'swimming_pool', 'name': 'Platja Cala Millor', 'toilets:wheelchair': 'yes', 'wheelchair': 'yes', 'wheelchair:description': '1 Strandrollstuhl und 1 fahrbare Liege vorhanden. Plattform mit Sonnenschutz sowie normale Liegen stehen kostenlos zur Verfügung.'}"
+"Platja de Cala Millor"	"Platja de Cala Millor"							"relation"	"   2175967"		"{'name': 'Platja de Cala Millor', 'natural': 'beach', 'surface': 'sand', 'type': 'multipolygon'}"
+"Platja de na Marins"	"Platja de na Marins"							"way"	" 349769524"		"{'name': 'Platja de na Marins', 'natural': 'beach'}"
+"Platja de Sa Marjal"	"Platja de Sa Marjal"							"node"	"5062008360"		"{'bus': 'yes', 'highway': 'bus_stop', 'name': 'Platja de Sa Marjal', 'network': 'CitySightseeing Cala Millor', 'operator': 'CitySightseeing', 'public_transport': 'platform', 'ref': '13'}"
+"Platja de Sa Marjal"	"Platja de Sa Marjal"							"node"	"5062070064"		"{'bench': 'yes', 'bus': 'yes', 'highway': 'bus_stop', 'name': 'Platja de Sa Marjal', 'network': 'CitySightseeing Cala Millor', 'operator': 'CitySightseeing', 'public_transport': 'platform', 'ref': '15', 'shelter': 'yes'}"

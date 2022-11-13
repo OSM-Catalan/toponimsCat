@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Martorelles"	"Ajuntament de Martorelles"							"way"	" 864606085"		"{'amenity': 'townhall', 'building': 'public', 'building:levels': '2', 'name': 'Ajuntament de Martorelles'}"
+"Bosc de Can Bosquerons"	"Bosc de Can Bosquerons"							"node"	"1241548539"		"{'name': 'Bosc de Can Bosquerons', 'place': 'locality'}"
+"Bosc de Can Bosquerons"	"Bosc de Can Bosquerons"							"relation"	"  14604830"		"{'landuse': 'forest', 'name': 'Bosc de Can Bosquerons', 'type': 'multipolygon'}"
+"Riu Besòs"	"Riu Besòs"			"Besòs, El Besòs, Riu Besòs"	"Besòs"	"watercourse"	"Q765483"	"way"	"   4753746"		"{'boat': 'no', 'name': 'Riu Besòs', 'source': 'Bing', 'waterway': 'river', 'width': '15', 'wikidata': 'Q765483', 'wikipedia': 'ca:Besòs'}"

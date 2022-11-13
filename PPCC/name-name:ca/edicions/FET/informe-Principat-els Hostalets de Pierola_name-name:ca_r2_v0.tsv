@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Bosc Gran"	"Bosc Gran"							"node"	"1241553016"		"{'name': 'Bosc Gran', 'place': 'locality'}"
+"Horts de Can Valls"	"Horts de Can Valls"							"way"	" 817201012"		"{'landuse': 'farmland', 'name': 'Horts de Can Valls', 'produce': 'vegetables'}"
+"Horts municipals"	"Horts municipals"							"way"	" 822332597"		"{'landuse': 'orchard', 'name': 'Horts municipals'}"
+"Mas d'en Pi"	"Mas d'en Pi"							"node"	"2157796888"		"{'name': \"Mas d'en Pi\", 'place': 'isolated_dwelling'}"
+"Mas d'en Pi"	"Mas d'en Pi"							"way"	"1009389110"		"{'building': 'yes', 'name': \"Mas d'en Pi\"}"
+"Plaça de les oliveres"	"Plaça de les oliveres"							"node"	"5758770436"		"{'leisure': 'park', 'name': 'Plaça de les oliveres'}"

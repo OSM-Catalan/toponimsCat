@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Figueres. Serveis Tècnics"	"Ajuntament de Figueres. Serveis Tècnics"							"way"	" 704337011"		"{'building': 'public', 'name': 'Ajuntament de Figueres. Serveis Tècnics'}"
+"Bosc del Rei"	"Bosc del Rei"							"node"	"1241588083"		"{'name': 'Bosc del Rei', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Horts Urbans 'La Closa Rasa'"	"Horts Urbans 'La Closa Rasa'"							"way"	" 279819570"		"{'landuse': 'allotments', 'name': \"Horts Urbans 'La Closa Rasa'\"}"
+"Mas Clarors"	"Mas Clarors"							"way"	" 722731525"		"{'building': 'ruins', 'name': 'Mas Clarors'}"
+"Mas Morell"	"Mas Morell"							"way"	" 722731529"		"{'building': 'ruins', 'name': 'Mas Morell'}"
+"Riu Manol"	"Riu Manol"			"Manol, Riu Manol, el Manol"	"Manol"	"watercourse"	"Q11696494"	"way"	" 105225614"		"{'name': 'Riu Manol', 'source': 'PNOA', 'waterway': 'river', 'wikidata': 'Q11696494', 'wikipedia': 'ca:Manol'}"

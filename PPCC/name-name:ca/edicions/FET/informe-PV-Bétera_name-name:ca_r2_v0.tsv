@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Hort Les Alfabegues"	"Hort Les Alfabegues"							"way"	"546692488"		"{'leisure': 'garden', 'name': 'Hort Les Alfabegues'}"
+"Mas Camarena"	"Mas Camarena"							"node"	"948638970"		"{'ele': '163.20', 'ign:latitud': '39.5576684707350026', 'ign:longitud': '-0.4590324975670000', 'ign:red': 'Red Geodesica Nacional Convencional (ROI)', 'man_made': 'survey_point', 'name': 'Mas Camarena', 'note': 'This is a point from an official geodetic network. Use it as a reference, but do NOT move it.', 'ref': '69613', 'source': 'Instituto Geográfico Nacional', 'source:ref': 'ftp://ftp.geodesia.ign.es'}"
+"Mas Camarena"	"Mas Camarena"							"node"	"635982450"		"{'ele': '119', 'name': 'Mas Camarena', 'place': 'suburb', 'population': '3305', 'population:date': '2009', 'ref:ine': '46070000700', 'source': 'Instituto Geográfico Nacional', 'source:date': '2011-06', 'source:ele': 'MDT5', 'source:name': 'Nomenclátor Geográfico de Municipios y Entidades de Población'}"
+"Mas Camarena"	"Mas Camarena"							"way"	" 50084204"		"{'landuse': 'residential', 'name': 'Mas Camarena', 'place': 'village'}"

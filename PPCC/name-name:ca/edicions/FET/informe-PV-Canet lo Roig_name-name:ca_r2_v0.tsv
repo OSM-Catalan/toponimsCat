@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Mas de Pas Avant"	"Mas de Pas Avant"							"node"	"1243230872"		"{'name': 'Mas de Pas Avant', 'place': 'locality'}"
+"Mas den Cruelles"	"Mas d’en Cruelles"							"node"	"1243265924"		"{'name': 'Mas den Cruelles', 'place': 'locality'}"
+"Mas Den Roca"	"Mas d’en Roca"							"node"	"1243242415"		"{'name': 'Mas Den Roca', 'place': 'locality'}"
+"Riu Cervol"	"Riu Cervol"			"Riu Cervol, riu Cervol, Riu Cèrvol, Riu Cérvol"	"Riu Cervol"	"watercourse"	"Q8353134"	"way"	"  39885978"		"{'intermittent': 'yes', 'name': 'Riu Cervol', 'waterway': 'river', 'wikidata': 'Q8353134', 'wikipedia': 'ca:Riu Cervol'}"

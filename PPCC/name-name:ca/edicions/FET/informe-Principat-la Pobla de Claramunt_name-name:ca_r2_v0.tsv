@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Bosc del Rector"	"Bosc del Rector"							"node"	"1241572225"		"{'name': 'Bosc del Rector', 'place': 'locality'}"
+"Mas dels Vivencs"	"Mas dels Vivencs"							"node"	"2420587263"		"{'addr:city': 'La Pobla de Claramunt', 'addr:postcode': '08787', 'amenity': 'restaurant', 'cuisine': 'catalan', 'name': 'Mas dels Vivencs', 'phone': '+34 938086011', 'website': 'http://www.masdelsvivencs.com/'}"
+"Riu Anoia"	"Riu Anoia"			"Riu Anoia, L'Anoia (riu)"	"Riu Anoia"	"watercourse"	"Q567513"	"way"	" 231462076"		"{'boat': 'no', 'name': 'Riu Anoia', 'waterway': 'river', 'wikidata': 'Q567513', 'wikipedia': 'ca:Riu Anoia'}"

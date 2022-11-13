@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Vallgorguina"	"Ajuntament de Vallgorguina"							"node"	"4753362147"		"{'addr:city': 'Vallgorguina', 'addr:housenumber': '4', 'addr:postcode': '08471', 'addr:street': 'Plaça de la Vila', 'amenity': 'townhall', 'name': 'Ajuntament de Vallgorguina', 'source': 'Coneixement local'}"
+"Horts de Ca l'Arbocer"	"Horts de Ca l'Arbocer"							"way"	" 105659830"		"{'landuse': 'farmland', 'name': \"Horts de Ca l'Arbocer\", 'source': 'PNOA'}"
+"Riu Sec"	"Riu Sec"							"way"	" 647834929"		"{'intermittent': 'yes', 'name': 'Riu Sec', 'waterway': 'stream'}"
+"Riu Sec"	"Riu Sec"							"way"	" 647834933"		"{'intermittent': 'yes', 'layer': '-1', 'name': 'Riu Sec', 'tunnel': 'yes', 'waterway': 'stream'}"
+"Riu Sec"	"Riu Sec"							"way"	" 647834935"		"{'intermittent': 'yes', 'name': 'Riu Sec', 'waterway': 'stream'}"

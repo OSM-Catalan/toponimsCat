@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Vilafant"	"Ajuntament de Vilafant"							"way"	" 413309402"		"{'addr:city': 'Vilafant', 'addr:housenumber': '1', 'addr:postcode': '17740', 'addr:street': \"Plaça de l'Ajuntament\", 'amenity': 'townhall', 'building': 'yes', 'name': 'Ajuntament de Vilafant', 'phone': '+34 972 54 60 20', 'website': 'http://www.vilafant.com/'}"
+"Castell de Palol Sabaldòria"	"Castell de Palol Sabaldòria"							"way"	"1043516891"		"{'building': 'ruins', 'name': 'Castell de Palol Sabaldòria', 'ruins': 'castle'}"
+"Mas de Palol"	"Mas de Palol"							"way"	"1043517073"		"{'building': 'yes', 'name': 'Mas de Palol'}"

@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Bosc del Corral de Terrers"	"Bosc del Corral de Terrers"							"node"	"1241549971"		"{'name': 'Bosc del Corral de Terrers', 'place': 'locality'}"
+"Castell de ESparraguera"	"Castell de Esparreguera"							"way"	"1036255837"		"{'building': 'ruins', 'name': 'Castell de ESparraguera'}"
+"Mas Boix"	"Mas Boix"							"way"	" 700495620"		"{'addr:city': 'Seva', 'addr:postcode': '08553', 'addr:street': 'Camí del Serradal', 'air_conditioning': 'no', 'beds': '10', 'email': 'info@masboixseva.cat', 'internet_access': 'wlan', 'internet_access:fee': 'customers', 'name': 'Mas Boix', 'nohousenumber': 'yes', 'phone': '+34 93 8126272', 'tourism': 'chalet', 'website': 'http://www.masboixseva.cat', 'wheelchair': 'no'}"

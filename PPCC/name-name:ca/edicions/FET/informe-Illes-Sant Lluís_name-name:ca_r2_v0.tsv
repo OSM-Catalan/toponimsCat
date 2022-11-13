@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Sant Lluís"	"Ajuntament de Sant Lluís"							"way"	" 572877201"		"{'addr:city': 'Sant Lluís', 'addr:country': 'ES', 'addr:postcode': '07711', 'addr:street': 'Pla de sa Creu', 'amenity': 'townhall', 'building': 'public', 'building:levels': '2', 'email': 'sac@ajsantlluis.org', 'name': 'Ajuntament de Sant Lluís', 'nohousenumber': 'yes', 'phone': '+34 971 150 950', 'website': 'http://www.ajsantlluis.org/'}"
+"Platja de Binisafuller"	"Platja de Binisafuller"							"node"	"4954410194"		"{'name': 'Platja de Binisafuller', 'place': 'hamlet'}"
+"Platja de Punta Prima"	"Platja de Punta Prima"							"relation"	"   1581445"		"{'name': 'Platja de Punta Prima', 'natural': 'beach', 'type': 'multipolygon'}"

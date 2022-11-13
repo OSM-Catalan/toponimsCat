@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Bosc de Cal Ceguet"	"Bosc de Cal Ceguet"							"node"	"1241760301"		"{'name': 'Bosc de Cal Ceguet', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Bosc de la Pinetella"	"Bosc de la Pinetella"							"node"	"1241773791"		"{'name': 'Bosc de la Pinetella', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Bosc de la Pinetella"	"Bosc de la Pinetella"							"node"	"7319390640"		"{'name': 'Bosc de la Pinetella', 'natural': 'wood'}"
+"Bosc de Mas d'en Roig"	"Bosc de Mas d'en Roig"							"node"	"1241768053"		"{'name': \"Bosc de Mas d'en Roig\", 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Castell de Vila-rodona"	"Castell de Vila-rodona"							"way"	"1103319392"		"{'historic': 'castle', 'name': 'Castell de Vila-rodona', 'wikipedia': 'ca:Castell de Vila-rodona'}"
+"Mas de Cirera"	"Mas de Cirera"							"node"	"6434209653"		"{'name': 'Mas de Cirera', 'place': 'isolated_dwelling'}"

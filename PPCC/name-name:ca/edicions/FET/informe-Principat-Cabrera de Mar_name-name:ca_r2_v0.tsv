@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"ajuntament de Cabrera de mar"	"ajuntament de Cabrera de mar"							"way"	"232780691"		"{'amenity': 'townhall', 'building': 'yes', 'name': 'ajuntament de Cabrera de mar'}"
+"Castell de Burriac"	"Castell de Burriac"			"Castell de Burriac, Castell de Sant Vicenç"	"Castell de Burriac"	"castle"	"Q12822"	"way"	"171886467"		"{'building': 'collapsed', 'historic': 'castle', 'name': 'Castell de Burriac', 'wikidata': 'Q12822', 'wikipedia': 'ca:Castell de Burriac'}"
+"Platja de l'Almadrava"	"Platja de l'Almadrava"							"relation"	"  2154204"		"{'name': \"Platja de l'Almadrava\", 'natural': 'beach', 'surface': 'sand', 'type': 'multipolygon'}"

@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Bosc Gran del Criac"	"Bosc Gran del Criac"							"node"	"1241548277"		"{'name': 'Bosc Gran del Criac', 'place': 'locality'}"
+"Castell de Sant Miquel"	"Castell de Sant Miquel"							"node"	"5835994956"		"{'beds': '8', 'name': 'Castell de Sant Miquel', 'tourism': 'chalet', 'website': 'https://ruralverd.com/es/ref-34116'}"
+"Mas Salavert"	"Mas Salavert"							"relation"	"   7478058"		"{'landuse': 'farmyard', 'name': 'Mas Salavert', 'type': 'multipolygon'}"

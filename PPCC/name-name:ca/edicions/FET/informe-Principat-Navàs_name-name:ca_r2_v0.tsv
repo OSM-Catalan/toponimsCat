@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Navàs"	"Ajuntament de Navàs"							"node"	"3817134403"		"{'amenity': 'townhall', 'name': 'Ajuntament de Navàs'}"
+"Bosc dels Olivers"	"Bosc dels Olivers"							"node"	"1241558070"		"{'name': 'Bosc dels Olivers', 'place': 'locality'}"
+"Castell de Solivella"	"Castell de Solivella"							"way"	" 421002408"		"{'building': 'yes', 'historic': 'castle', 'name': 'Castell de Solivella'}"
+"Castell Vell de Torroella"	"Castell Vell de Torroella"							"node"	"9087837860"		"{'historic': 'castle', 'name': 'Castell Vell de Torroella'}"
+"Mas Bigorra"	"Mas Bigorra"							"node"	"7492708136"		"{'name': 'Mas Bigorra', 'place': 'isolated_dwelling'}"
+"Mas del Munt"	"Mas del Munt"							"node"	"7527369321"		"{'name': 'Mas del Munt', 'place': 'isolated_dwelling'}"

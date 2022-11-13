@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Mas de Mir"	"Mas de Mir"							"node"	"1242364120"		"{'name': 'Mas de Mir', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011', 'source:file': 'http://centrodedescargas.cnig.es/CentroDescargas/equipamiento/NGBE_de_caracter_Provisional.zip', 'source:name': 'Nomenclator Geográfico Básico de España'}"
+"Mas Nou"	"Mas Nou"							"node"	"1242369519"		"{'name': 'Mas Nou', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011', 'source:file': 'http://centrodedescargas.cnig.es/CentroDescargas/equipamiento/NGBE_de_caracter_Provisional.zip', 'source:name': 'Nomenclator Geográfico Básico de España'}"
+"Riu Bergantes"	"Riu Bergantes"			"Riu Bergantes, Bergantes"	"Riu Bergantes"	"river"	"Q3571455"	"way"	" 158005657"		"{'name': 'Riu Bergantes', 'waterway': 'river', 'wikidata': 'Q3571455', 'wikipedia': 'ca:Riu Bergantes'}"

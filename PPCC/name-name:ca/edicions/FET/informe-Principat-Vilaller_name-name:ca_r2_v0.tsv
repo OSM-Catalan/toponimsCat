@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Vilaller"	"Ajuntament de Vilaller"							"way"	" 231685062"		"{'amenity': 'townhall', 'building': 'yes', 'name': 'Ajuntament de Vilaller'}"
+"Bosc de Castellars"	"Bosc de Castellars"							"node"	"1241637991"		"{'name': 'Bosc de Castellars', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Bosc de Meluana"	"Bosc de Meluana"							"node"	"1241649193"		"{'name': 'Bosc de Meluana', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Bosc de Montorroi"	"Bosc de Montorroi"							"node"	"1241631760"		"{'name': 'Bosc de Montorroi', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Bosc del Bardalet"	"Bosc del Bardalet"							"node"	"1241609670"		"{'name': 'Bosc del Bardalet', 'natural': 'wood', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Bosc Negre"	"Bosc Negre"							"node"	"1241647598"		"{'name': 'Bosc Negre', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

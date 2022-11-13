@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Masdenverge"	"Ajuntament de Masdenverge"							"way"	" 178296615"		"{'amenity': 'townhall', 'building': 'yes', 'name': 'Ajuntament de Masdenverge', 'website': 'www.masdenverge.cat'}"
+"Mas de Sant Pau"	"Mas de Sant Pau"			"Mas de Sant Pau (Masdenverge), Mas de Sant Pau"	"Mas de Sant Pau (Masdenverge)"	"masia"	"Q18004448"	"way"	"1016177968"		"{'building': 'yes', 'building:levels': '3', 'historic': 'building', 'name': 'Mas de Sant Pau', 'wikidata': 'Q18004448', 'wikipedia': 'ca:Mas de Sant Pau (Masdenverge)'}"

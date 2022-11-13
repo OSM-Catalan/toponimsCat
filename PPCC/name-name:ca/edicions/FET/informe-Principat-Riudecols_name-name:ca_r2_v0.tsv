@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Riudecols"	"Ajuntament de Riudecols"							"way"	" 884054368"		"{'amenity': 'townhall', 'building': 'public', 'name': 'Ajuntament de Riudecols'}"
+"Bosc de Mas d'en Comte"	"Bosc de Mas d'en Comte"							"node"	"1241771461"		"{'name': \"Bosc de Mas d'en Comte\", 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Bosc Gran de Mas d'en Cabrer"	"Bosc Gran de Mas d'en Cabrer"							"node"	"7701800278"		"{'name': \"Bosc Gran de Mas d'en Cabrer\", 'natural': 'wood'}"
+"Mas d'en Fum"	"Mas d'en Fum"							"node"	"7701800276"		"{'name': \"Mas d'en Fum\", 'place': 'isolated_dwelling'}"
+"Mas De La Girada"	"Mas De La Girada"							"way"	"1005879776"		"{'name': 'Mas De La Girada', 'place': 'isolated_dwelling'}"
+"Mas de Linus"	"Mas de Linus"							"way"	"1005879772"		"{'name': 'Mas de Linus', 'place': 'isolated_dwelling'}"

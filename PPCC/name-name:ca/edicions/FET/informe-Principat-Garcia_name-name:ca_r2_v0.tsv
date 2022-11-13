@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Castell de Garcia ( runes )"	"Castell de Garcia ( runes )"							"node"	"2635635328"		"{'historic': 'castle', 'name': 'Castell de Garcia ( runes )'}"
+"Castell de Garcia ( runes )"	"Castell de Garcia ( runes )"							"way"	" 258455102"		"{'historic': 'ruins', 'name': 'Castell de Garcia ( runes )'}"
+"Mas del Ponet"	"Mas del Ponet"							"way"	" 937553244"		"{'historic': 'ruins', 'name': 'Mas del Ponet'}"
+"Riu de Siurana"	"Riu de Siurana"			"Siurana (riu), riu de Siurana, Riu Siurana, Riu de Siurana"	"Siurana (riu)"	"river"	"Q9072124"	"way"	" 375122429"		"{'name': 'Riu de Siurana', 'waterway': 'river', 'wikidata': 'Q9072124', 'wikipedia': 'ca:Riu de Siurana'}"

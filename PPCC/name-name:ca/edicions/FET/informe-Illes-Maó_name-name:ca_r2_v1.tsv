@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Hort de Matxani"	"Hort de Matxani"							"node"	"5330129039"		"{'name': 'Hort de Matxani'}"
+"Hort de Sant Joan"	"Hort de Sant Joan"							"node"	"1242610781"		"{'name': 'Hort de Sant Joan', 'place': 'locality'}"
+"Platja d’en Tortuga"	"Platja d’en Tortuga"	"Arenal de Morella"	"Arenal de Morella"	"Cala Tortuga"	"Cala Tortuga"	"beach"	"Q16182662"	"relation"	"   1600892"	"name:es=Playa de Tortuga"	"{'alt_name': 'Arenal de Morella', 'name': 'Platja d’en Tortuga', 'name:es': 'Playa de Tortuga', 'natural': 'beach', 'surface': 'sand', 'type': 'multipolygon', 'wikidata': 'Q16182662'}"
+"Platja des Sivinar"	"Platja des Sivinar"							"relation"	"   1600030"		"{'name': 'Platja des Sivinar', 'natural': 'beach', 'type': 'multipolygon'}"
+"Platja es Grau"	"Platja es Grau"							"way"	"  74001824"		"{'name': 'Platja es Grau', 'natural': 'beach', 'source': 'ideib.cat'}"
+"Platja es Grau"	"Platja es Grau"							"way"	"  74001831"		"{'name': 'Platja es Grau', 'natural': 'beach', 'source': 'ideib.cat'}"

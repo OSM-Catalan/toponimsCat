@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Premià de Mar"	"Ajuntament de Premià de Mar"							"way"	"35705154"		"{'amenity': 'townhall', 'building': 'yes', 'name': 'Ajuntament de Premià de Mar'}"
+"Platja de la Descàrrega"	"Platja de la Descàrrega"							"relation"	" 2154200"		"{'name': 'Platja de la Descàrrega', 'natural': 'beach', 'surface': 'sand', 'type': 'multipolygon'}"
+"Platja de Llevant"	"Platja de Llevant"							"relation"	" 2154196"		"{'name': 'Platja de Llevant', 'natural': 'beach', 'surface': 'sand', 'type': 'multipolygon'}"
+"Platja de Ponent"	"Platja de Ponent"							"relation"	" 2154197"		"{'name': 'Platja de Ponent', 'natural': 'beach', 'surface': 'sand', 'type': 'multipolygon'}"
+"Platja del Bellamar"	"Platja del Bellamar"							"relation"	" 2154201"		"{'name': 'Platja del Bellamar', 'natural': 'beach', 'surface': 'sand', 'type': 'multipolygon'}"
+"Platja del Pla de l'Os"	"Platja del Pla de l'Os"							"relation"	" 2154202"		"{'name': \"Platja del Pla de l'Os\", 'natural': 'beach', 'surface': 'sand', 'type': 'multipolygon'}"

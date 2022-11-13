@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Foradada"	"Ajuntament de Foradada"							"node"	"1993626905"		"{'amenity': 'townhall', 'name': 'Ajuntament de Foradada'}"
+"Castell de Montsonís"	"Castell de Montsonís"			"Castell de Montsonís"	"Castell de Montsonís"	"castle"	"Q11913065"	"way"	" 406241881"		"{'building': 'yes', 'historic': 'castle', 'name': 'Castell de Montsonís', 'wikidata': 'Q11913065', 'wikipedia': 'ca:Castell de Montsonís'}"
+"Riu Senill"	"Riu Senill"							"way"	" 209587049"		"{'name': 'Riu Senill', 'waterway': 'stream'}"

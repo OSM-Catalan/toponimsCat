@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Vilanova d'Escornalbou"	"Ajuntament de Vilanova d'Escornalbou"							"way"	" 663596050"		"{'amenity': 'townhall', 'name': \"Ajuntament de Vilanova d'Escornalbou\"}"
+"Hort dels frares"	"Hort dels frares"							"node"	"8608134051"		"{'leisure': 'park', 'name': 'Hort dels frares'}"
+"Mas Artigues"	"Mas Artigues"							"node"	"6370078483"		"{'building': 'ruins', 'name': 'Mas Artigues'}"
+"Mas del Frare"	"Mas del Frare"							"node"	"7262846703"		"{'name': 'Mas del Frare', 'place': 'isolated_dwelling'}"
+"Mas del Madró"	"Mas del Madró"							"node"	"6370078385"		"{'name': 'Mas del Madró', 'place': 'isolated_dwelling'}"
+"Mas del Triquixol"	"Mas del Triquixol"							"node"	"4579817488"		"{'name': 'Mas del Triquixol', 'place': 'isolated_dwelling'}"

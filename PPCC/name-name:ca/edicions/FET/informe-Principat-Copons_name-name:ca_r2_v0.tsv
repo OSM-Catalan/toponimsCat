@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Copons"	"Ajuntament de Copons"							"way"	" 866398256"		"{'amenity': 'townhall', 'building': 'public', 'name': 'Ajuntament de Copons'}"
+"Bosc de Cal Carreres"	"Bosc de Cal Carreres"							"node"	"7291453598"		"{'name': 'Bosc de Cal Carreres', 'place': 'locality'}"
+"Hort d'en Sala"	"Hort d'en Sala"							"node"	"8715131039"		"{'name': \"Hort d'en Sala\", 'place': 'locality'}"
+"Mas Lloretó"	"Mas Lloretó"							"node"	"5615144596"		"{'name': 'Mas Lloretó', 'place': 'isolated_dwelling'}"
+"Riu Anoia"	"Riu Anoia"			"Riu Anoia, L'Anoia (riu)"	"Riu Anoia"	"watercourse"	"Q567513"	"way"	" 231462076"		"{'boat': 'no', 'name': 'Riu Anoia', 'waterway': 'river', 'wikidata': 'Q567513', 'wikipedia': 'ca:Riu Anoia'}"

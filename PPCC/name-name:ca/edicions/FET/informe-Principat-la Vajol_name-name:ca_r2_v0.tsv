@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de la Vajol"	"Ajuntament de la Vajol"							"relation"	"  2970693"		"{'amenity': 'townhall', 'building': 'yes', 'contact:phone': '972535325', 'contact:website': 'http://ca.lavajol.cat/', 'name': 'Ajuntament de la Vajol', 'type': 'multipolygon'}"
+"Mas del Coll"	"Mas del Coll"							"way"	"206524411"		"{'building': 'yes', 'name': 'Mas del Coll', 'source': 'visual survey'}"
+"Riu de la Guilla"	"Riu de la Guilla"							"way"	"525909476"		"{'name': 'Riu de la Guilla', 'source': 'Institut Cartogràfic de Catalunya, cartografia 1:5.000', 'source:date': '2011-10', 'waterway': 'stream'}"

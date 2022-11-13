@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Calders"	"Ajuntament de Calders"							"way"	"  45659469"		"{'amenity': 'townhall', 'building': 'yes', 'name': 'Ajuntament de Calders'}"
+"Bosc del Serra"	"Bosc del Serra"							"node"	"7321470874"		"{'name': 'Bosc del Serra', 'natural': 'wood'}"
+"Horts del Castell"	"Horts del Castell"							"node"	"7327938155"		"{'name': 'Horts del Castell', 'place': 'locality'}"

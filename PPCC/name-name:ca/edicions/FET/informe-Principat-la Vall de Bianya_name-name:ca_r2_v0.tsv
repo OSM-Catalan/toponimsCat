@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de la Vall de Bianya"	"Ajuntament de la Vall de Bianya"							"way"	" 511648364"		"{'addr:city': \"L'Hostalnou de Bianya\", 'addr:housenumber': '2', 'addr:postcode': '17813', 'addr:street': 'Carretera Olot-Ripoll', 'amenity': 'townhall', 'building': 'yes', 'contact:phone': '+34 972 29 09 33', 'contact:website': 'http://ajuntament.valldebianya.org/', 'name': 'Ajuntament de la Vall de Bianya'}"
+"Bosc Torrentmitjà"	"Bosc Torrentmitjà"							"way"	" 747238293"		"{'landuse': 'forest', 'leaf_type': 'mixed', 'name': 'Bosc Torrentmitjà', 'natural': 'wood'}"
+"Mas de l'Om"	"Mas de l'Om"							"node"	"1892861303"		"{'building': 'residential', 'name': \"Mas de l'Om\"}"
+"Mas Prat"	"Mas Prat"							"way"	" 738302049"		"{'addr:city': 'La Vall de Bianya', 'addr:postcode': '17813', 'addr:street': 'Mas Prat', 'building': 'house', 'name': 'Mas Prat', 'nohousenumber': 'yes'}"

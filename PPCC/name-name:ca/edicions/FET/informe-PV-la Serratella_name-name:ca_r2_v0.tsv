@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de la Serratella"	"Ajuntament de la Serratella"							"node"	"3037109620"		"{'amenity': 'townhall', 'name': 'Ajuntament de la Serratella'}"
+"mas d'en Rasos"	"mas d'en Rasos"							"way"	" 919114921"		"{'building': 'yes', 'name': \"mas d'en Rasos\"}"
+"Mas de Custodi"	"Mas de Custodi"							"node"	"9418811757"		"{'name': 'Mas de Custodi', 'place': 'isolated_dwelling'}"
+"Mas de Pere"	"Mas de Pere"							"way"	"1021218710"		"{'building': 'detached', 'name': 'Mas de Pere'}"
+"Mas de Villalonga"	"Mas de Vilallonga"							"node"	"9418811454"		"{'name': 'Mas de Villalonga', 'place': 'isolated_dwelling'}"
+"Mas del Corralet"	"Mas del Corralet"							"way"	"1021218736"		"{'building': 'detached', 'name': 'Mas del Corralet'}"

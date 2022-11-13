@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Montanui"	"Ajuntament de Montanui"							"way"	" 283423101"		"{'building': 'office', 'name': 'Ajuntament de Montanui'}"
+"Bosc de Casterner"	"Bosc de Casterner"							"node"	"1241893122"		"{'name': 'Bosc de Casterner', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Riu Baliera"	"Riu Baliera"							"way"	" 458898353"		"{'name': 'Riu Baliera', 'waterway': 'river'}"
+"Riu de Llauset"	"Riu de Llauset"							"way"	" 283160722"		"{'intermittent': 'yes', 'name': 'Riu de Llauset', 'waterway': 'stream'}"
+"Riu de Llauset"	"Riu de Llauset"							"way"	" 997030668"		"{'intermittent': 'yes', 'layer': '-1', 'name': 'Riu de Llauset', 'tunnel': 'yes', 'waterway': 'stream'}"

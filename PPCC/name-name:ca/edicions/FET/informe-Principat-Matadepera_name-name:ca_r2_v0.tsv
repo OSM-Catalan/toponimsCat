@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Castell Nou"	"Castell Nou"							"node"	"9580310908"		"{'access': 'permissive', 'fee': 'no', 'name': 'Castell Nou', 'natural': 'cave_entrance'}"
+"Hort dels Monjos"	"Hort dels Monjos"							"way"	" 168688052"		"{'name': 'Hort dels Monjos', 'natural': 'heigths'}"
+"Mas Cellers"	"Mas Cellers"							"way"	" 671859497"		"{'building': 'yes', 'name': 'Mas Cellers'}"
+"Mas Sot"	"Mas Sot"							"node"	"6472101903"		"{'name': 'Mas Sot', 'place': 'neighbourhood'}"

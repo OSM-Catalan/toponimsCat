@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Hort de Can Roig"	"Hort de Can Roig"	"L'Hort de Can Roig"	"L'Hort de Can Roig"					"way"	" 521304592"		"{'addr:city': 'Pollença', 'addr:country': 'ES', 'addr:island': 'Mallorca', 'addr:street': 'Camí de la Font del Mal Any', 'alt_name': \"L'Hort de Can Roig\", 'beds': '6', 'building': 'yes', 'contact:website': 'https://www.rent-a-finca.de/fincas/lhort-de-can-roig/', 'name': 'Hort de Can Roig', 'ref': 'VTV 0480 BAL', 'tourism': 'chalet', 'website': 'https://contacto-mallorca.de/can-roig'}"
+"Hort de Llinars"	"Hort de Llinars"							"way"	" 464790995"		"{'building': 'yes', 'name': 'Hort de Llinars'}"
+"Hort de Pollença"	"Hort de Pollença"							"node"	"1242611466"		"{'name': 'Hort de Pollença', 'place': 'locality'}"
+"hort de Sant Vicenç"	"hort de Sant Vicenç"							"way"	" 398001206"		"{'building': 'house', 'name': 'hort de Sant Vicenç'}"
+"platja del Port de Pollença"	"platja del Port de Pollença"							"way"	"  41424650"	"name:es=Playa del Puerto de Pollensa"	"{'name': 'platja del Port de Pollença', 'name:es': 'Playa del Puerto de Pollensa', 'natural': 'beach'}"

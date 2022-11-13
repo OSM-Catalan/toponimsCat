@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Vidreres"	"Ajuntament de Vidreres"							"way"	"851696277"		"{'amenity': 'townhall', 'building': 'service', 'contact:website': 'https://vidreres.cat/', 'name': 'Ajuntament de Vidreres'}"
+"Bosc d'en Puig"	"Bosc d'en Puig"							"way"	"174744656"		"{'landuse': 'forest', 'name': \"Bosc d'en Puig\"}"
+"Mas Flassià"	"Mas Flassià"							"way"	"851942877"		"{'leisure': 'pitch', 'name': 'Mas Flassià', 'sport': 'soccer', 'surface': 'ground'}"
+"Mas Rajoler"	"Mas Rajoler"							"way"	"856113463"		"{'building': 'house', 'name': 'Mas Rajoler'}"
+"Mas Soler"	"Mas Soler"			"Mas Soler"		"masia"	"Q104762803"	"way"	"856084133"		"{'building': 'house', 'name': 'Mas Soler', 'wikidata': 'Q104762803'}"
+"Mas Xicu Fullà"	"Mas Xicu Fullà"							"way"	"852489260"		"{'building': 'house', 'name': 'Mas Xicu Fullà'}"

@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Vilassar de Dalt"	"Ajuntament de Vilassar de Dalt"							"way"	" 864606078"		"{'amenity': 'townhall', 'building': 'public', 'building:levels': '3', 'name': 'Ajuntament de Vilassar de Dalt'}"
+"Bosc de Ca l'Isidret"	"Bosc de Ca l'Isidret"							"node"	"5592368093"		"{'name': \"Bosc de Ca l'Isidret\", 'natural': 'wood'}"
+"Castell de Pedra"	"Castell de Pedra"							"node"	"6868310336"		"{'name': 'Castell de Pedra', 'natural': 'cave_entrance'}"

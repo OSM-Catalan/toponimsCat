@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de la Torre de les Maçanes"	"Ajuntament de la Torre de les Maçanes"							"node"	"7161009129"	"name:es=Ayuntamiento de Torremanzanas"	"{'addr:city': 'la Torre de les Maçanes / Torremanzanas', 'addr:housenumber': '5', 'addr:postcode': '03108', 'addr:street': 'Avinguda d’Espanya', 'amenity': 'townhall', 'email': 'torremanzanas@torremanzanas.es', 'name': 'Ajuntament de la Torre de les Maçanes', 'name:es': 'Ayuntamiento de Torremanzanas', 'phone': '+34 965 61 93 86', 'townhall:type': 'village', 'website': 'http://www.torremanzanas.es/'}"
+"Mas Pla Verd"	"Mas Pla Verd"							"node"	"1242135741"		"{'name': 'Mas Pla Verd', 'place': 'locality'}"
+"Riu Amadòrio"	"Riu Amadòrio"		"Riu de la Vila"	"Riu de la Vila, Riu Amadòrio, Amadorio, Riu Amadorio, Riu Amadório, Amadòrio"	"Riu de la Vila"	"river"	"Q8196976"	"way"	" 724673467"		"{'intermittent': 'yes', 'name': 'Riu Amadòrio', 'waterway': 'river', 'wikidata': 'Q8196976', 'wikipedia': 'ca:Riu de la Vila'}"
+"Riu de la Serra"	"Riu de la Serra"							"way"	" 724673469"		"{'intermittent': 'yes', 'name': 'Riu de la Serra', 'waterway': 'stream'}"
+"Riu de la Torre"	"Riu de la Torre"							"way"	" 425556897"		"{'intermittent': 'yes', 'name': 'Riu de la Torre', 'waterway': 'stream'}"

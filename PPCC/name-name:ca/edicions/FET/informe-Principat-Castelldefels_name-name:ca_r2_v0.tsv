@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Castelldefels"	"Ajuntament de Castelldefels"							"way"	" 222860555"		"{'amenity': 'townhall', 'building': 'public', 'name': 'Ajuntament de Castelldefels'}"
+"Platja de Castelldefels"	"Platja de Castelldefels"							"node"	"1066621087"		"{'name': 'Platja de Castelldefels', 'public_transport': 'stop_position', 'railway': 'stop', 'ref': '1', 'train': 'yes'}"
+"Platja de Castelldefels"	"Platja de Castelldefels"							"node"	"3901852123"		"{'name': 'Platja de Castelldefels', 'public_transport': 'stop_position', 'railway': 'stop', 'ref': '2', 'train': 'yes'}"
+"Platja de Castelldefels"	"Platja de Castelldefels"							"relation"	"   2161926"	"name:es=Playa de Castelldefels"	"{'lifeguard': 'no', 'name': 'Platja de Castelldefels', 'name:es': 'Playa de Castelldefels', 'natural': 'beach', 'surface': 'sand', 'type': 'multipolygon'}"
+"Platja de Castelldefels"	"Platja de Castelldefels"							"relation"	"   7869366"		"{'name': 'Platja de Castelldefels', 'network': 'Rodalies de Catalunya (ATM Barcelona)', 'operator': 'Adif', 'public_transport': 'stop_area', 'type': 'public_transport'}"
+"Platja del Baixador 09"	"Platja del Baixador 09"							"node"	"6497296897"		"{'information': 'board', 'name': 'Platja del Baixador 09', 'tourism': 'information'}"

@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Pineda de Mar"	"Ajuntament de Pineda de Mar"							"way"	"799186279"		"{'addr:city': 'Pineda de Mar', 'addr:housenumber': '1', 'addr:postcode': '08397', 'addr:street': 'Plaça de Catalunya', 'amenity': 'townhall', 'building': 'yes', 'email': 'ajuntament@pinedademar.cat', 'name': 'Ajuntament de Pineda de Mar', 'website': 'https://www.pinedademar.cat/'}"
+"Castell de Montpalau"	"Castell de Montpalau"			"Castell de Montpalau, castell de Montpalau"	"Castell de Montpalau"	"castle"	"Q8342479"	"way"	"218641385"		"{'historic': 'ruins', 'name': 'Castell de Montpalau', 'wikidata': 'Q8342479', 'wikipedia': 'ca:Castell de Montpalau'}"
+"Platja de la Riera"	"Platja de la Riera"							"relation"	"  9761379"		"{'name': 'Platja de la Riera', 'natural': 'beach', 'nudism': 'yes', 'surface': 'sand', 'type': 'multipolygon'}"
+"Platja del Poblenou"	"Platja del Poblenou"							"relation"	"  9761378"		"{'dog': 'yes', 'name': 'Platja del Poblenou', 'natural': 'beach', 'type': 'multipolygon'}"
+"Platja dels Pescadors"	"Platja dels Pescadors"							"relation"	"  9761380"		"{'name': 'Platja dels Pescadors', 'natural': 'beach', 'type': 'multipolygon'}"
+"Platja dels Pins"	"Platja dels Pins"							"relation"	"  9761381"		"{'name': 'Platja dels Pins', 'natural': 'beach', 'nudism': 'yes', 'type': 'multipolygon'}"

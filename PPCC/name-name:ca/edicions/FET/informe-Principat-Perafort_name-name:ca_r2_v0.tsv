@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Perafort"	"Ajuntament de Perafort"							"node"	"2088793585"		"{'addr:city': 'Perafort', 'addr:housenumber': '7-11', 'addr:postcode': '43152', 'addr:street': 'Carrer Nou', 'amenity': 'townhall', 'email': 'ajuntament@perafort.com', 'fax': '+34 977 61 00 27', 'name': 'Ajuntament de Perafort', 'phone': '+34 977 62 50 06', 'website': 'http://www.perafort.com'}"
+"Bosc del Castellot"	"Bosc del Castellot"							"node"	"1241765340"		"{'name': 'Bosc del Castellot', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Mas de Pallarès"	"Mas de Pallarès"							"node"	"7593636702"		"{'name': 'Mas de Pallarès', 'place': 'isolated_dwelling'}"

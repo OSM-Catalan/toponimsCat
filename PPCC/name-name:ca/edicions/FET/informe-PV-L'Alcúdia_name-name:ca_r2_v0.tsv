@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Hort de Manus"	"Hort de Manus"							"way"	" 881996310"		"{'building': 'yes', 'name': 'Hort de Manus'}"
+"Riu Magre"	"Riu Magre"							"way"	" 184360586"		"{'name': 'Riu Magre', 'waterway': 'river'}"
+"Riu Rau"	"Riu Rau"							"node"	"1243367660"		"{'name': 'Riu Rau', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Riu Sec"	"Riu Sec"							"way"	" 550963532"		"{'intermittent': 'yes', 'name': 'Riu Sec', 'waterway': 'river'}"

@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Carrer del Ribet"	"Carrer del Ribet"							"way"	"209683114"		"{'highway': 'living_street', 'name': 'Carrer del Ribet', 'oneway': 'no', 'surface': 'asphalt'}"
+"Platja Natural del Prat"	"Platja Natural del Prat"							"relation"	"  2169002"		"{'name': 'Platja Natural del Prat', 'natural': 'beach', 'surface': 'sand', 'type': 'multipolygon'}"

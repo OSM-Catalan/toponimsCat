@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Castell d'Almenara"	"Castell d'Almenara"							"relation"	"   6632003"		"{'building': 'yes', 'historic': 'castle', 'layer': '1', 'name': \"Castell d'Almenara\", 'ruins': 'yes', 'type': 'multipolygon'}"
+"Plaça del Lorito"	"Ajuntament d'Almenara"							"way"	" 165313840"		"{'access': 'yes', 'foot': 'yes', 'leisure': 'park', 'motor_vehicle': 'no', 'name': 'Plaça del Lorito'}"
+"Platja d'Almenara - Casablanca"	"Platja d'Almenara - Casablanca"							"node"	"2063696000"		"{'ele': '2', 'name': \"Platja d'Almenara - Casablanca\", 'place': 'suburb', 'population': '775', 'population:date': '2009', 'ref:ine': '12011000200', 'source': 'Instituto Geográfico Nacional', 'source:date': '2011-06', 'source:ele': 'MDT5', 'source:name': 'Nomenclátor Geográfico de Municipios y Entidades de Población'}"

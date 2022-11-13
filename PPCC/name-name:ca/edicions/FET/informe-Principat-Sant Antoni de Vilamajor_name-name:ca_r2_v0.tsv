@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Sant Antoni de Vilamajor"	"Ajuntament de Sant Antoni de Vilamajor"							"way"	" 753874907"		"{'addr:city': 'Sant Antoni de Vilamajor', 'addr:housenumber': '5', 'addr:postcode': '08459', 'addr:street': 'Plaça del Montseny', 'amenity': 'townhall', 'building': 'yes', 'name': 'Ajuntament de Sant Antoni de Vilamajor'}"
+"Bosc d'en Marçal"	"Bosc d'en Marçal"							"node"	"5591121477"		"{'name': \"Bosc d'en Marçal\", 'natural': 'wood'}"
+"Bosc de Can Cucurella"	"Bosc de Can Cucurella"							"node"	"5591121505"		"{'name': 'Bosc de Can Cucurella', 'natural': 'wood'}"
+"Bosc de Can Móra"	"Bosc de Can Móra"							"node"	"5591071557"		"{'name': 'Bosc de Can Móra', 'natural': 'wood'}"
+"Bosc de Can Pungol"	"Bosc de Can Pungol"							"node"	"5591121464"		"{'name': 'Bosc de Can Pungol', 'natural': 'wood'}"
+"Hort de Can Garbat"	"Hort de Can Garbat"							"node"	"5591121449"		"{'name': 'Hort de Can Garbat'}"

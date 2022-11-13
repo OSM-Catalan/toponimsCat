@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Vallclara"	"Ajuntament de Vallclara"							"way"	" 885142404"		"{'amenity': 'townhall', 'building': 'public', 'building:levels': '3', 'name': 'Ajuntament de Vallclara'}"
+"Mas de l'Anglès"	"Mas de l'Anglès"							"node"	"4858018230"		"{'historic': 'ruins', 'name': \"Mas de l'Anglès\"}"
+"Mas de la Llana"	"Mas de la Llana"							"node"	"4508840062"		"{'building': 'yes', 'name': 'Mas de la Llana'}"
+"Riu de Milans"	"Riu de Milans"							"way"	" 149950483"		"{'name': 'Riu de Milans', 'waterway': 'river'}"

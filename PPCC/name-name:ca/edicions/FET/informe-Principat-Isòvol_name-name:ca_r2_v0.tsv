@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Bosc de la Serra del Mas"	"Bosc de la Serra del Mas"							"node"	"1241583207"		"{'name': 'Bosc de la Serra del Mas', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Mas del Revellat"	"Mas del Revellat"							"way"	" 702494316"		"{'building': 'yes', 'name': 'Mas del Revellat'}"
+"Riu Duran"	"Riu Duran"			"Riu Duran"	"Riu Duran"	"river"	"Q110686840"	"way"	" 154030661"		"{'name': 'Riu Duran', 'waterway': 'river', 'wikidata': 'Q110686840', 'wikipedia': 'ca:Riu Duran'}"

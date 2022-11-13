@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Jorba"	"Ajuntament de Jorba"							"way"	" 866398257"		"{'amenity': 'townhall', 'building': 'public', 'name': 'Ajuntament de Jorba'}"
+"Castell de Jorba"	"Castell de Jorba"			"Castell de Jorba, castell de Jorba"	"Castell de Jorba"	"castle"	"Q8342361"	"node"	"5602391964"		"{'historic': 'castle', 'name': 'Castell de Jorba', 'ruins': 'yes', 'wikidata': 'Q8342361', 'wikipedia': 'ca:Castell de Jorba'}"
+"Castell de Jorba"	"Castell de Jorba"							"node"	"6298814779"		"{'information': 'board', 'name': 'Castell de Jorba', 'tourism': 'information'}"
+"Mas Caçà"	"Mas Caçà"							"node"	"8190448774"		"{'name': 'Mas Caçà', 'place': 'isolated_dwelling'}"
+"Riu Anoia"	"Riu Anoia"			"Riu Anoia, L'Anoia (riu)"	"Riu Anoia"	"watercourse"	"Q567513"	"way"	" 231462076"		"{'boat': 'no', 'name': 'Riu Anoia', 'waterway': 'river', 'wikidata': 'Q567513', 'wikipedia': 'ca:Riu Anoia'}"

@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Bosc del Companys"	"Bosc del Companys"							"way"	" 245217438"		"{'name': 'Bosc del Companys', 'natural': 'wood'}"
+"Bosc del Miró"	"Bosc del Miró"							"way"	" 249199581"		"{'name': 'Bosc del Miró', 'natural': 'wood'}"
+"Mas de les Cases"	"Mas de les Cases"							"node"	"2467810143"		"{'name': 'Mas de les Cases', 'place': 'isolated_dwelling'}"
+"Mas del Camatxo"	"Mas del Camatxo"							"node"	"2526669456"		"{'name': 'Mas del Camatxo', 'place': 'isolated_dwelling'}"
+"Mas del Vega"	"Mas del Vega"							"node"	"2526704600"		"{'building': 'residential', 'name': 'Mas del Vega'}"
+"Riu Ondara"	"Riu Ondara"			"Riu Ondara"	"Riu Ondara"	"watercourse"	"Q11945712"	"way"	" 180438585"		"{'name': 'Riu Ondara', 'waterway': 'river', 'wikidata': 'Q11945712', 'wikipedia': 'ca:Riu Ondara'}"

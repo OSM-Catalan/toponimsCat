@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Balsareny"	"Ajuntament de Balsareny"							"way"	" 445625419"		"{'amenity': 'townhall', 'building': 'yes', 'name': 'Ajuntament de Balsareny', 'website': 'https://www.balsareny.cat/'}"
+"Horts Vells"	"Horts Vells"							"node"	"7714312708"		"{'name': 'Horts Vells', 'place': 'locality'}"
+"Mas Collades"	"Mas Collades"							"node"	"9026955089"		"{'name': 'Mas Collades', 'tourism': 'guest_house', 'website': 'https://www.airbnb.com/rooms/42886814'}"
+"Mas de les Claperoses"	"Mas de les Claperoses"							"node"	"6452869346"		"{'name': 'Mas de les Claperoses', 'place': 'isolated_dwelling'}"
+"Mas Torres de Vilamajor"	"Mas Torres de Vilamajor"							"node"	"6452850669"		"{'name': 'Mas Torres de Vilamajor', 'place': 'isolated_dwelling'}"
+"Mas Tosquer"	"Mas Tosquer"							"way"	" 650038134"		"{'building': 'ruins', 'name': 'Mas Tosquer'}"

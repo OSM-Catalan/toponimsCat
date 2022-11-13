@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de l'Espluga Calba"	"Ajuntament de l'Espluga Calba"							"way"	"884296807"		"{'amenity': 'townhall', 'building': 'public', 'name': \"Ajuntament de l'Espluga Calba\"}"
+"Mas Blanc"	"Mas Blanc"							"node"	"948712280"		"{'ele': '536.30', 'ign:latitud': '41.4702128347850021', 'ign:longitud': '0.9868925010200000', 'ign:red': 'Red Geodesica Nacional Convencional (ROI)', 'man_made': 'survey_point', 'name': 'Mas Blanc', 'note': 'This is a point from an official geodetic network. Use it as a reference, but do NOT move it.', 'ref': '41758', 'source': 'Instituto Geográfico Nacional', 'source:ref': 'ftp://ftp.geodesia.ign.es'}"

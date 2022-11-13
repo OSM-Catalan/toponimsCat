@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Vilaür"	"Ajuntament de Vilaür"							"node"	"5596282460"		"{'addr:housenumber': '5', 'addr:place': 'Vilaür', 'addr:postcode': '17483', 'addr:street': 'Plaça Major', 'amenity': 'townhall', 'contact:phone': '+34 972 794 575', 'contact:website': 'http://www.vilaur.cat/', 'name': 'Ajuntament de Vilaür', 'opening_hours': 'Mo, We 11:00-13:00'}"
+"Bosc de les Closelles"	"Bosc de les Closelles"							"node"	"1241594476"		"{'name': 'Bosc de les Closelles', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Bosc de Vilaür"	"Bosc de Vilaür"							"node"	"1241589737"		"{'name': 'Bosc de Vilaür', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Mas Gual"	"Mas Gual"							"way"	" 655646538"		"{'building': 'yes', 'name': 'Mas Gual'}"
+"Mas Pou"	"Mas Pou"							"way"	" 655878352"		"{'building': 'yes', 'name': 'Mas Pou'}"
+"Riu Fluvià"	"Riu Fluvià"			"Fluvià"	"Fluvià"	"river"	"Q31551"	"way"	" 370599798"		"{'boat': 'no', 'name': 'Riu Fluvià', 'waterway': 'river', 'wikidata': 'Q31551', 'wikipedia': 'ca:Fluvià'}"

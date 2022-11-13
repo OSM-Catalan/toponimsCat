@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Biure"	"Ajuntament de Biure"							"node"	"5126915330"		"{'addr:city': 'Biure', 'addr:housenumber': '3', 'addr:postcode': '17723', 'addr:street': 'Carrer Nou', 'amenity': 'townhall', 'contact:phone': '+34 972 529 291', 'name': 'Ajuntament de Biure', 'opening_hours': 'Mo, We 18:00-20:00', 'website': 'http://www.biure.cat'}"
+"Mas dels Tossols"	"Mas dels Tossols"							"way"	" 189194598"		"{'building': 'yes', 'name': 'Mas dels Tossols'}"

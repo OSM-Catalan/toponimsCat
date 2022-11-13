@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Santa Maria de Martorelles"	"Ajuntament de Santa Maria de Martorelles"							"way"	" 864606083"		"{'amenity': 'townhall', 'building': 'public', 'building:levels': '4', 'name': 'Ajuntament de Santa Maria de Martorelles'}"
+"Bosc d'en Mates"	"Bosc d'en Mates"							"node"	"1241566722"		"{'name': \"Bosc d'en Mates\", 'place': 'locality'}"
+"Bosc de Ca n'Oliver"	"Bosc de Ca n'Oliver"							"node"	"1241553735"		"{'name': \"Bosc de Ca n'Oliver\", 'place': 'locality'}"
+"Bosc de Can Roda"	"Bosc de Can Roda"							"node"	"1241549567"		"{'name': 'Bosc de Can Roda', 'place': 'locality'}"

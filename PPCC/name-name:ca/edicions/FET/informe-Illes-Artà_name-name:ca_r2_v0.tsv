@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament (La Sala)"	"Ajuntament (La Sala)"							"way"	" 243224258"		"{'amenity': 'townhall', 'building': 'yes', 'name': 'Ajuntament (La Sala)'}"
+"Bosc des Callers"	"Bosc des Callers"							"node"	"1242631931"		"{'name': 'Bosc des Callers', 'place': 'locality'}"
+"hort de Morell"	"hort de Morell"							"way"	" 969463589"		"{'building': 'ruins', 'name': 'hort de Morell'}"
+"Hort des Bril"	"Hort des Bril"							"node"	"3589336524"		"{'name': 'Hort des Bril', 'place': 'locality'}"
+"Horts Vells"	"Horts Vells"							"node"	"1242622196"		"{'name': 'Horts Vells', 'place': 'locality'}"
+"Platja Colònia de Sant Pere"	"Platja Colònia de Sant Pere"							"way"	" 122498791"		"{'name': 'Platja Colònia de Sant Pere', 'natural': 'beach'}"

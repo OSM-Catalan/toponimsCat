@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Bosc Gran"	"Bosc Gran"							"node"	"1241680455"		"{'name': 'Bosc Gran', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Mas d'en Torres"	"Mas d'en Torres"							"node"	"2589002702"		"{'name': \"Mas d'en Torres\", 'place': 'isolated_dwelling'}"
+"Mas de Farell"	"Mas de Farell"							"node"	"2390440645"		"{'name': 'Mas de Farell', 'place': 'isolated_dwelling'}"
+"Mas de les Mates"	"Mas de les Mates"							"node"	"2384497878"		"{'name': 'Mas de les Mates', 'place': 'isolated_dwelling'}"
+"Mas de Nadal"	"Mas de Nadal"							"node"	" 948717559"		"{'ele': '527.40', 'ign:latitud': '41.8255781339530017', 'ign:longitud': '1.3173366575290000', 'ign:red': 'Red Geodesica Nacional Convencional (ROI)', 'man_made': 'survey_point', 'name': 'Mas de Nadal', 'note': 'This is a point from an official geodetic network. Use it as a reference, but do NOT move it.', 'ref': '36159', 'source': 'Instituto Geográfico Nacional', 'source:ref': 'ftp://ftp.geodesia.ign.es'}"

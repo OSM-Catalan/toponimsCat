@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Camós"	"Ajuntament de Camós"							"node"	"7193486938"		"{'amenity': 'townhall', 'contact:phone': '+34 972573192', 'contact:website': 'http://www.camos.cat/', 'name': 'Ajuntament de Camós'}"
+"Bosc de Cruanyes"	"Bosc de Cruanyes"							"node"	"1241591918"		"{'name': 'Bosc de Cruanyes', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Mas Ventós"	"Mas Ventós"							"way"	" 339008739"		"{'landuse': 'residential', 'name': 'Mas Ventós'}"

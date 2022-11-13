@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament d'Esterri de Cardós"	"Ajuntament d'Esterri de Cardós"							"node"	"4327812796"		"{'amenity': 'townhall', 'name': \"Ajuntament d'Esterri de Cardós\"}"
+"Bosc d'Aureda"	"Bosc d'Aureda"							"node"	"1241651601"		"{'name': \"Bosc d'Aureda\", 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Bosc de la Muntanyeta"	"Bosc de la Muntanyeta"							"node"	"1241624620"		"{'name': 'Bosc de la Muntanyeta', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Riu Noguera de Cardós"	"Riu Noguera de Cardós"			"Noguera de Cardós, La Noguera de Cardós"	"Noguera de Cardós"	"watercourse"	"Q9050528"	"way"	" 172492989"		"{'name': 'Riu Noguera de Cardós', 'waterway': 'river', 'wikidata': 'Q9050528', 'wikipedia': 'ca:Noguera de Cardós'}"

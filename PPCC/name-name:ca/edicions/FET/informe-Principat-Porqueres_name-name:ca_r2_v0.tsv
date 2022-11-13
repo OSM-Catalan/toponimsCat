@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Bosc de Can Ginebreda"	"Bosc de Can Ginebreda"							"node"	"1241590870"		"{'name': 'Bosc de Can Ginebreda', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Bosc dels Casalots"	"Bosc dels Casalots"							"relation"	"   4218098"		"{'landuse': 'forest', 'name': 'Bosc dels Casalots', 'type': 'multipolygon'}"
+"Mas Llandrich"	"Mas Llandrich"							"node"	"4333519691"		"{'name': 'Mas Llandrich', 'tourism': 'guest_house'}"
+"Mas Lura"	"Mas Lura"							"relation"	"   4218002"		"{'landuse': 'farmyard', 'name': 'Mas Lura', 'type': 'multipolygon'}"

@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Bosc d'en Xuncla"	"Bosc d'en Xuncla"							"node"	"1241591323"		"{'name': \"Bosc d'en Xuncla\", 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Bosc de Mas Tomàs"	"Bosc de Mas Tomàs"							"node"	"1241597660"		"{'name': 'Bosc de Mas Tomàs', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Riu Ter"	"Riu Ter"							"relation"	"   1121139"		"{'name': 'Riu Ter', 'natural': 'water', 'type': 'multipolygon', 'water': 'river'}"
+"Riu Ter"	"Riu Ter"							"relation"	"   2181765"		"{'name': 'Riu Ter', 'natural': 'water', 'source': 'Ajuntament de Girona', 'type': 'multipolygon', 'water': 'river'}"

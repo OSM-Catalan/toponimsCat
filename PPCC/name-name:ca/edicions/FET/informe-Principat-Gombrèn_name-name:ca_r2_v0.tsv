@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Bosc de les Moles"	"Bosc de les Moles"							"node"	"1241597721"		"{'name': 'Bosc de les Moles', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Castell de les Dames"	"Castell de les Dames"	"Castell de Blancafort"	"Castell de Blancafort"					"node"	"3687217165"		"{'alt_name': 'Castell de Blancafort', 'name': 'Castell de les Dames', 'place': 'locality'}"
+"Castell de les dames"	"Castell de les dames"							"way"	"1053653777"		"{'foot': 'private', 'highway': 'path', 'name': 'Castell de les dames'}"
+"Castell de les Dames"	"Castell de les Dames"							"node"	"9683110361"		"{'historic': 'ruins', 'name': 'Castell de les Dames'}"
+"castell de Puigbò"	"castell de Puigbò"							"node"	"7743212700"		"{'historic': 'ruins', 'name': 'castell de Puigbò', 'ruins': 'yes'}"
+"Mas de la Canal"	"Mas de la Canal"							"way"	" 232446547"		"{'building': 'yes', 'name': 'Mas de la Canal'}"

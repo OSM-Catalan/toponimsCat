@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Castell De La Guàrdia De Ripoll (El Castellot)"	"Castell De La Guàrdia De Ripoll (El Castellot)"							"way"	" 108790055"		"{'building': 'yes', 'name': 'Castell De La Guàrdia De Ripoll (El Castellot)', 'source': 'PNOA'}"
+"Horts de la Colonia"	"Horts de la Colònia"							"node"	"8318358897"		"{'name': 'Horts de la Colonia', 'place': 'locality'}"
+"Mas el Lladré"	"Mas el Lladré"							"node"	"8016042515"		"{'addr:city': 'Les Lloses', 'addr:country': 'ES', 'addr:postcode': '17512', 'email': 'info@masellladre.cat', 'name': 'Mas el Lladré', 'opening_hours': 'Mo-Su 09:00-14:00', 'shop': 'farm', 'website': 'https://www.masellladre.cat/'}"
+"Mas el Lladré"	"Mas el Lladré"							"way"	" 232413400"		"{'building': 'house', 'building:levels': '2', 'name': 'Mas el Lladré'}"
+"Riu Ter"	"Riu Ter"							"way"	" 160934416"	"name:1975=Río Ter"	"{'name': 'Riu Ter', 'name:1975': 'Río Ter', 'waterway': 'river'}"

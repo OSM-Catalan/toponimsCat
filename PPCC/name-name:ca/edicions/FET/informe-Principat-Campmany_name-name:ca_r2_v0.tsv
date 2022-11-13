@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Capmany"	"Ajuntament de Capmany"							"node"	"4100274460"		"{'addr:city': 'Capmany', 'addr:housenumber': '1', 'addr:postcode': '17750', 'addr:street': 'Plaça del Fort', 'amenity': 'townhall', 'name': 'Ajuntament de Capmany', 'opening_hours': 'Mo, Tu, We, Fr 09:00-13:00; Th 16:30-18:00', 'phone': '+34 972549017'}"
+"Bosc d'en Terrades"	"Bosc d'en Terrades"							"node"	"1241585674"		"{'name': \"Bosc d'en Terrades\", 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Riu de la Guilla"	"Riu de la Guilla"							"way"	" 106118298"		"{'name': 'Riu de la Guilla', 'waterway': 'stream'}"

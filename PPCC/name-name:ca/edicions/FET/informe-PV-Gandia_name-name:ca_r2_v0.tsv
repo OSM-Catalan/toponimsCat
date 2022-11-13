@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Palau Ducal Dels Borja"	"Palau Ducal Dels Borja"							"node"	"4374708419"		"{'name': 'Palau Ducal Dels Borja', 'tourism': 'museum', 'website': 'http://www.palauducal.com/?i=es&subsec=hom'}"
+"Platja de Venècia"	"Platja de Venècia"							"node"	" 323812067"		"{'created_by': 'JOSM', 'name': 'Platja de Venècia', 'natural': 'beach'}"
+"Platja i Grau de Gandia"	"Platja i Grau de Gandia"							"relation"	"   5949863"	"name:es=Playa y Grao de Gandía"	"{'name': 'Platja i Grau de Gandia', 'name:es': 'Playa y Grao de Gandía', 'public_transport': 'stop_area', 'type': 'public_transport'}"
+"Riu Serpis"	"Riu Serpis"							"way"	" 437455525"		"{'name': 'Riu Serpis', 'natural': 'water'}"

@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Josa i Tuixent"	"Ajuntament de Josa i Tuixent"							"way"	"169255384"		"{'addr:city': 'Tuixent', 'addr:housenumber': '1', 'addr:postcode': '25717', 'addr:street': 'Plaça de la Serra del Cadí', 'amenity': 'townhall', 'building': 'public', 'name': 'Ajuntament de Josa i Tuixent'}"
+"Riu de Cerneres"	"Riu de Cerneres"							"way"	"368485208"		"{'name': 'Riu de Cerneres', 'waterway': 'stream'}"
+"Riu de Josa"	"Riu de Josa"							"way"	"186030509"		"{'name': 'Riu de Josa', 'waterway': 'stream'}"
+"Riu de la Vansa"	"Riu de la Vansa"			"Riu de la Vansa, riu de la Vansa, riu de Lavansa"	"Riu de la Vansa"	"watercourse"	"Q17616804"	"way"	"186030510"		"{'name': 'Riu de la Vansa', 'waterway': 'river', 'wikidata': 'Q17616804', 'wikipedia': 'ca:Riu de Lavansa'}"
+"Riu de Mola"	"Riu de Mola"							"way"	"186030523"		"{'name': 'Riu de Mola', 'waterway': 'stream'}"

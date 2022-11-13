@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Bosc de Ribelera"	"Bosc de Ribelera"							"node"	"1241641326"		"{'name': 'Bosc de Ribelera', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Bosc de Sant Jaume"	"Bosc de Sant Jaume"							"node"	"1241632269"		"{'name': 'Bosc de Sant Jaume', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Bosc de Torrent"	"Bosc de Torrent"							"node"	"1241628056"		"{'name': 'Bosc de Torrent', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Riu de la Móra"	"Riu de la Móra"							"way"	" 259806848"		"{'name': 'Riu de la Móra', 'waterway': 'river'}"
+"Riu de Sant Joan"	"Riu de Sant Joan"							"way"	" 259808435"		"{'name': 'Riu de Sant Joan', 'waterway': 'river'}"

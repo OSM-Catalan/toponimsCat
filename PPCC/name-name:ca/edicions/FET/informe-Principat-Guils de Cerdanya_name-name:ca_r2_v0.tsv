@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Guils de Cerdanya"	"Ajuntament de Guils de Cerdanya"			"Guils de Cerdanya"	"Guils de Cerdanya"	"municipality of Catalonia"	"Q13748"	"way"	" 237112332"		"{'addr:city': 'Guils de Cerdanya', 'addr:housename': '15', 'addr:postcode': '17528', 'addr:street': 'Carrer de Malet', 'amenity': 'townhall', 'building': 'public', 'building:levels': '2', 'name': 'Ajuntament de Guils de Cerdanya', 'phone': '+34 972880016', 'source': 'Survey', 'wheelchair': 'limited', 'wikidata': 'Q13748', 'wikipedia': 'ca:Guils de Cerdanya'}"
+"Riu Tort"	"Riu Tort"							"way"	" 390923397"		"{'name': 'Riu Tort', 'waterway': 'stream'}"
+"Riu Tort"	"Riu Tort"							"way"	"1076077755"		"{'name': 'Riu Tort', 'waterway': 'stream'}"
+"Riu Tort"	"Riu Tort"							"way"	"1076077754"		"{'layer': '-1', 'name': 'Riu Tort', 'tunnel': 'culvert', 'waterway': 'stream'}"

@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Sagunt"	"Ajuntament de Sagunt"							"way"	" 22922646"		"{'amenity': 'townhall', 'building': 'yes', 'name': 'Ajuntament de Sagunt'}"
+"Ajuntament de Sagunt, seu nova"	"Ajuntament de Sagunt, seu nova"							"way"	"733271586"		"{'building': 'yes', 'government': 'government', 'name': 'Ajuntament de Sagunt, seu nova', 'office': 'government'}"
+"Mas Les Lloses"	"Mas Les Lloses"							"way"	"845749120"		"{'addr:city': 'Valencia', 'addr:country': 'ES', 'addr:housenumber': '2A', 'addr:postcode': '46500', 'addr:street': 'Plaça Numero 42', 'email': 'comercial@cocottecatering.com', 'landuse': 'village_green', 'name': 'Mas Les Lloses', 'phone': '+34 685 771 282', 'website': 'http://www2.cocottecatering.com/mas-de-lloses/'}"
+"Palau de Gaeta"	"Palau de Gaeta"							"way"	"733339047"		"{'building': 'yes', 'name': 'Palau de Gaeta'}"
+"Platja de Canet"	"Platja de Canet"							"way"	" 78550617"	"name:en=Canet Beach, name:es=Playa de Canet"	"{'name': 'Platja de Canet', 'name:en': 'Canet Beach', 'name:es': 'Playa de Canet', 'natural': 'beach', 'surface': 'sand'}"
+"Platja de Canet - Canet - Port de Sagunt - Sagunt - València"	"Platja de Canet - Canet - Port de Sagunt - Sagunt - València"							"relation"	" 14337122"		"{'name': 'Platja de Canet - Canet - Port de Sagunt - Sagunt - València', 'ref': '115', 'route': 'bus', 'type': 'route'}"

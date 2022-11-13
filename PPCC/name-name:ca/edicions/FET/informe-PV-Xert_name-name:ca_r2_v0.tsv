@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Xert/Chert"	"Ajuntament de Xert"							"way"	" 734834267"		"{'amenity': 'townhall', 'building': 'yes', 'name': 'Ajuntament de Xert/Chert'}"
+"Mas Cremat"	"Mas Cremat"							"node"	"1243232497"		"{'name': 'Mas Cremat', 'place': 'locality'}"
+"Mas dels Catinells"	"Mas dels Catinells"							"node"	"9024400288"		"{'name': 'Mas dels Catinells', 'place': 'isolated_dwelling'}"

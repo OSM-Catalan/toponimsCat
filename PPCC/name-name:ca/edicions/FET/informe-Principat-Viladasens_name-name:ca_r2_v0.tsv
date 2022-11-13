@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Bosc d'en Roca"	"Bosc d'en Roca"							"node"	"1241597607"		"{'name': \"Bosc d'en Roca\", 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Bosc de la Mata"	"Bosc de la Mata"							"node"	"1241598336"		"{'name': 'Bosc de la Mata', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Bosc del Pla"	"Bosc del Pla"							"node"	"1241589901"		"{'name': 'Bosc del Pla', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Bosc del Pou del Glaç"	"Bosc del Pou del Glaç"							"node"	"1241591379"		"{'name': 'Bosc del Pou del Glaç', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Mas dels Frares"	"Mas dels Frares"							"node"	"3497770856"		"{'name': 'Mas dels Frares', 'place': 'isolated_dwelling'}"
+"Mas Puig"	"Mas Puig"							"way"	" 202947028"		"{'building': 'house', 'name': 'Mas Puig'}"

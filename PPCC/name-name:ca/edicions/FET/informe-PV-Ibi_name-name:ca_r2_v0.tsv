@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament d'Ibi"	"Ajuntament d'Ibi"							"way"	"379409987"		"{'addr:city': 'Ibi', 'addr:housenumber': '48', 'addr:postcode': '03440', 'addr:street': 'Calle Eres', 'amenity': 'townhall', 'building': 'yes', 'name': \"Ajuntament d'Ibi\"}"
+"Mas de Foiaderes"	"Mas de Foiaderes"	"Casa de Foiaderes"	"Casa de Foiaderes"					"way"	"302580783"		"{'alt_name': 'Casa de Foiaderes', 'building': 'house', 'name': 'Mas de Foiaderes'}"
+"Mas de Foiaderetes"	"Mas de Foiaderetes"							"way"	"253388260"		"{'building': 'ruins', 'name': 'Mas de Foiaderetes'}"
+"Mas de Torretes"	"Mas de Torretes"							"way"	"173770494"		"{'building': 'yes', 'name': 'Mas de Torretes'}"

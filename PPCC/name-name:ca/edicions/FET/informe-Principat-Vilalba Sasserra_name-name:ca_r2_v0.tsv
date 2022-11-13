@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Vilalba Sasserra"	"Ajuntament de Vilalba Sasserra"							"way"	" 747906350"	"name:es=Ayuntamiento de Vilalba Sasserra"	"{'addr:city': 'Vilalba Sasserra', 'addr:housenumber': '1', 'addr:postcode': '08455', 'addr:street': 'Plaça de la Vila', 'amenity': 'townhall', 'building': 'yes', 'fax': '+34 938 411 535', 'name': 'Ajuntament de Vilalba Sasserra', 'name:es': 'Ayuntamiento de Vilalba Sasserra', 'phone': '+34 938 410 383', 'townhall:type': 'municipality'}"
+"Bosc de Can Pau Rector"	"Bosc de Can Pau Rector"							"node"	"1241552711"		"{'fixme': 'position', 'name': 'Bosc de Can Pau Rector', 'place': 'locality'}"
+"Riu Mogent"	"Riu Mogent"							"way"	" 647442635"		"{'name': 'Riu Mogent', 'waterway': 'stream'}"
+"Riu Mogent"	"Riu Mogent"							"way"	" 638276127"		"{'name': 'Riu Mogent', 'waterway': 'stream'}"
+"Riu Mogent"	"Riu Mogent"							"way"	" 638276126"		"{'layer': '-1', 'name': 'Riu Mogent', 'tunnel': 'yes', 'waterway': 'stream'}"

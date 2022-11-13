@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Favara"	"Ajuntament de Favara"							"node"	"8300755801"		"{'amenity': 'townhall', 'name': 'Ajuntament de Favara'}"
+"Bosc de la Princesa"	"Bosc de la Princesa"							"node"	"1242124742"		"{'name': 'Bosc de la Princesa', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Riu d'Algars"	"Riu d'Algars"			"Algars, Riu d'Algars, l'Algars, L'Algars"		"site of community importance"	"Q19510338"	"way"	" 551978082"		"{'name': \"Riu d'Algars\", 'waterway': 'river', 'wikidata': 'Q19510338', 'wikipedia': 'ca:Algars'}"
+"Riu d'Algars"	"Riu d'Algars"							"way"	" 551978083"		"{'name': \"Riu d'Algars\", 'waterway': 'river'}"
+"Riu d'Algars"	"Riu d'Algars"							"way"	" 551978084"		"{'name': \"Riu d'Algars\", 'waterway': 'river'}"
+"Riu d'Algars"	"Riu d'Algars"							"way"	" 551978085"		"{'name': \"Riu d'Algars\", 'waterway': 'river'}"

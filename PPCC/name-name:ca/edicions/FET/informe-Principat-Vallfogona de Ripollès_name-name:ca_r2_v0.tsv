@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Vallfogona del Ripollés"	"Ajuntament de Vallfogona del Ripollès"							"way"	" 421999190"		"{'amenity': 'townhall', 'building': 'yes', 'name': 'Ajuntament de Vallfogona del Ripollés'}"
+"Bosc de la Tolosa"	"Bosc de la Tolosa"							"node"	"1241588410"		"{'name': 'Bosc de la Tolosa', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Bosc de Pielleta"	"Bosc de Pielleta"							"node"	"1241584190"		"{'name': 'Bosc de Pielleta', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Castell de Milany"	"Castell de Milany"			"Milany"	"Milany"	"mountain"	"Q6850793"	"way"	"1075900661"		"{'building': 'ruins', 'historic': 'castle', 'name': 'Castell de Milany', 'ruins': 'yes', 'wikidata': 'Q6850793', 'wikipedia': 'ca:Milany'}"

@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de les Borges Blanques"	"Ajuntament de les Borges Blanques"							"way"	" 884296811"		"{'amenity': 'townhall', 'building': 'public', 'name': 'Ajuntament de les Borges Blanques'}"
+"Mas Concabella"	"Mas Concabella"							"way"	" 865679409"		"{'building': 'yes', 'name': 'Mas Concabella'}"
+"Mas del Rector"	"Mas del Rector"							"way"	" 865637371"		"{'building': 'yes', 'name': 'Mas del Rector'}"
+"Mas Vell"	"Mas Vell"							"node"	"1241674852"		"{'name': 'Mas Vell', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Hort del Tona"	"Hort del Tona"							"node"	"1241570994"		"{'name': 'Hort del Tona', 'place': 'locality'}"
+"Mas Romeu"	"Mas Romeu"							"node"	"6186126854"		"{'building': 'yes', 'name': 'Mas Romeu'}"
+"Palau Baltà"	"Palau Baltà"							"way"	" 631952357"		"{'building': 'yes', 'castle_type': 'palace', 'historic': 'castle', 'name': 'Palau Baltà'}"
+"Palau Reial"	"Palau Reial"							"way"	" 631952366"		"{'building': 'yes', 'castle_type': 'palace', 'historic': 'castle', 'name': 'Palau Reial'}"

@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Mas Cabrer"	"Mas Cabrer"							"node"	"1644438614"		"{'name': 'Mas Cabrer', 'place': 'locality'}"
+"Mas Cabrer"	"Mas Cabrer"							"way"	" 232284306"		"{'building': 'yes', 'name': 'Mas Cabrer'}"
+"Mas del Sol"	"Mas del Sol"							"node"	"8951157417"		"{'addr:city': 'Vall-llobrega', 'addr:postcode': '17253', 'addr:street': 'Carrer Ginesta', 'internet_access': 'wlan', 'name': 'Mas del Sol', 'phone': '+34 872 202040', 'tourism': 'hotel', 'website': 'https://www.hotelmasdelsol.com/'}"
+"Mas Falquet"	"Mas Falquet"							"node"	"1694882176"		"{'name': 'Mas Falquet', 'place': 'hamlet'}"
+"Mas Maça"	"Mas Maça"							"way"	" 232284321"		"{'building': 'yes', 'name': 'Mas Maça'}"
+"Mas Massa"	"Mas Massa"							"node"	"1644438697"		"{'name': 'Mas Massa', 'place': 'locality'}"

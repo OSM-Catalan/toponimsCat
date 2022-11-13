@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Mas d'Elies"	"Mas d'Elies"							"node"	"1243243679"		"{'name': \"Mas d'Elies\", 'place': 'locality'}"
+"Mas D´ascla"	"Mas d’Ascla"							"way"	" 206752379"		"{'highway': 'track', 'name': 'Mas D´ascla', 'source': 'Bing;Catastro', 'tracktype': 'grade3'}"
+"Mas de Calduc"	"Mas de Calduc"							"way"	"1027453635"		"{'building': 'yes', 'name': 'Mas de Calduc'}"
+"Mas del Senyor"	"Mas del Senyor"							"node"	"1243235947"		"{'name': 'Mas del Senyor', 'place': 'locality'}"

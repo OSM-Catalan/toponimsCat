@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament d'Olius"	"Ajuntament d'Olius"							"way"	" 201265145"		"{'amenity': 'townhall', 'building': 'yes', 'name': \"Ajuntament d'Olius\"}"
+"Bosc de Mariscots"	"Bosc de Mariscots"							"node"	"1241675485"		"{'name': 'Bosc de Mariscots', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Bosc de Sossiats"	"Bosc de Sossiats"							"node"	"1241621646"		"{'name': 'Bosc de Sossiats', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Riu Cardener"	"Riu Cardener"			"Cardener, Cardoner"	"Cardener"	"watercourse"	"Q31434"	"way"	" 155334716"		"{'name': 'Riu Cardener', 'waterway': 'river', 'wikidata': 'Q31434', 'wikipedia': 'ca:El Cardener'}"
+"Riu Negre"	"Riu Negre"			"Riu Negre"	"Riu Negre"	"Wikimedia disambiguation page"	"Q110311944"	"way"	" 259902237"		"{'name': 'Riu Negre', 'waterway': 'stream', 'wikidata': 'Q110311944', 'wikipedia': 'ca:Riu Negre'}"

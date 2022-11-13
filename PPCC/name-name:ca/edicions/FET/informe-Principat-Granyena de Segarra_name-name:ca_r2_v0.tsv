@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Granyena de Segarra"	"Ajuntament de Granyena de Segarra"							"way"	" 884296830"		"{'amenity': 'townhall', 'building': 'public', 'building:levels': '3', 'name': 'Ajuntament de Granyena de Segarra'}"
+"Castell de Granyena"	"Castell de Granyena"							"node"	" 948716028"		"{'ele': '634.20', 'ign:latitud': '41.6241058994690007', 'ign:longitud': '1.2451846758950000', 'ign:red': 'Red Geodesica Nacional Convencional (ROI)', 'man_made': 'survey_point', 'name': 'Castell de Granyena', 'note': 'This is a point from an official geodetic network. Use it as a reference, but do NOT move it.', 'ref': '39037', 'source': 'Instituto Geográfico Nacional', 'source:ref': 'ftp://ftp.geodesia.ign.es'}"
+"Mas de l'Ardit"	"Mas de l'Ardit"							"node"	"2458194016"		"{'name': \"Mas de l'Ardit\", 'place': 'isolated_dwelling'}"

@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de l'Esquirol"	"Ajuntament de l'Esquirol"							"way"	" 867328863"		"{'amenity': 'townhall', 'building': 'public', 'name': \"Ajuntament de l'Esquirol\"}"
+"Castell de Cabrera"	"Castell de Cabrera"							"node"	"6937094285"		"{'historic': 'castle', 'name': 'Castell de Cabrera', 'ruins': 'yes'}"
+"Castell de Cabrera"	"Castell de Cabrera"							"node"	"6943313338"		"{'historic': 'archaeological_site', 'name': 'Castell de Cabrera'}"
+"Mas Coromines"	"Mas Coromines"							"node"	"3576902234"		"{'name': 'Mas Coromines', 'place': 'isolated_dwelling'}"
+"Mas de les Llebres"	"Mas de les Llebres"							"way"	" 922797230"		"{'building': 'house', 'name': 'Mas de les Llebres'}"

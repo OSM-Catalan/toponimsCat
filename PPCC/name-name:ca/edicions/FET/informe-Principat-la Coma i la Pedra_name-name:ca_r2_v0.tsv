@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Bosc d'Insoles"	"Bosc d'Insoles"							"node"	"7919955173"		"{'name': \"Bosc d'Insoles\", 'natural': 'wood', 'place': 'locality'}"
+"Bosc de la Gafa"	"Bosc de la Gafa"							"node"	"1241610101"		"{'name': 'Bosc de la Gafa', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Bosc de la Muntada"	"Bosc de la Muntada"							"node"	"1241610396"		"{'name': 'Bosc de la Muntada', 'natural': 'wood', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Bosc de la Vilella"	"Bosc de la Vilella"							"node"	"1241643819"		"{'name': 'Bosc de la Vilella', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Bosc del Pascual"	"Bosc del Pascual"							"node"	"7919955176"		"{'name': 'Bosc del Pascual', 'natural': 'wood', 'place': 'locality'}"
+"Riu Cardener"	"Riu Cardener"							"way"	" 155334714"		"{'name': 'Riu Cardener', 'waterway': 'river'}"

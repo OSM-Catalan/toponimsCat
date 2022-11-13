@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Castell de Montllor"	"Castell de Montllor"			"Castell de Montllor, Castell de l'Hostal Roi, Castell de l'Hostal Roig, lo Castell dels Moros"	"Castell de Montllor"	"castle"	"Q12981675"	"node"	"3122571922"		"{'historic': 'castle', 'name': 'Castell de Montllor', 'ruins': 'yes', 'wikidata': 'Q12981675', 'wikipedia': 'ca:Castell de Montllor'}"
+"Castell de Sant Gervàs"	"Castell de Sant Gervàs"							"relation"	"  12823920"		"{'ascent': '150', 'distance': '3', 'name': 'Castell de Sant Gervàs', 'network': 'lwn', 'roundtrip': 'yes', 'route': 'hiking', 'type': 'route', 'website': 'https://www.rutespirineus.cat/rutes/castell-de-sant-gervas'}"
+"Mas de Guillem"	"Mas de Guillem"			"Mas de Guillem, El Mas de Guillem"	"Mas de Guillem"	"former settlement"	"Q11935903"	"node"	"5875366568"		"{'name': 'Mas de Guillem', 'place': 'hamlet', 'wikidata': 'Q11935903', 'wikipedia': 'ca:Mas de Guillem'}"
+"Riu d'Abella"	"Riu d'Abella"			"Riu d'Abella, l'Abella"	"Riu d'Abella"	"river"	"Q5404707"	"way"	" 209372116"		"{'name': \"Riu d'Abella\", 'waterway': 'river', 'wikidata': 'Q5404707', 'wikipedia': \"ca:Riu d'Abella\"}"
+"Riu de Gavet"	"Riu de Gavet"							"way"	" 197813008"		"{'name': 'Riu de Gavet', 'waterway': 'river'}"

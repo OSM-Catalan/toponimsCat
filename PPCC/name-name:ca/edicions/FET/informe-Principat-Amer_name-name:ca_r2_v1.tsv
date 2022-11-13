@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament d'Amer"	"Ajuntament d'Amer"			"Ajuntament d'Amer"		"ayuntamiento (Spain)"	"Q103785418"	"way"	"1058268232"		"{'amenity': 'townhall', 'building': 'government', 'email': 'amer@amer.cat', 'fax': '+34 972 430 016', 'image': 'https://commons.wikimedia.org/wiki/Category:Casa_de_la_Vila_d%27Amer#/media/File:Ajuntament_(Amer).jpg', 'name': \"Ajuntament d'Amer\", 'operator': \"Ajuntament d'Amer\", 'phone': '+34 972 431 112', 'townhall:type': 'town', 'website': 'http://www.amer.cat/', 'wikidata': 'Q103785418', 'wikimedia_commons': \"Category:Casa de la Vila d'Amer\"}"
+"Castell d'Estela"	"Castell d'Estela"							"node"	"3441070759"		"{'ele': '641', 'name': \"Castell d'Estela\", 'natural': 'peak'}"

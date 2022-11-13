@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Vilanova de Meià"	"Ajuntament de Vilanova de Meià"							"node"	"1993976073"		"{'amenity': 'townhall', 'name': 'Ajuntament de Vilanova de Meià'}"
+"Bosc de Cabrera"	"Bosc de Cabrera"							"node"	"1241632670"		"{'name': 'Bosc de Cabrera', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Riu Boix"	"Riu Boix"							"way"	" 248328748"		"{'name': 'Riu Boix', 'waterway': 'river'}"
+"Riu de Montargull"	"Riu de Montargull"							"way"	" 426770445"		"{'name': 'Riu de Montargull', 'waterway': 'stream'}"
+"Riu de Tòrrec"	"Riu de Tòrrec"							"way"	" 426770446"		"{'name': 'Riu de Tòrrec', 'waterway': 'stream'}"

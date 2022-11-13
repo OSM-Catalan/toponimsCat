@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Vila-sacra"	"Ajuntament de Vila-sacra"							"node"	"4157925699"		"{'addr:city': 'Vila-sacra', 'addr:housenumber': '1', 'addr:postcode': '17485', 'addr:street': \"Plaça de l'Abadia\", 'amenity': 'townhall', 'name': 'Ajuntament de Vila-sacra', 'opening_hours': 'Mo-Fr 10:00-14:30; We 17:00-20:00', 'phone': '+34 972 507 523', 'source': 'web Ajuntament', 'source:date': '2016', 'website': 'http://www.vila-sacra.cat/', 'wheelchair': 'yes'}"
+"Riu Manol"	"Riu Manol"			"Manol, Riu Manol, el Manol"	"Manol"	"watercourse"	"Q11696494"	"way"	" 105225614"		"{'name': 'Riu Manol', 'source': 'PNOA', 'waterway': 'river', 'wikidata': 'Q11696494', 'wikipedia': 'ca:Manol'}"

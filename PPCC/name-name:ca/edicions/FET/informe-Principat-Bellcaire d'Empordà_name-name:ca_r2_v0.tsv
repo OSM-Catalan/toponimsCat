@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Bellcaire d'Empordà"	"Ajuntament de Bellcaire d'Empordà"							"node"	"3973713763"		"{'addr:city': \"Bellcaire d'Empordà\", 'addr:postcode': '17141', 'amenity': 'townhall', 'contact:phone': '+34 972 788 105', 'contact:website': 'http://www.bellcaire.cat/', 'name': \"Ajuntament de Bellcaire d'Empordà\"}"
+"Horts de l'Estany"	"Horts de l'Estany"							"node"	"1241588091"		"{'name': \"Horts de l'Estany\", 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Mas d'en Quintana"	"Mas d'en Quintana"							"way"	" 941117041"		"{'building': 'yes', 'name': \"Mas d'en Quintana\"}"

@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Llers"	"Ajuntament de Llers"							"way"	" 740626162"		"{'amenity': 'townhall', 'building': 'yes', 'contact:phone': '+34 972 528 020', 'contact:website': 'http://www.llers.cat/', 'name': 'Ajuntament de Llers'}"
+"Castell d'Hortal"	"Castell d'Hortal"							"node"	"9685778574"		"{'castle_type': 'defensive', 'historic': 'castle', 'historic:civilization': 'medieval', 'name': \"Castell d'Hortal\"}"
+"Castell de Llers"	"Castell de Llers"							"way"	" 740626168"		"{'historic': 'castle', 'name': 'Castell de Llers'}"
+"Mas Oliveres Pla de Palau"	"Mas Oliveres Pla de Palau"							"node"	"4180766189"		"{'email': 'info@masoliveres.com', 'internet_access': 'wlan', 'name': 'Mas Oliveres Pla de Palau', 'phone': '+34 872 004065', 'stars': '3', 'tourism': 'hotel', 'website': 'http://www.masoliveres.com'}"
+"Mas Pi"	"Mas Pi"							"node"	"9685762035"		"{'historic': 'manor', 'name': 'Mas Pi'}"
+"Mas Vidal"	"Mas Vidal"							"node"	"3465802452"		"{'name': 'Mas Vidal', 'place': 'neighbourhood'}"

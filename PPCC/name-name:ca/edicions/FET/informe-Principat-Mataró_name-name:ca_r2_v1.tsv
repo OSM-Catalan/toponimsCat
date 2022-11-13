@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Mataró"	"Ajuntament de Mataró"							"way"	" 62361807"		"{'amenity': 'townhall', 'building': 'yes', 'name': 'Ajuntament de Mataró'}"
+"Castell de Mata"	"Castell de Mata"							"way"	"152889716"		"{'addr:housename': 'Castell de Mata', 'building': 'yes', 'height': '10', 'historic': 'ruins', 'name': 'Castell de Mata', 'roof:orientation': 'across', 'roof:shape': 'gabled'}"
+"Palau d'Esports Josep Móra"	"Palau d'Esports Josep Móra"							"way"	" 60730857"		"{'amenity': 'sports', 'building': 'yes', 'name': \"Palau d'Esports Josep Móra\"}"
+"Platja de Ponent"	"Platja de Ponent"							"way"	"282953033"		"{'name': 'Platja de Ponent', 'natural': 'beach', 'surface': 'sand'}"
+"Platja del Callao"	"Platja del Callao"							"way"	"282951778"	"name:es=Playa del Callao"	"{'name': 'Platja del Callao', 'name:es': 'Playa del Callao', 'natural': 'beach', 'surface': 'sand'}"
+"Platja del Varador"	"Platja del Varador"							"relation"	"  2154203"		"{'name': 'Platja del Varador', 'natural': 'beach', 'surface': 'sand', 'type': 'multipolygon'}"

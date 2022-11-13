@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament d'Agres"	"Ajuntament d'Agres"							"node"	"5310382185"		"{'amenity': 'townhall', 'name': \"Ajuntament d'Agres\"}"
+"Mas de la Foia Ampla"	"Mas de la Foia Ampla"							"way"	" 177985996"		"{'building': 'yes', 'name': 'Mas de la Foia Ampla'}"
+"Riu d'Agres"	"Riu d'Agres"							"way"	" 724459444"		"{'intermittent': 'no', 'name': \"Riu d'Agres\", 'waterway': 'stream'}"

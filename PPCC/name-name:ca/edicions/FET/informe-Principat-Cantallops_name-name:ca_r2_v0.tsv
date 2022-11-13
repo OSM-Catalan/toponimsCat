@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Cantallops"	"Ajuntament de Cantallops"							"way"	" 407757281"		"{'addr:city': 'Cantallops', 'addr:housenumber': '12', 'addr:postcode': '17708', 'addr:street': 'Carrer de les Escoles', 'amenity': 'townhall', 'building': 'yes', 'email': 'ajuntament@cantallops.cat', 'name': 'Ajuntament de Cantallops', 'opening_hours': 'Mo 10:00-14:00, 16:00-20:00; Tu 16:00-20:00; We, Th 10:00-14:00', 'phone': '+34 972554885', 'website': 'http://www.cantallops.cat/'}"
+"Bosc d'en Figueres"	"Bosc d'en Figueres"							"node"	"1241598997"		"{'name': \"Bosc d'en Figueres\", 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Bosc d'en Gombau"	"Bosc d'en Gombau"							"node"	"1241588509"		"{'name': \"Bosc d'en Gombau\", 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Mas Faig"	"Mas Faig"							"node"	"2177490864"		"{'information': 'guidepost', 'name': 'Mas Faig', 'network:type': 'node_network', 'operator': 'Itinerànnia', 'rcn_ref': 'AE100', 'rwn_ref': 'AE100', 'tourism': 'information'}"

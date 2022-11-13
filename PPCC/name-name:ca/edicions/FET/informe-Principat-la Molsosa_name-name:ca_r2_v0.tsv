@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Bosc del Ferreres"	"Bosc del Ferreres"							"node"	"1241677911"		"{'name': 'Bosc del Ferreres', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Bosc dels Quadrells"	"Bosc dels Quadrells"							"node"	"1241690934"		"{'name': 'Bosc dels Quadrells', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Castell de Santa Eulàlia"	"Castell de Santa Eulàlia"							"way"	" 829379788"		"{'building': 'yes', 'name': 'Castell de Santa Eulàlia'}"

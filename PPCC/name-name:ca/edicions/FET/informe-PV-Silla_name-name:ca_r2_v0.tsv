@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Silla"	"Ajuntament de Silla"							"way"	" 423657613"		"{'addr:city': 'Silla', 'addr:housenumber': '1', 'addr:postcode': '46460', 'addr:street': 'Plaça del Poble', 'amenity': 'townhall', 'building': 'public', 'name': 'Ajuntament de Silla', 'operator': 'Ajuntament de Silla'}"
+"Hort de Cabanes"	"Hort de Cabanes"							"node"	"8367878635"		"{'name': 'Hort de Cabanes', 'place': 'locality'}"
+"Hort del Papa"	"Hort del Papa"							"node"	"8367869209"		"{'name': 'Hort del Papa', 'place': 'locality'}"
+"Mas de Baix"	"Mas de Baix"							"node"	"9537632901"		"{'historic': 'archaeological_site', 'historic:civilization': 'roman', 'name': 'Mas de Baix'}"

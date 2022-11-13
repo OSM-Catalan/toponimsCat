@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Pardines"	"Ajuntament de Pardines"							"node"	"6600160832"		"{'board_type': 'notice', 'information': 'board', 'name': 'Ajuntament de Pardines', 'tourism': 'information'}"
+"Ajuntament de Pardines"	"Ajuntament de Pardines"							"way"	" 702800937"		"{'addr:city': 'Pardines', 'amenity': 'townhall', 'building': 'yes', 'name': 'Ajuntament de Pardines'}"
+"Bosc de Pardines"	"Bosc de Pardines"							"node"	"1241601336"		"{'name': 'Bosc de Pardines', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

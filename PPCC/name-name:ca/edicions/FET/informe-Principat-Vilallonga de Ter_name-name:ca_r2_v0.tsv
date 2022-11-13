@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Vilallonga de Ter"	"Ajuntament de Vilallonga de Ter"							"way"	" 867328848"		"{'amenity': 'townhall', 'building': 'public', 'name': 'Ajuntament de Vilallonga de Ter'}"
+"Castell dels Moros"	"Castell dels Moros"							"node"	"3756026979"		"{'ele': '2132.2', 'name': 'Castell dels Moros', 'natural': 'peak'}"
+"Riu Ter"	"Riu Ter"							"way"	" 206009781"	"name:1975=Río Ter"	"{'name': 'Riu Ter', 'name:1975': 'Río Ter', 'waterway': 'river'}"
+"Riu Ter"	"Riu Ter"							"way"	" 627019814"	"name:1975=Río Ter"	"{'name': 'Riu Ter', 'name:1975': 'Río Ter', 'waterway': 'river'}"

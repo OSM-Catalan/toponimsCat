@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Castell de la Reina Mora"	"Castell de la Reina Mora"							"way"	"384314951"		"{'historic': 'castle', 'name': 'Castell de la Reina Mora'}"
+"Castell de Marinyen"	"Castell de Marinyen"							"way"	"384314950"	"name:es=Castell de la Reina Mora"	"{'barrier': 'wall', 'historic': 'ruins', 'name': 'Castell de Marinyen', 'name:es': 'Castell de la Reina Mora', 'ruins': 'yes'}"
+"Riu Vaca"	"Riu Vaca"							"way"	"570429153"		"{'intermittent': 'yes', 'name': 'Riu Vaca', 'waterway': 'river', 'width': '10'}"
+"Riu Vaca"	"Riu Vaca"							"relation"	" 11663603"		"{'name': 'Riu Vaca', 'type': 'waterway', 'waterway': 'river'}"

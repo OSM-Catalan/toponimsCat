@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Teulada"	"Ajuntament de Teulada"							"node"	"4298874877"		"{'amenity': 'townhall', 'name': 'Ajuntament de Teulada'}"
+"Platja de la Ampolla"	"Platja de la Ampolla"							"node"	"5588818533"		"{'name': 'Platja de la Ampolla', 'tourism': 'information'}"
+"Platja del Portet"	"Platja del Portet"							"way"	"  67528246"		"{'addr:city': 'Moraira', 'name': 'Platja del Portet', 'natural': 'beach', 'source': 'Yahoo, local_knowledge', 'surface': 'sand'}"

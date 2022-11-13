@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Gorga"	"Ajuntament de Gorga"							"way"	"752902654"		"{'amenity': 'townhall', 'building': 'yes', 'name': 'Ajuntament de Gorga'}"
+"Riu de Seta"	"Riu de Seta"			"Riu Seta, riu Seta"	"Riu Seta"	"river"	"Q5428497"	"way"	"238818870"		"{'name': 'Riu de Seta', 'waterway': 'stream', 'wikidata': 'Q5428497', 'wikipedia': 'ca:Riu Seta'}"
+"Riu de Seta"	"Riu de Seta"			"Riu Seta, riu Seta"	"Riu Seta"	"river"	"Q5428497"	"way"	"258881246"		"{'intermittent': 'yes', 'name': 'Riu de Seta', 'waterway': 'stream', 'wikidata': 'Q5428497', 'wikipedia': 'ca:Riu Seta'}"
+"Riu Frainós"	"Riu Frainós"	"Riu de Penàguila"	"Riu de Penàguila"	"Riu Frainós, riu Frainós"	"Riu Frainós"	"watercourse"	"Q5428505"	"way"	"258916266"		"{'alt_name': 'Riu de Penàguila', 'name': 'Riu Frainós', 'waterway': 'river', 'wikidata': 'Q5428505', 'wikipedia': 'ca:Riu Frainós'}"
+"Riu Frainós"	"Riu Frainós"	"Riu de Penàguila"	"Riu de Penàguila"	"Riu Frainós, riu Frainós"	"Riu Frainós"	"watercourse"	"Q5428505"	"way"	"253632840"		"{'alt_name': 'Riu de Penàguila', 'intermittent': 'yes', 'name': 'Riu Frainós', 'waterway': 'river', 'wikidata': 'Q5428505', 'wikipedia': 'ca:Riu Frainós'}"

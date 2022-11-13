@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Mas Banyeres"	"Mas Banyeres"							"node"	"3356482821"		"{'name': 'Mas Banyeres', 'tourism': 'guest_house'}"
+"Mas El Rossell"	"Mas El Rossell"							"node"	"4056179313"		"{'building': 'yes', 'name': 'Mas El Rossell', 'place': 'isolated_dwelling'}"
+"Mas Falgueres"	"Mas Falgueres"							"node"	"4305503275"		"{'building': 'yes', 'name': 'Mas Falgueres'}"
+"Mas les Canes"	"Mas les Canes"							"node"	"4057933240"		"{'name': 'Mas les Canes', 'place': 'isolated_dwelling'}"
+"Mas les Canes"	"Mas les Canes"							"way"	" 590149095"		"{'building': 'yes', 'name': 'Mas les Canes'}"
+"Mas Terrades"	"Mas Terrades"							"node"	"3356472154"		"{'building': 'yes', 'name': 'Mas Terrades', 'place': 'isolated_dwelling'}"

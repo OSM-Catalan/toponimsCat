@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Balenyà"	"Ajuntament de Balenyà"							"node"	"2395648962"		"{'addr:housenumber': '2', 'addr:postcode': '08550', 'addr:street': 'Carrer Pista', 'amenity': 'townhall', 'name': 'Ajuntament de Balenyà', 'opening_hours': 'Mo-Fr 09:00-14:00, Mo 17:00-19:30'}"
+"Mas Barnils"	"Mas Barnils"							"way"	"1036463270"		"{'building': 'house', 'name': 'Mas Barnils'}"
+"Mas Coní"	"Mas Coní"							"way"	" 482448192"		"{'building': 'yes', 'name': 'Mas Coní'}"
+"Mas Estabanell"	"Mas Estabanell"							"node"	"2395648958"		"{'addr:postcode': '08550', 'amenity': 'restaurant', 'cuisine': 'regional', 'name': 'Mas Estabanell', 'website': 'http://masestabanell.com/'}"
+"Mas Hospital"	"Mas Hospital"							"way"	" 295024924"		"{'building': 'house', 'name': 'Mas Hospital'}"

@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament d'Albalat dels Sorells"	"Ajuntament d'Albalat dels Sorells"							"node"	"8268441949"		"{'amenity': 'townhall', 'name': \"Ajuntament d'Albalat dels Sorells\"}"
+"Castell d'Albalat dels Sorells"	"Castell d'Albalat dels Sorells"							"way"	" 889390986"		"{'building': 'yes', 'historic': 'castle', 'name': \"Castell d'Albalat dels Sorells\"}"
+"Platja de Canet - Canet - Port de Sagunt - Sagunt - València"	"Platja de Canet - Canet - Port de Sagunt - Sagunt - València"							"relation"	"  14337122"		"{'name': 'Platja de Canet - Canet - Port de Sagunt - Sagunt - València', 'ref': '115', 'route': 'bus', 'type': 'route'}"

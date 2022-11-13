@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Garriguella"	"Ajuntament de Garriguella"							"way"	" 410067276"		"{'addr:city': 'Garriguella', 'addr:housenumber': '1', 'addr:postcode': '17780', 'addr:street': 'Carrer de Sant Ferran', 'amenity': 'townhall', 'building': 'yes', 'name': 'Ajuntament de Garriguella', 'opening_hours': 'Mo-Fr 09:00-14:00, Mo 16:00-19:00', 'phone': '+34 972 530 093', 'source': 'web Ajuntament', 'source:date': '2016', 'website': 'http://www.garriguella.cat/'}"
+"Mas Llunes"	"Mas Llunes"							"node"	"6939269885"		"{'name': 'Mas Llunes', 'shop': 'wine'}"

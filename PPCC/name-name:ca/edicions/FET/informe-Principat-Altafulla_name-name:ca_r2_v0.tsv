@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament d'Altafulla"	"Ajuntament d'Altafulla"							"node"	"3870074499"		"{'amenity': 'townhall', 'name': \"Ajuntament d'Altafulla\"}"
+"Castell de Montserrat"	"Castell de Montserrat"							"way"	" 383834543"		"{'building': 'yes', 'historic': 'castle', 'name': 'Castell de Montserrat'}"
+"Platja d'Altafulla"	"Platja d'Altafulla"							"relation"	"   2172793"		"{'name': \"Platja d'Altafulla\", 'natural': 'beach', 'source': 'Bing Aerial Maps 2011', 'surface': 'sand', 'type': 'multipolygon'}"
+"Riu Gaià"	"Riu Gaià"							"way"	" 126746867"		"{'name': 'Riu Gaià', 'waterway': 'river'}"

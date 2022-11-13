@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Mollet de Peralada"	"Ajuntament de Mollet de Peralada"							"way"	" 409851011"		"{'addr:city': 'Mollet de Peralada', 'addr:housenumber': '12', 'addr:postcode': '17752', 'addr:street': 'Plaça', 'amenity': 'townhall', 'building': 'yes', 'name': 'Ajuntament de Mollet de Peralada', 'opening_hours': 'Tu 10:00-13:00', 'phone': '+34 972 563 314', 'source': 'web Ajuntament', 'source:date': '2016'}"
+"Mas Ferriols"	"Mas Ferriols"							"node"	"3482678444"		"{'name': 'Mas Ferriols', 'place': 'isolated_dwelling'}"

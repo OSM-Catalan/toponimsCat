@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Granyanella"	"Ajuntament de Granyanella"							"node"	"2534875041"		"{'amenity': 'townhall', 'name': 'Ajuntament de Granyanella'}"
+"Bosc de la Quadra del Gomar"	"Bosc de la Quadra del Gomar"							"way"	" 246471593"		"{'name': 'Bosc de la Quadra del Gomar', 'natural': 'wood'}"
+"Bosc del Joanet"	"Bosc del Joanet"							"way"	" 246471597"		"{'name': 'Bosc del Joanet', 'natural': 'wood'}"
+"Bosc dels Pomesons"	"Bosc dels Pomesons"							"way"	" 244423461"		"{'name': 'Bosc dels Pomesons', 'natural': 'wood'}"
+"Castell de Granyanella"	"Castell de Granyanella"							"way"	" 181092496"		"{'highway': 'living_street', 'junction': 'roundabout', 'name': 'Castell de Granyanella'}"
+"Riu Ondara"	"Riu Ondara"			"Riu Ondara"	"Riu Ondara"	"watercourse"	"Q11945712"	"way"	" 180438585"		"{'name': 'Riu Ondara', 'waterway': 'river', 'wikidata': 'Q11945712', 'wikipedia': 'ca:Riu Ondara'}"

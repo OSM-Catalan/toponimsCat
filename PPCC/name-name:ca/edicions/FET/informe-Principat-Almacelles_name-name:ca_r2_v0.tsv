@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament d'Almacelles"	"Ajuntament d'Almacelles"							"way"	" 884296821"		"{'amenity': 'townhall', 'building': 'public', 'name': \"Ajuntament d'Almacelles\"}"
+"Mas del Lleó"	"Mas del Lleó"							"node"	"5275166810"		"{'name': 'Mas del Lleó', 'place': 'hamlet', 'population': '211', 'population:date': '2016', 'population:source': \"Institut d'Estadística de Catalunya (Idescat)\", 'source': 'Institut Cartogràfic i Geològic de Catalunya'}"
+"Mas del Mingo"	"Mas del Mingo"							"node"	"1241683722"		"{'name': 'Mas del Mingo', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Mas del Rull"	"Mas del Rull"							"node"	"1241671765"		"{'name': 'Mas del Rull', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Mas del Serra"	"Mas del Serra"							"node"	"3817915823"		"{'name': 'Mas del Serra', 'place': 'isolated_dwelling'}"
+"Mas dels Obacs"	"Mas dels Obacs"							"node"	"3644885207"		"{'name': 'Mas dels Obacs', 'place': 'isolated_dwelling'}"

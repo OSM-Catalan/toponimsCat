@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Castell de les Espases"	"Castell de les Espases"			"Sant Salvador de les Espases, Castell de les Espases, Sant Salvador"	"Sant Salvador de les Espases"	"castle"	"Q11947405"	"way"	" 144280089"		"{'building': 'yes', 'historic': 'castle', 'name': 'Castell de les Espases', 'ref': 'http://cultura.gencat.cat/invarquit/fitxa.asp?NRegistre=&idregistre=918', 'wikidata': 'Q11947405', 'wikipedia': 'ca:Sant Salvador de les Espases'}"
+"Horts de l'Ocata"	"Horts de l'Ocata"							"node"	"1241563111"		"{'name': \"Horts de l'Ocata\", 'place': 'locality'}"
+"Mas d'en Gall"	"Mas d'en Gall"							"node"	"1735702078"		"{'name': \"Mas d'en Gall\", 'place': 'neighbourhood'}"
+"Mas d'en Gall"	"Mas d'en Gall"							"relation"	"   7911173"		"{'landuse': 'residential', 'name': \"Mas d'en Gall\", 'type': 'multipolygon'}"
+"Mas de la Torre"	"Mas de la Torre"							"node"	"9682785742"		"{'historic': 'ruins', 'name': 'Mas de la Torre'}"

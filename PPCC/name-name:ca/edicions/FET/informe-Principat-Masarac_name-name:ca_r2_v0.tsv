@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Masarac"	"Ajuntament de Masarac"							"way"	" 409568873"		"{'addr:city': 'Masarac', 'addr:housenumber': '1', 'addr:postcode': '17763', 'addr:street': 'Plaça Major', 'amenity': 'townhall', 'building': 'yes', 'name': 'Ajuntament de Masarac', 'opening_hours': 'Tu, Th 11:00-14:30', 'phone': '+34 972 563 282', 'source': 'Ajuntament de Masarac', 'source:date': '2016', 'wheelchair': 'yes'}"
+"Bosc dels Tallats"	"Bosc dels Tallats"							"node"	"1241589388"		"{'name': 'Bosc dels Tallats', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Castell de Biart"	"Castell de Biart"							"way"	" 240235800"		"{'building': 'yes', 'craft': 'winery', 'name': 'Castell de Biart'}"
+"Castell de Vilarnadal"	"Castell de Vilarnadal"			"Castell de Vilarnadal"	"Castell de Vilarnadal"	"castle"	"Q17596773"	"way"	" 409587968"		"{'building': 'residential', 'historic': 'castle', 'name': 'Castell de Vilarnadal', 'wikidata': 'Q17596773', 'wikipedia': 'ca:Castell de Vilarnadal'}"

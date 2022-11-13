@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament des Migjorn gran"	"Ajuntament des Migjorn gran"							"node"	"1441964239"	"name:es=Ayuntamiento de San Cristobal"	"{'addr:city': 'Es Migjorn Gran', 'addr:country': 'ES', 'addr:housenumber': '3', 'addr:postcode': '07749', 'addr:street': \"Pla de s'Església\", 'amenity': 'townhall', 'name': 'Ajuntament des Migjorn gran', 'name:es': 'Ayuntamiento de San Cristobal', 'phone': '+34 971370110', 'website': 'www.ajmigjorngran.org'}"
+"Platja de San Adeodato"	"Platja de Sant Adeodato"							"relation"	"   1591018"		"{'name': 'Platja de San Adeodato', 'natural': 'beach', 'type': 'multipolygon'}"
+"Platja de Son Bou"	"Platja de Son Bou"							"relation"	"   1592814"		"{'name': 'Platja de Son Bou', 'natural': 'beach', 'type': 'multipolygon'}"
+"Platja es Trenc"	"Platja es Trenc"							"way"	" 168680339"		"{'name': 'Platja es Trenc', 'natural': 'beach', 'nudism': 'permissive', 'url': 'http://www.naturistholiday.info/Spain/1072/Playa_Es_Trenc.aspx'}"

@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Cerdanyola del Vallès"	"Ajuntament de Cerdanyola del Vallès"							"node"	"8219190854"		"{'addr:street': 'Plaça de Francesc Layret', 'amenity': 'townhall', 'name': 'Ajuntament de Cerdanyola del Vallès', 'nohousenumber': 'yes', 'phone': '+34 935 80 88 88', 'website': 'http://www.cerdanyola.cat', 'wheelchair': 'yes'}"
+"Bosc de Canaletes"	"Bosc de Canaletes"							"node"	"1241551167"		"{'name': 'Bosc de Canaletes', 'place': 'locality'}"
+"Bosc tancat"	"Bosc tancat"							"node"	"5204827256"		"{'email': 'reservas@natupark.com', 'leisure': 'pitch', 'name': 'Bosc tancat', 'opening_hours': 'Mo-Fr 10:00-19:00; PH, Sa-Su 10:00-20:00', 'phone': '+34 93 591 07 27', 'sport': 'climbing_adventure', 'website': 'https://bosctancat.net'}"
+"Bosc tancat"	"Bosc tancat"							"relation"	"  12721521"		"{'access': 'permissive', 'area': 'yes', 'highway': 'pedestrian', 'lit': 'yes', 'name': 'Bosc tancat', 'surface': 'concrete', 'type': 'multipolygon'}"
+"Bosc Tancat"	"Bosc Tancat"							"node"	" 364190527"		"{'addr:city': 'Cerdanyola del Vallès', 'addr:postcode': '08290', 'addr:street': 'Carrer Riu Sec', 'amenity': 'restaurant', 'email': 'barrestaurant@bosctancat.com', 'name': 'Bosc Tancat', 'phone': '+34 93 586 31 32', 'website': 'https://bosctancat.net'}"
+"Riu Sec"	"Riu Sec"							"way"	"  28211930"		"{'name': 'Riu Sec', 'waterway': 'river'}"

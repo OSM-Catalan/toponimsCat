@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Maià de Montcal"	"Ajuntament de Maià de Montcal"							"node"	"4211216889"		"{'addr:city': 'Maià de Montcal', 'addr:housenumber': '12', 'addr:postcode': '17851', 'addr:street': 'Carrer de Nostra Senyora del Mont', 'amenity': 'townhall', 'name': 'Ajuntament de Maià de Montcal', 'opening_hours': 'Mo-Su 11:00-13:00', 'phone': '+34 972 591 051', 'source': 'web Ajuntament', 'source:date': '2016'}"
+"Mas Pere Pau"	"Mas Pere Pau"							"node"	"3611253066"		"{'amenity': 'restaurant', 'name': 'Mas Pere Pau', 'phone': '+34 972 59 0760', 'website': 'https://www.masperepau.com/'}"
+"Mas Pere Pau"	"Mas Pere Pau"							"relation"	"   5309187"		"{'building': 'yes', 'internet_access': 'wlan', 'internet_access:fee': 'customers', 'name': 'Mas Pere Pau', 'phone': '+34 972 59 0760', 'rooms': '7', 'tourism': 'hotel', 'type': 'multipolygon', 'website': 'https://www.masperepau.com/'}"
+"Riu Fluvià"	"Riu Fluvià"			"Fluvià"	"Fluvià"	"river"	"Q31551"	"way"	"  75538802"		"{'boat': 'no', 'name': 'Riu Fluvià', 'waterway': 'river', 'wikidata': 'Q31551', 'wikipedia': 'ca:Fluvià'}"

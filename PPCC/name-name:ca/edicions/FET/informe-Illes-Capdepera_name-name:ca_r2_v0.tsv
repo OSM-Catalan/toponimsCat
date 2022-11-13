@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Capdepera"	"Ajuntament de Capdepera"							"way"	" 278722746"		"{'addr:city': 'Capdepera', 'amenity': 'townhall', 'building': 'yes', 'name': 'Ajuntament de Capdepera'}"
+"Castell de Capdepera"	"Castell de Capdepera"							"node"	"4275618928"		"{'name': 'Castell de Capdepera', 'seamark:fortified_structure:category': 'castle', 'seamark:type': 'fortified_structure'}"
+"Castell de Capdepera"	"Castell de Capdepera"							"node"	"9915524329"		"{'name': 'Castell de Capdepera', 'opening_hours': 'Nov-Mar Mo-Su 10:00-17:00; Apr-May,Oct Mo-Su 10:00-19:00; Jun-Sep Mo-Su 10:00-21:00', 'shop': 'ticket'}"
+"Castell de Capdepera"	"Castell de Capdepera"							"way"	"  35961613"		"{'barrier': 'wall', 'castle_type': 'defensive', 'historic': 'castle', 'name': 'Castell de Capdepera', 'tourism': 'attraction', 'website': 'http://www.capdeperacastell.com/', 'wheelchair': 'no', 'wikipedia': 'es:Castillo de Capdepera'}"
+"platja de Canyamel"	"platja de Canyamel"			"platja de Canyamel, Canyamel"		"white sand beach"	"Q1660108"	"relation"	"   2176689"	"name:en=Canyamel Beach"	"{'name': 'platja de Canyamel', 'name:en': 'Canyamel Beach', 'natural': 'beach', 'surface': 'sand', 'type': 'multipolygon', 'wikidata': 'Q1660108'}"

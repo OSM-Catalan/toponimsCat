@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Selva"	"Ajuntament de Selva"							"node"	"1322808038"		"{'amenity': 'townhall', 'name': 'Ajuntament de Selva'}"
+"camí d'Auxella"	"camí d'Auxella"							"way"	"1111050503"		"{'highway': 'track', 'name': \"camí d'Auxella\"}"
+"Castell Petit"	"Castell Petit"							"node"	"1242636603"		"{'name': 'Castell Petit', 'place': 'locality'}"
+"Hort de Can Tapa"	"Hort de Can Tapa"							"node"	"1242638911"		"{'name': 'Hort de Can Tapa', 'place': 'locality'}"

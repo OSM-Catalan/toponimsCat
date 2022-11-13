@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Pradell"	"Ajuntament de Pradell"							"way"	" 884054373"		"{'amenity': 'townhall', 'building': 'public', 'building:levels': '3', 'name': 'Ajuntament de Pradell'}"
+"Mas d'en Rafel"	"Mas d'en Rafel"							"node"	"7701465066"		"{'name': \"Mas d'en Rafel\", 'place': 'isolated_dwelling'}"
+"Mas del Marquet"	"Mas del Marquet"							"node"	"5534322513"		"{'building': 'yes', 'name': 'Mas del Marquet'}"
+"Mas Mariona"	"Mas Mariona"							"node"	"5642023943"		"{'building': 'yes', 'name': 'Mas Mariona'}"

@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de la Cellera de Ter"	"Ajuntament de la Cellera de Ter"							"node"	"1400319463"		"{'addr:city': 'La Cellera de Ter', 'addr:country': 'ES', 'addr:housenumber': '30', 'addr:postcode': '17165', 'addr:street': 'Avinguda Nostra Senyora de Montserrat', 'amenity': 'townhall', 'email': 'administracio@lacelleradeter.cat', 'name': 'Ajuntament de la Cellera de Ter', 'phone': '+34 972421902', 'website': 'http://www.lacelleradeter.cat/', 'wheelchair': 'no'}"
+"Bosc de la Fenera"	"Bosc de la Fenera"							"node"	"1241593383"		"{'name': 'Bosc de la Fenera', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Mas Romagueres"	"Mas Romagueres"							"way"	" 164439064"		"{'addr:housenumber': '44', 'addr:street': 'Pladevall', 'building': 'yes', 'name': 'Mas Romagueres', 'source': 'PNOA'}"

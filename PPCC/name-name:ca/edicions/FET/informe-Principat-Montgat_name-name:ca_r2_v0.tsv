@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Montgat"	"Ajuntament de Montgat"							"way"	" 847393859"		"{'addr:city': 'Montgat', 'addr:postcode': '08390', 'addr:street': 'plaça de la Vila', 'amenity': 'townhall', 'building': 'public', 'name': 'Ajuntament de Montgat', 'phone': '+34934694900', 'smoking': 'outside', 'website': 'montgat.cat', 'wheelchair': 'yes'}"
+"Platja de la Morera"	"Platja de la Morera"							"way"	"  27633384"	"loc_name=Platja de les Roques"	"{'loc_name': 'Platja de les Roques', 'name': 'Platja de la Morera', 'natural': 'beach', 'surface': 'sand'}"
+"Platja de Montgat"	"Platja de Montgat"							"way"	"1101490505"		"{'name': 'Platja de Montgat', 'natural': 'beach'}"

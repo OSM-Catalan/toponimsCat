@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Guardia de Noguera"	"Ajuntament de Guàrdia de Noguera"							"node"	"4330635748"		"{'amenity': 'townhall', 'name': 'Ajuntament de Guardia de Noguera'}"
+"Bosc de Guàrdia"	"Bosc de Guàrdia"							"node"	"1241620864"		"{'name': 'Bosc de Guàrdia', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Mas d'Eloi"	"Mas d'Eloi"							"node"	"7687126679"		"{'building:condition': 'ruinous', 'name': \"Mas d'Eloi\", 'place': 'isolated_dwelling', 'ruins': 'yes'}"

@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Colera"	"Ajuntament de Colera"							"node"	"5139147578"		"{'addr:city': 'Colera', 'addr:housenumber': '34', 'addr:postcode': '17496', 'addr:street': 'Carrer de Laburn', 'amenity': 'townhall', 'contact:phone': '+34 972 389 050', 'name': 'Ajuntament de Colera', 'opening_hours': 'Mo-Fr 09:30-13:30', 'website': 'http://www.colera.cat'}"
+"Castell de Molinars"	"Castell de Molinars"			"Castell de Molinàs"	"Castell de Molinàs"	"castle"	"Q17596400"	"way"	" 170668881"		"{'building': 'yes', 'historic': 'castle', 'name': 'Castell de Molinars', 'wikidata': 'Q17596400', 'wikipedia': 'ca:Castell de Molinàs'}"
+"Castell de Molinars"	"Castell de Molinars"							"way"	" 170668879"		"{'building': 'yes', 'historic': 'castle', 'name': 'Castell de Molinars'}"
+"Platja d'en Goixa"	"Platja d'en Goixa"							"relation"	"   8313752"		"{'name': \"Platja d'en Goixa\", 'natural': 'beach', 'type': 'multipolygon'}"
+"Platja de les Portes"	"Platja de les Portes"							"relation"	"   8313754"		"{'name': 'Platja de les Portes', 'natural': 'beach', 'type': 'multipolygon'}"
+"Platja dels Morts"	"Platja dels Morts"							"relation"	"   8313753"		"{'name': 'Platja dels Morts', 'natural': 'beach', 'type': 'multipolygon'}"

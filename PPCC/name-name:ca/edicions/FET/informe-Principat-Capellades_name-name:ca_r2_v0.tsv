@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Capellades"	"Ajuntament de Capellades"							"node"	"5796403243"		"{'amenity': 'townhall', 'email': 'capellades@capellades.cat', 'fax': '+34 93 801 39 96', 'name': 'Ajuntament de Capellades', 'phone': '+34 93 801 10 01'}"
+"Bosc de la Mateta"	"Bosc de la Mateta"							"node"	"8396711624"		"{'name': 'Bosc de la Mateta', 'natural': 'wood'}"
+"Riu Anoia"	"Riu Anoia"							"way"	" 318255009"		"{'name': 'Riu Anoia', 'natural': 'water', 'water': 'river'}"
+"Riu Anoia"	"Riu Anoia"			"Riu Anoia, L'Anoia (riu)"	"Riu Anoia"	"watercourse"	"Q567513"	"way"	" 231462076"		"{'boat': 'no', 'name': 'Riu Anoia', 'waterway': 'river', 'wikidata': 'Q567513', 'wikipedia': 'ca:Riu Anoia'}"

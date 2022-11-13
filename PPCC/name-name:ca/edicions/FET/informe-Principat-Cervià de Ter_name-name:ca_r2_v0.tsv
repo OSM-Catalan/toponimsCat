@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Castell de Cervià (S-XI)"	"Castell de Cervià (S-XI)"							"node"	"2040197503"		"{'designation': 'BCIN', 'historic': 'castle', 'name': 'Castell de Cervià (S-XI)'}"
+"Castell de Cervià (S-XI)"	"Castell de Cervià (S-XI)"							"way"	" 886781629"		"{'historic': 'ruins', 'name': 'Castell de Cervià (S-XI)', 'ruins': 'castle'}"
+"Mas de la Torre"	"Mas de la Torre"			"La Torre (Cervià de Ter), la Torre"	"La Torre (Cervià de Ter)"	"fortified house"	"Q28712280"	"way"	" 211476911"		"{'building': 'yes', 'name': 'Mas de la Torre', 'source': 'Bing', 'wikidata': 'Q28712280', 'wikipedia': 'ca:La Torre (Cervià de Ter)'}"
+"Riu Vell"	"Riu Vell"							"way"	" 363472983"		"{'name': 'Riu Vell', 'waterway': 'stream'}"

@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Platja de Canet - Canet - Port de Sagunt - Sagunt - València"	"Platja de Canet - Canet - Port de Sagunt - Sagunt - València"							"relation"	" 14337122"		"{'name': 'Platja de Canet - Canet - Port de Sagunt - Sagunt - València', 'ref': '115', 'route': 'bus', 'type': 'route'}"
+"Platja de la Pobla de Farnals"	"Platja de la Pobla de Farnals"							"node"	"450796013"		"{'name': 'Platja de la Pobla de Farnals', 'place': 'suburb'}"
+"Platja del Puig"	"Platja del Puig"	"Platja de Puig Val-Play Puig"						"way"	" 77949761"		"{'alt_name': 'Platja de Puig Val-Play Puig', 'name': 'Platja del Puig', 'natural': 'beach'}"
+"Platja Nord de la Pobla de Farnals"	"Platja Nord de la Pobla de Farnals"							"way"	"156305142"		"{'name': 'Platja Nord de la Pobla de Farnals', 'natural': 'beach', 'surface': 'sand'}"
+"Platja Pobla Marina"	"Platja Pobla Marina"							"way"	"156305130"		"{'name': 'Platja Pobla Marina', 'natural': 'beach', 'surface': 'sand'}"

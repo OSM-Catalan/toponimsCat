@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Mas Ferrer"	"Mas Ferrer"							"node"	"8409636385"		"{'name': 'Mas Ferrer', 'place': 'quarter'}"
+"Mas Ferrer"	"Mas Ferrer"							"node"	"8612662371"		"{'information': 'map', 'map_size': 'area', 'map_type': 'street', 'name': 'Mas Ferrer', 'tourism': 'information'}"
+"Mas Ferrer"	"Mas Ferrer"							"way"	"  40985070"		"{'addr:housenumber': '30', 'addr:street': 'Rue Aristide Maillol', 'building': 'yes', 'name': 'Mas Ferrer', 'source': 'cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2021'}"
+"Mas Ferrer"	"Mas Ferrer"							"relation"	"  12573497"		"{'name': 'Mas Ferrer', 'place': 'quarter', 'type': 'multipolygon'}"

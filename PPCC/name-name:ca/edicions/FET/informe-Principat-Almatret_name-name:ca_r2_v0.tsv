@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Mas d'Òscar"	"Mas d'Òscar"							"node"	"2409815828"		"{'name': \"Mas d'Òscar\", 'place': 'isolated_dwelling'}"
+"Mas de Flaret"	"Mas de Flaret"							"node"	"2409777354"		"{'name': 'Mas de Flaret', 'place': 'isolated_dwelling'}"
+"Mas de l'Estudiant"	"Mas de l'Estudiant"							"node"	"2409873869"		"{'name': \"Mas de l'Estudiant\", 'place': 'isolated_dwelling'}"
+"Mas de Pajà"	"Mas de Pajà"							"way"	" 488857185"		"{'building': 'yes', 'name': 'Mas de Pajà', 'place': 'isolated_dwelling'}"
+"Mas de Petxina"	"Mas de Petxina"							"node"	"2409777355"		"{'name': 'Mas de Petxina', 'place': 'isolated_dwelling'}"
+"Mas del Xano"	"Mas del Xano"							"way"	" 486933080"		"{'building': 'ruins', 'name': 'Mas del Xano', 'place': 'isolated_dwelling'}"

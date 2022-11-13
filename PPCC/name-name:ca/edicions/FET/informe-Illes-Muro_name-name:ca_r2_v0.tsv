@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Muro"	"Ajuntament de Muro"							"way"	"166142174"		"{'amenity': 'townhall', 'building': 'yes', 'name': 'Ajuntament de Muro'}"
+"bosc de sa Verdera"	"bosc de sa Verdera"							"way"	"436497559"		"{'name': 'bosc de sa Verdera', 'natural': 'wood'}"
+"Platja Daurada"	"Platja Daurada"							"way"	"416459412"		"{'name': 'Platja Daurada', 'operator': 'Eix', 'tourism': 'hotel', 'wheelchair': 'yes'}"
+"Platja de Muro"	"Platja de Muro"							"node"	"197920286"		"{'ele': '3', 'name': 'Platja de Muro', 'place': 'village', 'population': '494', 'population:date': '2009', 'ref:ine': '07039000200', 'source': 'Instituto Geográfico Nacional', 'source:date': '2011-06', 'source:ele': 'MDT5', 'source:name': 'Nomenclátor Geográfico de Municipios y Entidades de Población'}"
+"platja dels Francesos"	"platja dels Francesos"							"way"	"100001874"		"{'name': 'platja dels Francesos', 'natural': 'beach'}"

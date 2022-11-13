@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Hort de Grill"	"Hort de Grill"							"node"	"1243446080"		"{'name': 'Hort de Grill', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Hort de Torrent"	"Hort de Torrent"							"node"	"1243423732"		"{'name': 'Hort de Torrent', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Mas De Barcos"	"Mas De Barcos"							"way"	"  80418448"		"{'landuse': 'residential', 'name': 'Mas De Barcos', 'place': 'county'}"
+"Mas de Dalt"	"Mas de Dalt"							"node"	"1243466479"		"{'name': 'Mas de Dalt', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Mas del Marqués"	"Mas del Marqués"							"node"	"1243428544"		"{'name': 'Mas del Marqués', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

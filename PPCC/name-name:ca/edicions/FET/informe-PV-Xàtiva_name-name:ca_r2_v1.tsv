@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Carrer Font Terol"	"Carrer Font Terol"							"way"	"82246556"		"{'highway': 'living_street', 'name': 'Carrer Font Terol'}"
+"Castell de Xàtiva"	"Castell de Xàtiva"							"way"	"83969688"		"{'building': 'yes', 'historic': 'castle', 'leisure': 'park', 'name': 'Castell de Xàtiva', 'tourism': 'attraction'}"
+"Riu de Barxeta"	"Riu de Barxeta"							"relation"	"12532934"	"official_name=Paraje Natural Municipal Riu de Barxeta"	"{'boundary': 'protected_area', 'leisure': 'nature_reserve', 'name': 'Riu de Barxeta', 'official_name': 'Paraje Natural Municipal Riu de Barxeta', 'protection_title': 'Paraje Natural Municipal', 'related_law': 'Acuerdo de 6 de junio de 2008', 'type': 'boundary', 'website': 'http://agroambient.gva.es/es/web/parajes-naturales-municipales/pnm-riu-de-barxeta-barxeta'}"

@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Viladecans"	"Ajuntament de Viladecans"							"node"	"1994649044"		"{'addr:city': 'Viladecans', 'addr:country': 'ES', 'addr:housenumber': '2', 'addr:postcode': '08840', 'addr:street': 'Carrer de Jaume Abril', 'amenity': 'townhall', 'name': 'Ajuntament de Viladecans', 'phone': '+34 936351800', 'website': 'http://www.viladecans.cat', 'wheelchair': 'yes'}"
+"Platja de Cal Francès"	"Platja de Cal Francès"							"relation"	"   9973278"		"{'name': 'Platja de Cal Francès', 'natural': 'beach', 'type': 'multipolygon'}"
+"Platja de la Murtra"	"Platja de la Murtra"							"relation"	"   2161928"		"{'name': 'Platja de la Murtra', 'natural': 'beach', 'type': 'multipolygon'}"
+"Platja de la Pineda de Viladecans"	"Platja de la Pineda de Viladecans"							"relation"	"   9973279"		"{'name': 'Platja de la Pineda de Viladecans', 'natural': 'beach', 'nudism': 'yes', 'type': 'multipolygon'}"
+"Platja del Prat"	"Platja del Prat"							"relation"	"   1563602"	"name:ru=пляж «Эль-Прат»"	"{'name': 'Platja del Prat', 'name:ru': 'пляж «Эль-Прат»', 'natural': 'beach', 'type': 'multipolygon'}"
+"Platja del Remolar"	"Platja del Remolar"							"relation"	"   9973277"	"name:ru=пляж «Ремолар»"	"{'name': 'Platja del Remolar', 'name:ru': 'пляж «Ремолар»', 'natural': 'beach', 'nudism': 'yes', 'type': 'multipolygon'}"

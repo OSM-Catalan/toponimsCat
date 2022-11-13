@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Corbera de Llobregat"	"Ajuntament de Corbera de Llobregat"							"way"	" 815551102"		"{'addr:housename': 'Ajuntament de Corbera de Llobregat', 'addr:housenumber': '93 650 02 11', 'addr:postcode': '08757', 'addr:street': 'Carrer de la Pau, 5', 'amenity': 'townhall', 'building': 'yes', 'name': 'Ajuntament de Corbera de Llobregat'}"
+"Bosc de Malhivern"	"Bosc de Malhivern"							"node"	"1241570737"		"{'name': 'Bosc de Malhivern', 'place': 'locality'}"
+"Bosc de Malhivern"	"Bosc de Malhivern"							"node"	"8640265118"		"{'leisure': 'nature_wood', 'name': 'Bosc de Malhivern'}"
+"Mas d'en Puig"	"Mas d'en Puig"							"way"	" 180591614"		"{'landuse': 'residential', 'name': \"Mas d'en Puig\", 'place': 'neighbourhood'}"

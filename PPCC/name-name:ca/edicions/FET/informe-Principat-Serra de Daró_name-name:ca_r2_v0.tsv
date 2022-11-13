@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Serra de Daró"	"Ajuntament de Serra de Daró"							"way"	"392756390"		"{'amenity': 'townhall', 'building': 'public', 'contact:phone': '+34 972 757 120', 'contact:website': 'http://www.serradedaro.cat/', 'name': 'Ajuntament de Serra de Daró'}"
+"Mas Casadellà"	"Mas Casadellà"							"way"	"164695518"		"{'amenity': 'restaurant', 'name': 'Mas Casadellà'}"
+"Riu Daró"	"Riu Daró"			"Daró, el Daró, riu Daró"	"Daró"	"river"	"Q2834239"	"way"	"163456552"		"{'name': 'Riu Daró', 'waterway': 'river', 'wikidata': 'Q2834239', 'wikipedia': 'ca:Daró'}"

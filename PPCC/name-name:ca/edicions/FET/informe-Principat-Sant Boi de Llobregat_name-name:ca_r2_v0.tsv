@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Sant Boi de Llobregat"	"Ajuntament de Sant Boi de Llobregat"							"way"	"463986553"		"{'amenity': 'townhall', 'building': 'residential', 'name': 'Ajuntament de Sant Boi de Llobregat', 'opening_hours': 'Mo-Fr 8:30-14:00 || Mo-Th 14:00-19:00 \"con cita previa\"; PH off'}"
+"Mas Andreu"	"Mas Andreu"							"way"	"439810415"		"{'landuse': 'farmyard', 'man_made': 'works', 'name': 'Mas Andreu', 'source': 'catastro', 'source:date': '2016-01'}"
+"Mas Llopis"	"Mas Llopis"							"way"	"439805761"		"{'landuse': 'farmyard', 'name': 'Mas Llopis', 'source': 'catastro', 'source:date': '2016-01'}"

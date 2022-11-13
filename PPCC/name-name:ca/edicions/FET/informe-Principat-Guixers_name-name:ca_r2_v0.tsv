@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Guixers"	"Ajuntament de Guixers"							"way"	" 185557685"		"{'amenity': 'townhall', 'building': 'yes', 'email': 'ajuntament@guixers.ddl.net', 'fax': '+34 973492444', 'name': 'Ajuntament de Guixers', 'phone': '+34 973492541', 'website': 'http://guixers.ddl.net/descripcio.php?seccio=Ajuntament&id_seccio=3397'}"
+"Bosc d'en Monegal"	"Bosc d'en Monegal"							"node"	"1241635838"		"{'name': \"Bosc d'en Monegal\", 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Bosc de Bosoms"	"Bosc de Bosoms"							"node"	"1241607586"		"{'name': 'Bosc de Bosoms', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Bosc del Bancell"	"Bosc del Bancell"							"node"	"1241636466"		"{'name': 'Bosc del Bancell', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Riu Cardener"	"Riu Cardener"							"way"	" 155334714"		"{'name': 'Riu Cardener', 'waterway': 'river'}"
+"Riu del Coll de Jouet"	"Riu del Coll de Jouet"							"way"	" 285207584"		"{'name': 'Riu del Coll de Jouet', 'waterway': 'stream'}"

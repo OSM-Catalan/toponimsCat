@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Banyeres del Penedes"	"Ajuntament de Banyeres del Penedes"							"node"	"6960112421"		"{'amenity': 'townhall', 'name': 'Ajuntament de Banyeres del Penedes'}"
+"Bosc de la Creu"	"Bosc de la Creu"							"way"	" 216486974"		"{'landuse': 'forest', 'name': 'Bosc de la Creu'}"
+"Bosc dels Lleons"	"Bosc dels Lleons"							"way"	" 215656948"		"{'landuse': 'forest', 'leaf_type': 'needleleaved', 'name': 'Bosc dels Lleons'}"
+"Mas Blanc"	"Mas Blanc"							"way"	" 218902273"		"{'landuse': 'residential', 'name': 'Mas Blanc'}"
+"Mas Jover"	"Mas Jover"							"way"	" 513272367"		"{'building': 'yes', 'name': 'Mas Jover', 'place': 'isolated_dwelling'}"
+"Mas Roig"	"Mas Roig"							"way"	" 324165034"		"{'landuse': 'farmyard', 'name': 'Mas Roig'}"

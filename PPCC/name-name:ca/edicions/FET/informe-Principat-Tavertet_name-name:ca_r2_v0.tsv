@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Tavertet"	"Ajuntament de Tavertet"							"way"	" 867328861"		"{'amenity': 'townhall', 'building': 'public', 'name': 'Ajuntament de Tavertet'}"
+"Mas el Crous"	"Mas el Crous"							"node"	"7885592685"		"{'name': 'Mas el Crous', 'tourism': 'alpine_hut'}"
+"Mas el Crous"	"Mas el Crous"							"way"	" 989553983"		"{'building': 'yes', 'name': 'Mas el Crous'}"

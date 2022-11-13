@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Bosc de Santa Fe"	"Bosc de Santa Fe"							"node"	"6895539002"		"{'name': 'Bosc de Santa Fe', 'natural': 'wood'}"
+"Horts de la Vilanova"	"Horts de la Vilanova"							"node"	"6895538986"		"{'name': 'Horts de la Vilanova', 'place': 'locality'}"
+"Riu de Cabó"	"Riu de Cabó"							"way"	" 195586841"		"{'name': 'Riu de Cabó', 'waterway': 'stream'}"
+"Riu de Fontanet"	"Riu de Fontanet"							"way"	" 495188166"		"{'name': 'Riu de Fontanet', 'waterway': 'stream'}"

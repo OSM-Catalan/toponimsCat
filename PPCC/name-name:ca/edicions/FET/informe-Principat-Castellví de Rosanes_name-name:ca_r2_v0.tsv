@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Castellví de Rosanes"	"Ajuntament de Castellví de Rosanes"							"way"	"866398263"		"{'amenity': 'townhall', 'building': 'public', 'name': 'Ajuntament de Castellví de Rosanes'}"
+"Mas d'en Carmona"	"Mas d'en Carmona"							"way"	"877640440"		"{'building': 'house', 'ele': '276', 'name': \"Mas d'en Carmona\"}"
+"Mas de Sant Jaume"	"Mas de Sant Jaume"							"way"	"172976821"		"{'building': 'yes', 'name': 'Mas de Sant Jaume', 'place': 'isolated_dwelling'}"
+"Mas Guilera"	"Mas Guilera"							"way"	"172398737"		"{'name': 'Mas Guilera', 'place': 'isolated_dwelling'}"
+"Riu Anoia"	"Riu Anoia"			"Riu Anoia, L'Anoia (riu)"	"Riu Anoia"	"watercourse"	"Q567513"	"way"	"231462076"		"{'boat': 'no', 'name': 'Riu Anoia', 'waterway': 'river', 'wikidata': 'Q567513', 'wikipedia': 'ca:Riu Anoia'}"

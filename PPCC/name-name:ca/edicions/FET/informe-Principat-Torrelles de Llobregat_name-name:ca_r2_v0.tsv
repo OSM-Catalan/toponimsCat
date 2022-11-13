@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Torrelles de Llobregat"	"Ajuntament de Torrelles de Llobregat"							"way"	" 866398266"		"{'addr:city': 'Torrelles de Llobregat', 'addr:housenumber': '1', 'addr:postcode': '08629', 'addr:street': 'Plaça Ajuntament', 'amenity': 'townhall', 'building': 'public', 'name': 'Ajuntament de Torrelles de Llobregat'}"
+"Bosc de Xicanó"	"Bosc de Xicanó"							"node"	"7723361886"		"{'name': 'Bosc de Xicanó', 'natural': 'wood'}"
+"Mas Vidrier"	"Mas Vidrier"							"way"	"1092080525"		"{'addr:street': 'Baixada de la Masia', 'amenity': 'events_venue', 'building': 'yes', 'name': 'Mas Vidrier'}"

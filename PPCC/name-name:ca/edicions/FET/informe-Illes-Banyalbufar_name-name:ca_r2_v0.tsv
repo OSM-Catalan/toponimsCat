@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Bosc de Planícia"	"Bosc de Planícia"							"node"	"1242630989"		"{'name': 'Bosc de Planícia', 'place': 'locality'}"
+"Bosc des Rafal"	"Bosc des Rafal"							"node"	"1242614493"		"{'name': 'Bosc des Rafal', 'place': 'locality'}"
+"Hort de Planícia"	"Hort de Planícia"							"node"	"1242629566"		"{'name': 'Hort de Planícia', 'place': 'locality'}"
+"hort de Son Bujosa"	"hort de Son Bujosa"							"way"	" 596678001"		"{'landuse': 'orchard', 'name': 'hort de Son Bujosa', 'trees': 'olive_trees'}"
+"platja de Son Bunyola"	"platja de Son Bunyola"							"way"	"  96794422"		"{'name': 'platja de Son Bunyola', 'natural': 'beach'}"

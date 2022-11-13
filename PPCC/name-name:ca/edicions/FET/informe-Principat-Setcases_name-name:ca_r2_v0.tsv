@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Setcases"	"Ajuntament de Setcases"							"way"	" 421642199"		"{'amenity': 'townhall', 'building': 'yes', 'name': 'Ajuntament de Setcases', 'opening_hours': 'Mo-Fr 09:30-13:30'}"
+"Bosc de la Xoriguera"	"Bosc de la Xoriguera"							"node"	"1241592835"		"{'name': 'Bosc de la Xoriguera', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Bosc del Pla d'en Just"	"Bosc del Pla d'en Just"							"node"	"7904552243"		"{'name': \"Bosc del Pla d'en Just\", 'place': 'locality'}"
+"Riu Ter"	"Riu Ter"							"way"	" 627019814"	"name:1975=Río Ter"	"{'name': 'Riu Ter', 'name:1975': 'Río Ter', 'waterway': 'river'}"

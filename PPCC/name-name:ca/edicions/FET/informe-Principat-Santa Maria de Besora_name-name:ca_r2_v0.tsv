@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Bosc de la Coma"	"Bosc de la Coma"							"node"	"1241572443"		"{'name': 'Bosc de la Coma', 'place': 'locality'}"
+"Bosc de la Mare de Déu"	"Bosc de la Mare de Déu"							"node"	"7550684923"		"{'name': 'Bosc de la Mare de Déu', 'natural': 'wood'}"
+"Castell de Besora"	"Castell de Besora"							"way"	"1037927837"		"{'amenity': 'restaurant', 'building': 'yes', 'name': 'Castell de Besora', 'phone': '+34 621240497', 'website': 'https://www.instagram.com/elcastelldebesora/'}"
+"Mas de Sant Moí"	"Mas de Sant Moí"							"way"	" 366133640"		"{'building': 'house', 'name': 'Mas de Sant Moí'}"
+"Mas Veí o Malveí"	"Mas Veí o Malveí"							"way"	" 488011627"		"{'building': 'house', 'building:condition': 'completely_ruinous', 'layer': '-1', 'name': 'Mas Veí o Malveí', 'ruins': 'yes'}"
+"Riu Ter"	"Riu Ter"							"way"	" 160934416"	"name:1975=Río Ter"	"{'name': 'Riu Ter', 'name:1975': 'Río Ter', 'waterway': 'river'}"

@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Clariana de Cardener"	"Ajuntament de Clariana de Cardener"							"way"	" 293069526"		"{'addr:city': 'Clariana de Cardener', 'addr:postcode': '25290', 'amenity': 'townhall', 'building': 'yes', 'building:levels': '3', 'name': 'Ajuntament de Clariana de Cardener'}"
+"Bosc d'Altemís"	"Bosc d'Altemís"							"node"	"1241682204"		"{'name': \"Bosc d'Altemís\", 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Bosc de Sant Ponç"	"Bosc de Sant Ponç"							"node"	"1241667320"		"{'name': 'Bosc de Sant Ponç', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Bosc del Sastre"	"Bosc del Sastre"							"node"	"1241689633"		"{'name': 'Bosc del Sastre', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Riu Cardener"	"Riu Cardener"			"Cardener, Cardoner"	"Cardener"	"watercourse"	"Q31434"	"way"	" 155334716"		"{'name': 'Riu Cardener', 'waterway': 'river', 'wikidata': 'Q31434', 'wikipedia': 'ca:El Cardener'}"
+"Riu Negre"	"Riu Negre"							"way"	" 258735128"		"{'name': 'Riu Negre', 'waterway': 'river'}"

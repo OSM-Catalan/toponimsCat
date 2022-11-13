@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Castell de Can Taió"	"Castell de Can Taió"							"node"	"5764026541"		"{'historic': 'monument', 'name': 'Castell de Can Taió'}"
+"Castell de Santiga"	"Castell de Santiga"							"way"	" 436268788"		"{'building': 'yes', 'castle_type': 'fortification', 'historic': 'castle', 'name': 'Castell de Santiga'}"
+"Horts de la Plana del Molí"	"Horts de la Plana del Molí"							"way"	" 205730412"		"{'landuse': 'allotments', 'name': 'Horts de la Plana del Molí'}"
+"Mas Llargués"	"Mas Llargués"							"node"	"8714648600"		"{'amenity': 'animal_breeding', 'animal_breeding': 'horse', 'name': 'Mas Llargués'}"

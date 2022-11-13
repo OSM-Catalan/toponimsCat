@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Palau-Savardera"	"Ajuntament de Palau-Saverdera"							"way"	" 145029987"		"{'amenity': 'townhall', 'building': 'yes', 'contact:phone': '+34 972552337', 'contact:website': 'https://www.palau-saverdera.cat/', 'name': 'Ajuntament de Palau-Savardera'}"
+"Mas Blancs"	"Mas Blancs"							"node"	"1241592527"		"{'name': 'Mas Blancs', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Mas Isaac"	"Mas Isaac"							"relation"	"  14530910"		"{'landuse': 'residential', 'name': 'Mas Isaac', 'place': 'hamlet', 'type': 'multipolygon'}"

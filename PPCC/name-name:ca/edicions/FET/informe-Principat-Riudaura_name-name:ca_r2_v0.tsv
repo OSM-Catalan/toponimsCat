@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Riudaura"	"Ajuntament de Riudaura"							"node"	"6419102315"		"{'amenity': 'townhall', 'contact:phone': '+34 972264422', 'contact:website': 'http://www.riudaura.cat/', 'name': 'Ajuntament de Riudaura'}"
+"Mas Capdevila"	"Mas Capdevila"							"way"	" 155847823"		"{'building': 'yes', 'name': 'Mas Capdevila'}"
+"Mas Castanyer"	"Mas Castanyer"							"way"	" 961669644"		"{'building': 'house', 'name': 'Mas Castanyer'}"

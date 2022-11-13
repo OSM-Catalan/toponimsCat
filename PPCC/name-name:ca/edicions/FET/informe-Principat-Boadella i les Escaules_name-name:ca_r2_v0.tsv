@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Boadella i les Escaules"	"Ajuntament de Boadella i les Escaules"							"node"	"5131104861"		"{'addr:city': 'Boadella i les Escaules', 'addr:postcode': '17723', 'addr:street': 'Carrer de la Creu', 'amenity': 'townhall', 'name': 'Ajuntament de Boadella i les Escaules', 'nohousenumber': 'yes', 'opening_hours': 'Tu, Th 10:00-13:00; Tu 16:00-18:00', 'phone': '+34 972 569 211', 'website': 'http://webspobles2.ddgi.cat/boadellailesescaules/', 'wheelchair': 'yes'}"
+"Mas Benet"	"Mas Benet"							"node"	"5130652732"		"{'name': 'Mas Benet', 'place': 'isolated_dwelling'}"
+"Mas Martines"	"Mas Martines"							"way"	" 242650435"		"{'building': 'house', 'name': 'Mas Martines'}"

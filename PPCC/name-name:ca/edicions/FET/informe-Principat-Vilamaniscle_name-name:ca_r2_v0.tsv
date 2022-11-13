@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Vilamaniscle"	"Ajuntament de Vilamaniscle"							"node"	"4105669794"		"{'addr:city': 'Vilamaniscle', 'addr:housenumber': '6', 'addr:postcode': '17781', 'addr:street': 'Carrer Figueres', 'amenity': 'townhall', 'name': 'Ajuntament de Vilamaniscle', 'opening_hours': 'Tu-Th 17:00-20:00', 'phone': '+34 972 530 518', 'source': 'web Ajuntament', 'source:date': '2016', 'website': 'http://www.vilamaniscle.cat/'}"
+"Mas Pòlit"	"Mas Pòlit"							"way"	" 963357455"		"{'building': 'yes', 'name': 'Mas Pòlit'}"

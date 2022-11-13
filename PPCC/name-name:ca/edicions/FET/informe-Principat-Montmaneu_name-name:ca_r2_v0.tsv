@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Montmaneu"	"Ajuntament de Montmaneu"							"way"	"866398254"		"{'amenity': 'townhall', 'building': 'public', 'name': 'Ajuntament de Montmaneu'}"
+"Mas Casat"	"Mas Casat"							"way"	"314200726"		"{'landuse': 'farmyard', 'name': 'Mas Casat'}"
+"Mas Corbella"	"Mas Corbella"							"way"	"314200725"		"{'landuse': 'farmyard', 'name': 'Mas Corbella'}"
+"Riu Ondara"	"Riu Ondara"			"Riu Ondara"	"Riu Ondara"	"watercourse"	"Q11945712"	"way"	"180438585"		"{'name': 'Riu Ondara', 'waterway': 'river', 'wikidata': 'Q11945712', 'wikipedia': 'ca:Riu Ondara'}"

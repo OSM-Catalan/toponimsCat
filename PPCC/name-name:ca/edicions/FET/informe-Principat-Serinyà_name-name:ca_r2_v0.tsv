@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Serinyà"	"Ajuntament de Serinyà"							"relation"	"   5974330"		"{'amenity': 'townhall', 'building': 'yes', 'contact:phone': '972 593 128', 'contact:website': 'http://www.serinya.cat/', 'name': 'Ajuntament de Serinyà', 'type': 'multipolygon'}"
+"Bosc de Budellers"	"Bosc de Budellers"							"node"	"1241590163"		"{'name': 'Bosc de Budellers', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Riu Fluvià"	"Riu Fluvià"			"Fluvià"	"Fluvià"	"river"	"Q31551"	"way"	"  75538802"		"{'boat': 'no', 'name': 'Riu Fluvià', 'waterway': 'river', 'wikidata': 'Q31551', 'wikipedia': 'ca:Fluvià'}"

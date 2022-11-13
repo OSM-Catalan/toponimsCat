@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament d'Escorca"	"Ajuntament d'Escorca"							"node"	"1712596826"		"{'amenity': 'townhall', 'name': \"Ajuntament d'Escorca\"}"
+"Bosc de Son Massip"	"Bosc de Son Massip"							"node"	"1242620814"		"{'name': 'Bosc de Son Massip', 'place': 'locality'}"
+"Hort d' en Rom"	"Hort d'en Rom"							"node"	"1242620931"		"{'name': \"Hort d' en Rom\", 'place': 'locality'}"
+"Hort de sa Casa Nova"	"Hort de sa Casa Nova"							"way"	" 762016367"		"{'building': 'house', 'name': 'Hort de sa Casa Nova'}"
+"Hort de sa Plana"	"Hort de sa Plana"							"way"	" 863316999"		"{'building': 'ruins', 'name': 'Hort de sa Plana'}"

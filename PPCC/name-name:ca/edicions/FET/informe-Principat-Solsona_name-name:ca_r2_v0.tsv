@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Solsona"	"Ajuntament de Solsona"							"way"	"  169472035"		"{'addr:city': 'Solsona', 'addr:housenumber': '20', 'addr:postcode': '25280', 'addr:street': 'Carrer del castell', 'amenity': 'townhall', 'building': 'yes', 'name': 'Ajuntament de Solsona', 'wheelchair': 'yes'}"
+"Mas Blanc"	"Mas Blanc"							"way"	"  451100175"		"{'building': 'yes', 'name': 'Mas Blanc'}"
+"Mas Trinitat"	"Mas Trinitat"							"way"	"  460911333"		"{'addr:city': 'Solsona', 'building': 'house', 'name': 'Mas Trinitat'}"
+"Mas Vent-sere"	"Mas Vent-sere"							"way"	"  417618065"		"{'building': 'house', 'name': 'Mas Vent-sere'}"
+"Palau Episcopal"	"Palau Episcopal"							"node"	"10008480624"		"{'board_type': 'history', 'information': 'board', 'name': 'Palau Episcopal', 'tourism': 'information'}"
+"Riu Negre"	"Riu Negre"			"Riu Negre"	"Riu Negre"	"Wikimedia disambiguation page"	"Q110311944"	"way"	"  259902237"		"{'name': 'Riu Negre', 'waterway': 'stream', 'wikidata': 'Q110311944', 'wikipedia': 'ca:Riu Negre'}"

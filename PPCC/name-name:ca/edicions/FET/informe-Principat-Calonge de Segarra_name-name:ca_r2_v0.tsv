@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Bosc de Nadal"	"Bosc de Nadal"							"node"	"1241567719"		"{'name': 'Bosc de Nadal', 'place': 'locality'}"
+"Bosc dels Avellaners"	"Bosc dels Avellaners"							"node"	"1241566088"		"{'name': 'Bosc dels Avellaners', 'place': 'locality'}"
+"Castell de Calonge"	"Castell de Calonge"			"Castell de Calonge de Segarra, castell de Calonge"	"Castell de Calonge de Segarra"	"castle"	"Q18003834"	"way"	" 423090487"		"{'building': 'yes', 'historic': 'ruins', 'name': 'Castell de Calonge', 'wikidata': 'Q18003834', 'wikipedia': 'ca:Castell de Calonge de Segarra'}"
+"Castell de Mirambell"	"Castell de Mirambell"			"Castell de Mirambell, castell de Mirambell"	"Castell de Mirambell"	"castle"	"Q18003853"	"way"	" 382316843"		"{'building': 'yes', 'historic': 'castle', 'name': 'Castell de Mirambell', 'wikidata': 'Q18003853', 'wikipedia': 'ca:Castell de Mirambell'}"
+"Mas Soler"	"Mas Soler"	"Mas Solerot"	"Mas Solerot"					"way"	" 785729774"		"{'alt_name': 'Mas Solerot', 'building': 'yes', 'name': 'Mas Soler'}"

@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Banyeres"	"Ajuntament de Banyeres"							"way"	"482332101"		"{'amenity': 'townhall', 'building': 'yes', 'name': 'Ajuntament de Banyeres'}"
+"Horts Comunitaris"	"Horts Comunitaris"							"way"	"566667916"		"{'landuse': 'farmland', 'name': 'Horts Comunitaris'}"
+"Mas de Perolit"	"Mas de Perolit"							"way"	"916001323"		"{'building': 'house', 'name': 'Mas de Perolit'}"
+"Mas La Povila"	"Mas La Povila"							"way"	"566226231"		"{'building': 'yes', 'name': 'Mas La Povila'}"
+"Riu de La Marjal"	"Riu de La Marjal"							"way"	"724633146"		"{'intermittent': 'yes', 'name': 'Riu de La Marjal', 'waterway': 'river'}"
+"Riu Vinalopó"	"Riu Vinalopó"							"relation"	" 14075722"		"{'name': 'Riu Vinalopó', 'type': 'waterway', 'waterway': 'river'}"

@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament del Vilar d'Urtx"	"Ajuntament del Vilar d'Urtx"							"way"	" 867328846"		"{'amenity': 'townhall', 'building': 'public', 'name': \"Ajuntament del Vilar d'Urtx\"}"
+"Bosc Negre"	"Bosc Negre"							"node"	"1241598027"		"{'name': 'Bosc Negre', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Mas d'Amunt"	"Mas d'Amunt"							"node"	"7369065879"		"{'name': \"Mas d'Amunt\", 'place': 'isolated_dwelling'}"
+"Mas de Montagut"	"Mas de Montagut"							"node"	"4036076345"		"{'name': 'Mas de Montagut', 'place': 'isolated_dwelling'}"

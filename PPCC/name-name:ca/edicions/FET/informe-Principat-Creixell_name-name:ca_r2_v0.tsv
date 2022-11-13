@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Creixell"	"Ajuntament de Creixell"	"Casa de la Vila"	"Casa de la Vila"					"way"	" 516154371"		"{'alt_name': 'Casa de la Vila', 'amenity': 'townhall', 'building': 'yes', 'name': 'Ajuntament de Creixell', 'website': 'http://www.creixell.es/'}"
+"Mas Gibert (ruins)"	"Mas Gibert (ruïnes)"							"node"	"2664250399"		"{'building': 'collapsed', 'name': 'Mas Gibert (ruins)'}"
+"Mas Mercader"	"Mas Mercader"							"node"	"7951946226"		"{'name': 'Mas Mercader', 'place': 'isolated_dwelling'}"
+"Platja de Creixell"	"Platja de Creixell"							"relation"	"  12040635"		"{'name': 'Platja de Creixell', 'natural': 'beach', 'type': 'multipolygon'}"
+"Platja de les Antines"	"Platja de les Antines"							"relation"	"  12040409"		"{'name': 'Platja de les Antines', 'natural': 'beach', 'type': 'multipolygon'}"

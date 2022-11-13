@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Bosc Negre"	"Bosc Negre"							"node"	"1241587842"		"{'name': 'Bosc Negre', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Mas de Replans"	"Mas de Replans"							"node"	"4583899283"		"{'name': 'Mas de Replans', 'place': 'locality'}"
+"Mas de Replans"	"Mas de Replans"							"way"	" 364381348"		"{'abandoned': 'yes', 'building': 'yes', 'name': 'Mas de Replans'}"
+"Mas Puig"	"Mas Puig"							"node"	"2449442861"		"{'name': 'Mas Puig', 'place': 'isolated_dwelling'}"
+"Mas Verd"	"Mas Verd"							"node"	"2449413428"		"{'name': 'Mas Verd', 'place': 'isolated_dwelling'}"

@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Santanyí"	"Ajuntament de Santanyí"							"way"	" 208765149"		"{'addr:city': 'Santanyí, Mallorca', 'addr:postcode': '07650', 'addr:street': 'plaça Major', 'amenity': 'townhall', 'building': 'yes', 'name': 'Ajuntament de Santanyí', 'wheelchair': 'no'}"
+"Hort d'en Bennàsar"	"Hort d'en Bennàsar"							"node"	"8144160095"		"{'name': \"Hort d'en Bennàsar\", 'place': 'locality'}"
+"Hort d'en Rotlo"	"Hort d'en Rotlo"							"node"	"1242638719"		"{'name': \"Hort d'en Rotlo\", 'place': 'locality'}"
+"Mas nàutica"	"Mas nàutica"							"node"	"5857171588"		"{'name': 'Mas nàutica', 'shop': 'sports'}"
+"Platja des Caragol"	"Platja des Caragol"							"relation"	"   1553797"		"{'name': 'Platja des Caragol', 'natural': 'beach', 'nudism': 'yes', 'type': 'multipolygon'}"

@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Bosc de la Casadavall"	"Bosc de la Casadavall"							"node"	"1241550848"		"{'name': 'Bosc de la Casadavall', 'place': 'locality'}"
+"Bosc de la Sala"	"Bosc de la Sala"							"node"	"6387748569"		"{'name': 'Bosc de la Sala', 'natural': 'wood'}"
+"Castell de l'Envestida"	"Castell de l'Envestida"							"node"	"4169891093"		"{'ele': '996.1', 'name': \"Castell de l'Envestida\", 'natural': 'peak', 'source': 'Institut Cartogràfic de Catalunya'}"
+"Mas el Coll"	"Mas el Coll"							"way"	" 545292305"		"{'building': 'yes', 'guest_house': 'agritourism', 'name': 'Mas el Coll', 'tourism': 'guest_house'}"
+"Riu Pregron"	"Riu Pregon"							"way"	" 784846690"		"{'name': 'Riu Pregron', 'waterway': 'river'}"

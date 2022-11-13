@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Mas Nou"	"Mas Nou"							"node"	"1243447146"		"{'name': 'Mas Nou', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Platja de Canet - Canet - Port de Sagunt - Sagunt - València"	"Platja de Canet - Canet - Port de Sagunt - Sagunt - València"							"relation"	"  14337122"		"{'name': 'Platja de Canet - Canet - Port de Sagunt - Sagunt - València', 'ref': '115', 'route': 'bus', 'type': 'route'}"
+"Platja de Plans"	"Platja de Plans"							"relation"	"   2145006"		"{'name': 'Platja de Plans', 'natural': 'beach', 'type': 'multipolygon'}"
+"Platja de Santa Elvira-Torreta"	"Platja de Santa Elvira-Torreta"							"relation"	"   2145009"		"{'name': 'Platja de Santa Elvira-Torreta', 'natural': 'beach', 'type': 'multipolygon'}"
+"Platja del Puig"	"Platja del Puig"	"Platja de Puig Val-Play Puig"						"way"	"  77949761"		"{'alt_name': 'Platja de Puig Val-Play Puig', 'name': 'Platja del Puig', 'natural': 'beach'}"

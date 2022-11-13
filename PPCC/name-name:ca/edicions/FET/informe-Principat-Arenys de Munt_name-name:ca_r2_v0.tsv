@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament Arenys de Munt"	"Ajuntament Arenys de Munt"							"way"	"479099371"		"{'amenity': 'townhall', 'building': 'yes', 'name': 'Ajuntament Arenys de Munt'}"
+"Castell de Can Jalpí"	"Castell de Can Jalpí"							"relation"	" 14327884"	"name:es=Castillo de Can Jalpí"	"{'building': 'yes', 'historic': 'castle', 'name': 'Castell de Can Jalpí', 'name:es': 'Castillo de Can Jalpí', 'type': 'multipolygon'}"

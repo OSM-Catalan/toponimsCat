@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Siurana"	"Ajuntament de Siurana"							"way"	" 553460050"		"{'addr:city': 'Siurana', 'addr:country': 'ES', 'addr:housenumber': '3', 'addr:postcode': '17469', 'addr:street': 'Plaça Major', 'amenity': 'townhall', 'building': 'yes', 'contact:phone': '+34 972 526 084', 'contact:website': 'http://webspobles2.ddgi.cat/siurana/', 'name': 'Ajuntament de Siurana', 'opening_hours': 'Mo 08:30-13:30; Th 14:00-17:30', 'source': 'Institut Cartogràfic i Geològic de Catalunya, cartografia 1:1.000'}"
+"Bosc de la Brava"	"Bosc de la Brava"							"node"	"1241600332"		"{'name': 'Bosc de la Brava', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

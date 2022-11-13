@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Bosc del Morei"	"Bosc del Morei"							"node"	"6906188948"		"{'name': 'Bosc del Morei', 'natural': 'wood'}"
+"Bosc del Portell"	"Bosc del Portell"							"node"	"8396817693"		"{'name': 'Bosc del Portell', 'natural': 'wood'}"
+"Mas d'en Bosc"	"Mas d'en Bosc"							"node"	"4881369785"		"{'historic': 'ruins', 'name': \"Mas d'en Bosc\"}"
+"Mas Rosset"	"Mas Rosset"							"way"	" 178808553"		"{'building': 'yes', 'name': 'Mas Rosset'}"

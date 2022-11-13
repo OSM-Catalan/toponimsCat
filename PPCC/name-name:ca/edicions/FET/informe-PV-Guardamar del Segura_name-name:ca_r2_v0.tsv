@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Palau Sant Jaume"	"Palau Sant Jaume"							"way"	" 54478290"		"{'building': 'yes', 'building:levels': '3', 'layer': '1', 'leisure': 'sports_centre', 'name': 'Palau Sant Jaume'}"
+"Platja de l'Eixidor"	"Platja de l'Eixidor"							"way"	"935017778"		"{'name': \"Platja de l'Eixidor\", 'natural': 'beach', 'surface': 'sand'}"
+"Platja de les Ortigues"	"Platja de les Ortigues"							"way"	" 54237383"	"name:es=Ла мата пляж"	"{'name': 'Platja de les Ortigues', 'name:es': 'Ла мата пляж', 'natural': 'beach', 'surface': 'sand'}"

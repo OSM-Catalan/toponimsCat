@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Castellbisbal"	"Ajuntament de Castellbisbal"							"way"	" 619365047"		"{'addr:city': 'Castellbisbal', 'addr:housenumber': '9', 'addr:postcode': '08755', 'addr:street': 'Avinguda de Pau Casals', 'amenity': 'townhall', 'building': 'public', 'building:levels': '3', 'name': 'Ajuntament de Castellbisbal'}"
+"Castell de Benviure"	"Castell de Benviure"							"node"	"7313733632"		"{'bus': 'yes', 'highway': 'platform', 'name': 'Castell de Benviure', 'public_transport': 'platform', 'ref': '26266'}"
+"Castell de Benviure"	"Castell de Benviure"							"node"	"9805090350"		"{'bus': 'yes', 'name': 'Castell de Benviure', 'public_transport': 'stop_position'}"
+"Castell de Castellbisbal"	"Castell de Castellbisbal"							"node"	"8192140426"		"{'historic': 'ruins', 'name': 'Castell de Castellbisbal'}"
+"Horts de Ca n'Albereda"	"Horts de Ca n'Albereda"							"relation"	"  11058412"		"{'landuse': 'allotments', 'name': \"Horts de Ca n'Albereda\", 'type': 'multipolygon'}"
+"Riu Anoia"	"Riu Anoia"			"Riu Anoia, L'Anoia (riu)"	"Riu Anoia"	"watercourse"	"Q567513"	"way"	" 231462076"		"{'boat': 'no', 'name': 'Riu Anoia', 'waterway': 'river', 'wikidata': 'Q567513', 'wikipedia': 'ca:Riu Anoia'}"

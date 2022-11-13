@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Castell d'Almassora"	"Castell d'Almassora"							"node"	"10163866974"	"official_name=Restes del Castell d'Almassora"	"{'historic': 'archaeological_site', 'name': \"Castell d'Almassora\", 'official_name': \"Restes del Castell d'Almassora\", 'site_type': 'fortification'}"
+"Platja de les Goles"	"Platja de les Goles"							"way"	"  437583498"		"{'name': 'Platja de les Goles', 'natural': 'beach', 'surface': 'sand'}"
+"Riu Millars"	"Riu Millars"							"way"	"   32559641"		"{'name': 'Riu Millars', 'waterway': 'river'}"
+"Riu Millars"	"Riu Millars"	"Río Mijares"						"way"	"   75091283"		"{'alt_name': 'Río Mijares', 'name': 'Riu Millars', 'waterway': 'river'}"

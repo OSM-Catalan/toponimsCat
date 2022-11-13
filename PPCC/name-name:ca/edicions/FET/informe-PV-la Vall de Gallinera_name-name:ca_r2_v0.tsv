@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Castell d'Alpatró"	"Castell d'Alpatró"							"node"	"9026374920"		"{'historic': 'castle', 'name': \"Castell d'Alpatró\"}"
+"Riu d'Alcalà"	"Riu d'Alcalà"							"way"	" 258766422"		"{'intermittent': 'yes', 'name': \"Riu d'Alcalà\", 'waterway': 'river'}"
+"Riu de Benissili"	"Riu de Benissili"	"Riu de Gallinera"	"Riu de Gallinera"					"way"	" 203031339"		"{'alt_name': 'Riu de Gallinera', 'intermittent': 'yes', 'name': 'Riu de Benissili', 'waterway': 'stream'}"
+"Riu de Gallinera"	"Riu de Gallinera"							"way"	" 258745540"		"{'intermittent': 'yes', 'name': 'Riu de Gallinera', 'waterway': 'stream'}"
+"Riu de Gallinera"	"Riu de Gallinera"							"way"	" 185459926"		"{'intermittent': 'yes', 'name': 'Riu de Gallinera', 'waterway': 'stream'}"
+"Riu de Gallinera"	"Riu de Gallinera"							"way"	" 113057870"		"{'intermittent': 'yes', 'name': 'Riu de Gallinera', 'waterway': 'river'}"

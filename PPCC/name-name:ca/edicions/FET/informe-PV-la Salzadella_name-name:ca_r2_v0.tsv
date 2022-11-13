@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Mas d'Amela"	"Mas d'Amela"							"node"	"1243234171"		"{'name': \"Mas d'Amela\", 'place': 'locality'}"
+"Mas d'en Segarra"	"Mas d'en Segarra"							"node"	"1243277911"		"{'name': \"Mas d'en Segarra\", 'place': 'locality'}"
+"Mas de Gregori"	"Mas de Gregori"							"node"	"1243274322"		"{'name': 'Mas de Gregori', 'place': 'locality'}"
+"Mas de la Teuleria"	"Mas de la Teuleria"							"node"	"2063695968"		"{'ele': '377', 'name': 'Mas de la Teuleria', 'place': 'hamlet', 'population': '0', 'population:date': '2009', 'ref:ine': '12098000200', 'source': 'Instituto Geográfico Nacional', 'source:date': '2011-06', 'source:ele': 'MDT5', 'source:name': 'Nomenclátor Geográfico de Municipios y Entidades de Población'}"
+"Riu de les Coves"	"Riu de les Coves"	"Riu de Segarra"	"Riu de Segarra"					"way"	" 739160397"		"{'alt_name': 'Riu de Segarra', 'intermittent': 'yes', 'name': 'Riu de les Coves', 'waterway': 'river'}"

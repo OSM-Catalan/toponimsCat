@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Bosc de Salàs"	"Bosc de Salàs"							"node"	"6272640733"		"{'name': 'Bosc de Salàs', 'natural': 'wood'}"
+"Bosc de Salàs"	"Bosc de Salàs"							"node"	"1241636825"		"{'name': 'Bosc de Salàs', 'natural': 'wood', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Mas del Ballust"	"Mas del Ballust"							"way"	" 669736364"		"{'building': 'ruins', 'name': 'Mas del Ballust'}"
+"Riu de Carreu"	"Riu de Carreu"			"Riu de Carreu"	"Riu de Carreu"	"watercourse"	"Q11945737"	"way"	" 332391539"		"{'name': 'Riu de Carreu', 'waterway': 'river', 'wikidata': 'Q11945737', 'wikipedia': 'ca:Riu de Carreu'}"

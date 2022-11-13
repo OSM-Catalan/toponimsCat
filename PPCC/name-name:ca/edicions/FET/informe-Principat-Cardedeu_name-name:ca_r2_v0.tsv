@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Ajuntament de Cardedeu"	"Ajuntament de Cardedeu"							"way"	" 276684161"		"{'addr:city': 'Cardedeu', 'addr:housenumber': '1', 'addr:postcode': '08440', 'addr:street': 'Plaça de Sant Joan', 'amenity': 'townhall', 'building': 'yes', 'name': 'Ajuntament de Cardedeu', 'website': 'http://www.cardedeu.cat', 'wheelchair': 'yes'}"
+"Bosc de Can Montells"	"Bosc de Can Montells"							"relation"	"  13268662"		"{'landuse': 'forest', 'leaf_type': 'needleleaved', 'name': 'Bosc de Can Montells', 'source': 'EU CORINE land cover 2006', 'type': 'multipolygon'}"
+"Bosc de Vilalba"	"Bosc de Vilalba"							"relation"	"  10586895"		"{'landuse': 'forest', 'name': 'Bosc de Vilalba', 'type': 'multipolygon'}"
+"Bosc Negre"	"Bosc Negre"							"relation"	"  10586875"		"{'landuse': 'forest', 'name': 'Bosc Negre', 'type': 'multipolygon'}"
+"Mas Laura"	"Mas Laura"							"node"	"1993737526"		"{'name': 'Mas Laura', 'place': 'isolated_dwelling'}"

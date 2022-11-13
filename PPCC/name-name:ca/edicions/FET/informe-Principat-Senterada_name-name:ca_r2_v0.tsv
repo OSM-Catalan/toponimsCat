@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Bosc de Sant Joan"	"Bosc de Sant Joan"							"node"	"1241650270"		"{'name': 'Bosc de Sant Joan', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Mas d'Erdo"	"Mas d'Erdo"							"way"	" 630875557"		"{'name': \"Mas d'Erdo\", 'place': 'isolated_dwelling'}"
+"Riu de Cadolla"	"Riu de Cadolla"							"way"	" 396662463"		"{'name': 'Riu de Cadolla', 'waterway': 'river'}"
+"Riu de Sarroca"	"Riu de Sarroca"	"Riu Bòssia"	"Riu Bòssia"					"way"	" 181358695"		"{'alt_name': 'Riu Bòssia', 'name': 'Riu de Sarroca', 'waterway': 'river'}"
