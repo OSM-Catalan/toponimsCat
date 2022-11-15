@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Pla de la Guitard"	"Pla de la Guitard"							"way"	"39634403"		"{'highway': 'residential', 'name': 'Pla de la Guitard', 'surface': 'paved'}"
+"Pla del Boig"	"Pla del Boig"							"node"	"1241570909"		"{'name': 'Pla del Boig', 'place': 'locality'}"
+"Pla del Bonaire"	"Pla del Bonaire"							"node"	"933346595"		"{'bus': 'yes', 'name': 'Pla del Bonaire', 'network': \"Xarxa d'autobusos Urbans de Terrassa\", 'operator': 'TMESA', 'public_transport': 'stop_position', 'uic_name': 'FIXME', 'uic_ref': 'FIXME'}"
+"Pla del Bonaire"	"Pla del Bonaire"							"node"	"1241567388"		"{'name': 'Pla del Bonaire', 'place': 'locality'}"
+"Pla del Bonaire"	"Pla del Bonaire"							"node"	"933346581"		"{'bench': 'no', 'bus': 'yes', 'covered': 'no', 'highway': 'bus_stop', 'name': 'Pla del Bonaire', 'network': \"Xarxa d'autobusos Urbans de Terrassa\", 'operator': 'TMESA', 'public_transport': 'platform', 'ref': 'FIXME', 'shelter': 'no', 'tactile_paving': 'no', 'uic_name': 'FIXME', 'uic_ref': 'FIXME'}"
+"Pla del Garrot"	"Pla del Garrot"							"way"	"96322391"		"{'landuse': 'farmland', 'name': 'Pla del Garrot'}"

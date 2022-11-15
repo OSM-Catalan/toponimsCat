@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Còrrec de la Coma de Vinagre"	"Còrrec de la Coma de Vinagre"							"way"	"660732508"		"{'intermittent': 'yes', 'name': 'Còrrec de la Coma de Vinagre', 'source': 'BD Topo Hydrographie 2017', 'waterway': 'stream'}"
+"Còrrec de les Clairanes"	"Còrrec de les Clairanes"							"way"	"662439576"		"{'intermittent': 'yes', 'name': 'Còrrec de les Clairanes', 'source': 'BD Topo Hydrographie 2017', 'waterway': 'stream'}"
+"Còrrec de Sant Martí"	"Còrrec de Sant Martí"							"way"	"660891537"		"{'intermittent': 'yes', 'name': 'Còrrec de Sant Martí', 'source': 'BD Topo Hydrographie 2017', 'waterway': 'stream'}"
+"Mas dels Capellans"	"Mas dels Capellans"							"node"	"7276393069"		"{'name': 'Mas dels Capellans', 'place': 'farm', 'source': 'cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2020'}"

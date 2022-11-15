@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Estany de Montcortès i Bosc Encantat"	"Estany de Montcortès i Bosc Encantat"							"relation"	"10475465"		"{'ascent': '450', 'distance': '17.6', 'name': 'Estany de Montcortès i Bosc Encantat', 'network': 'lwn', 'roundtrip': 'yes', 'route': 'hiking', 'type': 'route'}"
+"Pla de les Calderes"	"Pla de les Calderes"							"node"	"1241615345"		"{'name': 'Pla de les Calderes', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Pla de Peres"	"Pla de Peres"							"node"	"1241655386"		"{'name': 'Pla de Peres', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Pla de Redon"	"Pla de Redon"							"node"	"1241650176"		"{'name': 'Pla de Redon', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

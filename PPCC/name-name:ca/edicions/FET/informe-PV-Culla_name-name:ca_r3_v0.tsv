@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Pla de la Torreta"	"Pla de la Torreta"							"node"	"1243273950"		"{'name': 'Pla de la Torreta', 'place': 'locality'}"
+"Pla de Sabater"	"Pla de Sabater"							"node"	"1243232780"		"{'name': 'Pla de Sabater', 'place': 'locality'}"
+"Pla del Sabater"	"Pla del Sabater"							"node"	"2063695998"		"{'ele': '802', 'name': 'Pla del Sabater', 'place': 'hamlet', 'population': '53', 'population:date': '2009', 'ref:ine': '12051000800', 'source': 'Instituto Geográfico Nacional', 'source:date': '2011-06', 'source:ele': 'MDT5', 'source:name': 'Nomenclátor Geográfico de Municipios y Entidades de Población'}"
+"Pla del Sastre"	"Pla del Sastre"							"node"	"1243282224"		"{'name': 'Pla del Sastre', 'place': 'locality'}"

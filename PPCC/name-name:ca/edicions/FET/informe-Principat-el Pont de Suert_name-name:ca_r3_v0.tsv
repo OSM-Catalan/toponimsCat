@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Estany Fe"	"Estany Fe"							"way"	"270741022"		"{'building': 'yes', 'name': 'Estany Fe'}"
+"Estany Gran"	"Estany Gran"							"way"	"270736575"		"{'building': 'yes', 'name': 'Estany Gran'}"
+"Estany Llong"	"Estany Llong"							"way"	"270741023"		"{'building': 'yes', 'name': 'Estany Llong'}"
+"Estany Negre"	"Estany Negre"							"way"	"270741025"		"{'building': 'yes', 'name': 'Estany Negre'}"
+"Estany Redó"	"Estany Redó"							"way"	"270736576"		"{'building': 'yes', 'name': 'Estany Redó'}"
+"Pla la Sala"	"Pla la Sala"							"node"	"1241650657"		"{'name': 'Pla la Sala', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

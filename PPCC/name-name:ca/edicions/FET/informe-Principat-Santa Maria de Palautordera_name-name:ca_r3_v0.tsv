@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Pla de Can Sala"	"Pla de Can Sala"							"node"	"1241561985"		"{'name': 'Pla de Can Sala', 'place': 'neighbourhood'}"
+"Pla de Can Sala"	"Pla de Can Sala"							"relation"	"10370693"		"{'landuse': 'residential', 'name': 'Pla de Can Sala', 'type': 'multipolygon'}"
+"Pla de la Dona Morta"	"Pla de la Dona Morta"							"node"	"1241555148"		"{'name': 'Pla de la Dona Morta', 'place': 'locality'}"
+"Pla de Pinella"	"Pla de Pinella"							"node"	"1241570114"		"{'name': 'Pla de Pinella', 'place': 'locality'}"

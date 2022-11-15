@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Còrrec des Estanys"	"Còrrec des Estanys"							"way"	"750546863"		"{'name': 'Còrrec des Estanys', 'source': 'Mapbox;BD Carthage', 'waterway': 'stream'}"
+"Mas de Panissars"	"Mas de Panissars"							"way"	"64608947"		"{'building': 'ruins', 'name': 'Mas de Panissars', 'source': 'cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010'}"
+"Mas du Colomer"	"Mas du Colomer"							"node"	"793739093"		"{'historic': 'ruins', 'name': 'Mas du Colomer', 'source': 'cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010'}"

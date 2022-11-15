@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Pla de Coma"	"Pla de Coma"							"node"	"1241567445"		"{'name': 'Pla de Coma', 'place': 'locality'}"
+"Rec de la Font de la Lladrera"	"Rec de la Font de la Lladrera"							"way"	"610249316"		"{'intermittent': 'yes', 'name': 'Rec de la Font de la Lladrera', 'waterway': 'stream'}"
+"Rec de la Font del Martí"	"Rec de la Font del Martí"							"way"	"610308117"		"{'intermittent': 'yes', 'name': 'Rec de la Font del Martí', 'waterway': 'stream'}"

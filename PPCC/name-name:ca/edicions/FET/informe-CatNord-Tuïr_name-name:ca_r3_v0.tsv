@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Mas Aucell"	"Mas Aucell"							"node"	"1792970801"		"{'addr:city': 'Thuir', 'addr:country': 'FR', 'addr:postcode': '66300', 'name': 'Mas Aucell', 'place': 'farm', 'source': 'cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012'}"
+"Mas des Granges"	"Mas des Granges"							"way"	"64074079"		"{'building': 'yes', 'name': 'Mas des Granges', 'source': 'cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010'}"
+"Mas Maria"	"Mas Maria"							"node"	"9901964250"		"{'fixme': 'position exacte', 'name': 'Mas Maria', 'place': 'isolated_dwelling'}"
+"Mas Paraire"	"Mas Paraire"							"node"	"1792970803"		"{'addr:city': 'Thuir', 'addr:country': 'FR', 'addr:postcode': '66300', 'name': 'Mas Paraire', 'place': 'farm', 'source': 'cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012'}"

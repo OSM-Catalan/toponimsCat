@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Pla d'en Miró"	"Pla d'en Miró"							"node"	"1241591876"		"{'name': \"Pla d'en Miró\", 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Pla de l'Hospital"	"Pla de l'Hospital"							"node"	"1241595744"		"{'name': \"Pla de l'Hospital\", 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Pla de Manol"	"Pla de Manol"							"node"	"1241590364"		"{'name': 'Pla de Manol', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Pla de Santa Maria"	"Pla de Santa Maria"							"node"	"1241590164"		"{'name': 'Pla de Santa Maria', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Veïnat Colomer"	"Veïnat Colomer"							"node"	"3478534213"		"{'name': 'Veïnat Colomer', 'place': 'neighbourhood'}"
+"Veïnat Muntaner"	"Veïnat Muntaner"							"way"	"850598205"		"{'landuse': 'residential', 'name': 'Veïnat Muntaner'}"

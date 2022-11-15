@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Estany de la Murtra"	"Estany de la Murtra"			"Estany de la Murtra, estany de la Murtra"	"Estany de la Murtra"	"wetland"	"Q18005080"	"way"	"204339024"		"{'name': 'Estany de la Murtra', 'natural': 'water', 'wikidata': 'Q18005080', 'wikipedia': 'ca:Estany de la Murtra'}"
+"Estany del Remolar"	"Estany del Remolar"							"relation"	"4274802"		"{'name': 'Estany del Remolar', 'natural': 'water', 'type': 'multipolygon', 'water': 'pond'}"
+"Pla de Sant Boi"	"Pla de Sant Boi"							"way"	"738196976"		"{'area': 'yes', 'highway': 'pedestrian', 'name': 'Pla de Sant Boi'}"
+"Pla dels Màrtirs del Setge de 1714"	"Pla dels Màrtirs del Setge de 1714"							"way"	"558796031"		"{'area': 'yes', 'name': 'Pla dels Màrtirs del Setge de 1714', 'place': 'square'}"

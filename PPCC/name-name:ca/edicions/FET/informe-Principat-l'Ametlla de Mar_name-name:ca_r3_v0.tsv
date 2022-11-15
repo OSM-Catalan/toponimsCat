@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Estany de Sant Jordi"	"Estany de Sant Jordi"							"way"	"156346977"		"{'name': 'Estany de Sant Jordi', 'natural': 'water'}"
+"Estany de Santes Creus"	"Estany de Santes Creus"							"relation"	"14509531"		"{'name': 'Estany de Santes Creus', 'natural': 'water', 'type': 'multipolygon'}"

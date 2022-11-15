@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Pla de Can Simó"	"Pla de Can Simó"							"node"	"1241562718"		"{'name': 'Pla de Can Simó', 'place': 'locality'}"
+"Rec de Can Planes"	"Rec de Can Planes"							"way"	"655678009"		"{'intermittent': 'yes', 'name': 'Rec de Can Planes', 'waterway': 'stream'}"
+"Rec de Can Planes"	"Rec de Can Planes"							"way"	"655678004"		"{'intermittent': 'yes', 'name': 'Rec de Can Planes', 'waterway': 'stream'}"
+"Rec de Can Planes"	"Rec de Can Planes"							"way"	"655678006"		"{'intermittent': 'yes', 'layer': '-1', 'name': 'Rec de Can Planes', 'tunnel': 'yes', 'waterway': 'stream'}"
+"Rec de Gaserans"	"Rec de Gaserans"							"way"	"626688540"		"{'intermittent': 'yes', 'name': 'Rec de Gaserans', 'waterway': 'stream'}"
+"Rec de Gaserans"	"Rec de Gaserans"							"way"	"626688541"		"{'intermittent': 'yes', 'layer': '-1', 'name': 'Rec de Gaserans', 'tunnel': 'yes', 'waterway': 'stream'}"

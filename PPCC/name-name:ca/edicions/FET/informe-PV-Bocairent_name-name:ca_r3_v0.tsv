@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Carrer Músic Bernat"	"Carrer Músic Bernat"							"way"	"200528116"		"{'hgv': 'no', 'highway': 'residential', 'lit': 'yes', 'name': 'Carrer Músic Bernat', 'oneway': 'yes', 'sidewalk': 'right', 'sidewalk:right:surface': 'paving_stones', 'smoothness': 'excellent', 'surface': 'asphalt'}"
+"Pla de l'Ànima"	"Pla de l'Ànima"							"node"	"1243463384"		"{'name': \"Pla de l'Ànima\", 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Plaça de Joan de Joanes"	"Plaça de Joan de Joanes"							"way"	"1112586806"		"{'highway': 'residential', 'name': 'Plaça de Joan de Joanes'}"
+"Plaça Joan de Joanes"	"Plaça Joan de Joanes"							"way"	"199022939"		"{'name': 'Plaça Joan de Joanes', 'place': 'square'}"

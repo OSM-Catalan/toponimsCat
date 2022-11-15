@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Estany d'Ivars d'Urgell"	"Estany d'Ivars d'Urgell"							"relation"	"2926611"		"{'name': \"Estany d'Ivars d'Urgell\", 'natural': 'water', 'type': 'multipolygon'}"
+"Estany d'Ivars i Vila-sana"	"Estany d'Ivars i Vila-sana"							"relation"	"10523737"		"{'ascent': '34', 'bicycle': 'yes', 'distance': '6', 'name': \"Estany d'Ivars i Vila-sana\", 'network': 'lwn', 'roundtrip': 'yes', 'route': 'hiking', 'type': 'route'}"
+"Estany d'Ivars i Vila-sana"	"Estany d'Ivars i Vila-sana"							"relation"	"11292009"		"{'ascent': '25', 'distance': '5.04', 'name': \"Estany d'Ivars i Vila-sana\", 'network': 'rcn', 'operator': \"Consell Comarcal del Pla d'Urgell\", 'roundtrip': 'yes', 'route': 'bicycle', 'type': 'route'}"
+"Pla de les Sitges"	"Pla de les Sitges"							"node"	"1241669123"		"{'name': 'Pla de les Sitges', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Pla de Tàrrega"	"Pla de Tàrrega"							"node"	"1241670438"		"{'name': 'Pla de Tàrrega', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Pla del Ballester"	"Pla del Ballester"							"node"	"1241563694"		"{'name': 'Pla del Ballester', 'place': 'locality'}"
+"Rec del Puig"	"Rec del Puig"							"way"	"610562899"		"{'intermittent': 'yes', 'name': 'Rec del Puig', 'waterway': 'stream'}"
+"Rec del Puig"	"Rec del Puig"							"way"	"610562895"		"{'intermittent': 'yes', 'layer': '-1', 'name': 'Rec del Puig', 'tunnel': 'yes', 'waterway': 'stream'}"
+"Rec del Purgatori"	"Rec del Purgatori"							"way"	"610566802"		"{'intermittent': 'yes', 'name': 'Rec del Purgatori', 'waterway': 'stream'}"
+"Rec del Purgatori"	"Rec del Purgatori"							"way"	"610566800"		"{'intermittent': 'yes', 'name': 'Rec del Purgatori', 'waterway': 'stream'}"
+"Rec del Purgatori"	"Rec del Purgatori"							"way"	"610566801"		"{'intermittent': 'yes', 'layer': '-1', 'name': 'Rec del Purgatori', 'tunnel': 'yes', 'waterway': 'stream'}"

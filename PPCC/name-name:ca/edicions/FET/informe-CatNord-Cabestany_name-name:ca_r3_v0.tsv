@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Rec dels Camps"	"Rec dels Camps"							"way"	"749828401"	"name:fr=Ravin des Champs"	"{'name': 'Rec dels Camps', 'name:fr': 'Ravin des Champs', 'source': 'BDOrtho IGN;BD Carthage', 'waterway': 'stream'}"
+"Rec des Camps"	"Rec des Camps"							"relation"	" 10339563"	"name:fr=Ravin des Champs"	"{'name': 'Rec des Camps', 'name:fr': 'Ravin des Champs', 'ref:sandre': 'Y0340510', 'type': 'waterway', 'waterway': 'stream'}"

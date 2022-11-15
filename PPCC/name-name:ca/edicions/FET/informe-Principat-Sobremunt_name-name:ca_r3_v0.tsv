@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Pla de Conjunta"	"Pla de Conjunta"							"node"	"1241564712"		"{'name': 'Pla de Conjunta', 'place': 'locality'}"
+"Pla de la Sala"	"Pla de la Sala"							"node"	"1241556047"		"{'name': 'Pla de la Sala', 'place': 'locality'}"
+"Rec de Rimbau"	"Rec de Rimbau"							"way"	"613441871"		"{'intermittent': 'yes', 'name': 'Rec de Rimbau', 'waterway': 'stream'}"
+"Rec del Puig"	"Rec del Puig"							"way"	"610562899"		"{'intermittent': 'yes', 'name': 'Rec del Puig', 'waterway': 'stream'}"
+"Rec del Puig"	"Rec del Puig"							"way"	"610562897"		"{'intermittent': 'yes', 'name': 'Rec del Puig', 'waterway': 'stream'}"
+"Rec del Puig"	"Rec del Puig"							"way"	"610562898"		"{'intermittent': 'yes', 'layer': '-1', 'name': 'Rec del Puig', 'tunnel': 'yes', 'waterway': 'stream'}"

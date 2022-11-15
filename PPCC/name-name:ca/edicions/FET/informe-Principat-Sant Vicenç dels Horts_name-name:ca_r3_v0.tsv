@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Pla de Can Coll"	"Pla de Can Coll"							"node"	"1241559323"		"{'name': 'Pla de Can Coll', 'place': 'locality'}"
+"Pla del Riu"	"Pla del Riu"							"node"	"3563093349"		"{'description:ca': 'Restes ceràmiques del comerç fluvial (218 a.C. - 476 d.C.)', 'historic': 'archaeological_site', 'historic:civilization': 'roman', 'name': 'Pla del Riu'}"
+"Rec Vell de Sant Vicenç dels Horts"	"Rec Vell de Sant Vicenç dels Horts"							"way"	"173141709"		"{'name': 'Rec Vell de Sant Vicenç dels Horts', 'waterway': 'canal'}"

@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Llac de la Molina"	"Llac de la Molina"							"way"	"190514079"		"{'name': 'Llac de la Molina', 'natural': 'water', 'salt': 'yes', 'water': 'lake'}"
+"Llac de Prat Agre"	"Llac de Prat Agre"							"way"	"190514076"		"{'name': 'Llac de Prat Agre', 'natural': 'water', 'water': 'lake'}"
+"Pla d'Alp"	"Pla d'Alp"							"node"	"1241593245"		"{'name': \"Pla d'Alp\", 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Pla de la Baga"	"Pla de la Baga"							"node"	"1241589520"		"{'name': 'Pla de la Baga', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Pla del Cementiri"	"Pla del Cementiri"							"node"	"1241597878"		"{'name': 'Pla del Cementiri', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Pla dels Torradors"	"Pla dels Torradors"							"node"	"7369065822"		"{'name': 'Pla dels Torradors', 'place': 'locality'}"

@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Pla de s'Ermita Vella"	"Pla de s'Ermita Vella"							"node"	"1242620588"		"{'name': \"Pla de s'Ermita Vella\", 'place': 'locality'}"
+"Pla de s'Hort"	"Pla de s'Hort"							"node"	"1242629383"		"{'name': \"Pla de s'Hort\", 'place': 'locality'}"
+"Pla de ses Tanques"	"Pla de ses Tanques"							"node"	"1242616950"		"{'name': 'Pla de ses Tanques', 'place': 'locality'}"
+"Pla de Xeixa"	"Pla de Xeixa"							"node"	"1242611057"		"{'name': 'Pla de Xeixa', 'place': 'locality'}"
+"Pla des Born"	"Pla des Born"							"way"	"43568941"		"{'highway': 'residential', 'name': 'Pla des Born', 'source': 'Yahoo;cadastre'}"
+"pla des Murtar"	"pla des Murtar"							"node"	"1242610761"		"{'name': 'pla des Murtar', 'place': 'locality'}"

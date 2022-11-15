@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Carrer de Sant Blai"	"Carrer de Sant Blai"							"way"	"1112237463"		"{'highway': 'residential', 'name': 'Carrer de Sant Blai'}"
+"Passeig primer de maig"	"Passeig primer de maig"							"way"	"355317244"		"{'leisure': 'park', 'name': 'Passeig primer de maig'}"
+"Pla de la Colata"	"Pla de la Colata"							"node"	"1243428126"		"{'name': 'Pla de la Colata', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Plaça d'Espanya"	"Plaça d'Espanya"							"way"	"1112196878"		"{'area': 'yes', 'highway': 'pedestrian', 'name': \"Plaça d'Espanya\"}"
+"Plaça d'Espanya"	"Plaça d'Espanya"							"way"	"1112237462"		"{'name': \"Plaça d'Espanya\", 'place': 'square'}"

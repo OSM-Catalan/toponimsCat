@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Pla de la Banyeta"	"Pla de la Banyeta"							"node"	"1241588433"		"{'name': 'Pla de la Banyeta', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Pla de Riudellots"	"Pla de Riudellots"							"node"	"1241595156"		"{'name': 'Pla de Riudellots', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Rec de Can Mateu"	"Rec de Can Mateu"							"way"	"413146395"		"{'intermittent': 'yes', 'name': 'Rec de Can Mateu', 'source': 'PNOA', 'source:name': 'local knowledge', 'waterway': 'stream'}"
+"Rec de la Rodoreda d'en Comes"	"Rec de la Rodoreda d'en Comes"							"way"	"625744811"		"{'intermittent': 'yes', 'name': \"Rec de la Rodoreda d'en Comes\", 'source': 'ICGC', 'source:name': 'local knowledge', 'waterway': 'stream'}"

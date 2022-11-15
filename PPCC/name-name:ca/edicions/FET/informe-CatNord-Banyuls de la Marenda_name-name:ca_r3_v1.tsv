@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Mas Cornet"	"Mas Cornet"							"way"	"64088089"		"{'building': 'yes', 'name': 'Mas Cornet', 'source': 'cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010'}"
+"Mas de les Abelles"	"Mas de les Abelles"							"way"	"64084468"		"{'building': 'yes', 'name': 'Mas de les Abelles', 'source': 'cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010'}"
+"Mas Parer"	"Mas Parer"							"node"	"837904493"		"{'name': 'Mas Parer', 'place': 'hamlet', 'source': 'cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010'}"
+"Mas Ramonet"	"Mas Ramonet"							"node"	"810037081"		"{'name': 'Mas Ramonet', 'place': 'isolated_dwelling'}"

@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Pla de sa Font"	"Pla de sa Font"							"node"	"1242633387"		"{'name': 'Pla de sa Font', 'place': 'locality'}"
+"Pla de Son Nebot"	"Pla de Son Nebot"							"node"	"1242630883"		"{'name': 'Pla de Son Nebot', 'place': 'locality'}"
+"Pla de Son Nebot"	"Pla de Son Nebot"							"way"	"339721274"		"{'landuse': 'residential', 'name': 'Pla de Son Nebot', 'place': 'neighbourhood'}"

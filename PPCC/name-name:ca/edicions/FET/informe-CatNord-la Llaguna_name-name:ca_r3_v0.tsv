@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Pla de Barrès"	"Pla de Barrès"							"node"	"932309285"		"{'bench': 'yes', 'check_date:shelter': '2022-05-14', 'highway': 'bus_stop', 'name': 'Pla de Barrès', 'shelter': 'yes'}"
+"Pla de les Postes"	"Pla de les Postes"							"node"	"929408872"		"{'ele': '1725', 'name': 'Pla de les Postes', 'place': 'locality', 'source': 'road sign'}"

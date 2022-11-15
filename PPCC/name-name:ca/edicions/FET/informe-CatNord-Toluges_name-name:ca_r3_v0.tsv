@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Mas Puig Sec"	"Mas Puig Sec"							"node"	"8911074130"		"{'name': 'Mas Puig Sec', 'place': 'locality'}"
+"Mas Puig-Sec"	"Mas Puig-Sec"							"node"	"315531753"		"{'bench': 'no', 'bus': 'yes', 'highway': 'bus_stop', 'name': 'Mas Puig-Sec', 'public_transport': 'platform', 'shelter': 'no', 'source': 'cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009'}"
+"Mas Puig-Sec"	"Mas Puig-Sec"							"node"	"1832858166"		"{'bench': 'no', 'bus': 'yes', 'highway': 'bus_stop', 'name': 'Mas Puig-Sec', 'public_transport': 'platform', 'shelter': 'no'}"

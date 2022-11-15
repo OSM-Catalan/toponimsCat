@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Pla de Comtes"	"Pla de Comtes"							"node"	"1241592720"		"{'name': 'Pla de Comtes', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Pla de Falgars"	"Pla de Falgars"							"node"	"1241589510"		"{'name': 'Pla de Falgars', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Pla de l'Espinal"	"Pla de l'Espinal"							"node"	"1241590296"		"{'name': \"Pla de l'Espinal\", 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Pla de la Bronza"	"Pla de la Bronza"							"node"	"5682623659"		"{'name': 'Pla de la Bronza', 'place': 'locality'}"
+"Pla de Paler"	"Pla de Paler"							"node"	"1241590255"		"{'name': 'Pla de Paler', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Rec dels Roures"	"Rec dels Roures"							"way"	"607450273"		"{'intermittent': 'yes', 'name': 'Rec dels Roures', 'waterway': 'stream'}"

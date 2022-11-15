@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Estany de la Panderola"	"Estany de la Panderola"							"relation"	"11203713"		"{'name': 'Estany de la Panderola', 'natural': 'water', 'type': 'multipolygon', 'water': 'pond'}"
+"Estany del Pujol"	"Estany del Pujol"							"relation"	"2803605"		"{'name': 'Estany del Pujol', 'natural': 'water', 'type': 'multipolygon'}"
+"Estany del Ravatxol"	"Estany del Ravatxol"							"way"	"815483993"		"{'intermittent': 'no', 'name': 'Estany del Ravatxol', 'natural': 'water', 'water': 'canal'}"
+"Pla de Sant Bernat"	"Pla de Sant Bernat"							"node"	"1243437045"		"{'name': 'Pla de Sant Bernat', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

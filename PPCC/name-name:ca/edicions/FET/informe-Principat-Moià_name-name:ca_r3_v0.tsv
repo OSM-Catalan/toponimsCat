@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Pla de Castellnou"	"Pla de Castellnou"							"node"	"1241563033"		"{'name': 'Pla de Castellnou', 'place': 'locality'}"
+"Pla de les Cases"	"Pla de les Cases"							"node"	"1241552191"		"{'name': 'Pla de les Cases', 'place': 'locality'}"
+"Pla del Llop"	"Pla del Llop"							"node"	"1241564516"		"{'name': 'Pla del Llop', 'place': 'locality'}"
+"Pla dels Pins"	"Pla dels Pins"							"node"	"1241568273"		"{'name': 'Pla dels Pins', 'place': 'locality'}"
+"Pla Romaní"	"Pla Romaní"							"way"	"833166883"		"{'building': 'yes', 'building:levels': '1', 'name': 'Pla Romaní'}"

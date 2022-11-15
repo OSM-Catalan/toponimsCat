@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Còrrec de les Clares"	"Còrrec de les Clares"							"way"	"760122252"		"{'intermittent': 'yes', 'name': 'Còrrec de les Clares', 'source': 'BD Topo Hydrographie 2017', 'waterway': 'stream'}"
+"Còrrec de les Clares"	"Còrrec de les Clares"							"way"	"760122250"		"{'intermittent': 'yes', 'name': 'Còrrec de les Clares', 'source': 'BD Topo Hydrographie 2017', 'waterway': 'stream'}"
+"Mas Deu"	"Mas Deu"							"node"	"3706202289"		"{'name': 'Mas Deu', 'place': 'hamlet'}"
+"Mas Deu"	"Mas Deu"							"way"	"74480303"		"{'building': 'yes', 'craft': 'winery', 'name': 'Mas Deu', 'source': 'extraction vectorielle v1 cadastre-dgi-fr source : Direction Générale des Impôts - Cadas. Mise à jour : 2010'}"

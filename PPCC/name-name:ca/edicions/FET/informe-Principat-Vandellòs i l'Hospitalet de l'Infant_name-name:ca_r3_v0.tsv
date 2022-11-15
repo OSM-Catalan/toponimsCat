@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Estany de Llastres"	"Estany de Llastres"							"way"	"687013353"		"{'intermittent': 'yes', 'name': 'Estany de Llastres', 'natural': 'water', 'water': 'pond'}"
+"Pla de l'Albercoquer"	"Pla de l'Albercoquer"							"node"	"1241779898"		"{'name': \"Pla de l'Albercoquer\", 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Pla de la Sàlvia"	"Pla de la Sàlvia"							"node"	"8026317518"		"{'name': 'Pla de la Sàlvia', 'place': 'locality'}"
+"Pla de Roure"	"Pla de Roure"							"node"	"7746240216"		"{'name': 'Pla de Roure', 'place': 'locality'}"

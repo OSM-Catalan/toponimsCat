@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Pla de les Monges"	"Pla de les Monges"							"node"	"8524901217"		"{'name': 'Pla de les Monges', 'place': 'locality'}"
+"Pla de les Mosqueres"	"Pla de les Mosqueres"							"node"	"1241549507"		"{'name': 'Pla de les Mosqueres', 'place': 'locality'}"
+"Rec dels Solans"	"Rec dels Solans"							"way"	"183318733"		"{'name': 'Rec dels Solans', 'waterway': 'stream'}"

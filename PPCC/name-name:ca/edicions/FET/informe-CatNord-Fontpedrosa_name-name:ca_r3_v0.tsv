@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Estany de Bacivers"	"Estany de Bacivers"							"way"	"  90851832"		"{'name': 'Estany de Bacivers', 'natural': 'water'}"
+"Pla de Bacivers"	"Pla de Bacivers"							"way"	" 833239468"		"{'name': 'Pla de Bacivers', 'natural': 'grassland'}"
+"Pla de Noufonts"	"Pla de Noufonts"							"node"	"2332931437"		"{'name': 'Pla de Noufonts', 'place': 'locality'}"
+"Riu d'Aigües"	"Riu d'Aigües"							"way"	" 865829495"		"{'name': \"Riu d'Aigües\", 'waterway': 'stream'}"

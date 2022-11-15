@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Pla d'en Font"	"Pla d'en Font"							"node"	"1241594218"		"{'name': \"Pla d'en Font\", 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Pla de Llavanera"	"Pla de Llavanera"							"node"	"1241587479"		"{'name': 'Pla de Llavanera', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Rec de Can Teixidor"	"Rec de Can Teixidor"							"way"	"621516371"		"{'intermittent': 'yes', 'name': 'Rec de Can Teixidor', 'source': 'ICGC', 'source:name': 'local knowledge', 'waterway': 'stream'}"

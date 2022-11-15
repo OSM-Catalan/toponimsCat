@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Pla de Barrès"	"Pla de Barrès"							"node"	"3294904778"		"{'name': 'Pla de Barrès', 'place': 'locality'}"
+"Pla de la Creu"	"Pla de la Creu"							"node"	"6143203675"		"{'name': 'Pla de la Creu', 'place': 'quarter'}"
+"Pla de les Artigues"	"Pla de les Artigues"							"node"	"9348381851"		"{'ele': '1625', 'hiking': 'yes', 'information': 'guidepost', 'name': 'Pla de les Artigues', 'tourism': 'information'}"
+"Pla de les Artigues"	"Pla de les Artigues"							"way"	" 255526208"		"{'highway': 'tertiary', 'name': 'Pla de les Artigues', 'source': 'Cnes/Spot Image'}"

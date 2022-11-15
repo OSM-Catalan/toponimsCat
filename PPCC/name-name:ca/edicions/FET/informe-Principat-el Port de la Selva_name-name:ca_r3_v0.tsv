@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Pla de Palau"	"Pla de Palau"							"node"	"1241601815"		"{'name': 'Pla de Palau', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Rec d'en Fitó"	"Rec d'en Fitó"							"way"	"188190985"		"{'intermittent': 'yes', 'name': \"Rec d'en Fitó\", 'waterway': 'stream'}"
+"Rec de Fornells"	"Rec de Fornells"							"way"	"399367560"		"{'intermittent': 'yes', 'name': 'Rec de Fornells', 'waterway': 'stream'}"
+"Rec de Portaló"	"Rec de Portaló"							"way"	"188190004"		"{'intermittent': 'yes', 'name': 'Rec de Portaló', 'waterway': 'stream'}"
+"Rec del Moro"	"Rec del Moro"							"way"	"188190001"		"{'intermittent': 'yes', 'name': 'Rec del Moro', 'waterway': 'stream'}"
+"Rec del Portaló"	"Rec del Portaló"							"way"	"188190003"		"{'intermittent': 'yes', 'name': 'Rec del Portaló', 'waterway': 'stream'}"

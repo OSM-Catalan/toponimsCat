@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Pla de Camós"	"Pla de Camós"							"node"	"1241585446"		"{'name': 'Pla de Camós', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Rec de Cal Fuster"	"Rec de Cal Fuster"							"way"	"413138590"		"{'name': 'Rec de Cal Fuster', 'source': 'PNOA', 'waterway': 'stream'}"
+"Rec de Can Mateu"	"Rec de Can Mateu"							"way"	"413146395"		"{'intermittent': 'yes', 'name': 'Rec de Can Mateu', 'source': 'PNOA', 'source:name': 'local knowledge', 'waterway': 'stream'}"
+"Rec de la Torre"	"Rec de la Torre"							"way"	"413138597"		"{'intermittent': 'yes', 'name': 'Rec de la Torre', 'source': 'PNOA', 'waterway': 'stream'}"
+"Veïnat de Can Pedrers"	"Veïnat de Can Pedrers"							"node"	"4215804886"		"{'name': 'Veïnat de Can Pedrers', 'place': 'locality'}"

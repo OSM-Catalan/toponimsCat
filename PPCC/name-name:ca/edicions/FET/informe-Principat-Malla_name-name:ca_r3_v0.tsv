@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Pla Boixer"	"Pla Boixer"							"node"	"1241555452"		"{'name': 'Pla Boixer', 'place': 'locality'}"
+"Pla de l'Albanell"	"Pla de l'Albanell"							"node"	"1241568191"		"{'name': \"Pla de l'Albanell\", 'place': 'locality'}"
+"Rec d'Aigüespartides"	"Rec d'Aigüespartides"							"way"	"675556516"		"{'intermittent': 'yes', 'name': \"Rec d'Aigüespartides\", 'waterway': 'stream'}"
+"Rec d'Aigüespartides"	"Rec d'Aigüespartides"							"way"	"675921168"		"{'intermittent': 'yes', 'name': \"Rec d'Aigüespartides\", 'waterway': 'stream'}"

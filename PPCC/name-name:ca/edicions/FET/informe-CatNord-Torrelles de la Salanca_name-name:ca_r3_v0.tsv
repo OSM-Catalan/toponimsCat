@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Agulla de l'Auca"	"Agulla de l'Auca"							"way"	" 80238489"		"{'name': \"Agulla de l'Auca\", 'natural': 'water', 'source': 'cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010', 'water': 'drain'}"
+"Agulla de l'Auca"	"Agulla de l'Auca"							"way"	"442144704"		"{'name': \"Agulla de l'Auca\", 'source': 'cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010', 'waterway': 'drain'}"
+"Agulla de l'Auca"	"Agulla de l'Auca"							"way"	"152448590"		"{'name': \"Agulla de l'Auca\", 'waterway': 'river'}"
+"Agulla de l'Auca"	"Agulla de l'Auca"							"relation"	"  3159049"		"{'name': \"Agulla de l'Auca\", 'natural': 'water', 'type': 'multipolygon', 'water': 'drain'}"

@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Pla de Cirer"	"Pla de Cirer"							"node"	"948631346"		"{'ele': '1126.10', 'ign:latitud': '38.6453185614330010', 'ign:longitud': '-0.3332483868200000', 'ign:red': 'Red Geodesica Nacional Convencional (ROI)', 'man_made': 'survey_point', 'name': 'Pla de Cirer', 'note': 'This is a point from an official geodetic network. Use it as a reference, but do NOT move it.', 'ref': '84758', 'source': 'Instituto Geográfico Nacional', 'source:ref': 'ftp://ftp.geodesia.ign.es'}"
+"Pla de Mitjà"	"Pla de Mitjà"							"node"	"1242152420"		"{'name': 'Pla de Mitjà', 'place': 'locality'}"
+"Pla del Cirer"	"Pla del Cirer"							"node"	"1242134603"		"{'name': 'Pla del Cirer', 'place': 'locality'}"

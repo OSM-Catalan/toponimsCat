@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Estany des Cavallet"	"Estany des Cavallet"							"way"	"74370198"		"{'area': 'yes', 'landuse': 'salt_pond', 'name': 'Estany des Cavallet', 'natural': 'wetland', 'source': 'ideib WMS layer (see OSM wiki)', 'wetland': 'saltern'}"
+"Pla d'en Gaspar"	"Pla d'en Gaspar"							"node"	"1242610903"		"{'name': \"Pla d'en Gaspar\", 'place': 'locality'}"
+"Pla de Cas Jai"	"Pla de Cas Jai"							"node"	"1242625770"		"{'name': 'Pla de Cas Jai', 'place': 'locality'}"

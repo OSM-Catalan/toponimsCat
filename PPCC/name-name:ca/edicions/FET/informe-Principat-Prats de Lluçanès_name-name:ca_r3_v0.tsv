@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Pla de la Coma del Forn"	"Pla de la Coma del Forn"							"node"	"1241561070"		"{'name': 'Pla de la Coma del Forn', 'place': 'locality'}"
+"Pla de la Vinya"	"Pla de la Vinya"							"node"	"1241551420"		"{'name': 'Pla de la Vinya', 'place': 'locality'}"
+"Rec de l'Oli"	"Rec de l'Oli"							"way"	"190951205"		"{'name': \"Rec de l'Oli\", 'waterway': 'stream'}"
+"Rec de la Font de la Coromina"	"Rec de la Font de la Coromina"							"way"	"190951206"		"{'name': 'Rec de la Font de la Coromina', 'waterway': 'stream'}"
+"Rec de la Font de la Coromina"	"Rec de la Font de la Coromina"							"way"	"591661648"		"{'layer': '-1', 'name': 'Rec de la Font de la Coromina', 'tunnel': 'culvert', 'waterway': 'stream'}"
+"Rec de la Font de la Coromina"	"Rec de la Font de la Coromina"							"way"	"591661649"		"{'name': 'Rec de la Font de la Coromina', 'waterway': 'stream'}"

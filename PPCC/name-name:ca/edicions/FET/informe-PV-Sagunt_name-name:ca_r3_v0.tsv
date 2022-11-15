@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Pla de Maresme"	"Pla de Maresme"							"node"	"1243374161"		"{'name': 'Pla de Maresme', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Pla de Maresme"	"Pla de Maresme"							"way"	"261166645"		"{'highway': 'residential', 'name': 'Pla de Maresme', 'oneway': 'yes', 'surface': 'asphalt'}"
+"Pla de Ramona"	"Pla de Ramona"							"node"	"1243438111"		"{'name': 'Pla de Ramona', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Pla del Bou"	"Pla del Bou"							"node"	"1243375629"		"{'name': 'Pla del Bou', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Pla del Corretger"	"Pla del Corretger"							"node"	"1243366781"		"{'name': 'Pla del Corretger', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

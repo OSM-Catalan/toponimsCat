@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Pla de Baix"	"Pla de Baix"							"node"	"1241601573"		"{'name': 'Pla de Baix', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Rec de Fontanilles"	"Rec de Fontanilles"							"way"	"883235508"		"{'intermittent': 'yes', 'name': 'Rec de Fontanilles', 'waterway': 'stream'}"
+"Rec de les Fonts"	"Rec de les Fonts"							"way"	"783367695"		"{'intermittent': 'yes', 'name': 'Rec de les Fonts', 'waterway': 'stream'}"

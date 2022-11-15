@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Estany de Cal Tet"	"Estany de Cal Tet"							"relation"	"4237518"		"{'name': 'Estany de Cal Tet', 'natural': 'water', 'type': 'multipolygon', 'water': 'pond'}"
+"Estany de l'Illa"	"Estany de l'Illa"							"way"	"606124558"		"{'name': \"Estany de l'Illa\", 'natural': 'water', 'water': 'pond'}"
+"Estany de la Magarola"	"Estany de la Magarola"							"relation"	"10947357"		"{'name': 'Estany de la Magarola', 'natural': 'water', 'type': 'multipolygon', 'water': 'pond'}"
+"Estany del Remolar"	"Estany del Remolar"							"relation"	"4274802"		"{'name': 'Estany del Remolar', 'natural': 'water', 'type': 'multipolygon', 'water': 'pond'}"

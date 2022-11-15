@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Còrrec de les Lloberes"	"Còrrec de les Lloberes"							"way"	"59677600"		"{'name': 'Còrrec de les Lloberes', 'waterway': 'ditch'}"
+"Mas Conte"	"Mas Conte"							"node"	"8578952045"		"{'name': 'Mas Conte', 'place': 'isolated_dwelling'}"
+"Mas d'en Duran"	"Mas d'en Duran"							"node"	"8568839250"	"name:fr=Mas Durand"	"{'name': \"Mas d'en Duran\", 'name:fr': 'Mas Durand', 'place': 'isolated_dwelling'}"
+"Mas d'en Jacques Blanc"	"Mas d'en Jacques Blanc"							"way"	"62965375"		"{'building': 'yes', 'name': \"Mas d'en Jacques Blanc\", 'source': 'cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010'}"
+"Mas d'en Julià Blanc"	"Mas d'en Julià Blanc"							"way"	"62962941"		"{'building': 'yes', 'name': \"Mas d'en Julià Blanc\", 'source': 'cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010'}"

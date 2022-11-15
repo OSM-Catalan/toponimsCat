@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Pla de les Codines"	"Pla de les Codines"							"node"	"2913023690"		"{'name': 'Pla de les Codines', 'place': 'locality'}"
+"Pla de Manlleu"	"Pla de Manlleu"							"node"	"3186757068"		"{'name': 'Pla de Manlleu', 'place': 'hamlet'}"
+"Pla de Manlleu"	"Pla de Manlleu"							"way"	"147580150"		"{'landuse': 'residential', 'name': 'Pla de Manlleu'}"

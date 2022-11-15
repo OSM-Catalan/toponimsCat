@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Pla d'Albinyana"	"Pla d'Albinyana"							"node"	"1241551205"		"{'name': \"Pla d'Albinyana\", 'place': 'locality'}"
+"Pla de Reixac"	"Pla de Reixac"							"node"	"6280695383"		"{'name': 'Pla de Reixac', 'place': 'locality'}"
+"Pla de Rocamora"	"Pla de Rocamora"							"node"	"1241552049"		"{'name': 'Pla de Rocamora', 'place': 'locality'}"
+"Rec Comtal"	"Rec Comtal"							"node"	"7680552885"		"{'board_type': 'nature', 'information': 'board', 'name': 'Rec Comtal', 'tourism': 'information'}"
+"Rec Comtal"	"Rec Comtal"							"way"	"808951955"		"{'name': 'Rec Comtal', 'waterway': 'ditch'}"
+"Rec Comtal"	"Rec Comtal"							"way"	"146660534"		"{'name': 'Rec Comtal', 'natural': 'water'}"

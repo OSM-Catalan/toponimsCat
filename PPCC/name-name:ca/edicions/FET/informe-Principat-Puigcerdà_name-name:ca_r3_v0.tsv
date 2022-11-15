@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Estany del Torniquet"	"Estany del Torniquet"							"way"	"190399563"		"{'name': 'Estany del Torniquet', 'natural': 'water'}"
+"Pla d'Age"	"Pla d'Age"							"node"	"1241599616"		"{'name': \"Pla d'Age\", 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Pla d'Enveig"	"Pla d'Enveig"							"node"	"1241590199"		"{'name': \"Pla d'Enveig\", 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Pla de Rigolisa"	"Pla de Rigolisa"							"node"	"1241589513"		"{'name': 'Pla de Rigolisa', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Pla de Sant Marc"	"Pla de Sant Marc"							"node"	"1241601594"		"{'name': 'Pla de Sant Marc', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

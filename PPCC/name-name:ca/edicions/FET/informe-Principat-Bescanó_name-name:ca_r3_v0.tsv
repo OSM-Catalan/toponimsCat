@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Pla de Montfullà"	"Pla de Montfullà"							"node"	"1241587974"		"{'name': 'Pla de Montfullà', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Pla del Ter"	"Pla del Ter"							"way"	"793460865"		"{'highway': 'path', 'name': 'Pla del Ter'}"
+"Pla del Ter"	"Pla del Ter"							"way"	"793460864"		"{'highway': 'path', 'name': 'Pla del Ter'}"
+"rec Monar"	"rec Monar"							"way"	"622777192"		"{'name': 'rec Monar', 'waterway': 'canal'}"
+"rec Monar"	"rec Monar"							"way"	"622777190"		"{'layer': '-1', 'name': 'rec Monar', 'tunnel': 'yes', 'waterway': 'canal'}"

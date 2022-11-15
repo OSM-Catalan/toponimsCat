@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Pla de la Serra"	"Pla de la Serra"							"node"	"1241593539"		"{'name': 'Pla de la Serra', 'place': 'locality'}"
+"Pla de Prats"	"Pla de Prats"							"node"	"9795577868"		"{'name': 'Pla de Prats', 'place': 'locality'}"
+"Pla del Grau"	"Pla del Grau"							"node"	"1241585837"		"{'name': 'Pla del Grau', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

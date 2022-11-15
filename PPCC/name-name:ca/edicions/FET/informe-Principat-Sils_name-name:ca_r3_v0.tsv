@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Estany de Sils"	"Estany de Sils"							"node"	"1241588245"		"{'name': 'Estany de Sils', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Estany de Sils"	"Estany de Sils"							"relation"	"6875503"		"{'name': 'Estany de Sils', 'tourism': 'attraction', 'type': 'multipolygon'}"
+"Rec Clar"	"Rec Clar"							"way"	"218473254"		"{'name': 'Rec Clar', 'waterway': 'stream'}"
+"Rec Clar"	"Rec Clar"							"way"	"465475438"		"{'name': 'Rec Clar', 'waterway': 'stream'}"
+"Rec Clar"	"Rec Clar"							"way"	"465475439"		"{'layer': '-1', 'name': 'Rec Clar', 'tunnel': 'yes', 'waterway': 'stream'}"

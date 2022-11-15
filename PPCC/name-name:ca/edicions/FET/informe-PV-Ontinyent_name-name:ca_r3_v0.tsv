@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Pla de les Simes"	"Pla de les Simes"							"node"	"1243373752"		"{'name': 'Pla de les Simes', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Pla de Simes"	"Pla de Simes"							"node"	"1706662490"		"{'ele': '670', 'name': 'Pla de Simes', 'natural': 'cave_entrance', 'ref:DOCV': '5261', 'ref:EUNIS': '389379', 'ref:IGN': '820', 'ref:topografia': 'http://www.cma.gva.es/areas/espacios/cuevas/pla_de_simes.pdf', 'source': 'http://www.cma.gva.es/web/indice.aspx?nodo=1959'}"
+"Pla del Quincaller"	"Pla del Quincaller"							"node"	"1243376595"		"{'name': 'Pla del Quincaller', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

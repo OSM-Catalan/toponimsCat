@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Pla Parella"	"Pla Parella"							"node"	"1241588801"		"{'name': 'Pla Parella', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Rec de Santigosa"	"Rec de Santigosa"							"way"	"387837764"		"{'intermittent': 'yes', 'name': 'Rec de Santigosa', 'waterway': 'stream'}"
+"Rec del Roquer"	"Rec del Roquer"							"way"	"792954069"		"{'intermittent': 'yes', 'name': 'Rec del Roquer', 'waterway': 'stream'}"
+"Rec del Roquer"	"Rec del Roquer"							"way"	"792954063"		"{'intermittent': 'yes', 'layer': '-1', 'name': 'Rec del Roquer', 'tunnel': 'yes', 'waterway': 'stream'}"

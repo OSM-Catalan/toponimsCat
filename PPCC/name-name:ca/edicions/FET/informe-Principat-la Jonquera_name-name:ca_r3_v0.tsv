@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Estany Gros"	"Estany Gros"							"way"	"240235805"		"{'name': 'Estany Gros', 'natural': 'wetland', 'wetland': 'marsh'}"
+"Pla de la Balma"	"Pla de la Balma"							"node"	"1241590402"		"{'name': 'Pla de la Balma', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Pla de les Bateries"	"Pla de les Bateries"							"node"	"1241585912"		"{'name': 'Pla de les Bateries', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Pla del Fum"	"Pla del Fum"							"node"	"1241596196"		"{'name': 'Pla del Fum', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Pla del Grèvol"	"Pla del Grèvol"							"node"	"1241601658"		"{'name': 'Pla del Grèvol', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Pla dels Roures"	"Pla dels Roures"							"node"	"1241593337"		"{'name': 'Pla dels Roures', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Pla de l'Olla"	"Pla de l'Olla"							"way"	"179954347"		"{'aerialway': 'drag_lift', 'name': \"Pla de l'Olla\"}"
+"Pla de la Pia"	"Pla de la Pia"							"node"	"8496390556"		"{'name': 'Pla de la Pia', 'place': 'locality'}"
+"Pla de Puta"	"Pla de Puta"							"node"	"1241626349"		"{'name': 'Pla de Puta', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Pla de Sant Pere"	"Pla de Sant Pere"							"node"	"1241616908"		"{'name': 'Pla de Sant Pere', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

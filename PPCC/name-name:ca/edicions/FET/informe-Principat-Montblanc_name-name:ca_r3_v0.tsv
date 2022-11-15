@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Pla d'en Burguera"	"Pla d'en Burguera"							"node"	"1241780457"		"{'name': \"Pla d'en Burguera\", 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Pla de la Bena"	"Pla de la Bena"							"node"	"7457195704"		"{'name': 'Pla de la Bena', 'place': 'locality'}"
+"Pla de Santa Bàrbara"	"Pla de Santa Bàrbara"			"Pla de Santa Bàrbara, Poblat ibèric del Pla de Santa Bàrbara"	"Pla de Santa Bàrbara"	"iberian settlement"	"Q11208543"	"way"	"210938355"		"{'leisure': 'park', 'name': 'Pla de Santa Bàrbara', 'wikidata': 'Q11208543', 'wikipedia': 'ca:Pla de Santa Bàrbara'}"

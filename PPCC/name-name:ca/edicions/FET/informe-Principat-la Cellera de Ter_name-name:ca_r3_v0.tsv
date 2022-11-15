@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Pla de les bruixes"	"Pla de les bruixes"							"node"	"9609081356"		"{'name': 'Pla de les bruixes', 'place': 'locality'}"
+"Pla del Pasteral"	"Pla del Pasteral"							"node"	"1241585855"		"{'name': 'Pla del Pasteral', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Pla del Roure"	"Pla del Roure"							"node"	"1241597866"	"loc_name=Pla de les bruixes"	"{'loc_name': 'Pla de les bruixes', 'name': 'Pla del Roure', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

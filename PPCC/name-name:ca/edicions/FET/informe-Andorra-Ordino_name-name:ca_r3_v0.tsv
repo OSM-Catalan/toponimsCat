@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Estany de Més Amunt"	"Estany de Més Amunt"					"lake"	"Q21329949"	"way"	"104330612"		"{'ele': '2310', 'intermittent': 'no', 'name': 'Estany de Més Amunt', 'natural': 'water', 'water': 'lake', 'wikidata': 'Q21329949'}"
+"Estany del Mig"	"Estany del Mig"					"lake"	"Q21329955"	"way"	"104330602"		"{'ele': '2990', 'intermittent': 'no', 'name': 'Estany del Mig', 'natural': 'water', 'water': 'lake', 'wikidata': 'Q21329955'}"
+"Estany Esbalçat"	"Estany Esbalçat"					"lake"	"Q21329550"	"way"	"104330592"		"{'intermittent': 'no', 'name': 'Estany Esbalçat', 'natural': 'water', 'water': 'lake', 'wikidata': 'Q21329550', 'wikipedia': 'fr:Estany Esbalçat'}"
+"Estany Primer"	"Estany Primer"			"Estany Primer"		"lake"	"Q21330260"	"way"	"104330595"		"{'ele': '2550', 'intermittent': 'no', 'name': 'Estany Primer', 'natural': 'water', 'water': 'lake', 'wikidata': 'Q21330260'}"
