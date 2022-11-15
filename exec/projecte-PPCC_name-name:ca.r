@@ -4,16 +4,19 @@ library(toponimsCat)
 
 arrelProjecte<- "PPCC/name-name:ca"
 actualitzaInformes<- FALSE # actualitzaInformes<- TRUE ## TODO: unificar parametre a generaInforme i generaInformesPPCC
-# TODO: Agulla "El Carrerou", "Le Carrerou, "La Carrerade", "La Carrerada" Clos Escala Estany Pas Port Rambla Ronda Ruta + plurals
+# TODO: coll "El Carrerou", "Le Carrerou, "La Carrerade", "La Carrerada" Clos Escala Pas Port Rambla Ronda Ruta + plurals
 # Veure https://github.com/osm-bzh/osmbr-mapstyle/blob/master/osm_ca.yml per objectes prioritaris a traduïr
-## ULL VIU!: clos i parc col·lisionen amb el francés. carretera Rambla Ronda Ruta Via rotonda col·lisionen amb el castellà.
+# https://osm-catalan.github.io/osmllengcat per veure el què falta
+## ULL VIU!: clos i parc col·lisionen amb el francés. carretera Rambla Ribera Ronda Ruta Via rotonda col·lisionen amb el castellà.
 # FET
 # filtre<- "nwr[name~'^([Aa]vinguda|[Cc]arrer|[Cc]amí|[Pp]laça|[Pp]arc) '][!'name:ca']"; sufixFitxers<- "_name-name:ca"
 # filtre<- "nwr[name~'^([Aa]tzucac|[Aa]vinguda|[Cc]amí|[Cc]aminal|[Cc]arreró|[Gg]iratori|[Jj]ardí|[Pp]assatge|[Pp]asseig|[Rr]otonda|[Uu]rbanització|[Vv]oral) '][!'name:ca']"; sufixFitxers<- "_name-name:ca_r1"
+# filtre<- "nwr[name~'^([Aa]juntament|[Aa]tzucac|[Aa]vinguda|[Bb]osc|[Cc]amí|[Cc]aminal|[Cc]arrer|[Cc]arreró|[Cc]astell|[Cc]orrec|[Gg]iratori|[Hh]ort[s]*|[Jj]ardí|[Mm]as|[Pp]alau|[Pp]assatge|[Pp]asseig|[Pp]laça|[Pp]latja|[Pp]olígon]|[Rr]ec|[Rr]iu|[Uu]rbanització|[Vv]oral) '][!'name:ca']"; sufixFitxers<- "_name-name:ca_r2"
+# i indica insensible a caixa. Evita [Aa]: nwr[name~'^(Atzucac||Jardí|Mas|Palau|Passatge|Passeig|Platja|Polígon|Riu|Urbanització|Voral) ', i][!'name:ca'](area.searchArea);
 
 # PENDENT;
-filtre<- "nwr[name~'^([Aa]juntament|[Aa]tzucac|[Aa]vinguda|[Bb]osc|[Cc]amí|[Cc]aminal|[Cc]arrer|[Cc]arreró|[Cc]astell|[Gg]iratori|[Hh]ort[s]*|[Jj]ardí|[Mm]as|[Pp]alau|[Pp]assatge|[Pp]asseig|[Pp]laça|[Pp]latja|[Pp]olígon]|[Rr]iu|[Uu]rbanització|[Vv]oral) '][!'name:ca']"
-sufixFitxers<- "_name-name:ca_r2"
+filtre<- "nwr[name~'^([Aa]gulla|[Aa]juntament|[Aa]tzucac|[Aa]vinguda|[Bb]osc|[Cc]amí|[Cc]aminal|[Cc]arrer|[Cc]arreró|[Cc]astell|[Cc]òrrec|[Ee]stany|[Gg]iratori|[Hh]ort[s]*|[Jj]ardí|[Ll]lac|[Mm]as|[Pp]alau|[Pp]assatge|[Pp]asseig|[Pp]la|[Pp]laça|[Pp]latja|[Pp]olígon]|[Rr]ec|[Rr]iu|[Uu]rbanització|[Vv]eïnat|[Vv]oral) '][!'name:ca']"
+sufixFitxers<- "_name-name:ca_r3"
 cerca<- ""
 substitueix<- ""
 revisioUnificada<- TRUE
@@ -62,7 +65,7 @@ municipis$revisio[municipis$regio == "CatNord"]<- generaRevisions_regexName(info
                                                                             nomFitxerUnificat=paste0("revisio-UNIFICADA-CatNord", sufixFitxers, ".tsv"))
 municipis$revisio[municipis$regio == "Franja"]<- generaRevisions_regexName(informes=municipis$informe[municipis$regio == "Franja"],
                                                                             arrelProjecte=arrelProjecte, cerca=cerca, substitueix=substitueix, revisioUnificada=revisioUnificada,
-                                                                            nomFitxerUnificat=paste0("revisio-UNIFICADA-CatNord", sufixFitxers, ".tsv"))
+                                                                            nomFitxerUnificat=paste0("revisio-UNIFICADA-Franja", sufixFitxers, ".tsv"))
 municipis$revisio[municipis$regio == "Sardenya"]<- generaRevisions_regexName(informes=municipis$informe[municipis$regio == "Sardenya"],
                                                                             arrelProjecte=arrelProjecte, cerca=cerca, substitueix=substitueix, revisioUnificada=revisioUnificada,
                                                                             nomFitxerUnificat=paste0("revisio-UNIFICADA-Sardenya", sufixFitxers, ".tsv"))
@@ -80,6 +83,8 @@ duplicats[, grep("name", names(duplicats))] ## arregla
 # és possible que es reutilitzin alguns casos a altres municipis. Podeu seguir l'script fins al final i tornar a
 # començar per actualitzar els fitxers de revisions
 
+## Fitxers amb revisions sense error ----
+revisions_bones<- revisionsSenseErrors(fitxersRevisions=unique(municipis$revisio))
 
 ## Fusiona les revisions fetes amb els informes i genera ordres per carregar-los a OSM ----
 usuari<- "$NomUsuari" # Modifiqueu-ho amb el vostre nom d'usuari a OSM
@@ -90,8 +95,8 @@ cmd<- na.omit(cmd)
 
 ## Afegeix paràmetres a les ordres. Veure «update_osm_objects_from_report --help» per les opcions de LangToolsOSM
 nomMunicipi<- gsub(paste0(".+--input-file \\\"", arrelProjecte, "/edicions/informe-[A-z]+-|", sufixFitxers, ".tsv\\\".+"), "", cmd)
-cmd<- paste0(cmd, " --no-interaction --changeset-hashtags \"#toponimsCat;#name_name:ca\" --changeset-source \"name tag\"",
-             " --batch 100 --changeset-comment \"Segona ronda d'afegir name:ca a partir de name per carrers, places, avingudes, camins, jardins,  passatges,  passeigs, rotondes, urbanitzacions a ", nomMunicipi, "\"")
+cmd<- paste0(cmd, " --no-interaction --changeset-hashtags \"#toponimsCat;#name_name:ca\" --changeset-source \"name tag\"", #  --no-interaction
+             " --batch 100 --changeset-comment \"Tercera ronda d'afegir name:ca a partir de name per masos, agulles, veïnats, plans, llacs, estanys i còrrecs a ", nomMunicipi, "\"")
 cat(cmd, sep="\n")
 
 ## Executa les ordres
