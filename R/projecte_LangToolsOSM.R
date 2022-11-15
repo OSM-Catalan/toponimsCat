@@ -358,18 +358,23 @@ generaRevisions<- function(informes, arrelProjecte,
   arrelProjecte<- gsub("/$", "", arrelProjecte)
   informes<- gsub("//", "/", informes)
 
-  ### TODO: reutilitza les revisions fetes ----
+  ### TODO: reutilitza les revisions fetes i evita duplicats inconsistents ----
   # Descarta casos ja revisats sense name:ca
   # setdiff(d[, c("name", "alt_name", "wikidata_id")], revisio.casosDESCARTATS)
   # Casos completats, ja pujats a OSM
   # Revisions fetes (name:ca = '' per traduccions descartades)
-  dir.create(file.path(arrelProjecte, "revisions", "FET"), showWarnings=FALSE, recursive=TRUE)
-  fitxersRevisio<- dir(file.path(arrelProjecte, "revisions", "FET"), "\\.tsv$", full.names=TRUE, include.dirs=FALSE)
-  revisionsFETES<- lapply(fitxersRevisio, function(x){
-    utils::read.table(x, header=TRUE, sep="\t", quote="\"", check.names=FALSE)
-  })
-  names(revisionsFETES)<- gsub(file.path(arrelProjecte, "revisions", "FET/"), "", fitxersRevisio)
-  revisio.casosFETS<- unique(do.call(rbind, revisionsFETES))
+  # dir.create(file.path(arrelProjecte, "revisions", "FET"), showWarnings=FALSE, recursive=TRUE)
+  # fitxersRevisio<- dir(file.path(arrelProjecte, "revisions", "FET"), "\\.tsv$", full.names=TRUE, include.dirs=FALSE)
+  # revisionsFETES<- lapply(fitxersRevisio, function(x){
+  #   d<- utils::read.table(x, header=TRUE, sep="\t", quote="\"", check.names=FALSE)
+  #   d<- lapply(d, function(x){
+  #     x[x %in% ""]<- NA_character_
+  #     x
+  #   })
+  #   d<- unique(data.frame(d, check.names=FALSE))
+  # })
+  # names(revisionsFETES)<- gsub(file.path(arrelProjecte, "revisions", "FET/"), "", fitxersRevisio)
+  # revisio.casosFETS<- unique(do.call(rbind, revisionsFETES))
   # revisio.casosCOMPLETATS<- revisio.casosFETS[!revisio.casosFETS$`name:ca` %in% c(NA, ""), ]
   # revisio.casosDESCARTATS<- revisio.casosFETS[revisio.casosFETS$`name:ca` %in% c(NA, ""), ]
 
@@ -387,7 +392,11 @@ generaRevisions<- function(informes, arrelProjecte,
       if (!inherits(d, "data.frame")) next
     }
 
-    d<- unique(d[, intersect(names(d), campsUnics)])
+    d<- lapply(d[, intersect(names(d), campsUnics)], function(x){
+      x[x %in% ""]<- NA_character_
+      x
+    })
+    d<- unique(data.frame(d, check.names=FALSE))
     dL[[nomFitxer]]<- d
   }
 
@@ -420,8 +429,8 @@ generaRevisions_regexName<- function(informes, arrelProjecte, cerca, substitueix
 
   if (revisioUnificada){
     revisio.TOTS<- unique(do.call(rbind, dL))
-    utils::write.table(revisio.TOTS, file.path(arrelProjecte, "revisions", nomFitxerUnificat), sep="\t", na="", col.names=TRUE, row.names=FALSE)
     ret<- file.path(arrelProjecte, "revisions", nomFitxerUnificat)
+    utils::write.table(revisio.TOTS, file=ret, sep="\t", na="", col.names=TRUE, row.names=FALSE)
   } else {
     ret<- file.path(arrelProjecte, "revisions", names(dL))
   }
@@ -473,8 +482,8 @@ generaRevisions_regexTranslations<- function(informes, arrelProjecte, cerca=" \\
 
   if (revisioUnificada){
     revisio.TOTS<- unique(do.call(rbind, dL))
-    utils::write.table(revisio.TOTS, file.path(arrelProjecte, "revisions", nomFitxerUnificat), sep="\t", na="", col.names=TRUE, row.names=FALSE)
     ret<- file.path(arrelProjecte, "revisions", nomFitxerUnificat)
+    utils::write.table(revisio.TOTS, file=ret, sep="\t", na="", col.names=TRUE, row.names=FALSE)
   } else {
     ret<- file.path(arrelProjecte, "revisions", names(dL))
   }
@@ -545,7 +554,7 @@ bdRevisions<- function(arrelProjectes){
   ## Genera versions començant per majúscula i per minúscula (útil per reutilitzar revisions p.ex. de «carrer/Carrer»)
   revisio.casosFETS_min<- apply(revisio.casosFETS[, c("name", "name:ca", "alt_name", "alt_name:ca")], 1, function(x){
     out<- paste0(tolower(substr(x, 1, 1)), substr(x, 2, nchar(x)))
-    out[is.na(x)]<- NA
+    out[is.na(x)]<- NA_character_
     return(out)
   })
   revisio.casosFETS[, c("name", "name:ca", "alt_name", "alt_name:ca")]<- as.data.frame(t(revisio.casosFETS_min))
@@ -553,7 +562,7 @@ bdRevisions<- function(arrelProjectes){
 
   revisio.casosFETS_maj<- apply(revisio.casosFETS[, c("name", "name:ca", "alt_name", "alt_name:ca")], 1, function(x){
     out<- paste0(toupper(substr(x, 1, 1)), substr(x, 2, nchar(x)))
-    out[is.na(x)]<- NA
+    out[is.na(x)]<- NA_character_
     return(out)
   })
   revisio.casosFETS[, c("name", "name:ca", "alt_name", "alt_name:ca")]<- as.data.frame(t(revisio.casosFETS_maj))
@@ -561,7 +570,7 @@ bdRevisions<- function(arrelProjectes){
   revisio.casosFETS<- rbind(revisio.casosFETS_min, revisio.casosFETS_maj)
 
   revisio.casosFETS<- lapply(revisio.casosFETS, function(x){
-    x[x %in% ""]<- NA
+    x[x %in% ""]<- NA_character_
     x
   })
   revisio.casosFETS<- unique(data.frame(revisio.casosFETS, check.names=FALSE))
@@ -608,7 +617,7 @@ preparaEdicions<- function(arrelProjecte, usuari, fitxerContrasenya){
     nomFitxer<- gsub(file.path(arrelProjecte, "informes/*"), "", fitxersInformes[i])
     informe<- try(utils::read.table(fitxersInformes[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE))
     informe<- lapply(informe, function(x){
-      x[x %in%  ""]<- NA
+      x[x %in%  ""]<- NA_character_
       x
     })
     informe<- data.frame(informe, check.names=FALSE)
