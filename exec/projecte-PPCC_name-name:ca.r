@@ -4,7 +4,7 @@ library(toponimsCat)
 
 arrelProjecte<- "PPCC/name-name:ca"
 actualitzaInformes<- FALSE # actualitzaInformes<- TRUE ## TODO: unificar parametre a generaInforme i generaInformesPPCC
-# TODO: coll "El Carrerou", "Le Carrerou, "La Carrerade", "La Carrerada" Clos Escala Pas Port Rambla Ronda Ruta + plurals
+# TODO: "El Carrerou", "Le Carrerou, "La Carrerade", "La Carrerada" Clos Escala Pas Port Rambla Ronda Ruta + plurals
 # Veure https://github.com/osm-bzh/osmbr-mapstyle/blob/master/osm_ca.yml per objectes prioritaris a traduïr
 # https://osm-catalan.github.io/osmllengcat per veure el què falta
 ## ULL VIU!: clos i parc col·lisionen amb el francés. carretera Rambla Ribera Ronda Ruta Via rotonda col·lisionen amb el castellà.
@@ -15,8 +15,8 @@ actualitzaInformes<- FALSE # actualitzaInformes<- TRUE ## TODO: unificar paramet
 # i indica insensible a caixa. Evita [Aa]: nwr[name~'^(Atzucac||Jardí|Mas|Palau|Passatge|Passeig|Platja|Polígon|Riu|Urbanització|Voral) ', i][!'name:ca'](area.searchArea);
 
 # PENDENT;
-filtre<- "nwr[name~'^([Aa]gulla|[Aa]juntament|[Aa]tzucac|[Aa]vinguda|[Bb]osc|[Cc]amí|[Cc]aminal|[Cc]arrer|[Cc]arreró|[Cc]astell|[Cc]òrrec|[Ee]stany|[Gg]iratori|[Hh]ort[s]*|[Jj]ardí|[Ll]lac|[Mm]as|[Pp]alau|[Pp]assatge|[Pp]asseig|[Pp]la|[Pp]laça|[Pp]latja|[Pp]olígon]|[Rr]ec|[Rr]iu|[Uu]rbanització|[Vv]eïnat|[Vv]oral) '][!'name:ca']"
-sufixFitxers<- "_name-name:ca_r3"
+filtre<- "nwr[name~'^([Aa]gulla|[Aa]juntament|[Aa]tzucac|[Aa]utovia]|[Aa]vinguda|[Bb]osc|[Cc]amí|[Cc]aminal|[Cc]an|[Cc]arrer|[Cc]arreró|[Cc]astell|[Cc]oll|[Cc]ollet|[Cc]òrrec|[Ee]stany|[Ff]ont|[Gg]iratori|[Hh]ort[s]*|[Jj]ardí|[Ll]lac|[Mm]as|[Pp]alau|[Pp]assatge|[Pp]asseig|[Pp]la|[Pp]laça|[Pp]latja|[Pp]olígon]|[Pp]uig|[Rr]ec|[Rr]iu|[Ss]erra|[Ss]errat|[Tt]orrent|[Tt]uró|[Uu]rbanització|[Vv]eïnat|[Vv]oral) '][!'name:ca']"
+sufixFitxers<- "_name-name:ca_r4"
 cerca<- ""
 substitueix<- ""
 revisioUnificada<- TRUE
@@ -73,8 +73,6 @@ municipis$revisio[!municipis$regio %in% c("CatNord", "Franja", "Sardenya")]<- ge
                                                                             arrelProjecte=arrelProjecte, cerca=cerca, substitueix=substitueix, revisioUnificada=revisioUnificada,
                                                                             nomFitxerUnificat=paste0("revisio-UNIFICADA-CatSud", sufixFitxers, ".tsv"))
 
-duplicats<- attributes(bdRevisions(arrelProjectes=arrelProjecte))$duplicats
-duplicats[, grep("name", names(duplicats))] ## arregla
 # Reviseu i modifiqueu la revisió de l'informe que vulgueu de revisions/.
 # Cal corregir els casos de name:ca i alt_name:ca incorrectes, esborrar-los o deixar-los en blanc si no és clar.
 # És recomanable usar LibreOffice per evitar problemes de codificació i formats dels fitxers (https://www.softcatala.org/programes/libreoffice/)
@@ -83,8 +81,13 @@ duplicats[, grep("name", names(duplicats))] ## arregla
 # és possible que es reutilitzin alguns casos a altres municipis. Podeu seguir l'script fins al final i tornar a
 # començar per actualitzar els fitxers de revisions
 
-## Fitxers amb revisions sense error ----
+
+## Fitxers amb revisions sense error ortogràfics ----
 revisions_bones<- revisionsSenseErrors(fitxersRevisions=unique(municipis$revisio))
+
+## Revisions duplicades
+duplicats<- attributes(bdRevisions(arrelProjectes=arrelProjecte))$duplicats
+duplicats[, grep("name", names(duplicats))] ## arregla
 
 ## Fusiona les revisions fetes amb els informes i genera ordres per carregar-los a OSM ----
 usuari<- "$NomUsuari" # Modifiqueu-ho amb el vostre nom d'usuari a OSM
@@ -95,14 +98,14 @@ cmd<- na.omit(cmd)
 
 ## Afegeix paràmetres a les ordres. Veure «update_osm_objects_from_report --help» per les opcions de LangToolsOSM
 nomMunicipi<- gsub(paste0(".+--input-file \\\"", arrelProjecte, "/edicions/informe-[A-z]+-|", sufixFitxers, ".tsv\\\".+"), "", cmd)
-cmd<- paste0(cmd, " --no-interaction --changeset-hashtags \"#toponimsCat;#name_name:ca\" --changeset-source \"name tag\"", #  --no-interaction
-             " --batch 100 --changeset-comment \"Tercera ronda d'afegir name:ca a partir de name per masos, agulles, veïnats, plans, llacs, estanys i còrrecs a ", nomMunicipi, "\"")
-cat(cmd, sep="\n")
+cmd1<- paste0(cmd, " --no-interaction --changeset-hashtags \"#toponimsCat;#name_name:ca\" --changeset-source \"name tag\"", #  --no-interaction
+             " --batch 70 --changeset-comment \"Afegeix name:ca a partir de name per autovies, colls, fonts, turons, torrents, can * i puigs a ", nomMunicipi, "\"")
+cat(cmd1, sep="\n")
 
 ## Executa les ordres
 for (i in 1:length(cmd)){
-  message(i, " / ", length(cmd), "\t", cmd[i])
-  system(cmd[i])
+  message(i, " / ", length(cmd1), "\t", cmd1[i])
+  system(cmd1[i])
 }
 
 
