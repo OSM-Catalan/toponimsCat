@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Can Bernadet"	"Can Bernadet"							"way"	"617844674"		"{'amenity': 'restaurant', 'building': 'retail', 'building:levels': '2', 'name': 'Can Bernadet'}"
+"Can Bernat"	"Can Bernat"							"node"	"4128127722"		"{'addr:city': 'Sant Climent', 'addr:housenumber': '8', 'addr:postcode': '07712', 'addr:street': 'Pla de Sant Climent', 'contact:phone': '+34 971156111', 'contact:website': 'http://www.canbernat.net/', 'name': 'Can Bernat', 'shop': 'food'}"
+"Can Xavi"	"Can Xavi"							"node"	"1925271521"		"{'amenity': 'pub', 'name': 'Can Xavi'}"

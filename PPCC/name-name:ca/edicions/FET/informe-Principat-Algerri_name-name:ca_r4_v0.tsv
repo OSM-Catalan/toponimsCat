@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Serra de la Figuera"	"Serra de la Figuera"							"node"	"3136554397"		"{'ele': '501.3', 'name': 'Serra de la Figuera', 'natural': 'peak', 'source': 'Institut Cartogràfic de Catalunya'}"
+"Serra Llarga"	"Serra Llarga"							"way"	"502889670"		"{'name': 'Serra Llarga', 'natural': 'ridge', 'source': 'Institut Cartogràfic i Geològic de Catalunya'}"

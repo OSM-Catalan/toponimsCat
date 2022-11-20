@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Can Peuet"	"Can Peuet"							"way"	"481365130"		"{'building': 'house', 'name': 'Can Peuet'}"
+"Can Tomeu"	"Can Tomeu"							"way"	"481362396"		"{'amenity': 'cafe', 'building': 'yes', 'name': 'Can Tomeu'}"
+"Puig de Roqueta"	"Puig de Roqueta"							"node"	"1242614721"		"{'name': 'Puig de Roqueta', 'place': 'locality'}"
+"Torrent de Banderola"	"Torrent de Banderola"							"way"	"309419734"		"{'intermittent': 'yes', 'name': 'Torrent de Banderola', 'waterway': 'stream'}"
+"Turó d'en Xeu"	"Turó d'en Xeu"							"node"	"1242618552"		"{'name': \"Turó d'en Xeu\", 'place': 'locality'}"
+"Turó Roig"	"Turó Roig"							"node"	"1242632040"		"{'ele': '98.20', 'ign:latitud': '39.6788043532787995', 'ign:longitud': '3.0938360446030000', 'ign:red': 'Red Geodesica Nacional Convencional (ROI)', 'man_made': 'survey_point', 'name': 'Turó Roig', 'note': 'This is a point from an official geodetic network. Use it as a reference, but do NOT move it.', 'place': 'locality', 'ref': '67180', 'source': 'Instituto Geográfico Nacional', 'source:ref': 'ftp://ftp.geodesia.ign.es'}"

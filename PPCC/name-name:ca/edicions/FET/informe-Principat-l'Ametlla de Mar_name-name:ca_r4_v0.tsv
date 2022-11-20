@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Can Massana"	"Can Massana"							"node"	"1666284561"		"{'amenity': 'restaurant', 'cuisine': 'spanish', 'name': 'Can Massana', 'wheelchair': 'limited'}"
+"Puig Moltó"	"Puig Moltó"							"node"	"948716651"		"{'ele': '206.80', 'ign:latitud': '40.8650696183348998', 'ign:longitud': '0.7479924977280000', 'ign:red': 'Red Geodesica Nacional Convencional (ROI)', 'man_made': 'survey_point', 'name': 'Puig Moltó', 'note': 'This is a point from an official geodetic network. Use it as a reference, but do NOT move it.', 'ref': '49781', 'source': 'Instituto Geográfico Nacional', 'source:ref': 'ftp://ftp.geodesia.ign.es'}"
+"Puig Moltó"	"Puig Moltó"							"node"	"1260555054"		"{'ele': '206.80', 'name': 'Puig Moltó', 'natural': 'peak', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

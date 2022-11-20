@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Coll de l'Ascens"	"Coll de l'Ascens"							"node"	"4592901118"		"{'ele': '856.8', 'name': \"Coll de l'Ascens\", 'natural': 'saddle', 'source': 'Institut Cartogràfic i Geològic de Catalunya'}"
+"Coll de Maig"	"Coll de Maig"							"node"	"4593084679"		"{'ele': '404.5', 'name': 'Coll de Maig', 'natural': 'saddle'}"
+"Coll del Pi"	"Coll del Pi"							"node"	"4663765415"		"{'ele': '694.1', 'name': 'Coll del Pi', 'natural': 'saddle'}"
+"Font de l'Aragall"	"Font de l'Aragall"							"node"	"9603930048"		"{'intermittent': 'yes', 'name': \"Font de l'Aragall\", 'natural': 'spring'}"
+"Font del Foix"	"Font del Foix"							"node"	"9702213110"		"{'name': 'Font del Foix', 'natural': 'hot_spring'}"

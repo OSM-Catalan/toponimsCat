@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Coll Roig"	"Coll Roig"							"node"	"1242377330"		"{'name': 'Coll Roig', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011', 'source:file': 'http://centrodedescargas.cnig.es/CentroDescargas/equipamiento/NGBE_de_caracter_Provisional.zip', 'source:name': 'Nomenclator Geográfico Básico de España'}"
+"Font del Calvari"	"Font del Calvari"							"node"	"4846981793"		"{'amenity': 'drinking_water', 'name': 'Font del Calvari'}"
+"Font del Mas de Sant Miquel"	"Font del Mas de Sant Miquel"							"node"	"5543857575"		"{'drinking_water': 'yes', 'name': 'Font del Mas de Sant Miquel', 'natural': 'spring'}"
+"Font del Pla de la Mina"	"Font del Pla de la Mina"							"node"	"5592010904"		"{'drinking_water': 'yes', 'name': 'Font del Pla de la Mina', 'natural': 'spring'}"
+"Font del Rajadell"	"Font del Rajadell"							"node"	"5592010905"		"{'drinking_water': 'yes', 'name': 'Font del Rajadell', 'natural': 'spring'}"
+"Puig d'en Querol"	"Puig d'en Querol"							"node"	"1260548476"		"{'name': \"Puig d'en Querol\", 'natural': 'peak', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011', 'source:file': 'http://centrodedescargas.cnig.es/CentroDescargas/equipamiento/NGBE_de_caracter_Provisional.zip', 'source:name': 'Nomenclator Geográfico Básico de España'}"

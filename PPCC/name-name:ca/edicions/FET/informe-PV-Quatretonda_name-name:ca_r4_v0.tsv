@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Font del Barranc de l'aigua"	"Font del Barranc de l'aigua"							"node"	"8443475194"		"{'name': \"Font del Barranc de l'aigua\", 'natural': 'spring'}"
+"Font Roja"	"Font Roja"							"node"	"3711984256"		"{'name': 'Font Roja', 'natural': 'spring'}"
+"Serra de Quatretonda"	"Serra de Quatretonda"							"relation"	"12502465"	"official_name=Paraje Natural Municipal Serra de Quatretonda"	"{'boundary': 'protected_area', 'leisure': 'nature_reserve', 'name': 'Serra de Quatretonda', 'official_name': 'Paraje Natural Municipal Serra de Quatretonda', 'protection_title': 'Paraje Natural Municipal', 'related_law': 'Acuerdo de 05 de mayo de 2006', 'type': 'boundary', 'website': 'http://agroambient.gva.es/es/web/parajes-naturales-municipales/pnm-serra-de-quatretonda-quatretonda'}"
+"Serra de Requena"	"Serra de Requena"							"way"	"933636675"		"{'name': 'Serra de Requena', 'natural': 'mountain_range'}"
+"Serra de Requena"	"Serra de Requena"							"way"	"1003746447"		"{'name': 'Serra de Requena', 'natural': 'mountain_range'}"

@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Can Geli"	"Can Geli"							"node"	"3742998938"		"{'name': 'Can Geli', 'place': 'isolated_dwelling'}"
+"Can Roca"	"Can Roca"							"way"	"782538945"		"{'building': 'house', 'name': 'Can Roca', 'place': 'isolated_dwelling'}"
+"Serra Pelada"	"Serra Pelada"							"node"	"1241586613"		"{'name': 'Serra Pelada', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Font de la Plaça"	"Font de la Plaça"							"node"	"1587246064"		"{'amenity': 'fountain', 'name': 'Font de la Plaça'}"
+"Serra de Bellmunt"	"Serra de Bellmunt"							"node"	"1241669502"		"{'name': 'Serra de Bellmunt', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Serra del Mas"	"Serra del Mas"							"node"	"1241689311"		"{'name': 'Serra del Mas', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

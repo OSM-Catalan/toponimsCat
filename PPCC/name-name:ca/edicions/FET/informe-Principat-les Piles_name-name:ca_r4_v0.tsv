@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Coll de Guialmons"	"Coll de Guialmons"							"node"	"1241775927"		"{'name': 'Coll de Guialmons', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Coll de Savallà"	"Coll de Savallà"							"node"	"1241785685"		"{'name': 'Coll de Savallà', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Font de la Martina"	"Font de la Martina"							"node"	"1241793262"		"{'name': 'Font de la Martina', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Torrent de Biure"	"Torrent de Biure"							"way"	"926553012"		"{'intermittent': 'yes', 'name': 'Torrent de Biure', 'waterway': 'stream'}"

@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Can Pla"	"Can Pla"							"node"	"888397512"		"{'amenity': 'restaurant', 'cuisine': 'regional', 'name': 'Can Pla', 'phone': '+33 4688 21000', 'wheelchair': 'limited'}"
+"Coll de l'Arqueta"	"Coll de l'Arqueta"							"node"	"6139124302"		"{'name': \"Coll de l'Arqueta\", 'place': 'locality'}"
+"font del gros"	"font del gros"							"node"	"9552579442"		"{'access': 'yes', 'amenity': 'drinking_water', 'bottle': 'yes', 'fee': 'no', 'name': 'font del gros', 'source': 'survey 2022'}"
+"Puig Oriol"	"Puig Oriol"							"node"	"670508639"		"{'description': 'Borne en granit gravée IGN et 1960 - Point vu en place en 1983', 'ele': '247.11', 'man_made': 'survey_point', 'name': 'Puig Oriol', 'natural': 'peak', 'note': 'Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res', 'ref': '6605301 - A', 'source': '©IGN 2010 dans le cadre de la cartographie réglementaire', 'url': 'http://geodesie.ign.fr/fiches/index.php?module=e&action=fichepdf&source=carte&sit_no=6605301'}"

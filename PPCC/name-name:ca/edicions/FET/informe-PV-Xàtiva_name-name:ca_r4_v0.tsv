@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Font d'Ivars"	"Font d'Ivars"							"node"	"4063618871"		"{'name': \"Font d'Ivars\", 'natural': 'spring'}"
+"Font de Quintana"	"Font de Quintana"							"node"	"4063654268"		"{'name': 'Font de Quintana', 'natural': 'spring'}"
+"Font del Lleó"	"Font del Lleó"							"node"	"8215235545"		"{'amenity': 'drinking_water', 'name': 'Font del Lleó'}"
+"Font dels vint-i-cinc dolls"	"Font dels vint-i-cinc dolls"							"node"	"3159613252"		"{'amenity': 'drinking_water', 'name': 'Font dels vint-i-cinc dolls'}"
+"Serra Grossa"	"Serra Grossa"							"way"	"1003746449"		"{'name': 'Serra Grossa', 'natural': 'mountain_range'}"

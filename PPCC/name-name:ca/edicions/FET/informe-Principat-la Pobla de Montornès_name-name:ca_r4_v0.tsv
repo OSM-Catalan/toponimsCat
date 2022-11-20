@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Collet de la Serra de l'Hivern"	"Collet de la Serra de l'Hivern"							"node"	"3980094906"		"{'ele': '191.3', 'name': \"Collet de la Serra de l'Hivern\", 'natural': 'saddle'}"
+"Serra Llarga"	"Serra Llarga"							"way"	"776186780"		"{'name': 'Serra Llarga', 'natural': 'ridge'}"
+"Torrent / Cirerer"	"Torrent / Cirerer"							"node"	"4029093937"		"{'bench': 'no', 'bus': 'yes', 'covered': 'no', 'highway': 'bus_stop', 'name': 'Torrent / Cirerer', 'operator': 'Autocars del Penedès', 'public_transport': 'platform', 'shelter': 'no'}"
+"Torrent / Pont nou"	"Torrent / Pont nou"							"node"	"4029093939"		"{'bench': 'yes', 'bus': 'yes', 'covered': 'no', 'highway': 'bus_stop', 'name': 'Torrent / Pont nou', 'operator': 'Autocars del Penedès', 'public_transport': 'platform', 'shelter': 'no'}"

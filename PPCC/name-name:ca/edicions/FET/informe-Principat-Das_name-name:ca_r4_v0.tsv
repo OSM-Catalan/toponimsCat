@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Puig del Pradell de la Font Molsa"	"Puig del Pradell de la Font Molsa"							"node"	"3692855971"		"{'ele': '2314.7', 'name': 'Puig del Pradell de la Font Molsa', 'natural': 'peak', 'source': 'Institut Cartogràfic de Catalunya'}"
+"Serrat de la Mola"	"Serrat de la Mola"							"node"	"1241590676"		"{'name': 'Serrat de la Mola', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Serrat dels Pins Rossos"	"Serrat dels Pins Rossos"							"node"	"1241590181"		"{'name': 'Serrat dels Pins Rossos', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Torrent de la Valira"	"Torrent de la Valira"							"way"	"372322801"		"{'name': 'Torrent de la Valira', 'waterway': 'stream'}"

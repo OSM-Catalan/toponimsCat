@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Font de l'Amadeu"	"Font de l'Amadeu"							"node"	"4196243296"		"{'drinking_water': 'no', 'name': \"Font de l'Amadeu\", 'natural': 'spring'}"
+"Font de les Escoles"	"Font de les Escoles"							"node"	"4196243291"		"{'addr:city': 'el Masroig', 'addr:housenumber': '10', 'addr:street': 'carrer Onze de Setembre', 'name': 'Font de les Escoles', 'natural': 'spring'}"
+"Font de les Pinyeres"	"Font de les Pinyeres"							"node"	"4196243306"		"{'name': 'Font de les Pinyeres', 'natural': 'spring'}"
+"Font de Sant Galderic"	"Font de Sant Galderic"							"node"	"4196243290"		"{'amenity': 'fountain', 'name': 'Font de Sant Galderic'}"
+"Font del Cap del Mas"	"Font del Cap del Mas"							"node"	"4196243301"		"{'drinking_water': 'yes', 'name': 'Font del Cap del Mas', 'natural': 'spring'}"
+"Puig Roig"	"Puig Roig"							"node"	"1260542339"		"{'ele': '171.6', 'name': 'Puig Roig', 'natural': 'peak', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

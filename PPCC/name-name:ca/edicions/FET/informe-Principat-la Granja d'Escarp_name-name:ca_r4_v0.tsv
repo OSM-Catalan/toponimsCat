@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Can Ros"	"Can Ros"							"node"	"4497087865"		"{'addr:city': \"la Granja d'Escarp\", 'addr:street': 'Plaça de la Cultura', 'amenity': 'restaurant', 'cuisine': 'catalan', 'name': 'Can Ros', 'phone': '+34 973782437'}"
+"Serra de Maranyà"	"Serra de Maranyà"							"node"	"1241668457"		"{'name': 'Serra de Maranyà', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

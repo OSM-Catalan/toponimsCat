@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Coll de Cabanes"	"Coll de Cabanes"	"Coll de la Pobla"	"Coll de la Pobla"					"node"	"1243275084"		"{'alt_name': 'Coll de la Pobla', 'name': 'Coll de Cabanes', 'natural': 'saddle'}"
+"Coll del Mas de la Costa"	"Coll del Mas de la Costa"							"node"	"9124766549"		"{'ele': '255', 'mountain_pass': 'yes', 'name': 'Coll del Mas de la Costa', 'natural': 'saddle'}"
+"Font de Les Santes"	"Font de Les Santes"							"node"	"301614998"		"{'mapillary': '1169373456834358', 'name': 'Font de Les Santes', 'natural': 'spring'}"
+"Font de Roc"	"Font de Roc"							"node"	"287364139"		"{'drinking_water': 'yes', 'name': 'Font de Roc', 'natural': 'spring'}"
+"Font del Perelló"	"Font del Perelló"							"node"	"287403312"		"{'name': 'Font del Perelló', 'natural': 'spring'}"
+"Serra de les Santes"	"Serra de les Santes"							"way"	"823261035"		"{'name': 'Serra de les Santes', 'natural': 'mountain_range'}"

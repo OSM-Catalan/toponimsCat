@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Font de l'Abelló"	"Font de l'Abelló"							"way"	"734620476"		"{'amenity': 'fountain', 'name': \"Font de l'Abelló\"}"
+"Font de l'Albelló"	"Font de l'Albelló"							"node"	"1716495535"		"{'amenity': 'fountain', 'ele': '492', 'name': \"Font de l'Albelló\", 'source': 'http://www.cuevascastellon.uji.es/articulos/berig5_xert.pdf'}"
+"Font del Molinar"	"Font del Molinar"	"Mola Redona, Coves de la Molinar"	"Mola Redona, Coves de la Molinar"					"node"	"1716495536"		"{'alt_name': 'Mola Redona, Coves de la Molinar', 'ele': '490', 'name': 'Font del Molinar', 'natural': 'cave_entrance', 'ref:DOCV': '5261', 'ref:EUNIS': '389437', 'ref:IGN': '545', 'ref:coord': 'http://www.cuevascastellon.uji.es/articulos/berig5_xert.pdf', 'ref:topografia': 'http://www.cma.gva.es/areas/espacios/cuevas/cova_del_molinar.pdf', 'source': 'http://www.cma.gva.es/web/indice.aspx?nodo=1959'}"

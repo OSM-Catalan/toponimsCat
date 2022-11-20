@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Coll de la Batalla"	"Coll de la Batalla"							"node"	"7001816503"		"{'ele': '470', 'name': 'Coll de la Batalla', 'natural': 'saddle'}"
+"Collet de la Font de Sant Joan"	"Collet de la Font de Sant Joan"							"node"	"7021289499"		"{'ele': '564.7', 'name': 'Collet de la Font de Sant Joan', 'natural': 'saddle'}"
+"font del Llop"	"font del Llop"							"node"	"5429033815"		"{'name': 'font del Llop', 'natural': 'spring'}"
+"Font del Mas de Garrut"	"Font del Mas de Garrut"							"node"	"3158597123"		"{'name': 'Font del Mas de Garrut', 'natural': 'spring'}"
+"Font Vella"	"Font Vella"							"node"	"9117163290"		"{'name': 'Font Vella', 'natural': 'spring'}"
+"Serra Ronyosa"	"Serra Ronyosa"							"way"	"748811020"		"{'name': 'Serra Ronyosa', 'natural': 'ridge'}"

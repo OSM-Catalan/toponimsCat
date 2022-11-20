@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Coll de Calces"	"Coll de Calces"							"node"	"4532444480"		"{'ele': '609.7', 'name': 'Coll de Calces', 'natural': 'saddle', 'source': 'Institut Cartogràfic i Geològic de Catalunya'}"
+"Coll de la Serra Mala"	"Coll de la Serra Mala"							"node"	"5537457971"		"{'ele': '600.6', 'name': 'Coll de la Serra Mala', 'natural': 'saddle'}"
+"Coll de la Serra Mala"	"Coll de la Serra Mala"							"way"	"908671496"		"{'name': 'Coll de la Serra Mala', 'natural': 'ridge'}"
+"Coll de Montardit"	"Coll de Montardit"							"node"	"4061233237"		"{'ele': '373', 'name': 'Coll de Montardit', 'natural': 'saddle'}"
+"Coll de Som"	"Coll de Som"							"node"	"4581592839"		"{'ele': '250.7', 'name': 'Coll de Som', 'natural': 'peak', 'source': 'Institut Cartogràfic i Geològic de Catalunya'}"

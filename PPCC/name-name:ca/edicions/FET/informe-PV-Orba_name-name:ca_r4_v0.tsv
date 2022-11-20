@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Font Calenta"	"Font Calenta"							"node"	"8626892078"		"{'name': 'Font Calenta', 'natural': 'spring'}"
+"Font Centella"	"Font Centella"							"node"	"8459314104"		"{'name': 'Font Centella', 'natural': 'spring'}"
+"Font d'Orbeta"	"Font d'Orbeta"							"node"	"9482001955"		"{'amenity': 'drinking_water', 'name': \"Font d'Orbeta\"}"
+"Font de Dalt"	"Font de Dalt"							"node"	"9446009257"		"{'name': 'Font de Dalt', 'natural': 'spring'}"
+"Font dels Caus"	"Font dels Caus"							"node"	"7909828968"		"{'name': 'Font dels Caus', 'natural': 'spring'}"
+"Serra del Cavall"	"Serra del Cavall"	"Serra del Migdia"	"Serra del Migdia"					"way"	"997600703"		"{'alt_name': 'Serra del Migdia', 'name': 'Serra del Cavall', 'natural': 'mountain_range'}"

@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Coll d'Obacs"	"Coll d'Obacs"							"node"	"3706616042"		"{'ele': '2515.7', 'name': \"Coll d'Obacs\", 'natural': 'saddle'}"
+"Coll de Salze"	"Coll de Salze"							"node"	"1241609864"		"{'name': 'Coll de Salze', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Coll de Sereres"	"Coll de Sereres"							"node"	"2932538476"		"{'ele': '1350.3', 'name': 'Coll de Sereres', 'natural': 'saddle'}"
+"Coll de Serreres, Vilaller"	"Coll de Serreres, Vilaller"							"relation"	"12246791"		"{'ascent': '427', 'distance': '4.2', 'name': 'Coll de Serreres, Vilaller', 'network': 'rwn', 'roundtrip': 'no', 'route': 'hiking', 'type': 'route', 'website': 'http://www.turismealtaribagorca.cat/ca/activitat/municipality-vall-de-boi-vilaller/ruta-del-coll-de-serreres'}"
+"Font d'Artiga Longa"	"Font d'Artiga Longa"							"node"	"7832874950"		"{'amenity': 'watering_place', 'name': \"Font d'Artiga Longa\"}"
+"Turó dels Civils"	"Turó dels Civils"							"node"	"3708331248"		"{'ele': '2085.4', 'name': 'Turó dels Civils', 'natural': 'peak', 'source': 'Institut Cartogràfic de Catalunya'}"

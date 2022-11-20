@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Can Pelegrí"	"Can Pelegrí"							"way"	"205670478"		"{'building': 'yes', 'name': 'Can Pelegrí'}"
+"Coll de Vila-Romà"	"Coll de Vila-Romà"							"node"	"1676159488"		"{'name': 'Coll de Vila-Romà', 'natural': 'saddle'}"
+"Puig Agudell"	"Puig Agudell"							"way"	"232284351"		"{'highway': 'residential', 'name': 'Puig Agudell', 'surface': 'paved', 'tracktype': 'grade1'}"
+"Puig Maruny"	"Puig Maruny"							"node"	"1241593828"		"{'name': 'Puig Maruny', 'natural': 'peak', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

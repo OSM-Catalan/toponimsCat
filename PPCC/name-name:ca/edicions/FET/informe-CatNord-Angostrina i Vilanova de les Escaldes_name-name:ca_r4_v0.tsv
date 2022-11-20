@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Coll dels Andorrans"	"Coll dels Andorrans"							"node"	"7618494686"		"{'ele': '2749', 'name': 'Coll dels Andorrans', 'natural': 'saddle'}"
+"Puig de la Grava"	"Puig de la Grava"							"node"	"670508401"		"{'description': 'Borne en granit gravée IGN et 1949 - Point vu en place en 1950', 'ele': '2671', 'man_made': 'survey_point', 'name': 'Puig de la Grava', 'note': 'Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res', 'ref': '6600503 - 1', 'source': '©IGN 2010 dans le cadre de la cartographie réglementaire', 'source:prominence': 'IGN map. Key col: Coll de la Grava 2478', 'url': 'http://geodesie.ign.fr/fiches/index.php?module=e&action=fichepdf&source=carte&sit_no=6600503'}"
+"Puig de la Grava"	"Puig de la Grava"							"node"	"6203759296"		"{'ele': '2671', 'name': 'Puig de la Grava', 'natural': 'peak', 'prominence': '193', 'source:prominence': 'IGN map. Key col: Coll de la Grava 2478'}"
+"Serra les Xemeneies"	"Serra les Xemeneies"							"node"	"7618493105"		"{'name': 'Serra les Xemeneies', 'place': 'locality'}"

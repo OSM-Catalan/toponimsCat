@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Can Barris"	"Can Barris"							"node"	"6531491685"		"{'amenity': 'restaurant', 'name': 'Can Barris'}"
+"Can Barris"	"Can Barris"							"way"	"694733860"		"{'addr:city': 'Campllong', 'amenity': 'restaurant', 'building': 'yes', 'cuisine': 'regional', 'name': 'Can Barris', 'phone': '+34 972 46 10 05', 'website': 'https://www.canbarris.cat/'}"
+"Can Roqueta"	"Can Roqueta"							"node"	"3578487445"		"{'name': 'Can Roqueta', 'place': 'isolated_dwelling'}"
+"Can Xiquet"	"Can Xiquet"							"node"	"6534362185"		"{'amenity': 'restaurant', 'name': 'Can Xiquet'}"
+"Can Xiquet"	"Can Xiquet"							"way"	"694733893"		"{'amenity': 'restaurant', 'building': 'yes', 'cuisine': 'regional', 'name': 'Can Xiquet', 'phone': '+34 972 46 20 18', 'website': 'https://www.restaurantcanxiquet.com/'}"

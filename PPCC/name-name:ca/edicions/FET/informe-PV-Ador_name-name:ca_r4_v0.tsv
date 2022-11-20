@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Font de Lloret"	"Font de Lloret"							"node"	"3914048328"		"{'name': 'Font de Lloret', 'natural': 'spring'}"
+"Font de Lloret"	"Font de Lloret"							"way"	"388184742"		"{'highway': 'path', 'name': 'Font de Lloret'}"
+"Font Vella"	"Font Vella"							"node"	"5407727760"		"{'intermittent': 'yes', 'name': 'Font Vella', 'natural': 'spring'}"

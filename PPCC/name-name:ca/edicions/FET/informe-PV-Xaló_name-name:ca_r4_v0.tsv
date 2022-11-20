@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Can Tallarina"	"Can Tallarina"							"node"	"2508528731"		"{'amenity': 'pub', 'name': 'Can Tallarina'}"
+"Font de Bèrnia"	"Font de Bèrnia"							"node"	"410544845"		"{'name': 'Font de Bèrnia', 'natural': 'spring'}"
+"Serra de Bèrnia"	"Serra de Bèrnia"							"way"	"888381769"		"{'name': 'Serra de Bèrnia', 'natural': 'mountain_range'}"
+"Serra de la Devesa"	"Serra de la Devesa"							"way"	"993727339"		"{'name': 'Serra de la Devesa', 'natural': 'mountain_range'}"
+"Serra del Castellet de la Solana"	"Serra del Castellet de la Solana"	"Serra de la Solana de Xaló"	"Serra de la Solana de Xaló"					"way"	"997549014"		"{'alt_name': 'Serra de la Solana de Xaló', 'name': 'Serra del Castellet de la Solana', 'natural': 'mountain_range'}"
+"Serra del Ferrer"	"Serra del Ferrer"	"Penyes de s'Ombria"	"Penyes de s'Ombria"					"way"	"888381770"		"{'alt_name': \"Penyes de s'Ombria\", 'name': 'Serra del Ferrer', 'natural': 'mountain_range'}"

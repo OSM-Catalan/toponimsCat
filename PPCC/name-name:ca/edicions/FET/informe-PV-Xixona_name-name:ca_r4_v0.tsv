@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Font d'Alècua"	"Font d'Alècua"							"node"	"8954995093"		"{'name': \"Font d'Alècua\", 'natural': 'spring'}"
+"Font de Montoro"	"Font de Montoro"							"node"	"8954994724"		"{'name': 'Font de Montoro', 'natural': 'spring'}"
+"Font dels Llagostins"	"Font dels Llagostins"							"node"	"8954994415"		"{'name': 'Font dels Llagostins', 'natural': 'spring'}"
+"Serra de la Llibreria"	"Serra de la Llibreria"							"node"	"1242135686"		"{'name': 'Serra de la Llibreria', 'place': 'locality'}"
+"Serra de la Mitja Carena"	"Serra de la Mitja Carena"							"node"	"1242134765"		"{'name': 'Serra de la Mitja Carena', 'place': 'locality'}"
+"Serra del Quarter"	"Serra del Quarter"							"way"	"892096448"		"{'name': 'Serra del Quarter', 'natural': 'mountain_range'}"

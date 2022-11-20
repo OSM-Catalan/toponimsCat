@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Coll de Reu"	"Coll de Reu"							"node"	"1241668546"		"{'name': 'Coll de Reu', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Font de la plaça Major de Verdú"	"Font de la plaça Major de Verdú"			"Font de la plaça Major de Verdú"	"Font de la plaça Major de Verdú"	"fountain"	"Q28711926"	"node"	"6199800140"		"{'amenity': 'drinking_water', 'name': 'Font de la plaça Major de Verdú', 'wikidata': 'Q28711926', 'wikipedia': 'ca:Font de la plaça Major de Verdú'}"
+"Font de Santa Magdalena"	"Font de Santa Magdalena"							"node"	"6199794376"		"{'name': 'Font de Santa Magdalena', 'natural': 'spring', 'water': 'spring'}"

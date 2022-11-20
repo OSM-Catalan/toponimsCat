@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Font de la Drova"	"Font de la Drova"							"node"	"3158331673"		"{'amenity': 'drinking_water', 'name': 'Font de la Drova'}"
+"Font de la Junquera"	"Font de la Junquera"							"node"	"4727202702"		"{'ele': '350', 'name': 'Font de la Junquera', 'natural': 'spring'}"
+"Font del Racó"	"Font del Racó"							"node"	"4042025978"		"{'amenity': 'drinking_water', 'name': 'Font del Racó'}"
+"Font del Teular"	"Font del Teular"							"node"	"3566424637"		"{'amenity': 'drinking_water', 'name': 'Font del Teular'}"
+"Serra de Quatretonda"	"Serra de Quatretonda"							"relation"	"12502465"	"official_name=Paraje Natural Municipal Serra de Quatretonda"	"{'boundary': 'protected_area', 'leisure': 'nature_reserve', 'name': 'Serra de Quatretonda', 'official_name': 'Paraje Natural Municipal Serra de Quatretonda', 'protection_title': 'Paraje Natural Municipal', 'related_law': 'Acuerdo de 05 de mayo de 2006', 'type': 'boundary', 'website': 'http://agroambient.gva.es/es/web/parajes-naturales-municipales/pnm-serra-de-quatretonda-quatretonda'}"

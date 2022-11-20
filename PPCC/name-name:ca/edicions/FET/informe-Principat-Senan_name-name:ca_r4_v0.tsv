@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Coll de Senan"	"Coll de Senan"							"node"	"6852073272"		"{'ele': '664.8', 'name': 'Coll de Senan', 'natural': 'saddle'}"
+"Coll Vell"	"Coll Vell"							"node"	"5464905742"		"{'ele': '713.0', 'name': 'Coll Vell', 'natural': 'saddle', 'source': 'Institut Cartogràfic i Geològic de Catalunya'}"
+"Serra del Tallat"	"Serra del Tallat"							"node"	"1241782792"		"{'name': 'Serra del Tallat', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Serra del Tallat"	"Serra del Tallat"							"way"	"799119711"		"{'name': 'Serra del Tallat', 'natural': 'ridge'}"

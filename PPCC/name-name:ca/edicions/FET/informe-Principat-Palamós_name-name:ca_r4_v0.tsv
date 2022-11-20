@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Can Font"	"Can Font"							"node"	"7528384623"		"{'addr:city': 'Palamós', 'addr:housenumber': '9', 'addr:postcode': '17230', 'addr:street': 'Carrer Major', 'name': 'Can Font', 'opening_hours': 'Mo-Su 09:00-13:00', 'phone': '+34 972 31 42 90', 'shop': 'deli'}"
+"Can Nicanor"	"Can Nicanor"							"node"	"6123759688"		"{'addr:city': 'Palamós', 'addr:housenumber': '14', 'addr:postcode': '17230', 'addr:street': 'Carrer de la Roda', 'amenity': 'restaurant', 'contact:facebook': 'https://m.facebook.com/pages/Can-Nicanor/286726181359318', 'cuisine': 'tapas', 'name': 'Can Nicanor', 'opening_hours': 'Tu-Sa 19:00-24:00'}"
+"Font del Llorer"	"Font del Llorer"	"Font del Drac"	"Font del Drac"	"Font del Llorer (Palamós), Font del Drac"		"spring"	"Q114706072"	"node"	"10106850749"		"{'alt_name': 'Font del Drac', 'name': 'Font del Llorer', 'natural': 'spring', 'wikidata': 'Q114706072'}"
+"Puig d'en Xifre"	"Puig d'en Xifre"							"node"	"1241598906"		"{'ele': '91.2', 'name': \"Puig d'en Xifre\", 'natural': 'peak', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Puig del Compte"	"Puig del Compte"							"node"	"6573997016"		"{'ele': '171.7', 'name': 'Puig del Compte', 'natural': 'peak'}"

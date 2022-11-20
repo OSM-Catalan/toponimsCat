@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Coll de Finestres"	"Coll de Finestres"							"node"	"5344481943"		"{'ele': '2407.9', 'name': 'Coll de Finestres', 'natural': 'saddle'}"
+"Coll de la Gallina"	"Coll de la Gallina"							"node"	"52685678"		"{'direction': '35', 'ele': '1910', 'mountain_pass': 'yes', 'name': 'Coll de la Gallina', 'natural': 'saddle'}"
+"Coll de Vista"	"Coll de Vista"							"node"	"579971697"		"{'ele': '1923', 'name': 'Coll de Vista', 'natural': 'saddle'}"
+"Coll Jovell"	"Coll Jovell"							"node"	"4314606235"		"{'direction': '135', 'name': 'Coll Jovell', 'natural': 'saddle'}"
+"Font Roja"	"Font Roja"							"node"	"4235417076"		"{'name': 'Font Roja', 'natural': 'spring'}"
+"Torrent de la Canya de l'Ós"	"Torrent de la Canya de l'Ós"							"way"	"704887823"		"{'intermittent': 'yes', 'name': \"Torrent de la Canya de l'Ós\", 'waterway': 'stream'}"

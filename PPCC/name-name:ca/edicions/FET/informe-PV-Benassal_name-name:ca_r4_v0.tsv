@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Coll de la Rualda"	"Coll de la Rualda"							"node"	"279265064"		"{'name': 'Coll de la Rualda', 'place': 'hamlet'}"
+"font de l'Om"	"font de l'Om"							"node"	"8180719333"		"{'name': \"font de l'Om\", 'natural': 'spring'}"
+"Font de l'Ombria"	"Font de l'Ombria"							"node"	"5754580002"		"{'name': \"Font de l'Ombria\", 'natural': 'spring'}"
+"font de Sant Roc"	"font de Sant Roc"							"node"	"8165425267"		"{'name': 'font de Sant Roc', 'natural': 'spring'}"
+"Font del Rivet."	"Font del Rivet."							"node"	"4363801515"		"{'amenity': 'drinking_water', 'name': 'Font del Rivet.'}"
+"Serra Negra"	"Serra Negra"							"way"	"1106958058"		"{'name': 'Serra Negra', 'natural': 'ridge'}"

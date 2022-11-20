@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Coll de Rates 7"	"Coll de Rates 7"							"node"	"2692581710"		"{'bus': 'yes', 'highway': 'bus_stop', 'name': 'Coll de Rates 7', 'public_transport': 'stop_position', 'ref': '3881'}"
+"Coll de Rates 7"	"Coll de Rates 7"							"node"	"2692581711"		"{'bus': 'yes', 'name': 'Coll de Rates 7', 'public_transport': 'platform', 'ref': '3881'}"
+"Serra dels Caragols"	"Serra dels Caragols"							"way"	"1011917050"		"{'name': 'Serra dels Caragols', 'natural': 'mountain_range'}"
+"Serra Pelada"	"Serra Pelada"	"Serra del Savinar"	"Serra del Savinar"					"way"	"1011917051"		"{'alt_name': 'Serra del Savinar', 'name': 'Serra Pelada', 'natural': 'mountain_range'}"

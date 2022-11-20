@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Font de Baix"	"Font de Baix"							"node"	"419927609"		"{'amenity': 'drinking_water', 'name': 'Font de Baix'}"
+"Font de Dalt"	"Font de Dalt"							"node"	"419943554"		"{'amenity': 'drinking_water', 'name': 'Font de Dalt'}"
+"Font de la Gàrgola"	"Font de la Gàrgola"							"node"	"419927654"		"{'name': 'Font de la Gàrgola', 'natural': 'spring'}"
+"Font de la Plaça"	"Font de la Plaça"							"node"	"419927756"		"{'amenity': 'drinking_water', 'name': 'Font de la Plaça'}"
+"Font de la Solana"	"Font de la Solana"							"node"	"9009844756"		"{'amenity': 'drinking_water', 'name': 'Font de la Solana'}"

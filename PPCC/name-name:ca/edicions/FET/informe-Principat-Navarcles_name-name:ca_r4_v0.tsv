@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Font del Llac"	"Font del Llac"							"node"	"1767795868"		"{'amenity': 'drinking_water', 'check_date': '2021-08-15', 'name': 'Font del Llac'}"
+"Font Nova"	"Font Nova"							"node"	"2021940385"		"{'name': 'Font Nova', 'natural': 'spring'}"
+"Serrat del Galobard"	"Serrat del Galobard"							"way"	"784407337"		"{'name': 'Serrat del Galobard', 'natural': 'ridge'}"
+"Torrent de la Deu"	"Torrent de la Deu"							"way"	"685949178"		"{'intermittent': 'yes', 'name': 'Torrent de la Deu', 'waterway': 'stream'}"

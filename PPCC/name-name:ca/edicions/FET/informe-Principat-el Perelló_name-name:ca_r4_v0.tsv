@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Can Dragó"	"Can Dragó"							"node"	"4681843599"		"{'addr:street': 'Camí de les Comes i Tita', 'email': '123casitas@live.nl', 'name': 'Can Dragó', 'operator': '123casitas.nl', 'tourism': 'hostel'}"
+"Coll de l'ardit"	"Coll de l'ardit"							"way"	"1053151545"		"{'highway': 'unclassified', 'name': \"Coll de l'ardit\"}"
+"Coll de la Cova"	"Coll de la Cova"							"node"	"4584046205"		"{'ele': '226.5', 'name': 'Coll de la Cova', 'natural': 'saddle'}"
+"Font de Tita"	"Font de Tita"							"node"	"2632396347"		"{'name': 'Font de Tita', 'place': 'locality'}"
+"Font de Tita"	"Font de Tita"							"node"	"2632396346"		"{'amenity': 'fountain', 'name': 'Font de Tita'}"
+"Puig del Retor"	"Puig del Retor"							"node"	"1241772218"		"{'name': 'Puig del Retor', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

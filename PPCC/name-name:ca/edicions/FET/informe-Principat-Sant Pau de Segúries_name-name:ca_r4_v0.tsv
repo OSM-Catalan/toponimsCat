@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Font de la Puda"	"Font de la Puda"							"node"	"6139897245"		"{'amenity': 'drinking_water', 'name': 'Font de la Puda'}"
+"Puig de la Trona"	"Puig de la Trona"							"node"	"948720075"		"{'ele': '1111.80', 'ign:latitud': '42.2489970150478982', 'ign:longitud': '2.3645295572200000', 'ign:red': 'Red Geodesica Nacional Convencional (ROI)', 'man_made': 'survey_point', 'name': 'Puig de la Trona', 'note': 'This is a point from an official geodetic network. Use it as a reference, but do NOT move it.', 'ref': '25665', 'source': 'Instituto Geográfico Nacional', 'source:ref': 'ftp://ftp.geodesia.ign.es'}"
+"Serra dels Pelats"	"Serra dels Pelats"							"node"	"1241598315"		"{'name': 'Serra dels Pelats', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

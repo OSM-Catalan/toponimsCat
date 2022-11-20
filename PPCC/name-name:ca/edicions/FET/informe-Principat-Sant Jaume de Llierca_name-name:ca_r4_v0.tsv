@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Can Roca"	"Can Roca"							"way"	"1111597747"		"{'building': 'yes', 'name': 'Can Roca'}"
+"Serrat de la Capelleta"	"Serrat de la Capelleta"							"node"	"1241593326"		"{'name': 'Serrat de la Capelleta', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Torrent de Castellar"	"Torrent de Castellar"							"way"	"698059618"		"{'intermittent': 'yes', 'name': 'Torrent de Castellar', 'waterway': 'stream'}"
+"Torrent de Castellar"	"Torrent de Castellar"							"way"	"698059612"		"{'intermittent': 'yes', 'layer': '-1', 'name': 'Torrent de Castellar', 'tunnel': 'yes', 'waterway': 'stream'}"
+"Torrent de Lliurella"	"Torrent de Lliurella"							"way"	"697819591"		"{'intermittent': 'yes', 'name': 'Torrent de Lliurella', 'waterway': 'stream'}"

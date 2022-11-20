@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Serra del Mig"	"Serra del Mig"							"node"	"1241668522"		"{'name': 'Serra del Mig', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Serra del Paco"	"Serra del Paco"							"node"	"1241676601"		"{'name': 'Serra del Paco', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Turó de la Figuereta"	"Turó de la Figuereta"							"node"	"7195418779"		"{'ele': '398.9', 'name': 'Turó de la Figuereta', 'natural': 'peak', 'source': 'Institut Cartogràfic i Geològic de Catalunya'}"

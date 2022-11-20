@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Coll d'Orla"	"Coll d'Orla"							"node"	"4150576665"		"{'ele': '1831.5', 'name': \"Coll d'Orla\", 'natural': 'saddle'}"
+"Coll de Finestres"	"Coll de Finestres"							"node"	"8988157023"		"{'ele': '2622.9', 'name': 'Coll de Finestres', 'natural': 'saddle', 'source': 'Institut Cartogràfic i Geològic de Catalunya'}"
+"Puig de la Solana"	"Puig de la Solana"							"node"	"1304115385"		"{'ele': '1050', 'name': 'Puig de la Solana', 'natural': 'peak', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Torrent de Perafita"	"Torrent de Perafita"							"way"	"712321485"		"{'intermittent': 'yes', 'name': 'Torrent de Perafita', 'waterway': 'stream'}"

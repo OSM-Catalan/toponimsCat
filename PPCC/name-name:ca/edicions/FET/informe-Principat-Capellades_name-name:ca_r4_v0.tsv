@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Can Carol"	"Can Carol"							"way"	"832503804"		"{'addr:city': 'Capellades', 'addr:housenumber': '5', 'addr:postcode': '08786', 'addr:street': 'Font de la Reina', 'building': 'yes', 'name': 'Can Carol', 'rooms': '7', 'tourism': 'hotel', 'website': 'https://www.cancarol.cat/'}"
+"Can Violant"	"Can Violant"							"node"	"4839728978"		"{'building': 'yes', 'name': 'Can Violant'}"
+"Font Cuitora"	"Font Cuitora"							"node"	"7544347394"		"{'amenity': 'drinking_water', 'fee': 'no', 'name': 'Font Cuitora'}"
+"Font de la Reina"	"Font de la Reina"							"way"	"832503795"		"{'highway': 'residential', 'name': 'Font de la Reina', 'oneway': 'no', 'surface': 'ground'}"
+"Font del Llangardaix"	"Font del Llangardaix"							"node"	"5325418221"		"{'name': 'Font del Llangardaix', 'natural': 'spring'}"

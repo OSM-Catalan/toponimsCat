@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Can Ros"	"Can Ros"							"relation"	"8483292"		"{'building': 'yes', 'name': 'Can Ros', 'source': 'Dirección General del Catastro', 'type': 'multipolygon'}"
+"Puig d'en Batlle"	"Puig d'en Batlle"							"node"	"6609000124"		"{'ele': '101.3', 'name': \"Puig d'en Batlle\", 'natural': 'peak'}"

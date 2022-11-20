@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Can Dani"	"Can Dani"							"way"	"1060217293"		"{'amenity': 'restaurant', 'building': 'yes', 'building:levels': '1', 'cuisine': 'seafood', 'name': 'Can Dani', 'outdoor_seating': 'yes'}"
+"Turó de la Torre dels Encantats"	"Turó de la Torre dels Encantats"							"node"	"4241087493"		"{'ele': '73', 'name': 'Turó de la Torre dels Encantats', 'natural': 'peak'}"
+"Turó de les Garses"	"Turó de les Garses"							"node"	"1241570090"		"{'name': 'Turó de les Garses', 'place': 'locality'}"
+"Turó de les Orenetes"	"Turó de les Orenetes"							"node"	"1241555577"		"{'name': 'Turó de les Orenetes', 'place': 'locality'}"

@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Can Claus"	"Can Claus"							"node"	"5468266536"		"{'addr:city': 'Mont-roig del Camp', 'addr:street': 'Passeig del Mediterrani', 'amenity': 'restaurant', 'cuisine': 'regional', 'name': 'Can Claus'}"
+"Can Salvador"	"Can Salvador"							"node"	"5464876959"		"{'addr:city': 'Mont-roig del Camp', 'addr:postcode': '43892', 'addr:street': 'Avinguda de Barcelona', 'amenity': 'restaurant', 'name': 'Can Salvador'}"
+"Can Salvador"	"Can Salvador"							"way"	"567594533"		"{'addr:city': 'Mont-roig del Camp', 'addr:housenumber': 'km1131', 'addr:postcode': '43892', 'addr:street': 'Avinguda de Barcelona', 'building': 'yes', 'internet_access': 'yes', 'name': 'Can Salvador', 'stars': '3', 'tourism': 'hotel', 'website': 'http://www.hotelcansalvador.net/'}"
+"Coll de l'Areny"	"Coll de l'Areny"							"node"	"6370078392"		"{'ele': '311.6', 'name': \"Coll de l'Areny\", 'natural': 'saddle'}"
+"Serra del Frare"	"Serra del Frare"							"way"	"912704774"		"{'name': 'Serra del Frare', 'natural': 'ridge'}"

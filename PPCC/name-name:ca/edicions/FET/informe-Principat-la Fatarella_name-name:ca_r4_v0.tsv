@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Coll de l'Hospital"	"Coll de l'Hospital"							"node"	"7991521219"		"{'ele': '540.6', 'name': \"Coll de l'Hospital\", 'natural': 'saddle'}"
+"Coll de Padellàs"	"Coll de Padellàs"							"node"	"1308758654"		"{'ele': '351', 'mountain_pass': 'yes', 'name': 'Coll de Padellàs', 'natural': 'saddle', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Serra de la Fatarella"	"Serra de la Fatarella"							"way"	"857146493"		"{'name': 'Serra de la Fatarella', 'natural': 'ridge'}"

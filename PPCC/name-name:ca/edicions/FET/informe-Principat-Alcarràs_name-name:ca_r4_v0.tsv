@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Serra de la Bassa Nova"	"Serra de la Bassa Nova"							"way"	"928895227"		"{'ele': '289', 'name': 'Serra de la Bassa Nova', 'natural': 'ridge'}"
+"Serra de la Popa"	"Serra de la Popa"							"node"	"1241672955"		"{'name': 'Serra de la Popa', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Serra del Vent"	"Serra del Vent"							"way"	"929224666"		"{'ele': '288', 'name': 'Serra del Vent', 'natural': 'ridge'}"
+"Serra dels Patis"	"Serra dels Patis"							"way"	"928895226"		"{'ele': '287', 'name': 'Serra dels Patis', 'natural': 'ridge'}"
+"Serra Morena"	"Serra Morena"							"node"	"1241667602"		"{'name': 'Serra Morena', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Serrat del Mas Gran"	"Serrat del Mas Gran"							"node"	"2935688983"		"{'ele': '186.2', 'name': 'Serrat del Mas Gran', 'natural': 'peak', 'source': 'Institut Cartogràfic de Catalunya'}"

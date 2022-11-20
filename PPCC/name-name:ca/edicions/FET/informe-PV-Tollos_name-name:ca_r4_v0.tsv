@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Font de la Xona"	"Font de la Xona"							"way"	"364507035"		"{'building': 'service', 'description': \"Punt de captació d'aigua per al consum humà\", 'drinking_water': 'no', 'man_made': 'water_well', 'name': 'Font de la Xona', 'operator': 'Ajuntament de Tollos'}"
+"Font Vella"	"Font Vella"							"node"	"3685411583"		"{'drinking_water': 'yes', 'drinking_water:legal': 'no', 'man_made': 'water_tap', 'name': 'Font Vella', 'natural': 'spring'}"

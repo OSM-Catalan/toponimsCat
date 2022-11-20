@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Can Jordi"	"Can Jordi"							"relation"	"6151960"		"{'landuse': 'residential', 'name': 'Can Jordi', 'place': 'hamlet', 'type': 'multipolygon'}"
+"Can Morat"	"Can Morat"							"way"	"749551680"		"{'building': 'house', 'name': 'Can Morat'}"
+"Can Piu"	"Can Piu"							"way"	"894689666"		"{'building': 'house', 'name': 'Can Piu'}"
+"Can Ros"	"Can Ros"							"way"	"749551699"		"{'building': 'house', 'name': 'Can Ros'}"
+"Font del Mas Vilà"	"Font del Mas Vilà"							"node"	"9220695435"		"{'name': 'Font del Mas Vilà', 'natural': 'spring'}"

@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Coll del Collet"	"Coll del Collet"							"node"	"9124771699"		"{'ele': '295', 'mountain_pass': 'yes', 'name': 'Coll del Collet', 'natural': 'saddle'}"
+"Font de Company"	"Font de Company"							"way"	"44326675"		"{'amenity': 'fountain', 'name': 'Font de Company'}"
+"Font de la Vila"	"Font de la Vila"							"node"	"348250373"		"{'amenity': 'drinking_water', 'name': 'Font de la Vila'}"
+"Serra d'en Galceran"	"Serra d'en Galceran"							"way"	"823261038"		"{'name': \"Serra d'en Galceran\", 'natural': 'mountain_range'}"

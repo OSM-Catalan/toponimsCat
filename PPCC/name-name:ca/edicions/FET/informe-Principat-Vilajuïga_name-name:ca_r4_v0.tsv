@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Can Salvi"	"Can Salvi"							"node"	"4454743656"		"{'name': 'Can Salvi', 'shop': 'butcher', 'website': 'www.cansalvi.com'}"
+"Font del Racó"	"Font del Racó"							"node"	"4454867357"		"{'amenity': 'drinking_water', 'name': 'Font del Racó'}"
+"Turó de la Roca Ventosa"	"Turó de la Roca Ventosa"							"node"	"9993393100"		"{'ele': '241.3', 'name': 'Turó de la Roca Ventosa', 'natural': 'peak'}"

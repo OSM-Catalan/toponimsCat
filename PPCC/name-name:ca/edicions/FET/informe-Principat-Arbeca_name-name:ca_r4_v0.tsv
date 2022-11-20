@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Font de la Juliana"	"Font de la Juliana"							"node"	"1241673505"		"{'name': 'Font de la Juliana', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Puig de Corb"	"Puig de Corb"							"node"	"948710436"		"{'ele': '455.80', 'ign:latitud': '41.5190035024198991', 'ign:longitud': '0.9724811123260000', 'ign:red': 'Red Geodesica Nacional Convencional (ROI)', 'man_made': 'survey_point', 'name': 'Puig de Corb', 'note': 'This is a point from an official geodetic network. Use it as a reference, but do NOT move it.', 'ref': '38951', 'source': 'Instituto Geográfico Nacional', 'source:ref': 'ftp://ftp.geodesia.ign.es'}"

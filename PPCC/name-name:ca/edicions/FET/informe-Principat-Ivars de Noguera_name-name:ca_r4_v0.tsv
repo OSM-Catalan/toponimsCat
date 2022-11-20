@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Coll de l'Obac"	"Coll de l'Obac"							"node"	"3093782845"		"{'ele': '543.7', 'name': \"Coll de l'Obac\", 'natural': 'peak', 'source': 'Institut Cartogràfic de Catalunya'}"
+"Serra de la Cogullada"	"Serra de la Cogullada"							"node"	"1241679697"		"{'name': 'Serra de la Cogullada', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Serra de la Garriga"	"Serra de la Garriga"							"node"	"1241680508"		"{'name': 'Serra de la Garriga', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Serra de Vicent"	"Serra de Vicent"							"node"	"1241671872"		"{'name': 'Serra de Vicent', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Serra Llarga"	"Serra Llarga"							"way"	"502889670"		"{'name': 'Serra Llarga', 'natural': 'ridge', 'source': 'Institut Cartogràfic i Geològic de Catalunya'}"

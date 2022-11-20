@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Coll Blanc"	"Coll Blanc"					"mountain pass"	"Q21330642"	"node"	"623510069"		"{'ele': '2528', 'mountain_pass': 'yes', 'name': 'Coll Blanc', 'natural': 'saddle', 'wikidata': 'Q21330642', 'wikipedia': 'sv:Coll_Blanc'}"
+"Serra de les Solanelles"	"Serra de les Solanelles"							"way"	"759907630"		"{'name': 'Serra de les Solanelles', 'piste:difficulty': 'easy', 'piste:type': 'downhill'}"
+"Serra de les Solanelles"	"Serra de les Solanelles"							"way"	"52163693"		"{'name': 'Serra de les Solanelles', 'piste:difficulty': 'intermediate', 'piste:type': 'downhill'}"
+"Serrat de la Posa"	"Serrat de la Posa"							"way"	"52163753"		"{'name': 'Serrat de la Posa', 'piste:difficulty': 'intermediate', 'piste:type': 'downhill', 'sport': 'skiing'}"
+"Serrat Pinos"	"Serrat Pinos"							"way"	"143323574"		"{'name': 'Serrat Pinos', 'piste:difficulty': 'intermediate', 'piste:type': 'downhill'}"

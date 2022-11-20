@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Can Burguès"	"Can Burguès"							"way"	"385148553"		"{'amenity': 'restaurant', 'contact:phone': '+34 938644095', 'contact:website': 'http://restaurantcanburgues.com', 'cuisine': 'regional', 'name': 'Can Burguès'}"
+"Can Cerdà"	"Can Cerdà"							"way"	"1028301490"		"{'building': 'yes', 'name': 'Can Cerdà'}"
+"Can Maiol"	"Can Maiol"							"way"	"964248246"		"{'landuse': 'farmyard', 'name': 'Can Maiol'}"
+"Torrent d'en Baell"	"Torrent d'en Baell"							"way"	"367214113"		"{'intermittent': 'yes', 'name': \"Torrent d'en Baell\", 'waterway': 'stream'}"
+"Torrent de Can Turull"	"Torrent de Can Turull"							"way"	"367227127"		"{'intermittent': 'yes', 'name': 'Torrent de Can Turull', 'waterway': 'stream'}"
+"Turó de l'Home Mort"	"Turó de l'Home Mort"							"node"	"1241566770"		"{'name': \"Turó de l'Home Mort\", 'place': 'locality'}"

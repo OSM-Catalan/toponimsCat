@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Font de Sant Josep"	"Font de Sant Josep"							"node"	"2342581351"		"{'amenity': 'drinking_water', 'name': 'Font de Sant Josep'}"
+"Font del Campaner"	"Font del Campaner"							"node"	"1687371752"		"{'name': 'Font del Campaner', 'natural': 'spring'}"
+"Font del Llavaner"	"Font del Llavaner"							"node"	"957285520"		"{'amenity': 'fountain', 'name': 'Font del Llavaner'}"
+"Font del Salt"	"Font del Salt"							"node"	"9938844051"		"{'name': 'Font del Salt', 'natural': 'spring'}"

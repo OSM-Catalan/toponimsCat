@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Coll de l'Orri de la Vinyola"	"Coll de l'Orri de la Vinyola"							"node"	"826518526"		"{'ele': '2724', 'mountain_pass': 'yes', 'name': \"Coll de l'Orri de la Vinyola\", 'natural': 'saddle'}"
+"Font de Carol"	"Font de Carol"							"node"	"5358932991"		"{'amenity': 'drinking_water', 'name': 'Font de Carol'}"
+"Font Negra"	"Font Negra"							"node"	"9091526828"		"{'name': 'Font Negra', 'natural': 'spring'}"
+"Puig Pedró de la Tossa"	"Puig Pedró de la Tossa"							"node"	"46471675"		"{'ele': '2692', 'name': 'Puig Pedró de la Tossa', 'natural': 'peak', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

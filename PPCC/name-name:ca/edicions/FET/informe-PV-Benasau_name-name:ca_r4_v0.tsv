@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Font d'Ares"	"Font d'Ares"							"node"	"8045166715"		"{'name': \"Font d'Ares\", 'natural': 'spring'}"
+"Font de l'Ullet"	"Font de l'Ullet"							"node"	"4007698726"		"{'amenity': 'drinking_water', 'name': \"Font de l'Ullet\"}"
+"Font de la Mosqueta"	"Font de la Mosqueta"							"node"	"4007394874"		"{'name': 'Font de la Mosqueta', 'natural': 'spring'}"

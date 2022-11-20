@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Can Pau"	"Can Pau"							"node"	"3719262675"		"{'amenity': 'restaurant', 'name': 'Can Pau', 'wheelchair': 'yes'}"
+"Font del Clot de la Tina"	"Font del Clot de la Tina"							"node"	"2194508003"		"{'name': 'Font del Clot de la Tina', 'natural': 'spring'}"
+"Font del Ferret"	"Font del Ferret"							"node"	"2177536476"		"{'name': 'Font del Ferret', 'natural': 'spring'}"
+"Serra del Sopluig"	"Serra del Sopluig"							"node"	"1241582727"		"{'name': 'Serra del Sopluig', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

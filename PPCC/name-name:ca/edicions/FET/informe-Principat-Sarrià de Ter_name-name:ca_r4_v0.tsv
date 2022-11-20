@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Can Camós"	"Can Camós"			"Can Camós"		"masia"	"Q107127454"	"way"	"555395111"		"{'building': 'house', 'name': 'Can Camós', 'wikidata': 'Q107127454'}"
+"Can Dani"	"Can Dani"							"node"	"1392924788"		"{'amenity': 'pub', 'name': 'Can Dani', 'wheelchair': 'yes'}"
+"Can Rovira"	"Can Rovira"			"Can Rovira"		"masia"	"Q107127480"	"way"	"998099252"		"{'building': 'yes', 'name': 'Can Rovira', 'wikidata': 'Q107127480'}"
+"Can Tomàs"	"Can Tomàs"							"node"	"5358564579"		"{'name': 'Can Tomàs', 'place': 'isolated_dwelling'}"

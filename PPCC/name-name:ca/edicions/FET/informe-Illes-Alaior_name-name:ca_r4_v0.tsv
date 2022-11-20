@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Can Bon Jesús"	"Can Bon Jesús"							"node"	"3105958245"		"{'addr:city': 'Alaior', 'addr:housenumber': '109', 'addr:postcode': '07730', 'addr:street': 'Carrer de sa Bassa Roja', 'amenity': 'bar', 'name': 'Can Bon Jesús'}"
+"Can Llaunes"	"Can Llaunes"							"node"	"3098570666"		"{'addr:city': 'Alaior', 'addr:housenumber': '28', 'addr:postcode': '07730', 'addr:street': 'Carrer Menor', 'name': 'Can Llaunes', 'shop': 'convenience'}"
+"Can Llopis"	"Can Llopis"							"node"	"3098570682"		"{'name': 'Can Llopis', 'shop': 'butcher'}"
+"Puig Matet"	"Puig Matet"							"node"	"1242623401"		"{'name': 'Puig Matet', 'place': 'locality'}"
+"Puig Menor"	"Puig Menor"							"node"	"1242633463"		"{'name': 'Puig Menor', 'place': 'locality'}"

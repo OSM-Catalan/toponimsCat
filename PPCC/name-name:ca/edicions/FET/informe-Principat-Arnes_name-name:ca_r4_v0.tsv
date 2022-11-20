@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Can Barrina"	"Can Barrina"							"node"	"3861338919"		"{'amenity': 'restaurant', 'name': 'Can Barrina'}"
+"Coll de Montfort"	"Coll de Montfort"							"node"	"2601439423"		"{'ele': '938.1', 'mountain_pass': 'yes', 'name': 'Coll de Montfort', 'place': 'locality'}"
+"Font del cigró"	"Font del cigró"							"node"	"5235198538"		"{'name': 'Font del cigró', 'natural': 'spring'}"
+"Serra del Moro"	"Serra del Moro"							"way"	"899215357"		"{'name': 'Serra del Moro', 'natural': 'ridge'}"

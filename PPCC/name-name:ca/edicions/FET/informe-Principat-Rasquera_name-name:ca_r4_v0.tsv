@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Coll Alt"	"Coll Alt"							"node"	"4729411520"		"{'ele': '255.4', 'name': 'Coll Alt', 'natural': 'peak', 'source': 'Institut Cartogràfic i Geològic de Catalunya'}"
+"Coll de la Granada"	"Coll de la Granada"							"node"	"4865921997"		"{'ele': '219.7', 'name': 'Coll de la Granada', 'natural': 'peak', 'source': 'Institut Cartogràfic i Geològic de Catalunya'}"
+"Coll de Pins"	"Coll de Pins"							"node"	"4582719832"		"{'ele': '477.3', 'name': 'Coll de Pins', 'natural': 'saddle', 'source': 'Institut Cartogràfic i Geològic de Catalunya'}"
+"Font de la Glorieta"	"Font de la Glorieta"							"way"	"795383860"		"{'leisure': 'park', 'name': 'Font de la Glorieta'}"
+"font de la Portella"	"font de la Portella"							"node"	"5537487288"		"{'name': 'font de la Portella', 'natural': 'spring'}"
+"Font del Teix"	"Font del Teix"							"node"	"4532444448"		"{'name': 'Font del Teix', 'natural': 'spring'}"

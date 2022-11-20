@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Coll de l'Abadia"	"Coll de l'Abadia"							"node"	"3050237521"		"{'ele': '365.1', 'name': \"Coll de l'Abadia\", 'natural': 'saddle', 'source': 'Institut Cartogràfic de Catalunya'}"
+"Font de l'Espadella"	"Font de l'Espadella"							"node"	"877584471"		"{'amenity': 'drinking_water', 'drinking_water:legal': 'no', 'name': \"Font de l'Espadella\", 'natural': 'spring', 'source': 'knowledge'}"
+"Serrat Curt"	"Serrat Curt"							"node"	"1241670260"		"{'name': 'Serrat Curt', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Serrat de la Collada"	"Serrat de la Collada"							"node"	"1241682996"		"{'name': 'Serrat de la Collada', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Serrat del Poll"	"Serrat del Poll"							"node"	"1241686154"		"{'name': 'Serrat del Poll', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Coll d'Ordino"	"Coll d'Ordino"							"node"	"51930186"		"{'direction': '120', 'ele': '1980', 'mountain_pass': 'yes', 'name': \"Coll d'Ordino\", 'natural': 'saddle'}"
+"Coll de les Cases"	"Coll de les Cases"							"node"	"1367751786"		"{'name': 'Coll de les Cases'}"
+"Collet de la Coma"	"Collet de la Coma"							"node"	"1501121863"		"{'ele': '2596', 'name': 'Collet de la Coma', 'natural': 'saddle'}"
+"Font de la Cortinada"	"Font de la Cortinada"							"node"	"8731471759"		"{'drinking_water': 'yes', 'fountain': 'drinking_fountain', 'lit': 'yes', 'name': 'Font de la Cortinada', 'natural': 'spring'}"

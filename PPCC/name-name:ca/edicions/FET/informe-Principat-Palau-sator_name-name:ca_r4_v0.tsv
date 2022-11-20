@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Can Bach"	"Can Bach"							"node"	"8951850717"		"{'amenity': 'restaurant', 'name': 'Can Bach', 'phone': '+34 972634320'}"
+"Can Bach"	"Can Bach"							"node"	"9041415736"		"{'name': 'Can Bach', 'place': 'isolated_dwelling'}"
+"Can Nau"	"Can Nau"							"node"	"3539679129"		"{'name': 'Can Nau', 'place': 'isolated_dwelling'}"
+"Can Saló"	"Can Saló"							"node"	"6347929376"		"{'addr:city': 'Palau-sator', 'addr:housenumber': '3', 'addr:postcode': '17256', 'addr:street': 'Carrer dels Extramurs', 'amenity': 'restaurant', 'cuisine': 'regional;steak_house;mediterranean', 'internet_access': 'yes', 'name': 'Can Saló', 'opening_hours': 'Fr-Su 13:00-23:00', 'outdoor_seating': 'yes', 'phone': '+34 972 634 166', 'smoking': 'outside', 'website': 'http://www.restaurantcansalo.com/index.php'}"
+"Can Xicot"	"Can Xicot"							"way"	"371739217"		"{'building': 'house', 'name': 'Can Xicot'}"
+"Font de Palau"	"Font de Palau"							"node"	"6348234175"		"{'amenity': 'fountain', 'name': 'Font de Palau', 'source': 'local knowledge'}"

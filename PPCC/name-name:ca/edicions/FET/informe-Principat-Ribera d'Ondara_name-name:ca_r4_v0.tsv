@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Font Blanc"	"Font Blanc"							"node"	"1241682042"		"{'name': 'Font Blanc', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Font de la Bena"	"Font de la Bena"							"node"	"8289117789"		"{'name': 'Font de la Bena', 'natural': 'spring'}"
+"Serrat de Montpaó"	"Serrat de Montpaó"							"node"	"1241678682"		"{'name': 'Serrat de Montpaó', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Torrent Salat"	"Torrent Salat"							"node"	"1241678436"		"{'name': 'Torrent Salat', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Torrent Salat"	"Torrent Salat"							"way"	"396019007"		"{'name': 'Torrent Salat', 'waterway': 'drain'}"

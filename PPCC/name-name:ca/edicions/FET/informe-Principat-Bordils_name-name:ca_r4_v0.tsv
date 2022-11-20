@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Can Bosc"	"Can Bosc"							"node"	"3576312411"		"{'name': 'Can Bosc', 'place': 'isolated_dwelling'}"
+"Can Dama"	"Can Dama"							"way"	"563694044"		"{'building': 'yes', 'name': 'Can Dama', 'source': 'PNOA Spain', 'tourism': 'guest_house'}"
+"Font del Pavelló Torrentó"	"Font del Pavelló Torrentó"							"way"	"393264066"		"{'amenity': 'fountain', 'name': 'Font del Pavelló Torrentó'}"

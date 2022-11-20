@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Can Pons"	"Can Pons"							"node"	"9113333392"		"{'name': 'Can Pons', 'shop': 'bakery'}"
+"Puig de Sa Roca"	"Puig de Sa Roca"							"way"	"327578902"		"{'amenity': 'restaurant', 'building': 'retail', 'building:levels': '1', 'name': 'Puig de Sa Roca'}"
+"Puig Mal"	"Puig Mal"							"node"	"1242615169"		"{'name': 'Puig Mal', 'natural': 'peak'}"
+"Puig Malet"	"Puig Malet"							"node"	"1242626855"		"{'name': 'Puig Malet', 'place': 'locality'}"
+"Puig Roig"	"Puig Roig"							"node"	"1242621903"		"{'name': 'Puig Roig', 'place': 'locality'}"

@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Can Ton"	"Can Ton"							"way"	"263141614"		"{'addr:city': \"Montclar d'Urgell\", 'addr:postcode': '25317', 'building': 'house', 'name': 'Can Ton'}"
+"Serra de l'Espinal"	"Serra de l'Espinal"							"node"	"1241690526"		"{'name': \"Serra de l'Espinal\", 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Serra de la Torreta"	"Serra de la Torreta"							"node"	"2056465886"		"{'ele': '472.2', 'name': 'Serra de la Torreta', 'natural': 'peak', 'source': 'Institut Cartogràfic de Catalunya'}"
+"Serra del Soques"	"Serra del Soques"							"node"	"1241673169"		"{'name': 'Serra del Soques', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

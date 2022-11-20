@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Can Cerdà de Palou"	"Can Cerdà de Palou"							"way"	"206976769"		"{'building': 'yes', 'name': 'Can Cerdà de Palou'}"
+"Font de Can Fontanals"	"Font de Can Fontanals"							"node"	"8675618603"		"{'name': 'Font de Can Fontanals', 'natural': 'spring'}"
+"Font de l'Esteve"	"Font de l'Esteve"							"node"	"8262294827"		"{'name': \"Font de l'Esteve\", 'natural': 'spring'}"
+"Torrent De Les Tarumbes"	"Torrent De Les Tarumbes"							"way"	"1066705739"		"{'intermittent': 'yes', 'name': 'Torrent De Les Tarumbes', 'waterway': 'stream'}"
+"Torrent De Les Vies"	"Torrent De Les Vies"							"way"	"1065942194"		"{'intermittent': 'yes', 'name': 'Torrent De Les Vies', 'waterway': 'stream'}"
+"Torrent del Mas Rovira"	"Torrent del Mas Rovira"							"way"	"447303325"		"{'name': 'Torrent del Mas Rovira', 'waterway': 'stream'}"
