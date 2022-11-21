@@ -122,7 +122,7 @@ generaInforme<- function(arrelProjecte, fitxerInforme, filtreArea, filtreObjecte
 descartaObjectesSenseTraduccions<- function(fitxersInformes){
   res<- character()
   for (i in seq_along(fitxersInformes)){
-    # Intercepta «Warning: EOF within quoted string», que descarta files i retorna el fitxer problemàtic
+    # Intercepta «Warning: EOF within quoted string», que descarta fitxersInformes i retorna el fitxer problemàtic
     informe<- tryCatch(utils::read.table(fitxersInformes[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE),
                  warning=function(w) list(warning=w, fitxer=fitxersInformes[i], i=i))
     if (!inherits(informe, "data.frame")){
@@ -207,6 +207,8 @@ recompteCasosInformes<- function(arrelProjecte, informes, dades){
 
   dades$informe<- gsub("//", "/", dades$informe)  # Normalitza camins
 
+  pb<- timerProgressBar(max=nrow(dades))
+  on.exit(close(pb))
   for (i in 1:nrow(dades)){
     objectesOSM<- try(utils::read.table(dades$informe[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE))
     if (inherits(objectesOSM, "data.frame")){
@@ -226,6 +228,7 @@ recompteCasosInformes<- function(arrelProjecte, informes, dades){
       warning("Error a l'informe", i, ":", dades$informe[i], "\n")
       print(objectesOSM)
     }
+    setTimerProgressBar(pb, i)
   }
 
   return(dades)
@@ -260,6 +263,8 @@ recompteCasosEdicions<- function(arrelProjecte, edicions, dades){
 
   dades$edicio<- gsub("//", "/", dades$edicio)  # Normalitza camins
 
+  pb<- timerProgressBar(max=nrow(dades))
+  on.exit(close(pb))
   for (i in 1:nrow(dades)){
     objectesOSM<- try(utils::read.table(dades$edicio[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE))
     if (inherits(objectesOSM, "data.frame")){
@@ -282,6 +287,7 @@ recompteCasosEdicions<- function(arrelProjecte, edicions, dades){
       warning("Error a l'edicio", i, ":", dades$edicio[i], "\n")
       print(objectesOSM)
     }
+    setTimerProgressBar(pb, i)
   }
 
   dadesResum<- by(dades, dades$informe, function(x){
@@ -297,11 +303,13 @@ recompteCasosEdicions<- function(arrelProjecte, edicions, dades){
 #' @rdname recompteCasos
 #' @export
 recompteCasos<- function(arrelProjecte, informes, dades){
+  message("Recompte els casos dels informes...")
   casosInformes<- recompteCasosInformes(arrelProjecte=arrelProjecte, informes=informes, dades=dades)
 
   if (missing(arrelProjecte)){
     arrelProjecte<- gsub("/informes", "", unique(dirname(casosInformes$informe)))
   }
+  message("Recompte els casos de les edicions...")
   casosEdicions<- recompteCasosEdicions(arrelProjecte=arrelProjecte)
   names(casosEdicions)[-which(names(casosEdicions) == "informe")]<- paste0(setdiff(names(casosEdicions), "informe"), "Editat")
 
@@ -379,6 +387,8 @@ generaRevisions<- function(informes, arrelProjecte,
   # revisio.casosDESCARTATS<- revisio.casosFETS[revisio.casosFETS$`name:ca` %in% c(NA, ""), ]
 
   dL<- list()
+  pb<- timerProgressBar(max=length(informes))
+  on.exit(close(pb))
   for (i in seq_along(informes)){
     nomFitxer<- gsub(paste0("^", file.path(arrelProjecte, "informes/")), "", informes[i])
     nomFitxer<- gsub("^informe", "revisio", nomFitxer)
@@ -398,6 +408,7 @@ generaRevisions<- function(informes, arrelProjecte,
     })
     d<- unique(data.frame(d, check.names=FALSE))
     dL[[nomFitxer]]<- d
+    setTimerProgressBar(pb, i)
   }
 
   return(dL)
@@ -408,7 +419,11 @@ generaRevisions<- function(informes, arrelProjecte,
 #' @export
 generaRevisions_regexName<- function(informes, arrelProjecte, cerca, substitueix, revisioUnificada=FALSE, nomFitxerUnificat="revisio-UNIFICADA.tsv",
                                      campsUnics=c("name", "name:ca", "alt_name:ca", "alt_name", "translations", "ca.wikipedia_page", "wikidata_type", "wikidata_id")){
+  message("S'estan carregant els informes...")
   dL<- generaRevisions(informes=informes, arrelProjecte=arrelProjecte, campsUnics=campsUnics)
+  message("Preparant els fitxers de revisions...")
+  pb<- timerProgressBar(max=length(dL))
+  on.exit(close(pb))
   for (i in seq_along(dL)){
     nomFitxer<- names(dL)[i]
     d<- dL[[i]]
@@ -425,6 +440,7 @@ generaRevisions_regexName<- function(informes, arrelProjecte, cerca, substitueix
     } else {
       suppressWarnings(file.remove(file.path(arrelProjecte, "revisions", nomFitxer)))
     }
+    setTimerProgressBar(pb, i)
   }
 
   if (revisioUnificada){
@@ -434,7 +450,7 @@ generaRevisions_regexName<- function(informes, arrelProjecte, cerca, substitueix
   } else {
     ret<- file.path(arrelProjecte, "revisions", names(dL))
   }
-  message("FET! Reviseu i modifiqueu la revisió de l'informe que vulgueu de ",
+  message("\nFET! Reviseu i modifiqueu la revisió de l'informe que vulgueu de ",
           file.path(arrelProjecte, "revisions"), "/.\n",
           "Cal corregir els casos de name:ca i alt_name:ca incorrectes i esborrar-los o deixar-los en blanc si no és clar.\n",
           "Moveu les revisions acabades a ", file.path(arrelProjecte, "revisions", "FET"), "/."
@@ -448,7 +464,11 @@ generaRevisions_regexName<- function(informes, arrelProjecte, cerca, substitueix
 #' @export
 generaRevisions_regexTranslations<- function(informes, arrelProjecte, cerca=" \\(.+\\)", substitueix="", ometSenseTraduccions=TRUE, revisioUnificada=FALSE, nomFitxerUnificat="revisio-UNIFICADA.tsv",
                                              campsUnics=c("name", "name:ca", "alt_name:ca", "alt_name", "translations", "ca.wikipedia_page", "wikidata_type", "wikidata_id")){
+  message("S'estan carregant els informes...")
   dL<- generaRevisions(informes=informes, arrelProjecte=arrelProjecte, campsUnics=campsUnics)
+  message("Preparant els fitxers de revisions...")
+  pb<- timerProgressBar(max=length(dL))
+  on.exit(close(pb))
   for (i in seq_along(dL)){
     nomFitxer<- names(dL)[i]
     d<- dL[[i]]
@@ -478,6 +498,7 @@ generaRevisions_regexTranslations<- function(informes, arrelProjecte, cerca=" \\
     } else {
       suppressWarnings(file.remove(file.path(arrelProjecte, "revisions", nomFitxer)))
     }
+    setTimerProgressBar(pb, i)
   }
 
   if (revisioUnificada){
@@ -487,7 +508,7 @@ generaRevisions_regexTranslations<- function(informes, arrelProjecte, cerca=" \\
   } else {
     ret<- file.path(arrelProjecte, "revisions", names(dL))
   }
-  message("FET! Reviseu i modifiqueu la revisió de l'informe que vulgueu de ",
+  message("\nFET! Reviseu i modifiqueu la revisió de l'informe que vulgueu de ",
           file.path(arrelProjecte, "revisions"), "/.\n",
           "Cal corregir els casos de name:ca i alt_name:ca incorrectes i esborrar-los o deixar-los en blanc si no és clar.\n",
           "Moveu les revisions acabades a ", file.path(arrelProjecte, "revisions", "FET"), "/."
@@ -538,7 +559,7 @@ bdRevisions<- function(arrelProjectes){
     return(character())
   }
 
-  revisionsFETES<- lapply(fitxersRevisions, function(x){
+  revisionsFETES<- pbapply::pblapply(fitxersRevisions, function(x){
     utils::read.table(x, header=TRUE, sep="\t", quote="\"", check.names=FALSE)
   })
   names(revisionsFETES)<- fitxersRevisions
@@ -605,14 +626,19 @@ bdRevisions<- function(arrelProjectes){
 preparaEdicions<- function(arrelProjecte, usuari, fitxerContrasenya){
   arrelProjecte<- gsub("/$", "", arrelProjecte)  # Normalitza camins per evitar problemes en modificar-los
 
+  message("S'està preparant la base de dades de revisions...")
   revisio.casosFETS<- bdRevisions(arrelProjectes=arrelProjecte)
   if (length(revisio.casosFETS) == 0){
+    message("No hi ha revisions a ", paste0(arrelProjecte, "/revisions/FETES"))
     return(character())
   }
 
+  message("\nS'estan preparant els fitxers d'edicions...")
   dir.create(file.path(arrelProjecte, "edicions"), showWarnings=FALSE, recursive=TRUE)
   fitxersInformes<- dir(file.path(arrelProjecte, "informes"), "\\.tsv$", full.names=TRUE, include.dirs=FALSE)
   cmd<- character()
+  pb<- timerProgressBar(max=length(fitxersInformes))
+  on.exit(close(pb))
   for (i in seq_along(fitxersInformes)){
     nomFitxer<- gsub(file.path(arrelProjecte, "informes/*"), "", fitxersInformes[i])
     informe<- try(utils::read.table(fitxersInformes[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE))
@@ -640,6 +666,7 @@ preparaEdicions<- function(arrelProjecte, usuari, fitxerContrasenya){
         cmd[i]<- paste0(cmd[i], " alt_name:ca")
       }
     }
+    setTimerProgressBar(pb, i)
   }
 
   message("Fitxers a punt! Un cop hagueu carregat les edicions a OSM amb les ordres retornades, useu la funció «actualitzaInformesCarregats» per arxivar les edicions a ",
@@ -669,6 +696,8 @@ actualitzaInformesCarregats<- function(arrelProjecte, esborraInformesDesactualit
   fitxersInformesOri<- gsub("/edicions/", "/informes/", fitxersFets)
 
   ret<- character()
+  pb<- timerProgressBar(max=length(fitxersFets))
+  on.exit(close(pb))
   for (i in seq_along(fitxersFets)){
     if (esborraInformesDesactualitzats){
       suppressWarnings(file.remove(fitxersInformesOri[i]))
@@ -697,6 +726,7 @@ actualitzaInformesCarregats<- function(arrelProjecte, esborraInformesDesactualit
       suppressWarnings(utils::write.table(informeNou, file=fitxersInformesOri[i], append=TRUE, sep="\t", na="", row.names=FALSE))
       ret<- c(ret, fitxersInformesOri[i])
     }
+    setTimerProgressBar(pb, i)
   }
 
   arxivats<- gsub("/edicions/", "/edicions/FET/", fitxersFets)
