@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Barranc d'Escurina"	"Barranc d'Escurina"							"way"	"208495256"		"{'highway': 'path', 'name': \"Barranc d'Escurina\", 'sac_scale': 'mountain_hiking', 'surface': 'ground', 'trail_visibility': 'horrible'}"
+"Barranc del Vidre"	"Barranc del Vidre"							"way"	"419592254"		"{'intermittent': 'yes', 'name': 'Barranc del Vidre', 'waterway': 'stream'}"

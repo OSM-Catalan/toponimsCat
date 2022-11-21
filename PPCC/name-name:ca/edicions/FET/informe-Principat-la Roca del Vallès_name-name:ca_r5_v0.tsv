@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camp de futbol municipal de Santa Agnès"	"Camp de futbol municipal de Santa Agnès"							"way"	"172680036"		"{'leisure': 'pitch', 'name': 'Camp de futbol municipal de Santa Agnès', 'sport': 'soccer;futbol'}"
+"Camp de Santa Maria"	"Camp de Santa Maria"							"node"	"5592297942"		"{'name': 'Camp de Santa Maria', 'place': 'locality'}"
+"Escola Bressol La Torreta"	"Escola Bressol La Torreta"							"way"	"126833822"		"{'amenity': 'kindergarten', 'name': 'Escola Bressol La Torreta', 'ref': '8073764'}"
+"Escola La Torreta"	"Escola La Torreta"			"Escola La Torreta"		"Catalonia school"	"Q111339091"	"way"	"126746384"		"{'amenity': 'school', 'name': 'Escola La Torreta', 'ref': '8038168', 'wikidata': 'Q111339091'}"
+"Escola Pilar Mestres-Jaume Torrens"	"Escola Pilar Mestres-Jaume Torrens"			"Escola Pilar Mestres-Jaume Torrens"		"Catalonia school"	"Q111338769"	"way"	"237491297"		"{'amenity': 'school', 'name': 'Escola Pilar Mestres-Jaume Torrens', 'ref': '8023591', 'wikidata': 'Q111338769'}"

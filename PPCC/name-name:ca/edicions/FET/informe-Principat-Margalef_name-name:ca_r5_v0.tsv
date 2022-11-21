@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Barranc de la Taverna"	"Barranc de la Taverna"							"way"	"182932092"		"{'name': 'Barranc de la Taverna', 'waterway': 'stream'}"
+"Barranc de les Ganyes"	"Barranc de les Ganyes"							"way"	"182923869"		"{'name': 'Barranc de les Ganyes', 'waterway': 'stream'}"
+"Barranc De Sant Salvador"	"Barranc De Sant Salvador"							"way"	"901639683"		"{'intermittent': 'yes', 'name': 'Barranc De Sant Salvador', 'waterway': 'stream'}"
+"Escola Sant Salvador"	"Escola Sant Salvador"	"Zona Escolar Rural Montsant-Ribera"	"Zona Escolar Rural Montsant-Ribera"					"node"	"6247842865"	"short_name=CEIP Sant Salvador"	"{'alt_name': 'Zona Escolar Rural Montsant-Ribera', 'amenity': 'school', 'name': 'Escola Sant Salvador', 'short_name': 'CEIP Sant Salvador'}"

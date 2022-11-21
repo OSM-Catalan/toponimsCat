@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camp de futbol municipal"	"Camp de futbol municipal"							"way"	"441379891"		"{'leisure': 'pitch', 'lit': 'yes', 'name': 'Camp de futbol municipal', 'sport': 'soccer', 'surface': 'artificial_turf'}"
+"Escola El Roure"	"Escola El Roure"	"Can Quelet"	"Can Quelet"	"Escola El Roure"		"Catalonia school"	"Q111339317"	"way"	"286841593"		"{'alt_name': 'Can Quelet', 'amenity': 'school', 'name': 'Escola El Roure', 'ref': '8059809', 'wikidata': 'Q111339317'}"
+"Escola Joaquim Abril"	"Escola Joaquim Abril"			"Escola Joaquim Abril"		"Catalonia school"	"Q111338824"	"way"	"87609063"		"{'amenity': 'school', 'name': 'Escola Joaquim Abril', 'ref': '8026154', 'wikidata': 'Q111338824'}"

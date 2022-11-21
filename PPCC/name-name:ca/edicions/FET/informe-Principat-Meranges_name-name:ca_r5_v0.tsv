@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Joan"	"Cal Joan"							"node"	"5472305477"		"{'amenity': 'restaurant', 'name': 'Cal Joan'}"
+"Cim de la Costa de Montmajor"	"Cim de la Costa de Montmajor"							"node"	"1249957645"		"{'ele': '2724', 'name': 'Cim de la Costa de Montmajor', 'natural': 'peak', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Coma de Cortal"	"Coma de Cortal"							"node"	"1241591789"		"{'name': 'Coma de Cortal', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Coma Pregona"	"Coma Pregona"							"node"	"1241589251"		"{'name': 'Coma Pregona', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

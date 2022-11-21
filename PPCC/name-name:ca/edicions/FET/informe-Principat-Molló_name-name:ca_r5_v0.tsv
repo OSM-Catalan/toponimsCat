@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Fumat"	"Cal Fumat"			"Cal Fumat"		"masia"	"Q107052850"	"way"	"389010184"		"{'addr:city': 'Molló', 'building': 'house', 'name': 'Cal Fumat', 'wikidata': 'Q107052850'}"
+"Tossal de la Costa"	"Tossal de la Costa"							"node"	"1241588188"		"{'name': 'Tossal de la Costa', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Tossal del Graell"	"Tossal del Graell"							"node"	"1241590646"		"{'name': 'Tossal del Graell', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

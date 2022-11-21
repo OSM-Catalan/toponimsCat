@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Pau"	"Cal Pau"							"node"	"6244740383"		"{'building': 'yes', 'name': 'Cal Pau'}"
+"Camp de futbol"	"Camp de futbol"							"way"	"666949906"		"{'leisure': 'pitch', 'lit': 'no', 'name': 'Camp de futbol', 'sport': 'soccer'}"
+"Escola Pont de l'Arcada"	"Escola Pont de l'Arcada"			"Escola Pont de l'Arcada"		"Catalonia school"	"Q111338726"	"way"	"890935438"		"{'addr:city': 'Olesa de Bonesvalls', 'addr:postcode': '08795', 'addr:street': \"Avinguda de l'Hospital\", 'amenity': 'school', 'internet_access': 'yes', 'name': \"Escola Pont de l'Arcada\", 'ref': '8022379', 'wheelchair': 'yes', 'wikidata': 'Q111338726'}"

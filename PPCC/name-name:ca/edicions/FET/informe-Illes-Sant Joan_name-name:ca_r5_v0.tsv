@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camp d'en Fiol"	"Camp d'en Fiol"							"node"	"1242613836"		"{'name': \"Camp d'en Fiol\", 'place': 'locality'}"
+"Camp de Jesús"	"Camp de Jesús"							"node"	"1242631706"		"{'name': 'Camp de Jesús', 'place': 'locality'}"
+"Camp Roig"	"Camp Roig"							"node"	"1242633605"		"{'name': 'Camp Roig', 'place': 'locality'}"
+"Santuari de Consolació"	"Santuari de Consolació"							"way"	"280418686"		"{'amenity': 'place_of_worship', 'building': 'yes', 'denomination': 'catholic', 'name': 'Santuari de Consolació', 'religion': 'christian'}"

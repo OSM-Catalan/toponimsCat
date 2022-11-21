@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Duc"	"Cal Duc"							"node"	"1712853635"		"{'name': 'Cal Duc', 'tourism': 'guest_house'}"
+"Cal Duc"	"Cal Duc"							"way"	"1058529458"		"{'building': 'yes', 'name': 'Cal Duc', 'tourism': 'chalet', 'website': 'https://www.calduc.com/ca/'}"
+"Cal Petit"	"Cal Petit"							"way"	"1058548684"		"{'building': 'yes', 'name': 'Cal Petit'}"
+"Cal Sastre"	"Cal Sastre"							"way"	"1058548694"		"{'building': 'yes', 'name': 'Cal Sastre'}"
+"Camp de futbol municipal"	"Camp de futbol municipal"							"way"	"188121690"		"{'leisure': 'pitch', 'name': 'Camp de futbol municipal', 'source': 'PNOA', 'sport': 'soccer'}"
+"Escola Bressol Els Plançons"	"Escola Bressol Els Plançons"							"way"	"1038025114"		"{'amenity': 'kindergarten', 'name': 'Escola Bressol Els Plançons', 'ref': '17009874'}"

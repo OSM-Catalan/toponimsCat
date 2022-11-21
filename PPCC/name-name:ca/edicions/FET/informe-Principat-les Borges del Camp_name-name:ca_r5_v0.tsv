@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Barranc de les Canaletes"	"Barranc de les Canaletes"							"way"	"929017261"		"{'intermittent': 'yes', 'name': 'Barranc de les Canaletes', 'waterway': 'stream'}"
+"Barranc de les Canaletes"	"Barranc de les Canaletes"							"way"	"929017263"		"{'intermittent': 'yes', 'name': 'Barranc de les Canaletes', 'waterway': 'stream'}"
+"Camp municipal de Futbol"	"Camp municipal de Futbol"							"way"	"424808523"		"{'leisure': 'sports_centre', 'name': 'Camp municipal de Futbol'}"
+"Escola Rocabruna"	"Escola Rocabruna"			"Escola Rocabruna"		"Catalonia school"	"Q111309551"	"way"	"573625011"		"{'addr:city': 'les Borges del Camp', 'addr:postcode': '43350', 'addr:street': 'Camí de la Creueta', 'amenity': 'school', 'isced:level': 'primary', 'name': 'Escola Rocabruna', 'operator': 'Generalitat de Catalunya', 'operator:type': 'public', 'ref': '43000627', 'source': 'catastro;aerial imagery;local knowledge', 'website': 'ceiprocabruna.blogspot.com', 'wikidata': 'Q111309551'}"

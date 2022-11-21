@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Manyer"	"Cal Manyer"							"node"	"4254607685"		"{'name': 'Cal Manyer', 'place': 'isolated_dwelling'}"
+"Cal Toses"	"Cal Toses"							"node"	"4254607617"		"{'name': 'Cal Toses', 'place': 'isolated_dwelling'}"
+"Escola Sant Ramon"	"Escola Sant Ramon"			"Escola Sant Ramon"		"Catalonia school"	"Q111309604"	"way"	"1043681716"		"{'addr:city': 'el Pla de Santa Maria', 'addr:housenumber': '3', 'addr:postcode': '43810', 'addr:street': 'Carrer del Raval de Sant Ramon', 'amenity': 'school', 'name': 'Escola Sant Ramon', 'opening_hours': 'Mo-Fr 09:00-16:00', 'ref': '43001966', 'wikidata': 'Q111309604'}"

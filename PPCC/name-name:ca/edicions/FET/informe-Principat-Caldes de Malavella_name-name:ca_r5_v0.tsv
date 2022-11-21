@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Nap"	"Cal Nap"							"node"	"2557803397"		"{'amenity': 'bar', 'name': 'Cal Nap'}"
+"Cal Pinyoner"	"Cal Pinyoner"							"way"	"700003701"		"{'building': 'house', 'name': 'Cal Pinyoner'}"
+"Camp dels Ninots"	"Camp dels Ninots"			"Camp dels Ninots"	"Camp dels Ninots"	"extinct volcano"	"Q1030029"	"node"	"9398699135"		"{'name': 'Camp dels Ninots', 'natural': 'volcano', 'volcano:status': 'extinct', 'wikidata': 'Q1030029', 'wikipedia': 'ca:Camp dels Ninots'}"
+"Escola de música"	"Escola de música"							"way"	"1065841344"		"{'amenity': 'music_school', 'name': 'Escola de música'}"
+"Escola Sant Esteve"	"Escola Sant Esteve"			"Escola Sant Esteve"		"Catalonia school"	"Q111282942"	"way"	"1065841345"		"{'addr:city': 'Caldes de Malavella', 'addr:housenumber': '62', 'addr:postcode': '17455', 'addr:street': 'Carrer de Vall-Llobera', 'amenity': 'school', 'name': 'Escola Sant Esteve', 'ref': '17000676', 'wikidata': 'Q111282942'}"

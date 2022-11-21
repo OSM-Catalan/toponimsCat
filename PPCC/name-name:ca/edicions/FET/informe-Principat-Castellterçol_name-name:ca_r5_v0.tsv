@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Murri"	"Cal Murri"							"relation"	"7145573"		"{'landuse': 'farmyard', 'name': 'Cal Murri', 'type': 'multipolygon'}"
+"Camp Gran de Cal Baldiri"	"Camp Gran de Cal Baldiri"							"node"	"7335170096"		"{'name': 'Camp Gran de Cal Baldiri', 'place': 'locality'}"
+"Escola de Música Joaquim Serra"	"Escola de Música Joaquim Serra"							"node"	"4783543175"		"{'addr:city': 'Castellterçol', 'addr:country': 'ES', 'addr:housenumber': '6-8', 'addr:postcode': '08183', 'addr:street': 'Carrer de Bellver', 'amenity': 'music_school', 'name': 'Escola de Música Joaquim Serra', 'opening_hours': 'Mo-Fr 17:30-21:00; Th off'}"

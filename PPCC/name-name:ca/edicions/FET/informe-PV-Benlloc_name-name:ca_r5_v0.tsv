@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Barranc de la Font"	"Barranc de la Font"							"way"	"364666688"		"{'intermittent': 'yes', 'name': 'Barranc de la Font', 'waterway': 'stream'}"
+"Barranc de les Danses"	"Barranc de les Danses"							"way"	"629242157"		"{'intermittent': 'yes', 'name': 'Barranc de les Danses', 'waterway': 'stream'}"
+"Barranc del Consell"	"Barranc del Consell"							"way"	"364666690"		"{'intermittent': 'yes', 'name': 'Barranc del Consell', 'waterway': 'stream'}"
+"Barranc del Consell"	"Barranc del Consell"							"way"	"661616762"		"{'intermittent': 'yes', 'layer': '-2', 'name': 'Barranc del Consell', 'tunnel': 'culvert', 'waterway': 'stream'}"
+"Barranc dels Cirers"	"Barranc dels Cirers"							"way"	"364666689"		"{'intermittent': 'yes', 'name': 'Barranc dels Cirers', 'waterway': 'stream'}"
+"Tossal del Sord"	"Tossal del Sord"							"node"	"1243267952"		"{'name': 'Tossal del Sord', 'natural': 'hill'}"

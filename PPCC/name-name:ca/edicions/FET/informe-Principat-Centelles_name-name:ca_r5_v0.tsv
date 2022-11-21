@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camp de futbol"	"Camp de futbol"							"way"	"193065991"		"{'leisure': 'pitch', 'name': 'Camp de futbol', 'sport': 'soccer'}"
+"Escola dels Sagrats Cors"	"Escola dels Sagrats Cors"			"Centre educatiu privat Sagrats Cors"		"private educational institution in Catalonia"	"Q111595314"	"way"	"701730911"		"{'amenity': 'school', 'name': 'Escola dels Sagrats Cors', 'ref': '8016203', 'wikidata': 'Q111595314'}"
+"Escola Ildefons Cerdà"	"Escola Ildefons Cerdà"			"Escola Ildefons Cerdà"		"Catalonia school"	"Q111338584"	"way"	"550162611"		"{'amenity': 'school', 'name': 'Escola Ildefons Cerdà', 'ref': '8016185', 'wikidata': 'Q111338584'}"
+"Escola Xoriguer"	"Escola Xoriguer"			"Escola Xoriguer"		"Catalonia school"	"Q111339445"	"node"	"3226070561"		"{'amenity': 'school', 'name': 'Escola Xoriguer', 'ref': '8067041', 'wikidata': 'Q111339445'}"

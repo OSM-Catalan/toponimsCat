@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Flequer"	"Cal Flequer"							"node"	"5482181506"		"{'name': 'Cal Flequer', 'shop': 'bakery'}"
+"Cal Rei Vinyes"	"Cal Rei Vinyes"							"node"	"7119002586"		"{'board_type': 'history', 'information': 'board', 'name': 'Cal Rei Vinyes', 'tourism': 'information'}"
+"Cal Silvestre"	"Cal Silvestre"							"way"	"696834016"		"{'addr:housenumber': '17-19', 'addr:street': 'Carrer de les Roques', 'building': 'house', 'name': 'Cal Silvestre'}"
+"Escola bressol Trapelles"	"Escola bressol Trapelles"							"way"	"696834009"		"{'amenity': 'kindergarten', 'name': 'Escola bressol Trapelles', 'ref': '17007579'}"
+"Escola l'Aulet"	"Escola l'Aulet"			"Escola L'Aulet"		"Catalonia school"	"Q111282954"	"way"	"104539237"		"{'amenity': 'school', 'name': \"Escola l'Aulet\", 'ref': '17000913', 'wikidata': 'Q111282954'}"
+"Escola Municipal de Dansa de Celrà"	"Escola Municipal de Dansa de Celrà"							"way"	"303060161"		"{'building': 'yes', 'name': 'Escola Municipal de Dansa de Celrà'}"

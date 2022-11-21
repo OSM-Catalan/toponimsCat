@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Barranc de la Bovera"	"Barranc de la Bovera"							"way"	"225888342"		"{'name': 'Barranc de la Bovera', 'waterway': 'river'}"
+"Camp Municipal de Futbol de Linyola"	"Camp Municipal de Futbol de Linyola"							"way"	"107477874"		"{'addr:city': 'Linyola', 'addr:housenumber': '8', 'addr:postcode': '25240', 'addr:street': 'Carrer de Barretpicat', 'leisure': 'pitch', 'lit': 'yes', 'name': 'Camp Municipal de Futbol de Linyola', 'sport': 'soccer', 'surface': 'ground'}"
+"Escola el Sitjar"	"Escola el Sitjar"			"Escola El Sitjar"		"Catalonia school"	"Q111308274"	"way"	"1023252311"		"{'amenity': 'school', 'name': 'Escola el Sitjar', 'ref': '25002970', 'wikidata': 'Q111308274'}"

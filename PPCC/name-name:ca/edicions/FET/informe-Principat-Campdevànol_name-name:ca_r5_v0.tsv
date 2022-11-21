@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Cornut"	"Cal Cornut"							"way"	"940177651"		"{'building': 'house', 'name': 'Cal Cornut'}"
+"Cal Navàs"	"Cal Navàs"							"way"	"1037810966"		"{'building': 'house', 'name': 'Cal Navàs'}"
+"Cal Ros"	"Cal Ros"							"way"	"1037810962"		"{'building': 'house', 'name': 'Cal Ros'}"
+"Camp de la Roca"	"Camp de la Roca"							"node"	"1241600619"		"{'name': 'Camp de la Roca', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Escola Pirineu"	"Escola Pirineu"			"Escola Pirineu"		"Catalonia school"	"Q111282945"	"node"	"1635620869"		"{'addr:postcode': '17530', 'addr:street': 'Carrer de Puigmal', 'amenity': 'school', 'name': 'Escola Pirineu', 'ref': '17000731', 'wikidata': 'Q111282945'}"

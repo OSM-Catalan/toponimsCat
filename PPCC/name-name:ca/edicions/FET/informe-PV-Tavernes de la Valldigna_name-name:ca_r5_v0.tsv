@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Barranc de l'Infern"	"Barranc de l'Infern"							"way"	"921085683"		"{'intermittent': 'yes', 'name': \"Barranc de l'Infern\", 'source': 'IGN', 'source:date': '2019/05/22', 'waterway': 'stream'}"
+"Barranc de l'Infern"	"Barranc de l'Infern"							"way"	"921085667"		"{'intermittent': 'yes', 'name': \"Barranc de l'Infern\", 'source': 'IGN', 'source:date': '2019/05/22', 'waterway': 'stream'}"
+"Barranc de l'Infern"	"Barranc de l'Infern"							"way"	"921085668"		"{'intermittent': 'yes', 'layer': '-1', 'name': \"Barranc de l'Infern\", 'source': 'IGN', 'source:date': '2019/05/22', 'tunnel': 'culvert', 'waterway': 'stream'}"
+"Barranc del Pla dels Germanells"	"Barranc del Pla dels Germanells"							"way"	"921085681"		"{'intermittent': 'yes', 'name': 'Barranc del Pla dels Germanells', 'source': 'IGN', 'source:date': '2019/05/22', 'waterway': 'stream'}"
+"Coma Alta"	"Coma Alta"							"node"	"1243398742"		"{'name': 'Coma Alta', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Coma baixa"	"Coma baixa"							"node"	"1243373670"		"{'name': 'Coma baixa', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

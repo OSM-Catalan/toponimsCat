@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Barranc de Berlandí"	"Barranc de Berlandí"							"node"	"1242135978"		"{'name': 'Barranc de Berlandí', 'place': 'locality'}"
+"Barranc de Berlandí"	"Barranc de Berlandí"							"way"	"1016831916"		"{'intermittent': 'yes', 'layer': '-1', 'name': 'Barranc de Berlandí', 'tunnel': 'culvert', 'waterway': 'stream'}"
+"Barranc de Berlandí"	"Barranc de Berlandí"							"way"	"1016831914"		"{'intermittent': 'yes', 'name': 'Barranc de Berlandí', 'waterway': 'stream'}"
+"Barranc de Berlandí"	"Barranc de Berlandí"							"way"	"1016831915"		"{'intermittent': 'yes', 'name': 'Barranc de Berlandí', 'waterway': 'stream'}"
+"Barranc del Ventós"	"Barranc del Ventós"							"way"	"681573858"		"{'intermittent': 'yes', 'name': 'Barranc del Ventós', 'surface': 'pebblestone', 'waterway': 'stream'}"
+"Barranc del Vidre"	"Barranc del Vidre"							"way"	"419592254"		"{'intermittent': 'yes', 'name': 'Barranc del Vidre', 'waterway': 'stream'}"

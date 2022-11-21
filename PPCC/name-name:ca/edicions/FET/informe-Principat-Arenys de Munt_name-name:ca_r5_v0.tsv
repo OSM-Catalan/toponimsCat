@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camp de futbol"	"Camp de futbol"							"way"	"191577161"		"{'leisure': 'pitch', 'name': 'Camp de futbol'}"
+"Escola Bressol La Petjada"	"Escola Bressol La Petjada"							"way"	"659282482"		"{'addr:city': 'Arenys de Munt', 'addr:housename': 'La Petjada', 'addr:housenumber': '8', 'addr:postcode': '08358', 'addr:street': 'Can Barbeta, 8', 'amenity': 'kindergarten', 'name': 'Escola Bressol La Petjada', 'ref': '8071007'}"
+"Escola Sant Martí"	"Escola Sant Martí"			"Escola Sant Martí"		"Catalonia school"	"Q111338441"	"way"	"191909786"		"{'amenity': 'school', 'name': 'Escola Sant Martí', 'ref': '8000165', 'wikidata': 'Q111338441'}"
+"Escola Sobirans"	"Escola Sobirans"			"Escola Sobirans"		"Catalonia school"	"Q111339291"	"node"	"3882520310"		"{'amenity': 'school', 'name': 'Escola Sobirans', 'operator': 'Generalitat de Catalunya', 'ref': '8055890', 'wikidata': 'Q111339291'}"

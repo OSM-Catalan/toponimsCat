@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Barraler"	"Cal Barraler"							"node"	"6206366485"		"{'name': 'Cal Barraler', 'place': 'isolated_dwelling'}"
+"Cal Capçana"	"Cal Capçana"							"node"	"7512086443"		"{'name': 'Cal Capçana', 'place': 'isolated_dwelling'}"
+"Cal Gavatx"	"Cal Gavatx"							"node"	"3628459632"		"{'name': 'Cal Gavatx', 'place': 'isolated_dwelling'}"
+"Cal Nosa"	"Cal Nosa"							"node"	"7512068390"		"{'name': 'Cal Nosa', 'place': 'isolated_dwelling'}"
+"Cal Pagès"	"Cal Pagès"							"node"	"7512069090"		"{'name': 'Cal Pagès', 'place': 'isolated_dwelling'}"
+"Cal Pagès"	"Cal Pagès"							"way"	"197655622"		"{'building': 'yes', 'name': 'Cal Pagès'}"

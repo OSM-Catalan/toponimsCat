@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Reus"	"Cal Reus"							"way"	"901600616"		"{'addr:city': 'Ger', 'addr:housenumber': '4', 'addr:postcode': '17539', 'addr:street': 'Carrer Major', 'building': 'retail', 'layer': '-1', 'location': 'surface', 'name': 'Cal Reus', 'shop': 'general'}"
+"Cal Reus"	"Cal Reus"							"way"	"901600617"		"{'addr:city': 'Ger', 'addr:postcode': '17539', 'addr:street': 'Travessia Quatre Cantons', 'building': 'yes', 'internet_access': 'wlan', 'internet_access:fee': 'customers', 'name': 'Cal Reus', 'tourism': 'motel'}"
+"Coma de Ger"	"Coma de Ger"							"node"	"1241600129"		"{'name': 'Coma de Ger', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Coma de Saga"	"Coma de Saga"							"node"	"1241589488"		"{'name': 'Coma de Saga', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

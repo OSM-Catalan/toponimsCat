@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Escola Montagut"	"Escola Montagut"							"node"	"2997299829"		"{'addr:city': 'Santa Susanna', 'addr:postcode': '08398', 'amenity': 'school', 'name': 'Escola Montagut', 'ref': '8062821'}"
+"Escola Santa Susanna"	"Escola Santa Susanna"			"Escola Santa Susanna"		"Catalonia school"	"Q111338886"	"node"	"2997299831"		"{'addr:city': 'Santa Susanna', 'addr:housenumber': 'SN', 'addr:postcode': '08398', 'addr:street': 'Parc del Colomer', 'amenity': 'school', 'grades': 'EI 3 a 6è', 'name': 'Escola Santa Susanna', 'ref': '8028515', 'website': 'https://agora.xtec.cat/escolasantasusanna/', 'wikidata': 'Q111338886'}"

@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Gener"	"Cal Gener"							"node"	"6849363224"		"{'name': 'Cal Gener', 'place': 'isolated_dwelling'}"
+"Cal Guixà"	"Cal Guixà"							"node"	"6849363225"		"{'name': 'Cal Guixà', 'place': 'isolated_dwelling'}"
+"Cal Sanxo"	"Cal Sanxo"							"node"	"6849363227"		"{'name': 'Cal Sanxo', 'place': 'isolated_dwelling'}"
+"Camp de futbol"	"Camp de futbol"							"way"	"129582419"		"{'leisure': 'pitch', 'name': 'Camp de futbol', 'sport': 'soccer'}"
+"Escola Sant Pere"	"Escola Sant Pere"			"Escola Sant Pere"		"Catalonia school"	"Q111338704"	"way"	"393500640"		"{'addr:city': 'Monistrol de Montserrat', 'addr:housenumber': '27', 'addr:postcode': '08691', 'addr:street': 'Carrer de les Escoles', 'amenity': 'school', 'grades': 'De P3 a 6è', 'name': 'Escola Sant Pere', 'ref': '8021892', 'website': 'https://agora.xtec.cat/ceipsantpere/', 'wikidata': 'Q111338704'}"

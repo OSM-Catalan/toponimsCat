@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Paulet"	"Cal Paulet"							"node"	"7321317943"		"{'name': 'Cal Paulet', 'place': 'isolated_dwelling'}"
+"Cal Serra"	"Cal Serra"							"node"	"10078378991"		"{'name': 'Cal Serra', 'place': 'isolated_dwelling'}"
+"Camp Galí"	"Camp Galí"							"node"	"7321317908"		"{'name': 'Camp Galí', 'place': 'locality'}"
+"Camp Municipal de Futbol"	"Camp Municipal de Futbol"							"way"	"221423122"		"{'leisure': 'pitch', 'lit': 'yes', 'name': 'Camp Municipal de Futbol', 'sport': 'soccer', 'surface': 'grass'}"
+"Escola Mare de Déu de Talló"	"Escola Mare de Déu de Talló"			"Escola Mare de Déu de Talló"		"Catalonia school"	"Q111308209"	"way"	"220564639"		"{'addr:city': 'Bellver de Cerdanya', 'addr:housename': 'S/N', 'addr:postcode': '25720', 'addr:street': 'Carrer de Travy', 'amenity': 'school', 'name': 'Escola Mare de Déu de Talló', 'phone': '+34 973511147', 'ref': '25001059', 'religion': 'none', 'website': 'http://www.xtec.cat/ceiptallo/', 'wheelchair': 'yes', 'wikidata': 'Q111308209'}"

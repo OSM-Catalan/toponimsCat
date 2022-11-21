@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camp de futbol Municipal de Miralcamp"	"Camp de futbol Municipal de Miralcamp"							"way"	"378942391"		"{'leisure': 'pitch', 'name': 'Camp de futbol Municipal de Miralcamp', 'sport': 'soccer'}"
+"Coma Aragonesa"	"Coma Aragonesa"							"node"	"1241693125"		"{'name': 'Coma Aragonesa', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Escola Sant Miquel"	"Escola Sant Miquel"							"way"	"1074328127"		"{'addr:city': 'Miralcamp', 'addr:postcode': '25242', 'addr:street': 'Carrer de les Escoles', 'amenity': 'school', 'name': 'Escola Sant Miquel', 'phone': '+34 973 60 27 01', 'ref': '25003147', 'website': 'https://agora.xtec.cat/ceip-santmiquel/'}"

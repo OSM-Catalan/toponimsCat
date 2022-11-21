@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Capità"	"Cal Capità"							"way"	"696120081"		"{'building': 'house', 'name': 'Cal Capità'}"
+"Cal Flequer Nou"	"Cal Flequer Nou"							"node"	"6557457435"		"{'name': 'Cal Flequer Nou', 'shop': 'convenience'}"
+"Cal Roig"	"Cal Roig"							"way"	"795211862"		"{'building': 'ruins', 'name': 'Cal Roig'}"
+"Cal Sabater Borni"	"Cal Sabater Borni"							"way"	"698277936"		"{'addr:housenumber': '40', 'addr:street': \"Carrer d'Avall\", 'building': 'house', 'name': 'Cal Sabater Borni'}"
+"Camp d'Angles"	"Camp d'Angles"							"way"	"32644441"		"{'leisure': 'pitch', 'name': \"Camp d'Angles\", 'source': 'PNOA', 'source:date': '17/11/2010', 'sport': 'soccer'}"

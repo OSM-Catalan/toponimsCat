@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Coma d'en Gall"	"Coma d'en Gall"							"node"	"6660937768"		"{'name': \"Coma d'en Gall\", 'place': 'locality'}"
+"Escola El Cucurull"	"Escola El Cucurull"			"Escola El Cucurull"		"Catalonia school"	"Q111309824"	"way"	"610180877"		"{'amenity': 'school', 'name': 'Escola El Cucurull', 'ref': '43011194', 'wikidata': 'Q111309824'}"
+"Escola Salvador Espriu"	"Escola Salvador Espriu"			"Escola Salvador Espriu"		"Catalonia school"	"Q111309623"	"way"	"610180879"		"{'addr:city': 'Roda de Berà', 'addr:postcode': '43883', 'addr:street': 'de la font', 'amenity': 'school', 'grades': '3-12', 'name': 'Escola Salvador Espriu', 'nohousenumber': 'yes', 'ref': '43002776', 'website': 'https://agora.xtec.cat/ceip-salvador-espriu-roda/', 'wikidata': 'Q111309623'}"

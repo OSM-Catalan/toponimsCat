@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Caire"	"Cal Caire"							"way"	"1034868840"		"{'building': 'house', 'name': 'Cal Caire'}"
+"Cal Capità"	"Cal Capità"							"node"	"3689597672"		"{'name': 'Cal Capità', 'place': 'isolated_dwelling'}"
+"Cal Cul"	"Cal Cul"							"way"	"576075948"		"{'building': 'house', 'name': 'Cal Cul'}"
+"Cal Gat"	"Cal Gat"							"way"	"426323098"		"{'building': 'house', 'name': 'Cal Gat'}"
+"Cal Vaquer"	"Cal Vaquer"							"way"	"1034868858"		"{'building': 'house', 'name': 'Cal Vaquer'}"
+"Escola Abadessa Emma"	"Escola Abadessa Emma"			"Escola de les Germanes Carmelites (Sant Joan de les Abadesses), Escola Abadessa Emma, Escola de les Germanes Carmelites"	"Escola de les Germanes Carmelites (Sant Joan de les Abadesses)"	"building"	"Q65205691"	"way"	"272823319"		"{'name': 'Escola Abadessa Emma', 'ref:bcil': '4310', 'was:amenity': 'school', 'wikidata': 'Q65205691', 'wikipedia': 'ca:Escola de les Germanes Carmelites (Sant Joan de les Abadesses)'}"

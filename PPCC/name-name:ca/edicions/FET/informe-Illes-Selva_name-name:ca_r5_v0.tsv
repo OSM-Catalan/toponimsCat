@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Coma de ses Vaques"	"Coma de ses Vaques"							"node"	"1242638484"		"{'name': 'Coma de ses Vaques', 'place': 'locality'}"
+"Coma Llarga"	"Coma Llarga"							"node"	"1242633756"		"{'name': 'Coma Llarga', 'place': 'locality'}"
+"Escola de ses Roques"	"Escola de ses Roques"							"way"	"232702109"		"{'addr:city': 'Caimari', 'addr:postcode': '07314', 'addr:street': 'carrer de ses Escoles', 'amenity': 'school', 'name': 'Escola de ses Roques', 'phone': '+34 971515653'}"

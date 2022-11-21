@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Barranc de les Marietes"	"Barranc de les Marietes"							"way"	"114721758"		"{'intermittent': 'yes', 'name': 'Barranc de les Marietes', 'waterway': 'stream'}"
+"Tossal d'Avellà"	"Tossal d'Avellà"							"node"	"7768278084"		"{'ele': '744', 'name': \"Tossal d'Avellà\", 'place': 'locality'}"
+"Tossal de l'Alqueria"	"Tossal de l'Alqueria"							"node"	"7768277947"		"{'name': \"Tossal de l'Alqueria\", 'place': 'locality'}"
+"Tossal de les Bastides"	"Tossal de les Bastides"							"node"	"6241258869"		"{'historic': 'archaeological_site', 'historic:civilization': 'iberian', 'name': 'Tossal de les Bastides', 'site_type': 'settlement'}"
+"Tossal dels Nius"	"Tossal dels Nius"							"node"	"1242131708"		"{'name': 'Tossal dels Nius', 'place': 'locality'}"

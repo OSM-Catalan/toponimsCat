@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Coma de Sant Vicenç"	"Coma de Sant Vicenç"							"node"	"1241591558"		"{'name': 'Coma de Sant Vicenç', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Coma Oriola"	"Coma Oriola"							"node"	"2011528264"		"{'name': 'Coma Oriola', 'place': 'isolated_dwelling'}"
+"Coma Oriola"	"Coma Oriola"							"way"	"312392230"		"{'name': 'Coma Oriola', 'piste:difficulty': 'easy', 'piste:grooming': 'classic', 'piste:type': 'downhill'}"
+"Coma Pregona"	"Coma Pregona"							"way"	"312397063"		"{'name': 'Coma Pregona', 'piste:difficulty': 'intermediate', 'piste:grooming': 'classic', 'piste:type': 'downhill'}"

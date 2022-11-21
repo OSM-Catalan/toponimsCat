@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Colomer"	"Cal Colomer"							"way"	"1040891783"		"{'building': 'house', 'name': 'Cal Colomer'}"
+"Cal Fuster"	"Cal Fuster"							"way"	"1040891780"		"{'building': 'house', 'name': 'Cal Fuster'}"
+"Cal Mestre"	"Cal Mestre"							"way"	"1040891775"		"{'building': 'house', 'name': 'Cal Mestre'}"
+"Cal Monjo"	"Cal Monjo"							"way"	"1040891765"		"{'building': 'house', 'name': 'Cal Monjo'}"
+"Cal Ras"	"Cal Ras"							"node"	"4736528395"		"{'addr:city': 'Campelles', 'addr:housenumber': '11', 'addr:postcode': '17534', 'addr:street': 'C/ Major', 'amenity': 'restaurant', 'cuisine': 'regional', 'name': 'Cal Ras', 'outdoor_seating': 'yes', 'smoking': 'outside'}"
+"Cal Trenat"	"Cal Trenat"							"way"	"1040891777"		"{'building': 'house', 'name': 'Cal Trenat'}"

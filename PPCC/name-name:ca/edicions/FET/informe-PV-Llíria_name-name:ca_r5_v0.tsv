@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Barranc de Crispina"	"Barranc de Crispina"							"node"	"2703956372"		"{'name': 'Barranc de Crispina'}"
+"Barranc de Valero"	"Barranc de Valero"							"node"	"1243387430"		"{'name': 'Barranc de Valero', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Barranc Fondo"	"Barranc Fondo"							"node"	"1243447228"		"{'name': 'Barranc Fondo', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Camp de Llíria"	"Camp de Llíria"	"Camp Llíria; Urbanització Camp de Llíria"	"Camp Llíria;Urbanització Camp de Llíria"					"node"	"4201856595"		"{'alt_name': 'Camp Llíria; Urbanització Camp de Llíria', 'name': 'Camp de Llíria', 'place': 'hamlet'}"
+"Escola Oficial d'Idiomes de Llíria"	"Escola Oficial d'Idiomes de Llíria"							"node"	"2609624731"		"{'addr:city': 'Llíria', 'addr:housenumber': '4', 'addr:postcode': '46160', 'addr:street': \"Carrer de l'Alcalde Marcel·lí Garcia\", 'amenity': 'language_school', 'contact:email': 'eoilliria.secre@gva.es', 'language': 'de;es;ca;en;fr', 'name': \"Escola Oficial d'Idiomes de Llíria\", 'operator': 'Generalitat Valenciana', 'operator:type': 'public', 'phone': '+34 962 71 83 75', 'website': 'https://mestreacasa.gva.es/web/eoilliria/home'}"
+"Escola Unió Musical de Llíria"	"Escola Unió Musical de Llíria"							"node"	"4158088337"		"{'amenity': 'school', 'name': 'Escola Unió Musical de Llíria'}"

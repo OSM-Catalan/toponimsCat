@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Rei"	"Cal Rei"							"way"	"466421007"		"{'building': 'yes', 'name': 'Cal Rei'}"
+"Cal Ros"	"Cal Ros"							"way"	"725262499"		"{'building': 'house', 'name': 'Cal Ros'}"
+"Camp de Futbol de Bonmatí"	"Camp de Futbol de Bonmatí"							"way"	"85332540"		"{'leisure': 'pitch', 'name': 'Camp de Futbol de Bonmatí', 'source': 'PNOA', 'source:date': '14/11/2010', 'sport': 'soccer'}"
+"Escola Sant Jordi"	"Escola Sant Jordi"			"Escola Sant Jordi"		"Catalonia school"	"Q111282924"	"relation"	"5847584"	"name:etymology:wikidata=Q48438"	"{'amenity': 'school', 'name': 'Escola Sant Jordi', 'name:etymology:wikidata': 'Q48438', 'ref': '17000123', 'type': 'multipolygon', 'wikidata': 'Q111282924'}"

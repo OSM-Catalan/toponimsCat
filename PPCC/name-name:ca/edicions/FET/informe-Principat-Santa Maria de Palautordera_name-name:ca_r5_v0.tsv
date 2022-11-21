@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Cavaller"	"Cal Cavaller"							"way"	"239864723"		"{'building': 'house', 'name': 'Cal Cavaller'}"
+"Cal Gavatx"	"Cal Gavatx"							"node"	"5594937809"		"{'name': 'Cal Gavatx', 'place': 'isolated_dwelling'}"
+"Camp de futbol Font Martina"	"Camp de futbol Font Martina"							"way"	"180826137"		"{'leisure': 'pitch', 'name': 'Camp de futbol Font Martina', 'sport': 'soccer'}"
+"Escola Bressol El Cabirol"	"Escola Bressol El Cabirol"							"way"	"1053027896"		"{'amenity': 'kindergarten', 'name': 'Escola Bressol El Cabirol', 'ref': '8069232'}"
+"Escola Matagalls"	"Escola Matagalls"			"Escola Matagalls"		"Catalonia school"	"Q111339378"	"way"	"240701274"		"{'amenity': 'school', 'name': 'Escola Matagalls', 'ref': '8062811', 'wikidata': 'Q111339378'}"
+"Escola municipal de música"	"Escola municipal de música"							"node"	"9677255351"		"{'amenity': 'music_school', 'name': 'Escola municipal de música'}"

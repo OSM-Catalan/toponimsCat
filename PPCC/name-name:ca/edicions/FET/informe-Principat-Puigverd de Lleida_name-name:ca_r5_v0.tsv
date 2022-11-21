@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camp de futbol"	"Camp de futbol"							"way"	"171763348"		"{'leisure': 'pitch', 'name': 'Camp de futbol', 'sport': 'soccer'}"
+"Escola Sant Jordi"	"Escola Sant Jordi"							"node"	"10152366813"		"{'addr:city': 'Puigverd de Lleida', 'addr:postcode': '25153', 'addr:street': 'Carrer de Lleida', 'amenity': 'school', 'name': 'Escola Sant Jordi', 'nohousenumber': 'yes', 'operator': \"Generalitat de Catalunya - Departament d'Educació\", 'operator:type': 'government', 'religion': 'none', 'website': 'https://agora.xtec.cat/esc-stjordi-puigverdlleida/'}"

@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camp del Castell"	"Camp del Castell"							"node"	"1241592767"		"{'name': 'Camp del Castell', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Escola de Pau"	"Escola de Pau"			"Escola Pau"		"Catalonia school"	"Q111283969"	"way"	"417648796"		"{'amenity': 'school', 'name': 'Escola de Pau', 'ref': '17002703', 'wikidata': 'Q111283969'}"

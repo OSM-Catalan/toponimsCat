@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Escola Bressol La Muralla"	"Escola Bressol La Muralla"							"way"	"69329594"		"{'amenity': 'kindergarten', 'name': 'Escola Bressol La Muralla', 'ref': '8069967'}"
+"Escola de Mar"	"Escola de Mar"							"node"	"5403790045"		"{'bus': 'yes', 'name': 'Escola de Mar', 'public_transport': 'platform'}"
+"Escola de Música"	"Escola de Música"							"node"	"839164654"		"{'amenity': 'public_building', 'name': 'Escola de Música'}"
+"Escola del Mar"	"Escola del Mar"			"Escola del Mar"		"Catalonia school"	"Q111339144"	"way"	"69277577"		"{'amenity': 'school', 'name': 'Escola del Mar', 'ref': '8040060', 'wikidata': 'Q111339144'}"
+"Escola Els Alocs"	"Escola Els Alocs"			"Escola Els Alocs"		"Catalonia school"	"Q111339302"	"way"	"298103930"		"{'addr:city': 'Vilassar de Mar', 'addr:housenumber': '101-103', 'addr:postcode': '08340', 'addr:street': 'Carrer de Santa Eulàlia', 'amenity': 'school', 'name': 'Escola Els Alocs', 'phone': '+34 93 754 20 15', 'ref': '8058374', 'website': 'http://www.xtec.cat/ceipelsalocs/', 'wikidata': 'Q111339302'}"
+"Escola Pérez Sala"	"Escola Pérez Sala"			"Escola Pérez Sala"		"Catalonia school"	"Q111338839"	"way"	"70143216"		"{'amenity': 'school', 'name': 'Escola Pérez Sala', 'ref': '8026749', 'wikidata': 'Q111338839'}"

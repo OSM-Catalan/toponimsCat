@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camp de la Costa"	"Camp de la Costa"							"way"	"993720888"		"{'highway': 'residential', 'name': 'Camp de la Costa'}"
+"Camp de la Creu"	"Camp de la Creu"							"way"	"909675208"		"{'name': 'Camp de la Creu', 'place': 'hamlet'}"
+"Camp de les Figueres"	"Camp de les Figueres"							"way"	"909705630"		"{'landuse': 'meadow', 'name': 'Camp de les Figueres'}"
+"Camp Gran"	"Camp Gran"							"way"	"909705629"		"{'highway': 'path', 'name': 'Camp Gran'}"

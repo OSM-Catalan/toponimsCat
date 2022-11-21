@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Vitali"	"Cal Vitali"							"node"	"3867877750"		"{'name': 'Cal Vitali', 'place': 'isolated_dwelling'}"
+"Carrer de la Via Augusta"	"Carrer de la Via Augusta"							"way"	"1115576075"		"{'highway': 'cycleway', 'lanes': '2', 'lit': 'yes', 'name': 'Carrer de la Via Augusta', 'oneway': 'no', 'surface': 'asphalt'}"
+"Escola El Roquissar"	"Escola El Roquissar"			"Escola El Roquissar"		"Catalonia school"	"Q111309809"	"node"	"3868185469"		"{'amenity': 'school', 'name': 'Escola El Roquissar', 'ref': '43010402', 'wikidata': 'Q111309809'}"
+"Escola La Portalada"	"Escola La Portalada"							"way"	"1073910253"		"{'amenity': 'school', 'name': 'Escola La Portalada', 'ref': '43000251'}"

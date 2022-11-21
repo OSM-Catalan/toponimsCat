@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Jutge"	"Cal Jutge"							"node"	"10202922943"		"{'addr:housenumber': '11', 'addr:street': 'Carrer de Gràcia', 'amenity': 'restaurant', 'cuisine': 'regional', 'name': 'Cal Jutge', 'phone': '+34 938 592 651'}"
+"Can Branques"	"Can Branques"							"node"	"10202922942"		"{'addr:city': 'Orís', 'addr:housenumber': '4', 'addr:postcode': '08573', 'addr:street': 'Carrer de Gràcia', 'amenity': 'restaurant', 'cuisine': 'regional', 'name': 'Can Branques', 'phone': '+34 938 59 10 27'}"

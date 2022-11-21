@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Barranc d'en Gilet"	"Barranc d'en Gilet"							"way"	"408451212"		"{'intermittent': 'yes', 'name': \"Barranc d'en Gilet\", 'waterway': 'stream'}"
+"Barranc de Camarles"	"Barranc de Camarles"							"way"	"222091083"		"{'name': 'Barranc de Camarles', 'waterway': 'stream'}"
+"Barranc de Sant Pere"	"Barranc de Sant Pere"							"way"	"408451213"		"{'intermittent': 'yes', 'name': 'Barranc de Sant Pere', 'waterway': 'stream'}"
+"Barranc de Sant Pere"	"Barranc de Sant Pere"							"way"	"408451214"		"{'intermittent': 'yes', 'name': 'Barranc de Sant Pere', 'waterway': 'stream'}"
+"Camp de futbol municipal"	"Camp de futbol municipal"							"way"	"161625821"		"{'leisure': 'pitch', 'name': 'Camp de futbol municipal', 'sport': 'soccer'}"
+"Escola Mediterrani"	"Escola Mediterrani"			"Escola Mediterrani"		"Catalonia school"	"Q111309701"	"way"	"620733921"		"{'amenity': 'school', 'building': 'school', 'name': 'Escola Mediterrani', 'ref': '43005194', 'wikidata': 'Q111309701'}"

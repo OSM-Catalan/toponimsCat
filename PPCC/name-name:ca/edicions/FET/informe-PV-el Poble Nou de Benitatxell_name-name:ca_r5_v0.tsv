@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Barranc de La Viuda"	"Barranc de La Viuda"							"way"	"928899843"		"{'intermittent': 'yes', 'name': 'Barranc de La Viuda', 'waterway': 'stream'}"
+"Barranc de les Raboses"	"Barranc de les Raboses"							"way"	"350107749"		"{'intermittent': 'yes', 'name': 'Barranc de les Raboses', 'waterway': 'stream'}"
+"Barranc de Roig"	"Barranc de Roig"							"node"	"1242136652"		"{'name': 'Barranc de Roig', 'place': 'locality'}"
+"Coma Breco"	"Coma Breco"							"node"	"1242143984"		"{'name': 'Coma Breco', 'place': 'locality'}"
+"Coma de Nadal"	"Coma de Nadal"							"node"	"1242152573"		"{'name': 'Coma de Nadal', 'place': 'locality'}"
+"Coma Lluca"	"Coma Lluca"							"node"	"1242135514"		"{'name': 'Coma Lluca', 'place': 'locality'}"

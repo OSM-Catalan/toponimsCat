@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Cabana"	"Cal Cabana"							"node"	"2356240792"		"{'name': 'Cal Cabana', 'place': 'isolated_dwelling'}"
+"Cal Guim"	"Cal Guim"							"node"	"1241682804"		"{'name': 'Cal Guim', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Tossal de la Bassa"	"Tossal de la Bassa"							"node"	"2335537755"		"{'ele': '395.7', 'name': 'Tossal de la Bassa', 'natural': 'peak', 'source': 'Institut Cartogràfic de Catalunya'}"
+"Tossal de la Roca del Camí"	"Tossal de la Roca del Camí"							"node"	"2329645558"		"{'ele': '387.5', 'name': 'Tossal de la Roca del Camí', 'natural': 'peak'}"
+"Tossal de Miró"	"Tossal de Miró"							"node"	"1241672398"		"{'name': 'Tossal de Miró', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Tossal Redó"	"Tossal Redó"							"node"	"1241682212"		"{'name': 'Tossal Redó', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

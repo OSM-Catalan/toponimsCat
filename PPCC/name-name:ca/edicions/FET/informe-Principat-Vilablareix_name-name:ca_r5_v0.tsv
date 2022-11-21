@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Barranc de Can Castanyer"	"Barranc de Can Castanyer"							"way"	"698182811"		"{'name': 'Barranc de Can Castanyer', 'waterway': 'stream'}"
+"Barranc de Can Castanyer"	"Barranc de Can Castanyer"							"way"	"698182810"		"{'name': 'Barranc de Can Castanyer', 'waterway': 'stream'}"
+"Cal Campaner"	"Cal Campaner"			"Cal Campaner"		"masia"	"Q107117140"	"way"	"698182814"		"{'addr:city': 'Vilablareix', 'building': 'house', 'name': 'Cal Campaner', 'wikidata': 'Q107117140'}"
+"Cal Cavall"	"Cal Cavall"			"Cal Cavall"		"masia"	"Q107117143"	"way"	"901696015"		"{'building': 'house', 'name': 'Cal Cavall', 'wikidata': 'Q107117143'}"
+"Camp de Futbol Vilablareix"	"Camp de Futbol Vilablareix"							"node"	"6521596622"		"{'leisure': 'pitch', 'name': 'Camp de Futbol Vilablareix', 'sport': 'soccer'}"

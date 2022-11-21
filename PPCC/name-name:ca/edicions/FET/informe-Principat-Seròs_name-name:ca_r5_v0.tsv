@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Barranc de l'Aiguamoll"	"Barranc de l'Aiguamoll"							"way"	"404011600"		"{'name': \"Barranc de l'Aiguamoll\", 'waterway': 'stream'}"
+"Camp de Futbol Municipal"	"Camp de Futbol Municipal"							"way"	"197938361"		"{'leisure': 'pitch', 'name': 'Camp de Futbol Municipal', 'sport': 'soccer'}"
+"Tossal de les Roques"	"Tossal de les Roques"							"node"	"4396425218"		"{'ele': '161.5', 'name': 'Tossal de les Roques', 'natural': 'peak', 'source': 'Institut Cartogràfic de Catalunya'}"

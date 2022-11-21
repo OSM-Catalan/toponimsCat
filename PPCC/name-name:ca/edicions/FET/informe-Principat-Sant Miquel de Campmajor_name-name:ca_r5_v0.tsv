@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camp de la Font"	"Camp de la Font"							"relation"	"8616938"		"{'landuse': 'farmland', 'name': 'Camp de la Font', 'source': 'PNOA', 'source:name': 'local knowledge', 'type': 'multipolygon'}"
+"Escola Rural St. Miquel"	"Escola Rural St. Miquel"							"relation"	"6597149"		"{'name': 'Escola Rural St. Miquel', 'type': 'multipolygon', 'was:amenity': 'school'}"

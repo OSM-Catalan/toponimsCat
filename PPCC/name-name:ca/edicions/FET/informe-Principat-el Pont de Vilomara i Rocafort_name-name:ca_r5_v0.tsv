@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Bitó"	"Cal Bitó"							"way"	"189808088"		"{'building': 'yes', 'name': 'Cal Bitó', 'place': 'isolated_dwelling'}"
+"Cal Casasaies"	"Cal Casasaies"							"way"	"164339210"		"{'building': 'yes', 'name': 'Cal Casasaies', 'ruins': 'yes'}"
+"Cal Curro"	"Cal Curro"							"node"	"6122668539"		"{'amenity': 'food_court', 'name': 'Cal Curro'}"
+"Cal Vila"	"Cal Vila"							"node"	"4815413221"	"name:es=Cal Vila"	"{'addr:street': 'Carrer de Sant Jaume', 'amenity': 'restaurant', 'cuisine': 'spanish', 'name': 'Cal Vila', 'name:es': 'Cal Vila'}"
+"Camp de Futbol"	"Camp de Futbol"							"way"	"189802407"		"{'leisure': 'pitch', 'name': 'Camp de Futbol', 'sport': 'soccer'}"

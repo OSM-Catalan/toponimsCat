@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Ros"	"Cal Ros"							"way"	"528690058"		"{'building': 'yes', 'name': 'Cal Ros', 'source': 'Institut Cartogràfic i Geològic de Catalunya, cartografia 1:5.000'}"
+"Camp de la Ronda"	"Camp de la Ronda"							"node"	"1241589091"		"{'name': 'Camp de la Ronda', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Camp de les Valls"	"Camp de les Valls"							"node"	"1241585775"		"{'name': 'Camp de les Valls', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Escola Joan Maragall"	"Escola Joan Maragall"			"Escola Joan Maragall"		"Catalonia school"	"Q111338657"	"way"	"490465171"	"name:es=escuela Joan Maragall"	"{'addr:housenumber': '1-9', 'addr:street': 'Passeig del Pintor Bert', 'amenity': 'school', 'contact:email': 'a8019745@xtec.cat', 'contact:fax': '+34 935605912', 'contact:phone': '+34 935602135', 'contact:website': 'http://agora.xtec.cat/escolajoanmaragall/', 'name': 'Escola Joan Maragall', 'name:es': 'escuela Joan Maragall', 'ref': '8019745', 'wikidata': 'Q111338657'}"
+"Escola les Planes"	"Escola les Planes"			"Escola Les Planes"		"Catalonia school"	"Q111339139"	"way"	"929888016"		"{'amenity': 'school', 'name': 'Escola les Planes', 'ref': '8039719', 'wikidata': 'Q111339139'}"
+"Escola Sagrada Família"	"Escola Sagrada Família"			"Escola Sagrada Família"		"Catalonia school"	"Q111338656"	"way"	"929888027"		"{'amenity': 'school', 'name': 'Escola Sagrada Família', 'ref': '8019711', 'wikidata': 'Q111338656'}"

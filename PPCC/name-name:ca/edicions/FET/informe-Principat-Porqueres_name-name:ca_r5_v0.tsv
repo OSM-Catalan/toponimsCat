@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camp de Can Brugada"	"Camp de Can Brugada"							"node"	"1241587017"		"{'name': 'Camp de Can Brugada', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Coma d'en Mon"	"Coma d'en Mon"							"node"	"1241598090"		"{'name': \"Coma d'en Mon\", 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Escola Casa Nostra"	"Escola Casa Nostra"			"Centre educatiu privat Casa Nostra"		"private educational institution in Catalonia"	"Q111594914"	"relation"	"4201869"		"{'amenity': 'school', 'name': 'Escola Casa Nostra', 'ref': '17000299', 'type': 'multipolygon', 'wikidata': 'Q111594914'}"
+"Escola L'Entorn"	"Escola L'Entorn"			"Escola L'Entorn"		"Catalonia school"	"Q111283636"	"relation"	"4194139"		"{'amenity': 'school', 'name': \"Escola L'Entorn\", 'ref': '17002791', 'type': 'multipolygon', 'wikidata': 'Q111283636'}"

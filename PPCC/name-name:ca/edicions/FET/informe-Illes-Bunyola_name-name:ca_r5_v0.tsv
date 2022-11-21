@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camp d'aprenentatge d'Orient"	"Camp d'aprenentatge d'Orient"							"way"	"216881484"		"{'building': 'yes', 'name': \"Camp d'aprenentatge d'Orient\", 'tourism': 'hostel'}"
+"Camp de futbol"	"Camp de futbol"							"way"	"96387428"		"{'leisure': 'pitch', 'name': 'Camp de futbol', 'source': 'ideib WMS', 'sport': 'soccer', 'surface': 'grass'}"
+"Coma Carnissera"	"Coma Carnissera"							"node"	"1242631313"		"{'name': 'Coma Carnissera', 'place': 'locality'}"
+"Coma Negra"	"Coma Negra"							"node"	"1242614992"		"{'name': 'Coma Negra', 'place': 'locality'}"
+"Coma Sema"	"Coma Sema"			"Coma-sema"	"Coma-sema"	"posessió"	"Q20105285"	"node"	"1738709134"		"{'name': 'Coma Sema', 'place': 'locality', 'wikidata': 'Q20105285'}"

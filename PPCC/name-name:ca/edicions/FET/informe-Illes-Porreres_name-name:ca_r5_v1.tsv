@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"puig d'en Femella"	"puig d'en Femella"							"node"	"948818337"		"{'ele': '294.10', 'ign:latitud': '39.4994790323559002', 'ign:longitud': '2.9971634515579901', 'ign:red': 'Red Geodesica Nacional Convencional (ROI)', 'name': \"puig d'en Femella\", 'natural': 'peak', 'note': 'This is a point from an official geodetic network. Use it as a reference, but do NOT move it.', 'ref': '72460', 'source': 'Instituto Geográfico Nacional', 'source:ref': 'ftp://ftp.geodesia.ign.es'}"
+"torrent de Son Valls"	"torrent de Son Valls"							"way"	"467621113"		"{'intermittent': 'yes', 'name': 'torrent de Son Valls', 'waterway': 'stream'}"
+"torrent de Son Valls"	"torrent de Son Valls"							"way"	"719485631"		"{'intermittent': 'yes', 'name': 'torrent de Son Valls', 'waterway': 'stream'}"
+"torrent de Son Valls"	"torrent de Son Valls"							"way"	"719485630"		"{'intermittent': 'yes', 'layer': '-1', 'name': 'torrent de Son Valls', 'tunnel': 'culvert', 'waterway': 'stream'}"
+"torrent de Son Valls"	"torrent de Son Valls"							"way"	"719485632"		"{'intermittent': 'yes', 'name': 'torrent de Son Valls', 'waterway': 'stream'}"
+"torrent de Son Valls"	"torrent de Son Valls"							"way"	"719485633"		"{'intermittent': 'yes', 'layer': '-1', 'name': 'torrent de Son Valls', 'tunnel': 'culvert', 'waterway': 'stream'}"

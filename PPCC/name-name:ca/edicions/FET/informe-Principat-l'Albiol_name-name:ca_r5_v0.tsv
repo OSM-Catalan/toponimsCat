@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Barranc de les Tosques"	"Barranc de les Tosques"	"Barranc de l'Albiol"	"Barranc de l'Albiol"					"way"	"803444489"		"{'alt_name': \"Barranc de l'Albiol\", 'intermittent': 'yes', 'name': 'Barranc de les Tosques', 'waterway': 'stream'}"
+"Barranc de Rajadell"	"Barranc de Rajadell"							"way"	"751307232"		"{'intermittent': 'yes', 'name': 'Barranc de Rajadell', 'waterway': 'stream'}"
+"Barranc de Vallverdú"	"Barranc de Vallverdú"							"node"	"4014268231"		"{'name': 'Barranc de Vallverdú', 'natural': 'valley'}"
+"Carena de l'Estelada"	"Carena de l'Estelada"							"way"	"817494421"		"{'name': \"Carena de l'Estelada\", 'natural': 'ridge'}"

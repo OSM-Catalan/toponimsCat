@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Gras"	"Cal Gras"							"node"	"4874732271"		"{'name': 'Cal Gras', 'place': 'isolated_dwelling'}"
+"Camp de Futbol"	"Camp de Futbol"							"way"	"152713626"		"{'leisure': 'pitch', 'name': 'Camp de Futbol'}"
+"Escola Flama"	"Escola Flama"			"Escola Flama"		"Catalonia school"	"Q111339230"	"way"	"151940039"		"{'amenity': 'school', 'name': 'Escola Flama', 'ref': '8044016', 'wikidata': 'Q111339230'}"
+"Escola Monsenyor Gibert"	"Escola Monsenyor Gibert"			"Escola Monsenyor Gibert"		"Catalonia school"	"Q111338831"	"way"	"152699900"		"{'amenity': 'school', 'name': 'Escola Monsenyor Gibert', 'ref': '8026464', 'wikidata': 'Q111338831'}"
+"Escola Pla del Puig"	"Escola Pla del Puig"			"Escola Pla del Puig"		"Catalonia school"	"Q111339428"	"way"	"257083782"		"{'amenity': 'school', 'name': 'Escola Pla del Puig', 'ref': '8065251', 'wikidata': 'Q111339428'}"

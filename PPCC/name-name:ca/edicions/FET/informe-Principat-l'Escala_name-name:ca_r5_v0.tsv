@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camp Caner"	"Camp Caner"							"node"	"1241594690"		"{'name': 'Camp Caner', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Camp Gran"	"Camp Gran"							"node"	"1241585438"		"{'name': 'Camp Gran', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Escola Empúries"	"Escola Empúries"			"Escola Empúries"		"Catalonia school"	"Q111282963"	"relation"	"5900447"		"{'amenity': 'school', 'name': 'Escola Empúries', 'ref': '17001048', 'source': 'Shagrat.icc.cat: Ortofot de Catalunya 1:1000', 'type': 'multipolygon', 'wikidata': 'Q111282963'}"
+"Escola l'Esculapi"	"Escola l'Esculapi"			"Escola L'Esculapi"		"Catalonia school"	"Q111283811"	"way"	"190912572"		"{'amenity': 'school', 'name': \"Escola l'Esculapi\", 'ref': '17008481', 'wikidata': 'Q111283811'}"

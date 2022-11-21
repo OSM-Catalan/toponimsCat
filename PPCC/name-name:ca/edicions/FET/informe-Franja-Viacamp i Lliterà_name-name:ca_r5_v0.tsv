@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Barranc de l'Obaga"	"Barranc de l'Obaga"							"way"	"185379409"		"{'name': \"Barranc de l'Obaga\", 'waterway': 'stream'}"
+"Barranc del Pinell"	"Barranc del Pinell"							"way"	"210617537"		"{'name': 'Barranc del Pinell', 'waterway': 'stream'}"
+"Barranc del Seguer"	"Barranc del Seguer"							"way"	"732390110"		"{'intermittent': 'yes', 'name': 'Barranc del Seguer', 'waterway': 'stream'}"
+"Obaga del Tossal"	"Obaga del Tossal"							"node"	"1241983008"		"{'name': 'Obaga del Tossal', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

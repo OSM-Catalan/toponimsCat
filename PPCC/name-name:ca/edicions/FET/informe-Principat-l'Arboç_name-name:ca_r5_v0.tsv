@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Salvet"	"Cal Salvet"							"node"	"6198853709"		"{'name': 'Cal Salvet', 'place': 'isolated_dwelling'}"
+"Col·legi Residència L'Arboç"	"Col·legi Residència L'Arboç"			"Centre educatiu privat L'Arboç"		"private educational institution in Catalonia"	"Q111594774"	"way"	"741617453"		"{'addr:city': \"l'Arboç\", 'addr:housenumber': '30', 'addr:postcode': '43720', 'addr:street': 'Rambla Gener', 'amenity': 'school', 'name': \"Col·legi Residència L'Arboç\", 'ref': '43000391', 'wikidata': 'Q111594774'}"
+"Escola Bressol Minyons"	"Escola Bressol Minyons"							"way"	"741716982"		"{'amenity': 'kindergarten', 'building': 'kindergarten', 'name': 'Escola Bressol Minyons', 'ref': '43010761'}"
+"Escola Sant Julià"	"Escola Sant Julià"			"Escola Sant Julià"		"Catalonia school"	"Q111309540"	"way"	"255119941"		"{'amenity': 'school', 'name': 'Escola Sant Julià', 'opening_hours': 'Mo-Fr 08:45-16:00', 'operator': 'Generalitat de Catalunya', 'ref': '43000378', 'wikidata': 'Q111309540'}"

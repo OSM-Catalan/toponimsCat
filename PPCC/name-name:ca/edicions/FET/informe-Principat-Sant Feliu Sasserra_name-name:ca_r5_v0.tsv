@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Martí"	"Cal Martí"							"way"	"365200524"		"{'building': 'house', 'name': 'Cal Martí'}"
+"Cal Pastisser"	"Cal Pastisser"							"node"	"6572919689"		"{'name': 'Cal Pastisser', 'shop': 'food'}"
+"Cal Tori"	"Cal Tori"							"node"	"10124183132"		"{'addr:city': 'Sant Feliu Sasserra', 'addr:postcode': '08274', 'addr:street': 'Carrer de Sant Pere Almató', 'name': 'Cal Tori', 'phone': '938819174', 'shop': 'supermarket'}"
+"Camp Municipal de Futbol"	"Camp Municipal de Futbol"							"way"	"167861310"		"{'leisure': 'pitch', 'name': 'Camp Municipal de Futbol', 'sport': 'soccer'}"

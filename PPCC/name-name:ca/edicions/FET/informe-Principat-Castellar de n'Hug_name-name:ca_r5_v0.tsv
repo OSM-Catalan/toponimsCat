@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Pau Solana"	"Cal Pau Solana"							"node"	"4313981640"		"{'name': 'Cal Pau Solana', 'place': 'isolated_dwelling'}"
+"Cal Ros"	"Cal Ros"							"node"	"4176096606"		"{'name': 'Cal Ros', 'place': 'isolated_dwelling'}"
+"Coma de Migjorn"	"Coma de Migjorn"							"node"	"1241560405"		"{'name': 'Coma de Migjorn', 'place': 'locality'}"
+"Tossal de Rus"	"Tossal de Rus"							"node"	"3718700913"		"{'ele': '2118.3', 'name': 'Tossal de Rus', 'natural': 'peak', 'prominence': '167', 'source': 'Institut Cartogràfic de Catalunya', 'source:prominence': 'ICGC map. Key col: Collada de les Tortes 1951m'}"

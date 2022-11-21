@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Gabriel"	"Cal Gabriel"							"node"	"2255342738"		"{'name': 'Cal Gabriel', 'place': 'isolated_dwelling'}"
+"Camp d'Aviació"	"Camp d'Aviació"							"node"	"1241689814"		"{'name': \"Camp d'Aviació\", 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Camp de futbol"	"Camp de futbol"							"way"	"97962694"		"{'leisure': 'stadium', 'name': 'Camp de futbol', 'sport': 'soccer'}"
+"Escola de música"	"Escola de música"							"node"	"7970731571"		"{'amenity': 'music_school', 'name': 'Escola de música'}"
+"Escola Valeri Serra"	"Escola Valeri Serra"							"way"	"854698621"		"{'amenity': 'school', 'name': 'Escola Valeri Serra', 'ref': '25001011'}"
+"Tossal del Pericó"	"Tossal del Pericó"							"node"	"1241690504"		"{'name': 'Tossal del Pericó', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Escola Marià Manent"	"Escola Marià Manent"			"Escola Marià Manent"		"Catalonia school"	"Q111339043"	"way"	"307147286"		"{'amenity': 'school', 'name': 'Escola Marià Manent', 'operator': 'Pública', 'ref': '8035684', 'wikidata': 'Q111339043'}"
+"Escola Santa Anna"	"Escola Santa Anna"							"way"	"307147284"		"{'addr:city': 'Premià de Dalt', 'addr:housenumber': '44', 'addr:postcode': '08338', 'addr:street': 'Torrent de Santa Anna', 'amenity': 'school', 'name': 'Escola Santa Anna', 'operator': 'Pública', 'phone': '+34937516968', 'ref': '8044442'}"
+"Santuari de la Mare de Déu de la Cisa"	"Santuari de la Mare de Déu de la Cisa"							"way"	"696735058"		"{'amenity': 'place_of_worship', 'building': 'chapel', 'denomination': 'catholic', 'name': 'Santuari de la Mare de Déu de la Cisa', 'religion': 'christian'}"

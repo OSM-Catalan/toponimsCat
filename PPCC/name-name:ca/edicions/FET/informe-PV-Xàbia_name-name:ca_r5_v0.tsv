@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Barranc de la Cova del Gamell"	"Barranc de la Cova del Gamell"	"Barranc dels Lladres"	"Barranc dels Lladres"					"way"	"187122500"	"official_name=Barranc del Brúfol"	"{'alt_name': 'Barranc dels Lladres', 'intermittent': 'yes', 'name': 'Barranc de la Cova del Gamell', 'official_name': 'Barranc del Brúfol', 'waterway': 'stream'}"
+"Barranc de la Llosa"	"Barranc de la Llosa"							"way"	"183391161"		"{'intermittent': 'yes', 'name': 'Barranc de la Llosa', 'waterway': 'stream'}"
+"Barranc de la Raconada"	"Barranc de la Raconada"							"way"	"175986569"		"{'intermittent': 'yes', 'name': 'Barranc de la Raconada', 'waterway': 'drain'}"
+"Barranc de Toll"	"Barranc de Toll"							"way"	"100193096"		"{'highway': 'service', 'name': 'Barranc de Toll'}"
+"Barranc del Llibrell"	"Barranc del Llibrell"							"way"	"928899844"		"{'intermittent': 'yes', 'name': 'Barranc del Llibrell', 'waterway': 'stream'}"
+"Barranc del Tango"	"Barranc del Tango"							"way"	"258589567"		"{'intermittent': 'yes', 'name': 'Barranc del Tango', 'waterway': 'stream'}"

@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camp del Corb"	"Camp del Corb"							"node"	"7345834375"		"{'name': 'Camp del Corb', 'place': 'locality'}"
+"Escola Bressol La Puput"	"Escola Bressol La Puput"							"way"	"1035402517"		"{'amenity': 'kindergarten', 'name': 'Escola Bressol La Puput', 'ref': '8058246'}"
+"Escola El Colomer"	"Escola El Colomer"			"Escola El Colomer"		"Catalonia school"	"Q111339334"	"way"	"245013904"		"{'amenity': 'school', 'name': 'Escola El Colomer', 'ref': '8060903', 'wikidata': 'Q111339334'}"
+"Escola El Turó"	"Escola El Turó"			"Escola El Turó"		"Catalonia school"	"Q111338544"	"way"	"245014291"		"{'amenity': 'school', 'name': 'Escola El Turó', 'ref': '8014747', 'wikidata': 'Q111338544'}"

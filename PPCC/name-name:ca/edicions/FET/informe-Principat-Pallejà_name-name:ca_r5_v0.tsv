@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camp de Futbol Municipal"	"Camp de Futbol Municipal"							"way"	"123598739"		"{'leisure': 'pitch', 'name': 'Camp de Futbol Municipal'}"
+"Escola Àngel Guimerà"	"Escola Àngel Guimerà"			"Escola Àngel Guimerà"		"Catalonia school"	"Q111338738"	"way"	"704882182"		"{'amenity': 'school', 'name': 'Escola Àngel Guimerà', 'ref': '8022665', 'wikidata': 'Q111338738'}"
+"Escola Jacint Verdaguer"	"Escola Jacint Verdaguer"			"Escola Jacint Verdaguer"		"Catalonia school"	"Q111338739"	"way"	"257172365"		"{'amenity': 'school', 'name': 'Escola Jacint Verdaguer', 'ref': '8022677', 'wikidata': 'Q111338739'}"
+"Escola l'Oreig"	"Escola l'Oreig"							"node"	"4971001402"		"{'addr:city': 'Pallejà', 'addr:housenumber': '2-4', 'addr:postcode': '08753', 'addr:street': 'Ronda de Montmany', 'name': \"Escola l'Oreig\"}"
+"Escola la Garalda"	"Escola la Garalda"			"Escola La Garalda"		"Catalonia school"	"Q111339236"	"way"	"123596990"		"{'amenity': 'school', 'name': 'Escola la Garalda', 'ref': '8044430', 'wikidata': 'Q111339236'}"

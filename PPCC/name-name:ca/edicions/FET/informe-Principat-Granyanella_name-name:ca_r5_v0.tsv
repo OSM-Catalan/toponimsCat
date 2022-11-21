@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Coma Viola"	"Coma Viola"							"node"	"2517515324"		"{'name': 'Coma Viola', 'place': 'locality'}"
+"Tossal de Barrers"	"Tossal de Barrers"							"node"	"1241679755"		"{'name': 'Tossal de Barrers', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Tossal del Trilla"	"Tossal del Trilla"							"node"	"2517407905"		"{'ele': '497.3', 'name': 'Tossal del Trilla', 'natural': 'peak', 'source': 'Institut Cartogràfic de Catalunya'}"
+"Tossal Rodó"	"Tossal Rodó"							"node"	"1241689762"		"{'name': 'Tossal Rodó', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

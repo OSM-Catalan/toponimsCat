@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Barranc de Sant Julià"	"Barranc de Sant Julià"							"way"	"189200063"		"{'name': 'Barranc de Sant Julià', 'waterway': 'stream'}"
+"Cal Rei"	"Cal Rei"							"way"	"189200065"		"{'building': 'yes', 'name': 'Cal Rei'}"
+"Camp de la Guilla"	"Camp de la Guilla"							"node"	"1241596500"		"{'name': 'Camp de la Guilla', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Santuari de Requesens"	"Santuari de Requesens"			"Santuari de Requesens, Mare de Déu de Requesens"	"Santuari de Requesens"	"church building"	"Q18004282"	"way"	"451895220"		"{'amenity': 'place_of_worship', 'building': 'church', 'denomination': 'catholic', 'heritage': '4', 'layer': '1', 'name': 'Santuari de Requesens', 'ref': 'IPAC-19758', 'religion': 'christian', 'start_date': 's17', 'wikidata': 'Q18004282', 'wikipedia': 'ca:Santuari de Requesens'}"

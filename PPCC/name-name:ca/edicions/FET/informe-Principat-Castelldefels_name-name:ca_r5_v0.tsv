@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camp de futbol de la Via Fèrria"	"Camp de futbol de la Via Fèrria"							"way"	"20286604"	"name:es=Campo Municipal Via Férrea"	"{'leisure': 'pitch', 'lit': 'yes', 'name': 'Camp de futbol de la Via Fèrria', 'name:es': 'Campo Municipal Via Férrea', 'sport': 'multi', 'surface': 'artificial_turf'}"
+"Camp Els Canyars"	"Camp Els Canyars"							"way"	"22932356"		"{'leisure': 'pitch', 'name': 'Camp Els Canyars', 'sport': 'soccer'}"
+"Escola Antoni Gaudí"	"Escola Antoni Gaudí"			"Escola Antoni Gaudí"		"Catalonia school"	"Q111338998"	"way"	"265569284"		"{'amenity': 'school', 'name': 'Escola Antoni Gaudí', 'ref': '8034096', 'wikidata': 'Q111338998'}"
+"Escola Lluís Vives"	"Escola Lluís Vives"			"Escola Lluís Vives"		"Catalonia school"	"Q111338572"	"way"	"398984840"		"{'addr:city': 'Castelldefels', 'addr:housenumber': '226', 'addr:postcode': '08850', 'addr:street': 'Passeig del Ferrocarril', 'amenity': 'school', 'name': 'Escola Lluís Vives', 'ref': '8015843', 'wikidata': 'Q111338572'}"
+"Estany de l'Olla del Rei. Les funcions de l'estany"	"Estany de l'Olla del Rei. Les funcions de l'estany"							"node"	"10203627618"		"{'name': \"Estany de l'Olla del Rei. Les funcions de l'estany\", 'tourism': 'attraction'}"

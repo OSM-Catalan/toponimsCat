@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camp de futbol Can Tintorer"	"Camp de futbol Can Tintorer"							"way"	"26333051"		"{'leisure': 'sports_centre', 'name': 'Camp de futbol Can Tintorer'}"
+"Col·legi Sagrada Família"	"Col·legi Sagrada Família"			"Centre educatiu privat Sagrada Família"		"private educational institution in Catalonia"	"Q111595326"	"way"	"26341902"		"{'amenity': 'school', 'barrier': 'fence', 'name': 'Col·legi Sagrada Família', 'ref': '8017384', 'wikidata': 'Q111595326'}"
+"Escola de Música El Racó"	"Escola de Música El Racó"							"node"	"6437880485"	"name:es=Escuela de Música El Racó"	"{'addr:housenumber': '18', 'addr:postcode': '08850', 'addr:street': 'Carrer de Sant Nicasi', 'amenity': 'music_school', 'email': 'elraco@hotmail.es', 'name': 'Escola de Música El Racó', 'name:es': 'Escuela de Música El Racó', 'opening_hours': 'Mo-Fr 16:00-21:00', 'operator': 'Marc Capdevila Prunera', 'phone': '+34 936620061', 'website': 'http://escolaelraco.com'}"

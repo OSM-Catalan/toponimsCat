@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Reguant"	"Cal Reguant"							"way"	"191131448"		"{'addr:city': 'Calders', 'addr:postcode': '08275', 'building': 'yes', 'name': 'Cal Reguant'}"
+"Camp de Futbol"	"Camp de Futbol"							"way"	"191120272"		"{'leisure': 'pitch', 'name': 'Camp de Futbol', 'sport': 'soccer'}"
+"Camp de la Mira"	"Camp de la Mira"							"node"	"7327938106"		"{'name': 'Camp de la Mira', 'place': 'locality'}"

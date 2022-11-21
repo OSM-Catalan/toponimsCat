@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Bofill"	"Cal Bofill"							"way"	"676091453"		"{'building': 'yes', 'information': 'office', 'name': 'Cal Bofill', 'tourism': 'information'}"
+"Cal Quim"	"Cal Quim"							"node"	"5168546114"		"{'amenity': 'restaurant', 'name': 'Cal Quim'}"
+"Escola Antoni Roig"	"Escola Antoni Roig"			"Escola Antoni Roig"		"Catalonia school"	"Q111309651"	"node"	"1635134497"		"{'amenity': 'school', 'name': 'Escola Antoni Roig', 'ref': '43003884', 'wikidata': 'Q111309651'}"
+"Escola l'Antina"	"Escola l'Antina"			"Escola L'Antina"		"Catalonia school"	"Q111309797"	"way"	"886516345"		"{'amenity': 'school', 'name': \"Escola l'Antina\", 'ref': '43009242', 'wikidata': 'Q111309797'}"
+"Escola Molí de Vent"	"Escola Molí de Vent"			"Escola Molí de Vent"		"Catalonia school"	"Q111309775"	"way"	"886517454"		"{'amenity': 'school', 'name': 'Escola Molí de Vent', 'ref': '43006851', 'wikidata': 'Q111309775'}"

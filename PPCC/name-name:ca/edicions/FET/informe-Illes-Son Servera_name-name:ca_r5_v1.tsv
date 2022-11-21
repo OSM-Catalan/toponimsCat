@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"camp de futbol de Ses Eres"	"camp de futbol de Ses Eres"							"way"	"82664236"		"{'leisure': 'pitch', 'name': 'camp de futbol de Ses Eres', 'sport': 'soccer', 'surface': 'grass'}"
+"puig de la Bassa"	"puig de la Bassa"							"node"	"962197002"		"{'ele': '115', 'name': 'puig de la Bassa', 'natural': 'peak', 'source': 'ideib'}"
+"puig de Son Jordi"	"puig de Son Jordi"							"node"	"3115311395"		"{'ele': '316.5', 'name': 'puig de Son Jordi', 'natural': 'peak'}"
+"puig dels Pins"	"puig dels Pins"							"node"	"962196887"		"{'ele': '163', 'name': 'puig dels Pins', 'natural': 'peak', 'source': 'ideib'}"
+"torrent de Son Jordi"	"torrent de Son Jordi"			"Torrent de Son Jordi"	"Torrent de Son Jordi"	"creek"	"Q66991342"	"way"	"448375690"		"{'intermittent': 'yes', 'name': 'torrent de Son Jordi', 'waterway': 'stream', 'wikidata': 'Q66991342'}"
+"torrent Nou"	"torrent Nou"							"way"	"376799048"		"{'intermittent': 'yes', 'name': 'torrent Nou', 'waterway': 'stream'}"

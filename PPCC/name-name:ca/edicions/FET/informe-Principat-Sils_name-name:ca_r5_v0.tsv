@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camp de futbol municipal"	"Camp de futbol municipal"							"way"	"186939347"		"{'leisure': 'pitch', 'name': 'Camp de futbol municipal', 'sport': 'soccer'}"
+"Escola els Estanys"	"Escola els Estanys"			"Escola Els Estanys"		"Catalonia school"	"Q111283831"	"way"	"358679891"		"{'amenity': 'school', 'name': 'Escola els Estanys', 'ref': '17009199', 'wikidata': 'Q111283831'}"
+"Escola Verdaguer"	"Escola Verdaguer"			"Escola Verdaguer"		"Catalonia school"	"Q111283672"	"way"	"358679890"	"name:etymology:wikidata=Q379290"	"{'amenity': 'school', 'name': 'Escola Verdaguer', 'name:etymology:wikidata': 'Q379290', 'ref': '17003823', 'wikidata': 'Q111283672'}"

@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camp de futbol"	"Camp de futbol"							"way"	"278353181"		"{'leisure': 'pitch', 'name': 'Camp de futbol', 'sport': 'soccer'}"
+"Escola Bellpuig"	"Escola Bellpuig"			"Escola Bellpuig"		"Catalonia school"	"Q111338841"	"way"	"278353195"		"{'amenity': 'school', 'name': 'Escola Bellpuig', 'ref': '8026786', 'wikidata': 'Q111338841'}"
+"Escola El Roser"	"Escola El Roser"			"Centre educatiu privat El Roser"		"private educational institution in Catalonia"	"Q111595492"	"way"	"945114538"		"{'amenity': 'school', 'name': 'Escola El Roser', 'ref': '8026798', 'wikidata': 'Q111595492'}"

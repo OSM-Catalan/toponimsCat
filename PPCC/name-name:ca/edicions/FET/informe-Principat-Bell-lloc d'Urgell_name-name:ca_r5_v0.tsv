@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Bòria"	"Cal Bòria"							"node"	"10131365589"		"{'addr:city': \"Bell-lloc d'Urgell\", 'addr:housenumber': '27', 'addr:postcode': '25220', 'addr:street': \"Carrer d'Orient\", 'amenity': 'restaurant', 'cuisine': 'catalan', 'name': 'Cal Bòria', 'phone': '+34 973560014', 'website': 'http://www.calboria.com/'}"
+"Camp de futbol"	"Camp de futbol"							"way"	"403071497"		"{'leisure': 'pitch', 'name': 'Camp de futbol', 'sport': 'soccer'}"

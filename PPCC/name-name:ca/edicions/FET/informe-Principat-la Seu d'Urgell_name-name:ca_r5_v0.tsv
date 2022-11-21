@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Serrano"	"Cal Serrano"							"node"	"4511087896"		"{'historic': 'monument', 'name': 'Cal Serrano'}"
+"Cal Serrano"	"Cal Serrano"							"way"	"393957949"		"{'building': 'yes', 'name': 'Cal Serrano'}"
+"Camp de futbol"	"Camp de futbol"							"way"	"180892037"		"{'leisure': 'pitch', 'name': 'Camp de futbol', 'sport': 'soccer'}"
+"Escola La Salle"	"Escola La Salle"			"Centre educatiu privat La Salle"		"private educational institution in Catalonia"	"Q111595024"	"way"	"180891309"		"{'amenity': 'school', 'name': 'Escola La Salle', 'ref': '25004152', 'source': 'PNOA', 'source:date': '2008', 'wikidata': 'Q111595024'}"
+"Escola Mossèn Albert Vives"	"Escola Mossèn Albert Vives"			"Escola Mossèn Albert Vives"		"Catalonia school"	"Q111308367"	"way"	"67058096"		"{'amenity': 'school', 'name': 'Escola Mossèn Albert Vives', 'ref': '25004140', 'wikidata': 'Q111308367'}"
+"Escola Pau Claris"	"Escola Pau Claris"			"Escola Pau Claris"		"Catalonia school"	"Q111308448"	"way"	"393957929"		"{'addr:city': \"La Seu d'Urgell\", 'amenity': 'school', 'name': 'Escola Pau Claris', 'ref': '25005533', 'wikidata': 'Q111308448'}"

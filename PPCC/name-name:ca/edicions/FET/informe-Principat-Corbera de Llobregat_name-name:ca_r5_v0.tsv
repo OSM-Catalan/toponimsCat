@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Escola Bressol el Petit Corb"	"Escola Bressol el Petit Corb"							"way"	"616397806"		"{'amenity': 'kindergarten', 'name': 'Escola Bressol el Petit Corb', 'ref': '8066814'}"
+"Escola Cau de la Guineu"	"Escola Cau de la Guineu"			"Escola Cau de la Guineu"		"Catalonia school"	"Q111339400"	"way"	"616378219"		"{'amenity': 'school', 'name': 'Escola Cau de la Guineu', 'ref': '8063965', 'wikidata': 'Q111339400'}"
+"Escola de música de Corbera"	"Escola de música de Corbera"							"node"	"5827779139"		"{'addr:city': 'Corbera de Llobregat', 'addr:housenumber': '26C', 'addr:postcode': '08757', 'addr:street': 'Carrer de Casanova', 'amenity': 'music_school', 'name': 'Escola de música de Corbera'}"
+"Escola Jaume Balmes"	"Escola Jaume Balmes"			"Escola Jaume Balmes"		"Catalonia school"	"Q111338590"	"way"	"1017649161"		"{'amenity': 'school', 'name': 'Escola Jaume Balmes', 'ref': '8016331', 'wikidata': 'Q111338590'}"
+"Escola Puig d'Agulles"	"Escola Puig d'Agulles"			"Escola Puig d'Agulles"		"Catalonia school"	"Q111339274"	"way"	"158527843"		"{'addr:street': \"Carrer d'Andrómeda\", 'amenity': 'school', 'name': \"Escola Puig d'Agulles\", 'ref': '8053510', 'wikidata': 'Q111339274'}"

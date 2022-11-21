@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Barranc de Gol"	"Barranc de Gol"							"way"	"975697058"		"{'layer': '-1', 'name': 'Barranc de Gol', 'tunnel': 'culvert', 'waterway': 'stream'}"
+"Barranc de Peguera"	"Barranc de Peguera"							"way"	"742220216"		"{'intermittent': 'yes', 'name': 'Barranc de Peguera', 'waterway': 'stream'}"
+"Cal Cornella"	"Cal Cornella"							"way"	"326342613"		"{'building': 'yes', 'name': 'Cal Cornella'}"
+"Obaga de l'Oliva"	"Obaga de l'Oliva"							"node"	"1241642044"		"{'name': \"Obaga de l'Oliva\", 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Obaga Estremera"	"Obaga Estremera"							"node"	"1241624697"		"{'name': 'Obaga Estremera', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Obaga Negra"	"Obaga Negra"							"node"	"1241633923"		"{'name': 'Obaga Negra', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Frare"	"Cal Frare"							"way"	"961720894"		"{'building': 'yes', 'name': 'Cal Frare'}"
+"Cal Pegot"	"Cal Pegot"							"way"	"1090545085"		"{'building': 'ruins', 'name': 'Cal Pegot'}"
+"Cal Turó"	"Cal Turó"							"way"	"961720893"		"{'building': 'yes', 'name': 'Cal Turó'}"
+"Camp d'esports de gespa"	"Camp d'esports de gespa"							"node"	"5882972515"		"{'leisure': 'pitch', 'name': \"Camp d'esports de gespa\", 'sport': 'Futbol'}"
+"Coma Ampla"	"Coma Ampla"							"node"	"1241591777"		"{'name': 'Coma Ampla', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Coma d'Olla"	"Coma d'Olla"							"node"	"1241589239"		"{'name': \"Coma d'Olla\", 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

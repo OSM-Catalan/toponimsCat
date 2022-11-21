@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Barranc de la Cometa"	"Barranc de la Cometa"							"way"	"712321525"		"{'intermittent': 'yes', 'name': 'Barranc de la Cometa', 'waterway': 'stream'}"
+"Camp de futbol"	"Camp de futbol"							"node"	"1471040949"		"{'leisure': 'sports_centre', 'name': 'Camp de futbol', 'sport': 'soccer', 'time': '2011-10-17T11:51:57Z'}"
+"Camp de futbol"	"Camp de futbol"							"node"	"1471040932"	"int_name=Soccer stadium"	"{'int_name': 'Soccer stadium', 'leisure': 'sports_centre', 'name': 'Camp de futbol', 'sport': 'soccer', 'time': '2011-10-17T12:17:49Z'}"
+"Camp de futbol"	"Camp de futbol"							"way"	"198909848"		"{'leisure': 'pitch', 'name': 'Camp de futbol', 'sport': 'soccer'}"
+"Escola la Closa"	"Escola la Closa"							"way"	"419683374"		"{'amenity': 'school', 'name': 'Escola la Closa', 'ref': '25001539'}"
+"Obaga d'Esterri"	"Obaga d'Esterri"							"node"	"1241610474"		"{'name': \"Obaga d'Esterri\", 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

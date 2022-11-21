@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Tito"	"Cal Tito"							"node"	"7568233249"		"{'amenity': 'restaurant', 'name': 'Cal Tito', 'opening_hours': 'Tu-Sa 13:00-15:30,20:30-23:30; Su 13:00-15:30', 'phone': '+34935769391'}"
+"Camp de Futbol Municipal"	"Camp de Futbol Municipal"							"way"	"35705152"		"{'leisure': 'pitch', 'name': 'Camp de Futbol Municipal', 'sport': 'soccer'}"
+"Escola Assís"	"Escola Assís"			"Centre educatiu privat Assís"		"private educational institution in Catalonia"	"Q111595426"	"way"	"306525203"		"{'addr:city': 'Premià de Mar', 'addr:housenumber': '35', 'addr:postcode': '08330', 'addr:street': 'Carrer de la Plaça', 'amenity': 'school', 'name': 'Escola Assís', 'note': 'Religiosa, concertada', 'operator': 'Germanes Caputxines de la Mare del Diví Pastor', 'ref': '8023244', 'wikidata': 'Q111595426'}"
+"Escola La Lió"	"Escola La Lió"			"Escola La Lió"		"Catalonia school"	"Q111339203"	"way"	"306525204"		"{'addr:city': 'Premià de Mar', 'addr:housenumber': '30', 'addr:postcode': '08330', 'addr:street': 'Carrer de Joan Prim', 'amenity': 'school', 'name': 'Escola La Lió', 'operator': 'Pública', 'phone': '+34 937 521 997', 'ref': '8043371', 'website': 'https://agora.xtec.cat/ceip-lalio/moodle/?lang=es', 'wikidata': 'Q111339203'}"
+"Escola Montserrat"	"Escola Montserrat"							"way"	"331778170"		"{'building': 'yes', 'name': 'Escola Montserrat'}"
+"Escola Sant Cristòfol"	"Escola Sant Cristòfol"			"Escola Sant Cristòfol"		"Catalonia school"	"Q111338759"	"way"	"307645677"		"{'amenity': 'school', 'name': 'Escola Sant Cristòfol', 'ref': '8023232', 'wikidata': 'Q111338759'}"

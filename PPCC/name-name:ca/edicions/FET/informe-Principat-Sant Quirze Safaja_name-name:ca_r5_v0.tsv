@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Climent"	"Cal Climent"							"way"	"889958689"		"{'building': 'yes', 'name': 'Cal Climent'}"
+"Cal Magre"	"Cal Magre"							"way"	"1037697036"		"{'building': 'house', 'name': 'Cal Magre'}"
+"Cal Riera"	"Cal Riera"							"way"	"889955004"		"{'building': 'yes', 'name': 'Cal Riera'}"
+"Camp d'en Coll"	"Camp d'en Coll"							"node"	"7690815676"		"{'name': \"Camp d'en Coll\", 'place': 'locality'}"
+"Camp del Mill"	"Camp del Mill"							"node"	"7432997170"		"{'name': 'Camp del Mill', 'place': 'locality'}"
+"Obaga Negra"	"Obaga Negra"							"node"	"1241562014"		"{'name': 'Obaga Negra', 'place': 'locality'}"

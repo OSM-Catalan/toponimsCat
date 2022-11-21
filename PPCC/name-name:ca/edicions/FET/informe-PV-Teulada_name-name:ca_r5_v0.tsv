@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Barranc de La Viuda"	"Barranc de La Viuda"							"way"	"928899843"		"{'intermittent': 'yes', 'name': 'Barranc de La Viuda', 'waterway': 'stream'}"
+"Barranc de les Raboses"	"Barranc de les Raboses"							"way"	"350107749"		"{'intermittent': 'yes', 'name': 'Barranc de les Raboses', 'waterway': 'stream'}"
+"Tossal Gros"	"Tossal Gros"							"node"	"1242131136"		"{'name': 'Tossal Gros', 'place': 'locality'}"
+"Tossal Rodó"	"Tossal Rodó"							"node"	"1242127431"		"{'name': 'Tossal Rodó', 'place': 'locality'}"

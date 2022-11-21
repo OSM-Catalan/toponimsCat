@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Fuster"	"Cal Fuster"							"node"	"3336641117"		"{'addr:housenumber': '41', 'addr:street': 'Carrer Joan XXIII', 'entrance': 'main', 'name': 'Cal Fuster'}"
+"Camp de la U.E. La Palma"	"Camp de la U.E. La Palma"							"way"	"130426877"		"{'leisure': 'pitch', 'name': 'Camp de la U.E. La Palma', 'phone': '+34 936720186', 'sport': 'soccer', 'start_date': '2011', 'surface': 'artificial_turf'}"
+"Escola d'educació canina El Caliu"	"Escola d'educació canina El Caliu"							"way"	"156882463"		"{'addr:city': 'La Palma de Cervelló', 'addr:postcode': '08756', 'addr:street': 'Masia de Can Via', 'barrier': 'fence', 'craft': 'dogs_education', 'email': 'elcaliu@elcaliu.es', 'leisure': 'dog_park', 'name': \"Escola d'educació canina El Caliu\", 'phone': '+34 93656924219', 'website': 'www.elcaliu.es'}"
+"Escola El Solell"	"Escola El Solell"			"Escola El Solell"		"Catalonia school"	"Q111338586"	"way"	"327170987"		"{'amenity': 'school', 'name': 'Escola El Solell', 'phone': '+34 936720150', 'ref': '8016264', 'website': 'http://escolaelsolell.cat/', 'wheelchair': 'yes', 'wikidata': 'Q111338586'}"

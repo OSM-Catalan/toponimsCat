@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Marrà"	"Cal Marrà"							"way"	"627019803"		"{'building': 'yes', 'name': 'Cal Marrà'}"
+"Camp de futbol"	"Camp de futbol"							"way"	"596467793"		"{'leisure': 'pitch', 'name': 'Camp de futbol', 'sport': 'soccer', 'surface': 'grass'}"
+"Coma de Granollers"	"Coma de Granollers"							"node"	"1241590611"		"{'name': 'Coma de Granollers', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Coma del Catllar"	"Coma del Catllar"							"node"	"1241600728"		"{'name': 'Coma del Catllar', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

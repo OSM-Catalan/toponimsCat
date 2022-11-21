@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Cabrer"	"Cal Cabrer"							"node"	"1002492093"		"{'name': 'Cal Cabrer', 'shop': 'butcher'}"
+"Cal Rovellat"	"Cal Rovellat"							"way"	"86326994"		"{'building': 'yes', 'name': 'Cal Rovellat'}"
+"Camp Municipal"	"Camp Municipal"							"way"	"86492348"		"{'leisure': 'pitch', 'name': 'Camp Municipal', 'source': 'PNOA', 'sport': 'soccer'}"

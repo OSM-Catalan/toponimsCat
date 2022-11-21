@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Curt"	"Cal Curt"							"node"	"6815492585"		"{'name': 'Cal Curt', 'tourism': 'hostel'}"
+"Camp d'en Batista"	"Camp d'en Batista"							"node"	"1241557021"		"{'name': \"Camp d'en Batista\", 'place': 'locality'}"
+"Escola Vallmanya"	"Escola Vallmanya"			"Escola Vallmanya"		"Catalonia school"	"Q111338822"	"way"	"240285623"		"{'addr:city': 'Sant Esteve de Palautordera', 'addr:housenumber': '6', 'addr:postcode': '08461', 'addr:street': 'Carrer Francesc Macià', 'amenity': 'school', 'name': 'Escola Vallmanya', 'ref': '8026117', 'wikidata': 'Q111338822'}"

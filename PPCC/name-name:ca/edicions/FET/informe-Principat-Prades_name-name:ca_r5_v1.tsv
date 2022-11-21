@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"barranc de l'Aragonesa"	"barranc de l'Aragonesa"							"way"	"1021104186"		"{'intermittent': 'yes', 'name': \"barranc de l'Aragonesa\", 'waterway': 'stream'}"
+"barranc del Rebollar"	"barranc del Rebollar"							"way"	"1021104185"		"{'intermittent': 'yes', 'name': 'barranc del Rebollar', 'waterway': 'stream'}"
+"barranc dels Rancs"	"barranc dels Rancs"							"way"	"1021104184"		"{'intermittent': 'yes', 'name': 'barranc dels Rancs', 'waterway': 'stream'}"
+"font de Mas d'en Pagès"	"font de Mas d'en Pagès"							"node"	"4213399955"		"{'name': \"font de Mas d'en Pagès\", 'natural': 'spring'}"

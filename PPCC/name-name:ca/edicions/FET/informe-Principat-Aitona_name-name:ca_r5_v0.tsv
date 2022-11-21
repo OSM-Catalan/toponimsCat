@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Llanut"	"Cal Llanut"							"way"	"1111801233"		"{'addr:city': 'Aitona', 'addr:housenumber': '32', 'addr:postcode': '25182', 'addr:street': 'Carrer del Portal', 'building': 'house', 'building:levels': '3', 'name': 'Cal Llanut', 'source': 'local knowledge'}"
+"Camp de Futbol Municipal"	"Camp de Futbol Municipal"							"way"	"42418355"		"{'leisure': 'pitch', 'name': 'Camp de Futbol Municipal', 'sport': 'soccer'}"
+"Escola Francesc Feliu"	"Escola Francesc Feliu"			"Escola Francesc Feliu"		"Catalonia school"	"Q111308197"	"way"	"1039819686"		"{'amenity': 'school', 'name': 'Escola Francesc Feliu', 'ref': '25000730', 'wikidata': 'Q111308197'}"

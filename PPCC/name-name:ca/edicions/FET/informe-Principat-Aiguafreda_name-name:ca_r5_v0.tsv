@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camp d'Esports"	"Camp d'Esports"							"way"	"232432087"		"{'leisure': 'sports_centre', 'name': \"Camp d'Esports\"}"
+"Camp de futbol"	"Camp de futbol"							"way"	"34178188"		"{'leisure': 'pitch', 'name': 'Camp de futbol', 'sport': 'soccer', 'surface': 'artificial_turf'}"
+"Escola La Muntanya"	"Escola La Muntanya"			"Escola La Muntanya"		"Catalonia school"	"Q111338447"	"node"	"390962222"		"{'amenity': 'school', 'name': 'Escola La Muntanya', 'ref': '8000359', 'wikidata': 'Q111338447'}"

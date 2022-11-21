@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Catí"	"Cal Catí"							"node"	"3802265003"		"{'name': 'Cal Catí', 'place': 'isolated_dwelling'}"
+"Camp de Moles"	"Camp de Moles"							"node"	"1241668511"		"{'name': 'Camp de Moles', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Tossal dels Perellons"	"Tossal dels Perellons"							"node"	"7658287790"		"{'ele': '413.0', 'name': 'Tossal dels Perellons', 'natural': 'peak', 'source': 'Institut Cartogràfic i Geològic de Catalunya'}"
+"Tossal Julià"	"Tossal Julià"							"node"	"1241674841"		"{'name': 'Tossal Julià', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

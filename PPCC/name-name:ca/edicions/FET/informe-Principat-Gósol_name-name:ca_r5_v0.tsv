@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Paraire"	"Cal Paraire"							"node"	"9742918925"		"{'amenity': 'restaurant', 'cuisine': 'regional', 'name': 'Cal Paraire'}"
+"Cal Tinent"	"Cal Tinent"							"node"	"9742918921"		"{'name': 'Cal Tinent', 'tourism': 'guest_house'}"
+"Coma de Mi"	"Coma de Mi"							"node"	"7328968849"		"{'name': 'Coma de Mi', 'place': 'locality'}"
+"Coma dels Caners"	"Coma dels Caners"							"node"	"3980028858"		"{'name': 'Coma dels Caners', 'place': 'locality'}"
+"Obaga de la Font dels Cóms"	"Obaga de la Font dels Cóms"							"node"	"7132894256"		"{'name': 'Obaga de la Font dels Cóms', 'place': 'locality'}"
+"Tossal de Gósol"	"Tossal de Gósol"							"node"	"2365763936"		"{'ele': '1487', 'name': 'Tossal de Gósol', 'natural': 'peak', 'source': 'Institut Cartogràfic de Catalunya'}"

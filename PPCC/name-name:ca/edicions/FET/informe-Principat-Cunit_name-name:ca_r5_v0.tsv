@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Baró"	"Cal Baró"							"way"	"734189673"		"{'building': 'yes', 'name': 'Cal Baró', 'tourism': 'attraction'}"
+"Cal Jover"	"Cal Jover"							"node"	"2434378557"		"{'name': 'Cal Jover', 'place': 'isolated_dwelling'}"
+"Cal Pla"	"Cal Pla"							"way"	"815874176"		"{'area': 'yes', 'name': 'Cal Pla', 'tourism': 'attraction'}"
+"Camp de Tir"	"Camp de Tir"							"node"	"2434378573"		"{'name': 'Camp de Tir', 'place': 'locality'}"
+"Camp Municipal de Cunit"	"Camp Municipal de Cunit"							"way"	"203165594"		"{'leisure': 'pitch', 'name': 'Camp Municipal de Cunit', 'sport': 'soccer'}"
+"Escola Els Cossetans"	"Escola Els Cossetans"			"Escola Els Cossetans"		"Catalonia school"	"Q111309818"	"way"	"234984003"		"{'amenity': 'school', 'name': 'Escola Els Cossetans', 'ref': '43010815', 'wikidata': 'Q111309818'}"

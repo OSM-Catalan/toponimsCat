@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"coll de la Tanca Nova"	"coll de la Tanca Nova"							"node"	"7279326374"		"{'ele': '458', 'name': 'coll de la Tanca Nova', 'natural': 'saddle'}"
+"coll de sa Bastida"	"coll de sa Bastida"							"node"	"8827030370"		"{'ele': '517', 'name': 'coll de sa Bastida', 'natural': 'saddle'}"
+"font dels Polls"	"font dels Polls"							"way"	"737551536"		"{'name': 'font dels Polls', 'natural': 'water', 'water': 'pond'}"
+"puig de sa Comuna"	"puig de sa Comuna"							"node"	"8328561968"		"{'name': 'puig de sa Comuna', 'natural': 'peak'}"
+"torrent de na Marranxa"	"torrent de na Marranxa"							"way"	"265072148"		"{'intermittent': 'yes', 'name': 'torrent de na Marranxa', 'waterway': 'stream'}"

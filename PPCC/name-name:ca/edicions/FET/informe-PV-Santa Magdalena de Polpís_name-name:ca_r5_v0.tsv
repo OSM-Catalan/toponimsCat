@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Barranc del Cara-sol"	"Barranc del Cara-sol"							"way"	"647050955"		"{'intermittent': 'yes', 'name': 'Barranc del Cara-sol', 'waterway': 'stream'}"
+"Barranc del Castell"	"Barranc del Castell"							"way"	"902696519"		"{'intermittent': 'yes', 'name': 'Barranc del Castell', 'waterway': 'stream'}"
+"Barranc del Pou del Roure"	"Barranc del Pou del Roure"							"way"	"957073452"		"{'intermittent': 'yes', 'name': 'Barranc del Pou del Roure', 'waterway': 'drain'}"
+"Barranc del Sastre"	"Barranc del Sastre"							"node"	"1243244212"		"{'name': 'Barranc del Sastre', 'place': 'locality'}"

@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camp de futbol"	"Camp de futbol"							"way"	"671232142"		"{'leisure': 'pitch', 'name': 'Camp de futbol', 'sport': 'soccer'}"
+"Coma de la Creu"	"Coma de la Creu"							"node"	"1241668649"		"{'name': 'Coma de la Creu', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Tossal del Negret"	"Tossal del Negret"							"node"	"1241693976"		"{'name': 'Tossal del Negret', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Tossal del Pujal Gros"	"Tossal del Pujal Gros"							"node"	"2492621872"		"{'ele': '522.8', 'name': 'Tossal del Pujal Gros', 'natural': 'peak', 'source': 'Institut Cartogràfic de Catalunya'}"

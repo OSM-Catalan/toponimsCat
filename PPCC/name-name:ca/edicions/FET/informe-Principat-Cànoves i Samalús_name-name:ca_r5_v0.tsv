@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Messeguer"	"Cal Messeguer"							"way"	"844008468"		"{'building': 'yes', 'name': 'Cal Messeguer'}"
+"Carena del Castellar"	"Carena del Castellar"							"node"	"1241550160"		"{'name': 'Carena del Castellar', 'place': 'locality'}"
+"Carena del Pi"	"Carena del Pi"							"node"	"1241553847"		"{'name': 'Carena del Pi', 'place': 'locality'}"
+"Escola l'Estelada"	"Escola l'Estelada"			"Escola l'Estelada"		"Catalonia school"	"Q111338560"	"way"	"52248505"		"{'amenity': 'school', 'name': \"Escola l'Estelada\", 'ref': '8015375', 'wikidata': 'Q111338560'}"

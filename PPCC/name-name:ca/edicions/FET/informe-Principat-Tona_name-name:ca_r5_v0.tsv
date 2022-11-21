@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camp de les Lloses"	"Camp de les Lloses"							"node"	"2391636569"		"{'historic': 'archaeological_site', 'name': 'Camp de les Lloses'}"
+"Escola Bressol Pa amb Xocolata"	"Escola Bressol Pa amb Xocolata"							"way"	"1040252644"		"{'amenity': 'kindergarten', 'name': 'Escola Bressol Pa amb Xocolata', 'ref': '8067491'}"
+"Escola d'Hostaleria d'Osona"	"Escola d'Hostaleria d'Osona"							"way"	"355147806"		"{'amenity': 'school', 'name': \"Escola d'Hostaleria d'Osona\"}"
+"Escola d'Hostaleria d'Osona"	"Escola d'Hostaleria d'Osona"							"node"	"3032123148"		"{'building': 'school', 'name': \"Escola d'Hostaleria d'Osona\"}"
+"Escola L'Era de Dalt"	"Escola L'Era de Dalt"			"Escola L'Era de Dalt"		"Catalonia school"	"Q111338933"	"way"	"299861454"		"{'addr:city': 'Tona', 'addr:housenumber': '5', 'addr:postcode': '08551', 'addr:street': 'Carrer Andreu Molera', 'amenity': 'school', 'name': \"Escola L'Era de Dalt\", 'ref': '8030421', 'wikidata': 'Q111338933'}"
+"Escola Municipal de Música de Tona"	"Escola Municipal de Música de Tona"							"node"	"3045357041"		"{'amenity': 'school', 'name': 'Escola Municipal de Música de Tona', 'ref': '8070431'}"

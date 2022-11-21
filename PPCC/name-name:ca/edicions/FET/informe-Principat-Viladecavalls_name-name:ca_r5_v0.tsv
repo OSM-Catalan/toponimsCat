@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camp de Futbol Municipal"	"Camp de Futbol Municipal"							"way"	"217640806"		"{'leisure': 'pitch', 'name': 'Camp de Futbol Municipal', 'sport': 'soccer'}"
+"Carena del Pèlec"	"Carena del Pèlec"							"way"	"516434810"		"{'ele': '290', 'name': 'Carena del Pèlec', 'natural': 'ridge'}"
+"Escola de Música Municipal Pau Casals"	"Escola de Música Municipal Pau Casals"							"way"	"486818664"		"{'addr:city': 'Viladecavalls', 'addr:postcode': '08232', 'addr:street': 'Carrer de Pau Claris', 'amenity': 'school', 'building': 'school', 'building:levels': '2', 'name': 'Escola de Música Municipal Pau Casals', 'ref': '8072413'}"
+"Escola Rosella"	"Escola Rosella"			"Escola Rosella"		"Catalonia school"	"Q111338952"	"way"	"486815160"		"{'addr:city': 'Viladecavalls', 'addr:postcode': '08232', 'addr:street': 'Carrer de Prat de la Riba', 'amenity': 'school', 'name': 'Escola Rosella', 'ref': '8031061', 'wikidata': 'Q111338952'}"

@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camp de futbol municipal d'herba artificial"	"Camp de futbol municipal d'herba artificial"							"way"	"150113740"		"{'leisure': 'pitch', 'name': \"Camp de futbol municipal d'herba artificial\", 'sport': 'soccer'}"
+"Camp de futbol municipal de sorra"	"Camp de futbol municipal de sorra"							"way"	"150113738"		"{'leisure': 'pitch', 'name': 'Camp de futbol municipal de sorra', 'sport': 'soccer'}"
+"Escola Canigó"	"Escola Canigó"			"Escola Canigó"		"Catalonia school"	"Q111338976"	"node"	"318788077"		"{'amenity': 'school', 'name': 'Escola Canigó', 'ref': '8032580', 'wikidata': 'Q111338976'}"
+"Escola de Formació Professional Antoni Algueró"	"Escola de Formació Professional Antoni Algueró"			"Centre educatiu privat Antoni Algueró"		"private educational institution in Catalonia"	"Q111595664"	"way"	"587840499"		"{'amenity': 'school', 'building': 'school', 'building:levels': '2', 'name': 'Escola de Formació Professional Antoni Algueró', 'ref': '8054149', 'wikidata': 'Q111595664'}"
+"Escola Montseny"	"Escola Montseny"			"Escola Montseny"		"Catalonia school"	"Q111339160"	"way"	"150852504"		"{'amenity': 'school', 'name': 'Escola Montseny', 'ref': '8041556', 'wikidata': 'Q111339160'}"

@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camp de vol de Palafolls"	"Camp de vol de Palafolls"							"way"	"292156535"	"name:es=Campo de Vuelo de Palafolls"	"{'addr:city': 'Palafolls', 'addr:postcode': '08389', 'addr:street': 'Carretera de Tordera a Palafolls', 'aeroway': 'aerodrome', 'name': 'Camp de vol de Palafolls', 'name:es': 'Campo de Vuelo de Palafolls', 'phone': '+34 649333674', 'website': 'http://prair.com/'}"
+"Escola Les Ferreries de Palafolls"	"Escola Les Ferreries de Palafolls"			"Escola Les Ferreries de Palafolls"		"Catalonia school"	"Q111338736"	"way"	"1015090386"		"{'amenity': 'school', 'name': 'Escola Les Ferreries de Palafolls', 'ref': '8022598', 'wikidata': 'Q111338736'}"
+"Escola Mas Prats"	"Escola Mas Prats"			"Escola Mas Prats"		"Catalonia school"	"Q111339323"	"way"	"1015090387"		"{'amenity': 'school', 'name': 'Escola Mas Prats', 'ref': '8060423', 'wikidata': 'Q111339323'}"

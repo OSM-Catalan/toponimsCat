@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camp de Futbol Joan Serra"	"Camp de Futbol Joan Serra"							"way"	"231156829"		"{'addr:postcode': '08550', 'leisure': 'sports_centre', 'name': 'Camp de Futbol Joan Serra', 'sport': 'soccer'}"
+"Escola Joan XXIII"	"Escola Joan XXIII"							"node"	"3086776077"		"{'addr:street': 'Carrer Escoles', 'amenity': 'school', 'name': 'Escola Joan XXIII', 'phone': '+34 938 898 304', 'ref': '8001534', 'website': 'https://blocs.xtec.cat/escolaj23balenya/'}"
+"Santuari de la Mare de Déu de l'Ajuda"	"Santuari de la Mare de Déu de l'Ajuda"							"way"	"1036336543"		"{'amenity': 'place_of_worship', 'building': 'yes', 'denomination': 'catholic', 'name': \"Santuari de la Mare de Déu de l'Ajuda\", 'religion': 'christian'}"

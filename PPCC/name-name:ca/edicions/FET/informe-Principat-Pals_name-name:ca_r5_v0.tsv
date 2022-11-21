@@ -1,0 +1,4 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camp Bregat"	"Camp Bregat"							"node"	"1241586959"		"{'name': 'Camp Bregat', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Camp de futbol Pere Servià Cantó"	"Camp de futbol Pere Servià Cantó"							"way"	"347942395"		"{'leisure': 'pitch', 'name': 'Camp de futbol Pere Servià Cantó', 'sport': 'soccer'}"

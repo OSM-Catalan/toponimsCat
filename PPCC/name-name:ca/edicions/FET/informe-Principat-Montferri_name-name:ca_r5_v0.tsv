@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Cinto"	"Cal Cinto"							"node"	"7096152231"		"{'name': 'Cal Cinto', 'place': 'isolated_dwelling'}"
+"Cal Coll"	"Cal Coll"							"way"	"511531714"		"{'building': 'yes', 'name': 'Cal Coll', 'place': 'isolated_dwelling'}"
+"Camp Figueral"	"Camp Figueral"							"node"	"1241764516"		"{'name': 'Camp Figueral', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Obaga de la Roca Roja"	"Obaga de la Roca Roja"							"node"	"1241771973"		"{'name': 'Obaga de la Roca Roja', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

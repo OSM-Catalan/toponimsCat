@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Barranc d'Ares"	"Barranc d'Ares"							"way"	"898102462"		"{'intermittent': 'yes', 'name': \"Barranc d'Ares\", 'source': 'IGN', 'source:date': '2019/05/22', 'waterway': 'stream'}"
+"Barranc de Tardà"	"Barranc de Tardà"							"way"	"253444532"		"{'intermittent': 'yes', 'name': 'Barranc de Tardà', 'waterway': 'stream'}"
+"Barranc dels Pins"	"Barranc dels Pins"							"way"	"1027125373"		"{'intermittent': 'yes', 'name': 'Barranc dels Pins', 'source': 'IGN', 'source:date': '2019/05/22', 'waterway': 'stream'}"
+"Barranc dels Pins"	"Barranc dels Pins"							"way"	"1027125369"		"{'intermittent': 'yes', 'layer': '-1', 'name': 'Barranc dels Pins', 'source': 'IGN', 'source:date': '2019/05/22', 'tunnel': 'culvert', 'waterway': 'stream'}"
+"Barranc dels Pins"	"Barranc dels Pins"							"way"	"1027125370"		"{'intermittent': 'yes', 'name': 'Barranc dels Pins', 'source': 'IGN', 'source:date': '2019/05/22', 'waterway': 'stream'}"

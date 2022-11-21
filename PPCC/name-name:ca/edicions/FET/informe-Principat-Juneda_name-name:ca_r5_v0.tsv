@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camp Municipal Futbol"	"Camp Municipal Futbol"							"way"	"101028008"		"{'leisure': 'pitch', 'name': 'Camp Municipal Futbol', 'sport': 'soccer', 'surface': 'grass'}"
+"Escola Manuel Ortiz i Castelló"	"Escola Manuel Ortiz i Castelló"			"Escola Manuel Ortiz i Castelló"		"Catalonia school"	"Q111308255"	"way"	"79897203"		"{'amenity': 'school', 'grades': '0-6', 'name': 'Escola Manuel Ortiz i Castelló', 'opening_hours': 'Mo-Fr 09:00-16:30', 'operator': \"Departament d'educació - Generalitat de Catalunya\", 'operator:type': 'public', 'phone': '+34 973 150101', 'preschool': 'yes', 'ref': '25001928', 'religion': 'none', 'website': 'https://agora.xtec.cat/ceip-orca/', 'wikidata': 'Q111308255'}"
+"Escola Municipal de Música"	"Escola Municipal de Música"							"way"	"984805076"		"{'amenity': 'music_school', 'building': 'yes', 'name': 'Escola Municipal de Música', 'phone': '+34973151494'}"
+"Tossal de la Sal"	"Tossal de la Sal"							"node"	"8071676241"		"{'ele': '278.8', 'name': 'Tossal de la Sal', 'natural': 'peak', 'source': 'Institut Cartogràfic i Geològic de Catalunya'}"

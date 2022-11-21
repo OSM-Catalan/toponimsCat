@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Barranc Blanc"	"Barranc Blanc"							"way"	"310900031"		"{'intermittent': 'yes', 'name': 'Barranc Blanc', 'waterway': 'stream'}"
+"Tossal de les Creus"	"Tossal de les Creus"							"node"	"1243372281"		"{'name': 'Tossal de les Creus', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Tossal del Portell"	"Tossal del Portell"							"node"	"1243459090"		"{'name': 'Tossal del Portell', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

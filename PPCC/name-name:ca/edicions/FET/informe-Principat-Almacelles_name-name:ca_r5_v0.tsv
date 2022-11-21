@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camp de futbol"	"Camp de futbol"							"way"	"194625356"		"{'leisure': 'pitch', 'name': 'Camp de futbol', 'sport': 'soccer'}"
+"Escola Antònia Simó Arnó"	"Escola Antònia Simó Arnó"			"Escola Antònia Simó Arnó"		"Catalonia school"	"Q111308182"	"way"	"194625355"	"name:etymology:wikidata=Q112166219"	"{'amenity': 'school', 'name': 'Escola Antònia Simó Arnó', 'name:etymology:wikidata': 'Q112166219', 'ref': '25000341', 'wikidata': 'Q111308182'}"
+"Tossal de l'Ametller"	"Tossal de l'Ametller"							"node"	"1241689754"		"{'name': \"Tossal de l'Ametller\", 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

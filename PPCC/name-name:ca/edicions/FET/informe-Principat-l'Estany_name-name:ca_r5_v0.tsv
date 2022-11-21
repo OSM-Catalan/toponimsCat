@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Rei"	"Cal Rei"							"way"	"1051336507"		"{'building': 'yes', 'name': 'Cal Rei'}"
+"Cal Rodó"	"Cal Rodó"							"way"	"1051336500"		"{'building': 'yes', 'name': 'Cal Rodó'}"
+"Tossal de la Caritat"	"Tossal de la Caritat"							"node"	"948710028"		"{'ele': '1010.40', 'ign:latitud': '41.8757647997358973', 'ign:longitud': '2.1088386251109901', 'ign:red': 'Red Geodesica Nacional Convencional (ROI)', 'man_made': 'survey_point', 'name': 'Tossal de la Caritat', 'note': 'This is a point from an official geodetic network. Use it as a reference, but do NOT move it.', 'ref': '33192', 'source': 'Instituto Geográfico Nacional', 'source:ref': 'ftp://ftp.geodesia.ign.es'}"

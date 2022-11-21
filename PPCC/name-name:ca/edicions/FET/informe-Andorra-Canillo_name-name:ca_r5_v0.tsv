@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Bonavida"	"Cal Bonavida"							"node"	"9955137271"		"{'amenity': 'restaurant', 'name': 'Cal Bonavida', 'website': 'https://www.hotelbonavida.com/en/cal-bonavida-restaurant-andorra'}"
+"Coma de Ransol"	"Coma de Ransol"							"way"	"381180137"	"name:en=La Coma Valley, name:fr=Vallée de La Coma"	"{'amenity': 'parking', 'fee': 'no', 'name': 'Coma de Ransol', 'name:en': 'La Coma Valley', 'name:fr': 'Vallée de La Coma', 'parking': 'surface'}"
+"Escola Andorrana de Canillo"	"Escola Andorrana de Canillo"			"Escoles de Canillo"		"building"	"Q97489548"	"way"	"542627592"		"{'addr:city': 'Canillo', 'building': 'school', 'name': 'Escola Andorrana de Canillo', 'wikidata': 'Q97489548'}"
+"Escola Andorrana de Canillo"	"Escola Andorrana de Canillo"			"Escoles de Canillo"		"building"	"Q97489548"	"way"	"545423936"		"{'addr:city': 'Canillo', 'building': 'school', 'name': 'Escola Andorrana de Canillo', 'wikidata': 'Q97489548'}"
+"Escola Andorrana de Canillo"	"Escola Andorrana de Canillo"							"way"	"542627591"		"{'addr:city': 'Canillo', 'building': 'school', 'name': 'Escola Andorrana de Canillo'}"
+"Santuari vell de Meritxell"	"Santuari vell de Meritxell"			"Santuari vell de Meritxell, santuari vell de Meritxell"	"Santuari vell de Meritxell"	"church building"	"Q11947716"	"way"	"203038860"		"{'addr:city': 'Meritxell', 'amenity': 'place_of_worship', 'building': 'church', 'denomination': 'catholic', 'historic': 'ruins', 'name': 'Santuari vell de Meritxell', 'religion': 'christian', 'wikidata': 'Q11947716', 'wikipedia': 'ca:Santuari vell de Meritxell'}"

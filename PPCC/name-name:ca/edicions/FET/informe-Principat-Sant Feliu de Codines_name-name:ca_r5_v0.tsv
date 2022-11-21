@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cim d'Àligues"	"Cim d'Àligues"							"way"	"342737459"		"{'addr:city': 'Sant Feliu de Codines', 'addr:postcode': '08182', 'addr:street': 'Paratge del Pi Solitari', 'name': \"Cim d'Àligues\", 'nohousenumber': 'yes', 'opening_hours': '12:00-18:00', 'tourism': 'zoo', 'website': 'https://cimdaligues.com/', 'wheelchair': 'yes'}"
+"Escola de Música de Sant Feliu de Codines"	"Escola de Música de Sant Feliu de Codines"							"node"	"6638667055"		"{'amenity': 'music_school', 'name': 'Escola de Música de Sant Feliu de Codines', 'website': 'http://www.emusantfeliu.com'}"
+"Escola Jaume Balmes"	"Escola Jaume Balmes"			"Escola Jaume Balmes"		"Catalonia school"	"Q111338825"	"relation"	"11896572"		"{'amenity': 'school', 'name': 'Escola Jaume Balmes', 'ref': '8026208', 'type': 'multipolygon', 'wikidata': 'Q111338825'}"

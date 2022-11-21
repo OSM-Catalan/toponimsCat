@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camp de futbol"	"Camp de futbol"							"way"	"106576927"		"{'leisure': 'pitch', 'name': 'Camp de futbol', 'sport': 'soccer'}"
+"Escola Bertí"	"Escola Bertí"			"Escola Bertí"		"Catalonia school"	"Q111338439"	"node"	"1212263631"		"{'amenity': 'school', 'name': 'Escola Bertí', 'ref': '8000098', 'wikidata': 'Q111338439'}"
+"Escola Els Cingles"	"Escola Els Cingles"			"Escola Els Cingles"		"Catalonia school"	"Q111339299"	"way"	"719622039"		"{'amenity': 'school', 'name': 'Escola Els Cingles', 'ref': '8057266', 'wikidata': 'Q111339299'}"

@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Fuster"	"Cal Fuster"							"node"	"9923318215"		"{'addr:housenumber': '13', 'addr:street': 'Carrer Comte Tallaferro', 'internet_access': 'yes', 'name': 'Cal Fuster', 'phone': '+34600446276', 'tourism': 'apartment', 'website': 'http://www.calfuster.com/'}"
+"Cal Masover"	"Cal Masover"							"way"	"727283923"		"{'building': 'house', 'name': 'Cal Masover'}"
+"Camp de futbol municipal"	"Camp de futbol municipal"							"way"	"212487776"		"{'leisure': 'pitch', 'name': 'Camp de futbol municipal', 'sport': 'soccer'}"
+"Escola municipal de Música"	"Escola municipal de Música"							"node"	"9108610743"		"{'addr:city': 'Besalú', 'addr:housenumber': '5', 'addr:postcode': '17850', 'addr:street': 'Carrer de la Font', 'amenity': 'music_school', 'name': 'Escola municipal de Música', 'phone': '+34 649 09 02 73', 'website': 'http://www.escolademusicadebesalu.cat'}"

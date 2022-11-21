@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Barranc d'Escurina"	"Barranc d'Escurina"							"way"	"208495256"		"{'highway': 'path', 'name': \"Barranc d'Escurina\", 'sac_scale': 'mountain_hiking', 'surface': 'ground', 'trail_visibility': 'horrible'}"
+"Barranc de la Fusta"	"Barranc de la Fusta"							"way"	"997556190"		"{'intermittent': 'yes', 'name': 'Barranc de la Fusta', 'waterway': 'stream'}"
+"Col·legi Públic Rico Sapena"	"Col·legi Públic Rico Sapena"							"way"	"169854386"		"{'amenity': 'school', 'name': 'Col·legi Públic Rico Sapena'}"

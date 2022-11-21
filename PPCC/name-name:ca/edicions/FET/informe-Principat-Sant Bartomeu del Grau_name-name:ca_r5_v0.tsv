@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Carena de Cantacorbs"	"Carena de Cantacorbs"							"node"	"1241550814"		"{'name': 'Carena de Cantacorbs', 'place': 'locality'}"
+"Carena de Pol"	"Carena de Pol"							"node"	"1241565716"		"{'name': 'Carena de Pol', 'place': 'locality'}"
+"Escola La Monjoia"	"Escola La Monjoia"			"Escola La Monjoia"		"Catalonia school"	"Q111338808"	"way"	"219547327"		"{'addr:housename': 'Escola La Monjoia', 'addr:housenumber': '2', 'addr:street': 'Carrer Tres Creus', 'amenity': 'school', 'name': 'Escola La Monjoia', 'ref': '8025320', 'wikidata': 'Q111338808'}"

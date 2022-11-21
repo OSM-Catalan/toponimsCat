@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Font del Puig"	"Cal Font del Puig"							"way"	"767672641"		"{'building': 'yes', 'building:levels': '2', 'disused:building': 'residential', 'name': 'Cal Font del Puig'}"
+"Escola Les Fonts"	"Escola Les Fonts"			"Escola Les Fonts"		"Catalonia school"	"Q111339375"	"way"	"765979727"	"short_name=CEIP Les Fonts"	"{'amenity': 'school', 'name': 'Escola Les Fonts', 'phone': '+34 937 79 33 34', 'ref': '8062754', 'short_name': 'CEIP Les Fonts', 'wikidata': 'Q111339375'}"
+"Escola Montcau"	"Escola Montcau"			"Escola Montcau"		"Catalonia school"	"Q111338618"	"way"	"766467046"		"{'amenity': 'school', 'name': 'Escola Montcau', 'ref': '8017611', 'wikidata': 'Q111338618'}"
+"Obaga de Can Migrat"	"Obaga de Can Migrat"							"node"	"9283304874"		"{'name': 'Obaga de Can Migrat', 'place': 'locality'}"

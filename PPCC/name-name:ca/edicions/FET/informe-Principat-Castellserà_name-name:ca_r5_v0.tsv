@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Fino"	"Cal Fino"							"node"	"2291431614"		"{'name': 'Cal Fino', 'place': 'isolated_dwelling'}"
+"Camp de futbol"	"Camp de futbol"							"way"	"713956600"		"{'leisure': 'pitch', 'name': 'Camp de futbol', 'sport': 'soccer'}"
+"Coma Barella"	"Coma Barella"							"node"	"1241672513"		"{'name': 'Coma Barella', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

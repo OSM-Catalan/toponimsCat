@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Barranc de la Safor"	"Barranc de la Safor"							"way"	"173326427"		"{'intermittent': 'yes', 'name': 'Barranc de la Safor', 'waterway': 'stream'}"
+"Cim de la Safor"	"Cim de la Safor"					"mountain"	"Q24021991"	"node"	"1249812163"	"official_name=Alt de la Safor"	"{'ele': '1012', 'name': 'Cim de la Safor', 'natural': 'peak', 'official_name': 'Alt de la Safor', 'wikidata': 'Q24021991'}"
+"Tossal de la Caseta de Tarzan"	"Tossal de la Caseta de Tarzan"							"node"	"8423637124"		"{'name': 'Tossal de la Caseta de Tarzan', 'place': 'locality'}"
+"Tossal del Llop"	"Tossal del Llop"							"node"	"8423798467"		"{'name': 'Tossal del Llop', 'place': 'locality'}"
+"Tossal Redó"	"Tossal Redó"							"node"	"1308758402"		"{'name': 'Tossal Redó', 'natural': 'peak', 'note:es': 'Pasado de collado a pico', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

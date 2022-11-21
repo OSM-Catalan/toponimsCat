@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Francesc"	"Cal Francesc"							"way"	"1076585320"		"{'addr:housenumber': '15', 'addr:street': 'Carrer Nou', 'building': 'house', 'name': 'Cal Francesc'}"
+"Cal Sord"	"Cal Sord"							"way"	"815705158"		"{'addr:housenumber': '19', 'addr:street': 'Carrer Major', 'building': 'house', 'name': 'Cal Sord'}"
+"Camp de Tarragona"	"Camp de Tarragona"							"node"	"5239687519"	"name:es=Campo de Tarragona"	"{'name': 'Camp de Tarragona', 'name:es': 'Campo de Tarragona', 'public_transport': 'stop_position', 'railway': 'stop', 'train': 'yes'}"
+"Camp de Tarragona"	"Camp de Tarragona"							"node"	"5239687517"	"name:es=Campo de Tarragona"	"{'name': 'Camp de Tarragona', 'name:es': 'Campo de Tarragona', 'public_transport': 'stop_position', 'railway': 'stop', 'train': 'yes'}"
+"Escola Guillem de Claramunt"	"Escola Guillem de Claramunt"			"Escola Guillem de Claramunt"		"Catalonia school"	"Q111309631"	"way"	"262791924"		"{'amenity': 'school', 'name': 'Escola Guillem de Claramunt', 'ref': '43003082', 'wikidata': 'Q111309631'}"

@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camp de l'Aube"	"Camp de l'Aube"							"way"	"195014667"		"{'leisure': 'pitch', 'name': \"Camp de l'Aube\", 'sport': 'soccer'}"
+"Escola del Parc"	"Escola del Parc"							"way"	"601359511"		"{'name': 'Escola del Parc', 'tourism': 'visior_centre'}"
+"Escola l'Assumpció"	"Escola l'Assumpció"			"Escola L'Assumpció"		"Catalonia school"	"Q111309667"	"way"	"1020496417"		"{'addr:housenumber': '19X', 'addr:street': 'Avinguda de la Pau', 'amenity': 'school', 'catastro:ref': '5711501CF0151S', 'isced:level': '1;2', 'name': \"Escola l'Assumpció\", 'ref': '43004074', 'source': 'catastro', 'source:date': '2014-01', 'wikidata': 'Q111309667'}"
+"Escola Sant Miquel"	"Escola Sant Miquel"			"Escola Sant Miquel"		"Catalonia school"	"Q111309664"	"way"	"299424106"		"{'addr:housenumber': '100', 'addr:street': 'Calle S Miquel', 'amenity': 'school', 'catastro:ref': '8505801CF0180N', 'isced:level': '1;2', 'name': 'Escola Sant Miquel', 'ref': '43004013', 'source': 'catastro', 'source:date': '2014-01', 'wikidata': 'Q111309664'}"

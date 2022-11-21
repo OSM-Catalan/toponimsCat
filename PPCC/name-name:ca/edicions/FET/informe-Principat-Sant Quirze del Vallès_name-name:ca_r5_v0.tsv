@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Escola Bressol El Patufet"	"Escola Bressol El Patufet"							"way"	"1018564866"		"{'amenity': 'kindergarten', 'name': 'Escola Bressol El Patufet', 'ref': '8069335'}"
+"Escola Lola Anglada"	"Escola Lola Anglada"			"Escola Lola Anglada"		"Catalonia school"	"Q111339451"	"way"	"558303077"	"name:etymology:wikidata=Q459343"	"{'amenity': 'school', 'building': 'school', 'name': 'Escola Lola Anglada', 'name:etymology:wikidata': 'Q459343', 'ref': '8067201', 'wikidata': 'Q111339451'}"
+"Escola Onze de Setembre"	"Escola Onze de Setembre"							"way"	"558052887"		"{'amenity': 'school', 'email': 'a8054836@xtec.cat', 'fax': '+34 93 721 67 37', 'name': 'Escola Onze de Setembre', 'opening_hours': 'Mo-Fr 09:00-12:30,15:15-16:45', 'phone': '+34 93 721 66 02', 'ref': '8054836', 'website': 'https://agora.xtec.cat/ceip-onzedesetembre/'}"
+"Escola Taula Rodona"	"Escola Taula Rodona"			"Escola Taula Rodona"		"Catalonia school"	"Q111339324"	"way"	"1018564867"		"{'amenity': 'school', 'name': 'Escola Taula Rodona', 'ref': '8060484', 'wikidata': 'Q111339324'}"

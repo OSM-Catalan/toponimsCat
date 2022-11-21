@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Barranc de les Coves"	"Barranc de les Coves"							"way"	"557690053"		"{'intermittent': 'yes', 'name': 'Barranc de les Coves', 'waterway': 'stream'}"
+"Barranc dels Castanyers"	"Barranc dels Castanyers"							"way"	"557690054"		"{'intermittent': 'yes', 'name': 'Barranc dels Castanyers', 'waterway': 'stream'}"
+"Coma Cassola"	"Coma Cassola"							"node"	"8509813129"		"{'name': 'Coma Cassola', 'place': 'locality'}"
+"Coma d'en Ramon"	"Coma d'en Ramon"							"node"	"1241784250"		"{'name': \"Coma d'en Ramon\", 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

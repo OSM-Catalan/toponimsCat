@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Moliner"	"Cal Moliner"							"node"	"3664596547"		"{'name': 'Cal Moliner', 'place': 'farm'}"
+"Camp de Futbol"	"Camp de Futbol"							"way"	"76964982"		"{'leisure': 'pitch', 'name': 'Camp de Futbol', 'sport': 'soccer'}"
+"Col·legi La Salle i Capella de les Monges"	"Col·legi La Salle i Capella de les Monges"			"Centre educatiu privat La Salle de Cassà"		"private educational institution in Catalonia"	"Q111594919"	"way"	"700336241"		"{'addr:city': 'Cassà de la Selva', 'addr:housenumber': '25', 'addr:postcode': '17244', 'addr:street': 'Carrer Germà Agustí', 'amenity': 'school', 'name': 'Col·legi La Salle i Capella de les Monges', 'ref': '17000858', 'wikidata': 'Q111594919'}"
+"Escola Puig d'Arques"	"Escola Puig d'Arques"			"Escola Puig d'Arques"		"Catalonia school"	"Q111282949"	"way"	"907090800"		"{'amenity': 'school', 'name': \"Escola Puig d'Arques\", 'ref': '17000846', 'wikidata': 'Q111282949'}"

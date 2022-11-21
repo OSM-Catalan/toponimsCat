@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Capità"	"Cal Capità"							"way"	"573243468"		"{'building': 'house', 'name': 'Cal Capità'}"
+"Cal Capità"	"Cal Capità"							"node"	"5506121020"		"{'name': 'Cal Capità', 'place': 'hamlet'}"
+"Cal General"	"Cal General"							"node"	"3641672182"		"{'name': 'Cal General', 'place': 'isolated_dwelling'}"
+"Escola Brianxa"	"Escola Brianxa"			"Centre educatiu privat Brianxa"		"private educational institution in Catalonia"	"Q111595546"	"way"	"477151465"		"{'amenity': 'school', 'building': 'school', 'name': 'Escola Brianxa', 'ref': '8030479', 'wikidata': 'Q111595546'}"
+"Escola La Roureda"	"Escola La Roureda"			"Escola La Roureda"		"Catalonia school"	"Q111339409"	"way"	"477151467"		"{'addr:city': 'Tordera', 'addr:housenumber': 's/n', 'addr:postcode': '08490', 'addr:street': 'Carrer de la Roureda', 'amenity': 'school', 'denomination': 'roman_catholic', 'email': 'a8064222@xtec.cat', 'grades': '3-5, 6-12', 'name': 'Escola La Roureda', 'ref': '8064222', 'religion': 'christian', 'website': 'https://agora.xtec.cat/escola-roureda/', 'wikidata': 'Q111339409'}"

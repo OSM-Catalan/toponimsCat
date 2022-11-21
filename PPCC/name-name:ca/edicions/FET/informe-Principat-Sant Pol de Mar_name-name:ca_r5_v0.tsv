@@ -1,0 +1,6 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Camp de futbol Municipal"	"Camp de futbol Municipal"							"way"	"218616424"		"{'leisure': 'pitch', 'name': 'Camp de futbol Municipal', 'sport': 'soccer'}"
+"Escola Bressol El Pi del Soldat"	"Escola Bressol El Pi del Soldat"							"way"	"1093411412"		"{'amenity': 'kindergarten', 'name': 'Escola Bressol El Pi del Soldat', 'ref': '8067533', 'wheelchair': 'yes'}"
+"Escola Sant Pau"	"Escola Sant Pau"			"Escola Sant Pau"		"Catalonia school"	"Q111338856"	"way"	"702990385"		"{'amenity': 'school', 'name': 'Escola Sant Pau', 'ref': '8027225', 'website': 'https://agora.xtec.cat/escolasantpau/', 'wikidata': 'Q111338856'}"
+"Escola universitària d'hoteleria i turisme"	"Escola universitària d'hoteleria i turisme"	"Hotel-Escola de Sant Pol de Mar"	"Hotel-Escola de Sant Pol de Mar"					"node"	"6742296665"		"{'alt_name': 'Hotel-Escola de Sant Pol de Mar', 'amenity': 'university', 'name': \"Escola universitària d'hoteleria i turisme\", 'website': 'https://santpol.edu.es/ca/'}"

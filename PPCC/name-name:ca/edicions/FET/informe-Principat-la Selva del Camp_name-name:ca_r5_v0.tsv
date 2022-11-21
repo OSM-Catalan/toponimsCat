@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Barranc de la Coma"	"Barranc de la Coma"							"way"	"559517919"		"{'intermittent': 'yes', 'name': 'Barranc de la Coma', 'waterway': 'stream'}"
+"Barranc del Burgar"	"Barranc del Burgar"							"way"	"525130323"		"{'highway': 'track', 'intermittent': 'yes', 'name': 'Barranc del Burgar', 'surface': 'paved'}"
+"Camp de Futbol Municipal"	"Camp de Futbol Municipal"							"way"	"89046410"		"{'leisure': 'pitch', 'name': 'Camp de Futbol Municipal', 'sport': 'soccer'}"
+"Escola Abel Ferrater"	"Escola Abel Ferrater"			"Escola Abel Ferrater"		"Catalonia school"	"Q111309633"	"way"	"191690665"		"{'addr:postcode': '43470', 'addr:street': \"Carrer d'Abel Ferrater\", 'amenity': 'school', 'name': 'Escola Abel Ferrater', 'ref': '43003100', 'wikidata': 'Q111309633'}"
+"Escola de Música Municipal"	"Escola de Música Municipal"							"way"	"194997431"		"{'amenity': 'music_school', 'building': 'school', 'building:levels': '1', 'name': 'Escola de Música Municipal'}"

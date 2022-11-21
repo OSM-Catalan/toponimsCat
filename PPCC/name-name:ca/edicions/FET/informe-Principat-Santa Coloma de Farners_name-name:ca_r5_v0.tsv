@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Xicot"	"Cal Xicot"							"way"	"511786389"		"{'building': 'yes', 'name': 'Cal Xicot'}"
+"Camp de futbol municipal"	"Camp de futbol municipal"							"way"	"183764189"		"{'leisure': 'pitch', 'name': 'Camp de futbol municipal', 'sport': 'soccer'}"
+"Escola Castell de Farners"	"Escola Castell de Farners"			"Escola Castell de Farners"		"Catalonia school"	"Q111283799"	"way"	"181101188"		"{'amenity': 'school', 'name': 'Escola Castell de Farners', 'ref': '17008249', 'wikidata': 'Q111283799'}"
+"Escola de Capacitació Agrària i Forestal Casa Xifra"	"Escola de Capacitació Agrària i Forestal Casa Xifra"			"Escola agrària de Santa Coloma de Farners"		"Catalonia school"	"Q111283746"	"way"	"971061602"		"{'amenity': 'school', 'building': 'school', 'name': 'Escola de Capacitació Agrària i Forestal Casa Xifra', 'ref': '17004992', 'wikidata': 'Q111283746'}"
+"Escola Sant Salvador d'Horta"	"Escola Sant Salvador d'Horta"			"Escola Sant Salvador d'Horta"		"Catalonia school"	"Q111283664"	"relation"	"4831357"	"name:etymology:wikidata=Q1347691"	"{'amenity': 'school', 'name': \"Escola Sant Salvador d'Horta\", 'name:etymology:wikidata': 'Q1347691', 'ref': '17003641', 'type': 'multipolygon', 'wikidata': 'Q111283664'}"

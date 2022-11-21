@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Barranc de Matamoros"	"Barranc de Matamoros"							"way"	"733438189"		"{'intermittent': 'yes', 'name': 'Barranc de Matamoros', 'waterway': 'stream'}"
+"Barranc de Montortal"	"Barranc de Montortal"							"way"	"698786345"		"{'intermittent': 'yes', 'name': 'Barranc de Montortal', 'waterway': 'stream'}"
+"Barranc de Prada"	"Barranc de Prada"							"way"	"698786350"		"{'intermittent': 'yes', 'name': 'Barranc de Prada', 'waterway': 'stream'}"
+"Col·legi d'Educació Infantil i Primària Les Comes"	"Col·legi d'Educació Infantil i Primària Les Comes"							"way"	"679921016"	"name:es=Colegio de Educación Infantil y Primaria Les Comes"	"{'addr:city': \"L'Alcúdia\", 'amenity': 'school', 'name': \"Col·legi d'Educació Infantil i Primària Les Comes\", 'name:es': 'Colegio de Educación Infantil y Primaria Les Comes', 'phone': '+34 962 980 105'}"
+"Col·legi Sant Andreu Apòstol"	"Col·legi Sant Andreu Apòstol"							"way"	"727337488"		"{'amenity': 'school', 'building': 'school', 'building:levels': '4', 'name': 'Col·legi Sant Andreu Apòstol'}"

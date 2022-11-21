@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Barranc de les Fontanelles"	"Barranc de les Fontanelles"							"way"	"926860098"		"{'intermittent': 'yes', 'name': 'Barranc de les Fontanelles', 'seasonal': 'yes', 'waterway': 'stream'}"
+"Tossal Gros"	"Tossal Gros"							"node"	"1243390120"		"{'name': 'Tossal Gros', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Tossal Gros d'en Carros"	"Tossal Gros d'en Carros"							"node"	"2063696074"		"{'ele': '230', 'name': \"Tossal Gros d'en Carros\", 'place': 'hamlet', 'population': '310', 'population:date': '2009', 'ref:ine': '46127000300', 'source': 'Instituto Geográfico Nacional', 'source:date': '2011-06', 'source:ele': 'MDT5', 'source:name': 'Nomenclátor Geográfico de Municipios y Entidades de Población'}"

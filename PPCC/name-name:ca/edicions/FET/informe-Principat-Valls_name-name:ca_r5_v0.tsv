@@ -1,0 +1,8 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Barranc de la Font Major"	"Barranc de la Font Major"							"way"	"767678867"		"{'intermittent': 'yes', 'name': 'Barranc de la Font Major', 'waterway': 'stream'}"
+"Col·legi Cor de Maria"	"Col·legi Cor de Maria"			"Centre educatiu privat Cor de Maria"		"private educational institution in Catalonia"	"Q111594808"	"way"	"886140150"		"{'amenity': 'school', 'name': 'Col·legi Cor de Maria', 'ref': '43004554', 'wikidata': 'Q111594808'}"
+"Coma Fonda"	"Coma Fonda"							"node"	"7232593285"		"{'name': 'Coma Fonda', 'place': 'locality'}"
+"Escola Eladi Homs"	"Escola Eladi Homs"			"Escola Eladi Homs"		"Catalonia school"	"Q111309768"	"node"	"2089241901"		"{'amenity': 'school', 'name': 'Escola Eladi Homs', 'ref': '43006575', 'wikidata': 'Q111309768'}"
+"Escola Eugeni d'Ors"	"Escola Eugeni d'Ors"			"Escola Eugeni d'Ors"		"Catalonia school"	"Q111309680"	"way"	"634296002"		"{'addr:city': 'Valls', 'addr:postcode': '43800', 'amenity': 'school', 'name': \"Escola Eugeni d'Ors\", 'ref': '43004633', 'religion': 'none', 'wikidata': 'Q111309680'}"
+"Escola Mare de Déu de la Candela"	"Escola Mare de Déu de la Candela"			"Escola Mare de Déu de la Candela"		"Catalonia school"	"Q111309678"	"way"	"886143692"		"{'amenity': 'school', 'name': 'Escola Mare de Déu de la Candela', 'ref': '43004529', 'wikidata': 'Q111309678'}"

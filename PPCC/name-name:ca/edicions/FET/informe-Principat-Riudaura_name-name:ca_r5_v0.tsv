@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Cal Menut"	"Cal Menut"							"way"	"1075370509"		"{'building': 'house', 'name': 'Cal Menut'}"
+"Camp de Rodet"	"Camp de Rodet"							"way"	"975013306"		"{'building': 'yes', 'name': 'Camp de Rodet'}"
+"Escola Lluís Castells"	"Escola Lluís Castells"			"Escola Lluís Castells"		"Catalonia school"	"Q111283645"	"way"	"685067248"	"name:etymology:wikidata=Q66762522"	"{'amenity': 'school', 'name': 'Escola Lluís Castells', 'name:etymology:wikidata': 'Q66762522', 'ref': '17003082', 'wikidata': 'Q111283645'}"

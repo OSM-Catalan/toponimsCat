@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Escola Benviure"	"Escola Benviure"			"Escola Benviure"		"Catalonia school"	"Q111339374"	"way"	"682845013"		"{'amenity': 'school', 'building': 'school', 'name': 'Escola Benviure', 'ref': '8062742', 'wikidata': 'Q111339374'}"
+"Escola Mare de Déu de Montserrat"	"Escola Mare de Déu de Montserrat"			"Escola Mare de Déu de Montserrat"		"Catalonia school"	"Q111338570"	"way"	"1020879657"		"{'amenity': 'school', 'name': 'Escola Mare de Déu de Montserrat', 'ref': '8015821', 'wikidata': 'Q111338570'}"
+"Escola Municipal de Música Miquel Blanch"	"Escola Municipal de Música Miquel Blanch"							"way"	"682845011"		"{'amenity': 'music_school', 'building': 'yes', 'name': 'Escola Municipal de Música Miquel Blanch'}"

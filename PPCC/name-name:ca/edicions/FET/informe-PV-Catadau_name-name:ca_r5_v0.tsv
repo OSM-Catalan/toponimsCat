@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Barranc d'Eliseu"	"Barranc d'Eliseu"							"node"	"1243447734"		"{'name': \"Barranc d'Eliseu\", 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Barranc de Negret"	"Barranc de Negret"							"way"	"905233365"		"{'intermittent': 'yes', 'name': 'Barranc de Negret', 'source': 'IGN', 'source:date': '2019/05/22', 'waterway': 'stream'}"
+"Barranc de Sanç"	"Barranc de Sanç"							"node"	"1243380392"		"{'name': 'Barranc de Sanç', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"

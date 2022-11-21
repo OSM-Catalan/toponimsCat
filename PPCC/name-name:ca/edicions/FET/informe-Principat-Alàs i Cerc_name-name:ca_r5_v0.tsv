@@ -1,0 +1,7 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Barranc de la Bastida"	"Barranc de la Bastida"							"way"	"414132932"		"{'name': 'Barranc de la Bastida', 'waterway': 'stream'}"
+"Cal Perot"	"Cal Perot"							"way"	"918030442"		"{'building': 'house', 'name': 'Cal Perot'}"
+"Cal Pubill"	"Cal Pubill"							"way"	"100046708"		"{'building': 'yes', 'name': 'Cal Pubill', 'source': 'PNOA', 'source:date': '2008'}"
+"Obaga de la Pedrosa"	"Obaga de la Pedrosa"							"node"	"1241615437"		"{'name': 'Obaga de la Pedrosa', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
+"Tossal del Lletó"	"Tossal del Lletó"							"node"	"4153272467"		"{'ele': '1631', 'name': 'Tossal del Lletó', 'natural': 'peak'}"

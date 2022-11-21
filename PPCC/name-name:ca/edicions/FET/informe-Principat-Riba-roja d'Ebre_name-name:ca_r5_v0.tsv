@@ -1,0 +1,5 @@
+"# EDITED with R"	""	""	""	""	""	""	""	""	""	""	""
+"name"	"name:ca"	"alt_name"	"alt_name:ca"	"translations"	"ca.wikipedia_page"	"wikidata_type"	"wikidata_id"	"typeOSM"	"idOSM"	"multilang_names"	"all_tags"
+"Barranc de la Vall de Bus"	"Barranc de la Vall de Bus"							"way"	"254346906"		"{'name': 'Barranc de la Vall de Bus', 'waterway': 'stream'}"
+"Barranc de Vall Molla"	"Barranc de Vall Molla"							"way"	"254346791"		"{'name': 'Barranc de Vall Molla', 'waterway': 'stream'}"
+"Obaga de Nulles"	"Obaga de Nulles"							"node"	"1241762222"		"{'name': 'Obaga de Nulles', 'place': 'locality', 'source': 'Instituto Geográfico Nacional', 'source:date': '201011'}"
