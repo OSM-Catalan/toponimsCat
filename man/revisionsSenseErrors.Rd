@@ -7,7 +7,9 @@
 revisionsSenseErrors(
   fitxersRevisions,
   sufix_nou = "_correcte.tsv",
-  LanguageTool = FALSE
+  LanguageTool = FALSE,
+  disabled_rules = c("UPPERCASE_SENTENCE_START", "ESPAI_DARRERE_PUNTICOMA"),
+  cl = 1
 )
 }
 \arguments{
@@ -16,9 +18,11 @@ revisionsSenseErrors(
 \item{sufix_nou}{sufix pels fitxers de revisió nous sense els casos amb errors.}
 
 \item{LanguageTool}{si és \code{TRUE}, cerca errors també amb \code{\link[LanguageToolR]{languagetool}}. Pot ser força lent amb moltes dades.}
+
+\item{disabled_rules}{identificadors de regles de LanguageTool a deshabilitar.}
 }
 \value{
-Camins dels fitxers nous sense els casos en què name:ca o alt_name:ca tenen errors ortogràfics segons el diccionari hunspell.
+Camins dels fitxers nous sense els casos en què \code{name:ca} o \code{alt_name:ca} tenen errors ortogràfics segons el diccionari hunspell (i LanguageTool).
 }
 \description{
 Crea fitxers de revisions descartant els casos amb errors ortogràfics detectats per \code{\link[hunspell]{hunspell}}.
