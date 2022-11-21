@@ -17,7 +17,7 @@ revisionsSenseErrors<- function(fitxersRevisions, sufix_nou="_correcte.tsv",
     stop("La funció revisionsSenseErrors requereix el paquet «hunspell» per la detecció d'errors ortogràfics. Instal·leu el paquet i assegureu-vos que el diccionari català està instal·lat al sistema:\n\tintall.packages(\"hunspell\")", call.=FALSE)
   }
 
-  sapply(fitxersRevisions, function(x){
+  pbapply::pbsapply(fitxersRevisions, function(x){
     message("\nS'està analitzant ", x)
     d<- utils::read.table(x, header=TRUE, sep="\t", quote="\"", check.names=FALSE)
     errors_name.ca<- hunspell::hunspell(as.character(d$`name:ca`), dict=hunspell::dictionary(lang="ca"))
