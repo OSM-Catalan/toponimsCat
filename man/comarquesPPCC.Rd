@@ -20,7 +20,7 @@ Dades de les Comarques dels Països Catalans.
   }
 }
 \seealso{
-  \code{\link{generaInformesPPCC}}
+  \code{\link{generaInformesPPCC}}, \code{\link{PPCC}}, \code{\link{municipis}}, \code{\link{territoris}}.
 }
 \examples{
 comarques[, c("name:ca", "regio", "name")]

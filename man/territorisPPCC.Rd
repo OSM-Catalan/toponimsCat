@@ -18,7 +18,7 @@ Dades dels territoris dels Països Catalans.
   }
 }
 \seealso{
-  \code{\link{generaInformesPPCC}}
+  \code{\link{generaInformesPPCC}}, \code{\link{municipis}}, \code{\link{comarques}}, \code{\link{PPCC}}.
 }
 \examples{
 territoris[, c("regio", "name")]

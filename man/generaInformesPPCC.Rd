@@ -22,7 +22,7 @@ generaInformesPPCC(
 
 \item{sufixFitxers}{text afegir com a sufix al nom dels fitxers dels informes («arrelProjecte/informe-Regio-comarca$sufixFitxer$.tsv»).}
 
-\item{divisions}{\code{data.frame} amb informació de les \code{\link{territoris}}, \code{\link{comarques}} o \code{\link{municipis}}. Per defecte, comarques.}
+\item{divisions}{\code{data.frame} amb informació dels \code{\link{PPCC}}, \code{\link{territoris}}, \code{\link{comarques}} o \code{\link{municipis}}. Per defecte, comarques.}
 
 \item{coordenades}{si és \code{TRUE}, els informes inclouen les columnes \code{latitude} i \code{longitude}. Per defecte, \code{FALSE}.}
 }
@@ -37,7 +37,8 @@ Generar informes per territoris, comarques o municipis dels Països Catalans amb
 \examples{
 ordres<- generaInformesPPCC(arrelProjecte="PPCC/calle-carrer",
                             filtre="nwr[name~'^[Cc]alle'][!'name:ca']",
-                            sufixFitxers="_name-calle")
+                            sufixFitxers="_name-calle",
+                            divisions=comarques[!comarques$regio \%in\% c("CatNord", "Sardenya"), ])
 \dontrun{
 # Crida les ordres de LantToolsOSM (cal que estigui instal·lat a l'entorn Python configurat a R)
   for (i in 1:length(cmd)){

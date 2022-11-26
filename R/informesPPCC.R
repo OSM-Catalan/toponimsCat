@@ -6,7 +6,7 @@
 #' @param filtre filtre d'etiquetes d'objectes d'OSM per la consulta d'Overpass.
 #' @param actualitzaInformes si és \code{TRUE} i ja existeix el fitxer d'informe, el mou a la carpeta «ANTIC».
 #' @param sufixFitxers text afegir com a sufix al nom dels fitxers dels informes («arrelProjecte/informe-Regio-comarca$sufixFitxer$.tsv»).
-#' @param divisions \code{data.frame} amb informació de les \code{\link{territoris}}, \code{\link{comarques}} o \code{\link{municipis}}. Per defecte, comarques.
+#' @param divisions \code{data.frame} amb informació dels \code{\link{PPCC}}, \code{\link{territoris}}, \code{\link{comarques}} o \code{\link{municipis}}. Per defecte, comarques.
 #' @param coordenades si és \code{TRUE}, els informes inclouen les columnes \code{latitude} i \code{longitude}. Per defecte, \code{FALSE}.
 #'
 #' @return Retorna la taula de les divisions amb els nous camps \code{cmd}, que conté l'ordre per generar els informes amb
@@ -17,7 +17,8 @@
 #' @examples
 #' ordres<- generaInformesPPCC(arrelProjecte="PPCC/calle-carrer",
 #'                             filtre="nwr[name~'^[Cc]alle'][!'name:ca']",
-#'                             sufixFitxers="_name-calle")
+#'                             sufixFitxers="_name-calle",
+#'                             divisions=comarques[!comarques$regio %in% c("CatNord", "Sardenya"), ])
 #' \dontrun{
 #' # Crida les ordres de LantToolsOSM (cal que estigui instal·lat a l'entorn Python configurat a R)
 #'   for (i in 1:length(cmd)){
@@ -31,8 +32,13 @@ generaInformesPPCC<- function(arrelProjecte, filtre, actualitzaInformes=FALSE,
   for (i in 1:nrow(divisions)){
     if ("admin_level" %in% names(divisions)){
       fitxerInforme<- paste0("informe-", divisions$regio[i], "-", divisions$`name:ca`[i], sufixFitxers, ".tsv")
-    } else {  ## territoris dels Països Catalans
+    } else if ("regio" %in% names(divisions)){  ## territoris dels Països Catalans
       fitxerInforme<- paste0("informe-", divisions$regio[i], sufixFitxers, ".tsv")
+    } else if (nrow(divisions) == 1){ # PPCC
+      fitxerInforme<- paste0("informe-PPCC", sufixFitxers, ".tsv")
+    } else{
+      warning("Divisió desconeguda. Corregiu «R/informesPPCC.R».")
+      fitxerInforme<- paste0("informe-", divisions$`name:ca`[i], sufixFitxers, ".tsv")
     }
     divisions$informe[i]<- file.path(arrelProjecte, "informes", fitxerInforme)
 

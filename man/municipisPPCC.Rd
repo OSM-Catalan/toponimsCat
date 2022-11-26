@@ -22,7 +22,7 @@ Alguns noms de municipis tenen duplicats. Per construir noms únics (p. ex. per 
   }
 }
 \seealso{
-  \code{\link{generaInformesPPCC}}
+  \code{\link{generaInformesPPCC}}, \code{\link{PPCC}}, \code{\link{comarques}}, \code{\link{territoris}}.
 }
 \examples{
 municipis[, c("name:ca", "regio", "name")]
