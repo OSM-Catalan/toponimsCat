@@ -1,28 +1,105 @@
 library(toponimsCat)
+library(pbapply)
 
 ## Copia name -> name:ca per valors inequivocament catalans
 
 arrelProjecte<- "PPCC/name-name:ca"
 actualitzaInformes<- FALSE # actualitzaInformes<- TRUE ## TODO: unificar parametre a generaInforme i generaInformesPPCC
-# TODO: "El Carrerou", "Le Carrerou, "La Carrerade", "La Carrerada" Clos Escala Pas Port Rambla Ronda Ruta + plurals
+cerca<- ""
+substitueix<- ""
+revisioUnificada<- TRUE
+cl<- 40
+
+
+## Cerca tasques ----
+territoris<- generaInformesPPCC(arrelProjecte=arrelProjecte, filtre="nwr[name][!'name:ca']",
+                                actualitzaInformes=actualitzaInformes, sufixFitxers="_cercaTasques",
+                                divisions=toponimsCat::territoris)
+## Executa les ordres
+sel<- which(territoris$cmd != "")
+territoris$name[sel]
+
+pb<- timerProgressBar(max=length(sel))
+for (i in 1:length(sel)){
+  message("\n", i, " / ", length(sel), "\t", territoris$name[sel[i]])
+  system(territoris$cmd[sel[i]])
+  setTimerProgressBar(pb, i)
+}
+close(pb)
+## Si hi ha errors (eg. overpass va massa enfeinat i no respon), torneu a correr la secció amb
+actualitzaInformes<- FALSE
+
+
+## Genera base de dades amb la primera paraula de name
+fitxers<- dir(paste0(arrelProjecte, "/informes"), "_cercaTasques.tsv$", full.names=TRUE)
+genericsL<- lapply(fitxers, function(x){
+  d<- read.table(x, header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE)
+  names<- grep("\"", d$name, value=TRUE, invert=TRUE) # TODO: omet noms que contenen cometes pq són problemàtics amb fitxers.csv
+  generics<- sapply(strsplit(names, " "), function(y) y[1])
+})
+generics<- unique(do.call(c, genericsL))
+nGenerics<- sort(table(generics), decreasing=TRUE)
+bd<- data.frame(generic=names(nGenerics), n=as.numeric(nGenerics), catala=FALSE, castella=FALSE, frances=FALSE, italia=FALSE, stringsAsFactors=FALSE)
+
+cat_correccio<- hunspell::hunspell(bd$generic, dict=hunspell::dictionary(lang="ca"))
+bd$catala<- sapply(cat_correccio, length) == 0
+
+es_correccio<- hunspell::hunspell(bd$generic, dict=hunspell::dictionary(lang="es_ES"))
+bd$castella<- sapply(es_correccio, length) == 0
+
+fr_correccio<- hunspell::hunspell(bd$generic, dict=hunspell::dictionary(lang="fr"))
+bd$frances<- sapply(fr_correccio, length) == 0
+
+it_correccio<- hunspell::hunspell(bd$generic, dict=hunspell::dictionary(lang="it_IT"))
+bd$italia<- sapply(es_correccio, length) == 0
+
+candidats<- bd[bd$catala, ]
+candidats<- candidats[apply(candidats[, c("castella", "frances", "italia")], 1, function(x) !any(x)), ]
+paraula<- candidats$generic[!grepl("\"", candidats$generic)]  # TODO: omet noms que contenen cometes pq són problemàtics amb fitxers.csv
+LT_correccio<- pblapply(paraula, function(x){
+  LanguageToolR::languagetool(x, encoding="utf-8", linebreak_paragraph=FALSE, language="ca", disabled_rules=c("UPPERCASE_SENTENCE_START"),
+                              enabled_rules=c(), enabled_only=FALSE, disabled_categories=c(),
+                              enabled_categories=c(), list_unknown=FALSE, apply=FALSE, quiet=TRUE)
+}, cl=cl)
+LT_correccio_df<- do.call(rbind, LT_correccio[sapply(LT_correccio, nrow) > 0])
+if (!is.null(LT_correccio_df)){
+  utils::write.table(LT_correccio_df, file=paste0(arrelProjecte, "/LanguageToolERRORS-paraulesCat.tsv"), sep="\t", na="", col.names=TRUE, row.names=TRUE)
+}
+
+paraula_LTbo<- paraula[sapply(LT_correccio, nrow) == 0]
+setdiff(paraula, paraula_LTbo) # errors per LanguageTool
+paraula_bo<- paraula_LTbo[grepl("^[0-9a-zàèéíïòóúüç,·-]+$", paraula_LTbo, ignore.case=TRUE)]
+setdiff(paraula_LTbo, paraula_bo) # descartat
+
+filtre<- paste0("nwr[name~'^(", paste(paraula_bo, collapse="|"), ") '][!'name:ca']")
+# save(filtre, paraula, paraula_bo, LT_correccio, bd, file=paste0(arrelProjecte, "/filtre_pendents-PPCC-paraulesCorrectes.RData"), compress="xz")
+load(paste0(arrelProjecte, "/filtre_pendents-PPCC-paraulesCorrectes.RData"), verbose=TRUE)  # filtre paraula paraula_bo LT_correccio bd
+
+# TODO: Clot"El Carrerou", "Le Carrerou, "La Carrerade", "La Carrerada" Clos Escala Pas Port Rambla Ronda Ruta + plurals
 # Veure https://github.com/osm-bzh/osmbr-mapstyle/blob/master/osm_ca.yml per objectes prioritaris a traduïr
 # https://osm-catalan.github.io/osmllengcat per veure el què falta
-## ULL VIU!: clos i parc col·lisionen amb el francés. carretera Rambla Ribera Ronda Ruta Via rotonda col·lisionen amb el castellà.
+## TODO col·lisions amb el francés: clos i parc
+## TODO col·lisionen amb el castellà: carretera |[Cc]atedral cresta Rambla Ribera Riera Ronda Ruta Via rotonda
 # FET
 # filtre<- "nwr[name~'^([Aa]vinguda|[Cc]arrer|[Cc]amí|[Pp]laça|[Pp]arc) '][!'name:ca']"; sufixFitxers<- "_name-name:ca"
 # filtre<- "nwr[name~'^([Aa]tzucac|[Aa]vinguda|[Cc]amí|[Cc]aminal|[Cc]arreró|[Gg]iratori|[Jj]ardí|[Pp]assatge|[Pp]asseig|[Rr]otonda|[Uu]rbanització|[Vv]oral) '][!'name:ca']"; sufixFitxers<- "_name-name:ca_r1"
 # filtre<- "nwr[name~'^([Aa]juntament|[Aa]tzucac|[Aa]vinguda|[Bb]osc|[Cc]amí|[Cc]aminal|[Cc]arrer|[Cc]arreró|[Cc]astell|[Cc]orrec|[Gg]iratori|[Hh]ort[s]*|[Jj]ardí|[Mm]as|[Pp]alau|[Pp]assatge|[Pp]asseig|[Pp]laça|[Pp]latja|[Pp]olígon]|[Rr]ec|[Rr]iera|[Rr]iu|[Uu]rbanització|[Vv]oral) '][!'name:ca']"; sufixFitxers<- "_name-name:ca_r2"
 # filtre<- "nwr[name~'^([Aa]gulla|[Aa]juntament|[Aa]tzucac|[Aa]vinguda|[Bb]osc|[Cc]amí|[Cc]aminal|[Cc]arrer|[Cc]arreró|[Cc]astell|[Cc]òrrec|[Ee]stany|[Gg]iratori|[Hh]ort[s]*|[Jj]ardí|[Ll]lac|[Mm]as|[Pp]alau|[Pp]assatge|[Pp]asseig|[Pp]la|[Pp]laça|[Pp]latja|[Pp]olígon]|[Rr]ec|[Rr]iu|[Uu]rbanització|[Vv]eïnat|[Vv]oral) '][!'name:ca']"; sufixFitxers<- "_name-name:ca_r3"
 # filtre<- "nwr[name~'^([Aa]gulla|[Aa]juntament|[Aa]tzucac|[Aa]utovia]|[Aa]vinguda|[Bb]osc|[Cc]amí|[Cc]aminal|[Cc]an|[Cc]arrer|[Cc]arreró|[Cc]astell|[Cc]oll|[Cc]ollet|[Cc]òrrec|[Ee]stany|[Ff]ont|[Gg]iratori|[Hh]ort[s]*|[Jj]ardí|[Ll]lac|[Mm]as|[Pp]alau|[Pp]assatge|[Pp]asseig|[Pp]la|[Pp]laça|[Pp]latja|[Pp]olígon]|[Pp]uig|[Rr]ec|[Rr]iu|[Ss]erra|[Ss]errat|[Tt]orrent|[Tt]uró|[Uu]rbanització|[Vv]eïnat|[Vv]oral) '][!'name:ca']"; sufixFitxers<- "_name-name:ca_r4"
+# filtre<- "nwr[name~'^([Aa]gulla|[Aa]juntament|[Aa]tzucac|[Aa]utovia]|[Aa]vinguda|[Bb]arranc|[Bb]osc|[Cc]al|[Cc]amí|[Cc]aminal|[Cc]amp|[Cc]an|[Cc]arena|[Cc]arrer|[Cc]arreró|[Cc]astell|[Cc]im|[Cc]oll|[Cc]ollet|[Cc]ol·legi|[Cc]oma|[Cc]òrrec|[Ee]scola|[Ee]stany|[Ff]ont|[Gg]iratori|[Hh]ort[s]*|[Jj]ardí|[Ll]lac|[Mm]as|[Oo]baga|[Pp]alau|[Pp]assatge|[Pp]asseig|[Pp]la|[Pp]laça|[Pp]latja|[Pp]olígon]|[Pp]uig|[Rr]ec|[Rr]iu|[Ss]antuari|[Ss]èquia|[Ss]erra|[Ss]errat|[Tt]orrent|[Tt]uró|[Tt]ossal|[Uu]rbanització|[Vv]eïnat|[Vv]oral) '][!'name:ca']"; sufixFitxers<- "_name-name:ca_r5"
 # i indica insensible a caixa. Evita [Aa]: nwr[name~'^(Atzucac||Jardí|Mas|Palau|Passatge|Passeig|Platja|Polígon|Riu|Urbanització|Voral) ', i][!'name:ca'](area.searchArea);
 
 # PENDENT;
-filtre<- "nwr[name~'^([Aa]gulla|[Aa]juntament|[Aa]tzucac|[Aa]utovia]|[Aa]vinguda|[Bb]arranc|[Bb]osc|[Cc]al|[Cc]amí|[Cc]aminal|[Cc]amp|[Cc]an|[Cc]arena|[Cc]arrer|[Cc]arreró|[Cc]astell|[Cc]im|[Cc]oll|[Cc]ollet|[Cc]ol·legi|[Cc]oma|[Cc]òrrec|[Ee]scola|[Ee]stany|[Ff]ont|[Gg]iratori|[Hh]ort[s]*|[Jj]ardí|[Ll]lac|[Mm]as|[Oo]baga|[Pp]alau|[Pp]assatge|[Pp]asseig|[Pp]la|[Pp]laça|[Pp]latja|[Pp]olígon]|[Pp]uig|[Rr]ec|[Rr]iu|[Ss]antuari|[Ss]èquia|[Ss]erra|[Ss]errat|[Tt]orrent|[Tt]uró|[Tt]ossal|[Uu]rbanització|[Vv]eïnat|[Vv]oral) '][!'name:ca']"
-sufixFitxers<- "_name-name:ca_r5"
-cerca<- ""
-substitueix<- ""
-revisioUnificada<- TRUE
+# filtre<- "nwr[name~'^([Aa]gulla|[Aa]juntament|[Aa]teneu|[Aa]tzucac|[Aa]utovia]|[Aa]vinguda|[Bb]ac|[Bb]aixada|[Bb]arranc|[Bb]assa|[Bb]osc|[Cc]abana|[Cc]al|[Cc]amí|[Cc]aminal|[Cc]amp|[Cc]an|[Cc]apella|[Cc]arena|[Cc]arrer|[Cc]arreró|[Cc]astell|[Cc]asal|[Cc]im|[Cc]oll|[Cc]ollet|[Cc]ol·legi|[Cc]oma|[Cc]òrrec|[Ee]scola|[Ee]sglésia|[Ee]stany|[Ff]ont|[Ff]orn|[Gg]iratori|[Hh]ort[s]*|[Ii]nstitut|[Jj]ardí|[Ll]lac|[Mm]as|[Mm]ola|[Oo]baga|[Pp]alau|[Pp]assatge|[Pp]asseig|[Pp]enya|[Pp]la|[Pp]laça|[Pp]latja|[Pp]olígon]|[Pp]uig|[Pp]ujada|[Rr]ec|[Rr]efugi|[Rr]iu|[Ss]antuari|[Ss]èquia|[Ss]ot|[Ss]erra|[Ss]errat|[Tt]orrent|[Tt]uró|[Tt]ossal|[Tt]uta|[Uu]niversitat|[Uu]rbanització|[Vv]all|[Vv]eïnat|[Vv]oral) '][!'name:ca']"
+sufixFitxers<- "_name-name:ca"
+load(paste0(arrelProjecte, "/filtre_pendents-PPCC-paraulesCorrectes.RData"), verbose=TRUE)  # filtre paraula LT_correccio bd
 
+paraula_LTbo<- paraula[sapply(LT_correccio, nrow) == 0]
+setdiff(paraula, paraula_LTbo) # errors per LanguageTool
+paraula_bo<- paraula_LTbo[grepl("^[0-9a-zàèéíïòóúüç',·-]+$", paraula_LTbo, ignore.case=TRUE)]
+setdiff(paraula_LTbo, paraula_bo) # descartat
+
+filtre<- paste0("nwr[name~'^(", paste(paraula_bo, collapse="|"), ") '][!'name:ca']")
 
 ## Generar informes pels municipis dels PPCC amb LangToolsOSM ----
 actualitzaInformes<- FALSE # actualitzaInformes<- TRUE
@@ -33,11 +110,13 @@ municipis<- generaInformesPPCC(arrelProjecte=arrelProjecte, filtre=filtre, actua
 sel<- which(municipis$cmd != "")
 municipis$`name:ca`[sel]
 
+pb<- timerProgressBar(max=length(sel))
 for (i in 1:length(sel)){
-  message(i, " / ", length(sel), "\t", municipis[["name:ca"]][sel[i]])
+  message("\n", i, " / ", length(sel), "\t", municipis[["name:ca"]][sel[i]])
   system(municipis$cmd[sel[i]])
+  setTimerProgressBar(pb, i)
 }
-
+close(pb)
 ## Si hi ha errors (eg. overpass va massa enfeinat i no respon), torneu a correr la secció amb
 actualitzaInformes<- FALSE
 
@@ -85,8 +164,10 @@ municipis$revisio[!municipis$regio %in% c("CatNord", "Franja", "Sardenya")]<- ge
 
 
 ## Fitxers amb revisions sense error ortogràfics ----
-revisions_bones<- revisionsSenseErrors(fitxersRevisions=unique(municipis$revisio))
-revisions_bones<- revisionsSenseErrors(fitxersRevisions=unique(municipis$revisio), sufix_nou="_correcte-LT.tsv", LanguageTool=TRUE)
+fitxersRevisions<- dir(paste0(arrelProjecte, "/revisions"), paste0("revisio-UNIFICADA-.+", sufixFitxers, "\\.tsv$"), full.names=TRUE)
+revisions_bones<- revisionsSenseErrors(fitxersRevisions=fitxersRevisions)
+revisions_bones<- revisionsSenseErrors(fitxersRevisions=fitxersRevisions,
+                                       sufix_nou="_correcte-LT.tsv", LanguageTool=TRUE, cl=cl)
 
 ## Revisions duplicades
 duplicats<- attributes(bdRevisions(arrelProjectes=arrelProjecte))$duplicats
@@ -103,15 +184,17 @@ cmd<- na.omit(cmd)
 ## Afegeix paràmetres a les ordres. Veure «update_osm_objects_from_report --help» per les opcions de LangToolsOSM
 nomMunicipi<- gsub(paste0(".+--input-file \\\"", arrelProjecte, "/edicions/informe-[A-z]+-|", sufixFitxers, ".tsv\\\".+"), "", cmd)
 cmd1<- paste0(cmd, " --no-interaction --changeset-hashtags \"#toponimsCat;#name_name:ca\" --changeset-source \"name tag\"", #  --no-interaction
-             " --batch 70 --changeset-comment \"Afegeix name:ca a partir de name per barrancs, escoles, col·legis i tossals a ", nomMunicipi, " (LTv5.9)\"")
+             " --batch 70 --changeset-comment \"Afegeix name:ca a partir de name inconfusiblement en català segons hunspell i LanguageTool a ", nomMunicipi, "\"")
 cat(cmd1, sep="\n")
 
 ## Executa les ordres
-for (i in 1:length(cmd)){
-  message(i, " / ", length(cmd1), "\t", cmd1[i])
+pb<- timerProgressBar(max=length(cmd1))
+for (i in 1:length(cmd1)){
+  message("\n", i, " / ", length(cmd1), "\t", cmd1[i])
   system(cmd1[i])
+  setTimerProgressBar(pb, i)
 }
-
+close(pb)
 
 ## Arxiva els informes dels municipis actualitzades a edicions/FET i actualitza o elimina els informes originals desactualitzats ----
 informesActualitzats<- actualitzaInformesCarregats(arrelProjecte=arrelProjecte, esborraInformesDesactualitzats=TRUE)
