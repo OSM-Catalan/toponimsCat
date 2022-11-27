@@ -30,14 +30,48 @@ close(pb)
 actualitzaInformes<- FALSE
 
 
-## Genera base de dades amb la primera paraula de name
+### Carrega fitxers ----
 fitxers<- dir(paste0(arrelProjecte, "/informes"), "_cercaTasques.tsv$", full.names=TRUE)
-genericsL<- lapply(fitxers, function(x){
+nameL<- lapply(fitxers, function(x){
   d<- read.table(x, header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE)
-  names<- grep("\"", d$name, value=TRUE, invert=TRUE) # TODO: omet noms que contenen cometes pq són problemàtics amb fitxers.csv
-  generics<- sapply(strsplit(names, " "), function(y) y[1])
+  grep("\"", d$name, value=TRUE, invert=TRUE) # TODO: omet noms que contenen cometes pq són problemàtics amb fitxers.csv
 })
-generics<- unique(do.call(c, genericsL))
+names(nameL)<- gsub("^PPCC/name-name:ca/informes/informe-|_cercaTasques.tsv$", "", fitxers)
+nameV<- unlist(nameL)
+sort(table(nameV), decreasing=TRUE)
+
+cat_correccio<- hunspell::hunspell(nameV, dict=hunspell::dictionary(lang="ca"))
+nameCat<- nameV[sapply(cat_correccio, length) == 0]
+nNameCat<- sort(table(nameCat), decreasing=TRUE)
+barplot(nNameCat[nNameCat > 10], decreasing=TRUE)
+summary(as.numeric(nNameCat))
+data.frame(minN=1:50, casos=sapply(1:50, function(x) length(nNameCat[nNameCat > x]))) # n casos > x
+selMinN<- 10
+selNames<- names(nNameCat)[nNameCat > selMinN]
+
+LT_correccio<- pblapply(selNames, function(x){
+  LanguageToolR::languagetool(x, encoding="utf-8", linebreak_paragraph=FALSE, language="ca", disabled_rules=c("UPPERCASE_SENTENCE_START"),
+                              enabled_rules=c(), enabled_only=FALSE, disabled_categories=c(),
+                              enabled_categories=c(), list_unknown=FALSE, apply=FALSE, quiet=TRUE)
+}, cl=cl)
+LT_correccio_df<- do.call(rbind, LT_correccio[sapply(LT_correccio, nrow) > 0])
+if (!is.null(LT_correccio_df)){
+  utils::write.table(LT_correccio_df, file=paste0(arrelProjecte, "/LanguageToolERRORS-selNamesCat.tsv"), sep="\t", na="", col.names=TRUE, row.names=TRUE)
+}
+
+selNames_LTbo<- selNames[sapply(LT_correccio, nrow) == 0]
+setdiff(selNames, selNames_LTbo) # errors per LanguageTool
+selNames_bo<- selNames_LTbo[grepl("^[0-9a-zàèéíïòóúüç,·-]+$", selNames_LTbo, ignore.case=TRUE)]
+setdiff(selNames_LTbo, selNames_bo) # descartat
+
+filtre<- paste0("nwr[name~'^(", paste(selNames_bo, collapse="|"), ")$'][!'name:ca']")
+# save(filtre, selNames, selNames_bo, LT_correccio, file=paste0(arrelProjecte, "/filtre_pendents-PPCC-selNamesCorrectesLT.RData"), compress="xz")
+load(paste0(arrelProjecte, "/filtre_pendents-PPCC-selNamesCorrectesLT.RData"), verbose=TRUE)  # filtre selNames selNames_bo LT_correccio
+
+
+### Genera base de dades amb la primera paraula de name ----
+generics<- sapply(strsplit(nameCat, " "), function(x) x[1])
+
 nGenerics<- sort(table(generics), decreasing=TRUE)
 bd<- data.frame(generic=names(nGenerics), n=as.numeric(nGenerics), catala=FALSE, castella=FALSE, frances=FALSE, italia=FALSE, stringsAsFactors=FALSE)
 
@@ -91,17 +125,37 @@ load(paste0(arrelProjecte, "/filtre_pendents-PPCC-paraulesCorrectes.RData"), ver
 
 # PENDENT;
 # filtre<- "nwr[name~'^([Aa]gulla|[Aa]juntament|[Aa]teneu|[Aa]tzucac|[Aa]utovia]|[Aa]vinguda|[Bb]ac|[Bb]aixada|[Bb]arranc|[Bb]assa|[Bb]osc|[Cc]abana|[Cc]al|[Cc]amí|[Cc]aminal|[Cc]amp|[Cc]an|[Cc]apella|[Cc]arena|[Cc]arrer|[Cc]arreró|[Cc]astell|[Cc]asal|[Cc]im|[Cc]oll|[Cc]ollet|[Cc]ol·legi|[Cc]oma|[Cc]òrrec|[Ee]scola|[Ee]sglésia|[Ee]stany|[Ff]ont|[Ff]orn|[Gg]iratori|[Hh]ort[s]*|[Ii]nstitut|[Jj]ardí|[Ll]lac|[Mm]as|[Mm]ola|[Oo]baga|[Pp]alau|[Pp]assatge|[Pp]asseig|[Pp]enya|[Pp]la|[Pp]laça|[Pp]latja|[Pp]olígon]|[Pp]uig|[Pp]ujada|[Rr]ec|[Rr]efugi|[Rr]iu|[Ss]antuari|[Ss]èquia|[Ss]ot|[Ss]erra|[Ss]errat|[Tt]orrent|[Tt]uró|[Tt]ossal|[Tt]uta|[Uu]niversitat|[Uu]rbanització|[Vv]all|[Vv]eïnat|[Vv]oral) '][!'name:ca']"
-sufixFitxers<- "_name-name:ca"
-load(paste0(arrelProjecte, "/filtre_pendents-PPCC-paraulesCorrectes.RData"), verbose=TRUE)  # filtre paraula LT_correccio bd
 
-paraula_LTbo<- paraula[sapply(LT_correccio, nrow) == 0]
-setdiff(paraula, paraula_LTbo) # errors per LanguageTool
-paraula_bo<- paraula_LTbo[grepl("^[0-9a-zàèéíïòóúüç',·-]+$", paraula_LTbo, ignore.case=TRUE)]
-setdiff(paraula_LTbo, paraula_bo) # descartat
-
-filtre<- paste0("nwr[name~'^(", paste(paraula_bo, collapse="|"), ") '][!'name:ca']")
 
 ## Generar informes pels municipis dels PPCC amb LangToolsOSM ----
+sufixFitxers<- "_name-name:ca"
+# load(paste0(arrelProjecte, "/filtre_pendents-PPCC-paraulesCorrectes.RData"), verbose=TRUE)  # filtre paraula LT_correccio bd
+# paraula_LTbo<- paraula[sapply(LT_correccio, nrow) == 0]
+# setdiff(paraula, paraula_LTbo) # errors per LanguageTool
+# paraula_bo<- paraula_LTbo[grepl("^[0-9a-zàèéíïòóúüç',·-]+$", paraula_LTbo, ignore.case=TRUE)]
+# setdiff(paraula_LTbo, paraula_bo) # descartat
+#
+# filtre<- paste0("nwr[name~'^(", paste(paraula_bo, collapse="|"), ") '][!'name:ca']")
+
+load(paste0(arrelProjecte, "/filtre_pendents-PPCC-selNamesCorrectesLT.RData"), verbose=TRUE)  # filtre selNames selNames_bo LT_correccio
+
+selNamesBD<- data.frame(name=selNames, LT=sapply(LT_correccio, nrow) == 0,
+                        selCaracters=grepl("^[0-9a-zàèéíïòóúüç',· -]+$", selNames, ignore.case=TRUE))
+selNamesBD$seleccionat<- selNamesBD$LT
+write.table(selNamesBD, file=paste0(arrelProjecte, "/candidats_pendents-PPCC-selNamesCorrectesLT.tsv"), sep="\t", na="", col.names=TRUE, row.names=FALSE)
+
+selNamesBD<- read.table(paste0(arrelProjecte, "/candidats_pendents-PPCC-selNamesCorrectesLT_seleccionat.tsv"), header=TRUE, sep="\t", quote="\"", check.names=FALSE)
+
+selNames_bo<- selNamesBD$name[selNamesBD$seleccionat]
+setdiff(selNames, selNames_bo) # descartats
+setdiff(selNames, selNamesBD$name[selNamesBD$selCaracters]) # descartat
+
+# parse error: ',' or ']' expected - 'Ebre' found. .... C-12 Eix de l&quot;
+## TODO: Cal escapar apostrofs. Elimina de moment
+selNames_bo<- grep("'", selNames_bo, value=TRUE, invert=TRUE)
+filtre<- paste0("nwr[name~'^(", paste(selNames_bo, collapse="|"), ")$'][!'name:ca']")
+
+
 actualitzaInformes<- FALSE # actualitzaInformes<- TRUE
 
 municipis<- generaInformesPPCC(arrelProjecte=arrelProjecte, filtre=filtre, actualitzaInformes=actualitzaInformes, sufixFitxers=sufixFitxers, divisions=toponimsCat::municipis)
@@ -184,7 +238,7 @@ cmd<- na.omit(cmd)
 ## Afegeix paràmetres a les ordres. Veure «update_osm_objects_from_report --help» per les opcions de LangToolsOSM
 nomMunicipi<- gsub(paste0(".+--input-file \\\"", arrelProjecte, "/edicions/informe-[A-z]+-|", sufixFitxers, ".tsv\\\".+"), "", cmd)
 cmd1<- paste0(cmd, " --no-interaction --changeset-hashtags \"#toponimsCat;#name_name:ca\" --changeset-source \"name tag\"", #  --no-interaction
-             " --batch 70 --changeset-comment \"Afegeix name:ca a partir de name inconfusiblement en català segons hunspell i LanguageTool a ", nomMunicipi, "\"")
+             " --batch 70 --changeset-comment \"Afegeix name:ca a partir de name en català segons hunspell, LanguageTool i revisió humana a ", nomMunicipi, "\"")
 cat(cmd1, sep="\n")
 
 ## Executa les ordres
