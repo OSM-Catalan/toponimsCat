@@ -21,8 +21,8 @@ les dades a OpenstreetMap, cal instal·lar
 | [PPCC/avenida-avinguda/casos_comarques.csv](https://github.com/OSM-Catalan/toponimsCat/blob/main/PPCC/avenida-avinguda/casos_comarques.csv)       |     2510 |       709 |                            2 |                             2 |              947 |                227 |                                    0 |                                      0 |
 | [PPCC/calle-carrer/casos_comarques.csv](https://github.com/OSM-Catalan/toponimsCat/blob/main/PPCC/calle-carrer/casos_comarques.csv)               |     6306 |      4096 |                            0 |                             0 |            12461 |               7393 |                                    0 |                                      0 |
 | [PPCC/camino-camí/casos_comarques.csv](https://github.com/OSM-Catalan/toponimsCat/blob/main/PPCC/camino-camí/casos_comarques.csv)                 |     1960 |       882 |                            0 |                             0 |              101 |                 61 |                                    0 |                                      0 |
-| [PPCC/correccions-name:ca/casos_comarques.csv](https://github.com/OSM-Catalan/toponimsCat/blob/main/PPCC/correccions-name:ca/casos_comarques.csv) |       11 |         7 |                            0 |                             0 |               55 |                 42 |                                    0 |                                      0 |
-| [PPCC/name-name:ca/casos_municipis.csv](https://github.com/OSM-Catalan/toponimsCat/blob/main/PPCC/name-name:ca/casos_municipis.csv)               |      465 |       285 |                            0 |                             0 |           296063 |             143491 |                                  890 |                                    223 |
+| [PPCC/correccions-name:ca/casos_comarques.csv](https://github.com/OSM-Catalan/toponimsCat/blob/main/PPCC/correccions-name:ca/casos_comarques.csv) |        6 |         3 |                            0 |                             0 |              224 |                129 |                                    1 |                                      1 |
+| [PPCC/name-name:ca/casos_municipis.csv](https://github.com/OSM-Catalan/toponimsCat/blob/main/PPCC/name-name:ca/casos_municipis.csv)               |   353762 |    270075 |                         3292 |                          2940 |           441694 |             235802 |                                 4653 |                                   2474 |
 | [PPCC/parque-parc/casos_comarques.csv](https://github.com/OSM-Catalan/toponimsCat/blob/main/PPCC/parque-parc/casos_comarques.csv)                 |      732 |       623 |                            1 |                             1 |               37 |                 34 |                                    0 |                                      0 |
 | [PPCC/plaza-plaça/casos_comarques.csv](https://github.com/OSM-Catalan/toponimsCat/blob/main/PPCC/plaza-plaça/casos_comarques.csv)                 |     1351 |       798 |                            3 |                             3 |              343 |                192 |                                    0 |                                      0 |
 
@@ -32,19 +32,19 @@ haver-hi casos duplicats en fitxers diferents.
 
 ## Estructura de fitxers d’un projecte
 
--   `informes` Conté fitxers d’informes amb tots els objectes d’OSM
-    segons el filtre i àrea del projecte.
--   `revisions` Conté fitxers de revisions amb combinacions úniques de
-    les etiquetes «name», «name:ca», «alt_name:ca», «alt_name»,
-    «translations», «ca.wikipedia_page» i «wikidata_id». Aquests fitxers
-    són els que cal revisar abans de preparar les edicions que es
-    carregaran a OSM. Els fitxers revisats s’han de moure a
-    `revisions/FET` i són els més valuoso, ja que inclouen la feina
-    humana de revisar tots els casos, i per això té sentit afegir-los al
-    repositori git.
--   `edicions` Conté fitxers d’informes amb els valors nous dels camps
-    «name:ca» i «alt_name:ca» a punt per carregar a OSM, generats a
-    partir dels informes i revisions fetes (fitxers a `revisions/FET`).
+- `informes` Conté fitxers d’informes amb tots els objectes d’OSM segons
+  el filtre i àrea del projecte.
+- `revisions` Conté fitxers de revisions amb combinacions úniques de les
+  etiquetes «name», «name:ca», «alt_name:ca», «alt_name»,
+  «translations», «ca.wikipedia_page» i «wikidata_id». Aquests fitxers
+  són els que cal revisar abans de preparar les edicions que es
+  carregaran a OSM. Els fitxers revisats s’han de moure a
+  `revisions/FET` i són els més valuoso, ja que inclouen la feina humana
+  de revisar tots els casos, i per això té sentit afegir-los al
+  repositori git.
+- `edicions` Conté fitxers d’informes amb els valors nous dels camps
+  «name:ca» i «alt_name:ca» a punt per carregar a OSM, generats a partir
+  dels informes i revisions fetes (fitxers a `revisions/FET`).
 
 ## Flux de treball i ús de les funcions principals
 
@@ -121,10 +121,10 @@ devtools::install_github("OSM-Catalan/toponimsCat")
 
 ## Enllaços d’interès
 
--   [LangToolsOSM](https://github.com/OSM-Catalan/LangToolsOSM)
--   Espai de coordinació per la [toponímia i
-    exotopònims](https://wiki.openstreetmap.org/wiki/WikiProject_Catalan/Topon%C3%ADmia_i_exotop%C3%B2nims)
-    de la comunitat d’OpenStreetMap Països Catalans.
--   [Openstreetmap](https://openstreetmap.org)
--   [taginfo](https://taginfo.openstreetmap.org/keys/name:ca): estat de
-    les etiquetes «name:ca» a Openstreetmap.
+- [LangToolsOSM](https://github.com/OSM-Catalan/LangToolsOSM)
+- Espai de coordinació per la [toponímia i
+  exotopònims](https://wiki.openstreetmap.org/wiki/WikiProject_Catalan/Topon%C3%ADmia_i_exotop%C3%B2nims)
+  de la comunitat d’OpenStreetMap Països Catalans.
+- [Openstreetmap](https://openstreetmap.org)
+- [taginfo](https://taginfo.openstreetmap.org/keys/name:ca): estat de
+  les etiquetes «name:ca» a Openstreetmap.

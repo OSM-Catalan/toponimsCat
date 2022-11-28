@@ -206,7 +206,7 @@ recompteCasosInformes<- function(arrelProjecte, informes, dades){
   }
 
   dades$informe<- gsub("//", "/", dades$informe)  # Normalitza camins
-
+  dades$nObjectes<- dades$nCasos<- NA_integer_
   pb<- timerProgressBar(max=nrow(dades))
   on.exit(close(pb))
   for (i in 1:nrow(dades)){
@@ -217,12 +217,15 @@ recompteCasosInformes<- function(arrelProjecte, informes, dades){
       dades$nCasos[i]<- nrow(casosRevisar)
 
       if ("translations" %in% names(objectesOSM)){
+        if (!"nObjectesNomWikidata" %in% names(dades)) dades$nObjectesNomWikidata<- NA_integer_
+        if (!"nCasosNomWikidata" %in% names(dades)) dades$nCasosNomWikidata<- NA_integer_
         dades$nObjectesNomWikidata[i]<- sum(!objectesOSM$translations %in% c(NA, ""))
         dades$nCasosNomWikidata[i]<- sum(!casosRevisar$translations %in% c(NA, ""))
       }
 
       fitxerRevisio<- gsub("^informe-", "revisio-", basename(gsub("(_v[0-9]+)*\\.tsv$", "", dades$informe[i])))
       camiRevisions<- gsub("informes", "revisions/FET", dirname(dades$informe[i]), "FET")
+      if (!"revisat" %in% names(dades)) dades$revisat<- NA
       dades$revisat[i]<- any(grepl(fitxerRevisio, dir(camiRevisions)) | nrow(objectesOSM) == 0)
     } else{
       warning("Error a l'informe", i, ":", dades$informe[i], "\n")
@@ -263,6 +266,7 @@ recompteCasosEdicions<- function(arrelProjecte, edicions, dades){
 
   dades$edicio<- gsub("//", "/", dades$edicio)  # Normalitza camins
 
+  dades$nObjectes<- dades$nCasos<- NA_integer_
   pb<- timerProgressBar(max=nrow(dades))
   on.exit(close(pb))
   for (i in 1:nrow(dades)){
@@ -273,6 +277,8 @@ recompteCasosEdicions<- function(arrelProjecte, edicions, dades){
       dades$nCasos[i]<- nrow(casosEditats)
 
       if ("translations" %in% names(objectesOSM)){
+        if (!"nObjectesNomWikidata" %in% names(dades)) dades$nObjectesNomWikidata<- NA_integer_
+        if (!"nCasosNomWikidata" %in% names(dades)) dades$nCasosNomWikidata<- NA_integer_
         dades$nObjectesNomWikidata[i]<- sum(!objectesOSM$translations %in% c(NA, ""))
         dades$nCasosNomWikidata[i]<- sum(!casosEditats$translations %in% c(NA, ""))
       } else {
@@ -313,7 +319,14 @@ recompteCasos<- function(arrelProjecte, informes, dades){
   casosEdicions<- recompteCasosEdicions(arrelProjecte=arrelProjecte)
   names(casosEdicions)[-which(names(casosEdicions) == "informe")]<- paste0(setdiff(names(casosEdicions), "informe"), "Editat")
 
-  casos<- merge(casosInformes, casosEdicions, all=TRUE)
+  # Unifica els noms dels fitxers d'edicions amb els dels informes.
+  # ULL VIU: Omet els fitxers d'edicions que no contenen la part del nom de l'informe un cop extreta l'extensió
+  casosEdicionsInforme<- lapply(casosInformes$informe, function(x){
+                           sel<- grep(gsub("\\.tsv", "", x), casosEdicions$informe)
+                           data.frame(informe=x, t(colSums(casosEdicions[sel, setdiff(names(casosEdicions), "informe")])))
+                         })
+  casosEdicionsInforme<- do.call(rbind, casosEdicionsInforme)
+  casos<- merge(casosInformes, casosEdicionsInforme, all=TRUE)
   casos[]<- lapply(casos, function(x){
     if (is.numeric(x)){
       x[is.na(x)]<- 0
