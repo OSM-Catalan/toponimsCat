@@ -88,7 +88,7 @@ it_correccio<- hunspell::hunspell(bd$generic, dict=hunspell::dictionary(lang="it
 bd$italia<- sapply(es_correccio, length) == 0
 
 candidats<- bd[bd$catala, ]
-candidats<- candidats[apply(candidats[, c("castella", "frances", "italia")], 1, function(x) !any(x)), ]
+# candidats<- candidats[apply(candidats[, c("castella", "frances", "italia")], 1, function(x) !any(x)), ]
 paraula<- candidats$generic[!grepl("\"", candidats$generic)]  # TODO: omet noms que contenen cometes pq són problemàtics amb fitxers.csv
 LT_correccio<- pblapply(paraula, function(x){
   LanguageToolR::languagetool(x, encoding="utf-8", linebreak_paragraph=FALSE, language="ca", disabled_rules=c("UPPERCASE_SENTENCE_START"),
@@ -156,6 +156,8 @@ selNames_bo<- grep("'", selNames_bo, value=TRUE, invert=TRUE)
 filtre<- paste0("nwr[name~'^(", paste(selNames_bo, collapse="|"), ")$'][!'name:ca']")
 
 
+filtre<- "nwr[!'name:ca'][name]"
+
 actualitzaInformes<- FALSE # actualitzaInformes<- TRUE
 
 municipis<- generaInformesPPCC(arrelProjecte=arrelProjecte, filtre=filtre, actualitzaInformes=actualitzaInformes, sufixFitxers=sufixFitxers, divisions=toponimsCat::municipis)
@@ -220,8 +222,41 @@ municipis$revisio[!municipis$regio %in% c("CatNord", "Franja", "Sardenya")]<- ge
 ## Fitxers amb revisions sense error ortogràfics ----
 fitxersRevisions<- dir(paste0(arrelProjecte, "/revisions"), paste0("revisio-UNIFICADA-.+", sufixFitxers, "\\.tsv$"), full.names=TRUE)
 revisions_bones<- revisionsSenseErrors(fitxersRevisions=fitxersRevisions)
-revisions_bones<- revisionsSenseErrors(fitxersRevisions=fitxersRevisions,
-                                       sufix_nou="_correcte-LT.tsv", LanguageTool=TRUE, cl=cl)
+
+dL<- pblapply(revisions_bones, function(x){
+  d<- utils::read.table(x, header=TRUE, sep="\t", quote="\"", check.names=FALSE)
+  d<- d[grep("'", d$name), ]
+  utils::write.table(d, file=gsub("\\.tsv$", "-ambApostrof.tsv", x), sep="\t", na="", col.names=TRUE, row.names=FALSE)
+  d
+})
+
+d<- dL$`PPCC/name-name:ca/revisions/revisio-UNIFICADA-CatSud_name-name:ca.tsv`
+LT_correccio<- pblapply(d$name, function(x){
+  LanguageToolR::languagetool(as.character(x), encoding="utf-8", linebreak_paragraph=FALSE, language="ca", disabled_rules=c("UPPERCASE_SENTENCE_START"),
+                              enabled_rules=c(), enabled_only=FALSE, disabled_categories=c(),
+                              enabled_categories=c(), list_unknown=FALSE, apply=FALSE, quiet=TRUE)
+}, cl=cl)
+LT_correccio_df<- do.call(rbind, LT_correccio[sapply(LT_correccio, nrow) > 0])
+if (!is.null(LT_correccio_df)){
+  utils::write.table(LT_correccio_df, file=paste0(arrelProjecte, "/LanguageToolERRORS-CatSud_ambApostrof.tsv"), sep="\t", na="", col.names=TRUE, row.names=TRUE)
+}
+
+dLT<- data.frame(d, LT=sapply(LT_correccio, nrow) == 0,
+                        selCaracters=grepl("^[0-9a-zàèéíïòóúüç',· -]+$", d$name, ignore.case=TRUE))
+dLT$seleccionat<- dLT$LT
+dLT<- merge(dLT, LT_correccio_df[, !grepl("(offset|length|context_text)$", names(LT_correccio_df))], by.x="name", by.y="sentence", all=TRUE)
+
+write.table(dLT, file=paste0(arrelProjecte, "/CatSud_ambApostrof_CorrectesLT.tsv"), sep="\t", na="", col.names=TRUE, row.names=FALSE)
+
+dLT<- read.table(paste0(arrelProjecte, "/revisions/revisio-UNIFICADA-CatSud_name-name:ca-CorrectesLT_ambApostrof.tsv"), header=TRUE, sep="\t", quote="\"", check.names=FALSE)
+
+selNames_bo<- dLT$name[dLT$seleccionat]
+setdiff(dLT$name, selNames_bo) # descartats
+setdiff(dLT$name, dLT$name[dLT$selCaracters]) # descartat
+
+# save(dLT, selNames_bo, LT_correccio, file=paste0(arrelProjecte, "/revisio-UNIFICADA-CatSud_name-name:ca-CorrectesLT_ambApostrof.RData"), compress="xz")
+load(paste0(arrelProjecte, "/revisio-UNIFICADA-CatSud_name-name:ca-CorrectesLT_ambApostrof.RData"), verbose=TRUE)  # dLt selNames_bo LT_correccio
+
 
 ## Revisions duplicades
 duplicats<- attributes(bdRevisions(arrelProjectes=arrelProjecte))$duplicats
@@ -238,7 +273,7 @@ cmd<- na.omit(cmd)
 ## Afegeix paràmetres a les ordres. Veure «update_osm_objects_from_report --help» per les opcions de LangToolsOSM
 nomMunicipi<- gsub(paste0(".+--input-file \\\"", arrelProjecte, "/edicions/informe-[A-z]+-|", sufixFitxers, ".tsv\\\".+"), "", cmd)
 cmd1<- paste0(cmd, " --no-interaction --changeset-hashtags \"#toponimsCat;#name_name:ca\" --changeset-source \"name tag\"", #  --no-interaction
-             " --batch 70 --changeset-comment \"Afegeix name:ca a partir de name en català segons hunspell, LanguageTool i revisió humana a ", nomMunicipi, "\"")
+             " --batch 70 --changeset-comment \"Afegeix name:ca a partir de name en català amb apòstrofs segons hunspell, LanguageTool i revisió humana a ", nomMunicipi, "\"")
 cat(cmd1, sep="\n")
 
 ## Executa les ordres
