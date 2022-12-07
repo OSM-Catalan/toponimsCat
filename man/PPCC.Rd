@@ -9,11 +9,11 @@ Dades dels Països Catalans a OSM.
 \format{
   Un \code{data.frame} amb les dades de la relació «Països Catalans» per les següents 5 variables.
   \describe{
-    \item{type}{Tipus d'objecte d'OSM.}
-    \item{id}{Número identificador a OSM.}
-    \item{name}{Etiqueta \code{name}.}
     \item{name:ca}{Etiqueta \code{name:ca}.}
+    \item{id}{Número identificador a OSM.}
+    \item{type}{Tipus d'objecte d'OSM.}
     \item{wikidata}{Etiqueta \code{wikidata}.}
+    \item{name}{Etiqueta \code{name}.}
   }
 }
 \seealso{
