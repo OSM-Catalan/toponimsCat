@@ -85,6 +85,31 @@ municipis$revisio[!municipis$regio %in% c("CatNord", "Franja", "Sardenya")]<- ge
                                                                             arrelProjecte=arrelProjecte, cerca=cerca, substitueix=substitueix, revisioUnificada=revisioUnificada,
                                                                             nomFitxerUnificat=paste0("revisio-UNIFICADA-CatSud", sufixFitxers, ".tsv"))
 
+## Crea fitxers de revisió per tipus d'objectes
+filtres<- list(typeOSM=function(x) x == "relation"); nomFiltre<- "relacions"
+filtres<- list(typeOSM=function(x) x == "way"); nomFiltre<- "vies"
+
+for (i in unique(seq_along(municipis$regio))){
+  municipis$revisio[municipis$regio == i]<- generaRevisions_regexName(
+    informes=municipis$informe[municipis$regio == i],
+    arrelProjecte=arrelProjecte, cerca=cerca, substitueix=substitueix,
+    revisioUnificada=revisioUnificada,
+    nomFitxerUnificat=paste0("revisio-UNIFICADA_", nomFiltre, "-", i, sufixFitxers, ".tsv"),
+    filtres=filtres
+  )
+}
+
+
+
+municipis$revisio<- generaRevisions_regexName(informes=municipis$informe,
+                                              arrelProjecte=arrelProjecte, cerca=cerca, substitueix=substitueix, revisioUnificada=revisioUnificada,
+                                              nomFitxerUnificat=paste0("revisio-UNIFICADA_relacions-PPCC", sufixFitxers, ".tsv"),
+                                              filtres=list(typeOSM=function(x) x == "relation"))
+municipis$revisio<- generaRevisions_regexName(informes=municipis$informe,
+                                              arrelProjecte=arrelProjecte, cerca=cerca, substitueix=substitueix, revisioUnificada=revisioUnificada,
+                                              nomFitxerUnificat=paste0("revisio-UNIFICADA_vies-PPCC", sufixFitxers, ".tsv"),
+                                              filtres=list(typeOSM=function(x) x == "way"))
+
 # Reviseu i modifiqueu la revisió de l'informe que vulgueu de revisions/.
 # Cal corregir els casos de name:ca i alt_name:ca incorrectes, esborrar-los o deixar-los en blanc si no és clar.
 # És recomanable usar LibreOffice per evitar problemes de codificació i formats dels fitxers (https://www.softcatala.org/programes/libreoffice/)
@@ -94,13 +119,15 @@ municipis$revisio[!municipis$regio %in% c("CatNord", "Franja", "Sardenya")]<- ge
 # començar per actualitzar els fitxers de revisions
 
 
-## Revisa errors ortogràfics ----
-fitxersRevisions<- dir(paste0(arrelProjecte, "/revisions"), paste0("revisio-UNIFICADA-.+", sufixFitxers, "\\.tsv$"), full.names=TRUE)
+
+### Revisa errors ortogràfics ----
+fitxersRevisions<- dir(paste0(arrelProjecte, "/revisions"), paste0("revisio-UNIFICADA.+", sufixFitxers, "\\.tsv$"), full.names=TRUE)
 revisions_bones<- revisionsSenseErrors(fitxersRevisions=fitxersRevisions)
 revisions_bonesLT<- revisionsSenseErrors(fitxersRevisions=fitxersRevisions,
                                          sufix_nou="_correcte-errorsLT.tsv", LanguageTool=TRUE, descartaErrorsLT=FALSE, cl=cl)
 
-# Carrega fitxers i descarta casos amb caràcters d'escapades (donen problemes)
+
+### Carrega fitxers i descarta casos amb caràcters d'escapades (donen problemes) ----
 revisions_bonesLT<- dir(paste0(arrelProjecte, "/revisions"), paste0("revisio-UNIFICADA-.+", sufixFitxers, "_correcte-errorsLT\\.tsv$"), full.names=TRUE)
 
 dL<- pblapply(revisions_bonesLT, function(x){
@@ -124,6 +151,7 @@ dUL<- mapply(function(x, fileName){
   x<- unique(data.frame(x, check.names=FALSE))
 }, x=dL, fileName=gsub("_correcte-errorsLT\\.tsv$", "_correcte-LT.tsv", revisions_bonesLT), SIMPLIFY=FALSE)
 names(dUL)<- names(dL)
+
 
 ### Prepara revisions per areas -----
 # Jordi M: Vull ajudar. Puc fer tots els de la província de Castelló
@@ -283,7 +311,7 @@ cmd<- na.omit(cmd)
 ## Afegeix paràmetres a les ordres. Veure «update_osm_objects_from_report --help» per les opcions de LangToolsOSM
 nomMunicipi<- gsub(paste0(".+--input-file \\\"", arrelProjecte, "/edicions/informe-[A-zàèéíïòóúüç·' ]+-|", sufixFitxers, ".tsv\\\".+"), "", cmd)
 cmd1<- paste0(cmd, " --no-interaction --changeset-hashtags \"#toponimsCat;#name_name:ca\" --changeset-source \"name tag\"", #  --no-interaction
-             " --batch 70 --changeset-comment \"Afegeix name:ca a partir de name en català segons hunspell, LanguageTool i revisió humana a ", nomMunicipi, "\"")
+             " --batch 70 --changeset-comment \"Afegeix name:ca a partir de name en català segons hunspell i revisió humana per les relacions a ", nomMunicipi, "\"")
 cat(cmd1, sep="\n")
 
 ## Executa les ordres
