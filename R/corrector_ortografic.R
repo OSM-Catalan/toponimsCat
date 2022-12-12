@@ -25,7 +25,17 @@ revisionsSenseErrors<- function(fitxersRevisions, sufix_nou="_correcte.tsv",
 
   pbapply::pbsapply(fitxersRevisions, function(x){
     message("\nS'està analitzant ", x)
-    d<- utils::read.table(x, header=TRUE, sep="\t", quote="\"", check.names=FALSE)
+    # Intercepta «Warning: EOF within quoted string», que descarta files i retorna el fitxer problemàtic
+    d<- tryCatch(utils::read.table(x, header=TRUE, sep="\t", quote="\"", check.names=FALSE, comment.char=""),
+                 warning=function(w) list(warning=w, fitxer=x),
+                 error=function(e) list(error=e, fitxer=x))
+    if (!inherits(d, "data.frame")){
+      # Llença l'alerta però llegeix el què es pugui i segueix.
+      warning(d$warning, " in ", x, "\n Obrint el document amb LibreOffice Calc i desant-lo editant la configuració del filtre a Delimitador de camps={Tabulació}, Delimitador de cadenes de caràcter=\", i activant Posa les cadenes de text entre cometes.")
+      d<- suppressWarnings(utils::read.table(x, header=TRUE, sep="\t", quote="\"", check.names=FALSE, comment.char=""))
+      if (!inherits(d, "data.frame")) stop("El fitxer ", x, "no es pot obrir.")
+    }
+
     errors_name.ca<- hunspell::hunspell(as.character(d$`name:ca`), dict=hunspell::dictionary(lang="ca"))
     errors_alt_name.ca<- hunspell::hunspell(as.character(d$`alt_name:ca`), dict=hunspell::dictionary(lang="ca"))
 

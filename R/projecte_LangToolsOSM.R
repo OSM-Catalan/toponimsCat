@@ -77,7 +77,7 @@ generaInforme<- function(arrelProjecte, fitxerInforme, filtreArea, filtreObjecte
   if (file.exists(fitxerInforme)){
     message("El fitxer «", fitxerInforme, "» ja existeix. ", appendLF=FALSE)
     if (actualitzaFitxer){
-      informe<- utils::read.table(fitxerInforme, header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE)
+      informe<- utils::read.table(fitxerInforme, header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE, comment.char="")
       message("\tn casos:", nrow(informe))
       if (nrow(informe) > 0){
         message("Movent a ", gsub("/+informes/+", "/ANTIC/", fitxerInforme))
@@ -123,12 +123,12 @@ descartaObjectesSenseTraduccions<- function(fitxersInformes){
   res<- character()
   for (i in seq_along(fitxersInformes)){
     # Intercepta «Warning: EOF within quoted string», que descarta fitxersInformes i retorna el fitxer problemàtic
-    informe<- tryCatch(utils::read.table(fitxersInformes[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE),
+    informe<- tryCatch(utils::read.table(fitxersInformes[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE, comment.char=""),
                  warning=function(w) list(warning=w, fitxer=fitxersInformes[i], i=i))
     if (!inherits(informe, "data.frame")){
       # Llença l'alerta però llegeix el què es pugui i segueix.
       warning(informe$warning, " in ", informe$fitxer, " (i=", i, ")\n Obrint el document amb LibreOffice Calc i desant-lo editant la configuració del filtre a Delimitador de camps={Tabulació}, Delimitador de cadenes de caràcter=\", i activant Posa les cadenes de text entre cometes.")
-      informe<- suppressWarnings(utils::read.table(fitxersInformes[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE))
+      informe<- suppressWarnings(utils::read.table(fitxersInformes[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE, comment.char=""))
       if (!inherits(informe, "data.frame")) next
     }
 
@@ -210,7 +210,7 @@ recompteCasosInformes<- function(arrelProjecte, informes, dades){
   pb<- timerProgressBar(max=nrow(dades))
   on.exit(close(pb))
   for (i in 1:nrow(dades)){
-    objectesOSM<- try(utils::read.table(dades$informe[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE))
+    objectesOSM<- try(utils::read.table(dades$informe[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE, comment.char=""))
     if (inherits(objectesOSM, "data.frame")){
       casosRevisar<- unique(objectesOSM[, c("name", "name:ca", "alt_name:ca", "alt_name", "translations", "ca.wikipedia_page", "wikidata_id")])
       dades$nObjectes[i]<- nrow(objectesOSM)
@@ -270,7 +270,7 @@ recompteCasosEdicions<- function(arrelProjecte, edicions, dades){
   pb<- timerProgressBar(max=nrow(dades))
   on.exit(close(pb))
   for (i in 1:nrow(dades)){
-    objectesOSM<- try(utils::read.table(dades$edicio[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE))
+    objectesOSM<- try(utils::read.table(dades$edicio[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE, comment.char=""))
     if (inherits(objectesOSM, "data.frame")){
       casosEditats<- unique(objectesOSM[, c("name", "name:ca", "alt_name:ca", "alt_name", "translations", "ca.wikipedia_page", "wikidata_id")])
       dades$nObjectes[i]<- nrow(objectesOSM)
@@ -388,7 +388,7 @@ generaRevisions<- function(informes, arrelProjecte, filtres,
   # dir.create(file.path(arrelProjecte, "revisions", "FET"), showWarnings=FALSE, recursive=TRUE)
   # fitxersRevisio<- dir(file.path(arrelProjecte, "revisions", "FET"), "\\.tsv$", full.names=TRUE, include.dirs=FALSE)
   # revisionsFETES<- lapply(fitxersRevisio, function(x){
-  #   d<- utils::read.table(x, header=TRUE, sep="\t", quote="\"", check.names=FALSE)
+  #   d<- utils::read.table(x, header=TRUE, sep="\t", quote="\"", check.names=FALSE, comment.char="")
   #   d<- lapply(d, function(x){
   #     x[x %in% ""]<- NA_character_
   #     x
@@ -409,12 +409,12 @@ generaRevisions<- function(informes, arrelProjecte, filtres,
     nomFitxer<- gsub(paste0("^", file.path(arrelProjecte, "informes/")), "", informes[i])
     nomFitxer<- gsub("^informe", "revisio", nomFitxer)
     # Intercepta «Warning: EOF within quoted string», que descarta files i retorna el fitxer problemàtic
-    d<- tryCatch(utils::read.table(informes[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE),
+    d<- tryCatch(utils::read.table(informes[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE, comment.char=""),
                  warning=function(w) list(warning=w, fitxer=informes[i], i=i))
     if (!inherits(d, "data.frame")){
       # Llença l'alerta però llegeix el què es pugui i segueix.
       warning(d$warning, " in ", d$fitxer, " (i=", i, ")\n Obrint el document amb LibreOffice Calc i desant-lo editant la configuració del filtre a Delimitador de camps={Tabulació}, Delimitador de cadenes de caràcter=\", i activant Posa les cadenes de text entre cometes.")
-      d<- suppressWarnings(utils::read.table(informes[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE))
+      d<- suppressWarnings(utils::read.table(informes[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE, comment.char=""))
       if (!inherits(d, "data.frame")) next
     }
 
@@ -591,7 +591,7 @@ bdRevisions<- function(arrelProjectes){
   }
 
   revisionsFETES<- pbapply::pblapply(fitxersRevisions, function(x){
-    utils::read.table(x, header=TRUE, sep="\t", quote="\"", check.names=FALSE)
+    utils::read.table(x, header=TRUE, sep="\t", quote="\"", check.names=FALSE, comment.char="")
   })
   names(revisionsFETES)<- fitxersRevisions
   revisio.casosFETS<- do.call(rbind, revisionsFETES)
@@ -672,7 +672,7 @@ preparaEdicions<- function(arrelProjecte, usuari, fitxerContrasenya){
   on.exit(close(pb))
   for (i in seq_along(fitxersInformes)){
     nomFitxer<- gsub(file.path(arrelProjecte, "informes/*"), "", fitxersInformes[i])
-    informe<- try(utils::read.table(fitxersInformes[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE))
+    informe<- try(utils::read.table(fitxersInformes[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE, comment.char=""))
     informe<- lapply(informe, function(x){
       x[x %in%  ""]<- NA_character_
       x
@@ -741,7 +741,7 @@ actualitzaInformesCarregats<- function(arrelProjecte, esborraInformesDesactualit
     }
 
     informeOri<- utils::read.table(fitxersInformesOri[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE)
-    carregat<- utils::read.table(fitxersFets[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE)
+    carregat<- utils::read.table(fitxersFets[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE, comment.char="")
     informeOri<- data.table::as.data.table(informeOri)
     carregat<- data.table::as.data.table(carregat)
     data.table::set(carregat, j=c("name:ca", "alt_name:ca"), value=list(NA_character_, NA_character_))
