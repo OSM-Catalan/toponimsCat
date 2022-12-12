@@ -353,6 +353,7 @@ recompteCasos<- function(arrelProjecte, informes, dades){
 #' @param ometSenseTraduccions si és \code{TRUE}, descarta els objectes sense nom en català a wikidata.
 #' @param revisioUnificada si és \code{TRUE}, genera un unic fitxer de revisió. Sinó, genera un fixer de revisió per cada informe.
 #' @param nomFitxerUnificat nom del fitxer de revisió unificat quan \code{revisioUnificada=TRUE}. Si \code{revisioUnificada=FALSE}, els fitxers de revisió seran \code{gsub("^informe", "revisio", informes)}.
+#' @param filtres una llista amb els elements amb noms de columnes dels informes que serveixen per filtrar casos. Cada element és una funció que retorna un vector amb `FALSE` o `TRUE` per cada element de la columna que es passa com a paràmetre.
 #' @param campsUnics camps que defineixen combinacions úniques dels informes que formaran els fitxers de revisió. Per defecte \code{name}, \code{name:ca}, \code{alt_name:ca}, \code{alt_name}, \code{translations}, \code{ca.wikipedia_page}, \code{wikidata_type}, \code{wikidata_id} si existeixen.
 #'
 #' @return Retorna els camins dels fitxers de revisió generats.
@@ -373,7 +374,7 @@ recompteCasos<- function(arrelProjecte, informes, dades){
 
 NULL
 
-generaRevisions<- function(informes, arrelProjecte,
+generaRevisions<- function(informes, arrelProjecte, filtres,
                            campsUnics=c("name", "name:ca", "alt_name:ca", "alt_name", "translations", "ca.wikipedia_page", "wikidata_type", "wikidata_id")){
   ## Normalitza camins per evitar problemes en modificar-los
   arrelProjecte<- gsub("/$", "", arrelProjecte)
@@ -398,7 +399,9 @@ generaRevisions<- function(informes, arrelProjecte,
   # revisio.casosFETS<- unique(do.call(rbind, revisionsFETES))
   # revisio.casosCOMPLETATS<- revisio.casosFETS[!revisio.casosFETS$`name:ca` %in% c(NA, ""), ]
   # revisio.casosDESCARTATS<- revisio.casosFETS[revisio.casosFETS$`name:ca` %in% c(NA, ""), ]
-
+  if (length(informes) == 0){
+    return (list())
+  }
   dL<- list()
   pb<- timerProgressBar(max=length(informes))
   on.exit(close(pb))
@@ -413,6 +416,13 @@ generaRevisions<- function(informes, arrelProjecte,
       warning(d$warning, " in ", d$fitxer, " (i=", i, ")\n Obrint el document amb LibreOffice Calc i desant-lo editant la configuració del filtre a Delimitador de camps={Tabulació}, Delimitador de cadenes de caràcter=\", i activant Posa les cadenes de text entre cometes.")
       d<- suppressWarnings(utils::read.table(informes[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE))
       if (!inherits(d, "data.frame")) next
+    }
+
+    if (!missing(filtres)){
+      sel<- mapply(function(filtre, columna){
+        filtre(d[, columna])
+      }, filtre=filtres, columna=names(filtres))
+      d<- d[apply(sel, 1, all), ]
     }
 
     d<- lapply(d[, intersect(names(d), campsUnics)], function(x){
@@ -430,11 +440,16 @@ generaRevisions<- function(informes, arrelProjecte,
 
 #' @rdname generaRevisions
 #' @export
-generaRevisions_regexName<- function(informes, arrelProjecte, cerca, substitueix, revisioUnificada=FALSE, nomFitxerUnificat="revisio-UNIFICADA.tsv",
+generaRevisions_regexName<- function(informes, arrelProjecte, cerca, substitueix,
+                                     revisioUnificada=FALSE, nomFitxerUnificat="revisio-UNIFICADA.tsv", filtres,
                                      campsUnics=c("name", "name:ca", "alt_name:ca", "alt_name", "translations", "ca.wikipedia_page", "wikidata_type", "wikidata_id")){
   message("S'estan carregant els informes...")
-  dL<- generaRevisions(informes=informes, arrelProjecte=arrelProjecte, campsUnics=campsUnics)
+  dL<- generaRevisions(informes=informes, arrelProjecte=arrelProjecte, filtres=filtres, campsUnics=campsUnics)
   message("Preparant els fitxers de revisions...")
+  if (length(dL) == 0){
+    warning("No hi ha informes")
+    return (NA_character_)
+  }
   pb<- timerProgressBar(max=length(dL))
   on.exit(close(pb))
   for (i in seq_along(dL)){
@@ -442,8 +457,6 @@ generaRevisions_regexName<- function(informes, arrelProjecte, cerca, substitueix
     d<- dL[[i]]
     d$`name:ca`<- ifelse(is.na(d$`name:ca`), gsub(cerca, substitueix, d$name), d$`name:ca`)
     d$`alt_name:ca`<- ifelse(is.na(d$`alt_name:ca`), gsub(cerca, substitueix, d$alt_name), d$`alt_name:ca`)
-
-    # d<- d[!grepl("Maestro|Médico|Profesor|Padre|Virgen|Señora|San ", d$`name:ca`), ] # descarta carrers amb nom en castellà
 
     if (nrow(d) > 0){
       dL[[nomFitxer]]<- d
@@ -475,11 +488,16 @@ generaRevisions_regexName<- function(informes, arrelProjecte, cerca, substitueix
 
 #' @rdname generaRevisions
 #' @export
-generaRevisions_regexTranslations<- function(informes, arrelProjecte, cerca=" \\(.+\\)", substitueix="", ometSenseTraduccions=TRUE, revisioUnificada=FALSE, nomFitxerUnificat="revisio-UNIFICADA.tsv",
+generaRevisions_regexTranslations<- function(informes, arrelProjecte, cerca=" \\(.+\\)", substitueix="", ometSenseTraduccions=TRUE,
+                                             revisioUnificada=FALSE, nomFitxerUnificat="revisio-UNIFICADA.tsv", filtres,
                                              campsUnics=c("name", "name:ca", "alt_name:ca", "alt_name", "translations", "ca.wikipedia_page", "wikidata_type", "wikidata_id")){
   message("S'estan carregant els informes...")
-  dL<- generaRevisions(informes=informes, arrelProjecte=arrelProjecte, campsUnics=campsUnics)
+  dL<- generaRevisions(informes=informes, arrelProjecte=arrelProjecte, filtres=filtres, campsUnics=campsUnics)
   message("Preparant els fitxers de revisions...")
+  if (length(dL) == 0){
+    warning("No hi ha informes")
+    return (NA_character_)
+  }
   pb<- timerProgressBar(max=length(dL))
   on.exit(close(pb))
   for (i in seq_along(dL)){
@@ -630,7 +648,7 @@ bdRevisions<- function(arrelProjectes){
 #'
 #' @param arrelProjecte camí a l'arrel del projecte. La carpeta de destinació serà la subcarpeta \code{edicions} i buscarà els informes i revisions a partir d'aquest camí.
 #' @param usuari nom de l'usuari a OpenStreetMap per pujar les edicions.
-#' @param fitxerContrasenya camí a un fitxer amb la contrasenya de l'usuari per evitar que LangToolsOSM la demani. El fitxer conté una sola línia amb el nom d'usuari i la contrasenya separades per un punt i coma (;) i el llegirà \href{https://osmapi.metaodi.ch/osmapi/OsmApi.html#OsmApi}{Osmapi}.
+#' @param fitxerContrasenya camí a un fitxer amb la contrasenya de l'usuari per evitar que LangToolsOSM la demani. El fitxer conté una sola línia amb el nom d'usuari i la contrasenya separades per un dos punts (:) i el llegirà \href{https://osmapi.metaodi.ch/osmapi/OsmApi.html#OsmApi}{Osmapi}.
 #'
 #' @return Vector d'ordres per carregar els fitxers generats amb \code{update_osm_objects_from_report} de \href{https://github.com/OSM-Catalan/LangToolsOSM}{LangToolsOSM}.
 #' @export

@@ -11,7 +11,7 @@ preparaEdicions(arrelProjecte, usuari, fitxerContrasenya)
 
 \item{usuari}{nom de l'usuari a OpenStreetMap per pujar les edicions.}
 
-\item{fitxerContrasenya}{camí a un fitxer amb la contrasenya de l'usuari per evitar que LangToolsOSM la demani. El fitxer conté una sola línia amb el nom d'usuari i la contrasenya separades per un punt i coma (;) i el llegirà \href{https://osmapi.metaodi.ch/osmapi/OsmApi.html#OsmApi}{Osmapi}.}
+\item{fitxerContrasenya}{camí a un fitxer amb la contrasenya de l'usuari per evitar que LangToolsOSM la demani. El fitxer conté una sola línia amb el nom d'usuari i la contrasenya separades per un dos punts (:) i el llegirà \href{https://osmapi.metaodi.ch/osmapi/OsmApi.html#OsmApi}{Osmapi}.}
 }
 \value{
 Vector d'ordres per carregar els fitxers generats amb \code{update_osm_objects_from_report} de \href{https://github.com/OSM-Catalan/LangToolsOSM}{LangToolsOSM}.
