@@ -72,24 +72,29 @@ municipis<- municipis[!municipis$nObjectes %in% c(NA, 0), ] # Selecciona municip
 municipis[order(municipis$nCasos, decreasing=TRUE), ]
 
 ## Crea fitxers de revisió per zones amb idiomes diferents
+filtres<- list(name=function(x) !grepl("\"", x))
 municipis$revisio[municipis$regio == "CatNord"]<- generaRevisions_regexName(informes=municipis$informe[municipis$regio == "CatNord"],
                                                                             arrelProjecte=arrelProjecte, cerca=cerca, substitueix=substitueix, revisioUnificada=revisioUnificada,
-                                                                            nomFitxerUnificat=paste0("revisio-UNIFICADA-CatNord", sufixFitxers, ".tsv"))
+                                                                            nomFitxerUnificat=paste0("revisio-UNIFICADA-CatNord", sufixFitxers, ".tsv"),
+                                                                            filtres=filtres)
 municipis$revisio[municipis$regio == "Franja"]<- generaRevisions_regexName(informes=municipis$informe[municipis$regio == "Franja"],
                                                                             arrelProjecte=arrelProjecte, cerca=cerca, substitueix=substitueix, revisioUnificada=revisioUnificada,
-                                                                            nomFitxerUnificat=paste0("revisio-UNIFICADA-Franja", sufixFitxers, ".tsv"))
+                                                                            nomFitxerUnificat=paste0("revisio-UNIFICADA-Franja", sufixFitxers, ".tsv"),
+                                                                           filtres=filtres)
 municipis$revisio[municipis$regio == "Sardenya"]<- generaRevisions_regexName(informes=municipis$informe[municipis$regio == "Sardenya"],
                                                                             arrelProjecte=arrelProjecte, cerca=cerca, substitueix=substitueix, revisioUnificada=revisioUnificada,
-                                                                            nomFitxerUnificat=paste0("revisio-UNIFICADA-Sardenya", sufixFitxers, ".tsv"))
+                                                                            nomFitxerUnificat=paste0("revisio-UNIFICADA-Sardenya", sufixFitxers, ".tsv"),
+                                                                            filtres=filtres)
 municipis$revisio[!municipis$regio %in% c("CatNord", "Franja", "Sardenya")]<- generaRevisions_regexName(informes=municipis$informe[!municipis$regio %in% c("CatNord", "Franja", "Sardenya")],
                                                                             arrelProjecte=arrelProjecte, cerca=cerca, substitueix=substitueix, revisioUnificada=revisioUnificada,
-                                                                            nomFitxerUnificat=paste0("revisio-UNIFICADA-CatSud", sufixFitxers, ".tsv"))
+                                                                            nomFitxerUnificat=paste0("revisio-UNIFICADA-CatSud", sufixFitxers, ".tsv"),
+                                                                            filtres=filtres)
 
 ## Crea fitxers de revisió per tipus d'objectes
-filtres<- list(typeOSM=function(x) x == "relation"); nomFiltre<- "relacions"
-filtres<- list(typeOSM=function(x) x == "way"); nomFiltre<- "vies"
+filtres<- list(typeOSM=function(x) x == "relation", name=function(x) !grepl("\"", x)); nomFiltre<- "relacions"
+filtres<- list(typeOSM=function(x) x == "way", name=function(x) !grepl("\"", x)); nomFiltre<- "vies"
 
-for (i in unique(seq_along(municipis$regio))){
+for (i in unique(municipis$regio)){
   municipis$revisio[municipis$regio == i]<- generaRevisions_regexName(
     informes=municipis$informe[municipis$regio == i],
     arrelProjecte=arrelProjecte, cerca=cerca, substitueix=substitueix,
@@ -104,11 +109,11 @@ for (i in unique(seq_along(municipis$regio))){
 municipis$revisio<- generaRevisions_regexName(informes=municipis$informe,
                                               arrelProjecte=arrelProjecte, cerca=cerca, substitueix=substitueix, revisioUnificada=revisioUnificada,
                                               nomFitxerUnificat=paste0("revisio-UNIFICADA_relacions-PPCC", sufixFitxers, ".tsv"),
-                                              filtres=list(typeOSM=function(x) x == "relation"))
+                                              filtres=list(typeOSM=function(x) x == "relation", name=function(x) !grepl("\"", x)))
 municipis$revisio<- generaRevisions_regexName(informes=municipis$informe,
                                               arrelProjecte=arrelProjecte, cerca=cerca, substitueix=substitueix, revisioUnificada=revisioUnificada,
                                               nomFitxerUnificat=paste0("revisio-UNIFICADA_vies-PPCC", sufixFitxers, ".tsv"),
-                                              filtres=list(typeOSM=function(x) x == "way"))
+                                              filtres=list(typeOSM=function(x) x == "way", name=function(x) !grepl("\"", x)))
 
 # Reviseu i modifiqueu la revisió de l'informe que vulgueu de revisions/.
 # Cal corregir els casos de name:ca i alt_name:ca incorrectes, esborrar-los o deixar-los en blanc si no és clar.
