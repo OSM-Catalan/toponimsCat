@@ -421,7 +421,8 @@ generaRevisions<- function(informes, arrelProjecte, filtres,
     if (!missing(filtres)){
       sel<- mapply(function(filtre, columna){
         filtre(d[, columna])
-      }, filtre=filtres, columna=names(filtres))
+      }, filtre=filtres, columna=names(filtres), SIMPLIFY=FALSE)
+      sel<- list2DF(sel)
       d<- d[apply(sel, 1, all), ]
     }
 
