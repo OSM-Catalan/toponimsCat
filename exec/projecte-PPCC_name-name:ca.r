@@ -379,7 +379,7 @@ cmd<- na.omit(cmd)
 ## Afegeix paràmetres a les ordres. Veure «update_osm_objects_from_report --help» per les opcions de LangToolsOSM
 nomMunicipi<- gsub(paste0(".+--input-file \\\"", arrelProjecte, "/edicions/informe-[A-zàèéíïòóúüç·' ]+-|", sufixFitxers, ".tsv\\\".+"), "", cmd)
 cmd1<- paste0(cmd, " --no-interaction --changeset-hashtags \"#toponimsCat;#name_name:ca\" --changeset-source \"name tag\"", #  --no-interaction
-             " --batch 70 --changeset-comment \"Afegeix name:ca a partir de name i revisió humana per les carreteres principals a ", nomMunicipi, "\"")
+             " --batch 70 --changeset-comment \"Afegeix name:ca a partir de name i revisió amb hunspell i humana per les carreteres principals a ", nomMunicipi, "\"")
 cat(cmd1, sep="\n")
 
 ## Executa les ordres
