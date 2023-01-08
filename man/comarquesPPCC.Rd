@@ -7,7 +7,7 @@ Dades de les Comarques dels Països Catalans.
 }
 \usage{comarques}
 \format{
-  Un \code{data.frame} amb dades de les 96 comarques  per les següents 8 variables.
+  Un \code{data.frame} amb dades de les 95 comarques  per les següents 8 variables.
   \describe{
     \item{name:ca}{Etiqueta \code{name:ca}.}
     \item{regio}{Subdivisió ["Andorra", "CatNord", "Franja", "Illes", "Múrcia", "Principat", "PV", "Sardenya"].}
