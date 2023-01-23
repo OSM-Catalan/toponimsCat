@@ -33,38 +33,16 @@ sufixFitxers<- "_name-name:ca"
 
 
 ### Renderitzat osm.cat ----
-osmdata::opq
-# waterway %in% 'riverbank'
-# | (landuse %in% c('reservoir', 'water', 'basin', 'salt_pond'))
-# | (natural %in% c('lake', 'water'))
-# | amenity %in% 'swimming_pool'
-# | leisure %in% 'swimming_pool'
-#
-# waterway %in% c('river','canal')
-#
-# waterway %in% c('stream','river','canal')
-# waterway %in% c('weir','river','canal','derelict_canal','stream','drain','ditch','wadi')
-#
-# way && !bbox!
-#   & p.place %in% c('town','city')
-# & r.members ~ 'admin_centre'
-# & r.tags ~ 'admin_level,[0-9]' = TRUE
-#
-# place %in% c('suburb','village','locality','hamlet','quarter','neighbourhood','isolated_dwelling','farm')
-#
-# & NOT tags @> 'capital=>yes'
-#
-# highway %in% c('motorway', 'trunk')
-#
-# highway %in% c('primary', 'secondary', 'tertiary')
-#
-# highway %in% c('motorway','motorway_link','trunk','trunk_link','primary','primary_link','secondary','secondary_link','tertiary','tertiary_link','road','path','track','service','footway','bridleway','cycleway','steps','pedestrian','living_street','unclassified','residential','raceway')
-#
-# building IS NOT NULL
-# & building NOT %in% 'no'
-# & name IS NOT NULL
-#
-# leisure %in% c('park', 'sports_centre', 'stadium', 'pitch')
+features<- filtres_osm_ca()
+areaPPCC<- getbb("Països Catalans", format_out="data.frame")
+consulta<- opq(areaPPCC, out="tags center", osm_types="nwr", timeout=500) %>%
+  add_osm_features(features=toponimsCat:::objectes_osm_ca, value_exact=TRUE) %>%
+  add_osm_feature(key=c("name", "!name:ca"))
+
+## TODO: osmdata upstream additive add_osm_feature
+# osmdata::add_osm_feature(consulta, key="name") %>% osmdata::add_osm_feature(consulta, key="!'name:ca'",)
+# consulta$features<- paste(consulta$features, "[name] [!'name:ca']")
+cat(osmdata::opq_string(consulta))
 
 
 ## Generar informes pels municipis dels PPCC ----
@@ -72,6 +50,7 @@ sufixFitxers<- "_name-name:ca"
 filtre<- "nwr[!'name:ca'][name]"
 actualitzaInformes<- FALSE # actualitzaInformes<- TRUE
 
+# TODO: afegeix consulta_op=consulta
 municipis<- generaInformesPPCC(arrelProjecte=arrelProjecte, filtre=filtre, actualitzaInformes=actualitzaInformes, sufixFitxers=sufixFitxers, divisions=toponimsCat::municipis)
 
 ## Executa les ordres
@@ -131,30 +110,34 @@ municipis$revisio[!municipis$regio %in% c("CatNord", "Franja", "Sardenya")]<- ge
 filtres<- list(typeOSM=function(x) x == "relation", name=function(x) !grepl("\"", x)); nomFiltre<- "relacions"
 filtres<- list(typeOSM=function(x) x == "way", name=function(x) !grepl("\"", x)); nomFiltre<- "vies"
 
-waterway<- c('riverbank', 'reservoir', 'water', 'basin', 'salt_pond', 'lake',
-             'water', 'swimming_pool','river','canal', 'stream','river','canal',
-             'weir','river','canal','derelict_canal','stream','drain','ditch','wadi')
+# patroCarreteres<- paste0("'highway': '(", paste(highway, collapse="|"), "')")
+# filtres<- list(all_tags=function(x) grepl(patroCarreteres, x),
+#                name=function(x) !grepl("\"", x)); nomFiltre<- "carreteres"
 
-place<- c('town','city', 'admin_centre', 'admin_level')
-place2<- c('suburb','village','locality','hamlet','quarter','neighbourhood','isolated_dwelling','farm')
+patro<- mapply(function(clau, valor){
+  sel<- which(substr(valor, 1, 1) != "!")
+  if (length(sel) > 0){
+    out<- paste0("'", clau, "': '(", paste(valor[sel], collapse="|"), ")'")
+  } else {
+    out<- NULL
+  }
+  return(out)
+}, clau=names(objectes_osm_ca), valor=objectes_osm_ca, SIMPLIFY=FALSE)
+patro<- paste0("(", paste(patro[!sapply(patro, is.null)], collapse="|"), ")")
 
-# NOT tags @> 'capital=>yes'
+antipatro<- mapply(function(clau, valor){
+  sel<- which(substr(valor, 1, 1) == "!")
+  if (length(sel) > 0){
+    out<- paste0("'", clau, "': '(", paste(substr(valor[sel], 2, nchar(valor[sel])), collapse="|"), ")'")
+  } else {
+    out<- NULL
+  }
+  return(out)
+}, clau=names(objectes_osm_ca), valor=objectes_osm_ca, SIMPLIFY=FALSE)
+antipatro<- paste0("(", paste(antipatro[!sapply(antipatro, is.null)], collapse="|"), ")")
 
-highway<- c('motorway', 'trunk', 'primary', 'secondary', 'tertiary')
-highway2<- c('motorway','motorway_link','trunk','trunk_link','primary','primary_link','secondary','secondary_link','tertiary','tertiary_link','road','path','track','service','footway','bridleway','cycleway','steps','pedestrian','living_street','unclassified','residential','raceway')
-
-# building NOT %in% 'no'
-
-leisure<-  c('park', 'sports_centre', 'stadium', 'pitch')
-
-patro<- paste0("(", paste(c(waterway, place, place2, highway2, leisure, "'capital': 'yes'"), collapse="|"), ")")
-antipatro<- "'building': 'no'"
 filtres<- list(all_tags=function(x) grepl(patro, x) & !grepl(antipatro, x),
                name=function(x) !grepl("\"", x)); nomFiltre<- "renderitzat"
-
-patroCarreteres<- paste0("'highway': '(", paste(highway, collapse="|"), "')")
-filtres<- list(all_tags=function(x) grepl(patroCarreteres, x),
-               name=function(x) !grepl("\"", x)); nomFiltre<- "carreteres"
 
 for (i in unique(municipis$regio)){
   print(i)
@@ -169,14 +152,14 @@ for (i in unique(municipis$regio)){
 
 
 
-municipis$revisio<- generaRevisions_regexName(informes=municipis$informe,
-                                              arrelProjecte=arrelProjecte, cerca=cerca, substitueix=substitueix, revisioUnificada=revisioUnificada,
-                                              nomFitxerUnificat=paste0("revisio-UNIFICADA_relacions-PPCC", sufixFitxers, ".tsv"),
-                                              filtres=list(typeOSM=function(x) x == "relation", name=function(x) !grepl("\"", x)))
-municipis$revisio<- generaRevisions_regexName(informes=municipis$informe,
-                                              arrelProjecte=arrelProjecte, cerca=cerca, substitueix=substitueix, revisioUnificada=revisioUnificada,
-                                              nomFitxerUnificat=paste0("revisio-UNIFICADA_vies-PPCC", sufixFitxers, ".tsv"),
-                                              filtres=list(typeOSM=function(x) x == "way", name=function(x) !grepl("\"", x)))
+# municipis$revisio<- generaRevisions_regexName(informes=municipis$informe,
+#                                               arrelProjecte=arrelProjecte, cerca=cerca, substitueix=substitueix, revisioUnificada=revisioUnificada,
+#                                               nomFitxerUnificat=paste0("revisio-UNIFICADA_relacions-PPCC", sufixFitxers, ".tsv"),
+#                                               filtres=list(typeOSM=function(x) x == "relation", name=function(x) !grepl("\"", x)))
+# municipis$revisio<- generaRevisions_regexName(informes=municipis$informe,
+#                                               arrelProjecte=arrelProjecte, cerca=cerca, substitueix=substitueix, revisioUnificada=revisioUnificada,
+#                                               nomFitxerUnificat=paste0("revisio-UNIFICADA_vies-PPCC", sufixFitxers, ".tsv"),
+#                                               filtres=list(typeOSM=function(x) x == "way", name=function(x) !grepl("\"", x)))
 
 # Reviseu i modifiqueu la revisió de l'informe que vulgueu de revisions/.
 # Cal corregir els casos de name:ca i alt_name:ca incorrectes, esborrar-los o deixar-los en blanc si no és clar.
@@ -379,7 +362,7 @@ cmd<- na.omit(cmd)
 ## Afegeix paràmetres a les ordres. Veure «update_osm_objects_from_report --help» per les opcions de LangToolsOSM
 nomMunicipi<- gsub(paste0(".+--input-file \\\"", arrelProjecte, "/edicions/informe-[A-zàèéíïòóúüç·' ]+-|", sufixFitxers, ".tsv\\\".+"), "", cmd)
 cmd1<- paste0(cmd, " --no-interaction --changeset-hashtags \"#toponimsCat;#name_name:ca\" --changeset-source \"name tag\"", #  --no-interaction
-             " --batch 70 --changeset-comment \"Afegeix name:ca a partir de name i revisió amb hunspell i humana per les carreteres principals a ", nomMunicipi, "\"")
+             " --batch 70 --changeset-comment \"Afegeix name:ca a partir de name i revisió amb hunspell i humana pels objectes renderitats per osm.cat a ", nomMunicipi, "\"")
 cat(cmd1, sep="\n")
 
 ## Executa les ordres
