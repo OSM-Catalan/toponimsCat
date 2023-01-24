@@ -4,31 +4,47 @@ library(toponimsCat)
 
 arrelProjecte<- "PPCC/correccions-name:ca"
 actualitzaInformes<- FALSE # actualitzaInformes<- TRUE ## TODO: unificar parametre a generaInforme i generaInformesPPCC
+etiquetes<- c("name", "alt_name", "name:ca", "alt_name:ca")
+
 # TODO: diferències entre name i name:ca per name amb patró català
+# TODO: Canigò|Canigo -> Canigó. Debat sobre Canigou a OSM-66
 ## FET:
 # filtre<- "nwr['name:ca'~'([Aa]venida|[Cc]alle|[Cc]amino|[Pp]arque|[Pp]laza) ']"
 # filtre<- "nwr['alt_name:ca'~'([Aa]venida|[Cc]alle|[Cc]amino|[Pp]arque|[Pp]laza) ']"
 # Moli-> Molí i cami -> camí
-filtre<- "nwr['name:ca'~'( |^)([Cc]ami|[Mm]oli)( |$)']";     sufixFitxers<- "_correccions-name:ca"
-filtre<- "nwr['alt_name:ca'~'( |^)([Cc]ami|[Mm]oli)( |$)']"; sufixFitxers<- "_correccions-alt_name:ca"
-cerca<- ""
-substitueix<- ""
-revisioUnificada<- TRUE
+sufixFitxers<- "_correccions-moli_cami"; filtre<- paste0("nwr['", etiquetes, "'~'( |^)([Cc]ami|[Mm]oli)( |$)']")
+cerca<- "([Mm])oli"
+substitueix<- "\\1olí"
+
+# Ela geminada
+sufixFitxers<- "_correccions-ela_geminada"; filtre<- paste0("(", paste0("nwr['", etiquetes, "'~'l[.-_*]l'] ", collapse="(area.divisio); "), ")")
+cerca<- "l(\\.|-|_|\\*)l"
+substitueix<- "l·l"
 
 
-## Generar informes per les comarques dels PPCC amb LangToolsOSM ----
+
+## Generar informes pels PPCC amb LangToolsOSM ----
 actualitzaInformes<- FALSE # actualitzaInformes<- TRUE
 
+ppcc<- generaInformesPPCC(arrelProjecte=arrelProjecte, filtre=filtre, actualitzaInformes=actualitzaInformes, sufixFitxers=sufixFitxers, divisions=PPCC)
 comarques<- generaInformesPPCC(arrelProjecte=arrelProjecte, filtre=filtre, actualitzaInformes=actualitzaInformes, sufixFitxers=sufixFitxers)
 
-## Executa les ordres
-sel<- which(comarques$cmd != "")
-comarques$`name:ca`[sel]
+## TODO: arregla hack per correccions d'ela geminada. osmdata pot ajudar quan estigui alliberada nova versió
+ppcc$cmd<- gsub(")(area.divisio)", "(area.divisio);)", ppcc$cmd, fixed = TRUE)
 
+divisions<- ppcc
+
+## Executa les ordres
+sel<- which(divisions$cmd != "")
+divisions$`name:ca`[sel]
+
+pb<- timerProgressBar(max=length(sel))
 for (i in 1:length(sel)){
-  message(i, " / ", length(sel), "\t", comarques[["name:ca"]][sel[i]])
-  system(comarques$cmd[sel[i]])
+  message("\n", i, " / ", length(sel), "\t", divisions[["name:ca"]][sel[i]])
+  system(divisions$cmd[sel[i]])
+  setTimerProgressBar(pb, i)
 }
+close(pb)
 
 ## Si hi ha errors (eg. overpass va massa enfeinat i no respon), torneu a correr la secció amb
 actualitzaInformes<- FALSE
