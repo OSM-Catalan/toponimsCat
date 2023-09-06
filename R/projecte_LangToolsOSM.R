@@ -207,7 +207,7 @@ recompteCasosInformes<- function(arrelProjecte, informes, dades){
 
   dades$informe<- gsub("//", "/", dades$informe)  # Normalitza camins
   dades$nObjectes<- dades$nCasos<- NA_integer_
-  pb<- timerProgressBar(max=nrow(dades))
+  pb<- pbapply::timerProgressBar(max=nrow(dades))
   on.exit(close(pb))
   for (i in 1:nrow(dades)){
     objectesOSM<- try(utils::read.table(dades$informe[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE, comment.char=""))
@@ -231,7 +231,7 @@ recompteCasosInformes<- function(arrelProjecte, informes, dades){
       warning("Error a l'informe", i, ":", dades$informe[i], "\n")
       print(objectesOSM)
     }
-    setTimerProgressBar(pb, i)
+    pbapply::setTimerProgressBar(pb, i)
   }
 
   return(dades)
@@ -267,7 +267,7 @@ recompteCasosEdicions<- function(arrelProjecte, edicions, dades){
   dades$edicio<- gsub("//", "/", dades$edicio)  # Normalitza camins
 
   dades$nObjectes<- dades$nCasos<- NA_integer_
-  pb<- timerProgressBar(max=nrow(dades))
+  pb<- pbapply::timerProgressBar(max=nrow(dades))
   on.exit(close(pb))
   for (i in 1:nrow(dades)){
     objectesOSM<- try(utils::read.table(dades$edicio[i], header=TRUE, sep="\t", quote="\"", skip=1, check.names=FALSE, comment.char=""))
@@ -293,7 +293,7 @@ recompteCasosEdicions<- function(arrelProjecte, edicions, dades){
       warning("Error a l'edicio", i, ":", dades$edicio[i], "\n")
       print(objectesOSM)
     }
-    setTimerProgressBar(pb, i)
+    pbapply::setTimerProgressBar(pb, i)
   }
 
   dadesResum<- by(dades, dades$informe, function(x){
@@ -403,7 +403,7 @@ generaRevisions<- function(informes, arrelProjecte, filtres,
     return (list())
   }
   dL<- list()
-  pb<- timerProgressBar(max=length(informes))
+  pb<- pbapply::timerProgressBar(max=length(informes))
   on.exit(close(pb))
   for (i in seq_along(informes)){
     nomFitxer<- gsub(paste0("^", file.path(arrelProjecte, "informes/")), "", informes[i])
@@ -432,7 +432,7 @@ generaRevisions<- function(informes, arrelProjecte, filtres,
     })
     d<- unique(data.frame(d, check.names=FALSE))
     dL[[nomFitxer]]<- d
-    setTimerProgressBar(pb, i)
+    pbapply::setTimerProgressBar(pb, i)
   }
 
   return(dL)
@@ -451,7 +451,9 @@ generaRevisions_regexName<- function(informes, arrelProjecte, cerca, substitueix
     warning("No hi ha informes")
     return (NA_character_)
   }
-  pb<- timerProgressBar(max=length(dL))
+
+  dir.create(file.path(arrelProjecte, "revisions", "FET"), showWarnings=FALSE, recursive=TRUE)
+  pb<- pbapply::timerProgressBar(max=length(dL))
   on.exit(close(pb))
   for (i in seq_along(dL)){
     nomFitxer<- names(dL)[i]
@@ -467,7 +469,7 @@ generaRevisions_regexName<- function(informes, arrelProjecte, cerca, substitueix
     } else {
       suppressWarnings(file.remove(file.path(arrelProjecte, "revisions", nomFitxer)))
     }
-    setTimerProgressBar(pb, i)
+    pbapply::setTimerProgressBar(pb, i)
   }
 
   if (revisioUnificada){
@@ -499,7 +501,9 @@ generaRevisions_regexTranslations<- function(informes, arrelProjecte, cerca=" \\
     warning("No hi ha informes")
     return (NA_character_)
   }
-  pb<- timerProgressBar(max=length(dL))
+
+  dir.create(file.path(arrelProjecte, "revisions", "FET"), showWarnings=FALSE, recursive=TRUE)
+  pb<- pbapply::timerProgressBar(max=length(dL))
   on.exit(close(pb))
   for (i in seq_along(dL)){
     nomFitxer<- names(dL)[i]
@@ -530,7 +534,7 @@ generaRevisions_regexTranslations<- function(informes, arrelProjecte, cerca=" \\
     } else {
       suppressWarnings(file.remove(file.path(arrelProjecte, "revisions", nomFitxer)))
     }
-    setTimerProgressBar(pb, i)
+    pbapply::setTimerProgressBar(pb, i)
   }
 
   if (revisioUnificada){
@@ -669,7 +673,7 @@ preparaEdicions<- function(arrelProjecte, usuari, fitxerContrasenya){
   dir.create(file.path(arrelProjecte, "edicions"), showWarnings=FALSE, recursive=TRUE)
   fitxersInformes<- dir(file.path(arrelProjecte, "informes"), "\\.tsv$", full.names=TRUE, include.dirs=FALSE)
   cmd<- character()
-  pb<- timerProgressBar(max=length(fitxersInformes))
+  pb<- pbapply::timerProgressBar(max=length(fitxersInformes))
   on.exit(close(pb))
   for (i in seq_along(fitxersInformes)){
     nomFitxer<- gsub(file.path(arrelProjecte, "informes/*"), "", fitxersInformes[i])
@@ -698,7 +702,7 @@ preparaEdicions<- function(arrelProjecte, usuari, fitxerContrasenya){
         cmd[i]<- paste0(cmd[i], " alt_name:ca")
       }
     }
-    setTimerProgressBar(pb, i)
+    pbapply::setTimerProgressBar(pb, i)
   }
 
   message("Fitxers a punt! Un cop hagueu carregat les edicions a OSM amb les ordres retornades, useu la funció «actualitzaInformesCarregats» per arxivar les edicions a ",
@@ -728,7 +732,7 @@ actualitzaInformesCarregats<- function(arrelProjecte, esborraInformesDesactualit
   fitxersInformesOri<- gsub("/edicions/", "/informes/", fitxersFets)
 
   ret<- character()
-  pb<- timerProgressBar(max=length(fitxersFets))
+  pb<- pbapply::timerProgressBar(max=length(fitxersFets))
   on.exit(close(pb))
   for (i in seq_along(fitxersFets)){
     if (esborraInformesDesactualitzats){
@@ -758,7 +762,7 @@ actualitzaInformesCarregats<- function(arrelProjecte, esborraInformesDesactualit
       suppressWarnings(utils::write.table(informeNou, file=fitxersInformesOri[i], append=TRUE, sep="\t", na="", row.names=FALSE))
       ret<- c(ret, fitxersInformesOri[i])
     }
-    setTimerProgressBar(pb, i)
+    pbapply::setTimerProgressBar(pb, i)
   }
 
   arxivats<- gsub("/edicions/", "/edicions/FET/", fitxersFets)
