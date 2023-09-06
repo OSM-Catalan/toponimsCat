@@ -127,6 +127,12 @@ Podeu instal·lar la versió en desenvolupament de toponimsCat des de
 devtools::install_github("OSM-Catalan/toponimsCat")
 ```
 
+## Visualitza les diferències amb git dels fitxers `.tsv`
+
+    git config --global diff.lfstext.textconv cat
+
+De https://github.com/git-lfs/git-lfs/blob/main/docs/man/git-lfs-faq.adoc
+
 
 ## Enllaços d’interès
 
