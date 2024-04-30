@@ -123,11 +123,13 @@ Podeu instal·lar la versió en desenvolupament de toponimsCat des de
 [GitHub](https://github.com/) amb:
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("OSM-Catalan/toponimsCat")
+# install.packages("remotes")
+remotes::install_github("OSM-Catalan/toponimsCat")
 ```
 
 ## Visualitza les diferències amb git dels fitxers `.tsv`
+
+Assegureu-vos que teniu [git-lfs](https://git-lfs.com) instal·lat.
 
     git config --global diff.lfstext.textconv cat
 
