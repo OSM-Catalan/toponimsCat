@@ -17,7 +17,7 @@ Dades dels Països Catalans a OSM.
   }
 }
 \seealso{
-  \code{\link{generaInformesPPCC}}, \code{\link{municipis}}, \code{\link{comarques}}, \code{\link{territoris}}.
+  \code{\link{obte_informesPPCC}}, \code{\link{municipis}}, \code{\link{comarques}}, \code{\link{territoris}}.
 }
 \examples{
 PPCC[, 1:3]

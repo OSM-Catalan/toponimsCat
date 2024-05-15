@@ -1,0 +1,421 @@
+{
+    "entities": {
+        "Q4989906": {
+            "type": "item",
+            "id": "Q4989906",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "monument"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "monument"
+                }
+            }
+        },
+        "Q2319498": {
+            "type": "item",
+            "id": "Q2319498",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "architectural landmark"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "punt de referència"
+                }
+            }
+        },
+        "Q486972": {
+            "type": "item",
+            "id": "Q486972",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "human settlement"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "assentament humà"
+                }
+            }
+        },
+        "Q33506": {
+            "type": "item",
+            "id": "Q33506",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "museu"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "museum"
+                }
+            }
+        },
+        "Q41176": {
+            "type": "item",
+            "id": "Q41176",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "building"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "edifici"
+                }
+            }
+        },
+        "Q473972": {
+            "type": "item",
+            "id": "Q473972",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "protected area"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "àrea protegida"
+                }
+            }
+        },
+        "Q27608973": {
+            "type": "item",
+            "id": "Q27608973",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "natural monument of Russia"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "monument natural de Rússia"
+                }
+            }
+        },
+        "Q1959314": {
+            "type": "item",
+            "id": "Q1959314",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "protected area of Russia"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "àrea protegida de Rússia"
+                }
+            }
+        },
+        "Q27686": {
+            "type": "item",
+            "id": "Q27686",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "hotel"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "hotel"
+                }
+            }
+        },
+        "Q860861": {
+            "type": "item",
+            "id": "Q860861",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "sculpture"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "obra escultòrica"
+                }
+            }
+        },
+        "Q55488": {
+            "type": "item",
+            "id": "Q55488",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "estació de ferrocarril"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "railway station"
+                }
+            }
+        },
+        "Q23397": {
+            "type": "item",
+            "id": "Q23397",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "llac"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "lake"
+                }
+            }
+        },
+        "Q1443808": {
+            "type": "item",
+            "id": "Q1443808",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "oceanarium"
+                }
+            }
+        },
+        "Q1081138": {
+            "type": "item",
+            "id": "Q1081138",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "historic site"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "indret històric"
+                }
+            }
+        },
+        "Q24354": {
+            "type": "item",
+            "id": "Q24354",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "theatre building"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "teatre"
+                }
+            }
+        },
+        "Q3918": {
+            "type": "item",
+            "id": "Q3918",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "university"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "universitat"
+                }
+            }
+        },
+        "Q38723": {
+            "type": "item",
+            "id": "Q38723",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "higher education institution"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "institució educativa universitària"
+                }
+            }
+        },
+        "Q2385804": {
+            "type": "item",
+            "id": "Q2385804",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "educational institution"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "institució educativa"
+                }
+            }
+        },
+        "Q3914": {
+            "type": "item",
+            "id": "Q3914",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "school"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "escola"
+                }
+            }
+        },
+        "Q811979": {
+            "type": "item",
+            "id": "Q811979",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "architectural structure"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "estructura arquitectònica"
+                }
+            }
+        },
+        "Q1076486": {
+            "type": "item",
+            "id": "Q1076486",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "sports venue"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "instal·lació esportiva"
+                }
+            }
+        },
+        "Q3476533": {
+            "type": "item",
+            "id": "Q3476533",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "monumental sculpture"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "escultura monumental"
+                }
+            }
+        },
+        "Q1779653": {
+            "type": "item",
+            "id": "Q1779653",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "colossal statue"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "estàtua colossal"
+                }
+            }
+        },
+        "Q544823": {
+            "type": "item",
+            "id": "Q544823",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "nuclear-powered icebreaker"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "trencaglaç nuclear"
+                }
+            }
+        },
+        "Q45400320": {
+            "type": "item",
+            "id": "Q45400320",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "open-access publisher"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "editor en accés obert"
+                }
+            }
+        },
+        "Q174782": {
+            "type": "item",
+            "id": "Q174782",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "square"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "plaça"
+                }
+            }
+        },
+        "Q34442": {
+            "type": "item",
+            "id": "Q34442",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "road"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "carretera"
+                }
+            }
+        },
+        "Q13626398": {
+            "type": "item",
+            "id": "Q13626398",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "urban okrug in Russia"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "districte urbà de Rússia"
+                }
+            }
+        },
+        "Q39594": {
+            "type": "item",
+            "id": "Q39594",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "bay"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "badia"
+                }
+            }
+        },
+        "Q15195406": {
+            "type": "item",
+            "id": "Q15195406",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "city district in Russia"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "districte municipal de Rússia"
+                }
+            }
+        }
+    },
+    "success": 1
+}

@@ -1,0 +1,1179 @@
+{
+    "entities": {
+        "Q19367938": {
+            "type": "item",
+            "id": "Q19367938",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "Ermita de Sant Roc"
+                }
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "cawiki": {
+                    "site": "cawiki",
+                    "title": "Ermita de Sant Roc (Alacant)",
+                    "badges": [
+
+                    ]
+                },
+                "commonswiki": {
+                    "site": "commonswiki",
+                    "title": "Category:Ermita de Sant Roc d'Alacant",
+                    "badges": [
+
+                    ]
+                },
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Ermita de San Roque (Alicante)",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q16615838": {
+            "type": "item",
+            "id": "Q16615838",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Parada de Coveta Fumà (TRAM Alicante)",
+                    "badges": [
+
+                    ]
+                },
+                "euwiki": {
+                    "site": "euwiki",
+                    "title": "Coveta Fumà (TRAM Alacant)",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q16482985": {
+            "type": "item",
+            "id": "Q16482985",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Parada de Amerador (TRAM Alicante)",
+                    "badges": [
+
+                    ]
+                },
+                "euwiki": {
+                    "site": "euwiki",
+                    "title": "Amerador (TRAM Alacant)",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q48364995": {
+            "type": "item",
+            "id": "Q48364995",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Laborinquen",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q16615877": {
+            "type": "item",
+            "id": "Q16615877",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Parada de Países Escandinavos (TRAM Alicante)",
+                    "badges": [
+
+                    ]
+                },
+                "euwiki": {
+                    "site": "euwiki",
+                    "title": "Escandinaviar herrialdeak (TRAM Alacant)",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q16615853": {
+            "type": "item",
+            "id": "Q16615853",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Parada de Instituto (TRAM Alicante)",
+                    "badges": [
+
+                    ]
+                },
+                "euwiki": {
+                    "site": "euwiki",
+                    "title": "Institutua (TRAM Alacant)",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q16916031": {
+            "type": "item",
+            "id": "Q16916031",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Parada de Cabo Huertas (TRAM Alicante)",
+                    "badges": [
+
+                    ]
+                },
+                "euwiki": {
+                    "site": "euwiki",
+                    "title": "Cabo Huertas (TRAM Alacant)",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q16615796": {
+            "type": "item",
+            "id": "Q16615796",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Parada de Av. Benidorm (TRAM Alicante)",
+                    "badges": [
+
+                    ]
+                },
+                "euwiki": {
+                    "site": "euwiki",
+                    "title": "Benidorm hiribidea (TRAM Alacant)",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q16615863": {
+            "type": "item",
+            "id": "Q16615863",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Parada de Londres (TRAM Alicante)",
+                    "badges": [
+
+                    ]
+                },
+                "euwiki": {
+                    "site": "euwiki",
+                    "title": "Londres (TRAM Alacant)",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q12198525": {
+            "type": "item",
+            "id": "Q12198525",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "commonswiki": {
+                    "site": "commonswiki",
+                    "title": "Category:Holanda (TRAM Alacant)",
+                    "badges": [
+
+                    ]
+                },
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Parada de Holanda (TRAM Alicante)",
+                    "badges": [
+
+                    ]
+                },
+                "euwiki": {
+                    "site": "euwiki",
+                    "title": "Holanda (TRAM Alacant)",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q37445654": {
+            "type": "item",
+            "id": "Q37445654",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+
+            }
+        },
+        "Q115510952": {
+            "type": "item",
+            "id": "Q115510952",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "Urbanova"
+                }
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+
+            }
+        },
+        "Q6023067": {
+            "type": "item",
+            "id": "Q6023067",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "Monument a Maisonnave"
+                }
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "cawiki": {
+                    "site": "cawiki",
+                    "title": "Monument a Maisonnave",
+                    "badges": [
+
+                    ]
+                },
+                "commonswiki": {
+                    "site": "commonswiki",
+                    "title": "Category:Monument to Eleuterio Maisonnave",
+                    "badges": [
+
+                    ]
+                },
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Monumento a Maisonnave",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q111388922": {
+            "type": "item",
+            "id": "Q111388922",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+
+            }
+        },
+        "Q111117479": {
+            "type": "item",
+            "id": "Q111117479",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+
+            }
+        },
+        "Q111388927": {
+            "type": "item",
+            "id": "Q111388927",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+
+            }
+        },
+        "Q16916037": {
+            "type": "item",
+            "id": "Q16916037",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Parada de Virgen del Remedio (TRAM Alicante)",
+                    "badges": [
+
+                    ]
+                },
+                "euwiki": {
+                    "site": "euwiki",
+                    "title": "Virgen del Remedio (TRAM Alacant)",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q16615830": {
+            "type": "item",
+            "id": "Q16615830",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Parada de Condomina (TRAM Alicante)",
+                    "badges": [
+
+                    ]
+                },
+                "euwiki": {
+                    "site": "euwiki",
+                    "title": "Condomina (TRAM Alacant)",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q85853460": {
+            "type": "item",
+            "id": "Q85853460",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "Biblioteca Pública Municipal - Sant Blai, Alacant"
+                }
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+
+            }
+        },
+        "Q111117483": {
+            "type": "item",
+            "id": "Q111117483",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+
+            }
+        },
+        "Q111388925": {
+            "type": "item",
+            "id": "Q111388925",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+
+            }
+        },
+        "Q5846709": {
+            "type": "item",
+            "id": "Q5846709",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "Estació de Mercat del TRAM d'Alacant"
+                }
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "cawiki": {
+                    "site": "cawiki",
+                    "title": "Estació de Mercat del TRAM d'Alacant",
+                    "badges": [
+
+                    ]
+                },
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Estación de Mercado (TRAM Alicante)",
+                    "badges": [
+
+                    ]
+                },
+                "euwiki": {
+                    "site": "euwiki",
+                    "title": "Merkatu (TRAM Alacant)",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q108132429": {
+            "type": "item",
+            "id": "Q108132429",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+
+            }
+        },
+        "Q8261202": {
+            "type": "item",
+            "id": "Q8261202",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "Camp de concentració dels Ametllers"
+                }
+            },
+            "aliases": {
+                "ca": [
+                    {
+                        "language": "ca",
+                        "value": "Camp de detenció dels Ametllers"
+                    },
+                    {
+                        "language": "ca",
+                        "value": "Camp dels Ametllers"
+                    }
+                ]
+            },
+            "sitelinks": {
+                "cawiki": {
+                    "site": "cawiki",
+                    "title": "Camp de concentració dels Ametllers",
+                    "badges": [
+
+                    ]
+                },
+                "commonswiki": {
+                    "site": "commonswiki",
+                    "title": "Category:Los Almedros detention camp",
+                    "badges": [
+
+                    ]
+                },
+                "dewiki": {
+                    "site": "dewiki",
+                    "title": "Campo de concentración de Los Almendros",
+                    "badges": [
+
+                    ]
+                },
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Campo de concentración de Los Almendros",
+                    "badges": [
+
+                    ]
+                },
+                "frwiki": {
+                    "site": "frwiki",
+                    "title": "Camp de concentration de Los Almendros",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q111388929": {
+            "type": "item",
+            "id": "Q111388929",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+
+            }
+        },
+        "Q28148423": {
+            "type": "item",
+            "id": "Q28148423",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "astwiki": {
+                    "site": "astwiki",
+                    "title": "Diversitat LGTBI Alacant",
+                    "badges": [
+
+                    ]
+                },
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Diversitat LGTBI Alacant",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q111871867": {
+            "type": "item",
+            "id": "Q111871867",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+
+            }
+        },
+        "Q111117486": {
+            "type": "item",
+            "id": "Q111117486",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+
+            }
+        },
+        "Q116871240": {
+            "type": "item",
+            "id": "Q116871240",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "ukwiki": {
+                    "site": "ukwiki",
+                    "title": "VeAn Tattoo",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q104122076": {
+            "type": "item",
+            "id": "Q104122076",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "Estació de ferrocarril d'Agost"
+                }
+            },
+            "aliases": {
+                "ca": [
+                    {
+                        "language": "ca",
+                        "value": "Estació d'Agost"
+                    }
+                ]
+            },
+            "sitelinks": {
+
+            }
+        },
+        "Q85803972": {
+            "type": "item",
+            "id": "Q85803972",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "Biblioteca Pública de l'Estat a Alacant - José Martínez Ruíz Azorín"
+                }
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+
+            }
+        },
+        "Q30254181": {
+            "type": "item",
+            "id": "Q30254181",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+
+            }
+        },
+        "Q56596858": {
+            "type": "item",
+            "id": "Q56596858",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "Plaza Mar 2"
+                }
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "cawiki": {
+                    "site": "cawiki",
+                    "title": "Plaza Mar 2",
+                    "badges": [
+
+                    ]
+                },
+                "commonswiki": {
+                    "site": "commonswiki",
+                    "title": "Category:Plaza Mar 2",
+                    "badges": [
+
+                    ]
+                },
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Plaza Mar 2",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q108131224": {
+            "type": "item",
+            "id": "Q108131224",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+
+            }
+        },
+        "Q108132645": {
+            "type": "item",
+            "id": "Q108132645",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+
+            }
+        },
+        "Q24003768": {
+            "type": "item",
+            "id": "Q24003768",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "cebwiki": {
+                    "site": "cebwiki",
+                    "title": "Parqeu Lo Torrent",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q108132505": {
+            "type": "item",
+            "id": "Q108132505",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "IES Leonardo Da Vinci"
+                }
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+
+            }
+        },
+        "Q108132504": {
+            "type": "item",
+            "id": "Q108132504",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+
+            }
+        },
+        "Q108132553": {
+            "type": "item",
+            "id": "Q108132553",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+
+            }
+        },
+        "Q108134292": {
+            "type": "item",
+            "id": "Q108134292",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+
+            }
+        },
+        "Q95265680": {
+            "type": "item",
+            "id": "Q95265680",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Estación depuradora de aguas residuales Monte Orgegia",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q108132418": {
+            "type": "item",
+            "id": "Q108132418",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+
+            }
+        },
+        "Q43150846": {
+            "type": "item",
+            "id": "Q43150846",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "Torre Cacholí"
+                }
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "commonswiki": {
+                    "site": "commonswiki",
+                    "title": "Category:Torre Cacholí",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q108134343": {
+            "type": "item",
+            "id": "Q108134343",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+
+            }
+        },
+        "Q111388923": {
+            "type": "item",
+            "id": "Q111388923",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+
+            }
+        },
+        "Q108131219": {
+            "type": "item",
+            "id": "Q108131219",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+
+            }
+        },
+        "Q2942405": {
+            "type": "item",
+            "id": "Q2942405",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "cocatedral de Sant Nicolau de Bari"
+                }
+            },
+            "aliases": {
+                "ca": [
+                    {
+                        "language": "ca",
+                        "value": "Església de Sant Nicolau (Alacant)"
+                    }
+                ]
+            },
+            "sitelinks": {
+                "arzwiki": {
+                    "site": "arzwiki",
+                    "title": "كاتدرائية سان نيكولاس",
+                    "badges": [
+
+                    ]
+                },
+                "cawiki": {
+                    "site": "cawiki",
+                    "title": "Cocatedral de Sant Nicolau de Bari",
+                    "badges": [
+
+                    ]
+                },
+                "commonswiki": {
+                    "site": "commonswiki",
+                    "title": "Category:Cocatedral de Sant Nicolau de Bari (Alicante)",
+                    "badges": [
+
+                    ]
+                },
+                "enwiki": {
+                    "site": "enwiki",
+                    "title": "Concatedral de San Nicolás, Alicante",
+                    "badges": [
+
+                    ]
+                },
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Concatedral de Alicante",
+                    "badges": [
+
+                    ]
+                },
+                "frwiki": {
+                    "site": "frwiki",
+                    "title": "Cathédrale Saint-Nicolas d'Alicante",
+                    "badges": [
+
+                    ]
+                },
+                "idwiki": {
+                    "site": "idwiki",
+                    "title": "Kon-Katedral Alicante",
+                    "badges": [
+
+                    ]
+                },
+                "itwiki": {
+                    "site": "itwiki",
+                    "title": "Concattedrale di Alicante",
+                    "badges": [
+
+                    ]
+                },
+                "plwiki": {
+                    "site": "plwiki",
+                    "title": "Konkatedra św. Mikołaja z Bari w Alicante",
+                    "badges": [
+
+                    ]
+                },
+                "zhwiki": {
+                    "site": "zhwiki",
+                    "title": "阿利坎特主教座堂",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q16559078": {
+            "type": "item",
+            "id": "Q16559078",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "Edifici La Colmena"
+                }
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "cawiki": {
+                    "site": "cawiki",
+                    "title": "Edifici La Colmena",
+                    "badges": [
+
+                    ]
+                },
+                "commonswiki": {
+                    "site": "commonswiki",
+                    "title": "Category:Edificio Cooperativa de Hostelería Felipe Arche (La Colmena), Alicante",
+                    "badges": [
+
+                    ]
+                },
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "La Colmena (edificio)",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q15977195": {
+            "type": "item",
+            "id": "Q15977195",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "Llonja del Peix d'Alacant"
+                }
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "cawiki": {
+                    "site": "cawiki",
+                    "title": "Llotja del Peix d'Alacant",
+                    "badges": [
+
+                    ]
+                },
+                "commonswiki": {
+                    "site": "commonswiki",
+                    "title": "Category:Lonja del Pescado de Alicante",
+                    "badges": [
+
+                    ]
+                },
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Lonja del Pescado (Alicante)",
+                    "badges": [
+
+                    ]
+                },
+                "frwiki": {
+                    "site": "frwiki",
+                    "title": "Lonja del Pescado",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q14753676": {
+            "type": "item",
+            "id": "Q14753676",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "Riscal"
+                }
+            },
+            "aliases": {
+                "ca": [
+                    {
+                        "language": "ca",
+                        "value": "Estudiotel Alacant"
+                    },
+                    {
+                        "language": "ca",
+                        "value": "Aparthotel Riscal"
+                    }
+                ]
+            },
+            "sitelinks": {
+                "arzwiki": {
+                    "site": "arzwiki",
+                    "title": "استوديوتيل اليكانتى",
+                    "badges": [
+
+                    ]
+                },
+                "cawiki": {
+                    "site": "cawiki",
+                    "title": "Riscal",
+                    "badges": [
+
+                    ]
+                },
+                "commonswiki": {
+                    "site": "commonswiki",
+                    "title": "Category:Estudiotel Alicante",
+                    "badges": [
+
+                    ]
+                },
+                "enwiki": {
+                    "site": "enwiki",
+                    "title": "Estudiotel Alicante",
+                    "badges": [
+
+                    ]
+                },
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Riscal",
+                    "badges": [
+
+                    ]
+                },
+                "frwiki": {
+                    "site": "frwiki",
+                    "title": "Estudiotel Alicante, Riscal",
+                    "badges": [
+
+                    ]
+                }
+            }
+        }
+    },
+    "success": 1
+}

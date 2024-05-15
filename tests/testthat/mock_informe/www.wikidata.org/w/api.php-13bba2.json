@@ -1,0 +1,1603 @@
+{
+    "entities": {
+        "Q4343175": {
+            "type": "item",
+            "id": "Q4343175",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "commonswiki": {
+                    "site": "commonswiki",
+                    "title": "Category:Monument to the victims of the intervention of 1918-1920, Murmansk",
+                    "badges": [
+
+                    ]
+                },
+                "enwiki": {
+                    "site": "enwiki",
+                    "title": "Monument to the Victims of the Intervention",
+                    "badges": [
+
+                    ]
+                },
+                "ruwiki": {
+                    "site": "ruwiki",
+                    "title": "Памятник жертвам интервенции (Мурманск)",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q16695697": {
+            "type": "item",
+            "id": "Q16695697",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "ruwiki": {
+                    "site": "ruwiki",
+                    "title": "Северное Нагорное",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q4114452": {
+            "type": "item",
+            "id": "Q4114452",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "arwiki": {
+                    "site": "arwiki",
+                    "title": "المتحف البحري للأسطول الشمالي",
+                    "badges": [
+
+                    ]
+                },
+                "commonswiki": {
+                    "site": "commonswiki",
+                    "title": "Category:The Naval Museum of the Northern Fleet",
+                    "badges": [
+
+                    ]
+                },
+                "nlwiki": {
+                    "site": "nlwiki",
+                    "title": "Maritiem museum van de Noordelijke Vloot",
+                    "badges": [
+
+                    ]
+                },
+                "ruwiki": {
+                    "site": "ruwiki",
+                    "title": "Военно-морской музей Северного флота",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q4077682": {
+            "type": "item",
+            "id": "Q4077682",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "commonswiki": {
+                    "site": "commonswiki",
+                    "title": "Category:Roche moutonnée near Semyonovskoye Lake",
+                    "badges": [
+
+                    ]
+                },
+                "ruwiki": {
+                    "site": "ruwiki",
+                    "title": "Бараний лоб у озера Семёновское",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q4069476": {
+            "type": "item",
+            "id": "Q4069476",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "commonswiki": {
+                    "site": "commonswiki",
+                    "title": "Category:Arktika (hotel)",
+                    "badges": [
+
+                    ]
+                },
+                "enwiki": {
+                    "site": "enwiki",
+                    "title": "Azimut Hotel Murmansk",
+                    "badges": [
+
+                    ]
+                },
+                "ruwiki": {
+                    "site": "ruwiki",
+                    "title": "Арктика (гостиница, Мурманск)",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q106715791": {
+            "type": "item",
+            "id": "Q106715791",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+
+            }
+        },
+        "Q4308088": {
+            "type": "item",
+            "id": "Q4308088",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "commonswiki": {
+                    "site": "commonswiki",
+                    "title": "Category:Murmansk Train Station",
+                    "badges": [
+
+                    ]
+                },
+                "fiwiki": {
+                    "site": "fiwiki",
+                    "title": "Murmanskin rautatieasema",
+                    "badges": [
+
+                    ]
+                },
+                "frwiki": {
+                    "site": "frwiki",
+                    "title": "Gare de Mourmansk",
+                    "badges": [
+
+                    ]
+                },
+                "nowiki": {
+                    "site": "nowiki",
+                    "title": "Murmansk jernbanestasjon",
+                    "badges": [
+
+                    ]
+                },
+                "plwiki": {
+                    "site": "plwiki",
+                    "title": "Murmańsk (stacja kolejowa)",
+                    "badges": [
+
+                    ]
+                },
+                "ruwiki": {
+                    "site": "ruwiki",
+                    "title": "Мурманск (станция)",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q28667870": {
+            "type": "item",
+            "id": "Q28667870",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "ruwiki": {
+                    "site": "ruwiki",
+                    "title": "Среднее (озеро, Мурманск)",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q4308114": {
+            "type": "item",
+            "id": "Q4308114",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "commonswiki": {
+                    "site": "commonswiki",
+                    "title": "Category:Murmansk Oceanarium",
+                    "badges": [
+
+                    ]
+                },
+                "ruwiki": {
+                    "site": "ruwiki",
+                    "title": "Мурманский океанариум",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q28447333": {
+            "type": "item",
+            "id": "Q28447333",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "ruwiki": {
+                    "site": "ruwiki",
+                    "title": "Ледовое",
+                    "badges": [
+
+                    ]
+                },
+                "zhwiki": {
+                    "site": "zhwiki",
+                    "title": "列多沃耶湖",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q27826384": {
+            "type": "item",
+            "id": "Q27826384",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "cebwiki": {
+                    "site": "cebwiki",
+                    "title": "Ozero Rogozero (lanaw sa Rusya, Murmanskaya Oblast')",
+                    "badges": [
+
+                    ]
+                },
+                "ruwiki": {
+                    "site": "ruwiki",
+                    "title": "Рогозеро",
+                    "badges": [
+
+                    ]
+                },
+                "zhwiki": {
+                    "site": "zhwiki",
+                    "title": "羅格湖",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q4308109": {
+            "type": "item",
+            "id": "Q4308109",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "arwiki": {
+                    "site": "arwiki",
+                    "title": "متحف مورمانسك الإقليمي",
+                    "badges": [
+
+                    ]
+                },
+                "commonswiki": {
+                    "site": "commonswiki",
+                    "title": "Category:Murmansk Regional Museum",
+                    "badges": [
+
+                    ]
+                },
+                "frwiki": {
+                    "site": "frwiki",
+                    "title": "Musée régional de Mourmansk",
+                    "badges": [
+
+                    ]
+                },
+                "nlwiki": {
+                    "site": "nlwiki",
+                    "title": "Regionaal museum van Moermansk",
+                    "badges": [
+
+                    ]
+                },
+                "ruwiki": {
+                    "site": "ruwiki",
+                    "title": "Мурманский областной краеведческий музей",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q4308108": {
+            "type": "item",
+            "id": "Q4308108",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "ruwiki": {
+                    "site": "ruwiki",
+                    "title": "Мурманский областной драматический театр",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q1276122": {
+            "type": "item",
+            "id": "Q1276122",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "bawiki": {
+                    "site": "bawiki",
+                    "title": "Мурманск арктик дәүләт университеты",
+                    "badges": [
+
+                    ]
+                },
+                "dewiki": {
+                    "site": "dewiki",
+                    "title": "Staatliche Universität der Arktis Murmansk",
+                    "badges": [
+
+                    ]
+                },
+                "ruwiki": {
+                    "site": "ruwiki",
+                    "title": "Мурманский арктический государственный университет",
+                    "badges": [
+
+                    ]
+                },
+                "ttwiki": {
+                    "site": "ttwiki",
+                    "title": "Мурманск арктика дәүләт университеты",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q4525182": {
+            "type": "item",
+            "id": "Q4525182",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "ruwiki": {
+                    "site": "ruwiki",
+                    "title": "Школа № 31 (Мурманск)",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q4430764": {
+            "type": "item",
+            "id": "Q4430764",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "commonswiki": {
+                    "site": "commonswiki",
+                    "title": "Category:Church of the Saviour on the Water, Murmansk",
+                    "badges": [
+
+                    ]
+                },
+                "ruwiki": {
+                    "site": "ruwiki",
+                    "title": "Спас на Водах (Мурманск)",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q4308111": {
+            "type": "item",
+            "id": "Q4308111",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "commonswiki": {
+                    "site": "commonswiki",
+                    "title": "Category:Murmansk Regional Museum of Art",
+                    "badges": [
+
+                    ]
+                },
+                "nlwiki": {
+                    "site": "nlwiki",
+                    "title": "Regionaal kunstmuseum van Moermansk",
+                    "badges": [
+
+                    ]
+                },
+                "ruwiki": {
+                    "site": "ruwiki",
+                    "title": "Мурманский областной художественный музей",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q4504383": {
+            "type": "item",
+            "id": "Q4504383",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "commonswiki": {
+                    "site": "commonswiki",
+                    "title": "Category:Tsentralnyi Profsoyuz Stadion, Murmansk",
+                    "badges": [
+
+                    ]
+                },
+                "enwiki": {
+                    "site": "enwiki",
+                    "title": "Tsentralnyi Profsoyuz Stadion (Murmansk)",
+                    "badges": [
+
+                    ]
+                },
+                "hewiki": {
+                    "site": "hewiki",
+                    "title": "האצטדיון המרכזי (מורמנסק)",
+                    "badges": [
+
+                    ]
+                },
+                "nlwiki": {
+                    "site": "nlwiki",
+                    "title": "Centraalstadion (Moermansk)",
+                    "badges": [
+
+                    ]
+                },
+                "plwiki": {
+                    "site": "plwiki",
+                    "title": "Stadion Centralny w Murmańsku",
+                    "badges": [
+
+                    ]
+                },
+                "ruwiki": {
+                    "site": "ruwiki",
+                    "title": "Центральный стадион профсоюзов (Мурманск)",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q4054870": {
+            "type": "item",
+            "id": "Q4054870",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "cebwiki": {
+                    "site": "cebwiki",
+                    "title": "Abram Mys",
+                    "badges": [
+
+                    ]
+                },
+                "ruwiki": {
+                    "site": "ruwiki",
+                    "title": "Абрам-Мыс",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q4189105": {
+            "type": "item",
+            "id": "Q4189105",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "arwiki": {
+                    "site": "arwiki",
+                    "title": "نصب أليوشا التذكاري، مورمانسك",
+                    "badges": [
+
+                    ]
+                },
+                "arzwiki": {
+                    "site": "arzwiki",
+                    "title": "تمثال اليوشا التذكارى",
+                    "badges": [
+
+                    ]
+                },
+                "azwiki": {
+                    "site": "azwiki",
+                    "title": "Böyük Vətən Müharibəsi illərində Sovet Arktikasının Müdafiəçilərinə abidə",
+                    "badges": [
+
+                    ]
+                },
+                "commonswiki": {
+                    "site": "commonswiki",
+                    "title": "Category:Memorial to Defenders of the Soviet Arctic during the Great Patriotic War",
+                    "badges": [
+
+                    ]
+                },
+                "dewiki": {
+                    "site": "dewiki",
+                    "title": "Aljoscha-Monument",
+                    "badges": [
+
+                    ]
+                },
+                "elwiki": {
+                    "site": "elwiki",
+                    "title": "Μνημείο Υπερασπιστών της Σοβιετικής Αρκτικής",
+                    "badges": [
+
+                    ]
+                },
+                "enwiki": {
+                    "site": "enwiki",
+                    "title": "Alyosha Monument, Murmansk",
+                    "badges": [
+
+                    ]
+                },
+                "fiwiki": {
+                    "site": "fiwiki",
+                    "title": "Neuvostoliiton arktiset puolustajat suuressa isänmaallisessa sodassa",
+                    "badges": [
+
+                    ]
+                },
+                "frwiki": {
+                    "site": "frwiki",
+                    "title": "Monument aux Défenseurs de l'Arctique soviétique pendant la Grande Guerre patriotique",
+                    "badges": [
+
+                    ]
+                },
+                "hewiki": {
+                    "site": "hewiki",
+                    "title": "אנדרטת אליושה",
+                    "badges": [
+
+                    ]
+                },
+                "itwiki": {
+                    "site": "itwiki",
+                    "title": "Monumento ai difensori dell'Artico sovietico durante la grande guerra patriottica",
+                    "badges": [
+
+                    ]
+                },
+                "jawiki": {
+                    "site": "jawiki",
+                    "title": "ソビエト極北防衛隊慰霊碑",
+                    "badges": [
+
+                    ]
+                },
+                "nlwiki": {
+                    "site": "nlwiki",
+                    "title": "Monument voor de verdedigers van het Sovjetpoolgebied tijdens de Grote Vaderlandse Oorlog",
+                    "badges": [
+
+                    ]
+                },
+                "ruwiki": {
+                    "site": "ruwiki",
+                    "title": "Защитникам Советского Заполярья в годы Великой Отечественной войны",
+                    "badges": [
+
+                    ]
+                },
+                "srwiki": {
+                    "site": "srwiki",
+                    "title": "Споменик браниоцима совјетског Арктика",
+                    "badges": [
+
+                    ]
+                },
+                "trwiki": {
+                    "site": "trwiki",
+                    "title": "Büyük Vatanseverlik Savaşı Sırasında Sovyet Arktik Muhafızları Anıtı",
+                    "badges": [
+
+                    ]
+                },
+                "ttwiki": {
+                    "site": "ttwiki",
+                    "title": "Совет төньяк котып түгәрәге аръягын саклаучыларга",
+                    "badges": [
+
+                    ]
+                },
+                "ukwiki": {
+                    "site": "ukwiki",
+                    "title": "Захисникам Радянського Заполяр'я у роки Великої Вітчизняної війни",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q648655": {
+            "type": "item",
+            "id": "Q648655",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "Lenin"
+                }
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "bewiki": {
+                    "site": "bewiki",
+                    "title": "Ленін (ледакол)",
+                    "badges": [
+
+                    ]
+                },
+                "bgwiki": {
+                    "site": "bgwiki",
+                    "title": "Атомен ледоразбивач „Ленин“",
+                    "badges": [
+
+                    ]
+                },
+                "commonswiki": {
+                    "site": "commonswiki",
+                    "title": "Category:Lenin (ship, 1959)",
+                    "badges": [
+
+                    ]
+                },
+                "cswiki": {
+                    "site": "cswiki",
+                    "title": "Lenin (ledoborec)",
+                    "badges": [
+
+                    ]
+                },
+                "cvwiki": {
+                    "site": "cvwiki",
+                    "title": "Ленин (атомлă пăрçĕмрен)",
+                    "badges": [
+
+                    ]
+                },
+                "dewiki": {
+                    "site": "dewiki",
+                    "title": "Lenin (Schiff, 1959)",
+                    "badges": [
+
+                    ]
+                },
+                "elwiki": {
+                    "site": "elwiki",
+                    "title": "Λένιν (παγοθραυστικό)",
+                    "badges": [
+
+                    ]
+                },
+                "enwiki": {
+                    "site": "enwiki",
+                    "title": "Lenin (1957 icebreaker)",
+                    "badges": [
+
+                    ]
+                },
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Rompehielos Lenin",
+                    "badges": [
+
+                    ]
+                },
+                "etwiki": {
+                    "site": "etwiki",
+                    "title": "Lenin (jäämurdja)",
+                    "badges": [
+
+                    ]
+                },
+                "fiwiki": {
+                    "site": "fiwiki",
+                    "title": "Lenin (jäänmurtaja)",
+                    "badges": [
+
+                    ]
+                },
+                "frwiki": {
+                    "site": "frwiki",
+                    "title": "Lénine (brise-glace)",
+                    "badges": [
+
+                    ]
+                },
+                "hewiki": {
+                    "site": "hewiki",
+                    "title": "לנין (שוברת קרח גרעינית)",
+                    "badges": [
+
+                    ]
+                },
+                "hrwiki": {
+                    "site": "hrwiki",
+                    "title": "Lenjin (nuklearni ledolomac)",
+                    "badges": [
+
+                    ]
+                },
+                "idwiki": {
+                    "site": "idwiki",
+                    "title": "Lenin (kapal pemecah es bertenaga nuklir)",
+                    "badges": [
+
+                    ]
+                },
+                "itwiki": {
+                    "site": "itwiki",
+                    "title": "Lenin (rompighiaccio atomico)",
+                    "badges": [
+
+                    ]
+                },
+                "jawiki": {
+                    "site": "jawiki",
+                    "title": "レーニン (原子力砕氷艦)",
+                    "badges": [
+
+                    ]
+                },
+                "kawiki": {
+                    "site": "kawiki",
+                    "title": "ლენინი (ატომური ყინულმჭრელი)",
+                    "badges": [
+
+                    ]
+                },
+                "kowiki": {
+                    "site": "kowiki",
+                    "title": "레닌 쇄빙선",
+                    "badges": [
+
+                    ]
+                },
+                "ltwiki": {
+                    "site": "ltwiki",
+                    "title": "Leninas (ledlaužis)",
+                    "badges": [
+
+                    ]
+                },
+                "nlwiki": {
+                    "site": "nlwiki",
+                    "title": "Lenin (schip, 1959)",
+                    "badges": [
+
+                    ]
+                },
+                "plwiki": {
+                    "site": "plwiki",
+                    "title": "Lenin (1957)",
+                    "badges": [
+
+                    ]
+                },
+                "ptwiki": {
+                    "site": "ptwiki",
+                    "title": "Lenin (quebra-gelo)",
+                    "badges": [
+
+                    ]
+                },
+                "rowiki": {
+                    "site": "rowiki",
+                    "title": "Spărgătorul de gheață V. I. Lenin",
+                    "badges": [
+
+                    ]
+                },
+                "ruwiki": {
+                    "site": "ruwiki",
+                    "title": "Ленин (атомный ледокол)",
+                    "badges": [
+
+                    ]
+                },
+                "trwiki": {
+                    "site": "trwiki",
+                    "title": "Lenin (nükleer buzkıran)",
+                    "badges": [
+
+                    ]
+                },
+                "ukwiki": {
+                    "site": "ukwiki",
+                    "title": "Ленін (криголам)",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q4308101": {
+            "type": "item",
+            "id": "Q4308101",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "enwiki": {
+                    "site": "enwiki",
+                    "title": "Murmansk State Technical University",
+                    "badges": [
+
+                    ]
+                },
+                "frwiki": {
+                    "site": "frwiki",
+                    "title": "Université technique d'État de Mourmansk",
+                    "badges": [
+
+                    ]
+                },
+                "ruwiki": {
+                    "site": "ruwiki",
+                    "title": "Мурманский государственный технический университет",
+                    "badges": [
+
+                    ]
+                },
+                "simplewiki": {
+                    "site": "simplewiki",
+                    "title": "Murmansk State Technical University",
+                    "badges": [
+
+                    ]
+                },
+                "ttwiki": {
+                    "site": "ttwiki",
+                    "title": "Мурманск дәүләт техник университеты",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q4365721": {
+            "type": "item",
+            "id": "Q4365721",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "arzwiki": {
+                    "site": "arzwiki",
+                    "title": "فايف كورنرز",
+                    "badges": [
+
+                    ]
+                },
+                "enwiki": {
+                    "site": "enwiki",
+                    "title": "Five Corners, Murmansk",
+                    "badges": [
+
+                    ]
+                },
+                "ruwiki": {
+                    "site": "ruwiki",
+                    "title": "Площадь Пять углов (Мурманск)",
+                    "badges": [
+
+                    ]
+                },
+                "ukwiki": {
+                    "site": "ukwiki",
+                    "title": "Площа П'ять Кутів",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q1536553": {
+            "redirects": {
+                "from": "Q1536553",
+                "to": "Q279411"
+            },
+            "type": "item",
+            "id": "Q279411",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "bawiki": {
+                    "site": "bawiki",
+                    "title": "Кола (автомобиль юлы)",
+                    "badges": [
+
+                    ]
+                },
+                "be_x_oldwiki": {
+                    "site": "be_x_oldwiki",
+                    "title": "Аўтамагістраль Кола",
+                    "badges": [
+
+                    ]
+                },
+                "bewiki": {
+                    "site": "bewiki",
+                    "title": "Аўтамагістраль Кола",
+                    "badges": [
+
+                    ]
+                },
+                "commonswiki": {
+                    "site": "commonswiki",
+                    "title": "Category:R21 Kola Federal Highway (Russia)",
+                    "badges": [
+
+                    ]
+                },
+                "dewiki": {
+                    "site": "dewiki",
+                    "title": "R21 (Russland)",
+                    "badges": [
+
+                    ]
+                },
+                "enwiki": {
+                    "site": "enwiki",
+                    "title": "R21 highway (Russia)",
+                    "badges": [
+
+                    ]
+                },
+                "fiwiki": {
+                    "site": "fiwiki",
+                    "title": "P21 (valtatie)",
+                    "badges": [
+
+                    ]
+                },
+                "frwiki": {
+                    "site": "frwiki",
+                    "title": "R21 (route russe)",
+                    "badges": [
+
+                    ]
+                },
+                "ltwiki": {
+                    "site": "ltwiki",
+                    "title": "Kola (plentas)",
+                    "badges": [
+
+                    ]
+                },
+                "lvwiki": {
+                    "site": "lvwiki",
+                    "title": "Autoceļš R21 (Krievija)",
+                    "badges": [
+
+                    ]
+                },
+                "nlwiki": {
+                    "site": "nlwiki",
+                    "title": "R-21 (Rusland)",
+                    "badges": [
+
+                    ]
+                },
+                "nowiki": {
+                    "site": "nowiki",
+                    "title": "R21 (Russland)",
+                    "badges": [
+
+                    ]
+                },
+                "plwiki": {
+                    "site": "plwiki",
+                    "title": "Droga R21 (Rosja)",
+                    "badges": [
+
+                    ]
+                },
+                "ruwiki": {
+                    "site": "ruwiki",
+                    "title": "Кола (автодорога)",
+                    "badges": [
+
+                    ]
+                },
+                "ruwikivoyage": {
+                    "site": "ruwikivoyage",
+                    "title": "Кола (трасса)",
+                    "badges": [
+
+                    ]
+                },
+                "ukwiki": {
+                    "site": "ukwiki",
+                    "title": "Автомагістраль Р21 (Росія)",
+                    "badges": [
+
+                    ]
+                },
+                "zhwiki": {
+                    "site": "zhwiki",
+                    "title": "R21公路 (俄羅斯)",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q16708129": {
+            "type": "item",
+            "id": "Q16708129",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "ukwiki": {
+                    "site": "ukwiki",
+                    "title": "Мурманський міський округ",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q28667793": {
+            "type": "item",
+            "id": "Q28667793",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "commonswiki": {
+                    "site": "commonswiki",
+                    "title": "Category:Bolshoye Lake, Murmansk",
+                    "badges": [
+
+                    ]
+                },
+                "ruwiki": {
+                    "site": "ruwiki",
+                    "title": "Большое (озеро, Мурманск)",
+                    "badges": [
+
+                    ]
+                },
+                "zhwiki": {
+                    "site": "zhwiki",
+                    "title": "博利紹耶湖 (摩爾曼斯克州)",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q161591": {
+            "type": "item",
+            "id": "Q161591",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "bewiki": {
+                    "site": "bewiki",
+                    "title": "Кольскі заліў",
+                    "badges": [
+
+                    ]
+                },
+                "bgwiki": {
+                    "site": "bgwiki",
+                    "title": "Колски залив",
+                    "badges": [
+
+                    ]
+                },
+                "cswiki": {
+                    "site": "cswiki",
+                    "title": "Kolský záliv",
+                    "badges": [
+
+                    ]
+                },
+                "dewiki": {
+                    "site": "dewiki",
+                    "title": "Kola-Bucht",
+                    "badges": [
+
+                    ]
+                },
+                "enwiki": {
+                    "site": "enwiki",
+                    "title": "Kola Bay",
+                    "badges": [
+
+                    ]
+                },
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Bahía de Kola",
+                    "badges": [
+
+                    ]
+                },
+                "etwiki": {
+                    "site": "etwiki",
+                    "title": "Koola laht",
+                    "badges": [
+
+                    ]
+                },
+                "euwiki": {
+                    "site": "euwiki",
+                    "title": "Kola badia",
+                    "badges": [
+
+                    ]
+                },
+                "fiwiki": {
+                    "site": "fiwiki",
+                    "title": "Kuolanvuono",
+                    "badges": [
+
+                    ]
+                },
+                "frwiki": {
+                    "site": "frwiki",
+                    "title": "Baie de Kola",
+                    "badges": [
+
+                    ]
+                },
+                "hewiki": {
+                    "site": "hewiki",
+                    "title": "מפרץ קולה",
+                    "badges": [
+
+                    ]
+                },
+                "hrwiki": {
+                    "site": "hrwiki",
+                    "title": "Kolski zaljev",
+                    "badges": [
+
+                    ]
+                },
+                "hsbwiki": {
+                    "site": "hsbwiki",
+                    "title": "Kolski zaliw",
+                    "badges": [
+
+                    ]
+                },
+                "hywiki": {
+                    "site": "hywiki",
+                    "title": "Կոլայի ծոց",
+                    "badges": [
+
+                    ]
+                },
+                "itwiki": {
+                    "site": "itwiki",
+                    "title": "Baia di Kola",
+                    "badges": [
+
+                    ]
+                },
+                "jawiki": {
+                    "site": "jawiki",
+                    "title": "コラ湾",
+                    "badges": [
+
+                    ]
+                },
+                "kkwiki": {
+                    "site": "kkwiki",
+                    "title": "Кола шығанағы",
+                    "badges": [
+
+                    ]
+                },
+                "lawiki": {
+                    "site": "lawiki",
+                    "title": "Sinus Kolaensis",
+                    "badges": [
+
+                    ]
+                },
+                "ltwiki": {
+                    "site": "ltwiki",
+                    "title": "Kolos įlanka",
+                    "badges": [
+
+                    ]
+                },
+                "nlwiki": {
+                    "site": "nlwiki",
+                    "title": "Baai van Kola",
+                    "badges": [
+
+                    ]
+                },
+                "nnwiki": {
+                    "site": "nnwiki",
+                    "title": "Kolabukta",
+                    "badges": [
+
+                    ]
+                },
+                "nowiki": {
+                    "site": "nowiki",
+                    "title": "Kolabukta",
+                    "badges": [
+
+                    ]
+                },
+                "plwiki": {
+                    "site": "plwiki",
+                    "title": "Zatoka Kolska",
+                    "badges": [
+
+                    ]
+                },
+                "ruwiki": {
+                    "site": "ruwiki",
+                    "title": "Кольский залив",
+                    "badges": [
+
+                    ]
+                },
+                "srwiki": {
+                    "site": "srwiki",
+                    "title": "Кољски залив",
+                    "badges": [
+
+                    ]
+                },
+                "svwiki": {
+                    "site": "svwiki",
+                    "title": "Murmanskfjorden",
+                    "badges": [
+
+                    ]
+                },
+                "szlwiki": {
+                    "site": "szlwiki",
+                    "title": "Zatoka Kolsko",
+                    "badges": [
+
+                    ]
+                },
+                "trwiki": {
+                    "site": "trwiki",
+                    "title": "Kola Körfezi",
+                    "badges": [
+
+                    ]
+                },
+                "ttwiki": {
+                    "site": "ttwiki",
+                    "title": "Кола култыгы",
+                    "badges": [
+
+                    ]
+                },
+                "ukwiki": {
+                    "site": "ukwiki",
+                    "title": "Кольська затока",
+                    "badges": [
+
+                    ]
+                },
+                "zhwiki": {
+                    "site": "zhwiki",
+                    "title": "科拉灣",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q17068750": {
+            "type": "item",
+            "id": "Q17068750",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "cebwiki": {
+                    "site": "cebwiki",
+                    "title": "Leninskiy Rayon (subdistrito sa Rusya, Murmanskaya Oblast')",
+                    "badges": [
+
+                    ]
+                },
+                "enwiki": {
+                    "site": "enwiki",
+                    "title": "Leninsky Administrative Okrug, Murmansk",
+                    "badges": [
+
+                    ]
+                },
+                "ruwiki": {
+                    "site": "ruwiki",
+                    "title": "Ленинский округ (Мурманск)",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q17080695": {
+            "type": "item",
+            "id": "Q17080695",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "cebwiki": {
+                    "site": "cebwiki",
+                    "title": "Oktyabr'skiy Rayon (subdistrito sa Rusya, Murmanskaya Oblast')",
+                    "badges": [
+
+                    ]
+                },
+                "enwiki": {
+                    "site": "enwiki",
+                    "title": "Oktyabrsky Administrative Okrug, Murmansk",
+                    "badges": [
+
+                    ]
+                },
+                "ruwiki": {
+                    "site": "ruwiki",
+                    "title": "Октябрьский округ (Мурманск)",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q17082747": {
+            "type": "item",
+            "id": "Q17082747",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "cebwiki": {
+                    "site": "cebwiki",
+                    "title": "Pervomayskiy Rayon (subdistrito sa Rusya, Murmanskaya Oblast')",
+                    "badges": [
+
+                    ]
+                },
+                "enwiki": {
+                    "site": "enwiki",
+                    "title": "Pervomaysky Administrative Okrug",
+                    "badges": [
+
+                    ]
+                },
+                "ruwiki": {
+                    "site": "ruwiki",
+                    "title": "Первомайский округ (Мурманск)",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q1091822": {
+            "type": "item",
+            "id": "Q1091822",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "cebwiki": {
+                    "site": "cebwiki",
+                    "title": "Ozero Semënovskoye (lanaw sa Rusya, Murmanskaya Oblast')",
+                    "badges": [
+
+                    ]
+                },
+                "commonswiki": {
+                    "site": "commonswiki",
+                    "title": "Category:Lake Semenovskoye",
+                    "badges": [
+
+                    ]
+                },
+                "cvwiki": {
+                    "site": "cvwiki",
+                    "title": "Семёнов кӳлли",
+                    "badges": [
+
+                    ]
+                },
+                "enwiki": {
+                    "site": "enwiki",
+                    "title": "Lake Semyonovskoye",
+                    "badges": [
+
+                    ]
+                },
+                "frwiki": {
+                    "site": "frwiki",
+                    "title": "Lac Semionovskoïe",
+                    "badges": [
+
+                    ]
+                },
+                "nnwiki": {
+                    "site": "nnwiki",
+                    "title": "Semenovskoje",
+                    "badges": [
+
+                    ]
+                },
+                "ruwiki": {
+                    "site": "ruwiki",
+                    "title": "Семёновское озеро",
+                    "badges": [
+
+                    ]
+                },
+                "zhwiki": {
+                    "site": "zhwiki",
+                    "title": "謝苗諾夫斯科耶湖",
+                    "badges": [
+
+                    ]
+                }
+            }
+        }
+    },
+    "success": 1
+}

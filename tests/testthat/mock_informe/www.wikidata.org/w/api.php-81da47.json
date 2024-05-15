@@ -1,0 +1,679 @@
+{
+    "entities": {
+        "Q56750657": {
+            "type": "item",
+            "id": "Q56750657",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "ermita"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "hermitage church"
+                }
+            }
+        },
+        "Q2175765": {
+            "type": "item",
+            "id": "Q2175765",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "tram stop"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "parada de tramvia"
+                }
+            }
+        },
+        "Q123705": {
+            "type": "item",
+            "id": "Q123705",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "neighborhood"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "barri"
+                }
+            }
+        },
+        "Q55488": {
+            "type": "item",
+            "id": "Q55488",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "estació de ferrocarril"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "railway station"
+                }
+            }
+        },
+        "Q41253": {
+            "type": "item",
+            "id": "Q41253",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "movie theater"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "sala de cinema"
+                }
+            }
+        },
+        "Q131862": {
+            "type": "item",
+            "id": "Q131862",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "vèrtex geodèsic"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "triangulation station"
+                }
+            }
+        },
+        "Q179700": {
+            "type": "item",
+            "id": "Q179700",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "statue"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "estàtua"
+                }
+            }
+        },
+        "Q27686": {
+            "type": "item",
+            "id": "Q27686",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "hotel"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "hotel"
+                }
+            }
+        },
+        "Q11396180": {
+            "type": "item",
+            "id": "Q11396180",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "library branch"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "sucursal d'una biblioteca"
+                }
+            }
+        },
+        "Q28564": {
+            "type": "item",
+            "id": "Q28564",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "public library"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "biblioteca pública"
+                }
+            }
+        },
+        "Q23002037": {
+            "type": "item",
+            "id": "Q23002037",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "public educational institution"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "institució educativa pública"
+                }
+            }
+        },
+        "Q53566453": {
+            "type": "item",
+            "id": "Q53566453",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "centre d'educació infantil i primària"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "center for early childhood and primary education"
+                }
+            }
+        },
+        "Q152081": {
+            "type": "item",
+            "id": "Q152081",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "concentration camp"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "camp de concentració"
+                }
+            }
+        },
+        "Q64606659": {
+            "type": "item",
+            "id": "Q64606659",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "LGBTQ+ association"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "associació LGBT"
+                }
+            }
+        },
+        "Q115769587": {
+            "type": "item",
+            "id": "Q115769587",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "AIDS organization"
+                }
+            }
+        },
+        "Q6881511": {
+            "type": "item",
+            "id": "Q6881511",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "enterprise"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "empresa"
+                }
+            }
+        },
+        "Q12317349": {
+            "type": "item",
+            "id": "Q12317349",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "main library"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "biblioteca central"
+                }
+            }
+        },
+        "Q4284971": {
+            "type": "item",
+            "id": "Q4284971",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "private hospital"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "hospital privat"
+                }
+            }
+        },
+        "Q11315": {
+            "type": "item",
+            "id": "Q11315",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "shopping center"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "centre comercial"
+                }
+            }
+        },
+        "Q3807410": {
+            "type": "item",
+            "id": "Q3807410",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "institut d'educació secundària"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "IES"
+                }
+            }
+        },
+        "Q22698": {
+            "type": "item",
+            "id": "Q22698",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "parc"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "park"
+                }
+            }
+        },
+        "Q15242449": {
+            "type": "item",
+            "id": "Q15242449",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "wastewater treatment plant"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "planta de tractament d'aigües residuals"
+                }
+            }
+        },
+        "Q4989906": {
+            "type": "item",
+            "id": "Q4989906",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "monument"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "monument"
+                }
+            }
+        },
+        "Q20034791": {
+            "type": "item",
+            "id": "Q20034791",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "defensive tower"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "torre de defensa"
+                }
+            }
+        },
+        "Q2577114": {
+            "type": "item",
+            "id": "Q2577114",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "co-cathedral"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "cocatedral"
+                }
+            }
+        },
+        "Q41176": {
+            "type": "item",
+            "id": "Q41176",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "building"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "edifici"
+                }
+            }
+        },
+        "Q56232512": {
+            "type": "item",
+            "id": "Q56232512",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "llotja del peix"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "lonja"
+                }
+            }
+        },
+        "Q1007870": {
+            "type": "item",
+            "id": "Q1007870",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "art gallery"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "galeria d'art"
+                }
+            }
+        },
+        "Q11303": {
+            "type": "item",
+            "id": "Q11303",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "gratacel"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "skyscraper"
+                }
+            }
+        },
+        "Q618123": {
+            "type": "item",
+            "id": "Q618123",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "geographical feature"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "element geogràfic"
+                }
+            }
+        },
+        "Q2460422": {
+            "type": "item",
+            "id": "Q2460422",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "guest house"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "casa d'hostes"
+                }
+            }
+        },
+        "Q16970": {
+            "type": "item",
+            "id": "Q16970",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "església"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "church building"
+                }
+            }
+        },
+        "Q1286517": {
+            "type": "item",
+            "id": "Q1286517",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "natural landscape"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "espai natural"
+                }
+            }
+        },
+        "Q107690225": {
+            "type": "item",
+            "id": "Q107690225",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "paratge natural municipal"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "Paratge natural municipal"
+                }
+            }
+        },
+        "Q8502": {
+            "type": "item",
+            "id": "Q8502",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "mountain"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "muntanya"
+                }
+            }
+        },
+        "Q6448147": {
+            "type": "item",
+            "id": "Q6448147",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "autovía"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "autovia a Espanya"
+                }
+            }
+        },
+        "Q34442": {
+            "type": "item",
+            "id": "Q34442",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "road"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "carretera"
+                }
+            }
+        },
+        "Q728937": {
+            "type": "item",
+            "id": "Q728937",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "railway line"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "línia de ferrocarril"
+                }
+            }
+        },
+        "Q110164298": {
+            "type": "item",
+            "id": "Q110164298",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "Cercanías service"
+                }
+            }
+        },
+        "Q55635949": {
+            "type": "item",
+            "id": "Q55635949",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "tobacco factory"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "fàbrica de tabacs"
+                }
+            }
+        },
+        "Q1329623": {
+            "type": "item",
+            "id": "Q1329623",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "cultural center"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "centre cultural"
+                }
+            }
+        },
+        "Q117531692": {
+            "type": "item",
+            "id": "Q117531692",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "creative residency"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "residència creativa"
+                }
+            }
+        },
+        "Q15141321": {
+            "type": "item",
+            "id": "Q15141321",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "train service"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "servei ferroviari"
+                }
+            }
+        },
+        "Q1128397": {
+            "type": "item",
+            "id": "Q1128397",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "convent"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "convent"
+                }
+            }
+        },
+        "Q811430": {
+            "type": "item",
+            "id": "Q811430",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "fixed construction"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "construcció"
+                }
+            }
+        },
+        "Q475699": {
+            "type": "item",
+            "id": "Q475699",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "Way of St. James"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "camí de Sant Jaume"
+                }
+            }
+        },
+        "Q6113993": {
+            "type": "item",
+            "id": "Q6113993",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "Ruta Xacobea Llevantina"
+                }
+            }
+        },
+        "Q858485": {
+            "type": "item",
+            "id": "Q858485",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "high-speed railway line"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "línia d'alta velocitat"
+                }
+            }
+        },
+        "Q15145593": {
+            "type": "item",
+            "id": "Q15145593",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "tram service"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "línia de tramvia"
+                }
+            }
+        }
+    },
+    "success": 1
+}

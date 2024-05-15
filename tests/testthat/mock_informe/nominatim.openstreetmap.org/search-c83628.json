@@ -1,0 +1,23 @@
+[
+    {
+        "place_id": 254530426,
+        "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+        "osm_type": "relation",
+        "osm_id": 1692438,
+        "lat": "38.4628569",
+        "lon": "-0.5054385323026178",
+        "class": "boundary",
+        "type": "administrative",
+        "place_rank": 12,
+        "importance": 0.40489290257308924,
+        "addresstype": "region",
+        "name": "l'Alacantí",
+        "display_name": "l'Alacantí, Alacant / Alicante, Comunitat Valenciana, España",
+        "boundingbox": [
+            "38.1603885",
+            "38.6508517",
+            "-0.7057571",
+            "-0.3009815"
+        ]
+    }
+]

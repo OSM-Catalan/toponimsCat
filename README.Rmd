@@ -53,8 +53,8 @@ knitr::kable(resum, caption="Número de casos pendents d'afegir l'etiqueta «nam
 * ```informes``` Conté fitxers d’informes amb tots els objectes d’OSM segons el
 filtre i àrea del projecte.
 * ```revisions``` Conté fitxers de revisions amb combinacions úniques de les
-etiquetes «name», «name:ca», «alt_name:ca», «alt_name», «translations»,
-«ca.wikipedia_page» i «wikidata_id».
+etiquetes «name», «name:ca», «alt_name:ca», «alt_name», «noms_wd»,
+«ca.viquipedia» i «wikidata».
 Aquests fitxers són els que cal revisar abans de preparar les edicions que es
 carregaran a OSM. Els fitxers revisats s’han de moure a ```revisions/FET``` i
 són els més valuoso, ja que inclouen la feina humana de revisar tots els casos,
@@ -66,7 +66,7 @@ informes i revisions fetes (fitxers a ```revisions/FET```).
 
 ## Flux de treball i ús de les funcions principals
 
-1. ```generaInforme``` / ```generaInformesPPCC```: retorna ordres per generar informes que es desaran a la carpeta informes.
+1. ```obte_informe``` / ```obte_informesPPCC```: retorna ordres per generar informes que es desaran a la carpeta informes.
 2. ```recompteCasosInformes```: Recompta el nombre de casos i traduccions dels informes. És optatiu, ja que no modifica res.
 3. ```generaRevisions_regexName``` / ```generaRevisions_regexTranslations```: desa els fitxers de revisions a la carpeta revisions i omple els camps «name:ca» i «alt_name:ca» segons regles i expressions regulars.
 4. ```preparaEdicions```: combina informes i revisions per generar els fitxers amb les edidions a la carpeta edicions a punt per carregar a OSM.

@@ -1,0 +1,627 @@
+{
+    "entities": {
+        "Q14753688": {
+            "type": "item",
+            "id": "Q14753688",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "Casa Alberola Alicante, Curio Collection by Hilton"
+                }
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "cawiki": {
+                    "site": "cawiki",
+                    "title": "Casa Alberola Alicante, Curio Collection by Hilton",
+                    "badges": [
+
+                    ]
+                },
+                "commonswiki": {
+                    "site": "commonswiki",
+                    "title": "Category:Casa Alberola",
+                    "badges": [
+
+                    ]
+                },
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Casa Alberola",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q112011848": {
+            "type": "item",
+            "id": "Q112011848",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+
+            }
+        },
+        "Q111117482": {
+            "type": "item",
+            "id": "Q111117482",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+
+            }
+        },
+        "Q90022307": {
+            "type": "item",
+            "id": "Q90022307",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Iglesia de San Gabriel (Alicante)",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q108132630": {
+            "type": "item",
+            "id": "Q108132630",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+
+            }
+        },
+        "Q108134389": {
+            "type": "item",
+            "id": "Q108134389",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+
+            }
+        },
+        "Q108131231": {
+            "type": "item",
+            "id": "Q108131231",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+
+            }
+        },
+        "Q8775142": {
+            "type": "item",
+            "id": "Q8775142",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "Els Plantadets"
+                }
+            },
+            "aliases": {
+                "ca": [
+                    {
+                        "language": "ca",
+                        "value": "Paratge Natural Municipal Els Plantadets"
+                    }
+                ]
+            },
+            "sitelinks": {
+                "cawiki": {
+                    "site": "cawiki",
+                    "title": "Els Plantadets",
+                    "badges": [
+
+                    ]
+                },
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Els Plantadets",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q108422401": {
+            "type": "item",
+            "id": "Q108422401",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+
+            }
+        },
+        "Q6013424": {
+            "type": "item",
+            "id": "Q6013424",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "Bec de l'Àguila"
+                }
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "cawiki": {
+                    "site": "cawiki",
+                    "title": "Bec de l'Àguila",
+                    "badges": [
+
+                    ]
+                },
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Microrreserva Bec del Águila",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q2872964": {
+            "type": "item",
+            "id": "Q2872964",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "A-70"
+                }
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "cawiki": {
+                    "site": "cawiki",
+                    "title": "A-70",
+                    "badges": [
+
+                    ]
+                },
+                "dewiki": {
+                    "site": "dewiki",
+                    "title": "Autovía A-70",
+                    "badges": [
+
+                    ]
+                },
+                "enwiki": {
+                    "site": "enwiki",
+                    "title": "Autovía A-70",
+                    "badges": [
+
+                    ]
+                },
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Autovía de Circunvalación de Alicante",
+                    "badges": [
+
+                    ]
+                },
+                "euwiki": {
+                    "site": "euwiki",
+                    "title": "A-70",
+                    "badges": [
+
+                    ]
+                },
+                "frwiki": {
+                    "site": "frwiki",
+                    "title": "Autoroute A-70 (Espagne)",
+                    "badges": [
+
+                    ]
+                },
+                "lmowiki": {
+                    "site": "lmowiki",
+                    "title": "Autovia A-70",
+                    "badges": [
+
+                    ]
+                },
+                "nlwiki": {
+                    "site": "nlwiki",
+                    "title": "A-70 (Spanje)",
+                    "badges": [
+
+                    ]
+                },
+                "ptwiki": {
+                    "site": "ptwiki",
+                    "title": "A-70",
+                    "badges": [
+
+                    ]
+                },
+                "svwiki": {
+                    "site": "svwiki",
+                    "title": "A-70 (motorväg, Spanien)",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q5987209": {
+            "type": "item",
+            "id": "Q5987209",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "Linia C-3 (Rodalia Alacant-Múrcia)"
+                }
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "commonswiki": {
+                    "site": "commonswiki",
+                    "title": "Category:C-3 line (Cercanías Murcia/Alicante)",
+                    "badges": [
+
+                    ]
+                },
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Línea C-3 (Cercanías Murcia/Alicante)",
+                    "badges": [
+
+                    ]
+                },
+                "euwiki": {
+                    "site": "euwiki",
+                    "title": "C-3 linea (Murtziako eta Alacanteko Renfe Aldiriak)",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q117557725": {
+            "type": "item",
+            "id": "Q117557725",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "Las Cigarreras"
+                }
+            },
+            "aliases": {
+                "ca": [
+                    {
+                        "language": "ca",
+                        "value": "Centre Cultural Las Cigarreras"
+                    }
+                ]
+            },
+            "sitelinks": {
+                "commonswiki": {
+                    "site": "commonswiki",
+                    "title": "Category:Centro Cultural Las Cigarreras",
+                    "badges": [
+
+                    ]
+                },
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Las Cigarreras (Alicante)",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q111388926": {
+            "type": "item",
+            "id": "Q111388926",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+
+            }
+        },
+        "Q5987188": {
+            "type": "item",
+            "id": "Q5987188",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "Línia C-1 (Rodalia Alacant-Múrcia)"
+                }
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "commonswiki": {
+                    "site": "commonswiki",
+                    "title": "Category:C-1 line (Cercanías Murcia/Alicante)",
+                    "badges": [
+
+                    ]
+                },
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Línea C-1 (Cercanías Murcia/Alicante)",
+                    "badges": [
+
+                    ]
+                },
+                "euwiki": {
+                    "site": "euwiki",
+                    "title": "C-1 linea (Murtziako eta Alacanteko Renfe Aldiriak)",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q11915449": {
+            "type": "item",
+            "id": "Q11915449",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "Convent de Canongesses de Sant Agustí"
+                }
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "cawiki": {
+                    "site": "cawiki",
+                    "title": "Convent de Canongesses de Sant Agustí",
+                    "badges": [
+
+                    ]
+                },
+                "commonswiki": {
+                    "site": "commonswiki",
+                    "title": "Category:Convent de les Monges de la Sang, Alacant",
+                    "badges": [
+
+                    ]
+                },
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Convento de la Preciosísima Sangre de Cristo (Alicante)",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q5742386": {
+            "type": "item",
+            "id": "Q5742386",
+            "labels": {
+
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "dewiki": {
+                    "site": "dewiki",
+                    "title": "Ruta de la Lana",
+                    "badges": [
+
+                    ]
+                },
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Camino de Santiago de la Lana",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q909132": {
+            "type": "item",
+            "id": "Q909132",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "LAV Madrid - Castella-la Manxa - País Valencià - Regió de Múrcia"
+                }
+            },
+            "aliases": {
+                "ca": [
+                    {
+                        "language": "ca",
+                        "value": "LAV entre Madrid, Castella - la Manxa, la Comunitat Valenciana i la Regió de Múrcia"
+                    },
+                    {
+                        "language": "ca",
+                        "value": "LAV Madrid a Castella - la Manxa"
+                    },
+                    {
+                        "language": "ca",
+                        "value": "LAV Madrid - Castella-la Manxa - Comunitat Valenciana - Regió de Múrcia"
+                    },
+                    {
+                        "language": "ca",
+                        "value": "LAV Madrid - País Valencià"
+                    },
+                    {
+                        "language": "ca",
+                        "value": "LAV Madrid-Llevant"
+                    },
+                    {
+                        "language": "ca",
+                        "value": "LAV Madrid - Regió de Múrcia"
+                    }
+                ]
+            },
+            "sitelinks": {
+                "cawiki": {
+                    "site": "cawiki",
+                    "title": "LAV Madrid - Castella-la Manxa - País Valencià - Regió de Múrcia",
+                    "badges": [
+
+                    ]
+                },
+                "commonswiki": {
+                    "site": "commonswiki",
+                    "title": "Category:Madrid–Levante high-speed rail line",
+                    "badges": [
+
+                    ]
+                },
+                "dewiki": {
+                    "site": "dewiki",
+                    "title": "Schnellfahrstrecke Madrid–Levante",
+                    "badges": [
+
+                    ]
+                },
+                "enwiki": {
+                    "site": "enwiki",
+                    "title": "Madrid–Levante high-speed rail network",
+                    "badges": [
+
+                    ]
+                },
+                "eowiki": {
+                    "site": "eowiki",
+                    "title": "LAV Madrid-Levante",
+                    "badges": [
+
+                    ]
+                },
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Línea de alta velocidad Madrid-Levante",
+                    "badges": [
+
+                    ]
+                },
+                "euwiki": {
+                    "site": "euwiki",
+                    "title": "Madril-Valentzia burdinbidea",
+                    "badges": [
+
+                    ]
+                },
+                "frwiki": {
+                    "site": "frwiki",
+                    "title": "LGV Madrid - Levant",
+                    "badges": [
+
+                    ]
+                },
+                "glwiki": {
+                    "site": "glwiki",
+                    "title": "Liña de alta velocidade Madrid-Levante",
+                    "badges": [
+
+                    ]
+                },
+                "huwiki": {
+                    "site": "huwiki",
+                    "title": "Madrid–Levante nagysebességű vasútvonal",
+                    "badges": [
+
+                    ]
+                },
+                "jawiki": {
+                    "site": "jawiki",
+                    "title": "マドリード-レバンテ高速鉄道線",
+                    "badges": [
+
+                    ]
+                },
+                "zhwiki": {
+                    "site": "zhwiki",
+                    "title": "馬德里—黎凡特高速鐵路網",
+                    "badges": [
+
+                    ]
+                }
+            }
+        },
+        "Q9025966": {
+            "type": "item",
+            "id": "Q9025966",
+            "labels": {
+                "ca": {
+                    "language": "ca",
+                    "value": "Línia 5 del TRAM Metropolità d'Alacant"
+                }
+            },
+            "aliases": {
+
+            },
+            "sitelinks": {
+                "cawiki": {
+                    "site": "cawiki",
+                    "title": "Línia 5 del TRAM Metropolità d'Alacant",
+                    "badges": [
+
+                    ]
+                },
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Línea 5 (TRAM Metropolitano de Alicante)",
+                    "badges": [
+
+                    ]
+                },
+                "euwiki": {
+                    "site": "euwiki",
+                    "title": "5. linea (TRAM Alacant)",
+                    "badges": [
+
+                    ]
+                }
+            }
+        }
+    },
+    "success": 1
+}
