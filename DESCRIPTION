@@ -11,21 +11,24 @@ Description: Genera ordres per crear informes d'objectes d'OpenStreetMap
 License: GPL-3
 URL: https://github.com/OSM-Catalan/toponimsCat
 BugReports: https://github.com/OSM-Catalan/toponimsCat/issues
-Depends:
+Depends: 
     R (>= 3.5)
 Imports: 
     data.table,
     httr2,
+    osmapiR,
     osmdata,
     pbapply
 Suggests: 
     httptest2,
     hunspell,
     LanguageToolR (>= 0.1.3),
-    testthat (>= 3.0.0)
-Remotes:  
+    testthat (>= 3.0.0),
+    xml2
+Remotes: 
     nevrome/LanguageToolR,
     OSM-Catalan/icgc.osm
+    jmaspons/osmapiR
 Config/testthat/edition: 3
 Encoding: UTF-8
 LazyData: true

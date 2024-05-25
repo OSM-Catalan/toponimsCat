@@ -66,7 +66,7 @@ test_that("genera_revisions_regex_name funciona", {
     informes = informes, cerca = "([Cc])alle ", substitueix = "\\1arrer "
   )
   expect_true(file.exists("projectes/calle-carrer/revisions/revisio-Calle_carrer-l'Alacantí.RData"))
-  file.remove("projectes/calle-carrer/revisions/revisio-Calle_carrer-l'Alacantí.RData")
+  # file.remove("projectes/calle-carrer/revisions/revisio-Calle_carrer-l'Alacantí.RData") # Per test-edicio.R
 
   lapply(revisions, expect_type, type = "list")
   lapply(revisions, lapply, expect_s3_class, class = "data.frame")
@@ -113,7 +113,7 @@ test_that("genera_revisions_regex_nomsWD funciona", {
     informes = informes, cerca = " \\(.+\\)", substitueix = "", ometSenseTraduccions = FALSE
   )
   expect_true(file.exists("projectes/Rússia/revisions/revisio-Murmansk_wikidata.tsv"))
-  file.remove("projectes/Rússia/revisions/revisio-Murmansk_wikidata.tsv")
+  # file.remove("projectes/Rússia/revisions/revisio-Murmansk_wikidata.tsv") # Per test-edicio.R
 
   lapply(revisions, expect_type, type = "list")
   lapply(revisions, lapply, expect_s3_class, class = "data.frame")
