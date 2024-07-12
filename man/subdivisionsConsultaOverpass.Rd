@@ -28,12 +28,16 @@ Genera consultes per preparar taules amb les subdivisions d'àrees per \href{htt
 Utilitzat per dividir països en àrees més manejables i per evitar conjunts de canvis massa grans a l'hora d'afegir exotopònims.
 }
 \examples{
-consulta<- subdivisionsConsultaOverpass(area="['name:ca'='Rússia'][admin_level=2]",
-   filtreSubdivisions="[admin_level=4]",
-   etiquetes=c("name", "'name:ca'", "'wikidata'", "admin_level"))
+consulta <- subdivisionsConsultaOverpass(
+  area = "['name:ca'='Rússia'][admin_level=2]",
+  filtreSubdivisions = "[admin_level=4]",
+  etiquetes = c("name", "'name:ca'", "'wikidata'", "admin_level")
+)
 cat(consulta)
-consulta<- subdivisionsConsultaOverpass(area="['name:ca'='Rússia'][admin_level=2]",
-   filtreSubdivisions="[admin_level=4]",
-   format="json")
+consulta <- subdivisionsConsultaOverpass(
+  area = "['name:ca'='Rússia'][admin_level=2]",
+  filtreSubdivisions = "[admin_level=4]",
+  format = "json"
+)
 cat(consulta)
 }

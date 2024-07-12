@@ -2,7 +2,7 @@
 % Please edit documentation in R/edicio.R
 \name{actualitzaInformesCarregats}
 \alias{actualitzaInformesCarregats}
-\title{Actualitza els informes de les edicions carregades}
+\title{DEPRECATED: Actualitza els informes de les edicions carregades}
 \usage{
 actualitzaInformesCarregats(
   arrelProjecte,

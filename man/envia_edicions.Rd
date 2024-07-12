@@ -37,5 +37,5 @@ Camins dels informes actualitzats.
 }
 \description{
 Arxiva els fitxers d'edicions a `$arrelProjecte/edicions/FET` i actualitza els informes eliminant els casos ja
-carregats o eliminant els informes desactualitzats (arxivatz a ``$arrelProjecte/informes/ANTIC``).
+carregats o eliminant els informes desactualitzats (arxivats a ``$arrelProjecte/informes/ANTIC``).
 }

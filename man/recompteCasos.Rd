@@ -51,3 +51,6 @@ Compta el nombre de casos i casos únics, si tenen informació de wikidata o no
 i altres detalls. Per les edicions, la informació s'agrega a nivell d'informe,
 és a dir, si hi ha diversos fitxers d'edicions per un mateix informe, els suma.
 }
+\details{
+S'assumeix que l'ordre dels infomres de dades `dades` coincideix amb les files de `divisions`.
+}

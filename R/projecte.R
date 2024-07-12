@@ -73,23 +73,29 @@ obte_camins <- function(nomFitxer, arrelProjecte,
 #' @export
 #'
 #' @examples
-#' consulta<- subdivisionsConsultaOverpass(area="['name:ca'='Rússia'][admin_level=2]",
-#'    filtreSubdivisions="[admin_level=4]",
-#'    etiquetes=c("name", "'name:ca'", "'wikidata'", "admin_level"))
+#' consulta <- subdivisionsConsultaOverpass(
+#'   area = "['name:ca'='Rússia'][admin_level=2]",
+#'   filtreSubdivisions = "[admin_level=4]",
+#'   etiquetes = c("name", "'name:ca'", "'wikidata'", "admin_level")
+#' )
 #' cat(consulta)
-#' consulta<- subdivisionsConsultaOverpass(area="['name:ca'='Rússia'][admin_level=2]",
-#'    filtreSubdivisions="[admin_level=4]",
-#'    format="json")
+#' consulta <- subdivisionsConsultaOverpass(
+#'   area = "['name:ca'='Rússia'][admin_level=2]",
+#'   filtreSubdivisions = "[admin_level=4]",
+#'   format = "json"
+#' )
 #' cat(consulta)
-subdivisionsConsultaOverpass<- function(area, filtreSubdivisions, etiquetes=c("name", "'name:ca'", "wikidata"), format=c("csv", "json")){
-  format<- match.arg(format)
-  filtres<- paste0("area", area, "; relation(area)", filtreSubdivisions)
-  if (format == "csv"){
+subdivisionsConsultaOverpass <- function(area, filtreSubdivisions, etiquetes = c("name", "'name:ca'", "wikidata"), format = c("csv", "json")) {
+  format <- match.arg(format)
+  filtres <- paste0("area", area, "; relation(area)", filtreSubdivisions)
+  if (format == "csv") {
     # https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL#CSV_output_mode
-    q<- paste0("[out:csv(::type, ::id, ", paste(etiquetes, collapse=", "), "; true; ';')][timeout:1000]; ",
-               filtres, "; out;")
-  } else if (format == "json"){
-    q<- paste0("[out:json][timeout:1000]; ", filtres, "; out body; >; out skel qt;")
+    q <- paste0(
+      "[out:csv(::type, ::id, ", paste(etiquetes, collapse = ", "), "; true; ';')][timeout:1000]; ",
+      filtres, "; out;"
+    )
+  } else if (format == "json") {
+    q <- paste0("[out:json][timeout:1000]; ", filtres, "; out body; >; out skel qt;")
   }
 
   return(q)
@@ -109,6 +115,9 @@ subdivisionsConsultaOverpass<- function(area, filtreSubdivisions, etiquetes=c("n
 #' @param informes vector de caràcters amb els camins a fitxers d'informes.
 #' @param edicions vector de caràcters amb els camins a fitxers d'edicions.
 #' @param dades un \code{data.frame} amb una columna anomenada \code{informe} (o \code{edicio} per la funció \code{recompteCasosEdicions}) amb els camins als fitxers «.tsv». Si s'especifica, s'ignoren la resta de paràmetres.
+#'
+#' @details
+#' S'assumeix que l'ordre dels infomres de dades `dades` coincideix amb les files de `divisions`.
 #'
 #' @return Una taula amb files per cada informe i amb les columnes següents:
 #'   \describe{

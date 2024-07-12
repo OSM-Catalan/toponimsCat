@@ -179,10 +179,10 @@ prepara_edicio <- function(informe, revisio.casosFETS, format_osmapir = "R") {
 #' Envia les edicions i actualitza els informes de les edicions carregades
 #'
 #' Arxiva els fitxers d'edicions a `$arrelProjecte/edicions/FET` i actualitza els informes eliminant els casos ja
-#' carregats o eliminant els informes desactualitzats (arxivatz a ``$arrelProjecte/informes/ANTIC``).
+#' carregats o eliminant els informes desactualitzats (arxivats a ``$arrelProjecte/informes/ANTIC``).
 #'
 #' @param edicions Una llista de taules de canvis o els camins de fitxers que els continguin (`.osc` o `.RData`).
-#' @param arrelProjecte  camí a l'arrel del projecte. La carpeta de destinació serà la subcarpeta \code{edicions} i
+#' @param arrelProjecte  camí a l'arrel del projecte. La carpeta de destinació serà la subcarpeta `edicions` i
 #'   buscarà els informes i revisions a partir d'aquest camí.
 #' @param comentaris Vector de comentaris corresponent a cada conjunt de canvis.
 #' @param hashtags Etiquetes dels conjunts de canvis.
@@ -316,6 +316,8 @@ actualitza_informe <- function(fitxer_inf, edicio) {
   return(informe)
 }
 
+
+#' DEPRECATED: Actualitza els informes de les edicions carregades
 #'
 #' Useu la funció després de carregar a OSM els fitxers d'edicions. Arxiva els fitxers d'edicions a «$arrelProjecte/edicions/FET» i
 #'  actualitza els informes eliminant els casos ja editats o eliminant els fitxers desactualitzats.
