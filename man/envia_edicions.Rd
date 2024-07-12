@@ -10,13 +10,14 @@ envia_edicions(
   comentaris,
   hashtags = "#toponimsCat",
   ...,
-  esborraInformesDesactualitzats = FALSE
+  esborraInformesDesactualitzats = FALSE,
+  xerraire = FALSE
 )
 }
 \arguments{
 \item{edicions}{Una llista de taules de canvis o els camins de fitxers que els continguin (`.osc` o `.RData`).}
 
-\item{arrelProjecte}{camí a l'arrel del projecte. La carpeta de destinació serà la subcarpeta \code{edicions} i
+\item{arrelProjecte}{camí a l'arrel del projecte. La carpeta de destinació serà la subcarpeta `edicions` i
 buscarà els informes i revisions a partir d'aquest camí.}
 
 \item{comentaris}{Vector de comentaris corresponent a cada conjunt de canvis.}
@@ -27,8 +28,9 @@ buscarà els informes i revisions a partir d'aquest camí.}
 (p.ex. `source`).}
 
 \item{esborraInformesDesactualitzats}{si és `TRUE`, elimina els informes desactualitzats per tornar-los a generar de
-  nou.
-Altrament, elimina els objectes dels informes que han estat actualitzats.}
+nou. Altrament, elimina els objectes dels informes que han estat actualitzats.}
+
+\item{xerraire}{Si és `TRUE`, mostra missatges amb el conjunt de canvis carregat i comentari associat.}
 }
 \value{
 Camins dels informes actualitzats.

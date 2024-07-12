@@ -124,6 +124,18 @@ prepara_edicions.list <- function(informes, revisions, format = "RData") {
     "osc"
   }
 
+  informes <- informes[sapply(informes, nrow) > 0]
+  obj_uid <- lapply(informes, function(x) paste(x$osm_type, x$osm_id))
+  obj_uid_UL <- unlist(obj_uid)
+  dup <- obj_uid_UL[duplicated(obj_uid_UL)]
+
+  if (length(dup) > 0) {
+    dup_L <- split(dup, gsub("[0-9]+$", "", names(dup)))
+    informes[names(dup_L)] <- mapply(function(informe, uid, dup) {
+      informe[!uid %in% dup, ]
+    }, informe = informes[names(dup_L)], uid = obj_uid[names(dup_L)], dup = dup_L, SIMPLIFY = FALSE)
+  }
+
   osmchas <- pbapply::pblapply(informes, function(x) {
     prepara_edicio(informe = x, revisio.casosFETS = revisions, format_osmapir = format_osmapir)
   })
@@ -177,15 +189,16 @@ prepara_edicio <- function(informe, revisio.casosFETS, format_osmapir = "R") {
 #' @param ... Paràmetres per [osmapiR::osm_create_changeset()]. Permet afegir etiquetes als conjunts de canvis
 #'   (p.ex. `source`).
 #' @param esborraInformesDesactualitzats si és `TRUE`, elimina els informes desactualitzats per tornar-los a generar de
-#'   nou.
-#' Altrament, elimina els objectes dels informes que han estat actualitzats.
+#'   nou. Altrament, elimina els objectes dels informes que han estat actualitzats.
+#' @param xerraire Si és `TRUE`, mostra missatges amb el conjunt de canvis carregat i comentari associat.
 #'
 #' @return Camins dels informes actualitzats.
 #' @export
 #
 # @examples
 envia_edicions <- function(edicions, arrelProjecte,
-                           comentaris, hashtags = "#toponimsCat", ..., esborraInformesDesactualitzats = FALSE) {
+                           comentaris, hashtags = "#toponimsCat", ...,
+                           esborraInformesDesactualitzats = FALSE, xerraire = FALSE) {
   UseMethod("envia_edicions")
 }
 
@@ -193,7 +206,7 @@ envia_edicions <- function(edicions, arrelProjecte,
 #' @export
 envia_edicions.character <- function(edicions, arrelProjecte,
                                      comentaris, hashtags = "#toponimsCat", ...,
-                                     esborraInformesDesactualitzats = FALSE) {
+                                     esborraInformesDesactualitzats = FALSE, xerraire = FALSE) {
   camins <- obte_camins(nomFitxer = edicions, arrelProjecte = arrelProjecte, tipus = "edicions")
   edicions <- lapply(camins$camins, carrega_edicio)
   if (missing(comentaris)) {
@@ -206,7 +219,7 @@ envia_edicions.character <- function(edicions, arrelProjecte,
   envia_edicions(
     edicions = edicions, arrelProjecte = arrelProjecte,
     comentaris = comentaris, hashtags = "#toponimsCat", ...,
-    esborraInformesDesactualitzats = esborraInformesDesactualitzats
+    esborraInformesDesactualitzats = esborraInformesDesactualitzats, xerraire = xerraire
   )
 }
 
@@ -214,14 +227,14 @@ envia_edicions.character <- function(edicions, arrelProjecte,
 #' @export
 envia_edicions.list <- function(edicions, arrelProjecte,
                                 comentaris, hashtags = "#toponimsCat", ...,
-                                esborraInformesDesactualitzats = FALSE) {
+                                esborraInformesDesactualitzats = FALSE, xerraire = FALSE) {
   camins_ed <- obte_camins(nomFitxer = names(edicions), arrelProjecte = arrelProjecte, tipus = "edicions")
   fitxers_inf <- file.path(camins_ed$arrelProjecte, "informes", gsub("^edicio-", "informe-", camins_ed$nomFitxer))
   fitxers_inf <- lapply(fitxers_inf, function(x) {
     if (file.exists(x)) {
       return(x)
     }
-    fitxer <- grep(gsub("\\.[A-Za-z0-9]+$", ".", basename(x)), dir(dirname(x)), value = TRUE)
+    fitxer <- grep(gsub("\\.[A-Za-z0-9]+$", ".", basename(x)), dir(dirname(x), full.names = TRUE), value = TRUE)
     if (length(fitxer) == 0) {
       fitxer <- NA_character_
     }
@@ -237,9 +250,9 @@ envia_edicions.list <- function(edicions, arrelProjecte,
 
   dir.create(file.path(camins_ed$arrelProjecte, "edicions", "FET"), showWarnings = FALSE, recursive = TRUE)
 
-  mapply(
+  id_conjunts_de_canvis <- pbapply::pbmapply(
     function(edicio, fitxer_ed, fitxer_inf, nom_edicio, comentari) {
-      envia_edicio(edicio, comentari = comentari, hashtags = hashtags, ...)
+      id_chset <- envia_edicio(edicio, comentari = comentari, hashtags = hashtags, ..., xerraire = xerraire)
 
       fitxer_ed_arxivat <- file.path(
         dirname(fitxer_ed), "FET",
@@ -252,22 +265,24 @@ envia_edicions.list <- function(edicions, arrelProjecte,
       }
       file.rename(fitxer_ed, fitxer_ed_arxivat)
 
-      out <- paste("INF NO TROBAT:", nom_edicio)
+      msg <- paste("INF NO TROBAT:", nom_edicio)
       if (!all(is.na(fitxer_inf))) {
         if (esborraInformesDesactualitzats) {
           file.remove(fitxer_inf)
-          out <- paste("ELIMINAT:", fitxers_inf)
+          msg <- paste("ELIMINAT:", fitxers_inf)
         } else {
           actualitza_informe(fitxer_inf = fitxer_inf, edicio = edicio)
-          out <- paste("ACTUALITZAT:", fitxers_inf)
+          msg <- paste("ACTUALITZAT:", fitxers_inf)
         }
       }
-      out
+      if (xerraire) message(msg)
+      id_chset
     },
     edicio = edicions, fitxer_ed = camins_ed$camins,
     fitxer_inf = fitxers_inf, nom_edicio = names(edicions),
-    comentari = comentaris
+    comentari = comentaris, SIMPLIFY = FALSE
   )
+  return(id_conjunts_de_canvis)
 }
 
 
