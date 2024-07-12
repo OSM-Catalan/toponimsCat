@@ -286,10 +286,28 @@ envia_edicions.list <- function(edicions, arrelProjecte,
 }
 
 
-envia_edicio <- function(edicio, comentari, hashtags = "#toponimsCat", ...) {
-  changeset_id <- osmapiR::osm_create_changeset(comment = comentari, hashtags = hashtags, ...)
-  osmapiR::osm_diff_upload_changeset(changeset_id = changeset_id, osmcha = edicio)
-  osmapiR::osm_close_changeset(changeset_id = changeset_id)
+envia_edicio <- function(edicio, comentari, hashtags = "#toponimsCat", max_n = 200, xerraire = FALSE, ...) {
+  if (nrow(edicio) <= max_n) {
+    id_conjunt_de_canvi <- osmapiR::osm_create_changeset(comment = comentari, hashtags = hashtags, ...)
+    osmapiR::osm_diff_upload_changeset(changeset_id = id_conjunt_de_canvi, osmcha = edicio)
+    # TODO: try(osmapiR::osm_diff_upload_changeset(changeset_id = id_conjunt_de_canvi, osmcha = edicio))
+    osmapiR::osm_close_changeset(changeset_id = id_conjunt_de_canvi)
+    if (xerraire) message("https://osm.org/changeset/", id_conjunt_de_canvi, " FET!\t", comentari)
+  } else {
+    conjunts <- seq(1, nrow(edicio), by = max_n)
+    id_conjunt_de_canvi <- integer(length(conjunts))
+    for (i in seq_along(conjunts)) {
+      if (length(conjunts) > 1) {
+        comentari <- paste0(comentari, " Part ", i)
+      }
+      rang <- conjunts[i]:min(conjunts[i] + max_n - 1, nrow(edicio))
+      id_conjunt_de_canvi[i] <- envia_edicio(
+        edicio = edicio[rang, ], comentari = comentari, hashtags = hashtags, man_n = max_n, ...
+      )
+    }
+  }
+
+  return(id_conjunt_de_canvi)
 }
 
 
