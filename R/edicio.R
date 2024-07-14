@@ -129,6 +129,7 @@ prepara_edicions.list <- function(informes, revisions, format = "RData") {
   obj_uid_UL <- unlist(obj_uid)
   dup <- obj_uid_UL[duplicated(obj_uid_UL)]
 
+  # Elimina objectes duplicats en més d'un informe per evitar errors de pujada
   if (length(dup) > 0) {
     dup_L <- split(dup, gsub("[0-9]+$", "", names(dup)))
     informes[names(dup_L)] <- mapply(function(informe, uid, dup) {
@@ -159,6 +160,23 @@ prepara_edicio <- function(informe, revisio.casosFETS, format_osmapir = "R") {
   })
   informe <- data.frame(informe, check.names = FALSE)
   edicio <- merge(informe[, setdiff(names(informe), c("name:ca", "alt_name:ca"))], revisio.casosFETS)
+  ordCols <- intersect(
+    c(
+      "osm_type", "osm_id", "name", "name:ca", "alt_name", "alt_name:ca",
+      "noms_wd", "ca.viquipedia", "wikidata_tipus", "wikidata"
+    ),
+    names(edicio)
+  )
+  # ordCols <- c(ordCols, setdiff(names(edicio), ordCols))
+  edicio <- edicio[, ordCols]
+
+  uid <- paste(edicio$osm_type, edicio$osm_id)
+  dup <- unique(uid[duplicated(uid)])
+  if (length(dup)) {
+    dup_df <- paste(capture.output(print(edicio[uid %in% dup, ])), collapse = "\n")
+    warning("Hi ha revisions amb valors contradictoris per ", length(dup), " objectes que es descartaran:\n", dup_df)
+    edicio <- edicio[!uid %in% dup, ]
+  }
   ordCols <- intersect(
     c(
       "osm_type", "osm_id", "name", "name:ca", "alt_name", "alt_name:ca",
