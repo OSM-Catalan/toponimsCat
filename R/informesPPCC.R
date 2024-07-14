@@ -31,7 +31,7 @@ obte_informesPPCC <- function(arrelProjecte, etiquetes = filtres_osm_cat(), clau
   format <- match.arg(format)
 
   if (!"informe" %in% names(divisions)) {
-    divisions$informe <- cami_informePPCC(
+    divisions$informe <- cami_fitxerPPCC(
       divisions = divisions, arrelProjecte = arrelProjecte, sufixFitxers = sufixFitxers, format = format
     )
   }
@@ -81,22 +81,44 @@ obte_informesPPCC <- function(arrelProjecte, etiquetes = filtres_osm_cat(), clau
 }
 
 
-cami_informePPCC <- function(divisions, arrelProjecte, sufixFitxers, format = c("RData", "tsv")) {
-  if ("admin_level" %in% names(divisions)) {
-    fitxerInforme <- paste0("informe-", divisions$regio, "-", divisions$`name:ca`, sufixFitxers)
+#' Camins de fitxers d'un projecte de PPCC
+#'
+#' @param divisions Un data frame com `municipis`, `comarques`, `territoris` o `PPCC`
+#' @param arrelProjecte Camí a l'arrel del projecte.
+#' @param tipus description
+#' @param sufixFitxers Text afegir com a sufix al nom dels fitxers dels informes (`arrelProjecte/informe-Regio-comarca$sufixFitxer$.tsv`).
+#' @param format Com es desaran els resultats del projecte. Per defecte, "RData".
+#'
+#' @return
+#' @export
+#'
+#' @examples
+#' cami_fitxerPPCC(divisions = comarques, arrelProjecte = "exemple", sufixFitxers = "_name:ca")
+cami_fitxerPPCC <- function(divisions, arrelProjecte, tipus = c("informe", "revisio", "edicio"), sufixFitxers, format = c("RData", "tsv")) {
+  tipus <- match.arg(tipus)
+  format <- match.arg(format)
+  if (missing(sufixFitxers)) sufixFitxers <- ""
+
+  if (all(c("admin_level", "regio") %in% names(divisions))) {
+    fitxerInforme <- paste0(tipus, "-", divisions$regio, "-", divisions$`name:ca`, sufixFitxers)
   } else if ("regio" %in% names(divisions)) { ## territoris dels Països Catalans
-    fitxerInforme <- paste0("informe-", divisions$regio, sufixFitxers)
+    fitxerInforme <- paste0(tipus, "-", divisions$regio, sufixFitxers)
   } else if (nrow(divisions) == 1) { # PPCC
-    fitxerInforme <- paste0("informe-PPCC", sufixFitxers)
+    fitxerInforme <- paste0(tipus, "-PPCC", sufixFitxers)
   } else {
     warning("Divisió desconeguda. Corregiu «R/informesPPCC.R».")
-    fitxerInforme <- paste0("informe-", divisions$`name:ca`, sufixFitxers)
+    fitxerInforme <- paste0(tipus, "-", divisions$`name:ca`, sufixFitxers)
   }
 
+  carpeta <- switch (tipus,
+    informe = "informes",
+    revisio = "revisions",
+    edicio = "edicions"
+  )
   if (missing(arrelProjecte)) {
-    camins <- file.path("informes", paste0(fitxerInforme, ".", format))
+    camins <- file.path(carpeta, paste0(fitxerInforme, ".", format))
   } else {
-    camins <- file.path(arrelProjecte, "informes", paste0(fitxerInforme, ".", format))
+    camins <- file.path(arrelProjecte, carpeta, paste0(fitxerInforme, ".", format))
   }
 
   return(camins)
