@@ -314,13 +314,14 @@ envia_edicio <- function(edicio, comentari, hashtags = "#toponimsCat", max_n = 2
   } else {
     conjunts <- seq(1, nrow(edicio), by = max_n)
     id_conjunt_de_canvi <- integer(length(conjunts))
+    comentari_i <- comentari
     for (i in seq_along(conjunts)) {
       if (length(conjunts) > 1) {
-        comentari <- paste0(comentari, " Part ", i)
+        comentari_i <- paste0(comentari, " (part ", i, " / ", length(conjunts), ")")
       }
       rang <- conjunts[i]:min(conjunts[i] + max_n - 1, nrow(edicio))
       id_conjunt_de_canvi[i] <- envia_edicio(
-        edicio = edicio[rang, ], comentari = comentari, hashtags = hashtags, man_n = max_n, ...
+        edicio = edicio[rang, ], comentari = comentari_i, hashtags = hashtags, man_n = max_n, ...
       )
     }
   }
