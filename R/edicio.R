@@ -287,10 +287,10 @@ envia_edicions.list <- function(edicions, arrelProjecte,
       if (!all(is.na(fitxer_inf))) {
         if (esborraInformesDesactualitzats) {
           file.remove(fitxer_inf)
-          msg <- paste("ELIMINAT:", fitxers_inf)
+          msg <- paste("ELIMINAT:", fitxer_inf)
         } else {
           actualitza_informe(fitxer_inf = fitxer_inf, edicio = edicio)
-          msg <- paste("ACTUALITZAT:", fitxers_inf)
+          msg <- paste("ACTUALITZAT:", fitxer_inf)
         }
       }
       if (xerraire) message(msg)
