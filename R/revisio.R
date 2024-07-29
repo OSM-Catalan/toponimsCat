@@ -4,8 +4,7 @@
 #' Genera fitxers de revisió d'informes
 #'
 #' Els fitxers de revisió d'informes contenen els casos a revisar amb combinacions úniques de
-#' les etiquetes `name`, `name:ca`, `alt_name:ca`, `alt_name`,
-#' `noms_wd`, `ca.viquipedia` i `wikidata`.
+#' les etiquetes `name`, `name:ca`, `alt_name:ca`, `alt_name`, `noms_wd`, `ca.viquipedia` i `wikidata`.
 #' Cal corregir els casos de `name:ca` i `alt_name:ca` incorrectes i esborrar-los o deixar-los en blanc si no és clar. Un cop revisat,
 #' moveu els fitxers de revisions a «arrelProjecte/revisio/FET/» i prepareu les edicions a OSM amb la funció [preparaEdicions()].
 #'
@@ -66,7 +65,7 @@ genera_revisions.character <- function(informes, arrelProjecte, filtres,
   names(revisions) <- nomRevisions
 
   dir.create(file.path(camins$arrelProjecte, "revisions", "FET"), showWarnings = FALSE, recursive = TRUE)
-  # TODO: Variable per indicar si escriure o no (per crides des de genera_revisions_regex_*)
+  # TODO: Variable per indicar si escriure o no (per crides des de genera_revisions_regex_*) + format
   # mapply(function(revisio, fitxer) {
   #   if (nrow(revisio) > 0) {
   #     if (!revisioUnificada) {

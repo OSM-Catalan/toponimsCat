@@ -6,7 +6,7 @@
 #' @param etiquetes filtre d'etiquetes d'objectes d'OSM per la consulta d'Overpass seguint el format del paràmetre `features` d'[osmdata::add_osm_features()]. Combinació `O`.
 #' @param claus filtre de claus d'objectes d'OSM per la consulta d'Overpass seguint el format del paràmetre `key` d'[osmdata::add_osm_feature()]. Combinació `I`.
 #' @param actualitzaInformes si és `TRUE` i ja existeix el fitxer d'informe, el mou a la carpeta «ANTIC».
-#' @param sufixFitxers text afegir com a sufix al nom dels fitxers dels informes («arrelProjecte/informe-Regio-comarca$sufixFitxer$.tsv»).
+#' @param sufixFitxers text afegir com a sufix al nom dels fitxers dels informes (`arrelProjecte/informe-Regio-comarca$sufixFitxer$.tsv`).
 #' @param divisions `data.frame` amb informació dels [PPCC], \code{\link{territoris}}, \code{\link{comarques}} o \code{\link{municipis}}. Per defecte, comarques.
 #' @param consulta_wikidata Si és `TRUE`, afegeix les columnes `noms_wd`, `ca.viquipedia`, `wikidata_tipus` amb informació extreta de Wikidata pels objectes que tenen etiqueta wikidata.
 #' @param coordenades Si és `TRUE`, els informes inclouen les columnes `latitude` i `longitude`. Per defecte, `FALSE`.

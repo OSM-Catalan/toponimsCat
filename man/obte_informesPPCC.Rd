@@ -28,7 +28,7 @@ obte_informesPPCC(
 
 \item{actualitzaInformes}{si és `TRUE` i ja existeix el fitxer d'informe, el mou a la carpeta «ANTIC».}
 
-\item{sufixFitxers}{text afegir com a sufix al nom dels fitxers dels informes («arrelProjecte/informe-Regio-comarca$sufixFitxer$.tsv»).}
+\item{sufixFitxers}{text afegir com a sufix al nom dels fitxers dels informes (`arrelProjecte/informe-Regio-comarca$sufixFitxer$.tsv`).}
 
 \item{divisions}{`data.frame` amb informació dels [PPCC], \code{\link{territoris}}, \code{\link{comarques}} o \code{\link{municipis}}. Per defecte, comarques.}
 
